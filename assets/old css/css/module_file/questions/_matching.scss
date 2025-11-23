@@ -1,0 +1,417 @@
+body {
+    .general {
+        &#Connectimgs {
+            .head {
+                .title {
+                    background-image: url("../images/titles/title-04.png");
+                }
+            }
+
+
+
+            .container {
+                p {
+                    font-size: 2.8vw;
+                }
+
+                .svg-dist {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    pointer-events: none;
+                    display: flex;
+                    z-index: 15;
+                }
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                }
+
+                svg line {
+                    stroke:
+                        #007f80 !important;
+                    stroke-width: 5
+                }
+
+                .data {
+                    width: 100%;
+                    position: relative;
+                    align-items: flex-start;
+                    overflow: hidden;
+
+                    .columnLeftimg,
+                    .columnLeft {
+                        margin-top: 8% !important;
+                    }
+
+
+                    .columnRight,
+                    .columnLeftimg {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-direction: row;
+
+                        .row-text {
+                            position: relative;
+                            width: calc(100%/7);
+                            flex-grow: 1;
+                            height: 30vw !important;
+                            flex-direction: row;
+                            border-radius: 5vw;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            background-color: #eeeef7;
+                            margin: 3.5vw 0;
+                            margin-left: 1% !important;
+
+                            .pragraph {
+                                width: calc(100% - 3vw);
+                                height: 100%;
+                                width: 100%;
+                                margin-right: 2%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                flex-direction: column;
+                                font-family: coconnextarabic;
+                                font-size: 3vw;
+                                padding-top: 4% !important;
+
+                                .icon-index {
+                                    height: 5vw;
+                                    width: 5vw;
+                                    background-repeat: no-repeat;
+                                    background-size: 100% 100%;
+                                    display: flex;
+                                    justify-content: center !important;
+                                    align-items: center;
+                                    font-size: 3vw;
+                                    margin-bottom: 2% !important;
+                                    background-position: center;
+                                    color: white;
+                                    background-image: url(../images/icons/icon-04.png);
+                                }
+
+                                .image {
+                                    width: 65% !important;
+                                    height: 50% !important;
+                                    margin-bottom: 10% !important;
+                                    margin-top: 10% !important;
+                                }
+                            }
+
+                            .cointDrag {
+                                display: block;
+                                align-items: center;
+
+                                width: 4vw;
+                                height: 4vw;
+                                border-radius: 50%;
+                                position: relative;
+                                background-color: #4d4d4d;
+                                z-index: 15;
+                                cursor: pointer;
+
+                            }
+
+                            .point {
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                                background-color: transparent;
+
+                                &.correct {
+                                    display: none;
+                                }
+                            }
+
+
+                            .ui-droppable-disabled {
+                                pointer-events: none;
+                            }
+
+                        }
+
+                        .correct-parents {
+                            border: 0.1vw solid #007f80 !important;
+                            background-color: #007f80 !important;
+                            z-index: 15;
+                        }
+
+                    }
+
+                    .columnLeft {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        flex-direction: row;
+
+                        .row-text {
+                            position: relative;
+                            width: calc(100%/7);
+                            flex-grow: 1;
+                            min-height: 22vw !important;
+                            flex-direction: row;
+                            border-radius: 5vw;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            background-color: #eeeef7;
+
+                            margin-left: 1% !important;
+
+                            .pragraph {
+                                width: calc(100% - 3vw);
+                                height: 100%;
+                                width: 100%;
+                                margin-right: 2%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                flex-direction: column;
+                                font-family: coconnextarabic;
+                                font-size: 3vw;
+                                padding-top: 4% !important;
+
+                                .text {
+                                    text-align: center;
+                                    font-size: 3vw;
+                                    padding: 1vw;
+                                }
+
+
+
+                            }
+                        }
+
+                        .cointDrag {
+                            display: block;
+                            align-items: center;
+                            width: 4vw;
+                            height: 4vw;
+                            border-radius: 50%;
+                            position: relative;
+                            background-color: #4d4d4d;
+                            z-index: 15;
+                            cursor: pointer;
+
+                            &.correct-parents {
+                                border: 0.1vw solid #007f80 !important;
+                                background-color: #007f80 !important;
+                                z-index: 15;
+                            }
+
+                            .point {
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                                background-color: transparent;
+
+                                &.correct-parents {
+                                    border: 0.1vw solid #007f80 !important;
+                                    background-color: #007f80 !important;
+                                    z-index: 15;
+                                }
+
+
+                                &.correct {
+                                    display: none;
+                                }
+                            }
+
+
+                            .ui-droppable-disabled {
+                                pointer-events: none;
+                            }
+
+
+
+                        }
+
+
+                    }
+                }
+            }
+
+
+        }
+
+        &#Conect {
+            .head {
+                .title {
+                    background-image: url("../images/titles/title-04.png");
+                }
+            }
+
+            .container {
+                p {
+                    font-size: 2.8vw;
+                }
+              
+
+                .icons-data {
+                    width: 100% !important;
+                    height: 6vh !important;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 2%;
+                    margin-top: 10%;
+
+                    .right-icon,
+                    .left-icon {
+                        width: 45%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center !important;
+
+                        div {
+                            margin: 0;
+                            padding: 0;
+                            width: 15vw;
+                            height: 8vw;
+                            background-image: url(../images/match-icon.png);
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                            display: flex;
+                            justify-content: center !important;
+                            align-items: center;
+
+                            p {
+                                color: #007f80;
+                                font-weight: bold;
+                                font-size: 4vw;
+                            }
+                        }
+                    }
+                }
+
+                .svg-dist {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    pointer-events: none;
+                    display: flex;
+                }
+
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                }
+
+                svg line {
+                    stroke:
+                        #007f80 !important;
+                    stroke-width: 5
+                }
+
+                .data {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 98%;
+                    height: auto;
+                    margin: 0 auto;
+                    overflow: hidden;
+
+                    .columnRight,
+                    .columnLeft {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        min-width: 35vw !important;
+
+                        .row-text {
+                            width: 38vw !important;
+                            min-height: 9vw;
+                            border-radius: 5vw;
+                            display: flex;
+                            align-items: center;
+                            background-color: #eeeef7;
+                            margin: 3.5vw 0;
+
+                            .text {
+                                width: 90%;
+                                margin-right: 2%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                // font-family: coconnextarabic;
+                                font-size: 3vw;
+
+                                .icon-index {
+                                    width: 5vw;
+                                    height: 5vw;
+                                    background-repeat: no-repeat;
+                                    background-size: contain;
+                                    display: flex;
+                                    justify-content: center !important;
+                                    align-items: center;
+                                    margin-left: 1vw;
+                                    font-size: 3vw;
+                                    color: white;
+                                    background-image: url(../images/icons/icon-04.png);
+                                }
+
+                                .pragraph {
+                                    width: 90%;
+                                }
+                            }
+
+                            .cointDrag {
+                                display: flex;
+                                width: 4vw;
+                                height: 4vw;
+                                border-radius: 50%;
+                                position: relative;
+                                background-color: #4d4d4d;
+                                z-index: 15;
+                                cursor: pointer;
+
+                                .point {
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                    background-color: transparent;
+
+                                    &.correct {
+                                        display: none;
+                                    }
+                                }
+
+                                .ui-droppable-disabled {
+                                    pointer-events: none;
+                                }
+
+                            }
+
+                            .correct-parents {
+                                border: 0.1vw solid #007f80 !important;
+                                background-color: #007f80 !important;
+                                // z-index: 15;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}

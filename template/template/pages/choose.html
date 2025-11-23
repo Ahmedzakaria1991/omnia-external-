@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+
+    <div id="choose" data-urlpage="choose" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+            <div class="container" :class="{'finshed' : this.posts[0].finshedChoose }">
+                <div class="quizChoose" v-for="(quiz, index) in shuffledQuiz" :class="{'closed' : quiz.answerSelect }">
+                    <div class="paragraph">
+                        <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                        <p class="">{{quiz.paragraph}}</p>
+                    </div>
+                    <div class="answers" :class="{'tybeTwo': quiz.type === 2, 'tybeThree': quiz.type === 3}">
+                        <div class="box" v-for=" answer in  quiz.answers"
+                            :class="{'checked' : answer.checked, 'right' : answer.right}">
+                            <p @click="chechedClicked(answer, quiz)">{{answer.toChoose}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+    <script src="../../../assets/js/choose.js"></script>
+</body>
+
+</html>

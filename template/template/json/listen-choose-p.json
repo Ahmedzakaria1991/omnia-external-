@@ -1,0 +1,113 @@
+[{
+    "nameId": "choose-slide",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "eng-4",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "Choose",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "choose the words with long vowel sounds",
+                    "image":"",
+                    "soundQ":"../audios/01_05/02.mp3",
+                    "correctAnswer": [
+                        2,3,4
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "hot",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose":"rose",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose":"nice",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose":"make",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "choose the words with short vowel sounds",
+                    "image":"",
+                    "soundQ":"../audios/01_05/01.mp3",
+                    "correctAnswer": [
+                        1,2,3
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "map",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose":"hop",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose":"mix",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose":"cone",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                }
+                
+            ], 
+            "popupQuestion": [{
+                "id": 2,
+                "type": 3,
+                "index": "",
+                "paragraph": "  ",
+                "quran": "",
+                "popup": [
+                   
+                ],
+                "isActive": null
+            }]
+        }
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

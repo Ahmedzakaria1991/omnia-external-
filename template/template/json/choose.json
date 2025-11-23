@@ -1,0 +1,140 @@
+[
+    {
+        "nameId": "choose",
+        "title": "اختر الاجابة الصحيحة",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "science-4",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "أى مما يلى يعد تكيفًا سلوكيًّا فى الحيوانات؟",
+                "correctAnswer": [
+                    2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "هجرة الطيور",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "هجرة الطيور",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "الآذان الطويلة",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "المخالب الحادة",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "أى مما يلى يعد تكيفًا سلوكيًّا فى ",
+                "correctAnswer": [
+                    3
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 3,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "العيون الكبيرة",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "هجرة الطيور",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "الآذان الطويلة",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "المخالب الحادة",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "أى مما يلى يلى يلى  يلى يلى يلى سلوكيًّا فى",
+                "correctAnswer": [
+                    3,
+                    2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "العيون",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "الطيور",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "الطويلة",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "الحادة",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+        ],
+        "popuptext": "",
+        "pop": ""
+    }
+]

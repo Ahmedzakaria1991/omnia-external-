@@ -1,0 +1,141 @@
+[
+    {
+        "nameId": "DragDropSlide",
+        "title": "ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+        "subject": "eng-5",
+        "finshedDrag": false,
+        "lengtStart": 0,
+        "colorTemplate": "#5a7cec",
+        "dragCounter": 0,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "daragSlid": [
+            {
+                "isActive": true,
+                "droggableBox": [
+                    {
+                        "pagequestion": [
+                            {
+                                "question": [
+                                    {
+                                        "addQ": [
+                                            {
+                                                "number": [
+                                                    1
+                                                ],
+                                                "text1": [
+                                                    "S_1__text1"
+                                                ],
+                                                "text2": [
+                                                    "S_1_text2"
+                                                ],
+                                                "type": 1
+                                            },
+                                            {
+                                                "number": [
+                                                    2
+                                                ],
+                                                "text1": [
+                                                    "Slid_1_question2text1"
+                                                ],
+                                                "text2": [
+                                                    "Slid_1_question2text2"
+                                                ],
+                                                "type": 1
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "answer": [
+                                    {
+                                        "number": [
+                                            1
+                                        ],
+                                        "wrod": "Slid_1_answer1",
+                                        "type": 1,
+                                        "counter": 0
+                                    },
+                                    {
+                                        "number": [
+                                            2
+                                        ],
+                                        "wrod": "S_1_answer2",
+                                        "type": 1,
+                                        "counter": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "isActive": false,
+                "droggableBox": [
+                    {
+                        "pagequestion": [
+                            {
+                                "question": [
+                                    {
+                                        "addQ": [
+                                            {
+                                                "number": [
+                                                    1
+                                                ],
+                                                "text1": [
+                                                    "S_2__text1"
+                                                ],
+                                                "text2": [
+                                                    "S_2_text2"
+                                                ],
+                                                "type": 1
+                                            },
+                                            {
+                                                "number": [
+                                                    2
+                                                ],
+                                                "text1": [
+                                                    "Slid_2_question2text1"
+                                                ],
+                                                "text2": [
+                                                    "Slid_2_question2text2"
+                                                ],
+                                                "type": 1
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "answer": [
+                                    {
+                                        "number": [
+                                            2
+                                        ],
+                                        "wrod": "Slid_2_answer2",
+                                        "type": 1,
+                                        "counter": 0
+                                    },
+                                    {
+                                        "number": [
+                                            1
+                                        ],
+                                        "wrod": "S_2_answer1",
+                                        "type": 1,
+                                        "counter": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

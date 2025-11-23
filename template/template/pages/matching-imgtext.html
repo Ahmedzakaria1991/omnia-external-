@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <script src="../../../assets/lib/jquery.js"></script>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="Connectimgs" data-urlpage="matching-img&text" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="svg-dist">
+
+                </div>
+                <div class="data">
+                    <div class="columnRight">
+
+                        <div class="row-text" v-for="( drag, index) in  shuffleRightX">
+
+                            <div class="pragraph">
+                                <span class="icon-index">{{index+1}}</span>
+
+                                <img :src="drag.textRight" alt="" class="image">
+                                <div class="cointDrag">
+                                    <div class="point" :data-number="drag.point"></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="columnLeft">
+                        <div class="row-text" v-for="( drag, index) in  shuffleLeftX">
+
+                            <div class="pragraph">
+                                <div class="cointDrag">
+                                    <div class="point" :data-number="drag.point"></div>
+                                </div>
+                                <p class="text">{{drag.textleft}}</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="finished hide">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/matching-img&text.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

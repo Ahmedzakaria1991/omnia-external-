@@ -1,0 +1,148 @@
+[
+  {
+    "nameId": "",
+    "title": "مصطلح  ",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "arabic-5",
+    "colorTemplate": "#79D2E4",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "popuptext": [],
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["بهدف نظيف اللقاء المؤجل بهدف نظيف اللقاء المؤجل"],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["hello"],
+                "show": ["hello"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["hello"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "هدف نظيف اللقاء المؤجل بهدف نظيف اللقاء المؤجل  "
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["blaaa"],
+                "show": ["blaaa"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["blaaa"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["هدف نظيف اللقاء المؤجل "],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["bla"],
+                "show": ["bla"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["bla"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

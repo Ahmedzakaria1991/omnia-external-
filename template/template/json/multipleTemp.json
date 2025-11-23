@@ -1,0 +1,172 @@
+[
+  {
+    "nameId": "choose",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "science-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "أى مما يلى يعد تكيفًا سلوكيًّا فى الحيوانات؟",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "هجرة الطيور",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "هجرة الطيور",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "الآذان الطويلة",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "المخالب الحادة",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "quizTruefalse": [
+      {
+        "id": 1,
+        "paragraph": "اختارَ «مجدي يعقوب» مدينةَ أُسْوَانَ؛ لأنَّها مركزُ إلهامٍ بالنِّسبةِ لهُ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      }
+    ],
+    "quizInput": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["أحد عناصر الخريطة 1111 "],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 2,
+                "comma": "او",
+                "valid": ["1", "2"],
+                "show": ["1", "2"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ],
+            "paragraphes2": ["."],
+            "paragraphes3": [""]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 2,
+        "contents": [
+          {
+            "paragraphes1": ["type: 2 1111"],
+            "img": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["111", "1111"],
+                "show": ["111"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["B", "b"],
+                "show": ["b"]
+              }
+            ],
+            "paragraphes2": ["type: 2"],
+            "paragraphes3": [""]
+          }
+        ],
+
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

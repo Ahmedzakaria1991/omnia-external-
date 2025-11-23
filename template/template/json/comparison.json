@@ -1,0 +1,124 @@
+[
+    {
+        "nameId": "",
+        "title": "ضع علامة > أو < أو =",
+        "subject": "math-5",
+        "finshedChoose": false,
+        "help": true,
+        "colorTemplate": "#F2A97E",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "paragraphRight": "500",
+                "paragraphLeft": "499.9",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 3,
+                "text": true,
+                "answers": [
+                    {
+                        "url": [
+                            ">"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "<"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "="
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paragraphRight": "986",
+                "paragraphLeft": "895",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 3,
+                "text": true,
+                "answers": [
+                    {
+                        "url": [
+                            ">"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "<"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "="
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paragraphRight": "100 * 30",
+                "paragraphLeft": "300 * 10",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 3,
+                "text": true,
+                "answers": [
+                    {
+                        "url": [
+                            ">"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "<"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "="
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,470 @@
+body {
+  .general {
+
+    &.eng,
+    &.eng-4,
+    &.eng-5,
+    &.eng-6 {
+
+      direction  : ltr;
+      font-family: English!important;
+
+      html .toggle-sound,
+      body .toggle-sound {
+        right  : 0.5vw;
+        top    : 1vw;
+        z-index: 1;
+        cursor : pointer;
+      }
+
+      .isSuccess {
+        direction: ltr;
+        width    : 100%;
+        height   : 100%;
+      }
+
+      .confirmMassaege {
+        direction: ltr;
+
+        .confirm {
+          width : 65vw;
+          height: 19vw;
+
+          .resetText {
+            font-family: English;
+
+          }
+
+          .buttons {
+
+            button {
+              font-family: English;
+
+            }
+          }
+        }
+      }
+
+      .head {
+        .title {
+          font-family : English;
+          margin-right: unset;
+        }
+      }
+
+      &#Conect {
+        .m1l {
+          margin-left: 1vw;
+        }
+
+        .container {
+          .data {
+            .columnLeft {
+              .row-text {
+                .text {
+                  margin-left: 2vw !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#trueFalse,
+      &#gtorlt,
+      &#punctuate,
+      &#trueSlide {
+        .container {
+          .quizChoose {
+            .choosequestion {
+              .answer {
+
+                &.false,
+                &.true {
+                  &::before {
+                    left: 4vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .model-popup {
+          .hide-div {
+            right: -2vw;
+            left : unset;
+          }
+        }
+      }
+
+      .container {
+
+        &.finshed::after,
+        .finished::after {
+          content         : "";
+          position        : absolute;
+          background-image: url(../images/finshed.png);
+          background-size : 100% 100%;
+          transform       : translate(40vw, 15vw);
+          width           : 12vw;
+          height          : 12vw;
+          bottom          : 35vw;
+        }
+
+        p {
+          font-family: English;
+        }
+      }
+
+      .bottom {
+        .image {
+          left: 72vw;
+        }
+
+        svg {
+          transform: rotateY(180deg);
+        }
+      }
+
+      // Choose ...
+      &#choose,
+      &#listen-choose {
+        .container {
+          .quizChoose {
+            .answers {
+
+              .box,
+              .sound-box {
+
+                &.checked,
+                &.right {
+                  ::before {
+                    right: -2vw;
+                    left : unset;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .model-popup {
+          .hide-div {
+            right: -2vw;
+            left : unset;
+          }
+        }
+      }
+
+      // Input ...
+      &#inputValidation,
+      &#inputwithimgs,
+      &#input-slide,
+      &#DragAndDroptable,
+      &#DragDropSlide {
+        .soundQ {
+          width          : 100%;
+          display        : flex;
+          justify-content: flex-end;
+        }
+
+        .container {
+          .inputs {
+            .check-input {
+
+              &.wrong,
+              &.right {
+                &::before {
+                  left : unset;
+                  right: -0.5vw;
+                }
+              }
+            }
+          }
+
+          .mySlides {
+            .prev {
+              background-image: url(../images/scroll2.png);
+              left            : 2%;
+            }
+
+            .next {
+              background-image: url(../images/scroll1.png);
+              left            : 10%;
+            }
+          }
+        }
+
+        .model-popup {
+          .hide-div {
+            right: -2vw;
+            left : unset;
+          }
+        }
+      }
+
+      &#Mostala7 {
+        .container {
+          .textinput {
+            .inputs {
+              .check-input {
+
+                &.wrong,
+                &.right {
+                  &::before {
+                    left : unset;
+                    right: -0.5vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .model-popup {
+          .hide-div {
+            right: -2vw;
+            left : unset;
+          }
+        }
+      }
+
+      &#mokaly {
+        .container {
+          .head {
+            .title {
+              font-family : English;
+              margin-right: unset;
+            }
+          }
+
+          .mySlides {
+            .prev {
+              background-image: url(../images/scroll2.png);
+              left            : 2%;
+            }
+
+            .next {
+              background-image: url(../images/scroll1.png);
+              left            : 10%;
+            }
+          }
+        }
+
+        .mokaly-popup {
+          .text-block {
+            position: relative;
+
+            p {
+              font-size: 3.5vw;
+            }
+
+            .help {
+              animation: changeposition-eng2 0.5s linear 0.2s infinite alternate;
+              right    : -1vw;
+              transform: rotate(36deg);
+              top      : -6vw;
+            }
+          }
+        }
+
+        .popup-article {
+          .mokaly-model-popup {
+            .hide-div {
+              left : unset;
+              right: -2vw;
+            }
+          }
+        }
+      }
+
+      .popup {
+        justify-content: center;
+        display        : flex;
+        margin-top     : 6% !important;
+        position       : relative;
+
+        .image {
+          width          : 100%;
+          justify-content: center;
+          display        : flex;
+          position       : relative;
+
+          img {
+            width : 50%;
+            height: 12vw;
+          }
+        }
+
+        .text-block {
+          position  : absolute;
+          // bottom: 20px;
+          text-align: center;
+          width     : 100%;
+
+          p {
+            text-align: center;
+            font-size : 3.5vw;
+            position  : relative;
+          }
+
+          .help {
+            width              : 5vw;
+            height             : 6vw;
+            // position: absolute;
+            animation          : changeposition-eng 0.5s linear 0.2s infinite alternate;
+            background-image   : url(../images/help.png);
+            background-position: center;
+            background-repeat  : no-repeat;
+            background-size    : 100% 100%;
+            position           : absolute;
+            right              : 27vw;
+            transform          : rotate(36deg);
+            top                : -5vw;
+          }
+        }
+      }
+
+      &#trueSlide,
+      &#choose-slide,
+      &#input-slide {
+        .head {
+          .title {
+            margin-right: unset;
+          }
+        }
+
+        .quizChoose .answers {
+          &.tybeTwo {
+            padding-left: 3vw;
+          }
+
+          .box.checked::before,
+          .box.right::before {
+            left : unset;
+            right: -2vw;
+          }
+
+        }
+
+        .input-popup {
+          .text-block {
+            .help {
+              animation: changeposition-eng2 0.5s linear 0.2s infinite alternate;
+              right    : -1vw;
+              transform: rotate(36deg);
+              top      : -6vw;
+            }
+          }
+        }
+
+        .mySlides {
+          .prev {
+            background-image: url(../images/scroll2.png);
+            left            : 2%;
+          }
+
+          .next {
+            background-image: url(../images/scroll1.png);
+            left            : 10%;
+          }
+        }
+
+        .input-model-popup {
+          .hide-div {
+            right: -2vw;
+            left : unset;
+          }
+        }
+      }
+
+      &#trueFalse,
+      &#trueSlide,
+      &#gtorlt,
+      &#punctuate {
+        .soundQ {
+          width          : 100%;
+          display        : flex;
+          justify-content: flex-end;
+        }
+
+        .container {
+          .quizChoose {
+            .choosequestion {
+              .help {
+                animation: changeposition-eng3 0.5s linear 0.2s infinite alternate;
+                right    : -1vw;
+                transform: rotate(36deg);
+                top      : -6vw;
+              }
+            }
+          }
+        }
+      }
+
+      @keyframes changeposition-eng {
+        from {
+          top : -5vw;
+          left: 65vw;
+        }
+
+        to {
+          top : -4vw;
+          left: 64vw;
+        }
+      }
+
+      &#trueSlide {
+        .container {
+          .quizChoose {
+            .choosequestion {
+              .help {
+                animation: changeposition-eng3-true 0.5s linear 0.2s infinite alternate;
+                right    : -1vw;
+                transform: rotate(36deg);
+                top      : -6vw;
+              }
+            }
+          }
+        }
+      }
+
+      @keyframes changeposition-eng2 {
+        from {
+          top : -8vw;
+          left: 16vw;
+        }
+
+        to {
+          top : -5.5vw;
+          left: 15vw;
+        }
+      }
+
+      @keyframes changeposition-eng3 {
+        from {
+          top : -8vw;
+          left: 4vw;
+        }
+
+        to {
+          top : -5.5vw;
+          left: 3vw;
+        }
+      }
+
+      @keyframes changeposition-eng3-true {
+        from {
+          top  : -6vw;
+          right: -1vw;
+        }
+
+        to {
+          top  : -8vw;
+          right: -1vw;
+        }
+      }
+    }
+  }
+}

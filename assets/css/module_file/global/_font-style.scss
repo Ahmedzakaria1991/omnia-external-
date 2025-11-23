@@ -1,0 +1,331 @@
+// body {
+//   .general {
+//     &.arabic-3,
+//     &.arabic-4,
+//     &.arabic-5,
+//     &.arabic-6,
+//     &.math-3,
+//     &.rel-3,
+//     &.rel-4,
+//     &.rel-5,
+//     &.rel-6 {
+//       .head {
+//         .title {
+//           font-family: Samim;
+//         }
+//       }
+
+//       .container {
+//         .icon-index {
+//           font-family: ArabicJozoor;
+//         }
+
+//         p,
+//         div,
+//         span {
+//           font-family: Samim;
+//         }
+
+//         .inputs {
+//           input {
+//             font-family: Input-Ara;
+//           }
+//         }
+//       }
+//     }
+//     &.social-4,
+//     &.social-5,
+//     &.social-6,
+//     &.ict-4,
+
+//     &.ict-6,
+//     &.tsk-4,
+//     &.tsk-5,
+//     &.tsk-6,
+//     &.science-6,
+//     &.math-6 {
+//       .head {
+//         .title {
+//           font-family: Arabicnum;
+//         }
+//       }
+
+//       .container {
+//         .icon-index {
+//           font-family: ArabicJozoor;
+//         }
+
+//         p,
+//         div,
+//         span {
+//           font-family: Arabicnum;
+//         }
+
+//         .inputs {
+//           input {
+//             font-family: Input-Ara;
+//           }
+//         }
+//       }
+//     }
+
+//     &.science-4,
+//     &.math-5,
+//     &.science-5,
+//     &.math-4 ,
+//     &.ict-5{
+//       .head {
+//         .title {
+//           font-family: Engnum;
+//         }
+//       }
+
+//       .container {
+//         .icon-index {
+//           font-family: EngJozoor;
+//         }
+
+//         p,
+//         div,
+//         span {
+//           font-family: Engnum;
+//         }
+
+//         .inputs {
+//           input {
+//             font-family: Input-En;
+//           }
+//         }
+//       }
+//     }
+//     &.eng,
+//     &.eng-4,
+//     &.eng-5,
+//     &.eng-6 {
+//       .head {
+//         .title {
+//           font-family: English;
+//         }
+//       }
+
+//       .container {
+//         .icon-index {
+//           font-family: English;
+//         }
+
+//         p,
+//         div,
+//         span {
+//           font-family: English;
+//         }
+
+//         .inputs {
+//           input {
+//             font-family: English;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+body {
+  .general {
+
+
+    &.arabic-3,
+    &.arabic-4,
+    &.arabic-5,
+    &.arabic-6,
+    &.math-3,
+    &.rel-3,
+    &.rel-4,
+    &.rel-5,
+    &.rel-6 {
+
+      &#trueSlide,
+      &#choose-slide,
+      &#input-slide {
+        .input-popup {
+          .text_area {
+            textarea {
+              font-family: vazirmatn-regular !important
+            }
+          }
+        }
+      }
+      &#input-slide,
+      &#choose-slide {
+
+        .input-model-popup,
+        .mokaly-model-popup {
+          .text {
+            font-family: vazirmatn-regular !important
+          }
+
+          .text {
+            p {
+              font-family: vazirmatn-regular !important
+            }
+          }
+        }
+      }
+
+      &#mokaly {
+
+        .input-model-popup,
+        .mokaly-model-popup {
+          .text {
+            font-family: vazirmatn-regular !important
+          }
+        }
+
+
+        .mokaly-popup {
+          .text_area {
+            textarea {
+              font-family: vazirmatn-regular !important
+            }
+          }
+        }
+      }
+
+      .popup-article {
+        .input-model-popup {
+          .text {
+            p {
+              font-family: vazirmatn-regular !important
+            }
+          }
+        }
+      }
+
+      .head {
+        .title {
+          font-family: vazirmatn-regular !important
+        }
+      }
+
+      .container {
+        .head {
+          .title {
+            font-family: vazirmatn-regular !important
+          }
+        }
+
+        .icon-index {
+          font-family: vazirmatn-regular !important
+        }
+
+        p,
+        div,
+        span {
+          font-family: vazirmatn-regular !important
+        }
+
+        .inputs {
+          input {
+            font-family: vazirmatn-regular !important
+          }
+        }
+      }
+
+    }
+
+    &.social-4,
+    &.social-5,
+    &.social-6,
+    &.ict-4,
+
+    &.ict-6,
+    &.tsk-4,
+    &.tsk-5,
+    &.tsk-6,
+    &.science-6,
+    &.math-6 {
+      .head {
+        .title {
+          font-family: Arabicnum;
+        }
+      }
+
+      .container {
+        .icon-index {
+          font-family: ArabicJozoor;
+        }
+
+        p,
+        div,
+        span {
+          font-family: Arabicnum;
+        }
+
+        .inputs {
+          input {
+            font-family: Input-Ara;
+          }
+        }
+      }
+    }
+
+    &.science-4,
+    &.math-5,
+    &.science-5,
+    &.math-4,
+    &.ict-5 {
+      .head {
+        .title {
+          font-family: Engnum;
+        }
+      }
+
+      .container {
+        .icon-index {
+          font-family: EngJozoor;
+        }
+
+        p,
+        div,
+        span {
+          font-family: Engnum;
+        }
+
+        .inputs {
+          input {
+            font-family: Input-En;
+          }
+        }
+      }
+    }
+
+    &.eng,
+    &.eng-4,
+    &.eng-5,
+    &.eng-6 {
+      .head {
+        .title {
+          font-family: English!important
+        }
+      }
+
+      .container {
+        .icon-index {
+          font-family: English!important
+        }
+
+        p,
+        div,
+        span {
+          font-family: English!important
+        }
+
+        .inputs {
+          input {
+            font-family: English!important
+          }
+        }
+      }
+    }
+  }
+}

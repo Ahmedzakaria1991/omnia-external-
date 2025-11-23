@@ -1,0 +1,53 @@
+[{
+    "nameId": "",
+    "title": "ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+    "subject": "math-4",
+    "finshedDrag": false,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [{
+        "image":"../../../assets/images/p 15-01.png",
+        "drag": [{
+            "word": "a",
+            "number": 1
+          }
+        ]
+      },
+      {
+        "image":"../../../assets/images/p 15-02.png",
+        "drag": [{
+            "word": "b",
+            "number": 2
+          }
+        ]
+      },
+      {
+        "image":"../../../assets/images/p 15-03.png",
+        "drag": [{
+            "word": "c",
+            "number": 3
+          }
+        ]
+      }
+    
+    ],
+    "increasedDragOption":true,
+    "increasedDrag":[
+      {
+        "word":"hi",
+        "number":100
+      },
+      {
+        "word":"hello",
+        "number":101
+      }
+    ]
+  }]

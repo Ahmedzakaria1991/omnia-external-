@@ -1,0 +1,162 @@
+﻿<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputValidation</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <style>
+        body .general#input-slide .container .textinput {
+            align-items: center;
+        }
+
+        .fraction {
+            display: flex;
+            flex-direction: row !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+
+    <div id="input-slide" data-urlpage="fractioninputmath" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+
+            <div class="container">
+                <div v-for="(slide, i) in slideQ" :class="{'active' : slide.active}" class="mySlides">
+                    <div class="head">
+                        <div class="title">{{slide.title}}</div>
+                    </div>
+                    <div class="content">
+
+                        <div v-for="(item, i) in slide.items">
+                            <div v-for="(content , index) in item.contents">
+
+
+                                <div class="textinput" v-if="item.type === 3">
+                                    <span class="icon-index">{{(item.index)}}</span>
+                                    <div class="fraction" v-for="(fraction, index) in content.dataFractions">
+                                        <p v-for="(parag , index) in fraction.firstParag">{{parag}} &nbsp</p>
+                                        <div class="dividing">
+                                            <div class="up">
+                                                <p v-if="fraction.up[0].paragraph != ''">{{fraction.up[0].paragraph}}
+                                                </p>
+                                                <div class="inputs" v-if="fraction.up[0].paragraph == ''"
+                                                    :class="{'done' : fraction.answerUser[0].done}">
+                                                    <div class="in">
+                                                        <div class="check-input"
+                                                            :class="{'show' : fraction.answerUser[0].help}">
+                                                            <input @focus="inputfocus"
+                                                                :disabled="fraction.answerUser[0].help" data-content="1"
+                                                                data-state="up"
+                                                                @blur="handleBlur(item, content, fraction)"
+                                                                @keyup="onKey(item, content, fraction)"
+                                                                :maxlength="fraction.up[0].input[0].length"
+                                                                :class="{'right' : fraction.answerUser[0].correct, 'show' : fraction.answerUser[0].help,
+                                                                    ['w' + fraction.up[0].input[0].length + 'length'] : fraction.up[0].input[0].length != 0}"
+                                                                v-model="fraction.answerUser[0].answer[0]">
+                                                        </div>
+                                                        <div class="answer" data-state="up" data-content="1"
+                                                            @click="showAnswer(item, fraction)"
+                                                            :class="{'disabled' : fraction.answerUser[0].help}"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="down">
+                                                <p v-if="fraction.down[0].paragraph != ''">
+                                                    {{fraction.down[0].paragraph}}</p>
+                                                <div class="inputs" v-if="fraction.down[0].paragraph == ''"
+                                                    :class="{'done' : fraction.answerUser[1].done}">
+                                                    <div class="in">
+                                                        <div class="check-input"
+                                                            :class="{'show' : fraction.answerUser[1].help}">
+                                                            <input @focus="inputfocus"
+                                                                :disabled="fraction.answerUser[1].help" data-content="1"
+                                                                data-state="down"
+                                                                @blur="handleBlur(item, content, fraction)"
+                                                                @keyup="onKey(item, content, fraction)"
+                                                                :maxlength="fraction.down[0].input[0].length"
+                                                                :class="{'right' : fraction.answerUser[1].correct, 'show' : fraction.answerUser[1].help,
+                                                                    ['w' + fraction.down[0].input[0].length + 'length'] : fraction.down[0].input[0].length != 0}"
+                                                                v-model="fraction.answerUser[1].answer[0]">
+                                                        </div>
+                                                        <div class="answer" data-state="down" data-content="1"
+                                                            @click="showAnswer(item, fraction)"
+                                                            :class="{'disabled' : fraction.answerUser[1].help}"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="paragraphe" v-for="(parag , index) in content.paragraphes2"> {{parag}}
+                                    </p>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="all" v-for="(popUpAll, i) in slide.popupQuestion" v-if="popUpAll.isActive != null">
+                            <div class="paragraph">
+                                <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>
+                                <p class="">{{popUpAll.paragraph}}</p>
+                            </div>
+
+                            <div :class="{'input-modal-over' : popUpAll.isActive }">
+                                <div class="input-model-popup" :class="{'active' : popUpAll.isActive }">
+
+                                    <div class="text">
+                                        <p v-for="popUpText in popUpAll.popup">{{popUpText}}</p>
+                                    </div>
+                                    <div class="hide-div" @click="popupClose(popUpAll)">
+                                        <p class="hidden"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="input-popup">
+                                <div class="text-block" @click="popupOpen(popUpAll)">
+                                    <p> عرض الإجابة
+                                    </p>
+                                    <div v-if="i === 0 && posts[0].hand" class="help"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="prev" @click="swiperPrev( slide, i)" v-if="i != 0"> </a>
+                        <a class="next" @click="swiperNext( slide, i)" v-if="i != (slideQ.length-1) "></a>
+                    </div>
+
+                </div>
+                <div class="finished" v-if="this.posts[0].counterFinished === this.posts[0].inputCounter ">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/js/fractioninputmath.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

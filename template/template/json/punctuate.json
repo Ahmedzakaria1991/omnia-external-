@@ -1,0 +1,70 @@
+[{
+    "nameId": "",
+    "title": "Punctuate",
+    "finshedChoose": false,
+
+    "help": true,
+    "subject": "eng-4",
+    "colorTemplate": "#E8C56B",
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "quizChooses": [{
+            "id": 1,
+            "paragraphRight": "",
+            "paragraphCenter": "lean the board,",
+            "paragraphLeft": "assan.",
+            "show1": false,
+            "show2": false,
+            "chooseUrl1": "",
+            "chooseUrl2": "",
+            "result1": false,
+            "result2": false,
+            "close": false,
+            "type": 4,
+            "text": true,
+            "answers1": [{
+                    "url": [
+                        "c"
+                    ],
+                    "answerSelect": false,
+                    "cheched": false,
+                    "number": 1
+                },
+                {
+                    "url": [
+                        "C"
+                    ],
+                    "answerSelect": true,
+                    "cheched": false,
+                    "number": 1
+                }
+            ],
+            "answers2": [{
+                    "url": [
+                        "H"
+                    ],
+                    "answerSelect": true,
+                    "cheched": false,
+                    "number": 2
+                },
+                {
+                    "url": [
+                        "h"
+                    ],
+                    "answerSelect": false,
+                    "cheched": false,
+                    "number": 2
+                }
+            ]
+        }
+    ]
+}]

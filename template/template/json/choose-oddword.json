@@ -1,0 +1,129 @@
+[
+    {
+        "nameId": "choose",
+        "title": "Choose the odd sound",
+        "finshedChoose": false,
+        "subject": "eng-4 eng",
+        "colorTemplate": "#A0D9BE",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "paragraph": "",
+                "correctAnswer": [
+                    3
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "vest",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "veil",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "wet",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "violin",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paragraph": "",
+                "correctAnswer": [
+                    2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "whale",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "veal",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "west",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "wheel",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paragraph": "",
+                "correctAnswer": [
+                    4
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "vet",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "volcano",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "vet",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "watermelon",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    }
+]

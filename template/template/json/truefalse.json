@@ -1,0 +1,115 @@
+[
+    {
+        "nameId": "trueFalse",
+        "title": "ضع علامة (✓) أو (✗)",
+        "finshedChoose": false,
+        "help": true,
+        "subject": "eng-4",
+        "colorTemplate": "#FCC6B0",
+        "hand": true,
+        "popuptext": "",
+        "pop": "",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "paragraph": "اختارَ «مجدي يعقوب» مدينةَ أُسْوَانَ؛ لأنَّها مركزُ إلهامٍ بالنِّسبةِ لهُ.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "paragraph": "اختارَ «مجدي يعقوب» مدينةَ أُسْوَانَ؛ لأنَّها مركزُ إلهامٍ بالنِّسبةِ لهُ.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "paragraph": "اختارَ «مجدي يعقوب» مدينةَ أُسْوَانَ؛ لأنَّها مركزُ إلهامٍ بالنِّسبةِ لهُ.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            }
+        ]
+    }
+]

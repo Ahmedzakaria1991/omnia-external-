@@ -1,0 +1,134 @@
+body {
+    .general {
+        &#listen-choose {
+            position: relative;
+            .title {
+                background-image: url("../images/titles/title-10.png")
+            }
+            .container {
+                .quizChoose {
+                    padding: 2vw 1vw 1vw 0;
+                    &.closed {
+                        pointer-events: none;
+                    }
+                    .paragraph {
+                        display: inline-flex;
+                        justify-content: flex-start;
+                        width: 100%;
+                        p {
+                            width: 100%;
+                        }
+                        .icon-index {
+                            background-image: url("../images/icons/icon-10.png")
+                        }
+                        .answers {
+                            width: 80vw;
+                            min-height: 9vw;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            &.tybeTwo {
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                                padding-right: 3vw;
+                                .box {
+                                    margin-top: 1.5vw;
+                                    min-width: 60vw;
+                                    margin-left: 7vw;
+                                }
+                            }
+                            &.tybeThree {
+                                width: 100%;
+                                align-items: flex-start;
+                                justify-content: space-around;
+                                flex-wrap: wrap;
+                                padding-right: 3vw;
+                                .box-sound {
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    margin-top: 1.5vw;
+                                    width: 45% !important;
+                                }
+                            }
+                            .box {
+                                border-radius: 1.5vw;
+                                position: relative;
+                                &.checked {
+                                    pointer-events: none;
+                                    border: .2vw solid #ee2b33;
+                                     ::before {
+                                        content: "";
+                                        position: absolute;
+                                        background-image: url("../images/false.png");
+                                        background-size: 100% 100%;
+                                        width: 3.5vw;
+                                        height: 3.5vw;
+                                        top: -2vw;
+                                        left: -2vw;
+                                    }
+                                }
+                                &.right {
+                                    p {
+                                        pointer-events: none;
+                                    }
+                                    border: .2vw solid #39b54a !important;
+                                     ::before {
+                                        content: "";
+                                        position: absolute;
+                                        background-image: url("../images/true.png");
+                                        background-size: 100% 100%;
+                                        width: 3.5vw;
+                                        height: 3.5vw;
+                                        top: -2vw;
+                                        left: -2vw;
+                                    }
+                                }
+                            }
+                            p {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #fce7eb;
+                                color: #0e224e;
+                                min-width: 18vw;
+                                max-width: 85vw;
+                                min-height: 5.5vw;
+                                border-radius: 1.5vw;
+                                cursor: pointer;
+                            }
+                            .soundQ {
+                                width: 5vw;
+                                height: 5vw;
+                                margin: 0 1vw 1vw 0;
+                                .sound-player {
+                                    width: 5vw;
+                                    height: 5vw;
+                                }
+                                .play_sound {
+                                    background-image: url(../../assets/images/playandpause/pause10.png);
+                                    background-size: 100% 100%;
+                                    background-repeat: no-repeat;
+                                    width: 100%;
+                                    cursor: pointer;
+
+                                    height: 100%;
+                                    &.paused {
+                                        background-image: url(../../assets/images/playandpause/play10.png);
+                                        background-size: 100% 100%;
+                                        background-repeat: no-repeat;
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                        &.closed {
+                            pointer-events: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

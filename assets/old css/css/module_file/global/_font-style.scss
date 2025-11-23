@@ -1,0 +1,130 @@
+body {
+    .general {
+
+        &.arabic-4,
+        &.arabic-5,
+        &.arabic-6,
+        &.rel-4,
+        &.rel-5,
+        &.rel-6 {
+            .head {
+                .title {
+                    font-family: Samim;
+                }
+            }
+
+            .container {
+                .icon-index {
+                    font-family: ArabicJozoor;
+                }
+
+                p,
+                div,
+                span {
+                    font-family: Samim;
+                }
+
+                .inputs {
+                    input {
+                        font-family: Input-Ara
+                    }
+                }
+            }
+        }
+
+        &.social-4,
+        &.social-5,
+        &.social-6,
+        &.ict-4,
+        &.ict-5,
+        &.ict-6,
+        &.tsk-4,
+        &.tsk-5,
+        &.tsk-6,
+        &.science-6,
+        &.math-6 {
+            .head {
+                .title {
+                    font-family: Arabicnum;
+                }
+            }
+
+            .container {
+                .icon-index {
+                    font-family: ArabicJozoor;
+                }
+
+                p,
+                div,
+                span {
+                    font-family: Arabicnum;
+                }
+
+                .inputs {
+                    input {
+                        font-family: Input-Ara
+                    }
+                }
+            }
+        }
+
+        &.science-4,
+        &.math-5,
+        &.science-5,
+        &.math-4 {
+            .head {
+                .title {
+                    font-family: Engnum
+                }
+            }
+
+            .container {
+                .icon-index {
+                    font-family: EngJozoor
+                }
+
+                p,
+                div,
+                span {
+                    font-family: Engnum
+                }
+
+                .inputs {
+                    input {
+                        font-family: Input-En
+                    }
+                }
+            }
+        }
+
+        &.eng-4,
+        &.eng-5,
+        &.eng-6 {
+            .head {
+                .title {
+                    font-family: English;
+                }
+            }
+
+            .container {
+                .icon-index {
+                    font-family: English;
+                }
+
+                p,
+                div,
+                span {
+                    font-family: English;
+                }
+
+                .inputs {
+                    input {
+                        font-family: English
+                    }
+                }
+            }
+        }
+
+
+    }
+}

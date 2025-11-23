@@ -1,0 +1,571 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width   : 100vw;
+  height  : 100vh;
+  margin  : 0;
+  padding : 0;
+  overflow: hidden;
+
+  .quiz-paragraph {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+    align-items    : center;
+
+    .data {
+      display        : flex;
+      justify-content: space-between;
+      width          : 90%;
+
+      p {
+        width: 45%;
+      }
+    }
+  }
+
+  @keyframes changeposition {
+    from {
+      top : -7vw;
+      left: -4vw;
+    }
+
+    to {
+      top : -5.5vw;
+      left: -3vw;
+    }
+  }
+
+  p {
+    &.quran {
+      font-family: Othmani !important;
+     
+    }
+  }
+
+  .quran {
+    font-family: Othmani !important;
+  
+  }
+
+  .math {
+    font-family: mathh !important;
+    color      : black !important;
+  }
+
+  .popup-article {
+    position       : absolute;
+    width          : 100%;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    top            : 0;
+  }
+
+  .toggle-sound {
+    width            : 8vw;
+    height           : 8vw;
+    background-image : url(../../assets/images/music.png);
+    background-size  : 100% 100%;
+    background-repeat: no-repeat;
+    position         : absolute;
+    left             : 1.5vw;
+    top              : 1vw;
+    z-index          : 1;
+    cursor           : pointer;
+
+    &.paused {
+      background-image : url(../../assets/images/mute-music.png);
+      background-size  : 100% 100%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .isSuccess {
+    width : 100%;
+    height: 100%;
+  }
+
+  .general {
+    width           : 100%;
+    height          : 100%;
+    margin          : 0;
+    padding         : 0;
+    background-color: white;
+    font-family     : Arabicnum;
+    direction       : rtl;
+    overflow-y      : hidden;
+    overflow-x      : hidden;
+    user-select     : none;
+
+    .resetdata {
+
+      .reset {
+        background-image : url(.../../../images/reset.png);
+        background-size  : 100% 100%;
+        background-repeat: no-repeat;
+        width            : 9vw;
+        height           : 9vw;
+        position         : absolute;
+        left             : 11vw;
+        top              : 0.5vw;
+
+      }
+    }
+
+    .confirmMassaege {
+      width           : 100%;
+      height          : 100%;
+      position        : absolute;
+      background-color: #00000073;
+      z-index         : 50;
+
+      .confirm {
+        width           : 48vw;
+        height          : 18vw;
+        border-radius   : 3vw;
+        background-color: white;
+        position        : absolute;
+        top             : 0;
+        margin          : auto;
+        bottom          : 0;
+        right           : 0;
+        left            : 0;
+
+        .resetText {
+          font-size  : 3vw;
+          text-align : center;
+          font-weight: 600;
+          font-family: Arabicnum;
+        }
+
+        .buttons {
+          display        : flex;
+          justify-content: center;
+          width          : 100%;
+
+          button {
+            background-color: #ffd140;
+            background-size : 100% 100%;
+            border-radius   : 5vw;
+            border          : none;
+            width           : 12vw;
+            height          : 5vw;
+            text-align      : center;
+            text-decoration : none;
+            font-size       : 3vw;
+            cursor          : pointer;
+            padding         : auto;
+            margin          : 0vw 2vw;
+            font-family     : Arabicnum;
+
+          }
+        }
+
+      }
+
+    }
+
+
+    .head {
+      display        : flex;
+      justify-content: center;
+      align-items    : center;
+
+      .title {
+        display            : flex;
+        justify-content    : center;
+        align-items        : center;
+        width              : 56vw;
+        height             : 10vw;
+        background-size    : 100% 100%;
+        background-position: center;
+        background-repeat  : no-repeat;
+        color              : white;
+        position           : relative;
+        padding            : 0;
+        margin-top         : 1vw;
+        font-size          : 4vw;
+      }
+    }
+
+    .container {
+      padding           : 3vw;
+      width             : 95%;
+      height            : 82vh;
+      overflow-y        : scroll;
+      -ms-overflow-style: none;
+      /* Internet Explorer 10+ */
+      scrollbar-width   : none;
+
+      /* Firefox */
+      &::-webkit-scrollbar {
+        display: none;
+        /* Safari and Chrome */
+      }
+
+      p {
+        font-family: Arabicnum;
+        padding    : 0;
+        margin     : 0;
+        font-size  : 3vw;
+        &.quran {
+          font-family: Othmani !important;
+         
+        }
+        span{
+          &.quran {
+            font-family: Othmani !important;
+            color      : black !important;
+          }
+        }
+       
+      }
+  
+      .icon-index {
+        display          : flex;
+        justify-content  : center;
+        align-items      : center;
+        background-size  : 100% 100%;
+        background-repeat: no-repeat;
+        width            : 5vw;
+        height           : 5vw;
+        margin           : 0 1vw;
+        color            : white;
+        font-size        : 2.6vw;
+        // font-weight: 600;
+      }
+
+      .arrow {
+        width       : 8vw;
+        height      : 4vw;
+        margin-right: 2vw;
+        margin-left : 2vw;
+
+        img {
+          width : 100%;
+          height: 100%;
+        }
+      }
+
+      @media (orientation: landscape) {
+        .arrow {
+          width : 7vw;
+          height: 4vw;
+        }
+      }
+
+      &.finshed,
+      .finished {
+        &::after {
+          content         : "";
+          position        : absolute;
+          background-image: url("../images/finshed.png");
+          background-size : 100% 100%;
+          transform       : translate(-42vw, 15vw);
+          width           : 12vw;
+          height          : 12vw;
+          bottom          : 35vw;
+          z-index         : 10000;
+        }
+
+        &.hide {
+          display: none;
+        }
+      }
+
+      .qtitle {
+        color      : #305081;
+        font-weight: bold;
+        padding    : 1.5vw !important;
+
+        &.quran {
+          font-family: Othmani !important;
+
+          span {
+            font-family: Othmani !important;
+            color      : #305081;
+          }
+        }
+      }
+
+      .paragraphe {
+        &.quran {
+          font-family: Othmani !important;
+
+          span {
+            font-family: Othmani !important;
+            color      : black !important;
+          }
+        }
+      }
+
+      span {
+        color: #e95d5d;
+      }
+    }
+
+    .bottom {
+      position      : fixed;
+      bottom        : -1%;
+      left          : 0;
+      width         : 100%;
+      pointer-events: none;
+
+      .landscape {
+        display: none;
+      }
+
+      svg {
+        .st0 {
+          fill: #aeaeae;
+        }
+
+        .st1 {
+          opacity: 0.4;
+        }
+
+        .st3 {
+          opacity: 0.5;
+        }
+
+        .st4 {
+          fill: #a9a9a9;
+        }
+
+        .st5 {
+          fill-rule: evenodd;
+          clip-rule: evenodd;
+          fill     : #a9a9a9;
+        }
+
+        .st6 {
+          fill             : #a9a9a9;
+          stroke           : #a9a9a9;
+          stroke-width     : 0.1;
+          stroke-miterlimit: 10;
+        }
+      }
+
+      .image {
+        position: fixed;
+        width   : 25vw;
+        height  : 25vw;
+        left    : 3vw;
+        bottom  : 3vw;
+
+        img {
+          width : 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    // }
+    .model-popup {
+      justify-content : center;
+      width           : 90%;
+      min-height      : 20vh;
+      max-height      : 70vh;
+      background-color: #fafafa;
+      position        : absolute;
+      justify-content : center;
+      align-items     : center;
+      // opacity: 0;
+      transform       : scale(1);
+      pointer-events  : none;
+      z-index         : 1000;
+      display         : none;
+      // display: flex;
+      border-radius   : 2vw;
+      margin          : 4vw 1vw 4vw 2vw;
+      box-shadow      : 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+
+      // flex-direction: column;
+      .text {
+        width      : 100%;
+        align-items: center;
+        font-size  : 3vw;
+        padding    : 2vw;
+        min-height : 20vh;
+        max-height : 70vh;
+        overflow-y : scroll;
+
+        p {
+          width    : 95%;
+          display  : flex;
+          flex-wrap: wrap;
+          margin   : 2%;
+        }
+      }
+
+      .hide-div {
+        width        : 7vw;
+        height       : 7vw;
+        position     : absolute;
+        top          : -3vw;
+        left         : -3vw;
+        z-index      : 10000;
+        border-radius: 50%;
+        cursor       : pointer;
+
+        &::before {
+          content          : "";
+          width            : 96%;
+          height           : 99%;
+          position         : absolute;
+          border-radius    : 50%;
+          top              : 0.1vw;
+          left             : -0.2vw;
+          background-image : url("../images/close.png");
+          background-size  : contain;
+          background-repeat: no-repeat;
+        }
+
+        .hidden {
+          background-color: #d8edef;
+          width           : 15vw;
+          height          : 6vw;
+          display         : block;
+          text-align      : center;
+          padding         : 2% !important;
+          border-radius   : 7px;
+          align-items     : flex-end;
+          font-size       : 2.5vw;
+          display         : none;
+        }
+      }
+    }
+
+    .modal-over {
+      position        : fixed;
+      left            : 0;
+      bottom          : 0;
+      right           : 0;
+      height          : 100%;
+      width           : 100%;
+      background-color: #00000087;
+      z-index         : 1002;
+      display         : flex;
+      justify-content : center;
+      align-items     : center;
+    }
+
+    .model-popup.active {
+      pointer-events: auto;
+      z-index       : 1003;
+      // opacity: 1;
+      display       : block !important;
+    }
+
+    .popup {
+      justify-content: center;
+      align-items    : center;
+      display        : flex;
+      margin-top     : 6% !important;
+      position       : relative;
+
+      .image {
+        width          : 100%;
+        justify-content: center;
+        display        : flex;
+
+        img {
+          width : 50%;
+          height: 12vw;
+        }
+      }
+
+      .text-block {
+        position       : absolute;
+        text-align     : center;
+        width          : 50%;
+        height         : 12vw;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        cursor         : pointer;
+
+        p {
+          text-align: center;
+          font-size : 3.5vw;
+          position  : relative;
+        }
+
+        .help {
+          width              : 5vw;
+          height             : 6vw;
+          // position: absolute;
+          animation          : changeposition 0.5s linear 0.2s infinite alternate;
+          background-image   : url(../images/help.png);
+          background-position: center;
+          background-repeat  : no-repeat;
+          background-size    : 100% 100%;
+          position           : absolute;
+          transform          : rotate(-22deg);
+        }
+      }
+    }
+  }
+
+  .f-content {
+    display    : flex;
+    align-items: center;
+  }
+
+  .fraction,
+  .dividing {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-direction  : column;
+    background-color: transparent !important;
+    margin-left     : 0.5vw;
+    margin-right    : 0.5vw;
+    width           : auto;
+    position        : relative;
+
+    .line {
+      border-bottom   : 0.2vw solid #000000;
+      width           : 100%;
+      // margin-bottom: 0.8vw;
+    }
+
+    .up,
+    .down,
+    .upp {
+      text-align: center;
+      display   : flex;
+      height    : 6vw;
+
+      p,
+      .ans {
+        margin     : 0.5vw 1vw 1vw 0.5vw !important;
+        padding    : 0 1.5vw;
+        display    : flex;
+        align-items: center;
+        font-size  : 3vw;
+      }
+    }
+
+    .up,
+    .upp {
+
+      p,
+      .ans {
+        margin-top: 2vw !important;
+      }
+    }
+
+    .down {
+      input {
+        margin-top: 1.5vw !important;
+      }
+    }
+  }
+}

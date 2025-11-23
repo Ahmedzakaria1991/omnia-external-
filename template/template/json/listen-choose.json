@@ -1,0 +1,56 @@
+[{
+    "nameId": "listen-choose",
+    "title": "Choose",
+    "finshedChoose": false,
+    "subject": "eng-6",
+    "colorTemplate": "#F28599",
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "quizChooses": [{
+        "id": 1,
+        "paragraph": "what's wrong?",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 3,
+        "answers": [{
+                "numAnswer": 1,
+                "toChoose": "information",
+                "audio": "../../../assets/audio/information.mp3",
+                "right": false,
+                "checked": false
+            },
+            {
+                "numAnswer": 2,
+                "toChoose": "trash",
+                "audio": "../../../assets/audio/trash.mp3",
+                "right": false,
+                "checked": false
+            },
+            {
+                "numAnswer": 3,
+                "toChoose": "celebration",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+            },
+            {
+                "numAnswer": 4,
+                "toChoose": "celebration",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+            }
+        ]
+    }]
+}]

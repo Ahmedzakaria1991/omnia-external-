@@ -1,0 +1,204 @@
+body {
+    .general {
+        &.correct {
+            .head {
+                .title {
+                    background-image: url("../images/titles/title-06.png") !important;
+                }
+            }
+
+            .container {
+                .textinput {
+                    .icon-index {
+                        background-image: url("../images/icons/icon-06.png") !important;
+                    }
+
+                    .inputs {
+                        input {
+                            background-color: #e0e9d1 !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        &#Mostala7 {
+            .head {
+                .title {
+                    background-image: url("../images/titles/title-01.png");
+                }
+            }
+
+            .container {
+                .textinput {
+                    display: flex;
+                    justify-content: space-between !important;
+                    align-items: flex-start;
+                    margin: 1vw;
+                    width: 100%;
+
+                    .text {
+                        display: flex;
+                        width: 70%;
+
+                        .question {
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-wrap: wrap;
+                            width: 100%;
+                            align-items: center;
+
+                            .wrong-word {
+                                font-size: 3vw;
+                                color: #f36759;
+                                margin-right: 1%;
+                                margin-left: 1%;
+                                // text-decoration: underline;
+                                border-bottom: 0.2vw solid #f36759;
+                            }
+
+                            .image {
+                                width: 7vw;
+                                height: 5vh
+                            }
+                        }
+
+                        .icon-index {
+                            background-image: url("../images/icons/icon-01.png");
+                        }
+
+                        .paragraphe {
+                            font-size: 3vw;
+                        }
+                    }
+
+                    .inputs {
+                        width: 30%;
+                        height: 6vw;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin: 0 0.5vw 0.5vw 0;
+
+                        .in {
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        &.showAnswer,
+                        &.done {
+                            .answer {
+                                opacity: 1;
+                                pointer-events: auto;
+                            }
+                        }
+
+                        &.done {
+                            .check-input {
+                                &.wrong {
+                                    &::before {
+                                        content: none;
+                                    }
+                                }
+
+                                &.right {
+                                    &::before {
+                                        content: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .answer {
+                            background-image: url("../images/answerq.png");
+                            width: 3vw;
+                            height: 3vw;
+                            opacity: 0;
+                            pointer-events: none;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+
+                            &.disabled {
+                                background-image: url("../images/answerqd.png");
+                                width: 3vw;
+                                height: 3vw;
+                                pointer-events: none;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                            }
+                        }
+
+                        // position: relative;
+                        .check-input {
+                            position: relative;
+
+                            &.right {
+                                &:before {
+                                    content: '';
+                                    position: absolute;
+                                    width: 2.5vw;
+                                    height: 2.5vw;
+                                    top: -0.5vw;
+                                    left: -0.5vw;
+                                    z-index: 5;
+                                    background-image: url("../images/true.png");
+                                    background-repeat: no-repeat;
+                                    background-size: contain;
+                                }
+                            }
+
+                            &.wrong {
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    background-image: url("../images/false.png");
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    width: 2.5vw;
+                                    height: 2.5vw;
+                                    top: -0.5vw;
+                                    left: -0.5vw;
+                                    z-index: 5;
+                                }
+                            }
+
+
+                            input {
+                                min-width: 15vw !important;
+                                height: 5.5vw;
+                                display: flex;
+                                justify-content: center !important;
+                                align-items: center;
+                                margin: 0.5vw 1vw 0.5vw 0.5vw;
+                                border: 0;
+                                text-align: center;
+                                font-size: 3vw;
+                                border: 0;
+                                background-color: #b1dbe8;
+                                border-radius: 1.5vw;
+                                outline: none;
+                                position: relative;
+
+                                &.right {
+                                    pointer-events: none;
+                                    color: #39b54a;
+                                    background-color: transparent !important;
+                                }
+
+                                &.wrong {
+                                    border: .2vw solid #ee2b33;
+                                    color: #ee2b33;
+                                }
+
+                                &.show {
+                                    background-color: transparent !important;
+                                    pointer-events: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

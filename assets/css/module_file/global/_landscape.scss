@@ -1,0 +1,1114 @@
+@media (orientation: landscape) {
+  body {
+    @for $i from 1 through 100 {
+      .w#{$i}length {
+        width: #{$i + 6vw "!important"};
+      }
+    }
+
+    @keyframes changeposition {
+      from {
+        top : -5.5vw;
+        left: -2vw;
+      }
+
+      to {
+        top : -4.5vw;
+        left: -1vw;
+      }
+    }
+
+    .toggle-sound {
+      width            : 5vw;
+      height           : 5vw;
+      background-image : url(../../assets/images/music.png);
+      background-size  : 100% 100%;
+      background-repeat: no-repeat;
+      position         : absolute;
+      left             : 1vw;
+      top              : 0.5vw;
+    }
+
+    .general {
+
+      &#listen-choose {
+
+        .container {
+          .quizChoose {
+            .paragraph {
+              .answers {
+                .soundQ {
+                  width : 4vw !important;
+                  height: 4vw !important;
+                  margin: 0;
+
+                  .sound-player {
+                    width : 4vw !important;
+                    height: 4vw !important;
+                  }
+
+                }
+              }
+
+            }
+          }
+        }
+      }
+
+      .resetdata {
+
+        .reset {
+          width : 5.5vw;
+          height: 5.5vw;
+          left  : 7vw;
+          top   : 0.3vw;
+
+        }
+      }
+
+
+      .head {
+        .title {
+          width     : 40vw !important;
+          height    : 7vw;
+          font-size : 3vw;
+          margin-top: 0.5vw;
+        }
+      }
+
+      &#trueFalse {
+        .container {
+          padding: 2vw 2vw 2vw 3vw;
+        }
+      }
+
+      .soundQ {
+        width : 6vw;
+        height: 6vw !important;
+
+        .sound-player {
+          width : 6vw !important;
+          height: 6vw !important;
+        }
+      }
+
+      .container {
+        width  : 97.5%;
+        padding: 2vw;
+
+        p {
+          font-size: 2.2vw;
+        }
+
+        .icon-index {
+          width    : 4vw;
+          height   : 4vw;
+          font-size: 2.2vw;
+        }
+
+        &.finshed,
+        .finished {
+          &::after {
+            transform: translate(-43vw, -9vw);
+            width    : 6vw !important;
+            height   : 6vw !important;
+            bottom   : 0;
+          }
+        }
+
+        .model-popup {
+          .hide-div {
+            width : 5vw;
+            height: 5vw;
+            top   : -3vw;
+            left  : -2vw;
+          }
+        }
+      }
+
+      &.eng,
+      &.eng-4,
+      &.eng-5,
+      &.eng-6 {
+        .container {
+
+          &.finshed::after,
+          .finished::after {
+            transform: translate(45vw, 15vw) !important;
+            bottom   : 30vw !important;
+          }
+        }
+
+        .bottom {
+          .image {
+            left: 85vw !important;
+          }
+        }
+
+        &#DragDropSlide,
+        &#input-slide {
+          .container {
+            .mySlides {
+              .prev {
+                left: 5% !important;
+              }
+            }
+          }
+        }
+
+        &#mokaly {
+          .container {
+            .title {
+              margin-right: 5vw;
+            }
+
+            padding: 0 2vw 2vw 2vw;
+
+            .mySlides {
+              .prev {
+                left: 5% !important;
+              }
+            }
+          }
+        }
+
+        .popup {
+          margin-top: 6% !important;
+
+          .image {
+            img {
+              width : 35% !important;
+              height: 8vw !important;
+            }
+          }
+
+          .text-block {
+            p {
+              font-size: 2.4vw !important;
+            }
+
+            .help {
+              width    : 3vw !important;
+              height   : 4vw !important;
+              right    : 960px !important;
+              animation: changeposition-en 0.5s linear 0.2s infinite alternate;
+            }
+          }
+        }
+
+        @keyframes changeposition-en {
+          from {
+            top : -4vw;
+            left: 60vw;
+          }
+
+          to {
+            top : -3vw;
+            left: 59vw;
+          }
+        }
+
+        @keyframes changeposition-en-truefalse {
+          from {
+            top  : -6vw;
+            right: -2vw;
+          }
+
+          to {
+            top  : -4vw;
+            right: -1vw;
+          }
+        }
+
+        @keyframes changeposition-en-truefalse-true {
+          from {
+            top  : -5vw;
+            right: -2vw;
+          }
+
+          to {
+            top  : -4vw;
+            right: -1vw;
+          }
+        }
+      }
+
+      .model-popup {
+        min-height   : 8vh;
+        max-height   : 70vh;
+        border-radius: 7px;
+
+        .text {
+          font-size: 2.4vw;
+
+          p {
+            margin: 2%;
+          }
+        }
+
+        .hide-div {
+          .hidden {
+            width    : 10vw;
+            height   : 5vw;
+            font-size: 2.4vw;
+            padding  : 1% !important;
+          }
+        }
+      }
+
+      .model-popup.active {
+        top: 5%;
+      }
+
+      .popup {
+        margin-top: 6% !important;
+
+        .image {
+          img {
+            width : 35%;
+            height: 8vw;
+          }
+        }
+
+        .text-block {
+          width : 35%;
+          height: 8vw;
+
+          p {
+            font-size: 2.4vw;
+          }
+
+          .help {
+            width    : 3vw;
+            height   : 4vw;
+            animation: changeposition 0.5s linear 0.2s infinite alternate;
+          }
+        }
+      }
+
+      &#DragAndDrop,
+      &#DragAndDroptable,
+      &#DragDropSlide {
+        .head {
+          .title {
+            width    : 45vw !important;
+            height   : 7vw;
+            font-size: 3vw;
+          }
+        }
+
+        .container {
+          #card-dragg {
+            min-height   : 14vw !important;
+            margin-bottom: 2% !important;
+
+            .draggable {
+              min-height: 4.5vw !important;
+              margin    : 1vw !important;
+              min-width : 14vw !important;
+              font-size: 2.2vw!important;
+            }
+          }
+
+          #card-dropp {
+            .textindex {
+              margin-top: 1% !important;
+
+              .droppable {
+                min-height: 4.5vw !important;
+                min-width : 14vw !important;
+                margin-top: 0% !important;
+                font-size: 2.2vw!important;
+              }
+            }
+          }
+
+          .mySlides {
+            .next {
+              height: 4vw;
+              width : 4vw;
+              right : 8.5%;
+            }
+
+            .prev {
+              height: 4vw;
+              width : 4vw;
+            }
+          }
+        }
+      }
+
+      &#DragAndDroptable {
+        .head {
+          .title {
+            width    : 45vw !important;
+            height   : 7vw;
+            font-size: 3vw;
+          }
+        }
+
+        .container {
+          #card-dragg {
+            min-height   : 7vw !important;
+            margin-bottom: 4vw !important;
+          }
+
+          #card-dropp {
+            .items-droparea {
+              margin-top: 2% !important;
+
+              .droparea-r,
+              .droparea-l {
+                padding            : 4vw 2vw 1vw;
+                border-top-width   : 1vw;
+                border-right-width : 0.6vw;
+                border-bottom-width: 1vw;
+                border-left-width  : 0.6vw;
+                width              : 100%;
+                height             : 65%;
+              }
+
+              .title-d {
+                width    : 30vw;
+                font-size: 3vw;
+                height   : 7vw;
+              }
+
+              .right,
+              .left {
+                width : 40%;
+                height: 50vw;
+              }
+
+              .droppable {
+                height    : 5vw !important;
+                min-width : 25vw !important;
+                margin-top: 1% !important;
+              }
+            }
+          }
+        }
+      }
+
+      &#DragAndDropimage {
+        .head {
+          .title {
+            width    : 45vw !important;
+            height   : 7vw;
+            font-size: 3vw;
+          }
+        }
+
+        .container {
+          #card-dragg {
+            margin-bottom: 1% !important;
+            min-height   : 14vh;
+
+            .draggable {
+              min-height: 4.5vw !important;
+              margin    : 1vw !important;
+              min-width : 12vw !important;
+              font-size: 2.2vw!important;
+            }
+          }
+
+          #card-dropp {
+            .textindex {
+              width     : 25% !important;
+              margin-top: 1% !important;
+
+              .question {
+                .divOfdDrop {
+                  .droppable {
+                    min-height: 4.5vw !important;
+                    min-width : 12vw !important;
+                  }
+
+                  .divWithImage {
+                    .image {
+                      height: 12vw;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#DragAndDropRearrange {
+        .head {
+          .title {
+            width    : 45vw !important;
+            height   : 7vw;
+            font-size: 3vw;
+          }
+        }
+
+        .container {
+          .items {
+            .card-dragg {
+              min-height: 8vw !important;
+
+              .draggable {
+                min-width: 10vw;
+                height   : 4vw;
+                padding  : 0;
+                margin   : 0vw 1vw 1vw 1vw !important;
+                font-size: 2.2vw!important;
+                .first-word {
+                  font-size: 2.2vw;
+                }
+              }
+            }
+          }
+
+          .card-dropp {
+            .droppable {
+              min-width: 10vw;
+              height   : 4vw;
+              font-size: 2.2vw!important;
+            }
+          }
+        }
+      }
+
+      &#DragAndDropMostala7 {
+        .head {
+          .title {
+            width    : 45vw !important;
+            height   : 7vw;
+            font-size: 3vw;
+          }
+        }
+
+        .container {
+          #card-dragg {
+            min-height: 10vh !important;
+
+            .draggable {
+              min-width : 12vw;
+              min-height: 4.5vw;
+              font-size: 2.2vw!important;
+            }
+          }
+
+          #card-dropp {
+            .textindex {
+              .question {
+                .divOfDrop {
+                  .droppable {
+                    min-width : 20vw !important;
+                    min-height: 4.5vw !important;
+                    font-size: 2.2vw!important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#Connectimgs {
+        .container {
+          p {
+            font-size: 2.2vw;
+          }
+
+          .data {
+
+            .columnRight,
+            .columnLeftimg {
+              .row-text {
+                margin       : 0.5vw 0;
+                height       : 19vw !important;
+                margin-left  : 2% !important;
+                border-radius: 3.5vw;
+
+                .pragraph {
+                  border-radius: 3.5vw;
+
+                  .image {
+                    width : 45% !important;
+                    height: 40% !important;
+                  }
+
+                  .icon-index {
+                    height    : 3vw;
+                    width     : 3vw;
+                    font-size : 2.2vw;
+                    margin-top: 0vw;
+                  }
+
+                  .cointDrag {
+                    border-radius: 3.5vw;
+
+                    .point {
+                      border-radius: 3.5vw;
+                    }
+                  }
+                }
+              }
+            }
+
+            .columnLeft {
+              margin-top: 8% !important;
+
+              .row-text {
+                margin       : 0.5vw 0;
+                margin-left  : 2% !important;
+                min-height   : 12vw !important;
+                border-radius: 3.5vw;
+
+                .pragraph {
+                  .text {
+                    font-size: 2.2vw;
+                  }
+
+                  .cointDrag {
+                    border-radius: 3.5vw;
+
+                    .point {
+                      border-radius: 3.5vw;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#Conect {
+        .container {
+          p {
+            font-size: 2.2vw;
+          }
+
+          .icons-data {
+            margin-top: 5%;
+
+            .right-icon,
+            .left-icon {
+              div {
+                width : 10vw;
+                height: 5vw;
+
+                p {
+                  font-size: 3vw;
+                }
+              }
+            }
+          }
+
+          .data {
+
+            .columnRight,
+            .columnLeft {
+              .row-text {
+                min-height: 6vw;
+                margin    : 1vw 0;
+
+                .text {
+                  .icon-index {
+                    width    : 3.5vw;
+                    height   : 3.5vw;
+                    font-size: 2vw;
+                  }
+
+                  .pragraph {
+                    font-size: 2.5vw;
+                  }
+                }
+
+                .cointDrag {
+                  border-radius: 3.5vw;
+
+                  .point {
+                    border-radius: 3.5vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#truefalse,
+      &#trueslide,
+      &#gtorlt,
+      &#punctuate {
+        .container {
+          .quizChoose {
+            .choosequestion {
+              .help {
+                width    : 3vw;
+                height   : 4vw;
+                animation: changeposition-true 0.5s linear 0.2s infinite alternate !important;
+              }
+
+              .answer {
+
+                &.true,
+                &.false {
+                  &::before {
+                    content: "";
+                    width  : 2.5vw;
+                    height : 2.5vw;
+                    top    : -2vw;
+                    left   : -2vw;
+                  }
+                }
+              }
+            }
+
+            .paragraph {
+              .image {
+                width : 4.5vw;
+                height: 4.5vw;
+              }
+            }
+          }
+        }
+
+        &.eng,
+        &.eng-4,
+        &.eng-5,
+        &.eng-6 {
+          .container {
+            .quizChoose {
+              .choosequestion {
+                .help {
+                  width    : 3vw;
+                  height   : 4vw;
+                  animation: changeposition-en-truefalse 0.5s linear 0.2s infinite alternate !important;
+                }
+
+                .answer {
+
+                  &.true,
+                  &.false {
+                    &::before {
+              
+                      width  : 2.5vw;
+                      height : 2.5vw;
+                      top    : -2vw;
+                      left   : -2vw;
+                    }
+                  }
+                }
+              }
+
+              .paragraph {
+                .image {
+                  width : 4.5vw;
+                  height: 4.5vw;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#trueslide {
+
+        &.eng,
+        &.eng-4,
+        &.eng-5,
+        &.eng-6 {
+          .container {
+            .quizChoose {
+              .choosequestion {
+                .help {
+                  width    : 3vw;
+                  height   : 4vw;
+                  animation: changeposition-en-truefalse-true 0.5s linear 0.2s infinite alternate !important;
+                }
+
+                .answer {
+
+                  &.true,
+                  &.false {
+                    &::before {
+                      content: "";
+                      width  : 2.5vw;
+                      height : 2.5vw;
+                      top    : -2vw;
+                      left   : -2vw;
+                    }
+                  }
+                }
+              }
+
+
+            }
+          }
+        }
+      }
+
+      @keyframes changeposition-true {
+        from {
+          top  : -4vw;
+          right: 1vw;
+        }
+
+        to {
+          top  : -5vw;
+          right: 1vw;
+        }
+      }
+
+      &#trueslide {
+        .content {
+          height: 72vh;
+        }
+      }
+
+      &#input-left-images,
+      &#inputValidation,
+      &#inputwithimgs,
+      &#input-slide {
+        .container {
+          .textinput {
+            margin-top: 1.5vw;
+          }
+
+          .content{
+            padding-bottom: 7vw;
+          }
+
+          .paragraphe {
+            font-size: 2.2vw;
+          }
+
+          .inputs {
+            width : auto;
+            height: 4.5vw;
+
+            input {
+              width    : 10vw;
+              height   : 4vw;
+              font-size: 2.4vw;
+            }
+
+            .answer {
+              width : 2.2vw;
+              height: 2.2vw;
+
+              &.disabled {
+                width : 2.2vw;
+                height: 2.2vw;
+              }
+            }
+          }
+        }
+      }
+
+      &#inputwithimgs {
+        .container {
+          .f-around {
+            .w-cub {
+              width: 30%;
+            }
+          }
+
+          .paragraphe {
+            font-size: 2.2vw;
+          }
+
+          .inputs {
+            .in {
+              .answer {
+                width : 2.2vw;
+                height: 2.2vw;
+
+                &.disabled {
+                  width : 2.2vw;
+                  height: 2.2vw;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#input-left-images {
+        &.general {
+          &.left-imag {
+            .container {
+              .content-left {
+                height: 40% !important;
+
+                .image {
+                  img {
+                    width: 30%;
+                  }
+                }
+              }
+
+              .mySlides {
+                .next {
+                  right: 8.5%;
+                }
+
+                .prev,
+                .next {
+                  bottom: 5%;
+                  height: 3vw;
+                  width : 3vw;
+                }
+              }
+            }
+
+            .model-popup {
+              .text {
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+                height         : 100%;
+                width          : 100%;
+
+                .image {
+                  display        : flex;
+                  justify-content: center;
+                  align-items    : center;
+                  width          : 100%;
+                  height         : 100%;
+                }
+              }
+
+              &.active {
+                height         : 50%;
+                width          : 50%;
+                box-shadow     : none;
+                background     : transparent;
+                top            : 5%;
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+              }
+            }
+
+            .popup {
+              margin-top: 16% !important;
+
+              .text-block {
+                .help {
+                  right: 5vw;
+                }
+              }
+            }
+          }
+        }
+
+        .finished {
+          top: -36vw;
+        }
+      }
+
+      &#Mostala7 {
+        .container {
+          .textinput {
+            .text {
+              width: 85%;
+
+              .paragraphe {
+                font-size: 2.2vw;
+              }
+
+              .question {
+                .wrong-word {
+                  font-size: 2.2vw;
+                }
+
+                .image {
+                  width : 4.5vw;
+                  height: 4.5vw;
+                }
+              }
+            }
+
+            .inputs {
+              .check-input {
+                input {
+                  min-width: 10vw;
+                  height   : 4.5vw;
+                  font-size: 2.4vw;
+                }
+              }
+
+              .answer {
+                width : 2.2vw;
+                height: 2.2vw;
+              }
+            }
+          }
+        }
+      }
+
+      &#mokaly,
+      &#input-slide,
+      &#choose-slide {
+        .container {
+          padding: 0 2vw 2vw 2vw;
+
+          .head {
+            .title {
+              margin-right: 3vw;
+            }
+          }
+
+          .mySlides {
+            .next {
+              right: 8.5%;
+            }
+
+            .prev,
+            .next {
+              bottom: 5%;
+              height: 3vw;
+              width : 3vw;
+            }
+          }
+        }
+
+        .mokaly-model-popup,
+        .input-model-popup {
+          min-height   : 20vh;
+          max-height   : 70vh;
+          border-radius: 7px;
+          margin       : 5vw;
+
+          .hide-div {
+            width : 6vw;
+            height: 6vw;
+          }
+
+          .text {
+            width    : 100%;
+            font-size: 2.4vw;
+          }
+        }
+
+        .mokaly-popup,
+        .input-popup {
+          .text-block {
+            height: 5vw;
+
+            p {
+              font-size: 2.4vw;
+            }
+
+            .help {
+              width : 3vw;
+              height: 4vw;
+            }
+          }
+        }
+      }
+
+      &#choose,
+      &#choose-slide {
+        .container {
+          padding: 0 2vw 2vw 2vw;
+
+          .paragraph {
+            .soundQ {
+              width : 4vw;
+              height: 4vw !important;
+
+              .sound-player {
+                width : 4vw !important;
+                height: 4vw !important;
+              }
+            }
+          }
+
+          .quizChoose {
+            .answers {
+              p {
+                min-width : 15vw;
+                min-height: 5vw;
+              }
+
+              .box {
+
+                &.checked,
+                &.right {
+                  &::before {
+                    width : 2.5vw;
+                    height: 2.5vw;
+                    top   : -1.5vw;
+                    left  : -1.5vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .bottom {
+        left  : 0;
+        bottom: 0;
+
+        svg {
+          .st0 {
+            opacity: 0.4;
+          }
+
+          .st1 {
+            fill: #4e4545;
+          }
+        }
+
+        .portairt {
+          display: none;
+        }
+
+        .landscape {
+          display: block;
+        }
+
+        .image {
+          width : 13vw;
+          height: 13vw;
+          left  : 1vw;
+          bottom: 1.5vw;
+
+          img {
+            width : 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      // }
+
+      .fraction,
+      .dividing {
+        width: auto !important;
+
+        .up,
+        .down,
+        .upp {
+          height: 5vw;
+
+          p,
+          .ans {
+            margin   : 0.5vw 1vw 1vw 0.5vw !important;
+            padding  : 0 0.5vw;
+            font-size: 2.2vw;
+          }
+        }
+
+        .up,
+        .upp {
+          p {
+            margin-top: 2vw !important;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@for $i from 1 through 100 {
+    .w#{$i}length {
+        width: #{$i+ 9vw '!important'};
+    }
+}
+@for $i from 1 through 100 {
+    .w#{$i}v {
+        width: #{$i+ 'vw !important'};
+    }
+}
+@for $i from 1 through 100 {
+    .h#{$i}v {
+        height: #{$i+ 'vw !important'};
+    }
+}
+
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+}

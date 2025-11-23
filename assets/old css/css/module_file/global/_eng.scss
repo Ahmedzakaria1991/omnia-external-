@@ -1,0 +1,284 @@
+    body {
+        .general {
+            &.eng-4,
+            &.eng-5,
+            &.eng-6 {
+                direction: ltr;
+                font-family: English;
+                .head {
+                    .title {
+                        font-family: English;
+                        margin-right: unset;
+                    }
+                }
+                &#Conect {
+                    .m1l {
+                        margin-left: 1vw;
+                    }
+                }
+                &#trueFalse,
+                &#gtorlt,
+                &#punctuate,
+                &#trueSlide {
+                    .container {
+                        .quizChoose {
+                            .choosequestion {
+                                .answer {
+                                    &.false,
+                                    &.true {
+                                        &::before {
+                                            left: 4vw
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .container {
+                    &.finshed::after,
+                    .finished::after {
+                        content: "";
+                        position: absolute;
+                        background-image: url(../images/finshed.png);
+                        background-size: 100% 100%;
+                        transform: translate(40vw, 15vw);
+                        width: 12vw;
+                        height: 12vw;
+                        bottom: 35vw;
+                    }
+                }
+                .bottom {
+                    .image {
+                        left: 72vw;
+                    }
+                    svg {
+                        transform: rotateY(180deg);
+                    }
+                }
+                // Choose ...
+                &#choose,
+                &#listen-choose {
+                    .container {
+                        .quizChoose {
+                            .answers {
+                                .box,
+                                .sound-box {
+                                    &.checked,
+                                    &.right {
+                                         ::before {
+                                            right: -2vw;
+                                            left: unset;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // Input ...
+                &#inputValidation,
+                &#inputwithimgs,
+                &#input-slide,
+                &#DragAndDroptable,
+                &#DragDropSlide {
+                    .container {
+                        .inputs {
+                            .check-input {
+                                &.wrong,
+                                &.right {
+                                    &::before {
+                                        left: unset;
+                                        right: -0.5vw;
+                                    }
+                                }
+                            }
+                        }
+                        .mySlides {
+                            .prev {
+                                background-image: url(../images/scroll2.png);
+                                left: 2%;
+                            }
+                            .next {
+                                background-image: url(../images/scroll1.png);
+                                left: 10%;
+                            }
+                        }
+                    }
+                }
+                &#Mostala7 {
+                    .container {
+                        .textinput {
+                            .inputs {
+                                .check-input {
+                                    &.wrong,
+                                    &.right {
+                                        &::before {
+                                            left: unset;
+                                            right: -0.5vw;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &#mokaly {
+                    .container {
+                        .head {
+                            .title {
+                                font-family: English;
+                                margin-right: unset;
+                            }
+                        }
+                        .mySlides {
+                            .prev {
+                                background-image: url(../images/scroll2.png);
+                                left: 2%;
+                            }
+                            .next {
+                                background-image: url(../images/scroll1.png);
+                                left: 10%;
+                            }
+                        }
+                    }
+                    .mokaly-popup {
+                        .text-block {
+                            position: relative;
+                            p {
+                                font-size: 3.5vw;
+                            }
+                            .help {
+                                animation: changeposition-eng2 .5s linear .2s infinite alternate;
+                                right: -1vw;
+                                transform: rotate(36deg);
+                                top: -6vw;
+                            }
+                        }
+                    }
+                }
+                .popup {
+                    justify-content: center;
+                    display: flex;
+                    margin-top: 6% !important;
+                    position: relative;
+                    .image {
+                        width: 100%;
+                        justify-content: center;
+                        display: flex;
+                        position: relative;
+                        img {
+                            width: 50%;
+                            height: 12vw;
+                        }
+                    }
+                    .text-block {
+                        position: absolute;
+                        // bottom: 20px;
+                        text-align: center;
+                        width: 100%;
+                        p {
+                            text-align: center;
+                            font-size: 3.5vw;
+                            position: relative;
+                        }
+                        .help {
+                            width: 5vw;
+                            height: 6vw;
+                            // position: absolute;
+                            animation: changeposition-eng .5s linear .2s infinite alternate;
+                            background-image: url(../images/help.png);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                            position: absolute;
+                            right: 27vw;
+                            transform: rotate(36deg);
+                            top: -5vw;
+                        }
+                    }
+                }
+                &#trueSlide,
+                &#choose-slide,
+                &#input-slide {
+                    .head {
+                        .title {
+                            margin-right: unset;
+                        }
+                    }
+                    .input-popup {
+                        .text-block {
+                            .help {
+                                animation: changeposition-eng2 .5s linear .2s infinite alternate;
+                                right: -1vw;
+                                transform: rotate(36deg);
+                                top: -6vw;
+                            }
+                        }
+                    }
+                    .mySlides {
+                        .prev {
+                            background-image: url(../images/scroll2.png);
+                            left: 2%;
+                        }
+                        .next {
+                            background-image: url(../images/scroll1.png);
+                            left: 10%;
+                        }
+                    }
+                }
+                &#trueFalse,
+                &#trueSlide,
+                &#gtorlt,
+                &#punctuate {
+                    .soundQ {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                    .container {
+                        .quizChoose {
+                            .choosequestion {
+                                .help {
+                                    animation: changeposition-eng3 .5s linear .2s infinite alternate;
+                                    right: -1vw;
+                                    transform: rotate(36deg);
+                                    top: -6vw;
+                                }
+                            }
+                        }
+                    }
+                }
+                @keyframes changeposition-eng {
+                    from {
+                        top: -5vw;
+                        left: 65vw;
+                    }
+                    to {
+                        top: -4vw;
+                        left: 64vw;
+                    }
+                }
+                @keyframes changeposition-eng2 {
+                    from {
+                        top: -8vw;
+                        left: 16vw;
+                    }
+                    to {
+                        top: -5.5vw;
+                        left: 15vw;
+                    }
+                }
+                @keyframes changeposition-eng3 {
+                    from {
+                        top: -8vw;
+                        left: 4vw;
+                    }
+                    to {
+                        top: -5.5vw;
+                        left: 3vw;
+                    }
+                }
+            }
+        }
+    }

@@ -1,0 +1,184 @@
+[{
+    "nameId": "",
+    "title": "",
+    "subject": "math-6",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "inputSlide": [{
+        "active": true,
+        "title": "هَاتِ مَا يَأْتِى",
+        "items": [{
+                "id": 1,
+                "type": 2,
+                "index": "أ",
+                "fraction": true,
+                "contents": [{
+                    "paragraphes1": [
+                        ""
+                    ],
+                    "inputtype": [{
+                        "length": 0,
+                        "numperofinput": 0,
+                        "comma": "",
+                        "valid": [
+                            ""
+                        ],
+                        "show": [
+                            ""
+                        ]
+                    }],
+                    "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 1,
+                            "comma": "",
+                            "valid": [
+                                "1"
+                            ],
+                            "show": [
+                                "1"
+                            ]
+                        },
+                        {
+                            "length": 0,
+                            "numperofinput": 1,
+                            "comma": "",
+                            "valid": [
+                                "2"
+                            ],
+                            "show": [
+                                "2"
+                            ]
+                        }
+                    ],
+                    "paragraphes2": [
+                        "="
+                    ],
+                    "paragraphes3": [],
+                    "paragraphes4": [
+                        ""
+                    ],
+                    "up1": "عدد المثلثات الزرقاء",
+                    "down1": "عدد المثلثات الحمراء",
+                    "up2": "12",
+                    "down2": "11"
+                }],
+                "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    },
+                    {
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "type": 2,
+                "index": "r",
+                "fraction": false,
+                "contents": [{
+                    "paragraphes1": [
+                        "hi"
+                    ],
+                    "inputtype": [{
+                        "length": 0,
+                        "numperofinput": 0,
+                        "comma": "",
+                        "valid": [
+                            ""
+                        ],
+                        "show": [
+                            ""
+                        ]
+                    }],
+                    "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 1,
+                            "comma": "",
+                            "valid": [
+                                "1"
+                            ],
+                            "show": [
+                                "1"
+                            ]
+                        },
+                        {
+                            "length": 0,
+                            "numperofinput": 1,
+                            "comma": "",
+                            "valid": [
+                                "2"
+                            ],
+                            "show": [
+                                "2"
+                            ]
+                        }
+                    ],
+                    "paragraphes2": [],
+                    "paragraphes3": [
+                        " eeeeeeee ehhhhddddeeeeeeee ",
+                        "e eeeeeeh hhhhhhhhhhh hhhhhh hhhhhu uuuuuuuuuuuu uuuuuuuuuu uuuu uhhhhhe eeeeeee"
+                    ],
+                    "paragraphes4": [
+                        ""
+                    ],
+                    "up": "",
+                    "down": ""
+                }],
+                "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    },
+                    {
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }
+                ]
+            }
+        ],
+        "popupQuestion": [{
+            "id": 5,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [
+                "",
+                ""
+            ],
+            "isActive": null
+        }]
+    }],
+    "popup": false,
+    "popuptext": ""
+}]
