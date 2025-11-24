@@ -1,11 +1,12 @@
 [
   {
-    "nameId": "choose-slide",
-    "title": "اختر الاجابة الصحيحة",
-    "finshedChoose": false,
+    "nameId": "",
+    "title": "",
+    "subject": "arabic-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
     "hand": true,
-    "subject": "arabic-5 ",
-    "colorTemplate": "#AAD1EA",
     "counterCorrect": 0,
     "LODegree": null,
     "UserDegree": null,
@@ -17,178 +18,179 @@
     "popuptext": "",
     "popup": "",
     "passageHand": true,
-    "chooseSlide": [
+    "inputSlide": [
       {
         "active": true,
-        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "title": "استمِعْ، ثُمَّ أجِبْ:",
         "popuptext": [],
-        "quizChooses": [
+        "paragraph1": [],
+        "quran": [],
+        "paragraph2": [],
+        "audio_in_page": "../sound/exe1.mp3",
+        "items": [
           {
             "id": 1,
-            "popup": "",
-            "paragraph": " ترَكَ كَريمٌ صُنْبورَ المِياهِ مَفتوحًا بعدَ غَسْلِ يدَيْه.",
-            "correctAnswer": [2],
-            "answerSelect": false,
-            "counter": 0,
             "type": 1,
-            "answers": [
+            "index": "أ",
+            "contents": [
               {
-                "numAnswer": 1,
-                "toChoose": "مفيد",
-                "right": false,
-                "checked": false
+                "paragraphes1": [
+                  "يُعَدُّ السَّدُّ العالي من أهَمِّ الحُلولِ لحِمايةِ مِياهِ "
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["نهر النيل"],
+                    "show": ["نهر النيل"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
               },
               {
-                "numAnswer": 2,
-                "toChoose": "  ضار",
-                "right": false,
-                "checked": false
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
               }
             ]
           },
           {
             "id": 1,
-            "popup": "",
-            "paragraph": " اشتَرَكَت فَاطمةُ في حَملةٍ لتنظِيفِ ضِفافِ نَهرِ النِّيلِ.",
-            "correctAnswer": [1],
-            "answerSelect": false,
-            "counter": 0,
             "type": 1,
-            "answers": [
+            "index": "ب",
+            "contents": [
               {
-                "numAnswer": 1,
-                "toChoose": "مفيد",
-                "right": false,
-                "checked": false
+                "paragraphes1": [
+                  "يُعَدُّ السَّدُّ العالي من أهَمِّ الحُلولِ لحِمايةِ مِياهِ "
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 3,
+                    "comma": "و",
+                    "valid": ["الصناعه", " الزراعه", "الشرب"],
+                    "show": ["الصناعه", " الزراعه", "الشرب"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
               },
               {
-                "numAnswer": 2,
-                "toChoose": "  ضار",
-                "right": false,
-                "checked": false
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
               }
             ]
           }
         ],
-        "popupQuestion": [
-          {
-            "id": 0,
-            "index": "4",
-            "paragraph": "",
-            "popup": [],
-            "isActive": null
-          }
-        ]
-      },
-      {
-        "active": false,
-        "title": "اختر الاجابة الصحيحة",
-        "popuptext": [],
-        "audio_in_page": "../sound/exe2.mp3",
-
-        "quizChooses": [
-          {
-            "id": 1,
-            "popup": "",
-            "paragraph": "  كتَبَت نُورُ لافتةً تَدعو للحِفاظِ على نَظافةِ النَّهرِ.",
-            "correctAnswer": [1],
-            "answerSelect": false,
-            "counter": 0,
-            "type": 1,
-            "answers": [
-              {
-                "numAnswer": 1,
-                "toChoose": "مفيد",
-                "right": false,
-                "checked": false
-              },
-              {
-                "numAnswer": 2,
-                "toChoose": "  ضار",
-                "right": false,
-                "checked": false
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "popup": "",
-            "paragraph": "  غَسِيلُ الأَسنانِ باستخدامِ كُوبِ مَاءٍ واحِدٍ. ",
-            "correctAnswer": [1],
-            "answerSelect": false,
-            "counter": 0,
-            "type": 1,
-            "answers": [
-              {
-                "numAnswer": 1,
-                "toChoose": "مفيد",
-                "right": false,
-                "checked": false
-              },
-              {
-                "numAnswer": 2,
-                "toChoose": "  ضار",
-                "right": false,
-                "checked": false
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "active": false,
-        "title": "اختر الاجابة الصحيحة",
-        "popuptext": [],
-        "audio_in_page": "../sound/exe3.mp3",
-
-        "quizChooses": [
-          {
-            "id": 1,
-            "popup": "",
-            "paragraph": " التَّخلُّصُ من المُخلَّفاتِ البِلاستِيكيَّةِ بإلْقائِها في النَّهرِ.",
-            "correctAnswer": [2],
-            "answerSelect": false,
-            "counter": 0,
-            "type": 1,
-            "answers": [
-              {
-                "numAnswer": 1,
-                "toChoose": "مفيد",
-                "right": false,
-                "checked": false
-              },
-              {
-                "numAnswer": 2,
-                "toChoose": "  ضار",
-                "right": false,
-                "checked": false
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "popup": "",
-            "paragraph": " شارَكْتَ مع المدرسةِ في حَملةِ تَوعِيَةٍ للحِفاظِ على مِياهِ النِّيل. ",
-            "correctAnswer": [1],
-            "answerSelect": false,
-            "counter": 0,
-            "type": 1,
-            "answers": [
-              {
-                "numAnswer": 1,
-                "toChoose": "مفيد",
-                "right": false,
-                "checked": false
-              },
-              {
-                "numAnswer": 2,
-                "toChoose": "  ضار",
-                "right": false,
-                "checked": false
-              }
-            ]
-          }
-        ]
+        "popupQuestion": [],
+        "pop": ""
       }
     ]
   }

@@ -1,12 +1,12 @@
 [
   {
     "nameId": "",
-    "title": "",
-    "subject": "arabic-5",
-    "colorTemplate": "#8388C6",
-    "counterFinished": 0,
-    "inputCounter": 0,
+    "title": "shgusugbu",
     "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
     "counterCorrect": 0,
     "LODegree": null,
     "UserDegree": null,
@@ -15,182 +15,84 @@
     "randomNumber": null,
     "loTargets": null,
     "numberOfquestion": null,
-    "popuptext": "",
     "popup": "",
-    "passageHand": true,
-    "inputSlide": [
+    "popuptext": "",
+
+    "quizChooses": [
       {
-        "active": true,
-        "title": "اقْرَأْ، ثُمَّ أَجِبْ",
-        "popuptext": [],
-        "paragraph1": [],
-        "quran": [],
-        "paragraph2": [],
+        "title": "أجِبْ",
+        "isActive": true,
         "audio_in_page": "../sound/exe1.mp3",
-        "items": [
+        "popuptext": ["Read the passage"],
+        "questions": [
           {
             "id": 1,
-            "type": 1,
-            "index": "أ",
-            "contents": [
-              {
-                "paragraphes1": [
-                  "يُعَدُّ السَّدُّ العالي من أهَمِّ الحُلولِ لحِمايةِ مِياهِ "
-                ],
-                "inputtype": [
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
-                    "comma": "",
-                    "valid": ["نهر النيل"],
-                    "show": ["نهر النيل"]
-                  }
-                ],
-                "inputtype2": [
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  }
-                ],
-                "paragraphes2": [],
-                "paragraphes3": [],
-                "paragraphes4": []
-              }
-            ],
-            "answerUser": [
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              },
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              },
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              },
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              }
-            ]
-          },
-          {
-            "id": 1,
-            "type": 1,
-            "index": "ب",
-            "contents": [
-              {
-                "paragraphes1": [
-                  "يُعَدُّ السَّدُّ العالي من أهَمِّ الحُلولِ لحِمايةِ مِياهِ "
-                ],
-                "inputtype": [
-                  {
-                    "length": 0,
-                    "numperofinput": 3,
-                    "comma": "و",
-                    "valid": ["الصناعه", " الزراعه", "الشرب"],
-                    "show": ["الصناعه", " الزراعه", "الشرب"]
-                  }
-                ],
-                "inputtype2": [
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": [""],
-                    "show": [""]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": ["1"],
-                    "show": ["1"]
-                  }
-                ],
-                "paragraphes2": [],
-                "paragraphes3": [],
-                "paragraphes4": []
-              }
-            ],
-            "answerUser": [
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              },
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              },
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              },
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              }
+            "paragraph": " كيفَ سَاعدَ السَّدُّ العالي في تَحسِينِ الزِّراعةِ وتَحقيقِ التَّنمِيةِ؟",
+            "popup": [
+              "ساهم في زيادة الإنتاج الزراعي، حيث توفرت المياه لري الأراضي بشكل مستدام ومنتظم."
             ]
           }
-        ],
-        "popupQuestion": [],
-        "pop": ""
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe2.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " ماذا نفعَلُ لنُحافِظَ على مياهِ النيلِ؟  .",
+            "popup": [
+              "نرشد استهلاكنا للمياه، ولا نلقي المخلفات في نهر النيل، وننشر الوعي بأهمية الحفاظ على مياهه."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe3.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "  أدْركَ أهلُ القريةِ أنَّ نهرَ النِّيلِ ",
+            "popup": ["نعمة من الله يجب المحافظة عليه. "]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe3.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "  ما التَّغيُّراتُ التي لاحَظَها سُكانُ القريةِ بعدَ شُهورٍ  من العملِ؟  ",
+            "popup": [
+              "لاحظوا زيادة كمية الأسماك، وجودة المحاصيل الزراعية كأن النيل يستعيد عافيته مرة أخرى. "
+            ]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/32.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "   ماذا كان سَيحدُثُ لو لم يحافظِ الأجدادُ على نَهرِ  النِّيلِ؟  ",
+            "popup": [" لم تكن الحضارة لتقوم بدونه "]
+          }
+        ]
       }
     ]
   }
