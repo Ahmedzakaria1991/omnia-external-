@@ -1,0 +1,281 @@
+[
+    {
+      "nameId": "choose-slide",
+      "title": "اختر الاجابة الصحيحة",
+      "finshedChoose": false,
+      "hand": true,
+      "subject": "arabic-5 ",
+      "colorTemplate": "#AAD1EA",
+      "counterCorrect": 0,
+      "LODegree": null,
+      "UserDegree": null,
+      "type": "",
+      "BloomTargets": [""],
+      "randomNumber": null,
+      "loTargets": null,
+      "numberOfquestion": null,
+      "popuptext": "",
+      "popup": "",
+      "passageHand": true,
+      "chooseSlide": [
+        {
+          "active": true,
+          "title": " اختَرِ الإجابةَ الصحيحةَ",
+          "popuptext": [],
+          "audio_in_page": "../sound/exe1.mp3",
+
+          "quizChooses": [
+            {
+              "id": 1,
+              "popup": "",
+              "paragraph": " شِرْيانُ الحَياةِ الأساسيُّ في مِصرَ",
+              "correctAnswer": [2],
+              "answerSelect": false,
+              "counter": 0,
+              "type": 1,
+              "answers": [
+                {
+                  "numAnswer": 1,
+                  "toChoose": "الآبارُ",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 2,
+                  "toChoose": " نَهرُ النِّيل",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 3,
+                  "toChoose": " البحرُ الأحمر",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 4,
+                  "toChoose": " مياهُ الأَمطار",
+                  "right": false,
+                  "checked": false
+                }
+              ]
+            },
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "نَستفِيدُ من المِياهِ الزَّائدةِ وقتَ الفَيَضانِ من خِلالِ",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                  {
+                    "numAnswer": 1,
+                    "toChoose": "تجْفِيفِها",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 2,
+                    "toChoose": "تَخزينِها",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 3,
+                    "toChoose": " إلقائِها في البَحرِ",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 4,
+                    "toChoose": "تَبخيرِها",
+                    "right": false,
+                    "checked": false
+                  }
+                ]
+              }
+          
+          ],
+          "popupQuestion": [
+            {
+              "id": 0,
+              "index": "4",
+              "paragraph": "",
+              "popup": [],
+              "isActive": null
+            }
+          ]
+        },
+        {
+          "active": false,
+          "title": "اختر الاجابة الصحيحة",
+          "popuptext": [],
+          "audio_in_page": "../sound/exe2.mp3",
+
+          "quizChooses": [
+            {
+              "id": 1,
+              "popup": "",
+              "paragraph": " إهْدارُ  ماءِ النِّيلِ يُؤدِّي إلى  ....  الشعوبِ.",
+              "correctAnswer": [2],
+              "answerSelect": false,
+              "counter": 0,
+              "type": 1,
+              "answers": [
+                {
+                  "numAnswer": 1,
+                  "toChoose": "اسْتقرارِ",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 2,
+                  "toChoose": "هلاكِ",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 3,
+                  "toChoose": " ازْدِهارِ",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 4,
+                  "toChoose": "سَعادةِ",
+                  "right": false,
+                  "checked": false
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "popup": "",
+              "paragraph": " طَلَبَ النِّيلُ من المِصْريِّين ",
+              "correctAnswer": [4],
+              "answerSelect": false,
+              "counter": 0,
+              "type": 3,
+              "answers": [
+                {
+                  "numAnswer": 1,
+                  "toChoose": "ترْشيدَ الاستهلاكِ",
+                  "audio": "../../../assets/audio/celebration.mp3",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 2,
+                  "toChoose": " نَشْرَ  الوَعْي",
+                  "audio": "../../../assets/audio/celebration.mp3",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 3,
+                  "toChoose": " عَدمَ التَّلويثِ",
+                  "audio": "../../../assets/audio/celebration.mp3",
+                  "right": false,
+                  "checked": false
+                },
+                {
+                  "numAnswer": 4,
+                  "toChoose": "جميع ما سبَق",
+                  "audio": "../../../assets/audio/celebration.mp3",
+                  "right": false,
+                  "checked": false
+                }
+              ]
+            }
+          ]
+        
+        },
+        {
+            "active": false,
+            "title": "اختر الاجابة الصحيحة",
+            "popuptext": [],
+            "audio_in_page": "../sound/exe3.mp3",
+  
+            "quizChooses": [
+              {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كانتْ هِندُ تَستعِدُّ لامتحانِ",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                  {
+                    "numAnswer": 1,
+                    "toChoose": "العُلومِ",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 2,
+                    "toChoose": "الرِّياضياتِ",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 3,
+                    "toChoose": " التاريخِ",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 4,
+                    "toChoose": " اللُّغةِ العربية",
+                    "right": false,
+                    "checked": false
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "popup": "",
+                "paragraph": " ساعَد نَهرُ النِّيلِ المِصريين القُدماءَ على  ",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 3,
+                "answers": [
+                  {
+                    "numAnswer": 1,
+                    "toChoose": "(بِناءِ الحَضارةِ",
+                    "audio": "../../../assets/audio/celebration.mp3",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 2,
+                    "toChoose": " حفرِ الآبارِ",
+                    "audio": "../../../assets/audio/celebration.mp3",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 3,
+                    "toChoose": "  تَنقيةِ الهَواء",
+                    "audio": "../../../assets/audio/celebration.mp3",
+                    "right": false,
+                    "checked": false
+                  },
+                  {
+                    "numAnswer": 4,
+                    "toChoose": " تَوليدِ الكهرباءِ",
+                    "audio": "../../../assets/audio/celebration.mp3",
+                    "right": false,
+                    "checked": false
+                  }
+                ]
+              }
+            ]
+          
+          }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,184 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+  
+
+        "audio_in_page": "../sound/exe1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " مثَّلَ آسرٌ  دَوْرَ  النيلِ على مسرحِ المدرسةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " قدَّمَ آسرٌ  معلوماتٍ مفيدةً عن نهرِ النيلِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [""],
+
+        "audio_in_page": "../sound/exe2.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " أَطْلقَ أيمنُ وأصدقاؤه مُبادرةً لتنظِيفِ الشَّوارعِ في قريتِهم.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " شَعرَ أهْلُ القَريةِ بالفَخْرِ بعد رُؤيةِ نَتائجِ جُهودِهم.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [""],
+
+        "audio_in_page": "../sound/exe3.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " كان نَهرُ النِّيلِ مُجرَّدَ مصَدرٍ  للمِياهِ بالنِّسبةِ للمِصريِّين القُدماءِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " أدرَكَتْ هندُ أنَّ حِمايةَ نَهرِ النِّيلِ مَسئوليةُ كلِّ مِصرِيٍّ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
