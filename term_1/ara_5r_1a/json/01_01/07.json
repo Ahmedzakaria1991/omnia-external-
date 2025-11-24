@@ -1,0 +1,102 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+
+    "quizChooses": [
+      {
+        "title": "أجِبْ",
+        "isActive": true,
+        "audio_in_page": "../sound/exe1.mp3",
+        "popuptext": ["Read the passage"],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " كيفَ سَاعدَ السَّدُّ العالي في تَحسِينِ الزِّراعةِ وتَحقيقِ التَّنمِيةِ؟",
+            "popup": [
+              "ساهم في زيادة الإنتاج الزراعي، حيث توفرت المياه لري الأراضي بشكل مستدام ومنتظم."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe2.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " ماذا نفعَلُ لنُحافِظَ على مياهِ النيلِ؟  .",
+            "popup": [
+              "نرشد استهلاكنا للمياه، ولا نلقي المخلفات في نهر النيل، وننشر الوعي بأهمية الحفاظ على مياهه."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe3.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "  أدْركَ أهلُ القريةِ أنَّ نهرَ النِّيلِ ",
+            "popup": ["نعمة من الله يجب المحافظة عليه. "]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe3.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "  ما التَّغيُّراتُ التي لاحَظَها سُكانُ القريةِ بعدَ شُهورٍ  من العملِ؟  ",
+            "popup": [
+              "لاحظوا زيادة كمية الأسماك، وجودة المحاصيل الزراعية كأن النيل يستعيد عافيته مرة أخرى. "
+            ]
+          }
+        ]
+      }
+      ,
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "audio_in_page": "../sound/exe3.mp3",
+
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "   ماذا كان سَيحدُثُ لو لم يحافظِ الأجدادُ على نَهرِ  النِّيلِ؟  ",
+            "popup": [
+              " لم تكن الحضارة لتقوم بدونه "
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
