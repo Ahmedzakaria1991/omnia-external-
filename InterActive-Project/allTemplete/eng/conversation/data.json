@@ -1,0 +1,143 @@
+[{
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "BloomTargets": null,
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": 0,
+    "id": "ara_6r_1a_02_01_06",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "bloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "choose",
+    "startTime": "",
+    "endTime": "",
+    "Dash": "",
+    "Hsl": "",
+    "hint": [],
+    "vedio": false,
+    "upper": false,
+    "nameAnimation": ["father", "mother", "boy", "girl", "grandfather", "grandmother"],
+    "numOfAnimationUsed":3,
+    "hintEn": "You’re having a conversation with Younis about summer vacation. Listen carefully, then choose the appropriate response.",
+    "hintAr": "أنت تجري حوار مع يونس عن الإجازة الصيفية، استمع جيدًا ثم اختر الرد المناسب.",
+    "questions": [{
+            "startTime": null,
+            "endTime": null,
+            "learningOutCome": null,
+            "numberOfTrial": 0,
+            "questionType": "text",
+            "answersType": "text",
+            "active": false,
+            "conversation": ["Basel: So, Younis, what's your answer to the first question: did you help other people in the summer vacation?"],
+            "text1": ["Younis: Yes, of course I did. I helped out at my ", " parents'"],
+            "text2": ["I cleaned the dishes and   ", "cleaned the floor at the end of the day."],
+
+            "chooses": [{
+
+                "show": false,
+                "choose": [{
+                        "select": "restaurant",
+                        "answer": true,
+                        "solve": false
+                    },
+                    {
+                        "select": "library",
+                        "answer": false,
+                        "solve": false
+                    }
+                ]
+            }]
+        },
+        {
+            "startTime": null,
+            "endTime": null,
+            "learningOutCome": null,
+            "numberOfTrial": 0,
+            "questionType": "text",
+            "answersType": "text",
+            "active": false,
+            "conversation": ["Basel: How about sports? How often did you do sports?"],
+            "text1": ["Younis:"],
+            "text2": [", I think. I always played sport ", "in the summer vacation. I love playing football with my friends near my building."],
+
+            "chooses": [{
+
+                "show": false,
+                "choose": [{
+                        "select": "Once a week",
+                        "answer": false,
+                        "solve": false
+                    },
+                    {
+                        "select": "Every day",
+                        "answer": true,
+                        "solve": false
+                    }
+                ]
+            }]
+        },
+        {
+            "startTime": null,
+            "endTime": null,
+            "learningOutCome": null,
+            "numberOfTrial": 0,
+            "questionType": "text",
+            "answersType": "text",
+            "active": false,
+            "conversation": ["Basel: The next question is: How often did you do something to help your community?"],
+            "text1": ["Younis:I often "],
+            "text2": ["to help at a project in my ", "community. People walk around the streets, collect litter and recycle it. Then our streets are cleaner and we can use the paper and plastic again."],
+
+            "chooses": [{
+                "show": false,
+                "choose": [{
+                        "select": "waited",
+                        "answer": false,
+                        "solve": false
+                    },
+                    {
+                        "select": "volunteered",
+                        "answer": true,
+                        "solve": false
+                    }
+                ]
+            }]
+        },
+        {
+             "startTime": null,
+            "endTime": null,
+            "learningOutCome": null,
+            "numberOfTrial": 0,
+            "questionType": "text",
+            "answersType": "text",
+            "active": false,
+            "conversation": ["Basel: The last question is: Did you learn anything interesting online this summer? How often did you go online?"],
+            "text1": ["Younis: I sometimes went online at home in the evening. I was usually tired in the evening. But sometimes I watched some videos about how to make videos with a ", "phone and how to"],
+            "text2": ["so they look good."],
+
+            "chooses": [{
+                "show": false,
+                "choose": [{
+                        "select": "Edit the videos",
+                        "answer": true,
+                        "solve": false
+                    },
+                    {
+                        "select": "Copy the videos",
+                        "answer": false,
+                        "solve": false
+                    }
+                ]
+            }]
+        }
+    ]
+}]

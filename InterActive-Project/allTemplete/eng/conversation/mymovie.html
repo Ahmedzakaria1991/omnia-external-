@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../lib-native/conversation/js/vue.js"></script>
+    <script src="../../../lib-native/interactive_video/assets/script/bitmovinplayer.js"></script>
+    <script src="../../../lib-native/interactive_video/assets/script/bitmovinplayer-ui.js"></script>
+    <link href="../../../lib-native/interactive_video/assets/script/bitmovinplayer-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../lib-native/conversation/style/lo.css">
+        <link rel="stylesheet" href="../../../lib-native/conversation/style/images.css">
+
+    <script src="../../../lib-native/conversation/js/lottie-min.js"></script>
+    <script src="../../../js/submit_sender.js"></script>
+    <link href="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="main" id="conversation" data-urlpage="data">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <template v-show="isSuccess && isLoading">
+            <div class="logo" v-show="isSuccess && isLoading"></div>
+            <div id="start" v-show="!startLo && !vedioPlay && !questionsStart && isSuccess && isLoading">
+                <div class="start-lo" @click="startButton()">
+                </div>
+            </div>
+            <div class="aspect-box" id="container"
+                :class="{'questionBg':questionsStart  && !vedioPlay || hint , 'vedioBg' : !questionsStart && vedioPlay}"
+                v-show="startLo">
+                <div class="animation" id="father"
+                    v-show="startLo && !vedioPlay && questionsStart && this.posts[0].numOfAnimationUsed == 1">
+                </div>
+                <div class="animation" id="mother"
+                    v-show="startLo && !vedioPlay && questionsStart && this.posts[0].numOfAnimationUsed == 2">
+                </div>
+                <div class="animation" id="boy"
+                    v-show="startLo && !vedioPlay && questionsStart && this.posts[0].numOfAnimationUsed == 3">
+                </div>
+                <div class="animation" id="girl"
+                    v-show="startLo && !vedioPlay && questionsStart && this.posts[0].numOfAnimationUsed == 4">
+                </div>
+                <div class="animation" id="grandfather"
+                    v-show="startLo && !vedioPlay && questionsStart && this.posts[0].numOfAnimationUsed == 5">
+                </div>
+                <div class="animation" id="grandmother"
+                    v-show="startLo && !vedioPlay && questionsStart && this.posts[0].numOfAnimationUsed == 6">
+                </div>
+                <div class="animation" id="sad" v-show="startLo && !vedioPlay && questionsStart "></div>
+                <div class="safe-area" id="safeArea">
+                    <div class="vedioIcon" v-if="startLo && !vedioPlay && questionsStart && this.posts[0].vedio"
+                        @click="openVedio()"></div>
+                    <div class="information" :class="{'top':!this.posts[0].vedio}"
+                        v-if="startLo && !vedioPlay && questionsStart" @click="openHint()"></div>
+                    <div class="progress" v-if="startLo && !vedioPlay && questionsStart">
+                        <div class="tab" v-for="(tab, i) in tabs" :key="i" :class="tab"></div>
+                    </div>
+
+                    <div class="vedio-container" id="vedio-container" v-show="startLo && vedioPlay && !questionsStart">
+                        <div class="close" @click="closeVedio()"></div>
+                        <div id="player">
+                            <div class="buttons">
+                                <div class="btn prev" @click="rewindVideo"></div>
+                                <div class="btn play" :class="{'pause': isPlaying}" @click="togglePlayPause">
+                                </div>
+                                <div class="btn next" @click="forwardVideo"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <template>
+                        <div class="w100f" v-show="startLo && !vedioPlay && questionsStart">
+                            <div class="content" v-for="question in this.posts[0]?.questions"
+                                :class="{'active' : question.active}">
+                                <div class="conversation">
+                                    <div class="music" :class="{'play':playConversation}"
+                                        @click="playConverstionAudio()"></div>
+                                    <p v-for="parag in question.conversation">{{parag}}</p>
+                                </div>
+                                <div class="question">
+                                    <div class="music" :class="{'play':playQuestion}" @click="playQuestionAudio()">
+                                    </div>
+                                    <p v-for="parag in question.text1">{{parag}}</p>
+                                    <div class="pointChoose" @click="getChooses(0,$event)"> ......
+                                    </div>
+                                    <p v-for="parag in question.text2">{{parag}}</p>
+                                    <!-- <div class="pointChoose"  @click="getChooses(1,$event)">......
+                                    </div> -->
+                                    <template v-for="chooseArr in question.chooses">
+                                        <div class="chooses" :class="{'activeChoose':chooseArr.show}">
+                                            <template v-for="choose in chooseArr.choose">
+                                                <div class="choose" @click="checkChoose($event, choose)"
+                                                    style="pointer-events: auto;" :class="{'correct': choose.answer}">
+                                                    <p class="text parag" v-html="choose.select"></p>
+                                                </div>
+                                            </template>
+                                        </div>
+
+                                    </template>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </template>
+
+                </div>
+                <template v-show="isSuccess && isLoading && hint == true">
+                    <div class="hint" v-show="isSuccess && isLoading && hint == true">
+                        <div id="safeAreaHint">
+                            <div id="borderHint">
+                                <div class="close" @click="closeHint()"></div>
+                                <div class="lang eng" v-if="hintAr" @click="changeLang()"></div>
+                                <div class="lang ar" v-if="!hintAr" @click="changeLang()"></div>
+                                <div class="content">
+                                    <p class="ar" v-if="hintAr">{{hintText}}</p>
+                                    <p class="eng" v-if="!hintAr">{{hintText}}</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+                <template>
+                    <div class="feedback" v-show="isSuccess && isLoading && feedBack == true">
+                        <div id="safeAreaFeedback">
+                            <div id="borderFeedBack" class="border">
+                                <div class="degree">
+                                    <p>{{degreeFeedBack}}\100</p>
+                                </div>
+                                <div class="close" @click="home()"></div>
+                                <div class="reload" @click="home()"></div>
+                                <div class="contentFeedBack">
+                                    <div class="stars">
+                                        <!-- <div class="star active"></div>
+                                    <div class="star active"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div> -->
+                                        <div v-for="i in totalStars" :key="i" class="star"
+                                            :class="{ active: i <= activeStars }"></div>
+                                    </div>
+                                    <div class="feedBack-txt">
+                                        <p>{{textFeedBack}}</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </template>
+    </div>
+    <script src="../../../lib-native/conversation/js/choose.js"></script>
+    <script type="module" src="../../../lib-native/conversation/js/main.js"></script>
+</body>
+
+</html>
