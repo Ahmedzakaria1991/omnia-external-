@@ -1,0 +1,74 @@
+.digital-screen .penguin .border .question {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.handEng {
+  left: -10vw;
+  top: 1vw;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.colomn {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.colomn .col1 p {
+  justify-items: flex-start !important;
+  display: flex;
+  align-content: flex-start;
+  width: 100%;
+  padding-right: 40px;
+}
+.colomn .col2 p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 1vh;
+}
+.digital-screen .penguin .border .question input {
+  width: 10vh;
+  height: 8vh;
+  font-size: 2vh;
+  margin: 0 0.2vw;
+}
+.digital-screen .penguin .border .question .row.add input {
+  width: 8vh;
+}
+.digital-screen .penguin .border .question {
+  width: 70%;
+  display: none;
+  margin-right: 12vh;
+  margin-bottom: 3vh;
+  pointer-events: auto;
+}
+
+.row .icon img {
+  width: 7vh;
+}
+.row .icon {
+  width: 7vh;
+  height: 2.5vh;
+}
