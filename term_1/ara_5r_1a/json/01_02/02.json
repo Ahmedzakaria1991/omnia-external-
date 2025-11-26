@@ -1,0 +1,146 @@
+[
+  {
+    "nameId": "",
+    "title": "تأمل بيانات الجدول ثم أجب",
+    "subject": "math-3",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "popuptext": [],
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "im": "../images/02/q3.png",
+    "items": [
+      {
+        "id": 1,
+        "type": 2,
+        "table": [
+          { "age": 55, "imgsrc": "../images/02/q3.png", "count": 1 },
+          { "age": 9, "imgsrc": "../images/02/q3.png", "count": 4 },
+          { "age": 10, "imgsrc": "../images/02/three.jpg", "count": 7 },
+          { "age": 11, "imgsrc": " ../images/02", "count": 2 },
+          { "age": 12, "imgsrc": " |||||", "count": 5 }
+        ],
+        "contents": [
+          {
+            "paragraphes1": ["كم عدد التلاميذ الذين يبلغ عُمرهم ١٠ سنوات؟"],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["1"],
+                "show": ["1"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              }
+            ],
+            "paragraphes2": ["تلاميذ"],
+            "paragraphes3": [""]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

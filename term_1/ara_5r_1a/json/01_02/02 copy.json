@@ -1,0 +1,224 @@
+[
+  {
+    "nameId": "",
+    "title": "تأمل بيانات الجدول ثم أجب",
+    "subject": "math-3",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "popuptext": [],
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "im": "../images/02/q3.png",
+    "items": [
+      {
+        "id": 1,
+        "type": 2,
+        "table": [
+          { "age": 55, "tally": " |", "count": 1 },
+          { "age": 9, "tally": " ||||", "count": 4 },
+          { "age": 10, "tally": " ||||| ||", "count": 7 },
+          { "age": 11, "tally": " ||", "count": 2 },
+          { "age": 12, "tally": " |||||", "count": 5 }
+        ],
+        "contents": [
+          {
+            "paragraphes1": ["كم عدد التلاميذ الذين يبلغ عُمرهم ١٠ سنوات؟"],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["1"],
+                "show": ["1"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              },
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["2"],
+                "show": ["2"]
+              }
+            ],
+            "paragraphes2": ["تلاميذ"],
+            "paragraphes3": [""]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 2,
+
+        "contents": [
+          {
+            "paragraphes1": ["كم عدد التلاميذ الذين يبلغ عُمرهم 8 سنوات؟"],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": ["1"],
+                "show": ["1"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["1"],
+                "show": ["1"]
+              }
+            ],
+            "paragraphes2": ["تلاميذ"],
+            "paragraphes3": [""]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 2,
+        "contents": [
+          {
+            "paragraphes1": [
+              "ما إجمالي عدد التلاميذ الذين تبلغ أعمارهم ٩ سنوات و ١١ سنة؟"
+            ],
+
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": ["1"],
+                "show": ["1"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["33"],
+                "show": ["33"]
+              }
+            ],
+            "paragraphes2": ["تلاميذ"],
+            "paragraphes3": [""]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]
