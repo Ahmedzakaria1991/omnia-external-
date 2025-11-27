@@ -1,0 +1,619 @@
+@import './variables';
+@import './mixins';
+@import './basic';
+
+.container-space {
+  display: none;
+
+  .cloumn {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    height         : 100%;
+  }
+
+
+  &.active {
+    @include flex-center;
+    flex-direction: column;
+  }
+
+  .down_label,
+  .up_label {
+    min-width: 30vw;
+    min-height       : 13vh;
+    background-image : $bg_label_1;
+    background-repeat: no-repeat;
+    background-size  : 100% 100%;
+    @include flex-center;
+    @include d-ltr;
+    position: relative;
+    padding : 1vh 5vh;
+    margin  : 1vh;
+
+    .inner_label_1 {
+      width            : 100%;
+      height           : 100%;
+      background       : $inner_label_1 #680070;
+      background-repeat: no-repeat;
+      background-size  : 100% 100%;
+      @include flex-center;
+      position     : relative;
+      border-radius: 3vh / 7vh;
+      color        : white;
+      text-align   : center;
+      text-indent  : .1em;
+      margin-top   : 0.5vh;
+      @include d-ltr;
+    }
+
+    &:after {
+      content      : '';
+      position     : absolute;
+      right        : 0;
+      left         : 0;
+      margin       : 0 auto;
+      background   : inherit;
+      border-radius: 5%/50%;
+      width        : 95%;
+      height       : 85%;
+      background   : $inner_label_1 #680070;
+    }
+  }
+
+  p {
+    font-size  : 5vh;
+    font-weight: bold;
+    color      : white;
+    z-index    : 1;
+    margin     : 1vh;
+  }
+
+  input {
+    z-index: 1;
+
+  }
+
+  .up_label,
+
+  .body_table,
+  .down_label {
+    input::placeholder {
+      font-weight: bold;
+      opacity    : 1;
+      color      : rgb(255, 255, 255);
+
+    }
+  }
+
+
+  .center {
+    width      : 85vw;
+    display    : flex;
+    align-items: center;
+    margin-top : 13vh;
+
+    #table {
+      width   : 100%;
+      position: relative;
+
+      .space_man {
+        background-image : $space_man;
+        background-repeat: no-repeat;
+        background-size  : 100% 100%;
+        -webkit-transform: scaleX(-1);
+        transform        : scaleX(-1);
+        @include flex-center;
+        width    : 12vh;
+        height   : 18vh;
+        position : absolute;
+        top      : -37%;
+        animation: spacemove 4s infinite;
+        right    : 4vw;
+      }
+
+      @keyframes spacemove {
+        0% {
+          transform: translateY(10px) rotateY(0deg);
+          transform: translateX(10px) rotateY(0deg);
+        }
+
+        50% {
+          transform: translateY(20px) rotateY(5deg);
+
+        }
+
+        100% {
+          transform: translateY(10px) rotateY(0deg);
+          transform: translateX(10px) rotateY(0deg);
+        }
+      }
+
+      .body_table {
+        background-repeat: no-repeat;
+        background-size  : 100% 100%;
+        @include flex-center;
+        background-image: $body_table;
+        flex-direction  : column;
+        position        : relative;
+        padding         : 1.5vh;
+        z-index         : 10;
+        height          : 55vh;
+
+
+        .show_next,
+        .show_anwser,
+        .button_check {
+          @include flex-center;
+          position         : absolute;
+          background-repeat: no-repeat;
+          background-size  : 100% 100%;
+          width            : 10vh;
+          height           : 13vh;
+          z-index          : 9;
+          pointer-events   : auto;
+
+          .button {
+            position: relative;
+          }
+
+          .hand {
+            width              : 5vw;
+            height             : 6vw;
+            background-image   : $hand;
+            z-index            : 1;
+            position           : absolute;
+            left               : 0vw;
+            top                : -5vw;
+            background-size    : 100% 100%;
+            background-position: center;
+            background-repeat  : no-repeat;
+            transform          : rotate(-114deg);
+            animation          : button_check .5s linear .2s infinite alternate;
+          }
+
+
+          @keyframes button_check {
+            from {
+              bottom: 12vw;
+              left  : 4vw
+            }
+
+            to {
+              bottom: -2vw;
+              left  : 3vw
+            }
+          }
+
+        }
+
+        .show_next {
+          .hand {
+            left     : -2vw;
+            top      : 20vw;
+            transform: rotate(165deg);
+            animation: button_next .5s linear .2s infinite alternate;
+          }
+
+          @keyframes button_next {
+            from {
+              top : -7vw;
+              left: -2vw
+            }
+
+            to {
+              top : -5vw;
+              left: 0vw
+            }
+          }
+        }
+        .button_check {
+          left            : 5vw;
+          top             : -12vh;
+          background-image: $button-check;
+
+          &.disable {
+            background-image: $disable-button-check;
+            pointer-events  : none;
+          }
+        }
+
+
+
+        .show_anwser {
+          left            : 15vw;
+          top             : -12vh;
+          background-image: $show_anwser;
+
+          &.disable {
+            background-image: $disable_show_anwser;
+            pointer-events  : none;
+          }
+        }
+
+        .show_next {
+          right           : -2vw;
+          bottom          : 0;
+          width           : 10vh;
+          height          : 10vh;
+          display         : none;
+          background-image: $show_next;
+
+          &.enable {
+            display       : block;
+            pointer-events: auto;
+          }
+        }
+
+
+
+        .inner_table {
+          // overflow         : hidden;
+          @include flex-center;
+          border-radius    : 8vh 8vh 8vh 8vh;
+          background-image : $inner_table;
+          background-color : #680070;
+          background-repeat: no-repeat;
+          background-size  : 100% 100%;
+          width            : 100%;
+          height           : 100%;
+          justify-content  : space-between;
+
+          .upper_table {
+            height  : 13vh;
+            width   : 100%;
+            position: relative;
+            @include flex-center;
+p{
+  justify-content: center!important;
+}
+            .border_w {
+              background-repeat: no-repeat;
+              background-size  : 100% 100%;
+              @include flex-center;
+              width           : 100%;
+              height          : 1vw;
+              z-index         : 10;
+              background-image: $border_w;
+              position        : absolute;
+              bottom          : 0;
+              left            : 0;
+            }
+          }
+
+          .table_question {
+            display       : flex;
+            align-items   : center;
+            flex-direction: column;
+            height        : 53vh;
+            position      : relative;
+            width         : 100%;
+
+            .line {
+              border-bottom: 0.5vh white solid;
+              width        : 80%;
+              position     : relative;
+              margin       : 1vh;
+
+              span {
+                position   : absolute;
+                left       : 0;
+                top        : -7vh;
+                color      : white;
+                font-weight: bold;
+              }
+            }
+
+            .border_h {
+              background-repeat: no-repeat;
+              background-size  : 100% 100%;
+
+              @include flex-center;
+              width           : 1vh;
+              position        : absolute;
+              left            : 0;
+              height          : 78%;
+              bottom          : 0;
+              z-index         : 10;
+              background-image: $border_h;
+            }
+
+            p {
+              display        : flex;
+              justify-content: flex-start;
+              align-items    : center;
+              width          : 50%;
+            }
+          
+            .outTable {
+              position: absolute;
+              left    : -12vw;
+              bottom  : 50%;
+            }
+          }
+
+        }
+
+
+      }
+
+
+    }
+  }
+
+
+
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0;
+      width  : 0%;
+      height : 0
+    }
+
+    to {
+      opacity: 1;
+      width  : 50%;
+      height : 35vw
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+      width  : 0%;
+      height : 0
+    }
+
+    to {
+      opacity: 1;
+      width  : 50%;
+      height : 35vw
+    }
+  }
+
+
+  // .nextContent .character.show0 {
+  //   background-image: $show_0;
+  // }
+
+  // .nextContent .character.show1 {
+  //   background-image: $show_1;
+  // }
+
+  // .nextContent .character.show2 {
+  //   background-image: $show_2;
+  // }
+
+  // .nextContent .character.show3 {
+  //   background-image: $show_3;
+  // }
+
+
+  // .nextContent .character.show4 {
+  //   background-image: $show_4;
+  // }
+
+  // .nextContent .character.show5 {
+  //   background-image: $show_5;
+  // }
+
+  // .nextContent .character.show6 {
+  //   background-image: $show_6;
+  // }
+
+  // .nextContent .character.show7 {
+  //   background-image: $show_7;
+  // }
+
+
+  #appDictionary .border-content {
+    width   : 95%;
+    height  : 100%;
+    position: absolute;
+    right   : 0;
+    left    : 0;
+    bottom  : 0;
+    margin  : 0 auto 0.5%;
+
+    background-repeat      : no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size        : 100%;
+    z-index                : 2;
+    pointer-events         : none;
+    display                : none;
+  }
+}
+
+.nextContent {
+  width           : 100%;
+  height          : 100%;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, .47843);
+  z-index         : 100;
+  display         : none;
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  justify-content : center;
+  align-items     : center;
+  display         : flex;
+
+  .progress {
+    display        : flex;
+    justify-content: start;
+    align-items    : center;
+    flex-direction : column;
+    margin-top: 15vh;
+    .title {
+      width              : 35vh;
+      color              : white;
+      height             : 15vh;
+      display            : flex;
+      position           : absolute;
+      top                : -3vh;
+      font-weight        : bold;
+      align-items        : center;
+      justify-content    : center;
+      background-size    : contain;
+      background-image   : $characterTitle;
+      background-repeat  : no-repeat;
+      background-position: center center;
+
+    }
+
+
+    #progressbar {
+      position: relative;
+      width: 40vh;
+    }
+
+    .finish {
+      position   : absolute;
+      top        : 4.5vh;
+      z-index    : 100;
+      font-size  : 2.3vh;
+      left       : 2.2vh;
+      color      : #22649C !important;
+      font-weight: bold;
+      font-family: ArialRounded;
+
+    }
+  }
+
+  .character {
+    width              : 100vh;
+    height             : 75vh;
+    position           : relative;
+    background-size    : contain;
+    background-position: center center;
+    background-repeat  : no-repeat;
+    animation          : fade .3s linear;
+
+
+    &.win {
+      background-image: $win;
+    }
+
+    &.lose {
+      background-image: $lose;
+    }
+
+    .buttons {
+      position       : absolute;
+      bottom         : -2vh;
+      width          : 40%;
+      height         : 5vw;
+      right          : 0;
+      left           : 0;
+      margin         : 0 auto;
+      display        : flex;
+      justify-content: space-around;
+      align-items    : center
+    }
+
+    .buttons {
+      button {
+        width              : 7vw;
+        height             : 7vw;
+        border-radius      : 50%;
+        background-size    : contain;
+        background-position: center center;
+        background-repeat  : no-repeat;
+        border             : 0;
+        background-color   : transparent
+      }
+
+      button:focus {
+        outline: none;
+        opacity: .5
+      }
+
+      button.next {
+        background-image: $next;
+      }
+
+      button.home {
+        background-image: $home;
+      }
+    }
+
+  }
+
+
+}
+
+.bg {
+  width              : 100%;
+  height             : 100vh;
+  background-position: center;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  background-image   : $bg-background;
+  @include flex-center;
+  position: relative;
+
+
+
+
+  &::after {
+    content          : '';
+    position         : absolute;
+    color            : white;
+    right            : 0;
+    top              : 1vh;
+    background-image : $logo;
+    background-size  : contain;
+    width            : 9vh;
+    height           : 7vh;
+    background-repeat: no-repeat;
+  }
+
+
+  #start-button {
+    height             : 35vh;
+    width              : 35vh;
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : 100% 100%;
+    background-image   : $but-start-background;
+    animation          : zoom 30s infinite;
+    -webkit-animation  : zoom 2.5s infinite ease-in-out;
+    cursor             : pointer;
+    background-color   : transparent;
+    border             : 0;
+
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.8) rotate(-10deg);
+  }
+
+  50% {
+    transform: scale(1) rotate(10deg);
+  }
+
+  100% {
+    transform: scale(0.8) rotate(-10deg);
+  }
+}
+
+
+.music {
+  position         : absolute;
+  left             : 1vh;
+  top              : 1vh;
+  background-size  : contain;
+  width            : 9vh;
+  height           : 9vh;
+  background-repeat: no-repeat;
+  background-image : $music;
+  z-index: 101;
+
+  &.mute {
+    background-image: $mute;
+  }
+}

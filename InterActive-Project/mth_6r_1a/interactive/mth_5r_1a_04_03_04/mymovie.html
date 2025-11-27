@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href='./content/assets/images/favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="./content/css/style.css">
+    <link rel="stylesheet" href="./content/css/question.css">
+    <title>spaceTemplate</title>
+    <script src="./content/js/lottie-min.js"></script>
+    <script src="./content/js/vue-min.js"></script>
+    <script src="../../../js/submit_sender.js"></script>
+
+</head>
+
+<body>
+    <div id="spaceTemplate">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+        <div class="bg">
+
+            <button v-if="this.startLo" id="start-button" @click="start()"></button>
+            <template v-if="!this.startLo">
+                <div @click="muteMusic()" v-bind:class="(this.music)?'play':'mute'" class="music"></div>
+                <template v-for="(e, i) of this.posts[0].items">
+                    <div class="container-space" :class="{'active' : e.active}" @click="setclick() , clicktemplet($event)"
+                      >
+
+                        <div class="up_label ">
+                            <template v-for="(data , i) of  e.label_up[0].content" v-if="e.label_up[0].type == 1">
+                                <p v-if="data.parag != ''">{{data.parag}}</p>
+                                <template v-if="data.parag ==''">
+                                    <input  @keyup="clearSpace($event)" :style="{'width': + data.Length + 12 + 'vh' }" class="wrong" type="text"
+                                        :data-index="i" @change="checkvalue($event,e);  " @focus="foucs($event)"
+                                        v-on:blur="foucsOut($event)" location-value="label_up" :maxlength="data.Length"
+                                        :data-i="0" :placeholder="data.input[0].show" inputType="1"
+                                        :class="{'dis_input' : data.input[0].dis_input}"
+                                        :disabled="data.input[0].dis_input">
+                                </template>
+                                <p v-if="data.marker !=''">{{data.marker}}</p>
+                            </template>
+
+                            <template v-for="(data , i) of  e.label_up[0].content" v-if="e.label_up[0].type == 2">
+                                <p v-if="data.parag != ''">{{data.parag}}</p>
+                                <template v-if="data.parag ==''"
+                                    v-for=" (exchange , iexchange ) of data.input[0].valid">
+                                    <input  @keyup="clearSpace($event)" :style="{'width': + data.Length + 12 + 'vh' }"
+                                        :placeholder="e.label_up[0].content[i].input[0].show[iexchange]" class="wrong"
+                                        type="text" :data-index="i" @change="checkvalue($event,e);  "
+                                        :maxlength="data.Length" @focus="foucs($event)" v-on:blur="foucsOut($event)"
+                                        location-value="label_up" :data-i="0" inputType="2"
+                                        :class="{'dis_input' : e.label_up[0].content[i].input[0].dis_input}"
+                                        :disabled="e.label_up[0].content[i].input[0].dis_input">
+                                    <p v-if="data.marker !='' && data.input[0].valid.length - 1   !=iexchange">
+                                        {{data.marker}} </p>
+
+                                </template>
+                            </template>
+
+                        </div>
+                        <div class="center">
+                            <div id="table">
+                                <div v-show="spaceman" class="space_man"></div>
+                                <div class="body_table">
+                                    <div class="button_check" @click="checkanswer();">
+                                        <div class="hand" v-if="checkhand && counter == 0"></div>
+                                    </div>
+                                    <div class="show_anwser"
+                                        @click="show_anwser($event), showNext = !showNext ,  guideAnwser = !guideAnwser">
+                                    </div>
+                                    <div class="show_next" @click="show_next() ;">
+                                        <div class="hand" v-if="nexthand && counter == 0">
+                                        </div>
+                                    </div>
+                                    <div class="inner_table">
+                                      
+                                        <template v-for="(content , index) of  e.inner_table"
+                                            v-if="e.inner_table[0].type == 2">
+                                  
+                                            <div class="question"  :class="e.inner_table[index].direction" >
+                                                <template v-for="(data , i) of  content.content">
+                                                   
+                                                    <p v-if="data.parag != ''" v-html="data.parag"></p>
+                                                    <template v-if="data.parag ==''"
+                                                        v-for=" (exchange , iexchange ) of data.input[0].valid">
+                                                      
+                                                        <input  @keyup="clearSpace($event)" :index="iexchange"
+                                                            :style="{'width': + data.Length + 12 + 'vh' }"
+                                                            :placeholder="data.input[0].show[iexchange]"
+                                                            class="wrong emptyinput" type="text" :data-index="i"
+                                                            @change="checkvalue($event,e);  " :maxlength="data.Length"
+                                                            @focus="foucs($event)" v-on:blur="foucsOut($event)"
+                                                            location-value="inner_table" :data-i="index" inputType="2"
+                                                            :class="{'dis_input' : data.input[0].dis_input}"
+                                                            :disabled="data.input[0].dis_input">
+                                                            <div class="help " v-if=" counter == 0" :class="{'help2': e.questionType == 1}"></div>
+                                                            <p v-if="data.marker !='' && data.input[0].valid.length - 1   !=iexchange">
+                                                                {{data.marker}} </p>
+                                                            </template> 
+                                                            <!-- <p>{{ e.inner_table[0].content[index].input[0].valid}}</p> -->
+                                                            <div class="line" v-if="data.line">
+                                                            </div>
+                                                </template>
+                                            </div>
+                                        
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down_label" v-if="e.label_down[0].display != false">
+                            <template v-for=" (data , i ) of  e.label_down[0].content" v-if="e.label_down[0].type == 1">
+                                <p v-if="data.parag !=''" v-html="data.parag"></p>
+                                <div v-if="data.parag ==''" class="dataInput">
+                                    <input  @keyup="clearSpace($event)" :style="{'width': + data.Length + 12 + 'vh' }" class="wrong  " type="text"
+                                        :data-index="i" @change="checkvalue($event,e)" @focus="foucs($event)"
+                                        v-on:blur="foucsOut($event)" location-value="label_down"
+                                        :maxlength="data.Length" :data-i="0" :placeholder="data.input[0].show"
+                                        inputType="1" :class="{'dis_input' : data.input[0].dis_input}"
+                                        :disabled="data.input[0].dis_input">
+                                </div>
+                                <p v-if="data.marker !=''">{{data.marker}}</p>
+                            </template>
+                            <template v-for="(data , i) of  e.label_down[0].content" v-if="e.label_down[0].type == 2">
+                                <p v-if="data.parag != ''" v-html="data.parag"></p>
+                                <template v-if="data.parag ==''"
+                                    v-for=" (exchange , iexchange ) of data.input[0].valid">
+                                    <input  @keyup="clearSpace($event)" :style="{'width': + data.Length + 12 + 'vh' }"
+                                        :placeholder="e.label_down[0].content[i].input[0].show[iexchange]" class="wrong"
+                                        type="text" :data-index="i" @change="checkvalue($event,e);  "
+                                        :maxlength="data.Length" @focus="foucs($event)" v-on:blur="foucsOut($event)"
+                                        location-value="label_down" :data-i="0" inputType="2"
+                                        :class="{'dis_input' : e.label_down[0].content[i].input[0].dis_input}"
+                                        :disabled="e.label_down[0].content[i].input[0].dis_input">
+                                    <p v-if="data.marker !='' && data.input[0].valid.length - 1   !=iexchange">
+                                        {{data.marker}} </p>
+                                </template>
+                            </template>
+                        </div>
+                    </div>
+
+
+
+                  
+                </template>
+            </template>
+            <div v-show="question">
+                <div class="nextContent">
+                    <div class="character" :class="win ? 'win' : 'lose'">
+
+                        <div class="progress" v-show="counter >= loQuestion-1">
+                            <div class="title">
+                                <p><span class="text">{{Estimation}}</span></p>
+                            </div>
+                            <div id="progressbar"></div>
+                        </div>
+
+                        <div class="buttons">
+                            <button class="next" @click="nextQuestion()" v-if="loQuestion-1 > counter"></button>
+                            <button class="home" @click="home()"></button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./content/js/vmain.js"></script>
+    <script src="./content/js/animation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+.container-space .center #table .body_table .inner_table {
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1vw;
+
+}
+
+.ltr {
+    direction: ltr;
+    justify-content: flex-start;
+    width: 80%;
+
+}
+
+.rtl {
+    width: 65%;
+    justify-content: flex-start;
+}
+
+.line {
+    border-bottom: 0.5vh white solid;
+    width: 80%;
+    position: absolute;
+    margin: 1vh;
+    bottom: -2vh;
+}
+
+.question {
+    display: flex;
+    position: relative;
+    margin: 1vh;
+}
+input.right {
+pointer-events: none;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.container-space::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.container-space {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    height: 100vh;
+}
+.userAgent {
+    overflow-y: scroll;
+}
+.loader {
+    background-color: #fff;
+    background-image: url(../assets/images/preloader.gif);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: absolute;
+    z-index: 10;
+    top: auto;
+    right: auto;
+  }
