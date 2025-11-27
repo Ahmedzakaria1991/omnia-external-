@@ -261,24 +261,13 @@
         "numberInputs": 6,
         "counterCorrectQuestion": 0,
         "icon": "./images/Asset 4.png",
-        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 8- ، 3 ، 0 ، 2- ، 11-"],
+        "title": ["رتِّب الأعداد التالية تنازليًّا:", " 8- ، 3 ، 0 ، 2- ، 11-"],
         "comma": "،",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["3"],
+            "valid": ["-11"],
 
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["0"],
-
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["-2"],
             "comma": "،"
           },
           {
@@ -289,7 +278,18 @@
           },
           {
             "numOfInput": 1,
-            "valid": ["-11"],
+            "valid": ["-2"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["0"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["3"],
 
             "comma": "،"
           },
@@ -319,31 +319,14 @@
 
         "icon": "./images/Asset 4.png",
         "title": [
-          "رتِّب الأعداد التالية تصاعديًّا:",
+          "رتِّب الأعداد التالية تنازليًّا:",
           " 1 ، 14- ، 4 ، 1- ، 8 ، 5"
         ],
         "comma": "،",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["8"],
-
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["5"],
-
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["4"],
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["1"],
+            "valid": ["-14"],
 
             "comma": "،"
           },
@@ -355,7 +338,26 @@
           },
           {
             "numOfInput": 1,
-            "valid": ["-14"],
+            "valid": ["1"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["4"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"],
+
             "comma": "،"
           }
         ]
@@ -376,24 +378,13 @@
         "numberInputs": 6,
         "counterCorrectQuestion": 0,
         "icon": "./images/Asset 4.png",
-        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 20- ، 0 ، 2- ، 3 ، 6-"],
+        "title": ["رتِّب الأعداد التالية تنازليًّا:", " 20- ، 0 ، 2- ، 3 ، 6-"],
         "comma": "،",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["3"],
+            "valid": ["-20"],
 
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["0"],
-
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["-2"],
             "comma": "،"
           },
           {
@@ -404,7 +395,18 @@
           },
           {
             "numOfInput": 1,
-            "valid": ["-20"],
+            "valid": ["-2"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["0"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["3"],
 
             "comma": "،"
           },
