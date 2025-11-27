@@ -155,28 +155,13 @@
         "add": true,
         "title": [
           "رتِّب الأعداد التالية تصاعديًّا:",
-          "7 ، 12 ، 5- ، 9 ، 5 , 8"
+          "7 ، 12 ، 5- ، 9 ، 5 ، 8"
         ],
         "comma": "،",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["-5"],
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["5"],
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["7"],
-            "comma": "،"
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["8"],
+            "valid": ["12"],
             "comma": "،"
           },
           {
@@ -186,7 +171,22 @@
           },
           {
             "numOfInput": 1,
-            "valid": ["12"],
+            "valid": ["8"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["-5"],
             "comma": "،"
           }
         ]
@@ -207,7 +207,7 @@
         "numberInputs": 6,
         "counterCorrectQuestion": 0,
         "icon": "./images/Asset 4.png",
-        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 12- ، 9 ، 7- ، 3 , 3-"],
+        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 12- ، 9 ، 7- ، 3 ، 3-"],
         "comma": "،",
         "inputs": [
           {
@@ -262,7 +262,7 @@
         "numberInputs": 6,
         "counterCorrectQuestion": 0,
         "icon": "./images/Asset 4.png",
-        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 8- ، 3 ، 0 ، 2-, 11-"],
+        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 8- ، 3 ، 0 ، 2- ، 11-"],
         "comma": "،",
         "inputs": [
           {
@@ -291,6 +291,121 @@
           {
             "numOfInput": 1,
             "valid": ["-11"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 0,
+            "valid": ["0"],
+            "comma": "،"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 6,
+        "counterCorrectQuestion": 0,
+        "add": true,
+
+        "icon": "./images/Asset 4.png",
+        "title": [
+          "رتِّب الأعداد التالية تصاعديًّا:",
+          " 1 ، 14- ، 4 ، 1- ، 8 ، 5"
+        ],
+        "comma": "،",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["8"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["4"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["1"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["-1"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["-14"],
+            "comma": "،"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 6,
+        "counterCorrectQuestion": 0,
+        "icon": "./images/Asset 4.png",
+        "title": ["رتِّب الأعداد التالية تصاعديًّا:", " 20- ، 0 ، 2- ، 3 ، 6-"],
+        "comma": "،",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["3"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["0"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["-2"],
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["-6"],
+
+            "comma": "،"
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["-20"],
 
             "comma": "،"
           },
