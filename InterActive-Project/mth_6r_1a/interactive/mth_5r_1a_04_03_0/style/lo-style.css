@@ -1,0 +1,92 @@
+.ltr {
+  direction: ltr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.handEng {
+
+    bottom: -1vh;
+    left: -1vh;
+
+}
+.width-115 {
+  width: 85vw;
+}
+.height-35 {
+  height: 55vh;
+}
+.width-90 {
+  width: 30vw;
+}
+.height-20 {
+  height: 13vh;
+}
+body .main .sectionSpace .screen-question .sub-table,
+body .main .sectionSpace .screen-question .body_table {
+  margin-top: 10vh;
+}
+body
+  .main
+  .sectionSpace
+  .screen-question
+  .screen
+  .container-space
+  .question
+  .content
+  p {
+  font-weight: bolder;
+  font-size: xx-large;
+  display: block;
+}
+body
+  .main
+  .sectionSpace
+  .screen-question
+  .screen
+  .container-space
+  .question
+  .content2 {
+  display: block;
+  direction: rtl;
+}
+.row1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  flex-direction: row;
+  padding:  1vh;
+}
+.row2{
+    width: 100%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  flex-direction: row;
+  padding:  2vh;
+
+}
+.rowinp{
+  display: flex;
+}
+body .main .isSuccess.isEng p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}

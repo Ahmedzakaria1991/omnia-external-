@@ -1,0 +1,256 @@
+{
+  "counterCorrect": 0,
+  "LOcorrectcounter": 0,
+  "loTargets": null,
+  "numberOfquestion": 0,
+  "id": "",
+  "subjectId": "",
+  "conceptId": "",
+  "unitId": "",
+  "lessonId": "",
+  "title": "",
+  "keywords": "",
+  "learningObjectives": "",
+  "BloomLevels": [],
+  "type": "",
+  "loDegree": null,
+  "UserDegree": null,
+  "subType": "Choose",
+  "startTime": "",
+  "endTime": "",
+  "slides": [
+    {
+      "img": "./images/s/1.png"
+    },
+    {
+      "img": "./images/s/2.png"
+    },
+    {
+      "img": "./images/s/3.png"
+    },
+    {
+      "img": "./images/s/4.png"
+    },
+    {
+      "img": "./images/s/5.png"
+    },
+    {
+      "img": "./images/s/6.png"
+    },
+    {
+      "img": "./images/s/7.png"
+    },
+    {
+      "img": "./images/s/8.png"
+    },
+    {
+      "img": "./images/s/9.png"
+    },
+    {
+      "img": "./images/s/10.png"
+    },
+    {
+      "img": "./images/s/11.png"
+    },
+    {
+      "img": "./images/s/12.png"
+    },
+    {
+      "img": "./images/s/13.png"
+    },
+    {
+      "img": "./images/s/14.png"
+    },
+    {
+      "img": "./images/s/15.png"
+    }
+  ],
+  "questions": [
+    {
+      "type": 2,
+      "subtype": "text",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "learningOutCome": null,
+      "questionType": "text",
+      "answersType": "text",
+      "text": [""],
+      "img": "./images/q/typ3-q1.png",
+      "sound": "./sound/q/1.mp3",
+      "answers": [
+        {
+          "text": ["الحَقْل"],
+          "img": null,
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": ["الصَّحَراء"],
+          "img": null,
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": ["النَّهْرِ"],
+          "img": null,
+          "sound": null,
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "subtype": "text",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "learningOutCome": null,
+      "questionType": "text",
+      "answersType": "text",
+      "text": [""],
+      "img": "./images/q/typ3-q2.png",
+      "sound": "./sound/q/2.mp3",
+      "answers": [
+        {
+          "text": ["أُمُّ مُوسَى"],
+          "img": null,
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": ["زَوجْةَ فِرْعَوْن"],
+          "img": null,
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": ["أُخْتُ مُوسَى"],
+          "img": null,
+          "sound": null,
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "subtype": "text",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "learningOutCome": null,
+      "questionType": "text",
+      "answersType": "text",
+      "text": [""],
+      "img": "./images/q/typ3-q3.png",
+      "sound": "./sound/q/3.mp3",
+      "answers": [
+        {
+          "text": ["مَدْینَ"],
+          "img": null,
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": ["مَكَّةَ"],
+          "img": null,
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": ["سَینَاءَ"],
+          "img": null,
+          "sound": null,
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    }
+    ,
+    {
+      "type": 3,
+      "subtype": "truefalse",
+      "tfType": "text",
+      "text": [""],
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "questionType": "text",
+      "answersType": "image",
+      "img": "./images/q/typ5-q1.png",
+      "sound": "./sound/q/4.mp3",
+      "answers": [
+        {
+          "isRight": true,
+          "checked": false
+        },
+        {
+          "isRight": false,
+          "checked": false
+        }
+      ]
+    }
+    ,
+    {
+      "type": 3,
+      "subtype": "truefalse",
+      "tfType": "text",
+      "text": [""],
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "questionType": "text",
+      "answersType": "image",
+      "img": "./images/q/typ5-q2.png",
+      "sound": "./sound/q/5.mp3",
+      "answers": [
+        {
+          "isRight": true,
+          "checked": false
+        },
+        {
+          "isRight": false,
+          "checked": false
+        }
+      ]
+    }
+    ,
+    {
+      "type": 3,
+      "subtype": "truefalse",
+      "tfType": "text",
+      "text": [""],
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "questionType": "text",
+      "answersType": "image",
+      "img": "./images/q/typ5-q3.png",
+      "sound": "./sound/q/6.mp3",
+      "answers": [
+        {
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    }
+  ]
+}
