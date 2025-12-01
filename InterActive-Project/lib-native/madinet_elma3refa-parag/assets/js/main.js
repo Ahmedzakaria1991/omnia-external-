@@ -988,7 +988,7 @@ new Vue({
       this.removeSelectDone = false;
       this.selectionTextq = "";
       this.instructionDev.classList.add("poniterEvent");
-      this.Paragraph[0].classList.add("poniterEvent");
+      // this.Paragraph[0].classList.add("poniterEvent");
     },
     CheckSelectAnswer(question) {
       let passage = document.querySelectorAll(".active .passage");

@@ -969,7 +969,7 @@ new Vue({
       this.stopCountDown();
       this.resetSoltan();
       let studentAnswer = this.CheckSelectAnswer(question);
-      this.Paragraph[0].classList.add("poniterEvent");
+      // this.Paragraph[0].classList.add("poniterEvent");
 
       if (studentAnswer) {
         this.successAnswer();
