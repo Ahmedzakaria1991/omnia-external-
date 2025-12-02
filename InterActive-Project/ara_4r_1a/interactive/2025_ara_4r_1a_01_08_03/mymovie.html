@@ -16,6 +16,13 @@
         body #Soltan .container .pop_text p {
             font-size: 1.3vw;
         }
+
+        body #Soltan .container .room .punctuate .question,
+        body #Soltan .container .popUp .punctuate .question {
+
+            justify-content: flex-start;
+            margin-right: 8vw;
+        }
     </style>
 </head>
 
@@ -32,7 +39,7 @@
             </template>
             <template v-show="startLo && !instractionsView">
                 <div v-show="startLo" class="music" @click="muteMusic()" :class="bgMusic ? 'play' : 'mute'"></div>
-                <div v-show="startLo" id="instruction" class="help"  @click="help()"></div>
+                <div v-show="startLo" id="instruction" class="help" @click="help()"></div>
                 <div class="langing" v-show="activeDoor == null">
                     <template>
                         <div id="doorLeft"></div>
@@ -276,8 +283,9 @@
 
                                                     <template v-for="(word,index) in studentAnswer">
                                                         <div style="margin-left: 0.5vw;"
-                                                            :class="{'trueWord' : solvedStyle[index],'falseWord' : solvedStyle[index] == false , 'normal' : solvedStyle[index] == null}" v-html="word + ' '">
-                                                            
+                                                            :class="{'trueWord' : solvedStyle[index],'falseWord' : solvedStyle[index] == false , 'normal' : solvedStyle[index] == null}"
+                                                            v-html="word + ' '">
+
                                                         </div>
 
                                                     </template>
@@ -305,7 +313,7 @@
 
                 </div>
             </template>
-            <div class="instruction" v-show="startLo && instractionsView"> 
+            <div class="instruction" v-show="startLo && instractionsView">
                 <div class="instructionBody">
                     <div class="row" v-for="(instraction,index) in instractionsActive">
                         <div class="image">
@@ -317,8 +325,9 @@
                     </div>
                     <div class="skip" @click="skip()"></div>
                     <div class="next" :class="{'nextDim' : currentPage == 1}" @click="prev()"></div>
-                    <div class="prev" :class="{'prevDim' : pageSize*currentPage >= instractions.length}" @click="next()"></div>
-                </div> 
+                    <div class="prev" :class="{'prevDim' : pageSize*currentPage >= instractions.length}"
+                        @click="next()"></div>
+                </div>
             </div>
         </div>
     </div>
