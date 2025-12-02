@@ -1,0 +1,885 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "BloomTargets": null,
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": 0,
+    "id": "ara_6r_1a_02_01_06",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "bloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "input",
+    "startTime": "",
+    "endTime": "",
+    "readText": "اقرَأ الأبياتَ جيدًا",
+    "typeLo": 2,
+    "doors": [
+      {
+        "passage": "بلِاَدِي بلِاَدِي فدِاَكِ دمَِي<span style='margin-right:14vw'></span>   وَھبَتُْ حَیاَتيِ رِضًا فاَسلْمَيِ <span style='margin-right:11vw'></span>   فحَُبكُِّ عِندِْي كنَبَضِْ الفْؤَُادِ  <span style='margin-right:12vw'></span> فلَنَْ تسَتْكَیِنيِ وَلنَْ تھُزَْميِ  <span style='margin-right:11vw'></span> سَنھَْتفُِ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span>فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+        "choose": {
+          "questions": [
+            {
+              "type": 4,
+              "active": false,
+              "parag": " وهَبَ الشاعرُ لبلادِهِ   ....... ",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "اقرَأ البَيتَ الأولَ جيدًا، واستنتِجْ ماذا وهَبَ الشاعِرُ لبلادِه.",
+              "numberQuestion": 1,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "مَالَه",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "عَقلَه ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "حياتَه ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "قلبَه",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "active": false,
+              "parag": "يتحدَّثُ الشاعرُ في الأبياتِ عن   .......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "اقرَأْ بدايةَ الأبياتِ.",
+              "numberQuestion": 2,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "نبضِ الفؤادِ ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "حُبِّ الحياةِ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "تعاقُبِ الأجيالِ ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "حُبِّ البلادِ",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "tureFalse": {
+          "questions": [
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "وهَبَ الشاعرُ حياتَه لبلادِه.",
+              "hint": "اقرَأ الشطرَ الثانيَ في البَيتِ الأولِ.",
+              "numberQuestion": 3,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "«فحُبُّكِ عِندِي كنَبضِ الفُؤادِ». تعبيرٌ حقيقيٌّ.",
+              "hint": "شبَّهَ الشاعرُ حُبَّه لبلادِه بالنبضِ في القلبِ.",
+              "numberQuestion": 4,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "selectText": {
+          "questions": [
+            {
+              "title": "حدِّدِ الإجابةَ من الأبياتِ",
+              "active": false,
+              "parag": "مُرادِفُ (كُونِي في أَمانٍ وسَلامٍ): .....",
+
+              "sentence": "بلِاَدِي بلِاَدِي فدِاَكِ دمَِي<span style='margin-right:14vw'></span>   وَھبَتُْ حَیاَتيِ رِضًا فاَسلْمَيِ <span style='margin-right:11vw'></span>   فحَُبكُِّ عِندِْي كنَبَضِْ الفْؤَُادِ  <span style='margin-right:12vw'></span> فلَنَْ تسَتْكَیِنيِ وَلنَْ تھُزَْميِ  <span style='margin-right:11vw'></span> سَنھَْتفُِ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span>فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+
+              "correct": "بلِاَدِي بلِاَدِي فدِاَكِ دمَِي<span style='margin-right:14vw'></span>   وَھبَتُْ حَیاَتيِ رِضًا <span class=showText>فاَسلْمَيِ</span> <span style='margin-right:12vw'></span>   فحَُبكُِّ عِندِْي كنَبَضِْ الفْؤَُادِ  <span style='margin-right:12vw'></span> فلَنَْ تسَتْكَیِنيِ وَلنَْ تھُزَْميِ  <span style='margin-right:11vw'></span> سَنھَْتفُِ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span>فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+
+              "correctAnswer": ["فاَسلْمَيِ"],
+              "selectionText": "فاَسلْمَيِ",
+              "hint": "الكَلِمةُ التي تبحَثُ عنها في البَيتِ الأولِ.",
+              "numberQuestion": 5,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            },
+            {
+              "title": "حدِّدِ الإجابةَ من الأبياتِ",
+              "active": false,
+              "parag": "مُفرَدُ (الأَفْئِدة): ......",
+              "sentence": "بلِاَدِي بلِاَدِي فدِاَكِ دمَِي <span style='margin-right:14vw'></span>   وَھبَتُْ حَیاَتيِ رِضًا فاَسلْمَيِ <span style='margin-right:11vw'></span>   فحَُبكُِّ عِندِْي كنَبَضِْ الفْؤَُادِ  <span style='margin-right:12vw'></span> فلَنَْ تسَتْكَیِنيِ وَلنَْ تھُزَْميِ  <span style='margin-right:11vw'></span> سَنھَْتفُِ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span>فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+              "correct": "  بلِاَدِي بلِاَدِي فدِاَكِ دمَِي<span style='margin-right:14vw'></span> وَھبَتُْ حَیاَتيِ رِضًا فاَسلْمَيِ   <span style='margin-right:11vw'></span> فحَُبكُِّ عِندِْي كنَبَضِْ <span class=showText>الفْؤَُادِ</span> <span style='margin-right:12vw'></span>   فلَنَْ تسَتْكَیِنيِ وَلنَْ تھُزَْميِ  <span style='margin-right:11vw'></span>سَنھَْتفُِ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span> فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+              "correctAnswer": ["الفْؤَُادِ "],
+              "selectionText": "الفْؤَُادِ",
+              "hint": "ابحَثْ عن كَلِمةٍ مَعناها (القَلب).",
+              "numberQuestion": 6,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            }
+          ]
+        },
+        "punctuate": {
+          "questions": [
+            {
+              "title": "اضغَطْ على الكَلِماتِ الخطأ، ثم اختَرِ التصويبَ المُناسِبَ.",
+              "active": false,
+              "numberQuestion": 7,
+              "sentence": "بلِاَدِي بلِاَدِي فدِاَكِ دمَِي<span style='margin-right:14vw'></span>   وَھبَتُْ حَیاَتيِ رَغْمًا فاَسلْمَيِ <span style='margin-right:4.5vw'></span>   فَخَوْفُكِ عِندِْي كنَبَضِْ الفْؤَُادِ  <span style='margin-right:12vw'></span> فلَنَْ تسَتْكَیِنيِ وَلنَْ تُهْزَمِ  <span style='margin-right:5vw'></span> سَنَصْمُتُ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span>فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+              "hint": [
+                "الكَلِمةُ الخطأُ التي تبحَثُ عنها مُضادُّها (الرِّضا والطَّواعِية).",
+                "الكَلِمةُ الخطأُ التي تبحَثُ عنها تعنِي (الصَّمْت). ",
+                "الكَلِمةُ الخطأُ سُبِقَت بـ(لن). ",
+                "ابحَثْ عنِ الكَلِمةِ الخطأ في بدايةِ البَيتِ الثاني."
+              ],
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "wrongWord": [
+                {
+                  "word": "رَغْمًا",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "خضوعًا",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "أسفًا",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "رِضًا",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "سَنَصْمُتُ",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "سنتحدَّثُ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "سنتعلَّمُ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "سنهتِفُ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "تُهْزَمِ",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "ننهَزِم",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تُهزَمَا",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تُهزَمِي",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "فَخَوْفُكِ",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "فقَلبُكِ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "فصَوتُكِ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "فحُبُّكِ  ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "passage": "لَنَا وَطَنٌ سَنَرْعَاهُ <span style='margin-right:25vw'></span> وَنُعْلِيهِ بِأَيْدِينَا <span style='margin-right:10vw'></span> بِغَالِي الرُّوحِ نَفْدِیهِ <span style='margin-right:23vw'></span>  وَتَبْنِيهِ أَمَانِينَا <span style='margin-right:10vw'></span>     فَذَا عَمَلٌ وَذَا عَزْمٌ    <span style='margin-right:24vw'></span>وَذَا مَجْدٌ يُنَادِينَا ",
+        "choose": {
+          "questions": [
+            {
+              "type": 4,
+              "active": false,
+              "parag": "الواجبُ على كُلِّ إنسانٍ نحوَ وطنِه أنْ .........",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "اقرَأ الأبياتَ جيدًا؛ ستجِدُ واجباتِ كلِّ إنسانٍ نحوَ وطنِه. ",
+              "numberQuestion": 1,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "يفْدِيَه",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "يرْعَاه ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "يبْنِيَه ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "كُلُّ ما سبَقَ ",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "active": false,
+              "parag": "ضعيفُ العزيمةِ ........  ",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "ضعيفُ العزيمةِ لا يبنِي وطنًا ولا يصنَعُ مجدًا ولا يهزِمُ عدوًّا.",
+              "numberQuestion": 2,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "یبْنِي الوَطنَ  ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "يضُرُّ الوَطنَ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "يصنَعُ المجدَ ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "يهزِمُ العَدُوَّ",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "tureFalse": {
+          "questions": [
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "للوطنِ حقٌّ على كلِّ أبنائِه. ",
+              "hint": "لا تنسَ أنَّ الوطنَ له حقٌّ علَينا جميعًا.",
+              "numberQuestion": 3,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "تتحدَّثُ الأبياتُ عن تحقيقِ الأمانِي.",
+              "hint": "اقرَأْ بدايةَ الأبياتِ. ",
+              "numberQuestion": 4,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "selectText": {
+          "questions": [
+            {
+              "title": "حدِّدِ الإجابةَ من الأبياتِ",
+              "active": false,
+              "parag": "مُرادِفُ (إِرادَة): ......",
+              "sentence": "لَنَا وَطَنٌ سَنَرْعَاهُ <span style='margin-right:25vw'></span> وَنُعْلِيهِ بِأَيْدِينَا <span style='margin-right:10vw'></span> بِغَالِي الرُّوحِ نَفْدِیهِ <span style='margin-right:25vw'></span>  وَتَبْنِيهِ أَمَانِينَا <span style='margin-right:10vw'></span>     فَذَا عَمَلٌ وَذَا عَزْمٌ    <span style='margin-right:25vw'></span>وَذَا مَجْدٌ يُنَادِينَا ",
+              "correct": "لَنَا وَطَنٌ سَنَرْعَاهُ <span style='margin-right:25vw'></span> وَنُعْلِيهِ بِأَيْدِينَا <span style='margin-right:9vw'></span> بِغَالِي الرُّوحِ نَفْدِیهِ <span style='margin-right:25vw'></span>  وَتَبْنِيهِ أَمَانِينَا <span style='margin-right:9vw'></span>     فَذَا عَمَلٌ وَذَا <span class=showText>عَزْمٌ</span>    <span style='margin-right:25vw'></span>وَذَا مَجْدٌ يُنَادِينَا ",
+              "correctAnswer": ["عَزْمٌ"],
+              "selectionText": "",
+              "hint": "ابحَثْ في الأبياتِ عن كَلِمةٍ تعنِي (العَزِيمة). ",
+              "numberQuestion": 5,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            },
+            {
+              "title": "حدِّدِ الإجابةَ من الأبياتِ",
+              "active": false,
+              "parag": "جَمعُ (بيَدِي): ......",
+              "sentence": "لَنَا وَطَنٌ سَنَرْعَاهُ <span style='margin-right:25vw'></span> وَنُعْلِيهِ بِأَيْدِينَا <span style='margin-right:10vw'></span> بِغَالِي الرُّوحِ نَفْدِیهِ <span style='margin-right:25vw'></span>  وَتَبْنِيهِ أَمَانِينَا <span style='margin-right:10vw'></span>     فَذَا عَمَلٌ وَذَا عَزْمٌ    <span style='margin-right:25vw'></span>وَذَا مَجْدٌ يُنَادِينَا ",
+              "correct": "<span style='margin-right:5vw'></span> لَنَا وَطَنٌ سَنَرْعَاهُ <span style='margin-right:20vw'></span> وَنُعْلِيهِ <span class=showText> بِأَيْدِينَا </span> <span style='margin-right:5vw'></span> بِغَالِي الرُّوحِ نَفْدِیهِ <span style='margin-right:25vw'></span>  وَتَبْنِيهِ أَمَانِينَا <span style='margin-right:10vw'></span>     فَذَا عَمَلٌ وَذَا عَزْمٌ <span style='margin-right:25vw'></span> وَذَا مَجْدٌ يُنَادِينَا  ",
+              "correctAnswer": ["بِأَيْدِينَا"],
+              "selectionText": "",
+              "hint": "اقرَأْ نهايةَ البَيتِ الأولِ.",
+              "numberQuestion": 6,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            }
+          ]
+        },
+        "punctuate": {
+          "questions": [
+            {
+              "title": "اضغَطْ على الكَلِماتِ الخطأ، ثم اختَرِ التصويبَ المُناسِبَ.",
+              "active": false,
+              "numberQuestion": 7,
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "sentence": "لَنَا أَوْطَانٌ سَنَرْعَاهُ <span style='margin-right:25vw'></span> وَنُعْلِيهِ بِيَدِي <span style='margin-right:10vw'></span> بِغَالِي الرُّوحِ نَفْدِیهِ <span style='margin-right:23vw'></span>  وَ تَهْدِمُهُ أَمَانِينَا <span style='margin-right:10vw'></span>     فَذَا عَمَلٌ وَذَا عُزُومٌ    <span style='margin-right:24vw'></span>وَذَا مَجْدٌ يُنَادِينَا ",
+              "hint": [
+                "الكَلِمةُ الخطأُ التي تبحَثُ عنها كُتِبَت مُفرَدًا في البَيتِ الأولِ.",
+                "الكَلِمةُ الخطأُ التي تبحَثُ عنها مُضادُّها (تبْنِيه).",
+                "الكَلِمةُ الخطأُ التي تبحَثُ عنها جمعُ (عَزْم). ",
+                "اقرَأْ بدايةَ الأبياتِ لتكتشِفَ الخطأَ. "
+              ],
+              "wrongWord": [
+                {
+                  "word": "بِيَدِي",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "بأَيْدِي",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "بأَيَادِي",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "بأَيْدِينا",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "تَهْدِمُهُ",
+                  "correctAnswerTochoose": 2,
+                  "chooses": [
+                    {
+                      "toChoose": "ترسُمُه",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تعرِفُه",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تَبْنِيهِ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "عُزُومٌ",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "عازِم ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "عزَّام",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "عَزْم",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "أَوْطَانٌ",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "طِن",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "وَطَني ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "وَطَن",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "passage": "بلِاَدِي بلِاَدِي فدِاَكِ دمَِي<span style='margin-right:14vw'></span>   وَھبَتُْ حَیاَتيِ رِضًا فاَسلْمَيِ <span style='margin-right:10vw'></span>   فحَُبكُِّ عِندِْي كنَبَضِْ الفْؤَُادِ  <span style='margin-right:12vw'></span> فلَنَْ تسَتْكَیِنيِ وَلنَْ تھُزَْميِ  <span style='margin-right:11vw'></span> سَنھَْتفُِ باِسْمِكِ جِیلاً فجَِیلاً <span style='margin-right:11vw'></span>فعَِیشِي بلِاَدِي لنَاَ وَانْعمَِي ",
+        "choose": {
+          "questions": [
+            {
+              "type": 4,
+              "active": false,
+              "parag": "مُرادِفُ (الْـــوِدَاد): .......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "كَلِمةٌ تدُلُّ على المحبةِ.",
+              "numberQuestion": 1,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "التقرُّب",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الحُب",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "الصَّداقة",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الأُخوَّة",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "active": false,
+              "parag": "جمعُ (الْحَــــل): ......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "أضِفْ للمُفرَدِ واوًا ولامًا.",
+              "numberQuestion": 2,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "الحُلول",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "الحَلال",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الحُلي",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الأَحوال",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "tureFalse": {
+          "questions": [
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "يتحدَّثُ الشاعرُ في النَّصِّ عنِ أهميةِ الكتابِ.",
+              "hint": "تكمُنُ الإجابةُ في أولِ بَيتٍ.",
+              "numberQuestion": 3,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "نفهَمُ من الأبياتِ أنَّ الشاعرَ يفتَخِرُ بالشبابِ.",
+              "hint": "أشادَ الشاعرُ في الأبياتِ بدَورِ الشبابِ.",
+              "numberQuestion": 4,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "selectText": {
+          "questions": [
+            {
+              "title": "حدِّدِ الإجابةَ من الأبياتِ",
+              "active": false,
+              "parag": " معنى (ما أُعِدَّ للحربِ من أسلِحةٍ): ........",
+              "sentence": "قَــــرَأْتُ فِــــــــي الْكِتَــــــابِ <span style='margin-right:15vw'></span> الْخَيْــــرُ فِــــي الشَّبَـــــابِ فَهُــــــمْ عَتَـــــــادُ قَوْمِـــــــــي <span style='margin-right:15vw'></span>  وَ الْحَــــــــــلُّ لِلصِّعَـــــــــابِ هُـــــمْ بِالْـــــــوِدَادِ عـَـــــــــادُوا  <span style='margin-right:15.5vw'></span>  وَالْــــــــــوُدُّ كَالسَّحَـــــــــــابِ",
+              "correct": "قَــــرَأْتُ فِــــــــي الْكِتَــــــابِ <span style='margin-right:15vw'></span> الْخَيْــــرُ فِــــي الشَّبَـــــابِ فَهُــــــمْ <span class=showText>عَتَـــــــادُ</span> قَوْمِـــــــــي <span style='margin-right:15vw'></span>  وَ الْحَــــــــــلُّ لِلصِّعَـــــــــابِ هُـــــمْ بِالْـــــــوِدَادِ عـَـــــــــادُوا  <span style='margin-right:15.5vw'></span>  وَالْــــــــــوُدُّ كَالسَّحَـــــــــــابِ",
+              "correctAnswer": ["عَتَـــــــادُ"],
+              "selectionText": "",
+              "hint": "كَلِمةٌ جَذْرُها (عَتُدَ).",
+              "numberQuestion": 5,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            },
+            {
+              "title": "حدِّدِ الإجابةَ من الأبياتِ",
+              "active": false,
+              "parag": "هاتِ من البيتِ الثاني تشبيهًا.",
+              "sentence": "قَــــرَأْتُ فِــــــــي الْكِتَــــــابِ <span style='margin-right:15vw'></span> الْخَيْــــرُ فِــــي الشَّبَـــــابِ فَهُــــــمْ عَتَـــــــادُ قَوْمِـــــــــي <span style='margin-right:15vw'></span>  وَ الْحَــــــــــلُّ لِلصِّعَـــــــــابِ هُـــــمْ بِالْـــــــوِدَادِ عـَـــــــــادُوا  <span style='margin-right:15.5vw'></span>  وَالْــــــــــوُدُّ كَالسَّحَـــــــــــابِ",
+              "correct": "قَــــرَأْتُ فِــــــــي الْكِتَــــــابِ <span style='margin-right:15vw'></span> الْخَيْــــرُ فِــــي الشَّبَـــــابِ فَهُــــــمْ <span class=showText>عَتَـــــــادُ قَوْمِـــــــــي</span> <span style='margin-right:15vw'></span>  وَ الْحَــــــــــلُّ لِلصِّعَـــــــــابِ هُـــــمْ بِالْـــــــوِدَادِ عـَـــــــــادُوا  <span style='margin-right:15.5vw'></span>  وَالْــــــــــوُدُّ كَالسَّحَـــــــــــابِ",
+              "correctAnswer": ["عَتَـــــــادُ قَوْمِـــــــــي"],
+              "selectionText": "",
+              "hint": "شبَّهَ الشاعرُ الشبابَ بالأسلحةِ التي أُعِدَّت للحربِ.",
+              "numberQuestion": 6,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            }
+          ]
+        },
+        "punctuate": {
+          "questions": [
+            {
+              "title": "اضغَطْ على الكَلِماتِ الخطأ، ثم اختَرِ التصويبَ المُناسِبَ.",
+              "active": false,
+              "numberQuestion": 7,
+              "sentence": "قَــــرَأْتُ فِــــــــي الْكِتَــــــابِ <span style='margin-right:19vw'></span> الْخَيْــــــــرُ  فِــــي الفَتَيات فهي عَتَــــــــــادُ قَوْمِـــــــــي <span style='margin-right:19vw'></span>  وَ المُشكِلة لِلصِّعَـــــــــابِ هُـــــمْ بِالْـــــــــوِدَادِ ذهَبوا  <span style='margin-right:19vw'></span>  وَالْــــــــوُدُّ كَالسَّحَــــــــــابِ",
+              "hint": [
+                "هذه الكَلِمةِ نذكُرُ معَها أحيانًا: «في رَيَعانِ». ",
+                "للغائبِ جمعِ المُذكَّرِ السالمِ.",
+                "مُضادُّ (المُشكِلة).",
+                "كَلِمةٌ تدُلُّ على العودةِ."
+              ],
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "wrongWord": [
+                {
+                  "word": "الفَتَيات",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "الشَّباب",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "الرِّجال ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "الأطفَال",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "فهي",
+                  "correctAnswerTochoose": 2,
+                  "chooses": [
+                    {
+                      "toChoose": "فهما  ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "فهم ",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "فهن",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "المُشكِلة",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "الحَل ",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "الإجَابة ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "الرَّد",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "ذهَبوا",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "عادُوا ",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "جلَسُوا ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "باتُوا",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "scoureDoors": [0, 0, 0]
+  }
+]
