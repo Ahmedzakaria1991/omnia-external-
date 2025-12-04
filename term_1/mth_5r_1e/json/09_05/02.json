@@ -1,0 +1,309 @@
+[
+  {
+    "nameId": "choose",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "11,870 g = ......... kg ",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "1,871",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "11.87",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "118.7",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "1.087",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "2 meters = ............ kilometers.",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.02",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "0.002",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "up": "",
+        "down": "",
+        "fraction": false,
+        "paragraph": "3.3 m =  ........ cm",
+        "paragraph1": "× 76.5",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "33",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "3,300",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.33",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "330",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "142 cm × ........ = 1.42 m",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "100",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.01",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.1",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "0.001",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "500 mL = ......... L",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.2",
+            "toChooseup": "1",
+            "toChoosedown": "2",
+            "fraction": false,
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "5",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "5.45 kg =  ........... g",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "545",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "right": false,
+            "toChoose": "5,000",
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "5,450",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "0.545",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "16.5 cm =  ....... m",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "1.65",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.165",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "16.5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "165",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "If the length of a road is 9 kilometers, then its length in meters is equal to ..........",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "90",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "900",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "9,000",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "90,000",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

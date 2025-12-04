@@ -1,0 +1,745 @@
+[
+  {
+    "nameId": "choose",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "45 × 6 = ( ...... × 6) + (5 × 6).",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "400",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "40",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.4",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "4",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "popup": "",
+        "paragraph": "Mona uses 120 grams of salt daily. The number of grams of salt<br> she uses in 7 days is = ....... ",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "127 grams ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "113 grams",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "30 grams",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "840 grams",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "popup": "",
+        "paragraph": "83 × 63 = .......",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "5,150",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "6,166",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "5,229",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "6,556",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "If 76 × 24 = 1,824, the missing number in the opposite area model is  ....   ",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "table":true,
+        "row1": ["6", "70"],
+        "row2": ["120", "1,400", "20"],
+        "row3": ["....", "280", "4"],
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "24",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "42",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "420",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "1,824",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": "(40 × 85) + (2 × 85) = ........... ",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "85 × 42",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "85 × 24",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "85 × 80",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "85 × 60",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "popup": "",
+        "paragraph": "In the opposite area model,<br> the value of a=.....  ",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "table":true,
+        "row1": ["50", "3"],
+        "row2": ["1,500", "a", "30"],
+        "row3": ["400", "24", "8"],
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "30",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "50",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "90",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "popup": "",
+        "paragraph": " The opposite area model represents .....  ",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "table":true,
+        "row1": ["20", "5"],
+        "row2": ["800", "200", "40"],
+        "row3": ["60", "15", "3"],
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "  34 × 25",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "43 × 25",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 43 × 52",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " 34 × 52",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": " 16 × 25 = .........",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "300",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "500",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 400",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "600",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": " 20,000  ......... 567 × 54 ",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " >",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "  <",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "≤",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+
+
+
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": " The missing number in the opposite multiplication problem is ......",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "fraction": true,
+        "paragraph1": "456",
+        "paragraph2": "26",
+        "mark1":"×",
+        "paragraph3": "2,736",
+        "paragraph4": "...",
+        "paragraph5": "120,",
+        "mark2":"+",
+        "paragraph6": "11,856",
+        "paragraph7": "",
+        "paragraph8": "",
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " 5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "8",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 9",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "10",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": " The missing number in the opposite multiplication problem is ......",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "fraction": true,
+        "paragraph1": "723",
+        "paragraph2": "14",
+        "mark1":"×",
+        "paragraph3": "....",
+        "paragraph4": "",
+        "paragraph5": "7,230",
+        "mark2":"+",
+        "paragraph6": "10,122",
+        "paragraph7": "",
+        "paragraph8": "",
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "  2,882",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": " 10,122",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "2,892",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "2,880 ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+      ,
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "Estimating the product of 88 × 42 is .........",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " 2,300",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "4,200",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 3,600",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "6,300",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "popup": "",
+        "paragraph": "763 × 24 = ........   ",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " 15,542",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": " 16,325",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 14,312",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "18,312 ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "popup": "",
+        "paragraph": "52 × 129 ..... 5,475  ",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": " >",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "غير ذلك",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": "The Ones digit of the product of: 37 × 124 is  .....  ",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "6",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "8",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": "Rounding the result of  97 × 603 to the nearest ten is  ....... ",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "6,000",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "600",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 60,000",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "7,000",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": "Which product is NOT correct? ",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 3,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "   36 × 24 = 864",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": " 702 × 43 = 30,186 ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 205 × 81 =   16,605",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " 16 × 321 =  5,163",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": "51 × 17 =  .... ",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " 687",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "867",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 785",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "766",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": " 23 × 2,362 .... 55,000  ",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "questionNumber":2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " =",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "Otherwise",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

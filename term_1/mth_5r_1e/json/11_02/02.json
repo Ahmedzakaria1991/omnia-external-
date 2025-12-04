@@ -1,0 +1,278 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Read then answer ",
+        "image": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "If the price of a carton of milk is 15 L.E., the price of a juice can is 7.5 L.E., and the price of a yogurt is 4.75 L.E., then how much does it cost to buy 4 milk cartons, 3 juice cans, and 5 yogurts?"
+                ],
+                "paragraphes2": [
+                  "The price of buying  4 milk cartons, 3 juice cans, and 5 yogurts  = "
+                ],
+                "paragraphes3": ["L.E."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["106.25"],
+                    "show": ["106.25"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Samar went to the amusement park with three of her friends, and each one of them paid 77 L.E. for one ticket, 25.5 L.E. for a candy box, and 5 L.E. for an a bottle of water. What is the cost they pay for it all?"
+                ],
+                "paragraphes2": ["The total of what they pay ="],
+                "paragraphes3": ["L.E."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["430"],
+                    "show": ["430"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Mariam had a book; she read 6 pages daily through 5 consecutive days, and in the next two days she read 3 pages daily if 5 pages were left. How many pages are in the book?"
+                ],
+                "paragraphes2": ["Number of the pages of the book = "],
+                "paragraphes3": ["Pages."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["41"],
+                    "show": ["41"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Kamel is saving money to buy a car. He currently has 1,000 LE. He begins working two jobs. At his first job, he saves 50 L.E. a week. At his second job, he saves 30 LE. a week. He saves the money from his jobs for 4 weeks to add to his savings. How much does Kamel have saved at the end of the 4 weeks? "
+                ],
+                "paragraphes2": [
+                  "Kamel has saved at the end of the 4 weeks =  "
+                ],
+                "paragraphes3": ["L.E."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,320", "1320"],
+                    "show": ["1,320"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "As a part of his fitness training, Mounir cycles 38.7 kilometers in 2 hours. If he cyclesat the same rate the entire time, how many meters does he cycle per minute ?"
+                ],
+                "paragraphes2": ["The number of meters traveled per minute =    "],
+                "paragraphes3": ["meters."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["322.5"],
+                    "show": ["322.5"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Hoda is filling identical vases with water for flower arrangements at the florist. She starts with 15.75 liters and pours an equal amount into 16 vases. When she is finished, Hoda still has 3.75 L of water left. How much water is in each vase? Give your answer in liters "
+                ],
+                "paragraphes2": [" The water is in each vase = "],
+                "paragraphes3": ["liters."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.75"],
+                    "show": ["0.75"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]

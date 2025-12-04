@@ -1,0 +1,188 @@
+[
+  {
+    "nameId": "",
+    "title": "Put ( <, > or = )",
+    "subject": "math-5 eng",
+    "finshedChoose": false,
+    "help": true,
+    "colorTemplate": "#F2A97E",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "paragraphRight": "0.7 × 0.8",
+        "paragraphLeft": "0.56",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "paragraphRight": " 0.5 × 0.6 ",
+        "paragraphLeft": "3",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "paragraphRight": " 0.8 × 0.1 ",
+        "paragraphLeft": "0.1 × 0.8",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "paragraphRight": " 0.4 × 0.2",
+        "paragraphLeft": "0.1 × 0.9 ",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "paragraphRight": " 0.5 × 0.3",
+        "paragraphLeft": "0.6 × 0.1",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "paragraphRight": "0.2 × 0.2",
+        "paragraphLeft": "0.01 × 4",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      }
+    ]
+  }
+]

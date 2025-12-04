@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+    <style>
+        .image {
+            width: 25vw;
+            height: 16vw;
+        }
+
+        body .general#choose .container .quizChoose .paragraph p .ltr {
+            width: fit-content;
+            direction: ltr;
+            color: black !important;
+            display: inline-flex;
+        }
+        .table {
+            width: 100%;
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            margin-bottom: 1.5vw;
+        }
+
+        .row {
+            display: flex;
+            width: 95%;
+            align-items: center;
+        }
+
+        .cell {
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            border: 0.18vw solid #b2b7f7 !important;
+            height: 8vw;
+            width: calc(100%/3);
+            /* flex-grow: 1; */
+
+        }
+        .w50f{
+            width: 50%!important;
+        }
+        .tfraction {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 11vw;
+        }
+
+        .w50f .tfraction .flexend {
+            display: flex;
+            justify-content: end;
+            width: 50% !important;
+        }
+
+        .tfraction .column p {
+            width: auto !important;
+        }
+
+        .tfraction .column {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            width: 100%;
+        }
+
+        .border {
+            width: 100%;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            border-bottom: 0.2vw solid;
+        }
+
+        .w50f {
+            width: 50% !important;
+        }
+        .flex{
+            display: flex;
+        }
+        .square{
+            border:0.2vw solid #e4f1f9;
+            padding: 0 .9vw  0 .9vw!important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+
+    <div id="choose" data-urlpage="05_04/01" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+            <div class="container" :class="{'finshed' : this.posts[0].finshedChoose }">
+                <div class="quizChoose" v-for="(quiz, index) in shuffledQuiz" :class="{'closed' : quiz.answerSelect }">
+                    <template v-if="quiz.questionNumber == 1">
+                        <div class="paragraph" >
+                            <span class="icon-index">{{index+1}}</span>
+                            <p class="p" v-html="quiz.paragraph" :class="{'w50f' : quiz.table }"></p>
+                            <div class="image" v-if="quiz.image">
+                                <img :src="quiz.img" alt="" style="width: 100%; height:100%">
+                            </div>
+                            <div class="table w50f" v-if="quiz.table">
+                                <div class="row">
+    
+                                    <p style=" width: 37%;" class="center">{{quiz.row1[0]}}</p>
+                                    <p style=" width: 37%;" class="center">{{quiz.row1[1]}}</p>
+    
+                                </div>
+    
+    
+                                <div class="row">
+                                    <p style="width: 10%;" class="center">{{quiz.row2[2]}}</p>
+
+                                    <div class="cell">
+                                        <p>{{quiz.row2[0]}}</p>
+                                    </div>
+    
+                                    <div class="cell">
+                                        <p>{{quiz.row2[1]}}</p>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="row">
+                                    <p style="width: 10%;" class="center">{{quiz.row3[2]}}</p>
+
+                                    <div class="cell">
+                                        <p>{{quiz.row3[0]}}</p>
+    
+                                    </div>
+                                    <div class="cell">
+                                        <p>{{quiz.row3[1]}}</p>
+    
+                                    </div>
+    
+                                    <!-- 2nd row -->
+    
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="answers" :class="{'tybeTwo': quiz.type === 2, 'tybeThree': quiz.type === 3}">
+                            <div class="box" v-for=" answer in  quiz.answers"
+                                :class="{'checked' : answer.checked, 'right' : answer.right}">
+                                <p @click="chechedClicked(answer, quiz)" style="direction: ltr;">{{answer.toChoose}}</p>
+                            </div>
+                        </div>
+                    </template>
+                    <template v-if="quiz.questionNumber == 2">
+                        <div class="paragraph">
+                            <span class="icon-index">{{index+1}}</span>
+                            <p class="p" v-html="quiz.paragraph" :class="{'w50f' : quiz.fraction }"></p>
+                            <div class="image" v-if="quiz.image">
+                                <img :src="quiz.img" alt="" style="width: 100%; height:100%">
+                            </div>
+                            <div class="w50f" v-if="quiz.fraction">
+                                <div class="tfraction " style="direction: rtl;">
+                                    <div class="column">
+                                        <div class="w50f">
+                                            <p>{{quiz.paragraph1}}</p>
+                                            <p>{{quiz.paragraph2}}</p>
+                                        </div>
+                                        <p class="flexend">{{quiz.mark1}}</p>
+                                    </div>
+                                    <div class="border"></div>
+                                    <div class="column">
+                                        <div class="w50f">
+                                            <p  :class="{'square' : quiz.paragraph4== '' }" >{{quiz.paragraph3}}</p>
+                                            <div class="flex" >
+                                                <p>{{quiz.paragraph5}}</p>
+                                                <p class="square" v-if="quiz.paragraph4 !=''">{{quiz.paragraph4}}</p>
+                                            </div>
+                                        </div>
+                                        <p class="flexend">{{quiz.mark2}}</p>
+                                    </div>
+                                    <div class="border"></div>
+                                    <p>{{quiz.paragraph6}}</p>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="answers" :class="{'tybeTwo': quiz.type === 2, 'tybeThree': quiz.type === 3}">
+                            <div class="box" v-for=" answer in  quiz.answers"
+                                :class="{'checked' : answer.checked, 'right' : answer.right}">
+                                <p @click="chechedClicked(answer, quiz)" style="direction: ltr;">{{answer.toChoose}}</p>
+                            </div>
+                        </div>
+                    </template>
+                  
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+    <script src="../../../assets/js/choose.js"></script>
+</body>
+
+</html>

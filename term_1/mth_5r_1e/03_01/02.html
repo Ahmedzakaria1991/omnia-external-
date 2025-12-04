@@ -1,0 +1,114 @@
+﻿<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+    <script src="../../../assets/lib/jquery.js"></script>
+
+    <style>
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-r .droppable,
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-l .droppable {
+            min-width: 28vw;
+        }
+
+        body .general#DragAndDroptable #card-dropp .items-droparea .title-d {
+            font-size: 3.1vw;
+        }
+
+        @media (orientation: landscape) {
+            body .general#DragAndDroptable .container #card-dropp .items-droparea .droppable {
+                min-width: 22vw !important;
+            }
+
+            body .general#DragAndDroptable .container #card-dropp .items-droparea .title-d {
+                font-size: 2.5vw;
+            }
+        }
+
+        .p {
+            direction: ltr;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+
+    <div id="DragAndDroptable" data-urlpage="03_01/02" class="general" :class="this.posts[0].subject">
+
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="container" :class="{'finshed' : this.finshedChoose }">
+                <div class="mySlides fade" v-for="( mySlides, index) in  shuffledQX"
+                    :class="{'active' : mySlides.isActive}">
+                    <div class="head">
+                        <div class="title">
+                            <div class="icon"></div>
+                            {{mySlides.title}}
+                        </div>
+                    </div>
+                    <div id="card-dragg">
+                        <div v-for="( drag, index) in  randomList(mySlides.droggableBox)" :data-number="drag.number"
+                            class="draggable">
+                            <p v-html="drag.wrod" :class="{'p' : drag.ltr }"></p>
+                        </div>
+                    </div>
+
+                    <div id="card-dropp">
+                        <div class="items-droparea margin5t">
+                            <div class="right">
+                                <div class="title-d"> {{mySlides.one}}
+                                </div>
+                                <div class="droparea-r">
+                                    <div :data-number="drop.number" v-for="( drop, index) in  mySlides.droggableBox"
+                                        class="droppable" v-if="drop.number == 1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left">
+                                <div class="title-d"> {{mySlides.two}}
+                                </div>
+                                <div class="droparea-l">
+                                    <div :data-number="drop.number" v-for="( drop, index) in  mySlides.droggableBox"
+                                        class="droppable" v-if="drop.number == 2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="prev" @click="swiperPrev( mySlides, index)" v-if="index != 0"> </a>
+                    <a class="next" @click="swiperNext( mySlides, index)" v-if="index != (shuffledQX.length-1) "></a>
+                </div>
+
+                <div class="finished hide">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/dragdrop-table.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

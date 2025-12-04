@@ -1,0 +1,192 @@
+[{
+    "nameId": "choose",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5 eng",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "quizChooses": [{
+            "id": 1,
+            "paragraph": "Omar trains every 12 days, while Rana trains every 8 days. Both friends are training together today. How many days will pass until they train together again? Should you find the greatest common factor (G.C.F) or the least common multiple (L.C.M)?",
+            "correctAnswer": [
+                2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "G.C.F , 4 days ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "L.C.M, 24 days",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "L.C.M, 4 days",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"G.C.F, 24 days ",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "paragraph":"Basma has 28 red flowers and 14 yellow flowers. She wants to arrange them by distributing them into equal rows, so that each row has the same number of red and yellow flowers. What is the maximum number of rows she can form? Should you find the greatest common factor (G.C.F) or the least common multiple (L.C.M)?",
+            "correctAnswer": [
+                1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "G.C.F, 14 rows",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "G.C.F, 28 rows",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"L.C.M, 14 rows",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "L.C.M, 28 rows",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "paragraph":"Mona is giving her friends pencils and erasers. The store sells pencils in boxes of 8 and erasers in boxes of 10. If Mona wants an equal number of both pencils and erasers, what is the minimum number of pencils she will have to buy? Should you find the greatest common factor (G.C.F) or the least common multiple (L.C.M)?",
+            "correctAnswer": [ 4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "G.C.F, 40 pencils ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "L.C.M, 80 pencils",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "G.C.F, 80 pencils ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "L.C.M, 40 pencils",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "paragraph":"Amr takes 3 minutes to walk one lap around the field, while Sara takes 5 minutes to walk the same lap. If they both start walking now and continue at the same pace, after how many minutes will they meet again? Should you find the greatest common factor (G.C.F) or the least common multiple (L.C.M)?",
+            "correctAnswer": [
+                3
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "G.C.F, 15 minutes",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "G.C.F, 8 minutes",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"L.C.M, 15 minutes",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "L.C.M, 8 minutes",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "paragraph":"Nour is preparing snack bags for an upcoming trip. He has 6 oranges and 12 dried fruits. Nour wants to distribute the snacks equally into bags without any food left over. What is the greatest number of snack bags Nour can prepare? Should you find the greatest common factor (G.C.F) or the least common multiple (L.C.M)?",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "G.C.F, 6 bags",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "G.C.F, 12 bags",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "L.C.M, 6 bags",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "L.C.M, 12 bags",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        }
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

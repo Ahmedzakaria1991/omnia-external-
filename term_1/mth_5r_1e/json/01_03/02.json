@@ -1,0 +1,257 @@
+ [{
+   "nameId": "choose-slide",
+   "title": "Choose the correct answer",
+   "finshedChoose": false,
+   "hand": true,
+   "subject": "math-5 eng",
+   "colorTemplate": "#AAD1EA",
+   "counterCorrect": 0,
+   "LODegree": null,
+   "UserDegree": null,
+   "type": "",
+   "BloomTargets": [
+     ""
+   ],
+   "randomNumber": null,
+   "loTargets": null,
+   "numberOfquestion": null,
+   "popuptext": "",
+   "popup": "",
+   "passageHand": true,
+   "chooseSlide": [{
+     "active": true,
+     "title": "Choose the correct answer",
+     "popuptext": [
+
+     ],
+     "quizChooses": [{
+         "id": 1,
+         "popup": "",
+         "paragraph": "Choose the decimal number greater than 5.7:",
+         "correctAnswer": [1, 6, 7],
+         "answerSelect": false,
+         "counter": 0,
+         "type": 3,
+         "answers": [{
+             "numAnswer": 1,
+             "toChoose": "6.7",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 2,
+             "toChoose": " 5.07    ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 3,
+             "toChoose": " 5.6   ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 4,
+             "toChoose": " 5.70 ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 5,
+             "toChoose": "   5.007   ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 6,
+             "toChoose": "  5.71 ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 7,
+             "toChoose": "5.9",
+             "right": false,
+             "checked": false
+           }
+         ]
+       },
+       {
+         "id": 2,
+         "popup": "",
+         "paragraph": "Choose the decimal number less than 4.173:",
+         "correctAnswer": [1, 3, 6, 4],
+         "answerSelect": false,
+         "counter": 0,
+         "type": 3,
+         "answers": [{
+             "numAnswer": 1,
+             "toChoose": "2.175  ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 2,
+             "toChoose": " 4.183     ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 3,
+             "toChoose": "  3.137   ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 4,
+             "toChoose": "  4.08  ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 5,
+             "toChoose": " 4.71    ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 6,
+             "toChoose": " 2.18    ",
+             "right": false,
+             "checked": false
+           },
+           {
+             "numAnswer": 7,
+             "toChoose": "5.073 ",
+             "right": false,
+             "checked": false
+           }
+         ]
+       },
+       {
+        "id": 2,
+        "popup": "",
+        "paragraph": "Find the greatest number:",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 3,
+        "answers": [{
+            "numAnswer": 1,
+            "toChoose": "1.28",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "1.49",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 1.3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " 1.30",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 5,
+            "toChoose": "1.440",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 6,
+            "toChoose": "1.055",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 7,
+            "toChoose": "1.401",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 8,
+            "toChoose": "1.341",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "popup": "",
+        "paragraph": "Find the least number:",
+        "correctAnswer": [5],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 3,
+        "answers": [{
+            "numAnswer": 1,
+            "toChoose": "20.9",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "20.21",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "20.10",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "20.010",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 5,
+            "toChoose": "20.001",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 6,
+            "toChoose": "20.011",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 7,
+            "toChoose": "20.09",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 8,
+            "toChoose": "20.1",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+
+     ],
+     "popupQuestion": [{
+       "id": 0,
+       "index": "4",
+       "paragraph": "",
+       "popup": [],
+       "isActive": null
+     }]
+   }]
+ }]

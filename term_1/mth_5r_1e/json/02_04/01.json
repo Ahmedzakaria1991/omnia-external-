@@ -1,0 +1,401 @@
+ 
+[
+    {
+        "nameId": "choose-slide",
+        "title": "Choose the correct answer",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-5 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title":"Choose the correct answer",
+                "popuptext": [
+                   
+                ],
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "34.397 - 1.26 = .........",
+                        "correctAnswer": [3],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "21.79",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "24.137",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": " 33.137",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "34.271",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The estimated result of 25.49 + 25.45 is  .....",
+                        "correctAnswer": [3],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "49",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 48 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "51",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "52",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }  ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "10 + 5.7 + 0.3 = ..............",
+                        "correctAnswer": [1],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "16",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 17",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "16.64",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "16.46",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " If the distance between Cairo and Alexandria is 210 km, and a train has traveled 107.6 km of this distance, then the remaining distance is ........ km.",
+                        "correctAnswer": [4],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": " 103.6 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 103.6 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": " 103.6",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "102.4",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "5.365 + 5.294 >  ............",
+                        "correctAnswer": [1],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "10",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose":"10.7",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "11",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "102.4",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "2.6 - 0.95 = .........",
+                        "correctAnswer": [1],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": " 1.65",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 3.55 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "0.65",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "61.5",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } 
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " The  benchmark decimal for 0.001 is ...... ",
+                        "correctAnswer": [2],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "0.5",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "0",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "1",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "0.9",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                        
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The estimated result of 4.09 - 2.99 is ........",
+                        "correctAnswer": [4],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": " 2.5",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "6",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": " 1.5 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "1 ",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " 34.95 + 65.028 =  ............. ",
+                        "correctAnswer": [2],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "100",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "99.978",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "   99.078 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": " 100.92 ",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The sum of the two numbers is 16.32. If one of them is 6.8, then the other number is  ...............",
+                        "correctAnswer": [1],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "9.52 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 23.12",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "   9.43",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "10",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                       
+                       
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            } 
+        ]
+    }
+]

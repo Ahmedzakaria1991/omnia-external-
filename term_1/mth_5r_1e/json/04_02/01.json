@@ -1,0 +1,126 @@
+[
+    {
+        "nameId": "choose",
+        "title": "Choose the correct answer",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-5 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "Which three numbers are not common multiples of 5 and 7?",
+                "correctAnswer": [
+                    1,
+                    4,
+                    5
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "14",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "35",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "70",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "21",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 5,
+                        "toChoose": "55",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 6,
+                        "toChoose": "105",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "Which three numbers can both 24 and 32 be multiples of?",
+                "correctAnswer": [
+                    1,
+                    2,
+                    6
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "2",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "4",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "7",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 5,
+                        "toChoose": "6",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 6,
+                        "toChoose": "8",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+        ],
+        "popuptext": "",
+        "pop": ""
+    }
+]

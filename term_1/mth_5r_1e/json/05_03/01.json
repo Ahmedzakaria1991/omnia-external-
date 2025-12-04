@@ -1,0 +1,843 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "popup": "",
+    "popuptext": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Read and answer",
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Nermeen bought 25 meters of fabric and Nora bought 14 meters of the same fabric. If the price of one meter of the fabric is 12 pounds, how much money did Nermeen and Nora pay together?"
+                ],
+                "paragraphes2": [
+                  "The total length of fabric that Nermeen and Nora bought = "
+                ],
+                "paragraphes3": ["meters."],
+                "paragraphes4": ["The total money they paid together = "],
+                "paragraphes5": ["pounds."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["39"],
+                    "show": ["39"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["468"],
+                    "show": ["468"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "A bag of fruits contains 946 g apples and 1,200 g bananas. What is the weight of 19 bags containing the same mass?"
+                ],
+                "paragraphes2": ["The mass of one bag = "],
+                "paragraphes3": ["grams."],
+                "paragraphes4": ["The mass of 19 bags ="],
+                "paragraphes5": ["grams."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,146", "2146"],
+                    "show": ["2,146"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["40,774", "40774"],
+                    "show": ["40,774"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Mona has a restaurant in Al-Quesyr. In February, Mona sold 402 kebabs. In March, she sold 753 kebabs. She makes each kebab with 83 grams of meat. How many grams of meat did she use in February and March? "
+                ],
+                "paragraphes2": ["The total of what she sold  = "],
+                "paragraphes3": ["kebabs."],
+                "paragraphes4": [
+                  "The number of grams of meat she used in February and March ="
+                ],
+                "paragraphes5": ["grams."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,155", "1155"],
+                    "show": ["1,155"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["95,865", "95865"],
+                    "show": ["95,865"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Ola needs 345 g of flour, 125 g of butter, and 114 g of sugar to make one cake, how many grams does she need to make 25 cakes of the same type?"
+                ],
+                "paragraphes2": [
+                  "The number of grams that she needs to make one cake = "
+                ],
+                "paragraphes3": ["g."],
+                "paragraphes4": [
+                  "The number of grams that she needs to make 25 cakes = "
+                ],
+                "paragraphes5": ["g."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["584"],
+                    "show": ["584"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["14,600", "14600"],
+                    "show": ["14,600"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+
+          {
+            "id": 4,
+            "type": 2,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "An owner of a clothes shop sells shirts for 175 L.E and trousers for 260 L.E. If Ahmed and his friends bought 13 shirts and 14 trousers."
+                ],
+                "paragraphes2": [
+                  "The total of what Ahmed and his friends paid for the shirts = "
+                ],
+                "paragraphes3": [" L.E."],
+                "paragraphes4": [
+                  "The total of what Ahmed and his friends paid for the trousers = "
+                ],
+                "paragraphes5": [" L.E."],
+                "paragraphes6": [
+                  "The total of what Ahmed and his friends paid for the clothes  = "
+                ],
+                "paragraphes7": [" L.E."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,275", "2275"],
+                    "show": ["2,275"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3,640", "3640"],
+                    "show": ["3,640"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["5,915", "5915"],
+                    "show": ["5,915"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "6",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Soaad bought 8 kg of rice and 12 kg of sugar. If the price of 1 kg of rice or sugar is 14 pounds, calculate what did Soaad pay for all? "
+                ],
+                "paragraphes2": ["The number of kilograms of rice and sugar = "],
+                "paragraphes3": ["kg."],
+                "paragraphes4": [" The total of what Soaad paid = "],
+                "paragraphes5": ["pounds."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["280"],
+                    "show": ["280"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "7",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Bassem bought 17 candy bags in one day, and 35 candy bags in another day, to distribute them at his birthday party. If each bag contains 120 pieces of candy then how many pieces of candy did Bassem buy?"
+                ],
+                "paragraphes2": ["The number of candy bags =  "],
+                "paragraphes3": ["bags."],
+                "paragraphes4": [
+                  "The number of pieces of candy that Bassem bought ="
+                ],
+                "paragraphes5": ["pieces."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["52"],
+                    "show": ["52"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6,240", "6240"],
+                    "show": ["6,240"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "8",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Ahmed has 780 pounds. He goes to the bookstore to buy some books. He buys 18 books. If the price of one book is 35 pounds, how much money has he left?"
+                ],
+                "paragraphes2": ["The price of the 18 books = "],
+                "paragraphes3": ["pounds."],
+                "paragraphes4": [" The money left with Ahmed = "],
+                "paragraphes5": ["pounds."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["630"],
+                    "show": ["630"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["150"],
+                    "show": ["150"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "9",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The number of flights to Egypt in winter is 90 flights and in summer is 112 flights. If each flight has 98 tourists, what is the total number of tourists through winter and summer?"
+                ],
+                "paragraphes2": ["The number of flights through winter and summer = "],
+                "paragraphes3": ["flights."],
+                "paragraphes4": [
+                  " The total number of tourists through winter and summer ="
+                ],
+                "paragraphes5": ["tourists."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["202"],
+                    "show": ["202"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["19,796", "19796"],
+                    "show": ["19,796"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "10",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Wael makes baklava. It needs 170 grams each of pistachios, walnuts, and hazelnuts. In order to make enough for restaurant customers, he needs to multiply his recipe by 18. ",
+                  "How many total grams of nuts will he need?"
+                ],
+                "paragraphes2": ["What Weal needs to make one recipe = "],
+                "paragraphes3": ["grams ."],
+                "paragraphes4": [
+                  "The number of nuts that he need to make baklava for his ","customers ="
+                ],
+                "paragraphes5": ["grams."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["510"],
+                    "show": ["510"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9,180", "9180"],
+                    "show": ["9,180"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "11",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Mona uses 140 grams of sesame seeds to make 120 milliliters of tahini. She makes the recipe 20 times each week. How many grams of sesame seeds does she use each week? And how many liters of tahini does she make in 36 weeks?   (Hint: convert milliliters to liters)."
+                ],
+                "paragraphes2": [
+                  "The number of grams of sesame seeds she uses each week ="
+                ],
+                "paragraphes3": ["grams."],
+                "paragraphes4": [
+                  " The number of liters of tahini she makes in 36 weeks = "
+                ],
+                "paragraphes5": ["L."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,800", "2800"],
+                    "show": ["2,800"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["86.4"],
+                    "show": ["86.4"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": " ",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]
