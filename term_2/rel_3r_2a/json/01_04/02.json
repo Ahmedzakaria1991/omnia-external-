@@ -1,0 +1,72 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحة",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اخْتَرِ الْمَوْقِفِ الَّذِي تَجُوزُ  فِيهِ صَلَاةُ الِاسْتِخَارَة.",
+            "correctAnswer": [1, 2, 4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "يُصَلِّي أَبِي صَلَاةَ الِاسْتِخَارَةِ قَبْلَ الِانْتِقَالِ إِلَى الْعَمَلِ الْجَدِيدِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تُصَلِّي أُخْتِي صَلَاةَ الِاسْتِخَارَةِ قَبْلَ اخْتِيَارِ الْجَامِعَةِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "نُصَلِّي صَلَاةَ الِاسْتِخَارَةِ؛ لِنَصُومَ رَمَضَانَ أَمْ لَا نَصُومُهُ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "يُصَلِّي أَخِي صَلَاةَ الِاسْتِخَارَةِ قَبْلَ السَّفَرِ  لِلْعَمَلِ بِالْخَارِجِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "أُصَلِّي صَلَاةَ الِاسْتِخَارَةِ قَبْلَ إِيذَاءِ أَصْدِقَائِي.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ ثِمَارِ الْإِيمَانِ بِاللَّهِ (تَعَالَى)",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اخْتَرِ ثِمَارِ الْإِيمَانِ بِاللَّهِ (تَعَالَى)",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مِنْ ثِمَارِ الْإِيمَانِ بِاللَّهِ (تَعَالَى).",
+            "correctAnswer": [1, 2, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الشُّعُورُ  بِالطُّمَأْنِينَةِ وَالْأَمَانِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الْقُوَّةُ وَالثَّبَاتُ أَمَامَ الصِّعَابِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " الْخَوْفُ وَالتَّرَدُّدُ أَمَامَ الْمُشْكِلَاتِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الْغَضَبُ عِنْدَ الْمَرَضِ. ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "الرِّضَا بِقَضَاءِ اللَّهِ (سُبْحَانَهُ وتَعَالَى) وَقَدَرِهِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

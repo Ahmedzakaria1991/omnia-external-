@@ -1,0 +1,117 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ الَّذِي تُرْشِدُنَا إِلَيْهِ سُورَةُ الْبُرُوجِ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اخْتَرِ الَّذِي تُرْشِدُنَا إِلَيْهِ سُورَةُ الْبُرُوجِ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "سُورَةُ الْبُرُوجِ.",
+            "correctAnswer": [2, 3, 6],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "قُدْرَةُ الْمَلَائِكَةِ عَلَى تَنْفِيذِ أَوَامِرِ  اللَّهِ (تَعَالَى).",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "عَظَمَــةُ اللَّهِ وَقُـدْرَتُــهُ فِــي خَلْقِ الْكَوْنِ وَالنُّجُومِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " الْقُرْآنُ كِتَابٌ مَحْفُوظٌ مِنَ التَّغْيِيرِ  وَالتَّحْرِيفِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "حُــبُّ الْمُؤْمِنِيـنَ لِلرَّسُولِ ﷺ. ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": " أَرْكَانُ الْإِيمَانِ السِّتَّةُ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": " عَدْلُ اللَّهِ  (سُبْحَانَهُ وتَعَالَى) فِي الْجَزَاءِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "اخْتَرْ",
+        "popuptext": [
+          "<span  class='quran'>﴿وَالسَّمَاءِ ذَاتِ الْبُرُوجِ (1) وَالْيَوْمِ الْمَوْعُودِ (2) وَشَاهِدٍ وَمَشْهُودٍ (3) قُتِلَ أَصْحَابُ الْأُخْدُودِ (4) النَّارِ ذَاتِ الْوَقُودِ (5) إِذْ هُمْ عَلَيْهَا قُعُودٌ (6) وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ (7) وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَن يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ (8)﴾</span>"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مَعْنَى كَلِمَةِ <span class='quran'>﴿الْبُرُوجِ﴾</span> :  .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الْجِبَالِ الْعَالِيَةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "النُّجُومِ الْعَظِيمَةِ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الرِّيَاحِ الشَّدِيدَةِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]
