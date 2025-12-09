@@ -13,6 +13,10 @@
         body .general .head .title {
             width: 60vw;
         }
+        body .general#input-left-images .container .paragraphe, body .general#inputValidation .container .paragraphe, body .general#inputwithimgs .container .paragraphe, body .general#input-slide .container .paragraphe {
+        font-size: 2.2vw;
+        display: ruby;
+        }
     </style>
 </head>
 
@@ -132,7 +136,7 @@
                                         </div>
 
                                         
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes3">{{parag}}
+                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{parag}}
                                         </p>
                                         <div class="inputs" :class="{'done' : item.answerUser[1].done}"
                                             v-if="content.inputtype2[1].numperofinput !== 0">
@@ -204,6 +208,12 @@
                             </div>
                         </div>
 
+
+
+
+
+
+                        
                         <div class="all" v-for="(popUpAll, i) in slide.popupQuestion" v-if="popUpAll.isActive != null">
                             <div class="paragraph">
                                 <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>

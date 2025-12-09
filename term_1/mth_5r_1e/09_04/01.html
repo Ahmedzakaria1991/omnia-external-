@@ -17,6 +17,14 @@
     body .general#gtorlt .container .quizChoose.type3 .paragraph {
       width: 30% !important;
     }
+    body .general#trueFalse .container .quizChoose .choosequestion, body .general#trueSlide .container .quizChoose .choosequestion, body .general#gtorlt .container .quizChoose .choosequestion, body .general#punctuate .container .quizChoose .choosequestion {
+
+    margin-right: 4vw !important;
+}
+body .general#trueFalse .container .quizChoose .choosequestion .answer p, body .general#trueSlide .container .quizChoose .choosequestion .answer p, body .general#gtorlt .container .quizChoose .choosequestion .answer p, body .general#punctuate .container .quizChoose .choosequestion .answer p {
+    margin: 5px;
+    padding-left: 1vw !important ;
+}
   </style>
 
   <body>
@@ -65,8 +73,7 @@
             <div class="paragraph" v-if="quiz.type === 3  || quiz.type === 4">
               <span class="icon-index">{{index+1}}</span>
               <p class="rightp">{{quiz.paragraphRight}}</p>
-            </div>
-
+              
             <div
               class="choosequestion"
               :class="{'show' : quiz.show }"
@@ -120,6 +127,8 @@
               >
                 <p v-if="quiz.text">{{quiz.chooseUrl1}}</p>
               </div>
+            </div>
+
             </div>
 
             <div class="paragraph" v-if="quiz.type === 4">

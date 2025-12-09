@@ -59,42 +59,7 @@
               }
             ]
           },
-          {
-            "id": 2,
-            "type": 1,
-            "contents": [
-              {
-                "paragraphes3": ["A prime number, the difference between its factors is 6, is"],
-                "inputtype": [
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
-                    "comma": "",
-                    "valid": ["7"],
-                    "show": ["7"]
-                  }
-                ],
-                "inputtype2": [
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": [],
-                    "show": []
-                  }
-                ],
-                "paragraphes2": []
-              }
-            ],
-            "answerUser": [
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              }
-            ]
-          },
+        
           {
             "id": 3,
             "type": 1,
@@ -615,7 +580,7 @@
                 "paragraphes1": [
                  "Find the G.C.F (Greatest Common Factor) and L.C.M (Least Common Multiple) of the numbers 15 and 45, using prime factorization."
                 ],
-                "parag": ["G.C.F of the numbers:"],
+                "parag": ["G.C.F of the numbers ="],
                 "inputtype": [
                   {
                     "length": 0,
@@ -641,7 +606,7 @@
                     "show": ["45"]
                   }
                 ],
-                "paragraphes2": ["L.C.M of the numbers:"],
+                "paragraphes2": ["L.C.M of the numbers ="],
                 "paragraphes3": [""]
               }
             ],
@@ -683,7 +648,7 @@
             "contents": [
               {
                 "paragraphes": "",
-                "paragraphes1": [" The first number:"],
+                "paragraphes1": [" The first number ="],
                 "inputtype": [
                   {
                     "length": 0,
@@ -733,7 +698,7 @@
             "type": 2,
             "contents": [
               {
-                "paragraphes1": [" The second number:"],
+                "paragraphes1": [" The second number ="],
                 "inputtype": [
                   {
                     "length": 0,
@@ -783,7 +748,7 @@
             "type": 2,
             "contents": [
               {
-                "paragraphes1": ["The G.C.F (Greatest Common Factor) of the two numbers:"],
+                "paragraphes1": ["The G.C.F (Greatest Common Factor) of the two numbers ="],
                 "inputtype": [
                   {
                     "length": 0,
@@ -833,7 +798,7 @@
             "type": 2,
             "contents": [
               {
-                "paragraphes1": ["The L.C.M (Least Common Multiple) of the two numbers:"],
+                "paragraphes1": ["The L.C.M (Least Common Multiple) of the two numbers ="],
                 "inputtype": [
                   {
                     "length": 0,

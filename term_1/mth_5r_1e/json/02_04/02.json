@@ -243,7 +243,10 @@
             "type": 1,
             "contents": [
               {
-                "paragraphes1": ["The difference between two numbers is 3.24. If the larger number is 9.31, then the smaller number is "],
+                "paragraphes1": [
+                  "The difference between two numbers is 3.24. If the larger number is 9.31, then the smaller",
+                  " number is "
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -382,42 +385,7 @@
               }
             ]
           },
-          {
-            "id": 4,
-            "type": 1,
-            "contents": [
-              {
-                "paragraphes1": ["An estimation of 0.96 - 0.49 is"],
-                "inputtype": [
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
-                    "comma": "",
-                    "valid": ["0.5"],
-                    "show": ["0.5"]
-                  }
-                ],
-                "inputtype2": [
-                  {
-                    "length": 0,
-                    "numperofinput": 0,
-                    "comma": "",
-                    "valid": [],
-                    "show": []
-                  }
-                ],
-                "paragraphes2": [""]
-              }
-            ],
-            "answerUser": [
-              {
-                "answer": [""],
-                "correct": false,
-                "help": false,
-                "done": false
-              }
-            ]
-          },
+
           {
             "id": 5,
             "type": 1,
@@ -496,7 +464,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                 "Ahmed bought two fish, each massing 4.75 kg. The total mass of the two fish is "
+                  "Ahmed purchased two fish, each with a mass of  4.75 kg. The total mass of the two fish is "
                 ],
                 "inputtype": [
                   {
@@ -643,7 +611,7 @@
                 "done": false
               }
             ]
-          } 
+          }
         ],
         "popupQuestion": [
           {

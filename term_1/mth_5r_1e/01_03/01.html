@@ -56,20 +56,13 @@
                     <div class="paragraph" v-if="quiz.type == 1 || quiz.type == 2">
                         <span class="icon-index">{{index+1}}</span>
                         <p class="">{{quiz.paragraph}}</p>
+                        
                     </div>
                     <div class="paragraph" v-if="quiz.type === 3  || quiz.type === 4">
                         <span class="icon-index">{{index+1}}</span>
                         <p class="rightp">{{quiz.paragraphRight}}</p>
 
-                        <div class="fraction" v-if="quiz.leftfraction">
-                            <p>{{quiz.rightUp}}</p>
-                            <div class="line"></div>
-                            <p>{{quiz.rightDown}}</p>
-                        </div>
-
-                    </div>
-
-                    <div class="choosequestion" :class="{'show' : quiz.show }" v-if="quiz.type != 4">
+                    <div class="choosequestion" style="margin: auto;"  :class="{'show' : quiz.show }" v-if="quiz.type != 4">
                         <div v-if="index === 0 && posts[0].help" class="help"></div>
                         <div class="top">
                             <div class="choose" v-for="answer in  quiz.answers"
@@ -85,6 +78,15 @@
                             <p v-if="quiz.text">{{quiz.chooseUrl}}</p>
                         </div>
                     </div>
+
+                        <div class="fraction" v-if="quiz.leftfraction">
+                            <p>{{quiz.rightUp}}</p>
+                            <div class="line"></div>
+                            <p>{{quiz.rightDown}}</p>
+                        </div>
+
+                    </div>
+
 
                     <div class="choosequestion" :class="{'show' : quiz.show1 ,'closed': quiz.result1}"
                         v-if="quiz.type === 4">

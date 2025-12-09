@@ -206,9 +206,7 @@
             "contents": [
               {
                 "paragraphes1": [" "],
-                "paragraphes3": [
-                  "The divisor in the problem 350 ÷ 7 = 50 is "
-                ],
+                "paragraphes3": ["The divisor in the problem 350 ÷ 7 = 50 is "],
                 "inputtype": [
                   {
                     "length": 0,
@@ -315,7 +313,8 @@
               {
                 "paragraphes1": ["buses."],
                 "paragraphes3": [
-                  "If 784 passengers are traveling by bus, and each bus can carry 49 passengers, ","then the number of buses needed is "
+                  "If 784 passengers are traveling by bus, and each bus can carry 49 passengers, ",
+                  "then the number of buses needed = "
                 ],
                 "inputtype": [
                   {
@@ -354,9 +353,10 @@
               {
                 "paragraphes1": [""],
                 "paragraphes3": [
-                  "What is the number that, when multiplied by 23, results in 782?   ",
-                  "The number is"
+                  "What is the number that, when multiplied by 23, results in 782?   "
                 ],
+                "paragraphes3_1": [" The number is"],
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -551,7 +551,7 @@
             "contents": [
               {
                 "paragraphes": [
-                 "Mazen distributed 1,395 pounds equally among 31 families. How much did each family receive?"
+                  "Mazen distributed 1,395 pounds equally among 31 families. How much did each family receive?"
                 ],
                 "paragraphes1": ["The amount each family received = "],
                 "paragraphes2": ["pounds."],

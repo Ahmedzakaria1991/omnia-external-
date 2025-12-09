@@ -101,14 +101,16 @@
             "index": 3,
             "contents": [
               {
-                "paragraphes1": ["The non-zero common multiples of 2 and 8 that are less than 24:"],
+                "paragraphes1": [
+                  "The non-zero common multiples of 2 and 8 that are less than 24:"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 2,
                     "comma": ",",
-                    "valid": ["8" , "16"],
-                    "show": ["8" , "16"]
+                    "valid": ["8", "16"],
+                    "show": ["8", "16"]
                   }
                 ],
                 "inputtype2": [
@@ -138,14 +140,16 @@
             "index": 4,
             "contents": [
               {
-                "paragraphes1": ["The non-zero common multiples of 4 and 6 that are less than 40:"],
+                "paragraphes1": [
+                  "The non-zero common multiples of 4 and 6 that are less than 40:"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 3,
                     "comma": ",",
-                    "valid": ["12" , "24"  ,"36"],
-                    "show": ["12" , "24"  ,"36"]
+                    "valid": ["12", "24", "36"],
+                    "show": ["12", "24", "36"]
                   }
                 ],
                 "inputtype2": [
@@ -168,22 +172,23 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 2,
             "type": 1,
             "index": 5,
             "contents": [
               {
-                "paragraphes1": ["The common multiples of 4 and 5 that are between 15 and 65 : "],
+                "paragraphes1": [
+                  "The common multiples of 4 and 5 that are between 15 and 65 : "
+                ],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 3,
                     "comma": ",",
-                    "valid": ["20" , "40"  ,"60"],
-                    "show": ["20" , "40"  ,"60"]
+                    "valid": ["20", "40", "60"],
+                    "show": ["20", "40", "60"]
                   }
                 ],
                 "inputtype2": [
@@ -206,22 +211,23 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 2,
             "type": 1,
             "index": 6,
             "contents": [
               {
-                "paragraphes1": ["The non-zero common multiples of 2, 3, and 5 that are less than 100:"],
+                "paragraphes1": [
+                  "The non-zero common multiples of 2, 3, and 5 that are less than 100:"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 3,
                     "comma": ",",
-                    "valid": ["30" , "60"  ,"90"],
-                    "show": ["30" , "60"  ,"90"]
+                    "valid": ["30", "60", "90"],
+                    "show": ["30", "60", "90"]
                   }
                 ],
                 "inputtype2": [
@@ -267,7 +273,7 @@
             "index": 1,
             "contents": [
               {
-                "paragraphes1": ["6 ، 9"],
+                "paragraphes1": ["6 , 9"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -378,7 +384,7 @@
             "index": "c",
             "contents": [
               {
-                "paragraphes1": ["LCM:"],
+                "paragraphes1": ["LCM ="],
                 "inputtype": [
                   {
                     "length": 0,
@@ -415,7 +421,7 @@
             "index": 2,
             "contents": [
               {
-                "paragraphes1": ["5 ، 10"],
+                "paragraphes1": ["5 , 10"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -526,7 +532,7 @@
             "index": "c",
             "contents": [
               {
-                "paragraphes1": ["LCM:"],
+                "paragraphes1": ["LCM ="],
                 "inputtype": [
                   {
                     "length": 0,
@@ -579,7 +585,7 @@
             "index": 1,
             "contents": [
               {
-                "paragraphes1": ["4 ، 3"],
+                "paragraphes1": ["4 , 3"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -616,7 +622,7 @@
             "index": 2,
             "contents": [
               {
-                "paragraphes1": ["5 ، 2"],
+                "paragraphes1": ["5 , 2"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -653,7 +659,7 @@
             "index": 3,
             "contents": [
               {
-                "paragraphes1": ["7 ، 11"],
+                "paragraphes1": ["7 , 11"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -690,7 +696,7 @@
             "index": 4,
             "contents": [
               {
-                "paragraphes1": ["6 ، 4"],
+                "paragraphes1": ["6 , 4"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -727,7 +733,7 @@
             "index": 5,
             "contents": [
               {
-                "paragraphes1": ["3 ، 9"],
+                "paragraphes1": ["3 , 9"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -764,7 +770,7 @@
             "index": 6,
             "contents": [
               {
-                "paragraphes1": ["9 ، 5 "],
+                "paragraphes1": ["9 , 5 "],
                 "inputtype": [
                   {
                     "length": 0,
@@ -809,7 +815,7 @@
       {
         "active": false,
         "title": "Complete",
-        "qtitle": "Write the following numbers using a place value chart :",
+        "qtitle": "",
         "items": [
           {
             "id": 1,
@@ -918,9 +924,9 @@
             "contents": [
               {
                 "paragraph": "Juice is sold in packs, and each pack contains 9 bottles. Complete the following table for Adel:",
-                "paragraph1": "Number of Juice Bottles",
+                "paragraph1": "Number of Packs ",
                 "numbers": ["1", "2", "3", "4", "5", "6"],
-                "paragraph2": "Number of Packs",
+                "paragraph2": "Number of Juice Bottles",
                 "paragraph3": "9",
                 "inputtype": [
                   {
@@ -1018,8 +1024,8 @@
               {
                 "paragraph": "If Adel bought enough for 36 people (in terms of eggs and juice), how many trays of eggs and juice packs does he need to buy so that each guest gets one egg and one juice bottle?",
                 "paragraphes1": ["Adel should buy"],
-                "paragraphes2": ["trays of eggs  "],
-                "paragraphes3": ["and"],
+                "paragraphes2": ["trays of eggs   ", " "],
+                "paragraphes3": [" ,", " and"],
                 "paragraphes4": ["juice packs."],
                 "inputtype": [
                   {
@@ -1086,7 +1092,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                  " Doha and her younger brother are arranging toy train track boards. Each board is 12 centimeters long."
+                  " Doha and her little brother are laying out train tracks. Each train track is 12 centimeters long."
                 ],
                 "inputtype": [
                   {
@@ -1125,7 +1131,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "What is the total length of the first 5 boards, starting from the end of each?"
+                  "How long are the first 5 pieces of track laid end to end ?"
                 ],
                 "inputtype": [
                   {
@@ -1164,7 +1170,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "How many boards will Doha and her brother need to make the same distance, if each board is 4 centimeters long?"
+                  "How many pieces of track would Doha and her brother need to make the same distance from the previous problem if the track pieces were 4 centimeters long ?"
                 ],
                 "inputtype": [
                   {
@@ -1184,7 +1190,7 @@
                     "show": []
                   }
                 ],
-                "paragraphes2": ["boards."]
+                "paragraphes2": ["pieces of track."]
               }
             ],
             "answerUser": [

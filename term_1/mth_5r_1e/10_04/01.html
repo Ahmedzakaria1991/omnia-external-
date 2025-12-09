@@ -164,6 +164,7 @@
                       >
                         {{parag}}
                       </p>
+                    
                     </div>
                   </div>
                   <div class="textinput" v-if="item.type === 2">
@@ -179,8 +180,15 @@
                         class="paragraphe"
                         v-for="(parag , index) in content.paragraphes2"
                       >
-                        {{parag}}
+                       {{parag}}
                       </p>
+                      <div class="break" v-if = item.id==33></div>
+                      <p
+                        class="paragraphe " 
+                        v-for="(parag , index) in content.paragraphes2_1"
+                      >
+               {{parag}}
+                      </p> 
                       <div
                         class="inputs"
                         :class="{'done' : item.answerUser[0].done}"

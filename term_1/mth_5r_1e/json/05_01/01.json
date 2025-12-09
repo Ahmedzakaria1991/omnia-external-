@@ -30,9 +30,9 @@
             "index": true,
             "contents": [
               {
-                "row1": [2, 20],
-                "row2": [20, 200, 10],
-                "row3": [6, 60, 3],
+                "row1": [20, 2],
+                "row2": [200, 20, 10],
+                "row3": [60, 6, 3],
                 "paragraph1": "22 × 13 = (10 × 20) + (10 ×",
                 "paragraph2": " ) + (",
                 "paragraph3": " × 20 ) + ( 3 ×",
@@ -124,13 +124,13 @@
             "index": true,
             "contents": [
               {
-                "row1": [8, 50],
-                "row2": [320, "2,000", 40],
-                "row3": [16, 100, 2],
+                "row1": [50, 8],
+                "row2": ["2,000", 320, 40],
+                "row3": [100, 16, 2],
                 "paragraph1": "58 × 42 = (40 ×",
-                "paragraph2": " ) + ( 40 × 8 ) + (",
-                "paragraph3": "× 50) + ( 2 × ",
-                "paragraph4": ") =",
+                "paragraph2": " ) + (40 × 8) + (",
+                "paragraph3": "× 50) + (2 × ",
+                "paragraph4": ")  =",
                 "inputtype": [
                   {
                     "length": 0,
@@ -222,9 +222,9 @@
                 "row2": [210, "2,100", 30],
                 "row3": [49, 490, 7],
                 "paragraph1": "77 × 37 = (",
-                "paragraph2": "× 70 ) + ( 30 × ",
-                "paragraph3": ") + ( 7 ×",
-                "paragraph4": ") + ( 7 × ",
+                "paragraph2": "× 70) + (30 × ",
+                "paragraph3": ") + (7 ×",
+                "paragraph4": ") + (7 × ",
                 "paragraph5": ") =",
                 "inputtype": [
                   {
@@ -833,7 +833,7 @@
                 "paragraph": [
                   " = (4 × 3) + (10 × 3) + (4 × 40) + (4 × 40) + (10 × 40) + (10 × 40)"
                 ],
-                "paragraph2": "In the following, there are three ways to find the product of  83 × 14. Write the answers in the bar model area and find the product:",
+                "paragraph2": "In the following, there are three ways to find the product of  83 × 14. complete the area model and find the product:",
                 "inputtype": [
                   {
                     "length": 0,
@@ -1330,10 +1330,11 @@
             "type": 2,
             "contents": [
               {
-                "break":true,
+                "break": true,
                 "paragraphes": "",
                 "paragraphes1": [
-                  "Omar owns a travel company that takes visitors throughout the mountains of the Eastern Desert. He has 12 buses. Each bus can hold 25 passengers."," How many passengers can Omar take each day if every  ","bus is full?"
+                  "Omar owns a travel company that takes visitors throughout the mountains of the Eastern Desert. He has 12 buses. Each bus can hold 25 passengers.",
+                  " How many passengers can Omar take each day if every bus is full? "
                 ],
                 "inputtype": [
                   {
@@ -1361,7 +1362,8 @@
                   }
                 ],
                 "paragraphes2": [
-                  "The number of passengers Omar can take each day if every bus ","is full = "
+                  "The number of passengers Omar can take each day if every bus ",
+                  "is full = "
                 ],
                 "paragraphes3": ["passengers"]
               }
@@ -1491,7 +1493,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                  " Ali drives his car for a distance of 60 kilometers every day. How many kilometers will he drive for 187 days? "
+                  " Ali drives his car for a distance of 60 kilometers every day. How many kilometers will he drive in 187 days? "
                 ],
                 "inputtype": [
                   {
@@ -1546,7 +1548,7 @@
               {
                 "paragraphes1": [
                   "Haitham saves 25 L.E. daily; if he is saving for 45 days, how much does he save during this period?"
-                                ],
+                ],
                 "inputtype": [
                   {
                     "length": 0,

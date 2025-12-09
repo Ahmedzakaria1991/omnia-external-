@@ -104,7 +104,7 @@
             "contents": [
               {
                 "paragraphes1": [],
-               "paragraphes2": [ "42 ÷ 0.7 ="],
+                "paragraphes2": ["42 ÷ 0.7 ="],
                 "paragraphes3": [""],
                 "paragraphes4": [""],
                 "inputtype": [
@@ -176,16 +176,17 @@
             ]
           },
           {
-            "id": 1,
+            "id": 33,
             "type": 2,
             "contents": [
               {
                 "paragraphes1": ["  "],
                 "paragraphes2": [
-                  "The number that, if it is multiplied by 17, gives the result 2.04.",
-                  "The number is"
+                  "The number that, if it is multiplied by 17, gives the result 2.04.   "
                 ],
-                "paragraphes3": "",
+                "paragraphes2_1": [" The number is"],
+
+                "paragraphes3": " ",
                 "paragraphes4": [" "],
                 "inputtype": [
                   {
@@ -261,7 +262,7 @@
             "contents": [
               {
                 "paragraphes1": [""],
-              "paragraphes2": [ "3.6  ÷  0.3 ="],
+                "paragraphes2": ["3.6  ÷  0.3 ="],
                 "paragraphes3": "",
                 "paragraphes4": [" "],
                 "inputtype": [
@@ -332,7 +333,7 @@
               }
             ]
           },
-         
+
           {
             "id": 1,
             "type": 2,
@@ -340,7 +341,8 @@
               {
                 "paragraphes1": ["  "],
                 "paragraphes2": [
-                 "When we multiply the number 12.65 by the value of the digit 6 in this number, ","the result will be"
+                  "When we multiply the number 12.65 by the value of the digit 6 in this number, ",
+                  "the result will be"
                 ],
                 "paragraphes3": "",
                 "paragraphes4": [" "],
@@ -747,8 +749,6 @@
         "title": "Complete",
         "qtitle": "Use the standard algorithm for division to find the quotient:",
         "items": [
-         
-
           {
             "id": 1,
             "type": 2,
@@ -832,7 +832,7 @@
             "contents": [
               {
                 "paragraphes1": [],
-                "paragraphes2": ["3 ÷ 0.06  =" ],
+                "paragraphes2": ["3 ÷ 0.06  ="],
                 "paragraphes3": [""],
                 "paragraphes4": [""],
                 "inputtype": [
@@ -902,16 +902,15 @@
                 "done": false
               }
             ]
-          }
+          },
 
-          ,
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
                 "paragraphes1": [],
-                "paragraphes2":[ "9.99 ÷ 9 ="],
+                "paragraphes2": ["9.99 ÷ 9 ="],
                 "paragraphes3": [""],
                 "paragraphes4": [""],
                 "inputtype": [

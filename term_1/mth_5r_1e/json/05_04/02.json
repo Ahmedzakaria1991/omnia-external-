@@ -33,7 +33,7 @@
               {
                 "paragraphes": "",
                 "paragraphes1": [
-                  " An employee works for 450 minutes daily. To find out the number of minutes he works in 9 ","days, we perform the ","operation"
+                  " An employee works for 450 minutes daily. To find out the number of minutes he works in 9 ","days, we perform the operation"
                 ],
                 "inputtype": [
                   {
@@ -115,7 +115,7 @@
                   }
                 ],
                 "paragraphes2": [
-                  "45 x 27 ="
+                  "45 × 27 ="
                 ],
                 "paragraphes3": ["354 × 88 = "]
               }
@@ -226,9 +226,9 @@
                   }
                 ],
                 "paragraphes2": [
-                  "919 x 32 = "
+                  "919 × 32 = "
                 ],
-                "paragraphes3": [" 1,523 x 12 = "]
+                "paragraphes3": [" 1,523 × 12 = "]
               }
             ],
             "answerUser": [
@@ -354,14 +354,14 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["200"],
+                    "valid": ["200","7"],
                     "show": ["200"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["7"],
+                    "valid": ["7","200"],
                     "show": ["7"]
                   },
                   {
@@ -421,7 +421,8 @@
             "contents": [
               {
                
-                "paragraphes1": ["The multiplication problem that has the expression (80 × 70) + (80 × 3) is"],
+                "paragraphes1": ["The multiplication problem that has the expression (80 × 70) + (80 × 3)" ],
+                "paragraphes1_2": " is",
                 "paragraphes2": [""],
            
                 "inputtype": [

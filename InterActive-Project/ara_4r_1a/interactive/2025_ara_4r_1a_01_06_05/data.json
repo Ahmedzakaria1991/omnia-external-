@@ -1,0 +1,883 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "BloomTargets": null,
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": 0,
+    "id": "ara_6r_2a_02_03_05",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "bloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "input",
+    "startTime": "",
+    "endTime": "",
+    "doors": [
+      {
+        "passage": "«كانَ عمرٌو يُحِبُّ إلقاءَ القصصِ، ويحلُمُ أنْ يُصبِحَ مُذِيعًا يومًا ما، لكنَّه كانَ خَجُولًا ويخشَى التحدُّثَ أمامَ زُمَلائِه، وعِنْدَما أعلَنَت المَدْرَسةُ عن مُسابَقةٍ للإلقاءِ قرَّرَ المُشارَکةَ رَغْمَ خَوْفِه، بعدَ أنْ تذکَّرَ نصیحةَ والدتِه: «واجِهْ مُشكِلاتِكَ، ولا تخَفْ».فتدرَّبَ يوميًّا، وعِنْدَما وقَفَ أمامَ الجميعِ تحدَّثَ بثِقةٍ، وفازَ بالمَرْكزِ الأوَّلِ، وأدرَكَ أنَّ النجاحَ يأتي بالمُحاوَلةِ وعَدَمِ الاستِسلامِ؛ ليبدَأَ رِحلتَه نحوَ حُلْمِه أنْ يُصبِحَ مُذِيعًا شهيرًا.».",
+        "choose": {
+          "questions": [
+            {
+              "type": 4,
+              "active": false,
+              "parag": "كانَ عمرٌو يحلُمُ أن يُصبِحَ  .......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "وظيفةٌ تحتاجُ إلى الظهورِ في البرامجِ التلفزيونيَّةِ.",
+              "numberQuestion": 1,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "لاعبًا",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "مُذيعًا ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "كاتبًا ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "مُهندِسًا ",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "active": false,
+              "parag": "اشترَكَ عمرٌو في مُسابَقةٍ لـ.......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "ابحَثْ في الفِقرةِ عن المُسابَقةِ التي أعلَنَت عنها المدرسةُ.",
+              "numberQuestion": 2,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "الإلقاءِ ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "الترجمةِ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "التأليفِ ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الجَرْي",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "tureFalse": {
+          "questions": [
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "قرَّرَ عمرٌو الاشتراكَ في المُسابَقةِ بعدَ تذكُّرِ نصيحةِ أخيه.",
+              "hint": "تذكَّر الشخصَ الذي قالَ له: «واجِهْ مُشكِلاتِك ولا تخَفْ».",
+              "numberQuestion": 3,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "كانَ عمرٌو خجولًا ويخشَى التحدُّثَ أمامَ زملائِه في البدايةِ.",
+              "hint": "اقرَأْ بدايةَ الفِقرةِ قبلَ أنْ يتدرَّبَ عمرٌو.",
+              "numberQuestion": 4,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "selectText": {
+          "questions": [
+            {
+              "title": "حدِّدِ الإجابةَ من الفِقرةِ",
+              "active": false,
+              "parag": "مُرادِفُ (معروفًا): .....",
+
+              "sentence": "«كانَ عمرٌو يُحِبُّ إلقاءَ القصصِ، ويحلُمُ أنْ يُصبِحَ مُذِيعًا يومًا ما، لكنَّه كانَ خَجُولًا ويخشَى التحدُّثَ أمامَ زُمَلائِه، وعِنْدَما أعلَنَت المَدْرَسةُ عن مُسابَقةٍ للإلقاءِ قرَّرَ المُشارَکةَ رَغْمَ خَوْفِه، بعدَ أنْ تذکَّرَ نصیحةَ والدتِه: «واجِهْ مُشكِلاتِكَ، ولا تخَفْ».فتدرَّبَ يوميًّا، وعِنْدَما وقَفَ أمامَ الجميعِ تحدَّثَ بثِقةٍ، وفازَ بالمَرْكزِ الأوَّلِ، وأدرَكَ أنَّ النجاحَ يأتي بالمُحاوَلةِ وعَدَمِ الاستِسلامِ؛ ليبدَأَ رِحلتَه نحوَ حُلْمِه أنْ يُصبِحَ مُذِيعًا شهيرًا.».",
+              "correct": "«كانَ عمرٌو يُحِبُّ إلقاءَ القصصِ، ويحلُمُ أنْ يُصبِحَ مُذِيعًا يومًا ما، لكنَّه كانَ خَجُولًا ويخشَى التحدُّثَ أمامَ زُمَلائِه، وعِنْدَما أعلَنَت المَدْرَسةُ عن مُسابَقةٍ للإلقاءِ قرَّرَ المُشارَکةَ رَغْمَ خَوْفِه، بعدَ أنْ تذکَّرَ نصیحةَ والدتِه: «واجِهْ مُشكِلاتِكَ، ولا تخَفْ».فتدرَّبَ يوميًّا، وعِنْدَما وقَفَ أمامَ الجميعِ تحدَّثَ بثِقةٍ، وفازَ بالمَرْكزِ الأوَّلِ، وأدرَكَ أنَّ النجاحَ يأتي بالمُحاوَلةِ وعَدَمِ الاستِسلامِ؛ ليبدَأَ رِحلتَه نحوَ حُلْمِه أنْ يُصبِحَ مُذِيعًا شهيرًا.».",
+              "correctAnswer": ["شهيرًا"],
+              "selectionText": "",
+              "hint": "اقرَأْ آخِرَ الفِقرةِ..",
+              "numberQuestion": 5,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            },
+            {
+              "title": "حدِّدِ الإجابةَ من الفِقرةِ",
+              "active": false,
+              "parag": "جَمْعُ (القِصَّة): .....",
+              "sentence": "«كانَ عمرٌو يُحِبُّ إلقاءَ القِصَص، ويحلُمُ أنْ يُصبِحَ مُذِيعًا يومًا ما، لكنَّه كانَ خَجُولًا ويخشَى التحدُّثَ أمامَ زُمَلائِه، وعِنْدَما أعلَنَت المَدْرَسةُ عن مُسابَقةٍ للإلقاءِ قرَّرَ المُشارَکةَ رَغْمَ خَوْفِه، بعدَ أنْ تذکَّرَ نصیحةَ والدتِه: «واجِهْ مُشكِلاتِكَ، ولا تخَفْ».فتدرَّبَ يوميًّا، وعِنْدَما وقَفَ أمامَ الجميعِ تحدَّثَ بثِقةٍ، وفازَ بالمَرْكزِ الأوَّلِ، وأدرَكَ أنَّ النجاحَ يأتي بالمُحاوَلةِ وعَدَمِ الاستِسلامِ؛ ليبدَأَ رِحلتَه نحوَ حُلْمِه أنْ يُصبِحَ مُذِيعًا شهيرًا.».",
+              "correct": "«كانَ عمرٌو يُحِبُّ إلقاءَ القِصَص، ويحلُمُ أنْ يُصبِحَ مُذِيعًا يومًا ما، لكنَّه كانَ خَجُولًا ويخشَى التحدُّثَ أمامَ زُمَلائِه، وعِنْدَما أعلَنَت المَدْرَسةُ عن مُسابَقةٍ للإلقاءِ قرَّرَ المُشارَکةَ رَغْمَ خَوْفِه، بعدَ أنْ تذکَّرَ نصیحةَ والدتِه: «واجِهْ مُشكِلاتِكَ، ولا تخَفْ».فتدرَّبَ يوميًّا، وعِنْدَما وقَفَ أمامَ الجميعِ تحدَّثَ بثِقةٍ، وفازَ بالمَرْكزِ الأوَّلِ، وأدرَكَ أنَّ النجاحَ يأتي بالمُحاوَلةِ وعَدَمِ الاستِسلامِ؛ ليبدَأَ رِحلتَه نحوَ حُلْمِه أنْ يُصبِحَ مُذِيعًا شهيرًا.».",
+              "correctAnswer": ["القِصَص"],
+              "selectionText": "",
+              "hint": "اقرَأْ أولَ سطرٍ في الفِقرةِ.",
+              "numberQuestion": 6,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            }
+          ]
+        },
+        "punctuate": {
+          "questions": [
+            {
+              "title": "اضغَطْ على الكَلِماتِ الخطأ، ثم اختَرِ التصويبَ المُناسِبَ.",
+              "active": false,
+              "numberQuestion": 7,
+              "sentence": "«كانَ عمرٌو يُحِبُّ كتابةَ القصصِ، ويحلُمُ أنْ يُصبِحَ مُذِيعًا يومًا ما، لكنَّه كانَ خَجُولًا ويخشَى التحدُّثَ أمامَ زُمَلائِه، وعِنْدَما أعلَنَت المَدْرَسةُ عن مُسابَقةٍ للإلقاءِ قرَّرَ المُشارَکةَ رَغْمَ خَوْفِه، بعدَ أنْ تذکَّرَ نصیحةَ والدتِه: « اترُكْ مُشكِلاتِكَ، ولا تخَفْ». فتدرَّبَ يوميًّا، وعِنْدَما وقَفَ أمامَ الجميعِ تحدَّثَ بثِقةٍ، وفازَ بالمَرْكزِ الأوَّلِ، وأدرَكَ أنَّ الفشلَ يأتي بالمُحاوَلةِ وعَدَمِ الاستِسلامِ؛ ليبدَأَ رِحلتَه نحوَ حُلْمِه أنْ يُصبِحَ مُذِيعًا مجهولًا .».",
+              "hint": [
+                "الكَلِمةُ الخطأُ في شَيءٍ كانَ يُحِبُّه عمرٌو.",
+                "الكَلِمةُ الخطأُ مُضادُّها (النجاح).",
+                "الكَلِمةُ الخطأُ ستجِدُها في نهايةِ الفِقرةِ.  ",
+                "الكَلِمةُ الخطأُ في نصيحةِ الأمِّ. "
+              ],
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "wrongWord": [
+                {
+                  "word": "كتابةَ",
+                  "correctAnswerTochoose": 1,
+
+                  "chooses": [
+                    {
+                      "toChoose": "تلوينَ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "شراءَ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "إلقاءَ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "الفشلَ",
+                  "correctAnswerTochoose": 2,
+                  "chooses": [
+                    {
+                      "toChoose": "الثراءَ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "المالَ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "النجاحَ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "مجهولًا",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "ثريًّا",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "كبيرًا",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "شهيرًا",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "اترُكْ",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "سجِّلْ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "اكتُبْ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تتفِقُ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "passage": "«تحقيقُ الأحلامِ يلزَمُه إصرارٌ وعَمَلٌ جادٌّ؛ فالنجاحُ لا يأتي بسهولةٍ، وكم من الشخصيَّاتِ العظيمةِ عِنْدَما واجَهَتْ صُعُوباتٍ كثيرةً كانَ جَوابُها عدمَ الاستسلامِ، وسَعَتْ حتى حقَّقَتْ ما أرادَتْ دونَ شَكْوى أو مَلَلٍ! فتعلَّمْ يا صَدِيقِي من تجارِبِ الآخَرِينَ، واجعَلْ من الصُّعُوباتِ دافِعًا لتحقيقِ أهدافِكَ، وكُنْ مُتأكِّدًا أنَّ الإصرارَ والعزيمةَ هما سِرُّ النجاحِ.». ",
+        "choose": {
+          "questions": [
+            {
+              "type": 4,
+              "active": false,
+              "parag": "مُرادِفُ (جَوابها): ......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "الكَلِمةُ التي تبحَثُ عنها تعنِي الردَّ. ",
+              "numberQuestion": 1,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "نصِيحَتها",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "طلَبها ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "ردّها ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "هدَفها ",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "active": false,
+              "parag": "جمْعُ (سِرّ): ......",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "الكَلِمةُ التي تبحَثُ عنها تُشبِهُ في صَوتِها كَلِمةَ (أنهار).",
+              "numberQuestion": 2,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "أسرَار  ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "سُرُر",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "سَرائِر ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "أُسَر",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "tureFalse": {
+          "questions": [
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "تحقيقُ الأحلامِ يتطلَّبُ المالَ والحَظَّ.",
+              "hint": "اقرَأْ بدايةَ الفِقرةِ. ",
+              "numberQuestion": 3,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "الشخصيَّاتُ العظيمةُ لا تستسلِمُ أمامَ الصُّعُوباتِ.",
+              "hint": "اقرَأْ من الفِقرةِ بعدَ كَلِمةِ (جَوابها). ",
+              "numberQuestion": 4,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "selectText": {
+          "questions": [
+            {
+              "title": "حدِّدِ الإجابةَ من الفِقرةِ",
+              "active": false,
+              "parag": "ما سِرُّ النجاحِ؟",
+              "sentence": "«تحقيقُ الأحلامِ يلزَمُه إصرارٌ وعَمَلٌ جادٌّ؛ فالنجاحُ لا يأتي بسهولةٍ، وكم من الشخصيَّاتِ العظيمةِ عِنْدَما واجَهَتْ صُعُوباتٍ كثيرةً كانَ جَوابُها عدمَ الاستسلامِ، وسَعَتْ حتى حقَّقَتْ ما أرادَتْ دونَ شَكْوى أو مَلَلٍ! فتعلَّمْ يا صَدِيقِي من تجارِبِ الآخَرِينَ، واجعَلْ من الصُّعُوباتِ دافِعًا لتحقيقِ أهدافِكَ، وكُنْ مُتأكِّدًا أنَّ الإصرارَ والعزيمةَ هما سِرُّ النجاحِ.». ",
+
+              "correct": "«تحقيقُ الأحلامِ يلزَمُه إصرارٌ وعَمَلٌ جادٌّ؛ فالنجاحُ لا يأتي بسهولةٍ، وكم من الشخصيَّاتِ العظيمةِ عِنْدَما واجَهَتْ صُعُوباتٍ كثيرةً كانَ جَوابُها عدمَ الاستسلامِ، وسَعَتْ حتى حقَّقَتْ ما أرادَتْ دونَ شَكْوى أو مَلَلٍ! فتعلَّمْ يا صَدِيقِي من تجارِبِ الآخَرِينَ، واجعَلْ من الصُّعُوباتِ دافِعًا لتحقيقِ أهدافِكَ، وكُنْ مُتأكِّدًا أنَّ  <span class='showText'> الإصرارَ والعزيمةَ  </span> هما سِرُّ النجاحِ .». ",
+              "correctAnswer": ["الإصرارَ والعزيمةَ"],
+              "selectionText": "",
+              "hint": "الإجابةُ في كلمتَيْنِ. ",
+              "numberQuestion": 5,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            },
+            {
+              "title": "حدِّدِ الإجابةَ من الفِقرةِ",
+              "active": false,
+              "parag": "كَلِمةٌ بمعنى (قابَلَتْ).",
+              "sentence": "«تحقيقُ الأحلامِ يلزَمُه إصرارٌ وعَمَلٌ جادٌّ؛ فالنجاحُ لا يأتي بسهولةٍ، وكم من الشخصيَّاتِ العظيمةِ عِنْدَما واجَهَتْ صُعُوباتٍ كثيرةً كانَ جَوابُها عدمَ الاستسلامِ، وسَعَتْ حتى حقَّقَتْ ما أرادَتْ دونَ شَكْوى أو مَلَلٍ! فتعلَّمْ يا صَدِيقِي من تجارِبِ الآخَرِينَ، واجعَلْ من الصُّعُوباتِ دافِعًا لتحقيقِ أهدافِكَ، وكُنْ مُتأكِّدًا أنَّ الإصرارَ والعزيمةَ هما سِرُّ النجاحِ.». ",
+              "correct": "«تحقيقُ الأحلامِ يلزَمُه إصرارٌ وعَمَلٌ جادٌّ؛ فالنجاحُ لا يأتي بسهولةٍ، وكم من الشخصيَّاتِ العظيمةِ عِنْدَما «<span class='showText'> واجَهَتْ  </span> صُعُوباتٍ كثيرةً كانَ جَوابُها عدمَ الاستسلامِ، وسَعَتْ حتى حقَّقَتْ ما أرادَتْ دونَ شَكْوى أو مَلَلٍ! فتعلَّمْ يا صَدِيقِي من تجارِبِ الآخَرِينَ، واجعَلْ من الصُّعُوباتِ دافِعًا لتحقيقِ أهدافِكَ، وكُنْ مُتأكِّدًا أنَّ  الإصرارَ والعزيمةَ   هما سِرُّ النجاحِ .». ",
+              "correctAnswer": ["واجَهَتْ"],
+              "selectionText": "",
+              "hint": "الكَلِمةُ التي تبحَثُ عنها تبدَأُ بحرفِ الواوِ. ",
+              "numberQuestion": 6,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            }
+          ]
+        },
+        "punctuate": {
+          "questions": [
+            {
+              "title": "اضغَطْ على الكَلِماتِ الخطأ، ثم اختَرِ التصويبَ المُناسِبَ.",
+              "active": false,
+              "numberQuestion": 7,
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "sentence": "تحقيقُ الأحلامِ يلزَمُه تردُّدٌ وعَمَلٌ جادٌّ؛ فالنجاحُ لا يأتي بسهولةٍ، وكم من الشخصيَّاتِ العظيمةِ عِنْدَما واجَهَتْ صعوبةً كثيرةً كانَ جَوابُها عدمَ الاستسلامِ، وسَعَتْ حتى حقَّقَتْ ما أرادَتْ دونَ شَكْوى أو شَوقٍ ! فتعلَّمْ يا أصدقائي من تجارِبِ الآخَرِينَ، واجعَلْ من الصُّعُوباتِ دافِعًا لتحقيقِ أهدافِكَ، وكُنْ مُتأكِّدًا أنَّ الإصرارَ والعزيمةَ هما سِرُّ النجاحِ. ",
+              "hint": [
+                "الكَلِمةُ الخطأُ التي تبحَثُ عنها مُضادُّها (إصرار). ",
+                "الكَلِمةُ التي تبحَثُ عنها كُتِبَت مُفرَدةً وهي جمعٌ.",
+                "الكَلِمةُ التي تبحَثُ عنها مُضادُّ (مَلَل). ",
+                "الكَلِمةُ الخطأُ سبَقَتْها أداةُ نداءٍ. "
+              ],
+              "wrongWord": [
+                {
+                  "word": "تردُّدٌ",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "وضوحٌ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "مُواجَهةٌ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "إصرارٌ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "صعوبةً",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "أصابعَ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "عصاباتٍ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "صعوباتٍ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "شَوقٍ",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "استسلامٍ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "عجزٍ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "مَلَلٍ",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "أصدقائي",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "صَديقتي ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "صَديقاتي ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "صَديقي",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "passage": "«توالَتْ مجموعةُ إشعاراتٍ على هاتِفِ عائِشةَ؛ فوجَدَتْ فِيديوهاتٍ تتضَمَّنُ مشاهِدَ لشبابٍ يُعذِّبونَ حيواناتٍ، ويرفَعُونَ شِعارًا غريبًا؛ فأثارَتْ تلك المشاهِدُ غضَبَها، فسأَلَتْ أُمَّها: ماذا أفعَلُ؟ فقالَتِ الأُمُّ: يا بُنيَّتِي، الإنترنت الآنَ فيه الخَيْرُ والشَّرُّ؛ فعليكِ أنْ تحكُمِي على ما تُشاهِدينَه بفِطرتِكِ، وإنْ وقَعْتِ في حَيْرةٍ فلا تخشَيْ شيئًا، واسأَلِي الكِبارَ، وهُناكَ طريقةٌ لحَذْفِ الفِيديوهاتِ وإبلاغِ إدارةِ المواقِعِ عنها؛ لتمْنَعَها. عائِشةُ: حسنًا سأفعَلُ».",
+        "choose": {
+          "questions": [
+            {
+              "type": 4,
+              "active": false,
+              "parag": "شعَرَتْ عائِشةُ بـ..... عندَما شاهَدَتِ الفيديوهاتِ.",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "الفيديوهاتُ السيئةُ تُحزِنُ مَن يُشاهِدُها.",
+              "numberQuestion": 1,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "الراحةِ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الغضَبِ",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "الإرهاقِ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "السعادةِ",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "active": false,
+              "parag": "نتعامَلُ معَ المُحتَوياتِ السيِّئةِ في الإنترنت بـ.....",
+              "title": "اختَرِ الإجابةَ الصحيحةَ:",
+              "hint": "الإجابةُ تُعبِّرُ عن طُرقٍ مُختلِفةٍ لمنعِ ظهورِ المُحتوَياتِ السيئةِ.",
+              "numberQuestion": 2,
+              "typeQuestion": "choose",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "الحذفِ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "الإبلاغِ عنها",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "إعادةِ إرسالِها ",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": " الأوَّل والثَّاني",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "tureFalse": {
+          "questions": [
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": " الإبلاغُ عن الفيديوهاتِ السيئةِ يُعَدُّ تصرُّفًا غيرَ لائقٍ.",
+              "hint": "يجِبُ أن نُبلِّغَ إدارةَ المواقعِ بالمحتوى السيئِ. ",
+              "numberQuestion": 3,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": false,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": true,
+                  "check": false
+                }
+              ]
+            },
+            {
+              "title": "اختَرِ العلامةَ الصحيحةَ:",
+              "active": false,
+              "parag": "فطرتُنا تُساعِدُنا في الحُكْمِ على ما نُشاهِدُه.",
+              "hint": "الفطرةُ التي فطَرَنا اللَّهُ عليها تستحسِنُ الخَيرَ.",
+              "numberQuestion": 4,
+              "typeQuestion": "true",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "answers": [
+                {
+                  "toChoose": "✓",
+                  "answer": true,
+                  "check": false
+                },
+                {
+                  "toChoose": "✗",
+                  "answer": false,
+                  "check": false
+                }
+              ]
+            }
+          ]
+        },
+        "selectText": {
+          "questions": [
+            {
+              "title": "حدِّدِ الإجابةَ من الفِقرةِ",
+              "active": false,
+              "parag": " مُرادِفُ (مَناظِر): .....",
+              "sentence": "«توالَتْ مجموعةُ إشعاراتٍ على هاتِفِ عائِشةَ؛ فوجَدَتْ فِيديوهاتٍ تتضَمَّنُ مشاهِدَ لشبابٍ يُعذِّبونَ حيواناتٍ، ويرفَعُونَ شِعارًا غريبًا؛ فأثارَتْ تلك المشاهِدُ غضَبَها، فسأَلَتْ أُمَّها: ماذا أفعَلُ؟ فقالَتِ الأُمُّ: يا بُنيَّتِي، الإنترنت الآنَ فيه الخَيْرُ والشَّرُّ؛ فعليكِ أنْ تحكُمِي على ما تُشاهِدينَه بفِطرتِكِ، وإنْ وقَعْتِ في حَيْرةٍ فلا تخشَيْ شيئًا، واسأَلِي الكِبارَ، وهُناكَ طريقةٌ لحَذْفِ الفِيديوهاتِ وإبلاغِ إدارةِ المواقِعِ عنها؛ لتمْنَعَها. عائِشةُ: حسنًا سأفعَلُ».",
+              "correct": "«توالَتْ مجموعةُ إشعاراتٍ على هاتِفِ عائِشةَ؛ فوجَدَتْ فِيديوهاتٍ تتضَمَّنُ <span class='showText'>مشاهِدَ</span> لشبابٍ يُعذِّبونَ حيواناتٍ، ويرفَعُونَ شِعارًا غريبًا؛ فأثارَتْ تلك المشاهِدُ غضَبَها، فسأَلَتْ أُمَّها: ماذا أفعَلُ؟ فقالَتِ الأُمُّ: يا بُنيَّتِي، الإنترنت الآنَ فيه الخَيْرُ والشَّرُّ؛ فعليكِ أنْ تحكُمِي على ما تُشاهِدينَه بفِطرتِكِ، وإنْ وقَعْتِ في حَيْرةٍ فلا تخشَيْ شيئًا، واسأَلِي الكِبارَ، وهُناكَ طريقةٌ لحَذْفِ الفِيديوهاتِ وإبلاغِ إدارةِ المواقِعِ عنها؛ لتمْنَعَها. عائِشةُ: حسنًا سأفعَلُ».",
+              "correctAnswer": ["مشاهِدَ"],
+              "selectionText": "",
+              "hint": "الإجابةُ تدُلُّ على أشياءَ نُشاهِدُها.",
+              "numberQuestion": 5,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            },
+            {
+              "title": "حدِّدِ الإجابةَ من الفِقرةِ",
+              "active": false,
+              "parag": "مُرادِفُ (حرَّكَت): .....",
+              "sentence": "«توالَتْ مجموعةُ إشعاراتٍ على هاتِفِ عائِشةَ؛ فوجَدَتْ فِيديوهاتٍ تتضَمَّنُ مشاهِدَ لشبابٍ يُعذِّبونَ حيواناتٍ، ويرفَعُونَ شِعارًا غريبًا؛ فأثارَتْ تلك المشاهِدُ غضَبَها، فسأَلَتْ أُمَّها: ماذا أفعَلُ؟ فقالَتِ الأُمُّ: يا بُنيَّتِي، الإنترنت الآنَ فيه الخَيْرُ والشَّرُّ؛ فعليكِ أنْ تحكُمِي على ما تُشاهِدينَه بفِطرتِكِ، وإنْ وقَعْتِ في حَيْرةٍ فلا تخشَيْ شيئًا، واسأَلِي الكِبارَ، وهُناكَ طريقةٌ لحَذْفِ الفِيديوهاتِ وإبلاغِ إدارةِ المواقِعِ عنها؛ لتمْنَعَها. عائِشةُ: حسنًا سأفعَلُ».",
+              "correct": "«توالَتْ مجموعةُ إشعاراتٍ على هاتِفِ عائِشةَ؛ فوجَدَتْ فِيديوهاتٍ تتضَمَّنُ مشاهِدَ لشبابٍ يُعذِّبونَ حيواناتٍ، ويرفَعُونَ شِعارًا غريبًا؛ ف<span class='showText'>أثارَتْ</span> تلك المشاهِدُ غضَبَها، فسأَلَتْ أُمَّها: ماذا أفعَلُ؟ فقالَتِ الأُمُّ: يا بُنيَّتِي، الإنترنت الآنَ فيه الخَيْرُ والشَّرُّ؛ فعليكِ أنْ تحكُمِي على ما تُشاهِدينَه بفِطرتِكِ، وإنْ وقَعْتِ في حَيْرةٍ فلا تخشَيْ شيئًا، واسأَلِي الكِبارَ، وهُناكَ طريقةٌ لحَذْفِ الفِيديوهاتِ وإبلاغِ إدارةِ المواقِعِ عنها؛ لتمْنَعَها. عائِشةُ: حسنًا سأفعَلُ».",
+              "correctAnswer": ["فأثارَتْ", "أثارَتْ"],
+              "selectionText": "",
+              "hint": "الإجابةُ هي الفعلُ الماضي من المُضارِعِ (تُثِير).",
+              "numberQuestion": 6,
+              "typeQuestion": "select",
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text"
+            }
+          ]
+        },
+        "punctuate": {
+          "questions": [
+            {
+              "title": "اضغَطْ على الكَلِماتِ الخطأ، ثم اختَرِ التصويبَ المُناسِبَ.",
+              "active": false,
+              "numberQuestion": 7,
+              "sentence": "«توالَتْ مجموعةُ إشعارٍ على هاتِفِ عائِشةَ؛ فوجَدَتْ فِيديوهاتٍ تتضَمَّنُ مشاهِدَ لشبابٍ يُعذِّبونَ حيواناتٍ، و يرفَعُ شِعارًا غريبًا؛ فأثارَتْ تلك المشاهِدُ رضاها ، فسأَلَتْ أُمَّها: ماذا أفعَلُ؟ فقالَتِ الأُمُّ: يا بُنيَّتِي، الإنترنت الآنَ فيه الخَيْرُ والشَّرُّ؛ فعليكِ أنْ تحكموا على ما تُشاهِدينَه بفِطرتِكِ، وإنْ وقَعْتِ في حَيْرةٍ فلا تخشَيْ شيئًا، واسأَلِي الكِبارَ، وهُناكَ طريقةٌ لحَذْفِ الفِيديوهاتِ وإبلاغِ إدارةِ المواقِعِ عنها؛ لتمْنَعَها. عائِشةُ: حسنًا سأفعَلُ».",
+              "hint": [
+                "الكَلِمةُ الخطأُ تُعرَبُ مُضافًا إليه مجرورًا. ",
+                "الكَلِمةُ الخطأُ هي فعلٌ مُضارِعٌ. ",
+                "الكَلِمةُ الخطأُ تُعبِّرُ عن مشاعرَ. ",
+                "الكَلِمةُ الخطأُ فعلٌ مُضارِعٌ جاءَ بعدَ (أنْ). "
+              ],
+              "startTime": null,
+              "endTime": null,
+              "learningOutCome": null,
+              "numberOfTrial": 0,
+              "questionType": "text",
+              "answersType": "text",
+              "wrongWord": [
+                {
+                  "word": "إشعارٍ",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "إشعاراتٍ",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "شعاراتٍ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "أشعارٍ",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "يرفَعُ",
+                  "correctAnswerTochoose": 1,
+                  "chooses": [
+                    {
+                      "toChoose": "يرفَعُونَ ",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "يُرافِعُونَ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "يعرِفُونَ",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "رضاها",
+                  "correctAnswerTochoose": 2,
+                  "chooses": [
+                    {
+                      "toChoose": "انشغالَها ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "غضَبَها ",
+                      "answer": true,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "حماسَها",
+                      "answer": false,
+                      "check": false
+                    }
+                  ]
+                },
+                {
+                  "word": "تحكموا",
+                  "correctAnswerTochoose": 3,
+                  "chooses": [
+                    {
+                      "toChoose": "تحكُمُ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تحاكِمُ ",
+                      "answer": false,
+                      "check": false
+                    },
+                    {
+                      "toChoose": "تحكُمِي",
+                      "answer": true,
+                      "check": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "scoureDoors": [0, 0, 0]
+  }
+]

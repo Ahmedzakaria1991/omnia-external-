@@ -550,12 +550,13 @@
               {
                 "paragraph": "53.77 - 12.63 = ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
                 "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": "Hundredths",
                 "paragraph7": "Thousandths",
+                "minus": "_",
                 "inputtype": [
                   {
                     "length": 0,
@@ -787,12 +788,14 @@
               {
                 "paragraph": "5.492 - 1.17 = ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
                 "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": "Hundredths",
                 "paragraph7": "Thousandths",
+                "minus": "_",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1024,12 +1027,14 @@
               {
                 "paragraph": "9.54 - 7.88 = ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
                 "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": "Hundredths",
                 "paragraph7": "Thousandths",
+                "minus": "_",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1261,12 +1266,14 @@
               {
                 "paragraph": "28.57 - 27.51 = ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
                 "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": "Hundredths",
                 "paragraph7": "Thousandths",
+                "minus": "_",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1498,12 +1505,14 @@
               {
                 "paragraph": "24.832 - 3.571 = ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
                 "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": "Hundredths",
                 "paragraph7": "Thousandths",
+                "minus": "_",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1735,12 +1744,14 @@
               {
                 "paragraph": "57.3 - 24.001 = ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
                 "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": "Hundredths",
                 "paragraph7": "Thousandths",
+                "minus": "_",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -2284,7 +2295,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["4.41"],
-                    "show": ["4.41"]
+                    "show": [" 4 . 4 1"]
                   },
                   {
                     "length": 0,
@@ -2347,7 +2358,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["7.43"],
-                    "show": ["7.43"]
+                    "show": [" 7 . 4 3"]
                   },
                   {
                     "length": 0,
@@ -2410,7 +2421,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["0.297"],
-                    "show": ["0.297"]
+                    "show": [" 0  .  2 9 7"]
                   },
                   {
                     "length": 0,
@@ -2474,7 +2485,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["0.125"],
-                    "show": ["0.125"]
+                    "show": [" 0 . 1 2 5"]
                   },
                   {
                     "length": 0,
@@ -2537,7 +2548,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["21.61"],
-                    "show": ["21.61"]
+                    "show": [" 2 1 . 6 1"]
                   },
                   {
                     "length": 0,
@@ -2600,7 +2611,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["5.982"],
-                    "show": ["5.982"]
+                    "show": [" 5 . 9 8 2"]
                   },
                   {
                     "length": 0,
@@ -2646,7 +2657,7 @@
             "m3r": true,
             "contents": [
               {
-                "paragraphes1": [ "1", "1", "", "", "", ""],
+                "paragraphes1": ["1", "1", "", "", "", ""],
                 "paragraphes2": ["−", "7", ".", "3", "6", "2", ""],
 
                 "inputtype": [
@@ -2664,7 +2675,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["3.638"],
-                    "show": ["3.638"]
+                    "show": [" 3 . 6 3 8"]
                   },
                   {
                     "length": 0,
@@ -2729,7 +2740,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["56.972"],
-                    "show": ["56.972"]
+                    "show": [" 5 6 . 9 7 2"]
                   },
                   {
                     "length": 0,

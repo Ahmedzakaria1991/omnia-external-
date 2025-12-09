@@ -393,7 +393,7 @@
           "id": 1,
           "type": 2,
           "contents": [{
-            "paragraphes1": ["7.1<span>8</span>5"],
+            "paragraphes1": ["7.1<span>8</span>5&nbsp;&nbsp;&nbsp;"],
             "inputtype": [{
               "length": 0,
               "numperofinput": 0,
@@ -404,20 +404,20 @@
             "inputtype2": [{
                 "length": 0,
                 "numperofinput": 1,
-                "comma": "",
+                "comma": " ",
                 "valid": ["hundredths"],
                 "show": ["hundredths"]
               },
               {
                 "length": 0,
                 "numperofinput": 1,
-                "comma": "",
+                "comma": " ",
                 "valid": ["0.08"],
                 "show": ["0.08"]
               }
             ],
-            "paragraphes2": ["The place value: "],
-            "paragraphes3": ["The value of the digit: "]
+            "paragraphes2": [" The place value:  "],
+            "paragraphes3": [", The value of the digit: "]
           }],
           "answerUser": [{
               "answer": [""],
@@ -437,7 +437,7 @@
           "id": 2,
           "type": 2,
           "contents": [{
-            "paragraphes1": ["0.07<span>2</span>"],
+            "paragraphes1": ["0.07<span>2</span>&nbsp;&nbsp;&nbsp;"],
             "inputtype": [{
               "length": 0,
               "numperofinput": 0,
@@ -461,7 +461,7 @@
               }
             ],
             "paragraphes2": ["The place value: "],
-            "paragraphes3": ["The value of the digit: "]
+            "paragraphes3": [", The value of the digit: "]
           }],
           "answerUser": [{
               "answer": [""],
@@ -481,7 +481,7 @@
           "id": 3,
           "type": 2,
           "contents": [{
-            "paragraphes1": ["2<span>8</span>.149"],
+            "paragraphes1": ["2<span>8</span>.149&nbsp;&nbsp;&nbsp;"],
             "inputtype": [{
               "length": 0,
               "numperofinput": 0,
@@ -505,7 +505,7 @@
               }
             ],
             "paragraphes2": ["The place value: "],
-            "paragraphes3": ["The value of the digit: "]
+            "paragraphes3": [", The value of the digit: "]
           }],
           "answerUser": [{
               "answer": [""],
@@ -525,7 +525,7 @@
           "id": 4,
           "type": 2,
           "contents": [{
-            "paragraphes1": ["6.<span>1</span>44"],
+            "paragraphes1": ["6.<span>1</span>44&nbsp;&nbsp;&nbsp;"],
             "inputtype": [{
               "length": 0,
               "numperofinput": 0,
@@ -549,7 +549,7 @@
               }
             ],
             "paragraphes2": ["The place value: "],
-            "paragraphes3": ["The value of the digit: "]
+            "paragraphes3": [", The value of the digit: "]
           }],
           "answerUser": [{
               "answer": [""],
@@ -569,7 +569,7 @@
           "id": 5,
           "type": 2,
           "contents": [{
-            "paragraphes1": ["<span>7</span>65.18"],
+            "paragraphes1": ["<span>7</span>65.18&nbsp;&nbsp;&nbsp;"],
             "inputtype": [{
               "length": 0,
               "numperofinput": 0,
@@ -593,7 +593,7 @@
               }
             ],
             "paragraphes2": ["The place value: "],
-            "paragraphes3": ["The value of the digit: "]
+            "paragraphes3": [", The value of the digit: "]
           }],
           "answerUser": [{
               "answer": [""],
@@ -613,7 +613,7 @@
           "id": 6,
           "type": 2,
           "contents": [{
-            "paragraphes1": ["58.9<span>8</span>3"],
+            "paragraphes1": ["58.9<span>8</span>3&nbsp;&nbsp;&nbsp;"],
             "inputtype": [{
               "length": 0,
               "numperofinput": 0,
@@ -637,7 +637,7 @@
               }
             ],
             "paragraphes2": ["The place value: "],
-            "paragraphes3": ["The value of the digit: "]
+            "paragraphes3": [", The value of the digit: "]
           }],
           "answerUser": [{
               "answer": [""],
@@ -1565,7 +1565,7 @@
               "valid": [],
               "show": []
             }],
-            "paragraphes2": ["."]
+            "paragraphes2": ["place ."]
           }],
           "answerUser": [{
             "answer": [""],

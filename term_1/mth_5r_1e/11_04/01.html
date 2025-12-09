@@ -63,6 +63,10 @@
                                 <span class="icon-index">{{index+1 + '&nbsp'}}</span>
                                 <p class="">{{quiz.paragraph}}</p>
                             </div>
+                            <div class="break"></div>
+                             <div class="paragraph">
+                                <p class="paragraphone" style="margin-left: 6vw;">{{quiz.paragraphone}}</p>
+                            </div>
                             <div class="answers" :class="{'tybeTwo': quiz.type === 2, 'tybeThree': quiz.type === 3}">
                                 <div class="box" v-for=" answer in  quiz.answers"
                                     :class="{'checked' : answer.checked, 'right' : answer.right}">

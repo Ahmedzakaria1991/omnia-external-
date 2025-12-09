@@ -163,7 +163,7 @@
             "contents": [
               {
                 "paragraphes2": [
-                 "A school has 429 students, which are to be divided equally among 13 classrooms. What is the number of students in each class? "
+                  "A school has 429 students, which are to be divided equally among 13 classrooms. What is the number of students in each class? "
                 ],
                 "paragraphes3": ["The number of students in each class = "],
                 "paragraphes4": ["students."],
@@ -202,7 +202,7 @@
             "contents": [
               {
                 "paragraphes2": [
-                 "A school has 1,550 students. 50 students are assigned to each class. Calculate the number of classrooms in the school."
+                  "A school has 1,550 students. 50 students are assigned to each class. Calculate the number of classrooms in the school."
                 ],
                 "paragraphes3": ["The number of classrooms = "],
                 "paragraphes4": ["classes."],
@@ -234,7 +234,7 @@
                 "done": false
               }
             ]
-          } 
+          }
         ],
         "popupQuestion": [
           {
@@ -262,9 +262,11 @@
                 "row3": ["473", "− 430 ", "43"],
                 "row2": ["2,623", " − 2,150", "473"],
                 "num": "63",
-                "numwidth":3,
-                "paragraph": ["From the opposite area model , the quotient is "],
-                "paragraph1": "",
+                "numwidth": 3,
+                "paragraph": [
+                  "From the opposite area model , the quotient is "
+                ],
+                "paragraph1": "and the remainder is ",
                 "paragraph2": "",
                 "inputtype": [
                   {
@@ -285,10 +287,10 @@
                   },
                   {
                     "length": 0,
-                    "numperofinput": 0,
+                    "numperofinput": 1,
                     "comma": "",
-                    "valid": ["7"],
-                    "show": ["7"]
+                    "valid": ["40"],
+                    "show": ["40"]
                   }
                 ]
               }
@@ -318,7 +320,7 @@
                 "row3": ["225", " − 200", "25"],
                 "row2": ["975", "− 750 ", "225"],
                 "num": "25",
-                "numwidth":3,
+                "numwidth": 3,
                 "paragraph": [
                   " When dividing 975 by 25, as in the opposite area model, the quotient is"
                 ],
@@ -377,8 +379,7 @@
             "isActive": null
           }
         ]
-      }
-      ,
+      },
       {
         "active": false,
         "title": "Complete the following",
@@ -395,9 +396,9 @@
                 "row3": ["350", "− 280 ", "70"],
                 "row2": ["3,150", " − 2,800", "a"],
                 "num": "14",
-                "numwidth":3,
-                "paragraph": ["a ="],
-                "paragraph1": "b =",
+                "numwidth": 3,
+                "paragraph": ["a = "],
+                "paragraph1": ",and  b =",
                 "paragraph2": "",
                 "inputtype": [
                   {
@@ -440,20 +441,20 @@
                 "done": false
               }
             ]
-          } ,
+          },
           {
             "id": 2,
             "type": 2,
             "contents": [
               {
                 "row1": [80, "10", 1],
-                "row2": ["51", " − 51", "00"],
+                "row2": ["a", "− 4,080 ", "561"],
                 "row3": ["561", "− b ", "51"],
-                "row4": ["a", "− 4,080 ", "561"],
+                "row4": ["51", " − 51", "00"],
                 "num": "51",
-                "numwidth":3,
+                "numwidth": 3,
                 "paragraph": ["a ="],
-                "paragraph1": "b =",
+                "paragraph1": ",and  b =",
                 "paragraph2": "",
                 "inputtype": [
                   {
@@ -469,7 +470,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["4,641","4641"],
+                    "valid": ["4,641", "4641"],
                     "show": ["4,641"]
                   },
                   {
@@ -496,8 +497,7 @@
                 "done": false
               }
             ]
-          } 
-          ,
+          },
           {
             "id": 2,
             "type": 2,
@@ -508,9 +508,9 @@
                 "row3": ["b", "− 150 ", "100"],
                 "row2": ["3,250", " − 3,000", "250"],
                 "num": "15",
-                "numwidth":3,
+                "numwidth": 3,
                 "paragraph": ["a ="],
-                "paragraph1": "b =",
+                "paragraph1": ",and  b =",
                 "paragraph2": "",
                 "inputtype": [
                   {
@@ -553,8 +553,7 @@
                 "done": false
               }
             ]
-          } 
-          ,
+          },
           {
             "id": 2,
             "type": 2,
@@ -565,9 +564,9 @@
                 "row3": ["522", "− 310", "212"],
                 "row2": ["3,622", "− a", "522"],
                 "num": "31",
-                "numwidth":3,
+                "numwidth": 3,
                 "paragraph": ["a ="],
-                "paragraph1": "b =",
+                "paragraph1": ",and  b =",
                 "paragraph2": "",
                 "inputtype": [
                   {
@@ -583,7 +582,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["3,100" , "3100"],
+                    "valid": ["3,100", "3100"],
                     "show": ["3,100"]
                   },
                   {
@@ -610,7 +609,7 @@
                 "done": false
               }
             ]
-          } 
+          }
         ],
         "popupQuestion": [
           {

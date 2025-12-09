@@ -1,4 +1,5 @@
-[{
+[
+  {
     "nameId": "",
     "title": "",
     "subject": "math-5 eng",
@@ -18,1144 +19,1260 @@
     "numberOfquestion": null,
 
     "inputSlide": [
+      {
+        "active": true,
+        "paragraph3": ["Divide by using the standard algorithm. "],
+        "quran": [],
+        "paragraph2": [],
+        "title": "Complete the following",
+        "image": true,
+        "imgEx": "",
+        "ls": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "border2": true,
+            "contents": [
+              {
+                "paragraphes1": ["2 1 3"],
+                "paragraphes2": "26",
+                "paragraphes5": ["  12="],
+                "paragraphes3": [":Then"],
+                "paragraphes4": ["÷  312"],
+                "symbol1": "–",
+                "symbol2": "–",
 
-       
-        {
-            "active": true,
-            "paragraph3": ["Divide by using the standard algorithm. "],
-            "quran": [],
-            "paragraph2": [],
-            "title": "Complete the following",
-            "image": true,
-            "imgEx": "",
-            "ls":true,
-            "items": [{
-                    "id": 1,
-                    "type": 2,
-                    "index": "1",
-                    "border2":true,
-                    "contents": [{
-                        "paragraphes1": ["2 1 3"],
-                        "paragraphes2": "26",
-                        "paragraphes5": ["  12="],
-                        "paragraphes3":[":Then"],
-                        "paragraphes4": ["÷  312"],
-                        "symbol1":"–",
-                        "symbol2":"–",
-
-
-
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["12"],
-                            "show": ["12"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["26"],
-                            "show": ["26"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["52"],
-                            "show": ["52"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["52"],
-                            "show": ["52"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["0"],
-                            "show": ["0"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["26"],
-                            "show": ["26"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 2,
-                    "type": 2,
-                    "index": "2",
-                    "border2":true,
-                    "contents": [{
-                        "paragraphes1": ["0 5 6"],
-                        "paragraphes2": "18",
-                        "paragraphes3":[":Then"],
-                        "paragraphes5": ["  ( R 2 ) 36 =  "],
-                        "paragraphes4": [" ÷ 650  "],
-                        "symbol1":"–",
-                        "symbol2":"–",
-
-
-
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["36"],
-                            "show": ["36"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["54"],
-                            "show": ["54"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["110"],
-                            "show": ["110"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["108"],
-                            "show": ["108"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["2"],
-                            "show": ["2"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["18"],
-                            "show": ["18"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 3,
-                    "type": 2,
-                    "index": "3",
-                    "border2":true,
-                    "contents": [{
-                        "paragraphes1": ["6 5 7"],
-                        "paragraphes2": "22",
-                        "paragraphes3":[":Then"],
-                        "paragraphes5": ["  (R 8) 34 =  "],
-                        "paragraphes4": [" ÷ 756  "],
-                        "symbol1":"–",
-                        "symbol2":"–",
-
-
-
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["34"],
-                            "show": ["34"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["66"],
-                            "show": ["66"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["96"],
-                            "show": ["96"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["88"],
-                            "show": ["88"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["8"],
-                            "show": ["8"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["22"],
-                            "show": ["22"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 4,
-                    "type": 2,
-                    "index": "4",
-                    "border2":false,
-                    "contents": [{
-                        "paragraphes1": ["2 9 1"],
-                        "paragraphes2": "32",
-                        "paragraphes3":[":Then"],
-                        "paragraphes5": ["6 = "],
-                        "paragraphes4": ["÷ 192"],
-                        "symbol1":"–",
-                        "symbol2":"",
-
-
-
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["6"],
-                            "show": ["6"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["192"],
-                            "show": ["192"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["0"],
-                            "show": ["0"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["32"],
-                            "show": ["32"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                }
-                
-                
-              
-            
-          
-            ],
-            "popupQuestion": [{
-                "id": 0,
-                "type": 3,
-                "index": "",
-                "paragraph": "",
-                "popup": [
-                    ""
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "isActive": null
-            }]
-        },
-        {
-            "active": false,
-            "paragraph3": ["Divide by using the standard algorithm."],
-            "quran": [],
-            "paragraph2": [],
-            "title": "Complete the following",
-            "imgEx": "",
-            "image":false,
-            "items": [{
-                    "id": 1,
-                    "type": 2,
-                    "index": "1",
-                    "contents": [{
-                        "paragraphes1": ["  543 ÷ 65 ="],
-                        "paragraphes2": [" "],
-                        "paragraphes3":["(R"],
-                        "paragraphes4":[" )"],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["8"],
-                            "show": ["8"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["23"],
-                            "show": ["23"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                },
-                {
-                    "id": 2,
-                    "type": 2,
-                    "index": "2",
-                    "contents": [{
-                        "paragraphes1": [""],
-                        "paragraphes2": ["= 53 ÷ 901"],
-                        "paragraphes3":[""],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["17"],
-                            "show": ["17"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                },
-                {
-                    "id": 1,
-                    "type": 2,
-                    "index": "3",
-                    "contents": [{
-                        "paragraphes1": ["  5,359 ÷ 63 ="],
-                        "paragraphes2": [" "],
-                        "paragraphes3":["(R"],
-                        "paragraphes4":[" )"],
-                       
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["85"],
-                            "show": ["85"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["4"],
-                            "show": ["4"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                },
-                {
-                    "id": 1,
-                    "type": 2,
-                    "index": "4",
-                    "contents": [{
-                        "paragraphes1": ["  6,274 ÷ 49 ="],
-                 "paragraphes2": [" "],
-                        "paragraphes3": ["( R"],
-                        
-                        "paragraphes4":[")"],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["128"],
-                            "show": ["128"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["2"],
-                            "show": ["2"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                } ,
-                {
-                    "id": 1,
-                    "type": 2,
-                    "index": "5",
-                    "contents": [{
-                        "paragraphes1":[" 9,328 ÷ 28 = "],
-
-                        "paragraphes2": [" "],
-                        "paragraphes3": ["( R"],
-
-                        "paragraphes4":[")"],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["333"],
-                            "show": ["333"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["4"],
-                            "show": ["4"]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                } ,
-                {
-                    "id": 6,
-                    "type": 2,
-                    "index": "6",
-                    "contents": [{
-                        "paragraphes1": [""],
-                        "paragraphes2": ["= 43 ÷ 1,376"],
-                        "paragraphes3":[""],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["32"],
-                            "show": ["32"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                },
-                {
-                    "id": 7,
-                    "type": 2,
-                    "index": "7",
-                    "contents": [{
-                        "paragraphes1": [""],
-                        "paragraphes2": ["= 14 ÷ 2,814"],
-                        "paragraphes3":[""],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["201"],
-                            "show": ["201"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                } ,
-                {
-                    "id": 2,
-                    "type": 2,
-                    "index": "8",
-                    "contents": [{
-                        "paragraphes1": [""],
-                        "paragraphes2": ["= 84 ÷ 5,628"],
-                        "paragraphes3":[""],
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [],
-                            "show": [""]
-                        }],
-                        "inputtype2": [              
-                        {
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["67"],
-                            "show": ["67"]
-                        },
-                        {
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    },
-                    {
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                 ]
-                } 
-
-                
-               
-                
-                
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12", "012"],
+                    "show": ["12"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["26"],
+                    "show": ["26"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["52"],
+                    "show": ["52"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["52"],
+                    "show": ["52"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0"],
+                    "show": ["0"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["26"],
+                    "show": ["26"]
+                  }
+                ]
+              }
             ],
-            "popupQuestion": [{
-                "id": 0,
-                "type": 3,
-                "index": "",
-                "paragraph": "",
-                "popup": [
-                    ""
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "border2": true,
+            "contents": [
+              {
+                "paragraphes1": ["0 5 6"],
+                "paragraphes2": "18",
+                "paragraphes3": [":Then"],
+                "paragraphes5": ["  ( R 2 ) 36 =  "],
+                "paragraphes4": [" ÷ 650  "],
+                "symbol1": "–",
+                "symbol2": "–",
+
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "isActive": null
-            }]
-        },
-        {
-            "active": false,
-            "paragraph3": [""],
-            "quran": [],
-            "paragraph2": [],
-            "title": "Read , then answer",
-            "imgEx": "",
-            "items": [{
-                    "id": 1,
-                    "type": 1,
-                    "index": "1",
-                    "contents": [{
-                        "paragraphes":["Sarah bought 25 meters of fabric for 1,350 L.E . Find the price per meter."],
-                        "paragraphes1": ["The price per meter of fabric ="],
-                        "paragraphes2": ["L.E."],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["54"],
-                            "show": ["54"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 2,
-                    "type": 1,
-                    "index": "2",
-                    "contents": [{
-                        "paragraphes":["A boat travels 384 kilometers in 24 hours. How many kilometers does the boat travel in one hour? "],
-                        "paragraphes1": ["The distance the boat travels in one hour ="],
-                        "paragraphes2": ["km."],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["16"],
-                            "show": ["16"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 3,
-                    "type": 1,
-                    "index": "3",
-                    "contents": [{
-                        "paragraphes":["Samir has 1,049 photos. He wants to put them in an album with 12 photos on each page. How many pages does he need for the album?"],
-                        "paragraphes1": ["The number of album pages needed = "],
-                        "paragraphes2": ["Pages."],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["88"],
-                            "show": ["88"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 4,
-                    "type": 1,
-                    "index": "4",
-                    "contents": [{
-                        "paragraphes":["In a wedding party, there were 442 guests. If each table can seat 18 people, how many tables are needed so that everyone can sit?"],
-                        "paragraphes1": ["The number of tables needed for everyone to sit = "],
-                        "paragraphes2": ["Tables."],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["25"],
-                            "show": ["25"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                },
-                {
-                    "id": 5,
-                    "type": 1,
-                    "index": "5",
-                    "contents": [{
-                        "paragraphes":[" If a book costs 32 pounds, how many books can be bought with 1,729 pounds?"],
-                        "paragraphes1": ["The number of books that can be bought with this amount = "],
-                        "paragraphes2": ["books."],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["54"],
-                            "show": ["54"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                }
-         
-                ,
-                {
-                    "id": 6,
-                    "type": 1,
-                    "index": "6",
-                    "contents": [{
-                        "paragraphes":["What is the number that when multiplied by 29 gives a product of 4,002?"],
-                        "paragraphes1": ["Number ="],
-                        "paragraphes2": [""],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["138"],
-                            "show": ["138"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                }
-                ,
-                {
-                    "id": 6,
-                    "type": 1,
-                    "index": "7",
-                    "contents": [{
-                        "paragraphes":["What is the number that when divided by 34 gives a quotient of 105?"],
-                        "paragraphes1": ["Number ="],
-                        "paragraphes2": [""],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["3,570" ,"3570"],
-                            "show": ["3,570"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                }
-                ,
-                {
-                    "id": 6,
-                    "type": 1,
-                    "index": "8",
-                    "contents": [{
-                        "paragraphes":["What is the number that when divided by 41 gives a quotient of 63 and a remainder of 6?"],
-                        "paragraphes1": ["Number ="],
-                        "paragraphes2": [""],
-                        "img": "",
-                        "inputtype": [{
-                            "length": 0,
-                            "numperofinput": 1,
-                            "comma": "",
-                            "valid": ["2,589" ,"2589"],
-                            "show": ["2,589"]
-                        }],
-                        "inputtype2": [{
-                            "length": 0,
-                            "numperofinput": 0,
-                            "comma": "",
-                            "valid": [""],
-                            "show": [""]
-                        }
-                       ]
-
-                    }],
-                    "answerUser": [{
-                        "answer": [""],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }]
-                }
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["36", "036"],
+                    "show": ["36"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["54"],
+                    "show": ["54"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["110"],
+                    "show": ["110"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["108"],
+                    "show": ["108"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["18"],
+                    "show": ["18"]
+                  }
+                ]
+              }
             ],
-            "popupQuestion": [{
-                "id": 0,
-                "type": 3,
-                "index": "",
-                "paragraph": "",
-                "popup": [
-                    ""
-                ],
-                "isActive": null
-            }]
-        }
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "border2": true,
+            "contents": [
+              {
+                "paragraphes1": ["6 5 7"],
+                "paragraphes2": "22",
+                "paragraphes3": [":Then"],
+                "paragraphes5": ["  (R 8) 34 =  "],
+                "paragraphes4": [" ÷ 756  "],
+                "symbol1": "–",
+                "symbol2": "–",
 
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["34", "034"],
+                    "show": ["34"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["66"],
+                    "show": ["66"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["96"],
+                    "show": ["96"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["88"],
+                    "show": ["88"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["22"],
+                    "show": ["22"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "border2": false,
+            "contents": [
+              {
+                "paragraphes1": ["2 9 1"],
+                "paragraphes2": "32",
+                "paragraphes3": [":Then"],
+                "paragraphes5": ["6 = "],
+                "paragraphes4": ["÷ 192"],
+                "symbol1": "–",
+                "symbol2": "",
+
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6", "06"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["192"],
+                    "show": ["192"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0"],
+                    "show": ["0"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["32"],
+                    "show": ["32"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "paragraph3": ["Divide by using the standard algorithm."],
+        "quran": [],
+        "paragraph2": [],
+        "title": "Complete the following",
+        "imgEx": "",
+        "image": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["  543 ÷ 65 ="],
+                "paragraphes2": [" "],
+                "paragraphes3": ["(R"],
+                "paragraphes4": [" )"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["23"],
+                    "show": ["23"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": ["  901 ÷ 53 = "],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["17"],
+                    "show": ["17"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["  5,359 ÷ 63 ="],
+                "paragraphes2": [" "],
+                "paragraphes3": ["(R"],
+                "paragraphes4": [" )"],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["85"],
+                    "show": ["85"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": ["  6,274 ÷ 49 ="],
+                "paragraphes2": [" "],
+                "paragraphes3": ["( R"],
+
+                "paragraphes4": [")"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["128"],
+                    "show": ["128"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes1": [" 9,328 ÷ 28 = "],
+
+                "paragraphes2": [" "],
+                "paragraphes3": ["( R"],
+
+                "paragraphes4": [")"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["333"],
+                    "show": ["333"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 2,
+            "index": "6",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [" 1,376 ÷  43 = "],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["32"],
+                    "show": ["32"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": 2,
+            "index": "7",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": ["  2,814 ÷ 14 = "],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["201"],
+                    "show": ["201"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "8",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": ["   5,628 ÷ 84 ="],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["67"],
+                    "show": ["67"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "paragraph3": [""],
+        "quran": [],
+        "paragraph2": [],
+        "title": "Read , then answer",
+        "imgEx": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes": [
+                  "Sarah bought 25 meters of fabric for 1,350 L.E . Find the price per meter."
+                ],
+                "paragraphes1": ["The price per meter of fabric ="],
+                "paragraphes2": ["L.E."],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["54"],
+                    "show": ["54"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes": [
+                  "A boat travels 384 kilometers in 24 hours. How many kilometers does the boat travel in one hour? "
+                ],
+                "paragraphes1": ["The distance the boat travels in one hour ="],
+                "paragraphes2": ["km."],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["16"],
+                    "show": ["16"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes": [
+                  "Samir has 1,049 photos. He wants to put them in an album with 12 photos on each page. How many pages does he need for the album?"
+                ],
+                "paragraphes1": ["The number of album pages needed = "],
+                "paragraphes2": ["Pages."],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["88"],
+                    "show": ["88"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 1,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes": [
+                  "In a wedding party, there were 442 guests. If each table can seat 18 people, how many tables are needed so that everyone can sit?"
+                ],
+                "paragraphes1": [
+                  "The number of tables needed for everyone to sit = "
+                ],
+                "paragraphes2": ["Tables."],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["25"],
+                    "show": ["25"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 1,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes": [
+                  " If a book costs 32 pounds, how many books can be bought with 1,729 pounds?"
+                ],
+                "paragraphes1": [
+                  "The number of books that can be bought with this amount = "
+                ],
+                "paragraphes2": ["books."],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["54"],
+                    "show": ["54"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+
+          {
+            "id": 6,
+            "type": 1,
+            "index": "6",
+            "contents": [
+              {
+                "paragraphes": [
+                  "What is the number that when multiplied by 29 gives a product of 4,002?"
+                ],
+                "paragraphes1": ["Number ="],
+                "paragraphes2": [""],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["138"],
+                    "show": ["138"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 1,
+            "index": "7",
+            "contents": [
+              {
+                "paragraphes": [
+                  "What is the number that when divided by 34 gives a quotient of 105?"
+                ],
+                "paragraphes1": ["Number ="],
+                "paragraphes2": [""],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3,570", "3570"],
+                    "show": ["3,570"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 1,
+            "index": "8",
+            "contents": [
+              {
+                "paragraphes": [
+                  "What is the number that when divided by 41 gives a quotient of 63 and a remainder of 6?"
+                ],
+                "paragraphes1": ["Number ="],
+                "paragraphes2": [""],
+                "img": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,589", "2589"],
+                    "show": ["2,589"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ]
+      }
     ],
     "popup": false,
     "popuptext": ""
-}]
+  }
+]

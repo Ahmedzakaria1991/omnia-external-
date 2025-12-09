@@ -32,6 +32,15 @@
     .fraction > p {
       text-align: center;
     }
+    body .general#trueFalse .container .quizChoose .choosequestion,
+    body .general#trueSlide .container .quizChoose .choosequestion,
+    body .general#gtorlt .container .quizChoose .choosequestion,
+    body .general#punctuate .container .quizChoose .choosequestion {
+      position: relative;
+      width: 5vw;
+      height: 5vw;
+      margin-right: 15vw;
+    }
     @media (orientation: landscape) {
       .flex {
         width: 6%;
@@ -97,7 +106,6 @@
                 <p v-if="quiz.paragraphRight1">{{quiz.paragraphRight1}}</p>
               </div>
             </div>
-
             <div
               class="choosequestion"
               :class="{'show' : quiz.show }"
@@ -185,6 +193,7 @@
                 <p v-if="quiz.text">{{quiz.chooseUrl2}}</p>
               </div>
             </div>
+
             <div class="paragraph" v-if="quiz.type === 3 || quiz.type === 4">
               <p class="leftp" v-if="!quiz.fractionLeft">
                 {{quiz.paragraphLeft}}

@@ -1,531 +1,857 @@
 <html lang="ar">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>inputValidation</title>
-    <link rel="stylesheet" href="../../../assets/css/style.css">
-    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <link
+      rel="icon"
+      href="../../../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
     <style>
-        .m5v {
-            margin-right: 5vw;
-        }
+      .m5v {
+        margin-right: 5vw;
+      }
 
-        .table {
-            width: 100%;
-            display: flex;
-            justify-content: center !important;
-            align-items: center;
-            text-align: center;
-            flex-direction: column;
-            margin-bottom: 1.5vw;
-        }
+      .table {
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 1.5vw;
+      }
 
+      .row {
+        display: flex;
+        width: 75%;
+      }
+
+      .cell {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        border: 0.18vw solid #b2b7f7 !important;
+        height: 8vw;
+        width: calc(100% / 3);
+        /* flex-grow: 1; */
+      }
+
+      body .general#input-slide .container .table .inputs input {
+        width: 10vw !important;
+      }
+
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      @media (orientation: landscape) {
         .row {
-            display: flex;
-            width: 75%;
+          width: 65%;
         }
 
         .cell {
-            display: flex;
-            justify-content: center !important;
-            align-items: center;
-            border: 0.18vw solid #b2b7f7 !important;
-            height: 8vw;
-            width: calc(100%/3);
-            /* flex-grow: 1; */
-
+          height: 6vw;
         }
-
-        body .general#input-slide .container .table .inputs input {
-            width: 10vw !important;
-        }
-
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        @media (orientation:landscape) {
-            .row {
-                width: 65%;
-            }
-
-            .cell {
-                height: 6vw;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="music">
-        <div class="music-player">
-            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
-            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
-        </div>
+      <div class="music-player">
+        <audio
+          ref="audio"
+          :src="background_sound"
+          preload=""
+          id="audio"
+          loop="loop"
+        ></audio>
+        <div
+          @click="toggleSound()"
+          id="toggle-sound"
+          class="toggle-sound paused"
+        ></div>
+      </div>
     </div>
 
-    <div id="input-slide" data-urlpage="05_04/02" class="general" :class="this.posts[0].subject">
-        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+    <div
+      id="input-slide"
+      data-urlpage="05_04/02"
+      class="general"
+      :class="this.posts[0].subject"
+    >
+      <div class="loader" v-show="!isSuccess || !isLoading"></div>
 
-        <div class="isSuccess" v-show=" isSuccess && isLoading">
-            <div class="container">
-                <div v-for="(slide, i) in slideQ" :class="{'active' : slide.active}" class="mySlides">
-                    <div class="head">
-                        <div class="title">{{slide.title}}</div>
-                    </div>
-                    <div class="content">
-                        <p class="qtitle">{{slide.qtitle}}</p>
+      <div class="isSuccess" v-show=" isSuccess && isLoading">
+        <div class="container">
+          <div
+            v-for="(slide, i) in slideQ"
+            :class="{'active' : slide.active}"
+            class="mySlides"
+          >
+            <div class="head">
+              <div class="title">{{slide.title}}</div>
+            </div>
+            <div class="content">
+              <p class="qtitle">{{slide.qtitle}}</p>
 
-
-                        <div v-for="(item, i) in slide.items">
-                            <div v-for="(content , index) in item.contents">
-
-                                <div class="textinput" v-if="item.type === 1">
-                                    <span class="icon-index">{{i+1}}</span>
-                                    <div class='question'>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes1">&nbsp;{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[0].done}"
-                                            v-if="content.inputtype[0].numperofinput != 0">
-
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[0].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype[0].length" :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,    
+              <div v-for="(item, i) in slide.items">
+                <div v-for="(content , index) in item.contents">
+                  <div class="textinput" v-if="item.type === 1">
+                    <span class="icon-index">{{i+1}}</span>
+                    <div class="question">
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes1"
+                      >
+                        &nbsp;{{parag}}
+                      </p>
+                      <div class="break"></div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes1_2"
+                      >
+                        &nbsp;{{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[0].done}"
+                        v-if="content.inputtype[0].numperofinput != 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[0].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,    
                                     ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
-                                                        v-model="item.answerUser[0].answer[0]">
-                                                </div>
-                                            </div>
-
-                                            <div class="in"
-                                                v-if="content.inputtype[0].numperofinput == 4 || content.inputtype[0].numperofinput == 3 || content.inputtype[0].numperofinput == 2 || content.inputtype[0].numperofinput == 5">
-                                                <p>{{content.inputtype[0].comma}}</p>
-                                                <div class="check-input">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype[0].length"
-                                                        :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
-                                                        v-model="item.answerUser[0].answer[1]">
-                                                </div>
-                                            </div>
-
-                                            <div class="in"
-                                                v-if="content.inputtype[0].numperofinput == 4 || content.inputtype[0].numperofinput == 3 || content.inputtype[0].numperofinput == 5">
-                                                <p>{{content.inputtype[0].comma}}</p>
-                                                <div class="check-input">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype[0].length"
-                                                        :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
-                                                        v-model="item.answerUser[0].answer[2]">
-                                                </div>
-                                            </div>
-
-                                            <div class="in"
-                                                v-if="content.inputtype[0].numperofinput == 4 || content.inputtype[0].numperofinput == 5">
-                                                <p>{{content.inputtype[0].comma}}</p>
-                                                <div class="check-input">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype[0].length"
-                                                        :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
-                                                        v-model="item.answerUser[0].answer[3]">
-                                                </div>
-                                            </div>
-                                            <div class="in" v-if="content.inputtype[0].numperofinput == 5 ">
-                                                <p>{{content.inputtype[0].comma}}</p>
-                                                <div class="check-input">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype[0].length"
-                                                        :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
-                                                        v-model="item.answerUser[0].answer[4]">
-                                                </div>
-                                            </div>
-
-                                            <div class="answer" @click="showAnswer(item, content)"
-                                                :class="{'disabled' : item.answerUser[0].help}"></div>
-                                        </div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes2">
-                                            {{parag}}
-                                        </p>
-                                        <div class="arrow" v-if="slide.arraw">
-                                            <img src="../../../assets/images/arrow02.png" alt="">
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="textinput" v-if=" item.type === 2 && slide.tableOne && !slide.tableTwo">
-                                    <span class="icon-index" v-if="item.index">{{i+1}}</span>
-
-
-                                    <div class="table" v-if="content.row1 != ''">
-                                        <div class="row">
-
-                                            <p style=" width: 37%;" class="center">{{content.row1[0]}}</p>
-                                            <p style=" width: 37%;" class="center">{{content.row1[1]}}</p>
-
-                                        </div>
-
-
-                                        <div class="row">
-
-                                            <div class="cell">
-                                                <p>{{content.row2[0]}}</p>
-                                            </div>
-
-                                            <div class="cell">
-                                                <p>{{content.row2[1]}}</p>
-                                            </div>
-
-                                            <p style="width: 10%;" class="center">{{content.row2[2]}}</p>
-                                        </div>
-
-                                        <div class="row">
-
-                                            <div class="cell">
-                                                <p>{{content.row3[0]}}</p>
-
-                                            </div>
-                                            <div class="cell">
-                                                <p>{{content.row3[1]}}</p>
-
-                                            </div>
-
-                                            <!-- 2nd row -->
-                                            <p style="width: 10%;" class="center">{{content.row3[2]}}</p>
-
-
-                                        </div>
-                                    </div>
-                                    <div class='question' :class="{'m5v': !item.index}" style="direction: ltr;">
-                                        <p>{{content.paragraph1}}</p>
-
-
-                                        <div class="inputs" :class="{'done' : item.answerUser[0].done}"
-                                            v-if="content.inputtype2[0].numperofinput!=0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[0].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" data-content="1"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[0].length" :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                        ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}"
-                                                        v-model="item.answerUser[0].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="1" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[0].help}"></div>
-                                            </div>
-                                        </div>
-
-                                        <p>{{content.paragraph2}}</p>
-
-                                        <div class="inputs" :class="{'done' : item.answerUser[1].done}"
-                                            v-if="content.inputtype2[1].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[1].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[1].help"
-                                                        @blur="handleBlur(item, content)" data-content="2"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[1].length" :class="{'right' : item.answerUser[1].correct, 'show' : item.answerUser[1].help,
-                                ['w' + content.inputtype2[1].length+ 'length'] : content.inputtype2[1].length != 0}"
-                                                        v-model="item.answerUser[1].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="2" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[1].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p>{{content.paragraph3}}</p>
-
-                                        <div class="inputs" :class="{'done' : item.answerUser[2].done}"
-                                            v-if="content.inputtype2[2].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[2].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[2].help"
-                                                        @blur="handleBlur(item, content)" data-content="3"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[2].length" :class="{'right' : item.answerUser[2].correct, 'show' : item.answerUser[2].help,
-                                ['w' + content.inputtype2[2].length+ 'length'] : content.inputtype2[2].length != 0}"
-                                                        v-model="item.answerUser[2].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="3" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[2].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p>{{content.paragraph4}}</p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[3].done}"
-                                            v-if="content.inputtype2[3].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[3].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[3].help"
-                                                        @blur="handleBlur(item, content)" data-content="4"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[3].length" :class="{'right' : item.answerUser[3].correct, 'show' : item.answerUser[3].help,
-                                ['w' + content.inputtype2[3].length+ 'length'] : content.inputtype2[3].length != 0}"
-                                                        v-model="item.answerUser[3].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="4" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[3].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p>{{content.paragraph5}}</p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[4].done}"
-                                            v-if="content.inputtype2[4].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[4].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[4].help"
-                                                        @blur="handleBlur(item, content)" data-content="5"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[4].length" :class="{'right' : item.answerUser[4].correct, 'show' : item.answerUser[4].help,
-                                ['w' + content.inputtype2[4].length+ 'length'] : content.inputtype2[4].length != 0}"
-                                                        v-model="item.answerUser[4].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="5" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[4].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p>{{content.paragraph6}}</p>
-                                    </div>
-                                </div>
-
-                              
-                                <div class="textinput" v-if="item.type === 2 && !slide.tableTwo && !slide.tableOne && slide.questionNumber != 2">
-                                    <span class="icon-index">{{i+1}}</span>
-                                    <div class='question'>
-
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes1"
-                                            v-html="parag">
-                                        </p>
-                                        <div class="break"></div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes2">{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[0].done}"
-                                            v-if="content.inputtype2[0].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[0].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" data-content="1"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[0].length"
-                                                        :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                                    ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}" v-model="item.answerUser[0].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="1" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[0].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes"
-                                            v-html="parag">
-                                        </p>
-
-                                        <div class="break"></div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes3">{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[1].done}"
-                                            v-if="content.inputtype2[1].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[1].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[1].help"
-                                                        @blur="handleBlur(item, content)" data-content="2"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[1].length"
-                                                        :class="{'right' : item.answerUser[1].correct, 'show' : item.answerUser[1].help,
-                                    ['w' + content.inputtype2[1].length+ 'length'] : content.inputtype2[1].length != 0}" v-model="item.answerUser[1].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="2" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[1].help}"></div>
-                                            </div>
-                                        </div>
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes4">{{parag}}
-                                        </p>
-
-
-                                    </div>
-                                </div>
-                                <div class="textinput" v-if="item.type === 2 && slide.questionNumber == 2">
-                                    <span class="icon-index">{{i+1}}</span>
-                                    <div class='question'>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes">{{parag}}
-                                        </p>
-
-                                        <div class="inputs" :class="{'done' : item.answerUser[0].done}"
-                                            v-if="content.inputtype2[0].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[0].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[0].help"
-                                                        @blur="handleBlur(item, content)" data-content="1"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[0].length"
-                                                        :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
-                                    ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}" v-model="item.answerUser[0].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="1" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[0].help}"></div>
-                                            </div>
-                                        </div>
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes1">&nbsp;{{parag}}
-                                        </p>
-
-                                        <div :class="{'break' : !item.unbreak}"></div>
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes2">{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[1].done}"
-                                            v-if="content.inputtype2[1].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[1].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[1].help"
-                                                        @blur="handleBlur(item, content)" data-content="2"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[1].length"
-                                                        :class="{'right' : item.answerUser[1].correct, 'show' : item.answerUser[1].help,
-                                    ['w' + content.inputtype2[1].length+ 'length'] : content.inputtype2[1].length != 0}" v-model="item.answerUser[1].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="2" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[1].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes3">{{parag}}
-                                        </p>
-
-                                        <div :class="{'break' : !item.unbreak}"></div>
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes4">{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[2].done}"
-                                            v-if="content.inputtype2[2].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[2].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[2].help"
-                                                        @blur="handleBlur(item, content)" data-content="3"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[2].length"
-                                                        :class="{'right' : item.answerUser[2].correct, 'show' : item.answerUser[2].help,
-                                    ['w' + content.inputtype2[2].length+ 'length'] : content.inputtype2[2].length != 0}" v-model="item.answerUser[2].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="3" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[2].help}"></div>
-                                            </div>
-                                        </div>
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes5">{{parag}}
-                                        </p>
-
-                                        <div class="inputs" :class="{'done' : item.answerUser[3].done}"
-                                            v-if="content.inputtype2[3].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[3].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[3].help"
-                                                        @blur="handleBlur(item, content)" data-content="4"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[3].length"
-                                                        :class="{'right' : item.answerUser[3].correct, 'show' : item.answerUser[3].help,
-                                    ['w' + content.inputtype2[3].length+ 'length'] : content.inputtype2[3].length != 0}" v-model="item.answerUser[3].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="4" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[3].help}"></div>
-                                            </div>
-                                        </div>
-                                        <div class="break"></div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes6">{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[4].done}"
-                                            v-if="content.inputtype2[4].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[4].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[4].help"
-                                                        @blur="handleBlur(item, content)" data-content="5"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[4].length"
-                                                        :class="{'right' : item.answerUser[4].correct, 'show' : item.answerUser[4].help,
-                                    ['w' + content.inputtype2[4].length+ 'length'] : content.inputtype2[4].length != 0}" v-model="item.answerUser[4].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="5" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[4].help}"></div>
-                                            </div>
-                                        </div>
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes5">{{parag}}
-                                        </p>
-                                        <div class="inputs" :class="{'done' : item.answerUser[5].done}"
-                                            v-if="content.inputtype2[5].numperofinput !== 0">
-                                            <div class="in">
-                                                <div class="check-input" :class="{'show' : item.answerUser[5].help}">
-                                                    <input @focus="inputfocus" :disabled="item.answerUser[5].help"
-                                                        @blur="handleBlur(item, content)" data-content="6"
-                                                        @keyup="onKey(item, content)"
-                                                        :maxlength="content.inputtype2[5].length"
-                                                        :class="{'right' : item.answerUser[5].correct, 'show' : item.answerUser[5].help,
-                                    ['w' + content.inputtype2[5].length+ 'length'] : content.inputtype2[5].length != 0}" v-model="item.answerUser[5].answer[0]">
-                                                </div>
-                                                <div class="answer" data-content="6" @click="showAnswer(item)"
-                                                    :class="{'disabled' : item.answerUser[5].help}"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              v-model="item.answerUser[0].answer[0]"
+                            />
+                          </div>
                         </div>
 
-                        <div class="all" v-for="(popUpAll, i) in slide.popupQuestion" v-if="popUpAll.isActive != null">
-                            <div class="paragraph">
-                                <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>
-                                <p class="">{{popUpAll.paragraph}}</p>
-                            </div>
-
-                            <div :class="{'input-modal-over' : popUpAll.isActive }">
-                                <div class="input-model-popup" :class="{'active' : popUpAll.isActive }">
-
-                                    <div class="text">
-                                        <p v-for="popUpText in popUpAll.popup">{{popUpText}}</p>
-                                    </div>
-                                    <div class="hide-div" @click="popupClose(popUpAll)">
-                                        <p class="hidden"></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="input-popup">
-                                <div class="text-block" @click="popupOpen(popUpAll)">
-                                    <p> عرض الإجابة
-                                    </p>
-                                    <div v-if="i === 0 && posts[0].hand" class="help"></div>
-                                </div>
-                            </div>
+                        <div
+                          class="in"
+                          v-if="content.inputtype[0].numperofinput == 4 || content.inputtype[0].numperofinput == 3 || content.inputtype[0].numperofinput == 2 || content.inputtype[0].numperofinput == 5"
+                        >
+                          <p>{{content.inputtype[0].comma}}</p>
+                          <div class="check-input">
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
+                              v-model="item.answerUser[0].answer[1]"
+                            />
+                          </div>
                         </div>
-                        <a class="prev" @click="swiperPrev( slide, i)" v-if="i != 0"> </a>
-                        <a class="next" @click="swiperNext( slide, i)" v-if="i != (slideQ.length-1) "></a>
+
+                        <div
+                          class="in"
+                          v-if="content.inputtype[0].numperofinput == 4 || content.inputtype[0].numperofinput == 3 || content.inputtype[0].numperofinput == 5"
+                        >
+                          <p>{{content.inputtype[0].comma}}</p>
+                          <div class="check-input">
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
+                              v-model="item.answerUser[0].answer[2]"
+                            />
+                          </div>
+                        </div>
+
+                        <div
+                          class="in"
+                          v-if="content.inputtype[0].numperofinput == 4 || content.inputtype[0].numperofinput == 5"
+                        >
+                          <p>{{content.inputtype[0].comma}}</p>
+                          <div class="check-input">
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
+                              v-model="item.answerUser[0].answer[3]"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="in"
+                          v-if="content.inputtype[0].numperofinput == 5 "
+                        >
+                          <p>{{content.inputtype[0].comma}}</p>
+                          <div class="check-input">
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                                        ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
+                              v-model="item.answerUser[0].answer[4]"
+                            />
+                          </div>
+                        </div>
+
+                        <div
+                          class="answer"
+                          @click="showAnswer(item, content)"
+                          :class="{'disabled' : item.answerUser[0].help}"
+                        ></div>
+                      </div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes2"
+                      >
+                        {{parag}}
+                      </p>
+                      <div class="arrow" v-if="slide.arraw">
+                        <img src="../../../assets/images/arrow02.png" alt="" />
+                      </div>
                     </div>
+                  </div>
 
+                  <div
+                    class="textinput"
+                    v-if=" item.type === 2 && slide.tableOne && !slide.tableTwo"
+                  >
+                    <span class="icon-index" v-if="item.index">{{i+1}}</span>
+
+                    <div class="table" v-if="content.row1 != ''">
+                      <div class="row">
+                        <p style="width: 37%" class="center">
+                          {{content.row1[0]}}
+                        </p>
+                        <p style="width: 37%" class="center">
+                          {{content.row1[1]}}
+                        </p>
+                      </div>
+
+                      <div class="row">
+                        <div class="cell">
+                          <p>{{content.row2[0]}}</p>
+                        </div>
+
+                        <div class="cell">
+                          <p>{{content.row2[1]}}</p>
+                        </div>
+
+                        <p style="width: 10%" class="center">
+                          {{content.row2[2]}}
+                        </p>
+                      </div>
+
+                      <div class="row">
+                        <div class="cell">
+                          <p>{{content.row3[0]}}</p>
+                        </div>
+                        <div class="cell">
+                          <p>{{content.row3[1]}}</p>
+                        </div>
+
+                        <!-- 2nd row -->
+                        <p style="width: 10%" class="center">
+                          {{content.row3[2]}}
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="question"
+                      :class="{'m5v': !item.index}"
+                      style="direction: ltr"
+                    >
+                      <p>{{content.paragraph1}}</p>
+
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[0].done}"
+                        v-if="content.inputtype2[0].numperofinput!=0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[0].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="1"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                        ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}"
+                              v-model="item.answerUser[0].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="1"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[0].help}"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <p>{{content.paragraph2}}</p>
+
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[1].done}"
+                        v-if="content.inputtype2[1].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[1].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[1].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="2"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[1].length"
+                              :class="{'right' : item.answerUser[1].correct, 'show' : item.answerUser[1].help,
+                                ['w' + content.inputtype2[1].length+ 'length'] : content.inputtype2[1].length != 0}"
+                              v-model="item.answerUser[1].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="2"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[1].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p>{{content.paragraph3}}</p>
+
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[2].done}"
+                        v-if="content.inputtype2[2].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[2].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[2].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="3"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[2].length"
+                              :class="{'right' : item.answerUser[2].correct, 'show' : item.answerUser[2].help,
+                                ['w' + content.inputtype2[2].length+ 'length'] : content.inputtype2[2].length != 0}"
+                              v-model="item.answerUser[2].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="3"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[2].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p>{{content.paragraph4}}</p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[3].done}"
+                        v-if="content.inputtype2[3].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[3].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[3].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="4"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[3].length"
+                              :class="{'right' : item.answerUser[3].correct, 'show' : item.answerUser[3].help,
+                                ['w' + content.inputtype2[3].length+ 'length'] : content.inputtype2[3].length != 0}"
+                              v-model="item.answerUser[3].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="4"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[3].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p>{{content.paragraph5}}</p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[4].done}"
+                        v-if="content.inputtype2[4].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[4].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[4].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="5"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[4].length"
+                              :class="{'right' : item.answerUser[4].correct, 'show' : item.answerUser[4].help,
+                                ['w' + content.inputtype2[4].length+ 'length'] : content.inputtype2[4].length != 0}"
+                              v-model="item.answerUser[4].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="5"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[4].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p>{{content.paragraph6}}</p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="textinput"
+                    v-if="item.type === 2 && !slide.tableTwo && !slide.tableOne && slide.questionNumber != 2"
+                  >
+                    <span class="icon-index">{{i+1}}</span>
+                    <div class="question">
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes1"
+                        v-html="parag"
+                      ></p>
+                      <div class="break"></div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes2"
+                      >
+                        {{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[0].done}"
+                        v-if="content.inputtype2[0].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[0].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="1"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                                    ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}"
+                              v-model="item.answerUser[0].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="1"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[0].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes"
+                        v-html="parag"
+                      ></p>
+
+                      <div class="break"></div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes3"
+                      >
+                        {{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[1].done}"
+                        v-if="content.inputtype2[1].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[1].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[1].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="2"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[1].length"
+                              :class="{'right' : item.answerUser[1].correct, 'show' : item.answerUser[1].help,
+                                    ['w' + content.inputtype2[1].length+ 'length'] : content.inputtype2[1].length != 0}"
+                              v-model="item.answerUser[1].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="2"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[1].help}"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes4"
+                      >
+                        {{parag}}
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="textinput"
+                    v-if="item.type === 2 && slide.questionNumber == 2"
+                  >
+                    <span class="icon-index">{{i+1}}</span>
+                    <div class="question">
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes"
+                      >
+                        {{parag}}
+                      </p>
+
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[0].done}"
+                        v-if="content.inputtype2[0].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[0].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[0].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="1"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[0].length"
+                              :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                                    ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}"
+                              v-model="item.answerUser[0].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="1"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[0].help}"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes1"
+                      >
+                        &nbsp;{{parag}}
+                      </p>
+
+                      <div :class="{'break' : !item.unbreak}"></div>
+
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes2"
+                      >
+                        {{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[1].done}"
+                        v-if="content.inputtype2[1].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[1].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[1].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="2"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[1].length"
+                              :class="{'right' : item.answerUser[1].correct, 'show' : item.answerUser[1].help,
+                                    ['w' + content.inputtype2[1].length+ 'length'] : content.inputtype2[1].length != 0}"
+                              v-model="item.answerUser[1].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="2"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[1].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes3"
+                      >
+                        {{parag}}
+                      </p>
+
+                      <div :class="{'break' : !item.unbreak}"></div>
+
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes4"
+                      >
+                        {{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[2].done}"
+                        v-if="content.inputtype2[2].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[2].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[2].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="3"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[2].length"
+                              :class="{'right' : item.answerUser[2].correct, 'show' : item.answerUser[2].help,
+                                    ['w' + content.inputtype2[2].length+ 'length'] : content.inputtype2[2].length != 0}"
+                              v-model="item.answerUser[2].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="3"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[2].help}"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes5"
+                      >
+                        {{parag}}
+                      </p>
+
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[3].done}"
+                        v-if="content.inputtype2[3].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[3].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[3].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="4"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[3].length"
+                              :class="{'right' : item.answerUser[3].correct, 'show' : item.answerUser[3].help,
+                                    ['w' + content.inputtype2[3].length+ 'length'] : content.inputtype2[3].length != 0}"
+                              v-model="item.answerUser[3].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="4"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[3].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="break"></div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes6"
+                      >
+                        {{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[4].done}"
+                        v-if="content.inputtype2[4].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[4].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[4].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="5"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[4].length"
+                              :class="{'right' : item.answerUser[4].correct, 'show' : item.answerUser[4].help,
+                                    ['w' + content.inputtype2[4].length+ 'length'] : content.inputtype2[4].length != 0}"
+                              v-model="item.answerUser[4].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="5"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[4].help}"
+                          ></div>
+                        </div>
+                      </div>
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes5"
+                      >
+                        {{parag}}
+                      </p>
+                      <div
+                        class="inputs"
+                        :class="{'done' : item.answerUser[5].done}"
+                        v-if="content.inputtype2[5].numperofinput !== 0"
+                      >
+                        <div class="in">
+                          <div
+                            class="check-input"
+                            :class="{'show' : item.answerUser[5].help}"
+                          >
+                            <input
+                              @focus="inputfocus"
+                              :disabled="item.answerUser[5].help"
+                              @blur="handleBlur(item, content)"
+                              data-content="6"
+                              @keyup="onKey(item, content)"
+                              :maxlength="content.inputtype2[5].length"
+                              :class="{'right' : item.answerUser[5].correct, 'show' : item.answerUser[5].help,
+                                    ['w' + content.inputtype2[5].length+ 'length'] : content.inputtype2[5].length != 0}"
+                              v-model="item.answerUser[5].answer[0]"
+                            />
+                          </div>
+                          <div
+                            class="answer"
+                            data-content="6"
+                            @click="showAnswer(item)"
+                            :class="{'disabled' : item.answerUser[5].help}"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="finished" v-if="this.posts[0].counterFinished === this.posts[0].inputCounter ">
+              </div>
+
+              <div
+                class="all"
+                v-for="(popUpAll, i) in slide.popupQuestion"
+                v-if="popUpAll.isActive != null"
+              >
+                <div class="paragraph">
+                  <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>
+                  <p class="">{{popUpAll.paragraph}}</p>
                 </div>
+
+                <div :class="{'input-modal-over' : popUpAll.isActive }">
+                  <div
+                    class="input-model-popup"
+                    :class="{'active' : popUpAll.isActive }"
+                  >
+                    <div class="text">
+                      <p v-for="popUpText in popUpAll.popup">{{popUpText}}</p>
+                    </div>
+                    <div class="hide-div" @click="popupClose(popUpAll)">
+                      <p class="hidden"></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="input-popup">
+                  <div class="text-block" @click="popupOpen(popUpAll)">
+                    <p>عرض الإجابة</p>
+                    <div v-if="i === 0 && posts[0].hand" class="help"></div>
+                  </div>
+                </div>
+              </div>
+              <a class="prev" @click="swiperPrev( slide, i)" v-if="i != 0"> </a>
+              <a
+                class="next"
+                @click="swiperNext( slide, i)"
+                v-if="i != (slideQ.length-1) "
+              ></a>
             </div>
-            <div class="bottom">
-                <div class="image">
-                    <img :src="logo()" :alt="this.posts[0].subject">
-                </div>
-            </div>
+          </div>
+          <div
+            class="finished"
+            v-if="this.posts[0].counterFinished === this.posts[0].inputCounter "
+          ></div>
         </div>
+        <div class="bottom">
+          <div class="image">
+            <img :src="logo()" :alt="this.posts[0].subject" />
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="../../../assets/js/input-slide.js"></script>
     <script src="../../../assets/js/backgroundmusic.js"></script>
-
-</body>
-
+  </body>
 </html>

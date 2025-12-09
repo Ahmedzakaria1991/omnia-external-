@@ -566,13 +566,14 @@
               {
                 "paragraph": " =  0.871 + 0.59",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
-                "paragraph4":"Ones",
+                "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": " Hundredths",
                 "paragraph7": " Thousandths",
                 "paragraph8": " ",
+                "plus": "+",
                 "inputtype": [
                   {
                     "length": 0,
@@ -678,7 +679,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["4"],
+                    "valid": [ "4"],
                     "show": ["4"]
                   },
                   {
@@ -810,14 +811,16 @@
             "contents": [
               {
                 "paragraph": "= 0.547 + 0.86  ",
-              "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph1": "Ones",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
-                "paragraph4":"Ones",
+                "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": " Hundredths",
                 "paragraph7": " Thousandths",
                 "paragraph8": "",
+                "plus": "+",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1048,14 +1051,15 @@
             "contents": [
               {
                 "paragraph": " = 1.007 + 25.08  ",
-             "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph1": "Ones",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
-                "paragraph4":"Ones",
+                "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": " Hundredths",
                 "paragraph7": " Thousandths",
                 "paragraph8": "",
+                "plus": "+",
                 "inputtype": [
                   {
                     "length": 0,
@@ -1287,13 +1291,15 @@
               {
                 "paragraph": " = 14.987 + 10.02 ",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
-                "paragraph4":"Ones",
+                "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": " Hundredths",
                 "paragraph7": " Thousandths",
                 "paragraph8": "",
+                "plus": "+",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1525,13 +1531,15 @@
               {
                 "paragraph": " = 70.014 + 21.17",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
-                "paragraph4":"Ones",
+                "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": " Hundredths",
                 "paragraph7": " Thousandths",
                 "paragraph8": "",
+                "plus": "+",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -1763,13 +1771,15 @@
               {
                 "paragraph": "= 54.397 + 39.371",
                 "paragraph1": "Ones",
-                "paragraph2": "Decimal",
+                "paragraph2": "Decimals",
                 "paragraph3": "Tens",
-                "paragraph4":"Ones",
+                "paragraph4": "Ones",
                 "paragraph5": "Tenths",
                 "paragraph6": " Hundredths",
                 "paragraph7": " Thousandths",
                 "paragraph8": "",
+                "plus": "+",
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -2006,7 +2016,7 @@
       },
       {
         "active": false,
-        "title":"Complete",
+        "title": "Complete",
         "qtitle": "",
         "arraw": false,
         "table": false,
@@ -2022,7 +2032,7 @@
                 "paragraphes": ["The estimated total they have is"],
                 "paragraphes2": ["pounds."],
                 "paragraphes3": ["The amount of money they have is "],
-                "paragraphes4": ["to buy the ","box of apples."],
+                "paragraphes4": ["to buy the  box of apples."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -2084,9 +2094,9 @@
             "contents": [
               {
                 "paragraphes1": [
-                 "Samar wanted to ride her bike for 40 kilometers this week. By Thursday, Samar had ridden 34.99 kilometers, and on Friday, she rode 4.01 kilometers. Estimate the answer to find out if Samar reached her goal."
+                  "Samar wanted to ride her bike for 40 kilometers this week. By Thursday, Samar had ridden 34.99 kilometers, and on Friday, she rode 4.01 kilometers. Estimate the answer to find out if Samar reached her goal."
                 ],
-                "paragraphes":["The estimated distance she rode is "],
+                "paragraphes": ["The estimated distance she rode is "],
                 "paragraphes2": ["km."],
                 "paragraphes3": ["Did Samar reach her goal? "],
                 "paragraphes4": [""],
@@ -2171,8 +2181,8 @@
             "contents": [
               {
                 "m04r": true,
-                "paragraphes1": ["", "", "2", ".", "4", "6","" ,""],
-                "paragraphes2": ["+","","0", ".", "9", "8","",""],
+                "paragraphes1": ["", "", "2", ".", "4", "6", "", "", "", ""],
+                "paragraphes2": ["+", "", "0", ".", "9", "8", "", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2189,7 +2199,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["3.44"],
-                    "show": ["3.44"]
+                    "show": ["3 . 4 4"]
                   },
                   {
                     "length": 0,
@@ -2235,8 +2245,8 @@
             "contents": [
               {
                 "m04r": true,
-                "paragraphes1": ["", "", "0", ".", "8", "4", "7","" ],
-                "paragraphes2": ["+", "", "0", ".", "3", "5", "1","" ],
+                "paragraphes1": ["", "", "0", ".", "8", "4", "7", "", "", ""],
+                "paragraphes2": ["+", "", "0", ".", "3", "5", "1", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2253,7 +2263,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["1.198"],
-                    "show": ["1.198"]
+                    "show": ["  1 . 1 9 8"]
                   },
                   {
                     "length": 0,
@@ -2299,8 +2309,8 @@
             "contents": [
               {
                 "m3r": true,
-                "paragraphes1": ["", "", "4", ".", "6", "7", "5","" ],
-                "paragraphes2": ["+", "", "3", ".", "2", "7", "","" ],
+                "paragraphes1": ["", "", "4", ".", "6", "7", "5", "", "", ""],
+                "paragraphes2": ["+", "", "3", ".", "2", "7", "", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2317,7 +2327,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["7.945"],
-                    "show": ["7.945"]
+                    "show": ["   7 . 9 4 5"]
                   },
                   {
                     "length": 0,
@@ -2364,8 +2374,8 @@
               {
                 "m5r": true,
 
-                "paragraphes1": ["","4", "0", ".", "0", "0", "4",""],
-                "paragraphes2": ["+", "", "0", ".", "9", "9", "",""],
+                "paragraphes1": ["", "4", "0", ".", "0", "0", "4", "", "", ""],
+                "paragraphes2": ["+", "", "0", ".", "9", "9", "", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2382,7 +2392,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["40.994"],
-                    "show": ["40.994"]
+                    "show": ["4 0 . 9 9 4"]
                   },
                   {
                     "length": 0,
@@ -2428,8 +2438,8 @@
             "contents": [
               {
                 "m3r": true,
-                "paragraphes1": ["", "6", "3", ".", "1", "5", "2",""],
-                "paragraphes2": ["+", "", "8", ".", "1", "5", "4",""],
+                "paragraphes1": ["", "6", "3", ".", "1", "5", "2", "", "", ""],
+                "paragraphes2": ["+", "", "8", ".", "1", "5", "4", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2446,7 +2456,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["71.306"],
-                    "show": ["71.306"]
+                    "show": ["7 1 . 3 0 6"]
                   },
                   {
                     "length": 0,
@@ -2492,8 +2502,8 @@
             "contents": [
               {
                 "m3r": true,
-                "paragraphes1": ["", "2", "2", ".", "4", "7", "2",""],
-                "paragraphes2": ["+", "", "3", ".", "4", "3", "8",""],
+                "paragraphes1": ["", "2", "2", ".", "4", "7", "2", "", ""],
+                "paragraphes2": ["+", "", "3", ".", "4", "3", "8", "", ""],
 
                 "inputtype": [
                   {
@@ -2510,7 +2520,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["25.91"],
-                    "show": ["25.91"]
+                    "show": ["2 5 . 9 1"]
                   },
                   {
                     "length": 0,
@@ -2556,8 +2566,8 @@
             "contents": [
               {
                 "m5r": true,
-                "paragraphes1": ["", "3", "7", ".", "1", "5", "2", ""],
-                "paragraphes2": ["+", "1", "2", ".", "1", "", "", ""],
+                "paragraphes1": ["", "3", "7", ".", "1", "5", "2", "", "", ""],
+                "paragraphes2": ["+", "1", "2", ".", "1", "", "", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2574,7 +2584,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["49.252"],
-                    "show": ["49.252"]
+                    "show": ["4 9 . 2 5 2"]
                   },
                   {
                     "length": 0,
@@ -2620,8 +2630,19 @@
             "contents": [
               {
                 "m04r": true,
-                "paragraphes1": ["", "3", "7", ".", "1", "5", "2 ", " "],
-                "paragraphes2": ["+", "2", "5", ".", "8", "9", "", ""],
+                "paragraphes1": [
+                  "",
+                  "3",
+                  "7",
+                  ".",
+                  "1",
+                  "5",
+                  "2 ",
+                  " ",
+                  "",
+                  ""
+                ],
+                "paragraphes2": ["+", "2", "5", ".", "8", "9", "", "", "", ""],
 
                 "inputtype": [
                   {
@@ -2638,7 +2659,7 @@
                     "numperofinput": 1,
                     "comma": "",
                     "valid": ["63.042"],
-                    "show": ["63.042"]
+                    "show": ["6 3 . 0 4 2"]
                   },
                   {
                     "length": 0,
