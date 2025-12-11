@@ -1,0 +1,59 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-3",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أَجِبْ عَنِ الْأَسْئِلَةِ الْآتِيَةِ",
+        "isActive": true,
+        "popuptext": [
+          ""
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "مَنْ أَوَّلُ سَفِيرٍ  فِي الْإِسْلَامِ؟",
+            "popup": ["مصعب بن عمير (رضي الله عنه)."]
+          },
+
+          {
+            "id": 1,
+            "paragraph": "مَاذَا فَعَلَ الرِّجَالُ السِّتَّةُ مِنْ أَهْلِ يَثْرِبَ عِنْدَمَا عَرَضَ عَلَيْهِمُ النَّبِيُّ ` الْإِسْلَامَ؟",
+            "popup": [
+              "قبلوا دعوته وأسلموا وبايعوه"
+            ]
+          },
+           {
+            "id": 1,
+            "paragraph": "            لِمَاذَا كَانَتْ بَيْعَةُ الْعَقَبَةِ الْأُولَى حَدَثًا مُهِمًّا فِي تَارِيخِ الْإِسْلَامِ؟",
+            "popup": [
+              " لأنها كانت تمهيدًا لانتشار الإسلام خارج مكة"
+            ]
+          },
+           {
+            "id": 1,
+            "paragraph": " فِي أَيِّ مُنَاسَبَةٍ جَاءَ أَهْلُ يَثْرِبَ إِلَى مَكَّةَ؟",
+            "popup": [
+              " فى موسم الحج"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

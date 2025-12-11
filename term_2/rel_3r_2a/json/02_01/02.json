@@ -1,0 +1,72 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ أَثَرُ الْإِيمَانِ بِالْمَلَائِكَةِ عَلَى الْمُسْلِمِ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": " الْآثَارِ الدَّالَّةِ عَلَى الْإِيمَانِ بِالْمَلَائِكَةِ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph":  "اخْتَرِ  أَثَرُ  الْإِيمَانِ بِالْمَلَائِكَةِ عَلَى الْمُسْلِمِ:",
+            "correctAnswer": [1, 2, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الشُّعُـــورُ بِــأَنَّ الْمَلَائِكَــةَ تُسَجِّلُ أَعْمَالِي.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " الْحِـرْصُ عَلَـــى الطَّاعَـــاتِ اقْتِدَاءً بِالْمَلَائِكَةِ الْكِرَامِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  تَقْلِيدُ أَهْلِ الْمَعَاصِي.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "  التَّكَاسُلُ عَنِ الطَّاعَاتِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "الْإِيمَــانُ بِـــأَنَّ الْمَـــلَائِكَـةَ مَعِي يَحْفَظُونَنِـي وَيَحْرُسُونَنِــي بِأَمْرِ اللَّهِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

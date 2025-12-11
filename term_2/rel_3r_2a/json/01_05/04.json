@@ -1,0 +1,72 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ بُنُودِ بَيْعَةِ الْعَقَبَةِ الْأُولَى",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اخْتَرِ  بُنُودِ بَيْعَةِ الْعَقَبَةِ الْأُولَى",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "بَيْعَةِ الْعَقَبَةِ الْأُولَى:",
+            "correctAnswer": [1, 3, 4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " أَلَّا يُشْرِكُوا بِاللَّهِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " أَنْ يُقَاتِلُوا الْمُشْرِكِينَ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  أَلَّا يَسْرِقُوا.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " أَلَّا يَقْتُلُوا أَوْلَادَهُمْ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "أَنْ يُهَاجِرُوا إِلَى مَكَّةَ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

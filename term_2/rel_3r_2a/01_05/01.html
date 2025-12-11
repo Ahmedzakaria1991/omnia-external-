@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        .none {
+            pointer-events: none;
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="Conect" data-urlpage="01_05/01" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="icons-data">
+                    <div class="right-icon">
+                        <div>
+                            <p>{{this.posts[0].first}}</p>
+                        </div>
+                    </div>
+                    <div class="left-icon">
+                        <div>
+                            <p>{{this.posts[0].second}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="svg-dist">
+                </div>
+                <div class="data">
+                    <div class="columnRight test">
+                        <div class="row-text" v-for="(drag, index) in shuffleRight">
+                            <div class="text">
+                                <span class="icon-index">{{index+1}}</span>
+                                <div class="pragraph">
+                                    <p>{{drag.textRight}}</p>
+                                </div>
+                            </div>
+                            <div class="cointDrag" :dataNumber="drag.point">
+                                <div class="point drag" id="startTouchDiv" :dataNumber="drag.point"
+                                    @dragstart="dragStart($event)" draggable="true" @dragOver="dragOver($event)"
+                                    @dragend="dragEnd($event,drag)" @dragover="dragOver($event)"
+                                    :class="{'none' : drag.answer}" @touchstart="touchStart($event)"
+                                    @touchmove="touchMove($event)" @touchend="touchEnd($event,drag)"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columnLeft test">
+                        <div class="row-text" v-for="(drag, index) in shuffleLeft">
+                            <div class="cointDrag" :dataNumber="drag.point">
+                                <div class="point drop flip" id="otherDiv" :dataNumber="drag.point"
+                                    @dragstart="dragStart($event)" draggable="true" @dragOver="dragOver($event)"
+                                    @dragend="dragEnd($event,drag)" @dragover="dragOver($event)"
+                                    :class="{'none' : drag.answer}" @touchstart="touchStart($event)"
+                                    @touchmove="touchMove($event)" @touchend="touchEnd($event,drag)"></div>
+                            </div>
+                            <div class="text">
+                                <div class="pragraph">
+                                    <p>{{drag.textLeft}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="finished hide">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/matching-vue.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>
