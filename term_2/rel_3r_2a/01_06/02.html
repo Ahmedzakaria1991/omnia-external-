@@ -49,6 +49,8 @@
                         </div>
                     </div>
                     <div class="content">
+                                                                                <p class="qtitle" v-if="mySlides.questionTitle" >{{mySlides.questionTitle}}</p>
+
                         <div class="popup" @click="passageOpen(mySlides)" v-if="mySlides.popuptext !=''">
                             <div class="image">
                                 <img src="../../../assets/images/popups/pop_14.png" alt="">
