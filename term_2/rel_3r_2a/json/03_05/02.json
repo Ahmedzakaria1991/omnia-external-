@@ -1,0 +1,176 @@
+[
+  {
+    "nameId": "",
+    "title": "صوب الخطأ",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "rel-3",
+    "colorTemplate": "#B2C78B",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "hand": true,
+    "popuptext": "ggggggggggggggggg",
+    "pop": "",
+    "counterFinished": 0,
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              " السَّيِّدَةِ أَسْمَاءَ (رَضِيَ ٱللَّٰهُ عَنْهُا) هِيَ <span>خَالَةُ</span>  السَّيِّدَةُ عَائِشَةُ (رَضِيَ ٱللَّٰهُ عَنْهُا) "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["أخت ", "اخت"],
+                "show": ["أخت "]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              " <Span>الزُّبَيْرُ بْنُ الْعَوَّامِ</span> صَحِبَ الرَّسُولَ ﷺ فِي رِحْلَةِ الْهِجْرَةِ. "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": [" أبو بكر الصديق", "ابو بكر الصديق", "ابوبكر الصديق"],
+                "show": [" أبو بكر الصديق"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "  أَسْلَمَتِ السَّيِّدَةُ أَسْمَاءُ(رَضِيَ ٱللَّٰهُ عَنْهُا) <Span>     بَعْدَ الْهِجْرَةِ إِلَى الْمَدِينَةِ</span> "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": [" قبل الهجره في مكه", "قبل الهجرة في مكه"],
+                "show": [" قبل الهجرة في مكه"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "  لقب  <Span>     أَبُو بَكْرٍ (رَضِيَ ٱللَّٰهُ عَنْهُ)</span>        السَّيِّدَةَ أَسْمَاءَ بِذَاتِ النِّطَاقَيْنِ (رَضِيَ ٱللَّٰهُ عَنْهُا)  "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["النبي"],
+                "show": [" النبي(صلى الله عليه وسلم)"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

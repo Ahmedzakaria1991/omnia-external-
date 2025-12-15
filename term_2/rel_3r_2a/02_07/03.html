@@ -35,7 +35,7 @@
     </div>
     <div
       id="mokaly"
-      data-urlpage="01_03/05"
+      data-urlpage="02_07/03"
       class="general"
       :class="this.posts[0].subject"
     >
@@ -81,7 +81,7 @@
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p>اقْرَأ الْآيَاتِ الْكَرِيمَةَ</p>
+                  <p>Read the passage</p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
@@ -93,7 +93,7 @@
               >
                 <div class="paragraph">
                   <span class="icon-index">{{index+1 + '&nbsp'}}</span>
-                  <p v-html="quiz.paragraph"></p>
+                  <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div class="mokaly-popup">
                   <div class="text-block" @click="popupOpen(quiz)">

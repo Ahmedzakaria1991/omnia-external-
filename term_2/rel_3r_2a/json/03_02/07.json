@@ -1,0 +1,115 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اخْتَرِ  السُّلُوكِ الصَّحِيحِ ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اخْتَرِ  السُّلُوكِ الصَّحِيحِ:   ",
+            "correctAnswer": [1, 2, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أَبِيعُ وَأَشْتَرِي بِالْعَدْلِ دُونَ غِشٍّ أَوْ نُقْصَانٍ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " أُعْطِي النَّاسَ حُقُوقَهُمْ كَامِلَةً، كَمَا أُحِبُّ أَنْ آخُذَ حَقِّي كَامِلًا.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " أَنْسَى أَنَّ اللَّهَ (عَزَّ وجَلَّ) يَرَانِي وَيُحَاسِبُنِي عَلَى أَعْمَالِي.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "  آخُذُ حَقَّ غَيْرِي، وَأَظْلِمُ فِي التَّعَامُلِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "أَتَذَكَّرُ  يَوْمَ الْقِيَامَةِ، وَأَسْتَعِدُّ لَهُ بِالْعَمَلِ الصَّالِحِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "اخْتَرِ  السُّلُوكِ الصَّحِيحِ ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اخْتَرِ الَّذي تَعَلَّمْتَهُ مِنْ سُورَةِ الْمُطَفِّفِينَ:   ",
+            "correctAnswer": [1, 2, 4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أَخْذُ حُقُوقِ النَّاسِ ذَنْبٌ عَظِيمٌ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " أَهَمِّيَّةُ الْعَدْلِ وَالصِّدْقِ فِي الْبَيْعِ وَالشِّرَاءِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " الْمَاءُ نِعْمَةٌ يَجِبُ الْمُحَافَظَةُ عَلَيْهَا.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الِاسْتِعْدَادُ لِيَوْمِ الْحِسَابِ بِالْعَدْلِ وَالْأَمَانَةِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

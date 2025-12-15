@@ -1,4 +1,4 @@
-﻿<html lang="ar">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,8 +15,12 @@
     <script src="../../../assets/lib/jquery.js"></script>
     <style>
       .draggable {
-        font-size: 2.2vw;
+        font-size: 2vw;
         text-align: center;
+      }
+      body .general#DragAndDropMostala7 .container #card-dragg {
+        min-height: 0vh !important;
+        margin-bottom: 0vw !important;
       }
 
       .droppable {
@@ -50,8 +54,8 @@
       </div>
     </div>
     <div
-      id="DragAndDrop"
-      data-urlpage="01_03/01"
+      id="DragAndDropMostala7"
+      data-urlpage="03_05/03"
       class="DragAndDrop general"
       :class="this.posts[0].subject"
     >
@@ -64,7 +68,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container" :class="{'finshed' : this.finshedChoose }">
           <div id="card-dragg">
             <div
               class="draggable"
@@ -80,35 +84,38 @@
               @touchend="touchEnd($event)"
               :style="{ position: 'relative', left: question.left + 'px', top: question.top + 'px' }"
             >
-              <p class="quran">{{question.word}}</p>
+              {{question.word}}
             </div>
           </div>
+
           <div id="card-dropp">
             <div v-for="(question,index) in  shuffledQuestion">
               <div class="textindex">
-                <div class="question" style="width: 100%">
+                <span class="icon-index">{{index+1}}</span>
+                <div class="question">
                   <template v-for="(text,index) in question.texts">
                     <p
-                      class="paragraphe quran"
+                      class="paragraphe"
                       v-for="parag in text.text"
                       v-html="parag"
                     ></p>
-                    <div
-                      v-if="index < question.drag.length"
-                      :id="question.drag[index].number"
-                      :index="question.drag[index].number"
-                      class="droppable"
-                      @drop="drop($event)"
-                      @dragover="dragover($event)"
-                      @touchstart.prevent
-                      @touchmove.prevent
-                    ></div>
+                    <div class="divOfDrop">
+                      <div
+                        v-if="index < question.drag.length"
+                        :id="question.drag[index].number"
+                        :index="question.drag[index].number"
+                        class="droppable"
+                        @drop="drop($event)"
+                        @dragover="dragover($event)"
+                        @touchstart.prevent
+                        @touchmove.prevent
+                      ></div>
+                    </div>
                   </template>
                 </div>
               </div>
             </div>
           </div>
-
           <div class="finished hide"></div>
         </div>
 

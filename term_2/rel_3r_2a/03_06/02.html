@@ -11,7 +11,12 @@
       href="../../../assets/images/favicon.ico"
       type="image/x-icon"
     />
-
+    <style>
+      html .general .container .qtitle,
+      body .general .container .qtitle {
+        font-size: xx-large;
+      }
+    </style>
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
   </head>
@@ -35,7 +40,7 @@
     </div>
     <div
       id="mokaly"
-      data-urlpage="01_03/05"
+      data-urlpage="03_06/02"
       class="general"
       :class="this.posts[0].subject"
     >
@@ -72,6 +77,7 @@
               </div>
             </div>
             <div class="content">
+              <div class="qtitle">{{mySlides.qtitle}}</div>
               <div
                 class="popup"
                 @click="passageOpen(mySlides)"
@@ -81,7 +87,7 @@
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p>اقْرَأ الْآيَاتِ الْكَرِيمَةَ</p>
+                  <p>Read the passage</p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
@@ -93,7 +99,7 @@
               >
                 <div class="paragraph">
                   <span class="icon-index">{{index+1 + '&nbsp'}}</span>
-                  <p v-html="quiz.paragraph"></p>
+                  <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div class="mokaly-popup">
                   <div class="text-block" @click="popupOpen(quiz)">

@@ -1,4 +1,4 @@
-﻿<html lang="ar">
+<html lang="ar">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,20 +14,15 @@
     <script src="../../../assets/lib/insert-activity.js"></script>
     <script src="../../../assets/lib/jquery.js"></script>
     <style>
-      .draggable {
-        font-size: 2.2vw;
-        text-align: center;
-      }
-
-      .droppable {
-        color: #39b54a;
-      }
-
-      @media (orientation: landscape) {
-        .draggable {
-          font-size: 2.2vw;
-          text-align: center;
-        }
+      body .general#DragAndDrop .container #card-dropp .textindex .droppable,
+      body
+        .general#DragAndDroptable
+        .container
+        #card-dropp
+        .textindex
+        .droppable,
+      body .general#DragDropSlide .container #card-dropp .textindex .droppable {
+        min-width: 11vw !important;
       }
     </style>
   </head>
@@ -51,7 +46,7 @@
     </div>
     <div
       id="DragAndDrop"
-      data-urlpage="01_03/01"
+      data-urlpage="03_02/05"
       class="DragAndDrop general"
       :class="this.posts[0].subject"
     >

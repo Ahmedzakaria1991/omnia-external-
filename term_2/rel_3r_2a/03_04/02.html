@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -19,6 +19,10 @@
     <style>
       .none {
         pointer-events: none;
+      }
+      body .general#Conect .container .data .columnRight .row-text,
+      body .general#Conect .container .data .columnLeft .row-text {
+        min-height: 4vw !important;
       }
 
       @media (orientation: landscape) {
@@ -48,7 +52,7 @@
     </div>
     <div
       id="Conect"
-      data-urlpage="01_03/04"
+      data-urlpage="03_04/02"
       class="general"
       :class="this.posts[0].subject"
     >

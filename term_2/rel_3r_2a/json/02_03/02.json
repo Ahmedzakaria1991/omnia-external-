@@ -1,0 +1,109 @@
+[
+  {
+    "nameId": "",
+    "title": "ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+    "subject": "rel-3",
+    "finshedDrag": false,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+     
+      {
+        "texts": [
+          {
+            "text": [
+              "تُرْشِدُ الْآيَاتُ لِأَهَمِّيَّةِ الْإِيمَانِ بِأَرْكَانِ "
+            ]
+          },
+          {
+            "text": ["السِّتَّةِ مُجْتَمِعَةً."]
+          }
+        ],
+        "drag": [
+          {
+            "word": "الْإِيمَانِ",
+
+            "number": 1
+          }
+        ]
+      },
+        
+      {
+        "texts": [
+          {
+            "text": [
+              " تُحَذِّرُنَا الْآيَاتُ مِنْ ذُنُوبِ "
+            ]
+          },
+          {
+            "text": ["وَالْخَطَأ."]
+          }
+        ],
+        "drag": [
+          {
+            "word": "النِّسْيَانِ",
+
+            "number": 2
+          }
+        ]
+      },  
+      {
+        "texts": [
+          {
+            "text": [
+              " اللَّهُ هُوَ الْمَوْلَى وَ "
+            ]
+          },
+          {
+            "text": ["لِلْمُؤْمِنِينَ."]
+          }
+        ],
+        "drag": [
+          {
+            "word": "النَّاصِرُ",
+
+            "number": 3
+          }
+        ]
+      },  
+      {
+        "texts": [
+          {
+            "text": [
+              " تَحْمِلُ خَوَاتِيمُ سُورَةِ الْبَقَرَةِ "
+            ]
+          },
+          {
+            "text": ["عَظِيمَةً."]
+          }
+        ],
+        "drag": [
+          {
+            "word": "مَعَانِيَ",
+
+            "number": 4
+          }
+        ]
+      }
+    ],
+    "increasedDragOption": false,
+    "increasedDrag": [
+      {
+        "word": "hi",
+        "number": 100
+      },
+      {
+        "word": "hello",
+        "number": 101
+      }
+    ]
+  }
+]

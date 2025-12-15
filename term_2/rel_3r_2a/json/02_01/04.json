@@ -1,0 +1,202 @@
+[
+  {
+    "nameId": "trueFalse",
+    "title": "ضع علامة (✓) أو (✗)",
+    "finshedChoose": false,
+    "qtitle": "ضَعْ عَلَامَةَ (✓) أَمَامَ الْعِبَارَةِ الصَّحِيحَةِ، وَعَلَامَةَ (✗) أَمَامَ الْعِبَارَةِ غَيْرِ الصَّحِيحَةِ:",
+    "help": true,
+    "subject": "rel-3",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "paragraph": "أَشْعُرُ أَنَّ الْمَلَائِكَةَ تَكْتُبُ أَعْمَالِي، فَأَحْرِصُ عَلَى فِعْلِ الْخَيْرِ .",
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": " أُرَاقِبُ اللَّهَ فِي كُلِّ قَوْلٍ وَعَمَلٍ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": " أَتَسَاهَلُ فِي الطَّاعَاتِ وَلَا أَهْتَمُّ بِكِتَابَةِ الْمَلَائِكَةِ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": "  أَنْسَى أَنَّ الْمَلَائِكَةَ تَحْفَظُنِي بِأَمْرِ  اللَّهِ .",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": "  أَقْتَدِي بِالْمَلَائِكَةِ فِي طَاعَتِهِمْ للَّهِ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": "  أَبْتَعِدُ عَنِ الْمَعَاصِي؛ خَوْفًا مِنْ أَنْ تُسَجَّلَ عَلَيَّ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": "  أُقَلِّدُ أَهْلَ الْمَعَاصِي بَدَلًا مِنَ الِاقْتِدَاءِ بِالْمَلَائِكَةِ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      }
+      ,
+      {
+        "id": 1,
+        "paragraph": "  أَغْفُلُ عَنْ ذِكْرِ  اللَّهِ  وَأَظُنُّ أَنَّ أَعْمَالِي لَا تُكْتَبُ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      }
+    ]
+  }
+]

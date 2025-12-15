@@ -1,0 +1,72 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ بُنُودِ بَيْعَةِ الْعَقَبَةِ الثَّانِيَةِ :",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اخْتَرِ بُنُودِ بَيْعَةِ الْعَقَبَةِ الثَّانِيَةِ ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اخْتَرِ بُنُودِ بَيْعَةِ الْعَقَبَةِ الثَّانِيَةِ :",
+            "correctAnswer": [3, 2, 4, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "  أَلَّا يُشْرِكُوا بِاللَّه (عَزَّ وجَلَّ)",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "  النَّفَقَةُ فِي الْعُسْرِ وَالْيُسْرِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  قَوْلُ الْحَقِّ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "  السَّمْعُ وَالطَّاعَةُ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "  نُصْرَةُ النَّبِيِّ ﷺ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

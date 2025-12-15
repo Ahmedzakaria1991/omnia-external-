@@ -1,0 +1,157 @@
+[
+  {
+    "nameId": "trueFalse",
+    "title": "ضع علامة (✓) أو (✗)",
+    "finshedChoose": false,
+    "qtitle": "ضَعْ عَلَامَةَ (✓) أَمَامَ الْعِبَارَةِ الصَّحِيحَةِ، وَعَلَامَةَ (✗) أَمَامَ الْعِبَارَةِ غَيْرِ الصَّحِيحَةِ:",
+    "help": true,
+    "subject": "rel-3",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "paragraph": " أَشْكُرُ اللَّهَ (عَزَّ وجَلَّ)  دَائِمًا عَلَى نِعْمَةِ الْمَاءِ.",
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": " أَسْتَخْدِمُ الْمَاءَ بِاعْتِدَالٍ وَلَا أُسْرِفُ فِيهِ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": " أَتْرُكُ الصُّنْبُورَ مَفْتُوحًا دُونَ حَاجَةٍ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": " أَسْتَخْدِمُ كَمِّيَّةَ مَاءٍ أَكْثَرَ مِمَّا أَحْتَاجُ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": "  أُوَفِّرُ الْمَاءَ لِلْآخَرِينَ عِنْدَ الْحَاجَةِ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraph": "  أَنْصَحُ زُمَلَائِي بِضَرُورَةِ الْحِفَاظِ عَلَى الْمَاءِ.",
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 1,
+        "text": false,
+        "answers": [
+          {
+            "url": ["choose-r", "true1", "true2"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["choose-l", "false1", "false2"],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      }
+    ]
+  }
+]

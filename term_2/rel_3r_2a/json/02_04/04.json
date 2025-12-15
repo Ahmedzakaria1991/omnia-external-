@@ -1,0 +1,64 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-3",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " لِمَاذَا نُصَلِّي صَلَاةَ الِاسْتِسْقَاءِ؟ ",
+            "popup": [" لأننا نطلب من الله أن ينزل علينا المطر."]
+          },
+          {
+            "id": 1,
+            "paragraph": "  كَيْفَ تُؤَدَّى صَلَاةُ الِاسْتِسْقَاءِ؟ ",
+            "popup": [
+              "مثل صلاة العيد ركعتين، ويخطب الإمام ويدعو الله بنزول المطر."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " مَاذَا يَحْدُثُ إِذَا انْقَطَعَ الْمَطَرُ لِفَتْرَةٍ طَوِيلَةٍ؟ ",
+            "popup": [" يصاب الناس بالجفاف، وتموت الزروع، وتتضرر الحيوانات."]
+          },
+          {
+            "id": 1,
+            "paragraph": " مَا أَثَرُ التَّوْبَةِ وَالِاسْتِغْفَارِ عَلَى نُزُولِ الْمَطَرِ؟ ",
+            "popup": ["  إذا استغفرنا وتبنا، يرضى الله عنا وينزل المطر."]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " اكْتُبْ دُعَاءً مِنْ أَدْعِيَةِ صَلَاةِ الِاسْتِسْقَاءِ:",
+            "popup": ["اللهم اسق عبادك وبهائمك، وانشر رحمتك، وأحي بلدك الميت."]
+          }
+        ]
+      }
+    ]
+  }
+]

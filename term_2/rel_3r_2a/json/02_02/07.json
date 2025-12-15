@@ -1,0 +1,79 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اخْتَرِ مِمَّا تُرْشِدُنَا إِلَيْهِ سُورَةُ الِانْشِقَاقِ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-3",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": " مِمَّا تُرْشِدُنَا إِلَيْهِ سُورَةُ الِانْشِقَاقِ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph":  "اخْتَرِ  مِمَّا تُرْشِدُنَا إِلَيْهِ سُورَةُ الِانْشِقَاقِ :",
+            "correctAnswer": [1, 2, 5 ,6],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " يَــوْمُ الْقِيَــامَــةِ حَــقٌّ، وَلَـهُ عَلَامَاتٌ كَوْنِيَّةٌ عَظِيمَةٌ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "  أَهَمِّيَّـــةُ الِاسْتِعْــدَادِ لِيَـوْمِ الْحِسَابِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "   فَضْلُ شَهْرِ رَمَضَانَ وَثَوَابُهُ الْعَظِيمُ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "   غَزَوَاتُ الرَّسُول ﷺ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": " جَزَاءُ أَهْلِ النَّارِ  وَعَذَابُهُمْ.",
+                "right": false,
+                "checked": false
+              }
+              ,
+              {
+                "numAnswer": 6,
+                "toChoose": "  جَزَاءُ أَهْلِ الْجَنَّةِ وَنَعِيمُهُمْ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": []
+      }
+    ]
+  }
+]

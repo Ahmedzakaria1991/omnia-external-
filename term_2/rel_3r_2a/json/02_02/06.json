@@ -1,0 +1,56 @@
+[
+    {
+        "nameId": "choose",
+        "title": "اختر الاجابة الصحيحة",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "science-4",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اخْتَر : الْمَقْصُودُ بِكَلِمَةِ ﴿وَسَقَ ﴾:",
+                "correctAnswer": [
+                    2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "اكْتَمَلَ نُورُهُ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": " جَمَعَ وَضَمَّ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "كِلَاهُمَا صَحِيحٌ",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+         
+        ],
+        "popuptext": "",
+        "pop": ""
+    }
+]
