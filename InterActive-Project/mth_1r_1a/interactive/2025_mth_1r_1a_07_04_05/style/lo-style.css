@@ -1,0 +1,71 @@
+body .main .zoki .screen-question .screen .question .content {
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+      align-items: center;
+}
+
+
+
+body .main .zoki .popup-content p {
+  font-size: 5vh !important;
+}
+.coloumn {
+  position: relative;
+}
+.imgstyle {
+  width: 47%;
+  position: absolute;
+  top: 1vh;
+  right: -3vh;
+  margin-right: 30%;
+  user-select: none;
+  pointer-events: none;
+}
+.m5b {
+  margin-bottom: 5vh;
+  z-index: 1;
+  position: relative;
+}
+.m6l {
+  margin-left: 6vh;
+}
+
+body .main .zoki .screen-question .screen .question .content p {
+  display: flex;
+  justify-content: center !important;
+  font-size: 4.8vh;
+  line-height: 11vh;
+  font-weight: 100;
+}
+body .main .zoki .screen-question .screen .question .content p.text {
+    direction: rtl;
+    font-weight: bold;
+    color: #204a66 !important;
+      line-height: 11vh;
+  font-weight: 100;
+}
+body .main .zoki input {
+    width: 12vh !important;
+    height: 8vh !important;
+}
+
+input.ab {
+    position: absolute;
+    right: 24.2vh;
+    bottom: 11vh;
+    background-image: unset !important;
+}
+input.hidden {
+  color: transparent !important;
+  user-select: none;
+  pointer-events: none;
+}
+body .main .zoki input
+ {
+    font-size: 4.8vh !important;
+  font-weight: 100 !important;}
