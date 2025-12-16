@@ -1,0 +1,199 @@
+[
+  {
+    "id": "mth_4r_2a_08_01_04",
+    "SubType": "Input",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "BloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "startTime": "",
+    "endTime": "",
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "numberOfquestion": 3,
+    "hint": true,
+    "questionAudio": true,
+    "question_two_Audio": true,
+    "upper": false,
+    "isEng": true,
+    "informationLO": "Read, then answer.",
+    "items": [
+      {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "data": ["./images/1.png", "+", "="],
+
+        "title": [
+          "Ahmed bought 10 pens. His friend gave him ",
+          "5 more pens.",
+          "What is the total number of pens with Ahmed ? ",
+
+          "The mathematical sentence :",
+          "10 + 5 = 15",
+          "The answer:",
+          "pens."
+        ],
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "widthimages": "40vh",
+          "inputs": [
+            {
+              "numOfInput": 2,
+              "valid": ["10", "5"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["15"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["7"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "widthimages": "45vh",
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["15"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "data": ["./images/2.png", "+", "="],
+
+        "title": [
+          "A class has 10 boys and 8 girls. ",
+          "",
+          "What is the total number of students in the class? ",
+
+          "The mathematical sentence:",
+          "10 + 8 = 18",
+          "The answer:",
+          "students."
+        ],
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "widthimages": "40vh",
+          "inputs": [
+            {
+              "numOfInput": 2,
+              "valid": ["10", "8"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["7"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "widthimages": "45vh",
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "data": ["./images/3.png", "+", "="],
+
+        "title": [
+          "There are 10 cats, and then 6 more cats come. What is the total  ",
+          "number of cats now?",
+          " ",
+
+          "The mathematical sentence:",
+          "10 + 6 = 16",
+          "The answer:",
+          "cats."
+        ],
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "widthimages": "55vh",
+          "inputs": [
+            {
+              "numOfInput": 2,
+              "valid": ["10", "6"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["16"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["7"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "widthimages": "55vh",
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["16"]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
