@@ -94,12 +94,20 @@
                             >
                               <img :src="item.data[0]" alt="" />
                             </div>
-                            <div class="flex parag1">
+                            <div
+                              class="flex parag1"
+                              :class="{'textt': item.id !=3 }"
+                            >
                               <div><p>{{item.title[3]}}</p></div>
                               <div class="inp">
                                 <template
                                   v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
                                 >
+                                  <div
+                                    class="help hand display help-input"
+                                    v-if="helpHand && i==0"
+                                    :class="{'handEng':upper || (!upper && isEng)}"
+                                  ></div>
                                   <input
                                     type="text"
                                     class="input emptyInput"
@@ -110,16 +118,12 @@
                                     maxlength="1"
                                     @keyup="maxLength($event,i)"
                                   />
+
                                   <p
                                     v-if="item.roundOne.inputs[0].numOfInput - 1 > i"
                                   >
                                     {{item.data[1]}}
                                   </p>
-                                  <div
-                                    class="help hand display help-input"
-                                    v-if="helpHand && i==0"
-                                    :class="{'handEng':upper || (!upper && isEng)}"
-                                  ></div>
                                 </template>
                                 <p>{{item.data[2]}}</p>
                                 <template
@@ -156,7 +160,7 @@
                               <img :src="item.data[0]" alt="" />
                             </div>
 
-                            <div class="flex">
+                            <div class="flex" :class="{'textt': item.id !=3 }">
                               <p class="text parag">{{item.title[3]}}</p>
 
                               <div>

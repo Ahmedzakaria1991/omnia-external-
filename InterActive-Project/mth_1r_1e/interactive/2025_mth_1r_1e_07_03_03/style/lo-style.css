@@ -6,6 +6,9 @@ body .main .zoki .screen-question .screen .question .content {
   width: 95%;
   margin-left: 15vh;
 }
+.textt {
+  margin-right: 12vh !important;
+}
 .coloumn {
   display: flex;
   align-items: center;
@@ -14,17 +17,16 @@ body .main .zoki .screen-question .screen .question .content {
   padding-bottom: 12vh;
 }
 body .main .zoki .screen-question .screen .question .content p {
-  font-size: 4.4vh ;
+  font-size: 4.4vh;
 }
 body .main .zoki .popup-content p {
- font-size: 4.4vh ;
-
+  font-size: 4.4vh;
 }
 
 body .main .zoki input {
   width: 10vh;
   height: 7vh;
-  font-size: 3.2vh ;
+  font-size: 3.2vh;
   font-family: inherit !important;
   margin: 0 2vh 0 2vh;
 }
@@ -35,9 +37,8 @@ body .main .zoki input {
   justify-content: center;
 }
 body .main .zoki .screen-question .screen .question .content p {
-  line-height: 7vh !important;
-   font-size: 3.5vh ;
-
+  line-height: 6vh !important;
+  font-size: 3.5vh;
 }
 body .main .zoki .screen-question .screen .question .content p.text {
   text-align: center;

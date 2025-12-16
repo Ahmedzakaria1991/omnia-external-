@@ -97,6 +97,11 @@
                             <template
                               v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
                             >
+                              <div
+                                class="help hand display help-input"
+                                v-if="helpHand && i==0"
+                                :class="{'handEng':upper || (!upper && isEng)}"
+                              ></div>
                               <input
                                 type="text"
                                 class="input emptyInput"
@@ -107,11 +112,7 @@
                                 maxlength="1"
                                 @keyup="maxLength($event,i)"
                               />
-                              <div
-                                class="help hand display help-input"
-                                v-if="helpHand && i==0"
-                                :class="{'handEng':upper || (!upper && isEng)}"
-                              ></div>
+
                               <p v-if="i == 0">{{item.mark[0]}}</p>
                             </template>
                             <p>{{item.mark[1]}}</p>
