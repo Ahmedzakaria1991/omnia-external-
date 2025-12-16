@@ -4,29 +4,27 @@ body .main .zoki .screen-question .screen .question .content {
 
 .centerimg img {
   width: 95%;
-  margin-left: 4.5vw;
+  margin-left: 4.5vh;
 }
 .coloumn {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 2vw;
-  padding-top: 0.5vw;
+  padding-bottom: 2vh;
+  padding-top: 0.5vh;
 }
 body .main .zoki .screen-question .screen .question .content p {
-  /* font-size: 4.4vh; */
-  font-weight: 100 !important;
-  font-size: large !important;
+  font-size: 4.4vh ;
 }
 body .main .zoki .popup-content p {
-  font-size: 6vh;
-  /* direction: rtl; */
+ font-size: 4.4vh ;
+
 }
 
 body .main .zoki input {
-  width: 12vh;
-  height: 9vh;
+  width: 10vh;
+  height: 7vh;
 }
 
 .centerimg {
@@ -62,7 +60,7 @@ body .main .zoki .round {
 }
 body .flex {
   display: block;
-  margin-right: 5vw;
+  margin-right: 5vh;
 }
 
 .inp {

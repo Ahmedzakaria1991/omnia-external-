@@ -38,46 +38,46 @@ body .main .zoki .screen-question .screen .question .content {
   margin-top: 2vh;
 }
 body .main .zoki input {
-  font-size: 6vh;
+  font-size: 3.5vh;
+  width: 12vh;
+  height: 8vh;
+  margin: 0px 2vh 0 2vh;
 }
+
 .parag1 {
-    display: block !important;
-    align-items: center;
-            padding-bottom: 1vw;
+  display: block !important;
+  align-items: center;
+  padding-bottom: 1vh;
 
-    justify-items: anchor-center;
-
+  justify-items: anchor-center;
 }
-.parag4{
-    display: flex;
+.parag4 {
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 0.5vw;
+  padding-bottom: 0.5vh;
 }
-.parag3{
-        font-size:  1.4vw !important; 
-        font-weight: 700;
-        padding-bottom: 0.5vw;
-
+.parag3 {
+  padding-bottom: 0.5vh;
 }
-.parag2{
+.parag2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .centerimages img {
-    width: 31vw;
+  width: 75vh;
 }
 body .main .zoki .screen-question .screen .question .content p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    flex-wrap: wrap;
-    font-size: 3.3vh;
-    color: #204a66 !important;
-    font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  font-size: 3.2vh;
+  color: #204a66 !important;
+  font-weight: bolder;
 }
 body .main .zoki .screen-question .screen .question .content p.text {
-    direction: ltr;
-    font-weight: bolder;
-    color: #204a66 !important;
+  direction: ltr;
+  font-weight: bolder;
+  color: #204a66 !important;
 }
