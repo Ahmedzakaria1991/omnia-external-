@@ -284,7 +284,7 @@ body #slide-show .lo-container .inner-container .tabs .tab {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  min-width: 40vh;
+  width: 40vh;
   height: 100%;
   background-size: 100% 100%;
   display: -webkit-box;
@@ -302,6 +302,9 @@ body #slide-show .lo-container .inner-container .tabs .tab {
   margin: 0 0.3vw;
   font-weight: bold;
   padding: 2.5vh;
+}
+body #slide-show .lo-container .inner-container .tabs .tab img {
+  width: 40vh;
 }
 body #slide-show .lo-container .inner-container .tabs::-webkit-scrollbar {
   display: none;

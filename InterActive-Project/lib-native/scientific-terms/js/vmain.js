@@ -96,9 +96,10 @@ new Vue({
             this.data.learningObjectAsJson != "" &&
             this.data.learningObjectAsJson != null
           ) {
-            let jsonData = JSON.parse(this.data.learningObjectAsJson);
-            this.Items[0].posts[0] = jsonData;
-            this.dataLoaded = true;
+        
+            // let jsonData = JSON.parse(this.data.learningObjectAsJson);
+            // this.Items[0].posts = jsonData.posts;
+            // this.dataLoaded = true;
           }
         });
       } else {

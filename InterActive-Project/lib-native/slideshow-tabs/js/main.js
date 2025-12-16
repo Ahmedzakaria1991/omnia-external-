@@ -133,8 +133,10 @@ new Vue({
             this.posts.questions.forEach((question) => {
               question.numberOfTrial = 0;
             });
+               console.log(  this.maxLengthAllSlide)
           }, 1000)
         : (this.isLoading = false);
+     
     },
     checkurl() {
       let urlParams = new URLSearchParams(window.location.search);
@@ -423,6 +425,8 @@ new Vue({
       this.feedbackSound(this.progressPercentage);
       this.calculateProgress(this.progressPercentage);
       this.posts.endTime = this.getDate();
+ document.getElementsByClassName("home")[0].style.display = "none";
+ document.getElementsByClassName("sound")[0].style.display = "none";
     },
 
     calculateProgress(progress) {
