@@ -205,15 +205,18 @@
                               @keyup="maxLength($event,i)"
                             />
                             <div
-                              class="help hand display help-input"
+                              class="help hand hand2 display help-input"
                               v-if="helpHand && i==0"
+                              v-if="item.id==3"
                               :class="{'handEng':upper || (!upper && isEng)}"
                             ></div>
                           </template>
                         </div>
                         <div class="item" style="width: 9vh">
                           <p style="text-align: center">6</p>
-                          <p class="unary-plus">{{item.unaryPlus}}</p>
+                          <p class="unary-plus2" v-if="item.id==3">
+                            {{item.unaryPlus}}
+                          </p>
                         </div>
                         <div class="line line2" v-if="item.id!=3"></div>
                         <div class="line line3" v-if="item.id==3"></div>
@@ -251,7 +254,12 @@
                           style="height: 6vh; width: 9vh; text-align: center"
                         >
                           <p>{{item.num3}}</p>
-                          <p class="unary-plus">{{item.unaryPlus}}</p>
+                          <p class="unary-plus" v-if="item.id!=3">
+                            {{item.unaryPlus}}
+                          </p>
+                          <p class="unary-plus2" v-if="item.id==3">
+                            {{item.unaryPlus}}
+                          </p>
                         </div>
 
                         <div class="line"></div>

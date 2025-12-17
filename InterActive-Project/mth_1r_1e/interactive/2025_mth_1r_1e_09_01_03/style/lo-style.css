@@ -17,6 +17,10 @@
   left: -8vw;
   top: 1vw;
 }
+.hand2 {
+  left: -1vw;
+  top: -1vw;
+}
 
 .break {
   -ms-flex-preferred-size: 100%;
@@ -43,7 +47,7 @@
 .question .main-con .col {
   width: 15vh;
   height: 44vh;
-      direction: ltr;
+  direction: ltr;
 
   /* border: 0.5vh solid #000; */
   display: flex;
@@ -58,12 +62,11 @@
 
 .question .main-con .col .item .unary-plus {
   position: absolute;
-  top:13%;
+  top: 13%;
   transform: translateY(-50%);
   right: -3.3vh;
   font-size: 4vh;
-    transform: translatex(-14vh);
-
+  transform: translatex(-14vh);
 }
 
 .question .main-con .col .line {
@@ -84,12 +87,12 @@
   border: 0.4vh solid #204a66;
   height: 6vh;
 }
-.col2{
-direction: ltr;
+.col2 {
+  direction: ltr;
 }
 .specific-item .arrow-image {
   position: absolute;
-      transform: scaleX(-1) !important;
+  transform: scaleX(-1) !important;
 
   top: 47%;
   transform: translateY(-50%);
@@ -103,12 +106,19 @@ direction: ltr;
   transform: translateY(-50%);
   right: -7.2vh;
 }
+.question .main-con .col .item .unary-plus2 {
+  position: absolute;
+  top: -8% !important;
+  right: -3.8vh !important ;
+  font-size: 4vh;
+  transform: translatex(-14vh);
+}
 
 .p2 .specific-item .unary-plus {
   position: absolute;
-  top: 72%;
+  top: 77%;
   transform: translateY(-50%);
-  right: -4.2vh;
+  right: 9.8vh;
 }
 
 .digital-screen .penguin .border .question p {
