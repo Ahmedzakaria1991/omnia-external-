@@ -1,0 +1,104 @@
+body .main .zoki .screen-question .screen .question .content {
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.row5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.row img {
+  margin-left: 15vh;
+}
+.flex3 {
+  direction: ltr;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex3 .coloumn {
+  margin-top: 5vh;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+}
+.row2 p {
+  margin: 0 2vh 0 2vh;
+}
+
+body .main .zoki .popup-content p {
+  font-size: 5vh !important;
+}
+.coloumn {
+  position: relative;
+  align-items: center !important;
+  margin-bottom: 8vh;
+}
+.imgstyle {
+  width: 38%;
+  position: absolute;
+  top: 0.5vh;
+  right: 2vh;
+  margin-right: 30%;
+  user-select: none;
+  pointer-events: none;
+}
+.m5b {
+  margin-bottom: 5vh;
+  z-index: 1;
+  position: relative;
+}
+.m6l {
+  margin-left: -14vh;
+  margin-top: -2vh;
+}
+
+body .main .zoki .screen-question .screen .question .content p {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  font-size: 4vh;
+  line-height: 11vh;
+  font-weight: 100;
+}
+body .main .zoki .screen-question .screen .question .content p.text {
+  direction: ltr;
+  font-weight: bold;
+  color: #204a66 !important;
+  line-height: 6vh;
+  font-weight: 100;
+  justify-content: flex-start !important;
+}
+body .main .zoki input {
+  width: 11vh !important;
+  height: 8vh !important;
+  font-size: 4vh !important;
+  font-weight: 100 !important;
+  direction: ltr;
+}
+
+input.ab {
+  position: absolute;
+  right: 36.5vh;
+  bottom: 11vh;
+  background-image: unset !important;
+}
+input.hidden {
+  color: transparent !important;
+  user-select: none;
+  pointer-events: none;
+}
