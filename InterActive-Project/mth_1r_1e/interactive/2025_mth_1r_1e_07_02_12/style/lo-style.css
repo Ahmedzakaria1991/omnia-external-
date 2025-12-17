@@ -1,0 +1,25 @@
+body .main .zoki .popup-content p {
+  direction: ltr;
+  font-size: 6vh;
+  text-align: center;
+}
+body .main .zoki .screen-question .screen .question {
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrowanimation {
+  width: 90vh;
+  position: absolute;
+  top: 17vh;
+  left: 20vh;
+}
+body .main .zoki .screen-question .screen .question .content {
+  justify-content: center;
+}
+body .main .zoki input {
+  font-size: 5vh;
+}
+body .flex{
+  margin-top: 20vh;
+}

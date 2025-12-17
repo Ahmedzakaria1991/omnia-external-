@@ -1,0 +1,137 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "numberOfquestion": 3,
+    "id": "2025_mth_1r_1a_09_01_03",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "BloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "input",
+    "startTime": "",
+    "endTime": "",
+    "updatefont": true,
+    "hint": true,
+    "questionAudio": true,
+    "upper": false,
+    "isEng": false,
+    "informationLO": ".أوجد ناتج ما يلي",
+    "items": [
+      {
+        "id": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "unaryPlus" : "+" ,  
+        "num1":"3",
+        "num2":"4",
+        "num3":"2",
+
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["2"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "unaryPlus": "+",
+        "num1": "3",
+        "num2": "4",
+        "num3": "2",
+
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["2"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "typeQ": 2,
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "unaryPlus": "+",
+        "num1": "1",
+        "num2": "4",
+        "num3": "6",
+
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          },
+          {
+            "numOfInput": 0,
+            "valid": ["2"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["11"]
+          }
+        ]
+      }
+    ]
+  }
+]
