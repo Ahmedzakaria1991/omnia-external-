@@ -213,7 +213,7 @@
                         <div class="line"></div>
                       </div>
 
-                      <div class="col">
+                      <div class="col ">
                         <div class="item" style="margin-top: 6.8vh">
                           <template
                             v-for="(input, i) in item.inputs[0].numOfInput"
@@ -235,8 +235,11 @@
                             ></div>
                           </template>
                         </div>
-                        <div class="item" style="width: 9vh">
-                          <p style="text-align: center">6</p>
+                        <div class="item " style="width: 9vh                  
+">
+                          <!-- <p style="text-align: center">6</p> -->
+                                                    <p          style="height: 6vh; width: 9vh; text-align: center">{{item.num4}}</p>
+
                           <p class="unary-plus">{{item.unaryPlus}}</p>
                         </div>
                         <div class="line line2" v-if="item.id!=3"></div>

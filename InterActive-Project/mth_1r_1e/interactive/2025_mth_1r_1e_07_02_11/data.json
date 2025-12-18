@@ -3,8 +3,8 @@
     "counterCorrect": 0,
     "LOcorrectcounter": 0,
     "loTargets": null,
-    "numberOfquestion": 3,
-    "id": "2025_mth_1r_1a_09_01_03",
+    "id": "mth_5r_2a_01_03_05",
+    "SubType": "Input",
     "subjectId": "",
     "conceptId": "",
     "unitId": "",
@@ -12,22 +12,26 @@
     "title": "",
     "keywords": "",
     "learningObjectives": "",
-    "BloomLevels": [],
+    "bloomLevels": [],
     "type": "",
     "loDegree": null,
     "UserDegree": 0,
-    "SubType": "input",
     "startTime": "",
     "endTime": "",
+    "numberOfquestion": 4,
     "updatefont": true,
     "hint": true,
     "questionAudio": true,
     "upper": false,
-    "isEng": false,
-    "informationLO": ".أوجد ناتج ما يلي",
+    "isEng": true,
+    "arrayanswer": null,
+    "informationLO": [
+      "Look at the following number line, then answer the questions."
+    ],
     "items": [
       {
         "id": 1,
+        "holdTime": 1500,
         "active": true,
         "numberOfTrial": 0,
         "questionlevel": "",
@@ -41,22 +45,32 @@
         "numOfAttempts": 0,
         "numberInputs": 0,
         "counterCorrectQuestion": 0,
-        "unaryPlus": "+",
-        "num1": "8",
-        "num2": "2",
-        "num3": "4",
-        "num4": "",
-
-
+        "title": "What number is greater than 10 by 3?  ",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["10"]
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["4"]
-          },
+            "valid": ["13"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "holdTime": 2300,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": "What number is greater than 12 by 2?  ",
+        "inputs": [
           {
             "numOfInput": 1,
             "valid": ["14"]
@@ -64,7 +78,8 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
+        "holdTime": 3800,
         "active": true,
         "numberOfTrial": 0,
         "questionlevel": "",
@@ -78,37 +93,23 @@
         "numOfAttempts": 0,
         "numberInputs": 0,
         "counterCorrectQuestion": 0,
-        "unaryPlus": "+",
-        "num1": "3",
-        "num2": "4",
-        "num3": "2",
-        "num4": "",
-
-
+        "title": "What number is greater than 15 by 5?   ",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["7"]
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["2"]
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["9"]
+            "valid": ["20"]
           }
         ]
       },
       {
-        "id": 3,
+        "id": 4,
+        "holdTime": 4300,
         "active": true,
         "numberOfTrial": 0,
         "questionlevel": "",
         "questionType": "text",
         "answersType": "text",
         "startTime": "",
-        "typeQ": 2,
         "endTime": "",
         "BloomLevel": 3,
         "numberOfquestion": 0,
@@ -116,26 +117,11 @@
         "numOfAttempts": 0,
         "numberInputs": 0,
         "counterCorrectQuestion": 0,
-        "unaryPlus": "+",
-        "num1": "1",
-        "num2": "4",
-        "num3": "6",
-        "num4": "6",
-
-
-
+        "title": "What number is greater by 4 than 11?   ",
         "inputs": [
           {
             "numOfInput": 1,
-            "valid": ["5"]
-          },
-          {
-            "numOfInput": 0,
-            "valid": ["2"]
-          },
-          {
-            "numOfInput": 1,
-            "valid": ["11"]
+            "valid": ["15"]
           }
         ]
       }
