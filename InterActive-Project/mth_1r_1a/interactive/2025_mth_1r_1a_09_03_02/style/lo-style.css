@@ -1,0 +1,122 @@
+.digital-screen .penguin .border .question {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.handEng {
+  left: -10vw;
+  top: 1vw;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30vh;
+  margin-bottom: 1vh;
+}
+.digital-screen .penguin .border .question p {
+  font-size: 5.2vh;
+
+  display: flex;
+  justify-content: center !important;
+}
+
+.digital-screen .penguin .border .question input {
+  font-size: 5.2vh !important;
+
+}
+.flexcenter,
+.flexparag,
+.flexmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coloumn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexparag {
+  width: 6vh;
+}
+.flexmark {
+  width: 5vh;
+}
+.arrow {
+  width: 28vh;
+}
+.arrow img {
+  margin-right: 5.5vh;
+  width: 11vh;
+  margin-top: -1vh;
+  transform: rotate(3deg);
+}
+
+
+/**/
+.custom-input {
+    width: 10vh;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border: 0;
+    outline: none;
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: #003A66;
+    text-align: center;
+    margin: 0 1vw;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 7vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    caret-color: transparent;
+}
+
+.custom-input::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 5vh;
+    background: #003A66;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0;
+    animation: blink 1s infinite;
+    border-radius: 1px;
+}
+
+.custom-input:focus::before {
+    opacity: 1;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
