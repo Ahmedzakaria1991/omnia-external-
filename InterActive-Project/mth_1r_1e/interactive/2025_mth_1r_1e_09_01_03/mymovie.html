@@ -212,12 +212,16 @@
                             ></div>
                           </template>
                         </div>
-                        <div class="item" style="width: 9vh">
-                          <p style="text-align: center">6</p>
-                          <p class="unary-plus2" v-if="item.id==3">
+                          <div class="item" style="margin-top: 2.4vh">
+                     <p style="text-align: center"  v-if="item.id==3">{{item.num3}}</p>
+                          <p class="unary-plus22" v-if="item.id==3">
+                            {{item.unaryPlus}}
+                          </p>
+                          <p class="unary-plus" v-if="item.id!=3">
                             {{item.unaryPlus}}
                           </p>
                         </div>
+                   
                         <div class="line line2" v-if="item.id!=3"></div>
                         <div class="line line3" v-if="item.id==3"></div>
                         <div class="item">
