@@ -102,9 +102,9 @@
                     :class="{ active : item.active, editFont: posts[0].updatefont}"
                   >
                     <div class="main-con p1" v-if="item.typeQ !== 2">
-                      <div class="col col2">
-                        <div class="item" style="height: 4.5vh"></div>
-                        <div class="item" style="margin-top: 1.5vh !important">
+                      <div class="col">
+                        <div class="item" style="height: 6vh"></div>
+                        <div class="item">
                           <template
                             v-for="(input, i) in item.inputs[0].numOfInput"
                           >
@@ -119,8 +119,9 @@
                               @keyup="maxLength($event,i)"
                             />
                             <div
-                              class="help hand display help-input"
+                              class="help hand hand2 display help-input"
                               v-if="helpHand && i==0"
+                              v-if="item.id==1"
                               :class="{'handEng':upper || (!upper && isEng)}"
                             ></div>
                           </template>
@@ -142,9 +143,7 @@
                             <p class="unary-plus">{{item.unaryPlus}}</p>
                           </template>
                         </div>
-                        <div class="line line2" v-if="item.id!=3"></div>
-                        <div class="line line3" v-if="item.id==3"></div>
-
+                        <div class="line"></div>
                         <div class="item" style="margin-top: 2vh !important">
                           <template
                             v-for="(input, i) in item.inputs[2].numOfInput"
@@ -180,10 +179,8 @@
                         </div>
 
                         <div class="item" style="text-align: center">
-                          <p style="margin-top: 3vh">{{item.num3}}</p>
-                          <p class="unary-plus" style="margin-top: 1vh">
-                            {{item.unaryPlus}}
-                          </p>
+                          <p>{{item.num3}}</p>
+                          <p class="unary-plus">{{item.unaryPlus}}</p>
                         </div>
 
                         <div class="line m1t"></div>
@@ -191,7 +188,7 @@
                     </div>
 
                     <div class="main-con p2" v-if="item.typeQ == 2">
-                      <div class="col col2">
+                      <div class="col">
                         <div class="item" style="margin-top: 6.8vh">
                           <template
                             v-for="(input, i) in item.inputs[0].numOfInput"
@@ -207,27 +204,17 @@
                               @keyup="maxLength($event,i)"
                             />
                             <div
-                              class="help hand hand2 display help-input"
-                              v-if="helpHand && i==0"
-                              v-if="item.id==3"
+                              class="help hand display help-input"
+                              v-if="helpHand && i==0 "
                               :class="{'handEng':upper || (!upper && isEng)}"
                             ></div>
                           </template>
                         </div>
-                        <div class="item" style="margin-top: 2.4vh">
-                          <p style="text-align: center" v-if="item.id==3">
-                            {{item.num3}}
-                          </p>
-                          <p class="unary-plus22" v-if="item.id==3">
-                            {{item.unaryPlus}}
-                          </p>
-                          <p class="unary-plus" v-if="item.id!=3">
-                            {{item.unaryPlus}}
-                          </p>
+                        <div class="item" style="width: 9vh">
+                          <p style="text-align: center">{{item.num4}}</p>
+                          <p class="unary-plus">{{item.unaryPlus}}</p>
                         </div>
-
-                        <div class="line line2" v-if="item.id!=3"></div>
-                        <div class="line line3" v-if="item.id==3"></div>
+                        <div class="line"></div>
                         <div class="item">
                           <template
                             v-for="(input, i) in item.inputs[2].numOfInput"
@@ -254,7 +241,7 @@
                           />
                           <p>{{item.num1}}</p>
                           <p>{{item.num2}}</p>
-                          <p class="unary-plus">{{item.unaryPlus}}</p>
+                          <p class="unary-plus2">{{item.unaryPlus}}</p>
                         </div>
 
                         <div
@@ -262,12 +249,7 @@
                           style="height: 6vh; width: 9vh; text-align: center"
                         >
                           <p>{{item.num3}}</p>
-                          <p class="unary-plus" v-if="item.id!=3">
-                            {{item.unaryPlus}}
-                          </p>
-                          <p class="unary-plus2" v-if="item.id==3">
-                            {{item.unaryPlus}}
-                          </p>
+                          <p class="unary-plus">{{item.unaryPlus}}</p>
                         </div>
 
                         <div class="line"></div>

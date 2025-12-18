@@ -14,12 +14,12 @@
 }
 
 .handEng {
-  left: -8vw;
-  top: 1vw;
+  left: -1vw;
+  top: -1vw;
 }
 .hand2 {
   left: -1vw;
-  top: -1vw;
+  top: 1vw;
 }
 
 .break {
@@ -38,16 +38,11 @@
   gap: 6vh;
   justify-content: center;
 }
-.line2 {
-  margin-top: 0.4vh;
-}
-.line3 {
-  margin-top: 0.4vh;
-}
+
 .question .main-con .col {
-  width: 15vh;
+  width: 14vh;
   height: 44vh;
-  direction: ltr;
+  /* border: 0.5vh solid #000; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,11 +55,10 @@
 
 .question .main-con .col .item .unary-plus {
   position: absolute;
-  top: 15%;
+  top: 50%;
   transform: translateY(-50%);
-  right: -3.3vh;
+  right: 10.5vh;
   font-size: 4vh;
-  transform: translatex(-14vh);
 }
 
 .question .main-con .col .line {
@@ -85,16 +79,14 @@
   border: 0.4vh solid #204a66;
   height: 6vh;
 }
-.col2 {
-  direction: ltr;
-}
+
 .specific-item .arrow-image {
   position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
   transform: scaleX(-1) !important;
 
-  top: 47%;
-  transform: translateY(-50%);
-  left: 130%;
+  left: 125%;
   width: 9vh;
 }
 
@@ -102,46 +94,35 @@
   position: absolute;
   top: 72%;
   transform: translateY(-50%);
-  right: -7.2vh;
+  right: 6.8vh;
 }
-.question .main-con .col .item .unary-plus2 {
+.unary-plus2 {
   position: absolute;
-  top: -8% !important;
-  right: -3.8vh !important ;
-  font-size: 4vh;
-  transform: translatex(-14vh);
-}
-.question .main-con .col .item .unary-plus22 {
-  position: absolute;
-  top: 0% !important;
-  right: -5vh !important;
-  font-size: 4vh;
-  transform: translatex(-14vh);
-}
-.paraa {
-  font-size: 6vh !important;
-  font-weight: bold !important;
+  top: 72%;
+  transform: translateY(-50%);
+  right: 10.1vh;
 }
 
 .p2 .specific-item .unary-plus {
   position: absolute;
-  top: 77%;
+  top: 72%;
   transform: translateY(-50%);
-  right: 9.8vh;
-}
-
-.digital-screen .penguin .border .question p {
-  font-size: 6vh !important;
-  font-weight: bold !important;
+  right: -4.2vh;
 }
 
 .digital-screen .penguin .border .question input {
   font-size: 5vh !important;
   width: 10vh !important;
-  height: 7vh !important;
+  height: 8vh !important;
 }
+
+.digital-screen .penguin .border .question p {
+  font-size: 5vh !important;
+  font-weight: bold !important;
+}
+
 .m1t {
-  margin-top: 1.4vh;
+  margin-top: 1.1vh;
 }
 
 .p1 .item {
@@ -173,7 +154,7 @@
 .p1 .specific-item p {
   height: 7vh;
   text-align: center;
-  width: 37vh;
+  width: 8vh;
 }
 
 /* End Project  */
