@@ -26,6 +26,11 @@
 .digital-screen .penguin .border .question p {
   font-size: 4vh;
 }
+.digital-screen .popup .popup-content .title {
+  font-size: 6.5vh !important;
+  font-weight: bold;
+  color: #204a66 !important;
+}
 
 /* Start Project  */
 
@@ -34,12 +39,25 @@
   gap: 6vh;
   justify-content: center;
 }
+
 .line2 {
-  margin-top: 1.9vh;
+  margin-top: 2.3vh;
 }
 .line3 {
-  margin-top: 0.9vh;
+  margin-top: -0.1vh;
+  height: 0.4vh !important;
 }
+.m1t {
+  margin-top: 1.4vh;
+  height: 0.5vh !important;
+}
+.question .main-con .col .line {
+  width: 100%;
+  height: 0.5vh;
+  background: #204a66;
+  font-weight: bold;
+}
+
 .question .main-con .col {
   width: 15vh;
   height: 44vh;
@@ -60,12 +78,6 @@
   transform: translateY(-50%);
   right: -3.3vh;
   font-size: 4vh;
-}
-
-.question .main-con .col .line {
-  width: 100%;
-  height: 0.3vh;
-  background: #204a66;
 }
 
 .specific-item {
@@ -112,9 +124,6 @@
   font-size: 6vh !important;
   width: 10vh !important;
   height: 7vh !important;
-}
-.m1t {
-  margin-top: 1.4vh;
 }
 
 .p1 .item {
