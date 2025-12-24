@@ -1,0 +1,94 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "numberOfquestion": 3,
+    "id": "mth_4r_2a_05_01_03",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "BloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "input",
+    "startTime": "",
+    "endTime": "",
+    "hint": true,
+    "questionAudio": true,
+    "questionAudioRoundTwo": true,
+    "upper": false,
+    "isEng": true,
+    "updatefont": true,
+
+    "informationLO": "Complete to find the result.",
+    "items": [
+   {
+        "id": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "number": "10",
+        "number2": "7",
+
+        "title": "17  +  1 ",
+        "title2": "17  +  1 ",
+
+        "imag": [""],
+
+        "sign": ["=", "+", "="],
+        "images": [
+          "./images/vv.png",
+          "./images/e.png",
+          "./images/v.png",
+          "./images/10.png"
+        ],
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["7"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["7"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 2,
+              "valid": ["8", "10"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

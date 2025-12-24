@@ -23,12 +23,12 @@
     "questionAudio": true,
     "questionAudioRoundTwo": true,
     "upper": false,
-    "isEng": false,
+    "isEng": true,
     "updatefont": true,
 
-    "informationLO": ".أكمل لإيجاد الناتج",
+    "informationLO": "Complete to find the result.",
     "items": [
-      {
+        {
         "id": 1,
         "active": true,
         "numberOfTrial": 0,
@@ -43,8 +43,11 @@
         "numOfAttempts": 0,
         "imag": [""],
         "number": "5",
+        "number2": "5",
 
-        "title": "15&nbsp; + &nbsp; 2 ",
+
+        "title": "15  +  2 ",
+        "title2": "15 +  2 ",
 
         "sign": ["=", "+", "="],
         "images": [
@@ -86,7 +89,7 @@
           ]
         }
       },
-         {
+      {
         "id": 2,
         "active": true,
         "numberOfTrial": 0,
@@ -99,16 +102,20 @@
         "numberOfquestion": 0,
         "correctCounter": 0,
         "numOfAttempts": 0,
-        "number": "7",
-        "title": "1 &nbsp; + &nbsp; 17 ",
+        "number": "10",
+        "number2": "7",
+
+        "title": "17  +  1 ",
+        "title2": "17  +  1 ",
+
         "imag": [""],
 
         "sign": ["=", "+", "="],
         "images": [
           "./images/vv.png",
-          "./images/100.png",
+          "./images/e.png",
           "./images/v.png",
-          "./images/7.png"
+          "./images/10.png"
         ],
         "roundOne": {
           "numberInputs": 0,
@@ -120,7 +127,7 @@
             },
             {
               "numOfInput": 0,
-              "valid": [""]
+              "valid": ["7"]
             }
           ]
         },
@@ -142,8 +149,8 @@
             }
           ]
         }
-      },
-
+      }
+      ,
       {
         "id": 3,
         "active": true,
@@ -157,27 +164,30 @@
         "numberOfquestion": 0,
         "correctCounter": 0,
         "numOfAttempts": 0,
-        "number": "1",
+        "nuumber": "10",
         "title": "11&nbsp;&nbsp;+ &nbsp; 4 ",
-        "imag": ["./images/3.png"],
+                "title2": "11&nbsp; +  4 ",
+
+
+        "imag": ["./images/e.png"],
 
         "sign": ["=", "+", "="],
         "images": [
           "./images/vv.png",
           "./images/e.png",
           "./images/v.png",
-          "./images/3.png"
+          "./images/10.png"
         ],
         "roundOne": {
           "numberInputs": 0,
           "counterCorrectQuestion": 0,
           "inputs": [
             {
-              "numOfInput": 0,
+              "numOfInput": 1,
               "valid": ["1"]
             },
             {
-              "numOfInput": 1,
+              "numOfInput": 0,
               "valid": ["1"]
             }
           ]

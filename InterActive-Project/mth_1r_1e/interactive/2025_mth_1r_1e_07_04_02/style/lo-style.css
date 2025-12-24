@@ -13,82 +13,75 @@
   direction: ltr;
 }
 
+.handEng {
+  left: -9vw;
+  top: 1vw;
+}
+
 .break {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
 }
-.imgstyle_3,
-.imgstyle_2,
+
 .imgstyle {
-  width: 26vh;
+  width: 50%;
   position: absolute;
   top: 5vh;
-  right: -3vh;
-  margin-right: 15%;
+  right: 15.5vh;
   user-select: none;
   pointer-events: none;
 }
 
-.m10b {
-  margin-bottom: 10vh;
-  z-index: 1;
-  position: relative;
-}
-.imgstyle_3{
-    width: 21vh;
-    
-    top: 6vh;
- 
-}
 .m5b {
   margin-bottom: 8vh;
   z-index: 1;
   position: relative;
-  z-index: 4;
 }
-.m6l {
-  margin-left: 6vh;
-}
-.m10l {
-  margin-left: 10vh;
-}
+
 .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  z-index: 1;
 }
+
 .coloumn {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2vh;
+  margin-bottom: 6vh;
+  direction: ltr;
 }
-.numberimg,
-.numberimg {
+
+/* .numberimg {
+
+} */
+ .numberimgg1 {
   width: 10vh;
-  margin-left: 6vh;
+  margin-left: 5vh;
 }
-.numberimggs {
+.numberimgg2{
+  width: 10vh !important;
+  margin-left: 6vh !important;
+}
+.numberimgg3 {
   width: 10vh;
-  margin-left: 6vh;
-  z-index: 1;
+  margin-left: 5vh;
 }
-.m6vhL {
-  margin-left: 13vh !important;
+.numberimg2{
+  width: 10vh !important;
+  margin-left: 4vh !important;
 }
-.imgWithColor_2,
+
 .imgWithColor {
-  width: 70%;
+  width: 65%;
   position: absolute;
-  top: -1.1vh;
-  right: -2vh;
-  margin-right: 15%;
+  top: 0vh;
+  right: 7%;
+  margin-right: 14%;
   user-select: none;
   pointer-events: none;
-  z-index: 3;
 }
 
 .digital-screen .penguin .border .help-input::after {
@@ -105,32 +98,12 @@
   letter-spacing: 0.3vh;
   z-index: 5;
   font-size: 5.2vh !important;
+  margin-left: 4vh;
 }
 .digital-screen .penguin .border .help {
   position: relative;
   z-index: 10;
 }
-
-.imgstyle_2 {
-  right: 14vh;
-  width: 22vh;
-}
-
-.m15r {
-  margin-right: 15vh;
-}
-.m20r {
-  margin-right: 15vh;
-}
-.numberimg_2 {
-  margin-left: 11vh;
-}
-
-.imgWithColor_2 {
-  transform: scale(-1, 1);
-  width: 26vh;
-  right: 3vh;
-}
-.m13r {
-  margin-right: 13vh;
+body #penguin .isSuccess.isEng p {
+  letter-spacing: 0.4vh !important;
 }

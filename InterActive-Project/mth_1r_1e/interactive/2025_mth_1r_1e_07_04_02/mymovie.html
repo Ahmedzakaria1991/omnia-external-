@@ -91,88 +91,7 @@
                   >
                     <div class="roundOne" :class="{'activeRound': !roundTwo}">
                       <div class="round" :class="{'roundNone': roundTwo}">
-                        <div class="row" v-if="item.id != 2">
-                          <div class="coloumn">
-                            <p
-                              style="height: 8h"
-                              v-html="item.title"
-                              class="m10b"
-                            ></p>
-                            <img
-                              :class="item.id == 3 ? 'imgstyle_3 ':'imgstyle'"
-                              :src="item.images[0]"
-                              alt=""
-                            />
-
-                            <div
-                              class="row"
-                              :class="item.id == 3 ? 'm10l' : 'm6l'"
-                            >
-                              <div
-                                class="m6vhL"
-                                v-if="item.roundOne.inputs[0].numOfInput !=0"
-                              >
-                                <template
-                                  v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
-                                >
-                                  <input
-                                    type="text"
-                                    class="input emptyInput"
-                                    index="0"
-                                    :indexInput="i"
-                                    @change="changeValue();"
-                                    @click="clickInput()"
-                                    @keyup="maxLength($event,i)"
-                                  />
-                                  <div
-                                    class="help hand display help-input"
-                                    v-if="helpHand && i==0"
-                                    :class="{'handEng':upper || (!upper && isEng)}"
-                                  ></div>
-                                </template>
-                              </div>
-                              <img
-                                v-if="item.id == 3"
-                                class="numberimggs"
-                                :src="item.imag[0]"
-                                alt=""
-                              />
-                              <p
-                                style="position: absolute; left: 15.5vh"
-                                v-if="item.roundOne.inputs[1].numOfInput==0"
-                              >
-                                {{item.number}}
-                              </p>
-                              <img
-                                v-if="item.id != 3"
-                                class="numberimg"
-                                :src="item.images[1]"
-                                alt=""
-                              />
-                              <div>
-                                <template
-                                  v-for="(input, i) in item.roundOne.inputs[1].numOfInput"
-                                >
-                                  <input
-                                    type="text"
-                                    class="input emptyInput"
-                                    index="1"
-                                    :indexInput="i"
-                                    @change="changeValue();"
-                                    @click="clickInput()"
-                                    @keyup="maxLength($event,i)"
-                                  />
-                                  <div
-                                    class="help hand display help-input"
-                                    v-if="helpHand && i==0"
-                                    :class="{'handEng':upper || (!upper && isEng)}"
-                                  ></div>
-                                </template>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row" v-if="item.id == 2">
+                        <div class="row">
                           <div class="coloumn">
                             <p
                               style="height: 8h"
@@ -180,62 +99,98 @@
                               class="m5b"
                             ></p>
                             <img
-                              class="imgstyle_2"
+                              class="imgstyle"
                               :src="item.images[0]"
                               alt=""
                             />
 
-                            <div class="row m15r">
-                              <div
-                                class="m6vhL"
-                                v-if="item.roundOne.inputs[0].numOfInput !=0"
-                              >
+                            <div
+                              class="row"
+                              style="margin-right: 12vh; margin-top: 1vh"
+                            >
+                           
                                 <template
-                                  v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
-                                >
-                                  <input
-                                    type="text"
-                                    class="input emptyInput"
-                                    index="0"
-                                    :indexInput="i"
-                                    @change="changeValue();"
-                                    @click="clickInput()"
-                                    @keyup="maxLength($event,i)"
-                                  />
-                                  <div
-                                    class="help hand display help-input"
-                                    v-if="helpHand && i==0"
-                                    :class="{'handEng':upper || (!upper && isEng)}"
-                                  ></div>
-                                </template>
-                              </div>
-
-                              <img
-                                v-if="item.id != 3"
-                                class="numberimg"
+                                v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput m6vhL"
+                                  index="0"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  @keyup="maxLength($event,i)"
+                                />
+                                <div
+                                  class="help hand display help-input"
+                                  v-if="helpHand && i==0"
+                                  :class="{'handEng':upper || (!upper && isEng)}"
+                                ></div>
+                              </template>
+   <img
+                                v-if="item.id == 3"
+                                class="numberimgg3"
+                                :src="item.imag[0]"
+                                alt=""
+                              />
+                               <img
+                                v-if="item.id == 2"
+                                class="numberimgg2"
                                 :src="item.images[1]"
                                 alt=""
                               />
-                              <div>
-                                <template
-                                  v-for="(input, i) in item.roundOne.inputs[1].numOfInput"
-                                >
-                                  <input
-                                    type="text"
-                                    class="input emptyInput"
-                                    index="1"
-                                    :indexInput="i"
-                                    @change="changeValue();"
-                                    @click="clickInput()"
-                                    @keyup="maxLength($event,i)"
-                                  />
-                                  <div
-                                    class="help hand display help-input"
-                                    v-if="helpHand && i==0"
-                                    :class="{'handEng':upper || (!upper && isEng)}"
-                                  ></div>
-                                </template>
-                              </div>
+   
+                              <p
+                                style="
+                                  position: absolute;
+
+                                  left: 56%;
+
+                                  top: 70%;
+                                "
+                              >
+                                {{item.number}}
+                              </p>
+
+
+                              
+                              <p
+                                v-if="item.id==3"
+                                style="
+                                  position: absolute;
+
+                                  left: 57%;
+
+                                  top: 70%;
+                                "
+                              >
+                                {{item.nuumber}}
+                              </p>
+                              <img
+                                v-if="item.id == 1"
+                                class="numberimgg1"
+                                :src="item.images[1]"
+                                alt=""
+                              />
+                         
+                              <template
+                                v-for="(input, i) in item.roundOne.inputs[1].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput numberimg"
+                                  index="1"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  @keyup="maxLength($event,i)"
+                                />
+                                <div
+                                  class="help hand display help-input"
+                                  v-if="helpHand && i==0"
+                                  :class="{'handEng':upper || (!upper && isEng)}"
+                                ></div>
+                              </template>
                             </div>
                           </div>
                         </div>
@@ -243,11 +198,11 @@
                     </div>
                     <div class="roundTwo" :class="{'activeRound': roundTwo}">
                       <div class="round" :class="{'roundNone': !roundTwo}">
-                        <div class="row" v-if="item.id !=2">
+                        <div class="row">
                           <div class="coloumn">
                             <p
                               style="height: 8h"
-                              v-html="item.title"
+                              v-html="item.title2"
                               class="m5b"
                             ></p>
                             <img
@@ -256,44 +211,23 @@
                               alt=""
                             />
 
-                            <div class="row m6l">
+                            <div class="row  " style="margin-right: 10vh">
                               <img
-                                class="numberimg"
+                                class="numberimg2"
                                 :src="item.images[3]"
                                 alt=""
                               />
-                              <p style="position: absolute; left: 15.5vh">
-                                {{item.number}}
+                              <p style="position: absolute; left: 21.3vh">
+                                {{item.number2}}
+                              </p>
+                              <p
+                                v-if="item.id==3"
+                                style="position: absolute; left: 20.5vh"
+                              >
+                                {{item.nuumber}}
                               </p>
                               <img
-                                class="numberimg"
-                                :src="item.images[1]"
-                                alt=""
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row" v-if="item.id == 2">
-                          <div class="coloumn">
-                            <p
-                              style="height: 8h"
-                              v-html="item.title"
-                              class="m5b"
-                            ></p>
-                            <img
-                              class="imgWithColor_2"
-                              :src="item.images[2]"
-                              alt=""
-                            />
-
-                            <div class="row m13r">
-                              <img
-                                class="numberimg"
-                                :src="item.images[3]"
-                                alt=""
-                              />
-                              <img
-                                class="numberimg"
+                                class="numberimg2"
                                 :src="item.images[1]"
                                 alt=""
                               />
@@ -301,7 +235,7 @@
                           </div>
                         </div>
 
-                        <div class="row" :class="{'m20r':item.id == 2}">
+                        <div class="row" style="flex-direction: row-reverse">
                           <p>{{item.sign[0]}}</p>
 
                           <template
