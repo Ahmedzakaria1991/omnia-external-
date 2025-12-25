@@ -1,0 +1,326 @@
+{
+  "counterCorrect": 0,
+  "LOcorrectcounter": 0,
+  "loTargets": null,
+  "numberOfquestion": 0,
+  "id": "",
+  "subjectId": "",
+  "conceptId": "",
+  "unitId": "",
+  "lessonId": "",
+  "title": "",
+  "keywords": "",
+  "learningObjectives": "",
+  "BloomLevels": [],
+  "type": "",
+  "loDegree": null,
+  "UserDegree": null,
+  "subType": "Choose",
+  "startTime": "",
+  "endTime": "",
+  "slides": [
+    {
+      "img": "images/s1.png"
+    }
+  ],
+  "tabs": [
+    {
+      "active": false,
+      "txt": "",
+      "img": "images/t1/t1.png",
+      "slides": [
+        {
+          "img": "images/t1/s2.png"
+        },
+        {
+          "img": "images/t1/s3.png"
+        },
+        {
+          "img": "images/t1/s4.png"
+        },
+        {
+          "img": "images/t1/s5.png"
+        }
+      ]
+    },
+    {
+      "active": false,
+      "txt": "",
+      "img": "images/t2/t2.png",
+      "slides": [
+        {
+          "img": "images/t2/s6.png"
+        },
+        {
+          "img": "images/t2/s7.png"
+        },
+        {
+          "img": "images/t2/s8.png"
+        },
+        {
+          "img": "images/t2/s9.png"
+        },
+        {
+          "img": "images/t2/s10.png"
+        },
+        {
+          "img": "images/t2/s11.png"
+        },
+        {
+          "img": "images/t2/s12.png"
+        }
+      ]
+    },
+    {
+      "active": false,
+      "txt": "",
+      "img": "images/t3/t3.png",
+      "slides": [
+        {
+          "img": "images/t3/s13.png"
+        },
+        {
+          "img": "images/t3/s14.png"
+        },
+        {
+          "img": "images/t3/s15.png"
+        },
+        {
+          "img": "images/t3/s16.png"
+        },
+        {
+          "img": "images/t3/s17.png"
+        },
+        {
+          "img": "images/t3/s18.png"
+        },
+        {
+          "img": "images/t3/s19.png"
+        }
+      ]
+    },
+    {
+      "active": false,
+      "txt": "",
+      "img": "images/t4/t4.png",
+      "slides": [
+        {
+          "img": "images/t4/s20.png"
+        },
+        {
+          "img": "images/t4/s21.png"
+        },
+        {
+          "img": "images/t4/s22.png"
+        },
+        {
+          "img": "images/t4/s23.png"
+        },
+        {
+          "img": "images/t4/s24.png"
+        }
+      ]
+    },
+    {
+      "active": false,
+      "txt": "",
+      "img": "images/t5/t5.png",
+      "slides": [
+        {
+          "img": "images/t5/s25.png"
+        },
+        {
+          "img": "images/t5/s26.png"
+        },
+        {
+          "img": "images/t5/s27.png"
+        } 
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": 2,
+      "subtype": "images",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "learningOutCome": null,
+      "questionType": "text",
+      "answersType": "text",
+      "text": "",
+      "img": "images/q/typ3-q1.png",
+      "sound": "sound/q/1.mp3",
+      "answers": [
+        {
+          "text": null,
+          "img": "images/q/typ3-a1-1.png",
+          "sound": null,
+          "isRight": true,
+          "checked": false
+        },
+        {
+          "text": null,
+          "img": "images/q/typ3-a1-2.png",
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": null,
+          "img": "images/q/typ3-a1-3.png",
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "subtype": "images",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "learningOutCome": null,
+      "questionType": "text",
+      "answersType": "text",
+      "text": "",
+      "img": "images/q/typ3-q2.png",
+      "sound": "sound/q/2.mp3",
+      "answers": [
+        {
+          "text": null,
+          "img": "images/q/typ3-a2-1.png",
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": null,
+          "img": "images/q/typ3-a2-2.png",
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": null,
+          "img": "images/q/typ3-a2-3.png",
+          "sound": null,
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "subtype": "images",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "learningOutCome": null,
+      "questionType": "text",
+      "answersType": "text",
+      "text": "",
+      "img": "images/q/typ3-q3.png",
+      "sound": "sound/q/3.mp3",
+      "answers": [
+        {
+          "text": null,
+          "img": "images/q/typ3-a3-1.png",
+          "sound": null,
+          "isRight": true,
+          "checked": false
+        },
+        {
+          "text": null,
+          "img": "images/q/typ3-a3-2.png",
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "text": null,
+          "img": "images/q/typ3-a3-3.png",
+          "sound": null,
+          "isRight": false,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "subtype": "truefalse",
+      "tfType": "text",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "questionType": "text",
+      "answersType": "image",
+      "text": null,
+      "img": "images/q/typ5-q1.png",
+      "sound": "sound/q/4.mp3",
+      "answers": [
+        {
+          "isRight": true,
+          "checked": false
+        },
+        {
+          "isRight": false,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "subtype": "truefalse",
+      "tfType": "text",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "questionType": "text",
+      "answersType": "image",
+      "text": null,
+      "img": "images/q/typ5-q2.png",
+      "sound": "sound/q/5.mp3",
+      "answers": [
+        {
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "subtype": "truefalse",
+      "tfType": "text",
+      "active": false,
+      "numberOfTrial": 0,
+      "startTime": "",
+      "endTime": "",
+      "questionType": "text",
+      "answersType": "image",
+      "text": null,
+      "img": "images/q/typ5-q3.png",
+      "sound": "sound/q/6.mp3",
+      "answers": [
+        {
+          "isRight": false,
+          "checked": false
+        },
+        {
+          "isRight": true,
+          "checked": false
+        }
+      ]
+    }
+  ]
+}
