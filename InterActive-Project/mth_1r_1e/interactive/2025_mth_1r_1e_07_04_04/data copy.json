@@ -112,10 +112,10 @@
         "parag1": "are added. What is the total number of bottles now?",
         "img": "./images/q2.png",
 
-        "title": "13 &nbsp; + 6 ",
-        "title2": ["The mathematical sentence: ", "The answer:", "bottles.", "+ 6"],
+        "title": "13  &nbsp;+ 6 ",
+        "title2": ["The mathematical sentence: ", "The answer:", "bottles.", " +  " ,"6 "],
 
-        "sign": ["", "=", "+"],
+        "sign": [" ", " = ", " + "],
         "images": "./images/v.png",
         "roundOne": {
           "numberInputs": 0,
@@ -123,11 +123,11 @@
           "inputs": [
             {
               "numOfInput": 1,
-              "valid": ["10"]
+              "valid": ["3"]
             },
             {
               "numOfInput": 2,
-              "valid": ["3", "3"],
+              "valid": ["10", "10"],
               "sharedValue": ""
             },
             {
@@ -162,7 +162,8 @@
             }
           ]
         }
-      },
+      }
+      ,
       {
         "id": 3,
         "active": true,

@@ -27,7 +27,81 @@
     "isEng": true,
     "informationLO": "Read, then answer.",
     "items": [
- 
+      {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "parag": "There are 14 cats, then 4 more cats come. What is the total number of cats now?",
+        "parag1": "",
+        "img": "./images/q1.png",
+
+        "title": "4 + 14 ",
+        "title2": [
+          " The mathematical sentence:",
+          "The answer:",
+          "cats.",
+          " + ",
+          " 14 "
+        ],
+
+        "sign": ["", "=", "+"],
+        "images": "./images/v.png",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 2,
+              "valid": ["4", "4"],
+              "sharedValue": ""
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["8"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["4"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            }
+          ]
+        }
+      },
+
       {
         "id": 2,
         "active": true,
@@ -46,7 +120,13 @@
         "img": "./images/q2.png",
 
         "title": "13  &nbsp;+ 6 ",
-        "title2": ["The mathematical sentence: ", "The answer:", "bottles.", " +  " ,"6 "],
+        "title2": [
+          "The mathematical sentence: ",
+          "The answer:",
+          "bottles.",
+          " +  ",
+          "6 "
+        ],
 
         "sign": [" ", " = ", " + "],
         "images": "./images/v.png",
@@ -84,6 +164,80 @@
             {
               "numOfInput": 1,
               "valid": ["13"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "parag": "A tree has 15 birds on it, then 4 more birds join them. ",
+        "parag1": "What is the total number of birds now?",
+        "img": "./images/q3.png",
+
+        "title": "4  +  15 ",
+        "title2": [
+          "The mathematical sentence: ",
+          "The answer:",
+          "birds.",
+          "+ ",
+          " 15"
+        ],
+
+        "sign": ["", "=", "+"],
+        "images": "./images/v.png",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 2,
+              "valid": ["5", "5"],
+              "sharedValue": ""
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["9"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["4"]
             },
             {
               "numOfInput": 1,
