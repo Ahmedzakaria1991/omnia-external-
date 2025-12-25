@@ -106,16 +106,23 @@
 
                             <div
                               class="row"
-                              style="margin-right: 12vh; margin-top: 1vh"
+                              style="margin-right: 10vh; margin-top: 1vh"
                             >
-                           
-                                <template
+                              <img
+                                v-if="item.id == 2"
+                                class="numberimgg2"
+                                :src="item.images[1]"
+                                alt=""
+                              />
+
+                              <template
                                 v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
                               >
                                 <input
                                   type="text"
                                   class="input emptyInput m6vhL"
                                   index="0"
+                                  style="margin-left: 12vh"
                                   :indexInput="i"
                                   @change="changeValue();"
                                   @click="clickInput()"
@@ -127,24 +134,18 @@
                                   :class="{'handEng':upper || (!upper && isEng)}"
                                 ></div>
                               </template>
-   <img
+                              <img
                                 v-if="item.id == 3"
                                 class="numberimgg3"
                                 :src="item.imag[0]"
                                 alt=""
                               />
-                               <img
-                                v-if="item.id == 2"
-                                class="numberimgg2"
-                                :src="item.images[1]"
-                                alt=""
-                              />
-   
+
                               <p
                                 style="
                                   position: absolute;
 
-                                  left: 56%;
+                                  left: 12%;
 
                                   top: 70%;
                                 "
@@ -152,8 +153,6 @@
                                 {{item.number}}
                               </p>
 
-
-                              
                               <p
                                 v-if="item.id==3"
                                 style="
@@ -172,7 +171,7 @@
                                 :src="item.images[1]"
                                 alt=""
                               />
-                         
+
                               <template
                                 v-for="(input, i) in item.roundOne.inputs[1].numOfInput"
                               >
@@ -211,15 +210,7 @@
                               alt=""
                             />
 
-                            <div class="row  " style="margin-right: 10vh">
-                              <img
-                                class="numberimg2"
-                                :src="item.images[3]"
-                                alt=""
-                              />
-                              <p style="position: absolute; left: 21.3vh">
-                                {{item.number2}}
-                              </p>
+                            <div class="row" style="margin-right: 10vh">
                               <p
                                 v-if="item.id==3"
                                 style="position: absolute; left: 20.5vh"
@@ -228,9 +219,18 @@
                               </p>
                               <img
                                 class="numberimg2"
+                                :src="item.images[3]"
+                                alt=""
+                              />
+                              <img
+                                class="numberimg2"
                                 :src="item.images[1]"
                                 alt=""
                               />
+
+                              <p style="position: absolute; left: 21.3vh">
+                                {{item.number2}}
+                              </p>
                             </div>
                           </div>
                         </div>

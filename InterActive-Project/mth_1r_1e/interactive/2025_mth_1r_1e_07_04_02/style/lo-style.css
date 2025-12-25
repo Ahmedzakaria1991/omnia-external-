@@ -27,7 +27,7 @@
   width: 50%;
   position: absolute;
   top: 5vh;
-  right: 15.5vh;
+  right: 16.5vh;
   user-select: none;
   pointer-events: none;
 }
@@ -57,19 +57,19 @@
 /* .numberimg {
 
 } */
- .numberimgg1 {
+.numberimgg1 {
   width: 10vh;
   margin-left: 5vh;
 }
-.numberimgg2{
+.numberimgg2 {
   width: 10vh !important;
-  margin-left: 6vh !important;
+  margin-left: 4vh !important;
 }
 .numberimgg3 {
   width: 10vh;
   margin-left: 5vh;
 }
-.numberimg2{
+.numberimg2 {
   width: 10vh !important;
   margin-left: 4vh !important;
 }
@@ -98,7 +98,7 @@
   letter-spacing: 0.3vh;
   z-index: 5;
   font-size: 5.2vh !important;
-  margin-left: 4vh;
+  margin-left: 6vh;
 }
 .digital-screen .penguin .border .help {
   position: relative;
