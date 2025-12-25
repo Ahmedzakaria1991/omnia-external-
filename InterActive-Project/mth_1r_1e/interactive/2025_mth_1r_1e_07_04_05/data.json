@@ -56,7 +56,7 @@
           "12 "
         ],
 
-        "sign": ["-", "=", "+"," "],
+        "sign": ["-", "=", "+", " "],
         "images": "./images/v.png",
         "roundOne": {
           "numberInputs": 0,
@@ -73,11 +73,11 @@
             },
             {
               "numOfInput": 1,
-              "valid": ["10" ,"1"]
+              "valid": ["10", "1"]
             },
             {
               "numOfInput": 1,
-              "valid": ["1" ,"10"]
+              "valid": ["1", "10"]
             },
             {
               "numOfInput": 1,
@@ -103,8 +103,7 @@
             }
           ]
         }
-      }
-      ,
+      },
       {
         "id": 2,
         "active": true,
@@ -133,7 +132,7 @@
           " 6   "
         ],
 
-        "sign": ["-", "=", "+"," "],
+        "sign": ["-", "=", "+", " "],
         "images": "./images/v.png",
         "roundOne": {
           "numberInputs": 0,
@@ -150,11 +149,11 @@
             },
             {
               "numOfInput": 1,
-              "valid": ["10" , "2"]
+              "valid": ["10", "2"]
             },
             {
               "numOfInput": 1,
-              "valid": ["2","10"]
+              "valid": ["2", "10"]
             },
             {
               "numOfInput": 1,
@@ -209,7 +208,7 @@
           "16 "
         ],
 
-        "sign": ["-", "=", "+"," "],
+        "sign": ["-", "=", "+", " "],
         "images": "./images/v.png",
         "roundOne": {
           "numberInputs": 0,
@@ -226,11 +225,11 @@
             },
             {
               "numOfInput": 1,
-              "valid": ["10" , "3"]
+              "valid": ["10", "3"]
             },
             {
               "numOfInput": 1,
-              "valid": ["3" ,"10"]
+              "valid": ["3", "10"]
             },
             {
               "numOfInput": 1,

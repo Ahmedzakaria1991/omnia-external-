@@ -134,8 +134,6 @@
                                     maxlength="1"
                                     @keyup="maxLength($event,i)"
                                   />
-                                  
-                             
                                 </template>
 
                                 <p>{{item.sign[3]}}</p>
@@ -154,11 +152,11 @@
                                     @click="clickInput()"
                                     @keyup="maxLength($event,i)"
                                   />
-                                     <div
+                                  <div
                                     class="help hand display help-input"
                                     v-if="helpHand && i==0"
                                     :class="{'handEng':upper || (!upper && isEng)}"
-                                  ></div> 
+                                  ></div>
                                 </template>
                               </div>
 
@@ -177,7 +175,6 @@
                                     @click="clickInput()"
                                     @keyup="maxLength($event,i)"
                                   />
-                                    
                                 </template>
                                 <p>{{item.sign[2]}}</p>
 
@@ -237,15 +234,20 @@
                               <p class="text parag">{{item.title2[0]}}</p>
 
                               <div class="row5">
-                                  <p v-if="item.id==2" class="text parag">
-                                  {{item.title2[3]}}
-                                </p>
+                               
 
                                 <p v-if="item.id!=2" class="text parag">
                                   {{item.title2[3]}}
                                 </p>
-                                   <p style="font-size: 6vh; margin: 0vh 2vh 0vh 2vh;">{{item.sign[0]}}</p>
-
+                                   <p
+                                  v-if="item.id!=2"
+                                  style="
+                                    font-size: 6vh;
+                                    margin: 0vh 2vh 0vh 2vh;
+                                  "
+                                >
+                                  {{item.sign[0]}}
+                                </p>
                                 <template
                                   v-for="(input, i) in item.roundTwo.inputs[0].numOfInput"
                                 >
@@ -260,9 +262,24 @@
                                     @keyup="maxLength($event,i)"
                                   />
                                 </template>
+                                <p
+                                  v-if="item.id==2"
+                                  style="
+                                    font-size: 6vh;
+                                    margin: 0vh 2vh 0vh 2vh;
+                                  "
+                                >
+                                  {{item.sign[0]}}
+                                </p>
 
+                                <p v-if="item.id==2" class="text parag">
+                                  {{item.title2[3]}}
+                                </p>
                               
-                                <p>{{item.sign[1]}}</p>
+
+                                <p style="margin: 0 2vh 0 2vh">
+                                  {{item.sign[1]}}
+                                </p>
 
                                 <template
                                   v-for="(input, i) in item.roundTwo.inputs[1].numOfInput"
