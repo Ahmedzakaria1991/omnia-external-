@@ -14,7 +14,7 @@
 }
 
 .handEng {
-  left: -9vw;
+  left: -7vw;
   top: 1vw;
 }
 
@@ -27,7 +27,23 @@
   width: 50%;
   position: absolute;
   top: 5vh;
-  right: 16.5vh;
+  right: 19.5vh;
+  user-select: none;
+  pointer-events: none;
+}
+.img1 {
+  width: 50%;
+  position: absolute;
+  top: 5vh;
+  right: 19vh;
+  user-select: none;
+  pointer-events: none;
+}
+.img3 {
+  width: 50%;
+  position: absolute;
+  top: 5vh;
+  right: 19.5vh;
   user-select: none;
   pointer-events: none;
 }
@@ -59,15 +75,15 @@
 } */
 .numberimgg1 {
   width: 10vh;
-  margin-left: 5vh;
+  margin-left: 11vh;
 }
 .numberimgg2 {
   width: 10vh !important;
-  margin-left: 4vh !important;
+  margin-right: 14vh;
 }
 .numberimgg3 {
   width: 10vh;
-  margin-left: 5vh;
+  margin-right: 14vh;
 }
 .numberimg2 {
   width: 10vh !important;
@@ -98,7 +114,7 @@
   letter-spacing: 0.3vh;
   z-index: 5;
   font-size: 5.2vh !important;
-  margin-left: 6vh;
+  /* margin-left: 6vh; */
 }
 .digital-screen .penguin .border .help {
   position: relative;

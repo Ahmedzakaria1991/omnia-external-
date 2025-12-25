@@ -29,6 +29,67 @@
     "informationLO": "Complete to find the result.",
     "items": [
       {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "imag": [""],
+        "number": "5",
+        "number2": "5",
+
+        "title": "15  +  2 ",
+        "title2": "15 +  2 ",
+
+        "sign": ["=", "+", "="],
+        "images": [
+          "./images/vv.png",
+          "./images/e.png",
+          "./images/v.png",
+          "./images/100.png",
+          "./images/5.png"
+        ],
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["1"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 2,
+              "valid": ["10", "7"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["7"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["17"]
+            }
+          ]
+        }
+      },
+      {
         "id": 2,
         "active": true,
         "numberOfTrial": 0,
@@ -54,7 +115,8 @@
           "./images/vv.png",
           "./images/e.png",
           "./images/v.png",
-          "./images/10.png"
+          "./images/10.png",
+          "./images/e2.png"
         ],
         "roundOne": {
           "numberInputs": 0,
@@ -85,6 +147,66 @@
             {
               "numOfInput": 1,
               "valid": ["18"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "nuumber": "10",
+        "title": "11&nbsp;+&nbsp;4 ",
+        "title2": "11&nbsp; +  4 ",
+
+        "imag": ["./images/e.png"],
+
+        "sign": ["=", "+", "="],
+        "images": [
+          "./images/vv.png",
+          "./images/e.png",
+          "./images/v.png",
+          "./images/10.png",
+          "./images/111.png"
+        ],
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["1"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["1"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 2,
+              "valid": ["5", "10"]
+            },
+            {
+              "numOfInput": 0,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["15"]
             }
           ]
         }

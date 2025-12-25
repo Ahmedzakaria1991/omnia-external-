@@ -94,27 +94,46 @@
                         <div class="row">
                           <div class="coloumn">
                             <p
-                              style="height: 8h"
+                              style="height: 8h; margin-right: 6vh"
                               v-html="item.title"
                               class="m5b"
                             ></p>
+
+                            <img
+                              class="imgstyle img1"
+                              v-if="item.id==1"
+                              :src="item.images[0]"
+                              alt=""
+                            />
                             <img
                               class="imgstyle"
+                              v-if="item.id==2"
+                              :src="item.images[0]"
+                              alt=""
+                            />
+                            <img
+                              class="imgstyle img3"
+                              v-if="item.id==3"
                               :src="item.images[0]"
                               alt=""
                             />
 
                             <div
                               class="row"
-                              style="margin-right: 10vh; margin-top: 1vh"
+                              style="margin-right: 13vh; margin-top: 1vh"
                             >
                               <img
                                 v-if="item.id == 2"
                                 class="numberimgg2"
-                                :src="item.images[1]"
+                                :src="item.images[3]"
                                 alt=""
                               />
-
+                              <img
+                                v-if="item.id == 3"
+                                class="numberimgg3"
+                                :src="item.images[3]"
+                                alt=""
+                              />
                               <template
                                 v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
                               >
@@ -122,7 +141,8 @@
                                   type="text"
                                   class="input emptyInput m6vhL"
                                   index="0"
-                                  style="margin-left: 12vh"
+                                  v-if="item.id != 3"
+                                  style="margin-right: 0vh"
                                   :indexInput="i"
                                   @change="changeValue();"
                                   @click="clickInput()"
@@ -130,18 +150,32 @@
                                 />
                                 <div
                                   class="help hand display help-input"
-                                  v-if="helpHand && i==0"
+                                  v-if="helpHand && i==0 && item.id != 3"
                                   :class="{'handEng':upper || (!upper && isEng)}"
                                 ></div>
                               </template>
-                              <img
-                                v-if="item.id == 3"
-                                class="numberimgg3"
-                                :src="item.imag[0]"
-                                alt=""
-                              />
+                              <template
+                                v-for="(input, i) in item.roundOne.inputs[0].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput m6vhL"
+                                  index="0"
+                                  v-if="item.id == 3"
+                                  style="margin-right: 1vh"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  @keyup="maxLength($event,i)"
+                                />
+                                <div
+                                  class="help hand display help-input"
+                                  v-if="helpHand && i==0 && item.id == 3"
+                                  :class="{'handEng':upper || (!upper && isEng)}"
+                                ></div>
+                              </template>
 
-                              <p
+                              <!-- <p
                                 style="
                                   position: absolute;
 
@@ -151,9 +185,9 @@
                                 "
                               >
                                 {{item.number}}
-                              </p>
+                              </p> -->
 
-                              <p
+                              <!-- <p
                                 v-if="item.id==3"
                                 style="
                                   position: absolute;
@@ -164,11 +198,11 @@
                                 "
                               >
                                 {{item.nuumber}}
-                              </p>
+                              </p> -->
                               <img
                                 v-if="item.id == 1"
                                 class="numberimgg1"
-                                :src="item.images[1]"
+                                :src="item.images[4]"
                                 alt=""
                               />
 
@@ -211,12 +245,12 @@
                             />
 
                             <div class="row" style="margin-right: 10vh">
-                              <p
+                              <!-- <p
                                 v-if="item.id==3"
                                 style="position: absolute; left: 20.5vh"
                               >
                                 {{item.nuumber}}
-                              </p>
+                              </p> -->
                               <img
                                 class="numberimg2"
                                 :src="item.images[3]"
@@ -224,13 +258,13 @@
                               />
                               <img
                                 class="numberimg2"
-                                :src="item.images[1]"
+                                :src="item.images[4]"
                                 alt=""
                               />
 
-                              <p style="position: absolute; left: 21.3vh">
+                              <!-- <p style="position: absolute; left: 21.3vh">
                                 {{item.number2}}
-                              </p>
+                              </p> -->
                             </div>
                           </div>
                         </div>
