@@ -1,341 +1,329 @@
 [
-    {
-        "nameId": "choose-slide",
-        "title": "",
-        "finshedChoose": false,
-        "hand": true,
-        "subject": "math-4",
-        "colorTemplate": "#AAD1EA",
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "choose-slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الإجابة الصحيحة",
+        "popuptext": [],
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["الجملة الرياضية : X+12 تمثل ......."],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " معادلة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ً  مقدارًا جبريًّا ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  متباينة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تعبيرًا عدديًّا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [" المُعامل في المقدار الجبري: 3X+5 هو ......"],
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " 3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ً  5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " 3X",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "X",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["إذا كان الأساس 4 والأس 5، فإن ....."],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<sup>4</sup>4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "<sup>4</sup>5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<sup>5</sup>5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "<sup>5</sup>4",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["الصورة الأسية 6<sup>4</sup> تكافئ ......"],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "6+6-6",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "6x4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "6+4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "6x6x6x6",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              " عدد حدود المقدار الجبري: 20+5n+3 يساوي ....... حدود."
+            ],
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "1",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              " لإيجاد قيمة التعبير العددي: 3 ÷ [1+(5-7) ] نقوم بعملية .............. أولًا."
+            ],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الضرب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "القسمة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الجمع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الطرح",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              ".......... =  3<sup>2</sup>+3<sup>2</sup>+3<sup>2</sup>"
+            ],
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<sup>3</sup>3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "<sup>6</sup>3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<sup>9</sup>3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "<sup>6</sup>2",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              " المقدار الجبري الذي يعبِّر عن: (12 زائد حاصل ضربd  في 3) هو ........."
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "12d+3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "3d+12",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "3-12d",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "12-3d",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popuptext": "",
-        "popup": "",
-        "passageHand": true,
-        "chooseSlide": [
-            {
-                "active": true,
-                "title": "اختر الإجابة الصحيحة",
-                "popuptext": [
-                   
-                ],
-                "qtitle":"",
-                "quizChooses": [
-            
-                     {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["الجملة الرياضية : X+12 تمثل ......."],
-                        "correctAnswer": [
-                           2
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":" معادلة",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "ً  مقدارًا جبريًّا ",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "  متباينة",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "تعبيرًا عدديًّا",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    }, {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": [" المُعامل في المقدار الجبري:3 X+5 هو ......"],
-                        "correctAnswer": [
-                          1
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":" 3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "ً  5",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": " 3X",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose":"X",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    }, {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["إذا كان الأساس 4 والأس 5، فإن ....."],
-                        "correctAnswer": [
-                         4
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"<sup>4</sup>4",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "<sup>4</sup>5",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "<sup>5</sup>5",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "<sup>5</sup>4",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
-                     {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["الصورة الأسية 6<sup>4</sup> تكافئ ......"],
-                        "correctAnswer": [
-                         4
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"6+6-6",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "6x4",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "6+4",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "6x6x6x6",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },  {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": [" عدد حدود المقدار الجبري: 20+5n+3 يساوي ....... حدود."],
-                        "correctAnswer": [
-                        1
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "5",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "2",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "1",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    }, 
-                    
-                    
-                    
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": [" لإيجاد قيمة التعبير العددي: 3 ÷ [1+(5-7) ] نقوم بعملية .............. أولًا."],
-                        "correctAnswer": [
-                           4
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"الضرب",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "القسمة",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "الجمع",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "الطرح",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    }, 
-                     {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": [".......... =  3<sup>2</sup>+3<sup>2</sup>+3<sup>2</sup>"],
-                        "correctAnswer": [
-                          1
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"<sup>3</sup>3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "<sup>6</sup>3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "<sup>9</sup>3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "<sup>6</sup>2",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    }, 
-                    {
-                       "id": 1,
-                       "popup": "",
-                       "paragraph": [" المقدار الجبري الذي يعبِّر عن: (12 زائد حاصل ضربd  في 3) هو ........."],
-                       "correctAnswer": [
-                        2
-                       ],
-                       "answerSelect": false,
-                       "counter": 0,
-                       "type": 1,
-                       "answers": [
-                           {
-                               "numAnswer": 1,
-                               "toChoose":"12d+3",
-                               "right": false,
-                               "checked": false
-                           },
-                           {
-                               "numAnswer": 2,
-                               "toChoose": "3d+12",
-                               "right": false,
-                               "checked": false
-                           },
-                           {
-                               "numAnswer": 3,
-                               "toChoose": "3-12d",
-                               "right": false,
-                               "checked": false
-                           },
-                           {
-                               "numAnswer": 4,
-                               "toChoose": "12-3d",
-                               "right": false,
-                               "checked": false
-                           }
-                       ]
-                   }
-                ],
-                "popupQuestion": [
-                    {
-                        "id": 0,
-                        "index": "4",
-                        "paragraph": "",
-                        "popup": [],
-                        "isActive": null
-                    }
-                ]
-            }
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

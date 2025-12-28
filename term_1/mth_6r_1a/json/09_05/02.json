@@ -1,63 +1,47 @@
 [
-    {
-        "nameId": "",
-        "title": "أكمل ما يلي",
-        "subject": "math-4",
-        "finshedDrag": false,
-        "colorTemplate": "#5a7cec",
-        "dragCounter": 0,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "أكمل ما يلي",
+    "subject": "math-4",
+    "finshedDrag": false,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "qtitle": "افترض أن ثلاثة تلاميذ كانوا يجمعون بيانات عن السؤال الإحصائي. (ما عدد الأغاني الموجودة على هواتف تلاميذ الصف السادس الابتدائي أو أجهزتهم الموسيقية؟) ، اختر اسمًا لكل سؤال حسب نوع الرسم البياني الذي سيعرض إجابته بأفضل صورة.",
+    "droggableBox": [
+      {
+        "number": [1],
+        "text1": ["ما عدد التلاميذ الذين لديهم 150 أغنية بالضبط على أجهزتهم؟"],
+        "text2": [],
+        "wrod": "مخطط التمثيل بالنقاط",
+        "type": 1,
+        "counter": 0
+      },
+      {
+        "number": [2],
+        "text1": ["ما العدد الوسيط للأغاني؟"],
+        "text2": [],
+        "wrod": "مخطط الصندوق",
+        "type": 1,
+        "counter": 0
+      },
+      {
+        "number": [3],
+        "text1": [
+          "ما عدد التلاميذ الذين لديهم من 90 إلى 119 أغنية على أجهزتهم؟"
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "qtitle":"افترض أن ثلاثة تلاميذ كانوا يجمعون بيانات عن السؤال الإحصائي. (ما عدد الأغاني الموجودة على هواتف تلاميذ الصف السادس الابتدائي أو أجهزتهم الموسيقية؟) ، اختر اسمًا لكل سؤال حسب نوع الرسم البياني الذي سيعرض إجابته بأفضل صورة.",
-        "droggableBox": [
-            {
-                "number": [
-                    1
-                ],
-                "text1": [
-                   "ما عدد التلاميذ الذين لديهم 150 أغنية بالضبط على أجهزتهم؟"
-                ],
-                "text2": [
-                ],
-                "wrod": "مخطط التمثيل بالنقاط",
-                "type": 1,
-                "counter": 0
-            },
-            {
-                "number": [
-                    2
-                ],
-                "text1": [
-                   "ما العدد الوسيط للأغاني؟"
-                ],
-                "text2": [
-                ],
-                "wrod": "مخطط الصندوق",
-                "type": 1,
-                "counter": 0
-            },
-            {
-                "number": [
-                    3
-                ],
-                "text1": [
-                 "ما عدد التلاميذ الذين لديهم من 90 إلى 119 أغنية على أجهزتهم؟"
-                ],
-                "text2": [
-                ],
-                "wrod": "المدرج التكراري",
-                "type": 1,
-                "counter": 0
-            }
-            
-        ]
-    }
+        "text2": [],
+        "wrod": "المدرج التكراري",
+        "type": 1,
+        "counter": 0
+      }
+    ]
+  }
 ]
