@@ -1,0 +1,272 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الإجابة الصحيحة",
+        "popuptext": [],
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "المتغير الذي  يمثل العدد المدخل في المعادلة  𝑦=10𝑥   هو ..........."
+            ],
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "10",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "𝑦",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "𝑥",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "10𝑥",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "إذا كان العدد المدخل في المعادلة : 𝑦=3𝑥−3   هو 4 فإن العدد المخرج "," &nbsp; هو .............."
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "10",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "9",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "إذا كان 𝑥 متغيرًا مستقلًّا و 𝑦  متغيرًا تابعًا فإن المعادلة التي تعبر",
+              " عن (اضرب في 3 ثم أجمع 1) هي ..........."
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "𝑥=3𝑦+ 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "𝑦=3𝑥+ 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "𝑥=3𝑦- 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "𝑦=𝑥+ 3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["إذا كان 𝑥"],
+            "up": "1",
+            "down": "4",
+            "paragraph2": ["=𝑦   وكان   28 = 𝑥 فإن: .....................= 𝑦"],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "8",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "28",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "112",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "7",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "إذا كان 𝑥  ، 𝑦  متغيرين ، حيث 𝑥 متغيرًا مستقل  فإن المعادلة التي تعبر ",
+              "عن القاعدة (الضرب في 6) هي .............."
+            ],
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "x = 6 y ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "𝑦=6+ 𝑥",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "𝑦=6 𝑥 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "𝑥=𝑦+ 6",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["إذا كان العدد المدخل في المعادلة:  𝑥+12"],
+            "up": "1",
+            "down": "2",
+            "paragraph2": ["&nbsp; =y هو 8&nbsp;", "  فإن العدد المخرج  هو ......"],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "8",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "16",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "28",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

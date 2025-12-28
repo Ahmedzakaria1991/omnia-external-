@@ -1,0 +1,196 @@
+[
+    {
+        "nameId": "trueSlide",
+        "finshedChoose": false,
+        "help": true,
+        "subject": "math-4",
+        "colorTemplate": "#FCC6B0",
+        "hand": true,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "trueSlide": [
+            {
+                "active": true,
+                "title": "ضع علامة ( ✓ ) أو  ( ✗ )",
+                "popuptext": [
+                    ""
+                ],
+                "audio_in_page": "",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "paragraph": "3 تنتمي إلى مجموعة حل المتباينة 3  ≥  𝑥",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [
+                            {
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "paragraph": " 7 – تنتمي إلى مجموعة حل المتباينة 8 –  >  𝑥",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [
+                            {
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "paragraph": "12 لا تنتمي إلى مجموعة حل المتباينة 10 –  ≥  𝑥",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [
+                            {
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "paragraph": "0.3 تنتمي إلى مجموعة حل المتباينة 3  ≤  𝑥",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [
+                            {
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "paragraph": "2.09 تنتمي إلى مجموعة حل المتباينة 1 –  <  𝑥",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [
+                            {
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 2,
+                        "type": 3,
+                        "index": "",
+                        "paragraph": "  ",
+                        "quran": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

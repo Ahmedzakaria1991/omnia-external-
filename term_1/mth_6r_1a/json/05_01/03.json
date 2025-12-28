@@ -1,0 +1,647 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4 ",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [
+      ""
+    ],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": " اختر الإجابة الصحيحة ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  أيُّ التعبيرات الرياضية التالية لا يُمَثِّل مقدارًا جبريًّا؟",
+            "correctAnswer": [
+              3
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "2x + y ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 3m",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "x = 2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "  2x − 5 ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "    أيٌّ مما يلي يُمَثِّل حدَّيْن جبريَّيْن متشابهين؟ ",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "3n ، 3y",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "x ، 3x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  y ، x ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " 2x ، 2",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": " أيُّ الحدود الجبرية التالية يُشبه الحد الجبري 4𝑥؟",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "4 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "4n",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " 4 + x ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  عدد الحدود الجبرية في المقدار الجبري 1 + m + 3 + 𝑥 5 يساوي ..... حدود.",
+            "correctAnswer": [
+              3
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " 5",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   أيُّ المقادير الجبرية التالية بها 3 حدود؟ ",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "3x + 3x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " x + x + 4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "2x + 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "3x ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "popup": "",
+            "paragraph": "    في المقدار الجبري 5x + 2 المُعامل هو",
+            "correctAnswer": [
+              3
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "7",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "x ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "popup": "",
+            "paragraph": "     أيُّ الحدود الجبرية التالية مُعامله يساوي",
+            "up": 1,
+            "down": 3,
+            "correctAnswer": [
+              4
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "ansfraction": true,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "3x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " ",
+                "up": "1",
+                "down": "3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "",
+                "up": "x",
+                "down": "3",
+                "sign": "−",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "x ",
+                "up": "1",
+                "down": "3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "popup": "",
+            "paragraph": "      المُعامل في المقدار الجبري  x + 2 هو ...... ",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "3 ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "popup": "",
+            "paragraph": " عدد الحدود الجبرية المتشابهة في المقدار الجبري: ",
+            "correctAnswer": [
+              1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "paragraph1": "  2n + n − 7m + 5n يساوي ...... ",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "  لا شيء مما سبق  ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "popup": "",
+            "paragraph": "في المقدار الجبري z + 7 + 4z ",
+            "paragraph1": "+ ",
+            "paragraph2": "0.3z الثابت هو ..........",
+            "up": 1,
+            "down": 2,
+            "correctAnswer": [
+              4
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "ansfraction": true,
+            "fraction": true,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "0.3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "",
+                "up": "1",
+                "down": "2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "7",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختر الإجابة الصحيحة ",
+        "popuptext": [],
+        "qtitle": "اختر الوصف المناسب للتعبير الرياضي",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "2 + 6 × 3 ← ......",
+            "correctAnswer": [
+              1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " 7 + 5n  ← ......",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " 2m  + m  ← ......",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " 1 – 3𝑥  + 2𝑥    ← ......",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " (5 + 1.6) × 2   ← ......",
+            "correctAnswer": [
+              1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "r + s  – t    ← ......",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " 6 + m    ← ......",
+            "correctAnswer": [
+              2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " 3.01 – 9   ← ......",
+            "correctAnswer": [
+              1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبير عددي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مقدار جبري",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

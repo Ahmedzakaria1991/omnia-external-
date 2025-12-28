@@ -320,6 +320,9 @@ new Vue({
       this.posts[0].counterCorrect == this.posts[0].quizChooses.length
         ? this.finshed()
         : this.posts[0].finshedChoose;
+
+        console.log( this.posts[0].counterCorrect)
+         console.log( this.posts[0].quizChooses.length)
     },
     shuffle: function () {
       let numbers = [...this.posts[0].quizChooses];

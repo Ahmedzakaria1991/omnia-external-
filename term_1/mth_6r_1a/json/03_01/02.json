@@ -1,0 +1,355 @@
+[
+    {
+        "nameId": "trueFalse",
+        "title": "ضع علامة (✓) أو (✗)",
+        "finshedChoose": false,
+        "help": true,
+        "subject": "math-4",
+        "colorTemplate": "#FCC6B0",
+        "hand": true,
+        "popuptext": "",
+        "pop": "",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "paragraph": "  الأعداد 1 – ، 6 – ، 3 – تُمَثِّل أعدادًا طبيعية. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paragraph": "الأعداد 3 ، 8.1 ، 7 – تُمَثِّل أعدادًا نسبية. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paragraph": " جميع الأعداد الصحيحة هي أيضًا أعداد طبيعية. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "paragraph": "  جميع أعداد العد هي أيضًا أعداد طبيعية وأعداد صحيحة وأعداد نسبية.  ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "paragraph": "   جميع الأعداد النسبية هي أيضًا أعداد صحيحة. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "paragraph": "  جميع الأعداد الطبيعية هي أيضًا أعداد صحيحة وأعداد نسبية.  ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "paragraph": " جميع الأعداد الصحيحة هي أيضًا أعداد نسبية.  ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "paragraph": "   جميع الأعداد النسبية هي أيضًا أعداد طبيعية وأعداد العد. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "paragraph": "    مجموعة الأعداد الصحيحة تنتمي إلى مجموعة الأعداد النسبية.  ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "paragraph": "   24 تنتمي إلى مجموعة أعداد العد.  ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "paragraph": "   مجموعة الأعداد الطبيعية جزئية من مجموعة أعداد العد.   ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            }
+        ]
+    }
+]

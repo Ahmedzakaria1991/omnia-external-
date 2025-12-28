@@ -1,0 +1,188 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "اختر الإجابة الصحيحة",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": ["أيٌّ من الأسئلة التالية يمكن الإجابة عنها باستخدام المدرج التكراري التالي؟"],
+                        "correctAnswer": [
+                            1,2,3,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"../images/09_05_01.png",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"ما الفترة الأكثر شيوعًا لعدد الأغاني؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "ما عدد التلاميذ الذين تُمَثِّلهم البيانات؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "ما عدد التلاميذ الذين لديهم 180 أغنية   أو أكثر على أجهزتهم الموسيقية؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "ما عدد التلاميذ الذين لديهم 120 أغنية   بالضبط على أجهزتهم الموسيقية؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "ما أكبر عدد أغانٍ لدى أي تلميذ؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "ما عدد التلاميذ الذين لديهم من 90 إلى 179 أغنية؟",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": ["أيٌّ من الأسئلة التالية يمكن الإجابة عنها باستخدام مخطط التمثيل بالنقاط التالي؟"],
+                        "correctAnswer": [
+                            1,2,4,5
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"../images/09_05_02.png",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"ما الوسيط لعدد الإخوة؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "ما عدد التلاميذ الذين لديهم 3 إخوة؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": " ما الفترة الأكثر شيوعًا لعدد الإخوة؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "ما عدد التلاميذ الذين لديهم من 2 إلى 4 إخوة؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "ما عدد التلاميذ الذين تم سؤالهم عن عدد الإخوة؟",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": ["  أيٌّ من الأسئلة التالية يمكن الإجابة عنها باستخدام مخطط الصندوق التالي؟"],
+                        "correctAnswer": [
+                            3,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"../images/09_05_03.png",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"ما الفترة الأكثر شيوعًا لأعمار الأفراد؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "ما عدد الأفراد الذين تُمثِّلهم البيانات؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "ما الوسيط لأعمار الأفراد؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "ما عدد الأفراد الذين أعمارهم 18 سنة بالضبط؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "ما عدد الأفراد الذين أعمارهم من 19 سنة إلى 24 سنة؟",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "ما الحد الأدنى لأعمار الأفراد؟",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

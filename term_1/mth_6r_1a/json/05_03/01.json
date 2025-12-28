@@ -1,0 +1,397 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الإجابة الصحيحة",
+        "popuptext": [],
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "الجملة الرياضية: 𝑥  +  2y تمثِّل .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "تعبيرًا عدديٍّا",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "مقدارًا جبريٍّا",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "متباينة",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "معادلة",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   المُعامل في المقدار الجبري: 9𝑥  +  2 هو .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "2",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "9",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "𝑥",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "5",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "العدد 4 في المقدار الجبري: 4 + 55 + 14a يمثِّل .....",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "ثابتًا",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "مُعاملًا",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "متغيرًا",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "غير ذلك",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "في المقدار الجبري:  7 + r + 3 + m الحدَّان الجبريان المتشابهان هما ......",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "3 ، 7",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "3 ، r",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "3 ، m",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "m ، r",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " 7 أمثال العدد  m مضافًا إليها 9 هي ......",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "7m",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "9 + 7m",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "9 -  7m",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "7 + 9m",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُعامل الحد الجبري: ",
+            "paragraph1": "هو .....",
+            "up": "n",
+            "down": "2 ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "2",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "4",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "",
+                "fractions": [
+                  {
+                    "up": "1",
+                    "down": "2"
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "2 + n",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,558 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-4",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمل ما يلي",
+        "popuptext": [""],
+        "qtitle": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["أنواع البيانات الإحصائية:"],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "،",
+                    "valid": ["بيانات عددية", "بيانات وصفية"],
+                    "show": ["بيانات عددية", "بيانات وصفية"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["البيانات"],
+                "paragraphes2": ["تُكْتَب في صورة كلمات، بينما البيانات"],
+                "paragraphes3": ["تُكْتَب في صورة أعداد."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["الوصفية"],
+                    "show": ["الوصفية"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["العددية"],
+                    "show": ["العددية"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["عدد الأبناء من البيانات"],
+                "paragraphes2": ["، بينما الجنسية من البيانات"],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["العددية"],
+                    "show": ["العددية"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["الوصفية"],
+                    "show": ["الوصفية"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "(ما الفاكهة المُفَضَّلة لدى أفراد أسرتك؟) يُعْتَبَر سؤالًا"
+                ],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": [
+                      "إحصائياً",
+                      "إحصائيا",
+                      "احصائى",
+                      "أحصائى",
+                      "أحصائيا",
+                      "أحصائياً"
+                    ],
+                    "show": ["إحصائياً"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "popuptext": [""],
+        "qtitle": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["تُصنف البيانات إلى بيانات وصفية وبيانات "],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "،",
+                    "valid": [" عددية"],
+                    "show": [" عددية"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "سؤال ينتج عنه الكثير من الإجابات المحتملة والمختلفة يُسمَّى سؤالًا"
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["إحصائيًّا"],
+                    "show": ["إحصائيًّا"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["العددية"],
+                    "show": ["العددية"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [" السؤال"],
+                "paragraphes2": ["هو الذي تكون له إجابة واحدة فقط."],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["غير إحصائي"],
+                    "show": ["غير إحصائي"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["الوصفية"],
+                    "show": ["الوصفية"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["نوع فصيلة الدم من البيانات الإحصائية"],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["الوصفية"],
+                    "show": ["الوصفية"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "5",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [" العنوان من البيانات"],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["الوصفية"],
+                    "show": ["الوصفية"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "6",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["(ما عمرك؟) سؤال"],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["غير إحصائي"],
+                    "show": ["غير إحصائي"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "7",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["عدد الإخوة من البيانات الإحصائية"],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["العددية"],
+                    "show": ["العددية"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

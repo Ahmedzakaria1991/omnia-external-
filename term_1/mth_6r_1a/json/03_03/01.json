@@ -1,0 +1,1225 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "اختر الاجابة الصحيحة",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "اختر الإجابة الصحيحة  ",
+                "image": false,
+                "popuptext": [],
+                "img": "",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph1": [],
+                        "up": "5",
+                        "down": "8",
+                        "paragraph2": [
+                            ".... 9 –"
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "<",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  >",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "=",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  غير ذلك",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "popup": "",
+                        "paragraph1": [
+                            "  مجموعة الأعداد الطبيعية ..... مجموعة أعداد العد.  "
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "تنتمي إلى ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "لا تنتمي إلى",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  تحتوي على ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": " لا تحتوي على",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "popup": "",
+                        "paragraph1": [
+                            "العدد"
+                        ],
+                        "up": "1",
+                        "down": "7",
+                        "paragraph2": [
+                            "ينتمي إلى مجموعة الأعداد ......"
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [
+                            ""
+                        ],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "الطبيعية",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "الصحيحة",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "النسبية",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "العد",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "popup": "",
+                        "paragraph1": [
+                            " أيُّ الأعداد النسبية التالية هو الأصغر؟"
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [
+                            ""
+                        ],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "6",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  1.8 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  15 – ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "popup": "",
+                        "paragraph1": [
+                            " الكسر الذي يُعَبِّر عن العدد النسبي 28 – هو ....."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [],
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "28",
+                                        "down": "1"
+                                    }
+                                ],
+                                "paragraph": "–",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "28",
+                                        "down": "10"
+                                    }
+                                ],
+                                "paragraph": "–",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "8",
+                                        "down": "2"
+                                    }
+                                ],
+                                "paragraph": "–",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "2",
+                                        "down": "8"
+                                    }
+                                ],
+                                "paragraph": "–",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "popup": "",
+                        "paragraph1": [
+                            "أيُّ الأعداد النسبية التالية تقع بين"
+                        ],
+                        "up": "1",
+                        "down": "3",
+                        "paragraph2": [
+                            "و"
+                        ],
+                        "up1": "2",
+                        "down1": "3",
+                        "paragraph3": [
+                            "؟ "
+                        ],
+                        "up2": "",
+                        "down2": "",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "4"
+                                    }
+                                ],
+                                "paragraph": "1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "11",
+                                        "down": "30"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "3",
+                                        "down": "6"
+                                    }
+                                ],
+                                "paragraph": "1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "2",
+                                        "down": "7"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "popup": "",
+                        "paragraph1": [
+"أيُّ الأعداد ليس في مكانه الصحيح في شكل فن المقابل؟"                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "img": "../images/03_03_01.png",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "4",
+                                        "down": "5"
+                                    }
+                                ],
+                                "paragraph": "–",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0.75",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph1": [
+                            "  أيٌّ مما يلي يُمَثِّل عددًا طبيعيًّا؟ "
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  5 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": " 8",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "1.7",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "9"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "popup": "",
+                        "paragraph1": [
+                            "   1.2 –  ....  5.9 –   "
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "<",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  >",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "=",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  غير ذلك",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "popup": "",
+                        "paragraph1": [
+                            " أصغر عدد صحيح موجب هو ......"
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [
+                            ""
+                        ],
+                        "up2": "",
+                        "down2": "",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "1 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "10",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "popup": "",
+                        "paragraph1": [
+                            " العدد 0 ينتمي إلى مجموعة الأعداد ...... "
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [
+                            ""
+                        ],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  النسبية والصحيحة فقط",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": " الطبيعية وأعداد العد",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  الطبيعية والصحيحة والنسبية",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "   الطبيعية والنسبية فقط ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "popup": "",
+                        "paragraph1": [
+                            "0.5 –  > ..... "
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [],
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0.2 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "1.1 –",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "popup": "",
+                        "paragraph1": [
+                            "  الكسر الذي يُعَبِّر عن العدد النسبي 0.75 هو ....."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "3",
+                                        "down": "4"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "5",
+                                        "down": "7"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "75",
+                                        "down": "10"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "7",
+                                        "down": "5"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "popup": "",
+                        "paragraph1": [
+                            "أيُّ الأعداد النسبية التالية يقع بين 5.6 و 5.7 ؟ "
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5.16",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5.00",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5.64",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5.72",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "popup": "",
+                        "paragraph1": [
+                            " العدد النسبي الذي يُمَثِّله الرمز a على خط الأعداد المقابل هو  ......"
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "img": "../images/03_03_02.png",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "3"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "3"
+                                    }
+                                ],
+                                "paragraph": "–",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "3"
+                                    }
+                                ],
+                                "paragraph": "1",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "3"
+                                    }
+                                ],
+                                "paragraph": "1 – ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "popup": "",
+                        "paragraph1": [
+                            "  العدد النسبي"
+                        ],
+                        "up": "3",
+                        "down": "4",
+                        "paragraph2": [
+                            " 2 – يقع بين العددين الصحيحين ......"
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  1  ، 2 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "  2 – ، 3 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": " 1 – ، 2 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": " 4  ، 3 ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

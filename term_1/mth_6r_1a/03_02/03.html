@@ -1,0 +1,103 @@
+﻿<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        body .general#DragAndDropRearrange .container .card-dropp .droppable,
+        body .general#DragAndDropRearrange .container .items .card-dragg .draggable {
+            min-width: 10vw;
+            height: 8vw;
+            align-items: center;
+        }
+
+        body .general#DragAndDropRearrange .container .card-dropp,
+        body .general#DragAndDropRearrange .container .items .card-dragg {
+            direction: ltr;
+        }
+
+        body .general#DragAndDropRearrange .head .title {
+            width: 50vw !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="DragAndDropRearrange" data-urlpage="03_02/03" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+
+            <div class="container">
+                <div v-for="(shuffled,index) in  shuffledQuiz">
+                    <div class="items">
+                        <span class="icon-index">{{index+1}}</span>
+
+                        <div class="card-dragg">
+                            <div v-for="( item, i) in  randomList( shuffled.items)" :data-number="item.idNum[0]"
+                                class="draggable">
+
+                                <p> {{ item.wrod[0]}}</p>
+                                <div class="fraction" v-if="item.up != ''">
+                                    <p>{{item.up}}</p>
+                                    <div class="line" style="width: 4vw;"></div>
+                                    <p>{{item.down}}</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card-dropp">
+                            <div class="arrow">
+                                <img src="../../../assets/images/arrow02.png" alt="">
+                            </div>
+                            <div v-for="( drop, i) in  shuffled.dropNumbers">
+                                <div :data-number="drop.idNum[0]" class="droppable">
+                                    <!-- <p>{{drop.idNum[0]}}</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="finished hide">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/dragdrop-rearrange.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

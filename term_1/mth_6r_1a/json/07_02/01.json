@@ -1,0 +1,584 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+         
+            {
+                "active": true,
+                "title": "اختر الإجابة الصحيحة",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"حوِّط القيم التي تمَثِّل حلولًا لكلِّ متباينة مما يلي في مجموعة الأعداد الصحيحة:",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "  8 ≥ 𝑥",
+                        "correctAnswer": [
+                            1,3,4,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"8",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "10",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"9 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "5.3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"11 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"11",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "  5 – ≤ 𝑥",
+                        "correctAnswer": [
+                            1,3,4,5,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"5",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "10.4 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "2 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"4.2",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "10 ≥ 𝑥",
+                        "correctAnswer": [
+                            1,2,3,4,6,7
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"10",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "3 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"6 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "44 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "15",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"7 –",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "1 – > 𝑥",
+                        "correctAnswer": [
+                            2,5,7
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "2 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "1 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "14 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"0.8 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"50 –",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                   
+                   
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            },
+            {
+                "active": false,
+                "title": "اختر الإجابة الصحيحة",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"حوِّط القيم التي تمَثِّل حلولًا لكلِّ متباينة مما يلي في مجموعة الأعداد النسبية:",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "  5 ≥ 𝑥",
+                        "correctAnswer": [
+                            1,3,5,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"5",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "6",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "10",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "1.2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"6 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"5.2",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "6 – < 𝑥",
+                        "correctAnswer": [
+                            2,3,4,5,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"8 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "5 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "1.4 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose": "7 –",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "2 ≤ 𝑥",
+                        "correctAnswer": [
+                            2,5,7
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose": "4 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "12",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "0.8",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"9 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"4.2",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "4 – ≥ 𝑥",
+                        "correctAnswer": [
+                            3,4,7
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"4",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "3 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "6 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "4.4 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"7 –",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "9 > 𝑥",
+                        "correctAnswer": [
+                            1,2,3,6,7,8
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose": "9 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "2.4",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "8.9",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "10",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "9.1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "6 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose":"0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 8,
+                                "toChoose": "0.9 –",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 9,
+                                "toChoose": "15",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                   
+                   
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

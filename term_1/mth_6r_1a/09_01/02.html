@@ -1,0 +1,178 @@
+﻿<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        .compress-card-right,
+        .compress-card-left {
+            position: relative !important;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+
+        #card-dragg {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: unset !important;
+            min-height: 25vw;
+        }
+
+        .droppable {
+            position: unset !important;
+        }
+
+        .draggable {
+            position: absolute !important;
+        }
+
+        body .general#DragAndDropMostala7 .container #card-dropp .textindex .question .paragraphe {
+            max-width: 87% !important;
+        }
+
+        body .general#DragAndDropMostala7 .container #card-dropp .textindex .question .divOfDrop .droppable {
+            min-width: 10vw !important;
+            min-height: 6vw !important;
+
+        }
+
+        body .general#DragAndDropMostala7 .head .title {
+            width: 55vw !important;
+        }
+
+        body .general#DragAndDrop .container #card-dragg,
+        body .general#DragAndDroptable .container #card-dragg,
+        body .general#DragAndDropimage .container #card-dragg,
+        body .general#DragAndDropMostala7 .container #card-dragg,
+        body .general#DragAndDropRearrange .container #card-dragg,
+        body .general#DragDropSlide .container #card-dragg {
+
+            margin-bottom: 0% !important;
+        }
+
+        body .general#DragAndDropMostala7 .container #card-dropp .textindex .question .divOfDrop .droppable {
+            min-width: 24vw !important;
+        }
+
+        @media (orientation: landscape) {
+            body .general#DragAndDropMostala7 .container #card-dropp .textindex .question .divOfDrop .droppable {
+                min-width: 8vw !important;
+                min-height: 4vw !important;
+
+            }
+
+            body .general#DragAndDropMostala7 .container #card-dropp .textindex .question .divOfDrop .droppable {
+                min-width: 12vw !important;
+            }
+
+            body .general#DragAndDropMostala7 .head .title {
+                width: 40vw !important;
+            }
+
+            body .general#DragAndDropMostala7 .head {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="DragAndDropMostala7" data-urlpage="09_01/02" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+
+            <div class="container" :class="{'finshed' : this.finshedChoose }">
+                <p>{{this.posts[0].parag}}</p>
+
+                <div id="card-dragg">
+
+                    <div class="compress-card-right">
+
+                        <div v-for="( drag, index) in this.posts[0].unrealData" class="draggable"
+                            v-if="drag.type == 100">
+                            <p> {{ drag.wrod}}</p>
+                        </div>
+                        <div v-for="( drag, index) in shuffledQX" :data-number="drag.number" class="draggable"
+                            v-if="drag.type == 1">
+                            <p> {{ drag.wrod}}</p>
+                        </div>
+                    </div>
+                    <div class="compress-card-left">
+                        <div v-for="( drag, index) in this.posts[0].unrealData" class="draggable"
+                            v-if="drag.type == 200">
+                            <p> {{ drag.wrod}}</p>
+                        </div>
+                        <div v-for="( drag, index) in shuffledQX" :data-number="drag.number" class="draggable"
+                            v-if="drag.type == 2">
+                            <p> {{ drag.wrod}}</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="card-dropp">
+                    <div v-for="( drop, index) in  shuffledQuiz ">
+                        <div class="textindex">
+                            <div class="icon-index">
+                                <div class="icon-num">{{index+1}}</div>
+                            </div>
+                            <div class="question">
+
+                                <p class="paragraphe" v-for="text in drop.text1">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div class="divOfDrop">
+                                    <div :data-number="drop.number" class="droppable">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="finished hide">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/dragdrop-mostala7.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+</body>
+
+</html>

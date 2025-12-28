@@ -1,0 +1,404 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-4",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+            {
+                "active": true,
+                "title": "أكمل ما يلي",
+                "popuptext": [""],
+                "qtitle":"أكمل  لتُعبِّر عن كل موقف مما يلي باستخدام معادلة، كما بالمثال:",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "الموقف: 4 تذاكر ملاهٍ مقابل 10 جنيهات."
+                                ],
+                                "paragraphes1": [
+                                    "سعر الشيء الواحد (بالجنيه): 2.5 = 4 ÷ 10"
+                                ],
+                                "paragraphes2": [
+                                    "المعادلة: 2.5x"
+                                ],
+                                "paragraphes3": [
+                                    "= y"
+                                ],
+                                "equal":[""],
+                                "div":[""],
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "الموقف: 2 لعبة أطفال مقابل 15 جنيهًا."
+                                ],
+                                "paragraphes1": [
+                                    "سعر الشيء الواحد (بالجنيه): "
+                                ],
+                                "paragraphes2": [
+                                    "المعادلة: "
+                                ],
+                                "paragraphes3": [
+                                    "= y"
+                                ],
+                                "equal":["="],
+                                "div":["÷"],
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "7.5"
+                                        ],
+                                        "show": [
+                                           "7.5"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "2"
+                                        ],
+                                        "show": [
+                                           "2"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "15"
+                                        ],
+                                        "show": [
+                                           "15"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "7.5x","7.5 x"
+                                        ],
+                                        "show": [
+                                           "7.5x"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "الموقف: 3 وجبات في أحد المطاعم مقابل 159 جنيهًا."
+                                ],
+                                "paragraphes1": [
+                                    "سعر الشيء الواحد (بالجنيه): "
+                                ],
+                                "paragraphes2": [
+                                    "المعادلة: "
+                                ],
+                                "paragraphes3": [
+                                    "= y"
+                                ],
+                                "equal":["="],
+                                "div":["÷"],
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "53"
+                                        ],
+                                        "show": [
+                                           "53"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "3"
+                                        ],
+                                        "show": [
+                                           "3"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "159"
+                                        ],
+                                        "show": [
+                                           "159"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "53x","53 x"
+                                        ],
+                                        "show": [
+                                           "53x"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

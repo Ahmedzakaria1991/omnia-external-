@@ -1,0 +1,562 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-5",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+            {
+                "active": true,
+                "title":" أكمل ما يلي",
+                "popuptext": [
+                    ""
+                ],
+                "paragraph1": [
+                    ""
+                ],
+                "quran": [],
+                "paragraph2": [],
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "جميع الأعداد الزوجية تقبل القسمة على"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "2"
+                                        ],
+                                        "show": [
+                                            "2"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "العدد يقبل القسمة على 5 إذا كان رقم آحاده"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "أو",
+                                        "valid": [
+                                            "0","5"
+                                        ],
+                                        "show": [
+                                            "0","5"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "جميع الأعداد تقبل القسمة على نفسها عدا العدد"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "0","صفر"
+                                        ],
+                                        "show": [
+                                            "0"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    " العدد 205 يقبل القسمة على"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "5"
+                                        ],
+                                        "show": [
+                                            "5"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "5",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "العدد يقبل القسمة على 10 إذا كان رقم آحاده"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "0","صفر"
+                                        ],
+                                        "show": [
+                                            "0"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "6",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "يقبل العدد القسمة على 3 إذا كان مجموع أرقامه يقبل القسمة على"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "3"
+                                        ],
+                                        "show": [
+                                            "3"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "7",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "يقبل العدد القسمة على 4 إذا كان رقما الآحاد والعشرات يُكوِّنان عددًا يقبل","القسمة على"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "4"
+                                        ],
+                                        "show": [
+                                            "4"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "8",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "العدد 4,324 يقبل القسمة على"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":2,
+                                        "comma": "و",
+                                        "valid": [
+                                            "4","2"
+                                        ],
+                                        "show": [
+                                            "4","2"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "9",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "العددان: 10 ، 18 يقبلان القسمة على"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "2"
+                                        ],
+                                        "show": [
+                                            "2"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "10",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    " أصغر عدد يمكن إضافته إلى 67 ليقبل القسمة على 10 هو"
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "3"
+                                        ],
+                                        "show": [
+                                            "3"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 2,
+                        "type": 3,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "nameId": "",
+        "title": "أكمل ما يلي",
+        "subject": "math-4",
+        "finshedDrag": false,
+        "colorTemplate": "#5a7cec",
+        "dragCounter": 0,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "qtitle":" بفرض أنك جمعت بيانات عن السؤال الإحصائي (ما أعمار أعضاء فريق كرة القدم في النادي؟). اختر نوع التمثيل البياني المناسب الذي سيعرض إجابة كل سؤال بأفضل صورة.",
+        "droggableBox": [
+            {
+                "number": [
+                    1
+                ],
+                "text1": [
+                   "ما عدد الأفراد الذين أعمارهم 10 سنوات أو أكثر؟"
+                ],
+                "text2": [
+                ],
+                "wrod": "المدرج التكراري",
+
+                "type": 1,
+                "counter": 0
+            },
+            {
+                "number": [
+                    2
+                ],
+                "text1": [
+                  "ما الربع الأول للبيانات؟"
+                ],
+                "text2": [
+                ],
+                "wrod": "مخطط الصندوق",
+                "type": 1,
+                "counter": 0
+            },
+            {
+                "number": [
+                    3
+                ],
+                "text1": [
+                "ما عدد الأفراد الذين أعمارهم 15 سنة بالضبط؟"
+                ],
+                "text2": [
+                ],
+                "wrod": "مخطط التمثيل بالنقاط",
+                "type": 1,
+                "counter": 0
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,623 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-4",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمل ما يلي",
+        "popuptext": [""],
+        "qtitle": "المدرج التكراري التالي يُوَضِّح أعمار بعض الأفراد في أحد المولات التجارية، تأمَّل التمثيل البياني ثم أجب:",
+        "img": "../images/09_03_01.png",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد الأفراد الذين أعمارهم من 10 أعوام إلى 19 عامًا؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["أفراد."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد الأفراد الذين أعمارهم 30 عامًا أو أكثر؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["فردًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "questionnumber": 1,
+
+            "contents": [
+              {
+                "paragraphes": [
+                  
+                ],
+                "paragraphes1": [ "ما الفترة الأكثر شيوعًا (تكرارًا) لأعمار الأفراد؟"],
+                "paragraphes2": ["–"],
+                "paragraphes3": [" "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["29"],
+                    "show": ["29"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+           ,
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما إجمالي عدد الأفراد الذين تُمَثِّلهم البيانات؟ "
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["فردًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["30"],
+                    "show": ["30"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "popuptext": [""],
+        "qtitle": "المدرج التكراري التالي يُوَضِّح درجات اختبار التلاميذ في مادة اللغة العربية، تأمَّل التمثيل البياني ثم أجب:",
+        "img": "../images/09_03_02.png",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد التلاميذ الذين درجاتهم من 89 إلى 94 درجة؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلميذًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["45"],
+                    "show": ["45"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد التلاميذ الذين درجاتهم 82 درجة أو أقل؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلميذًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["120"],
+                    "show": ["120"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "questionnumber": 1,
+
+            "contents": [
+              {
+                "paragraphes": [
+                  
+                ],
+                "paragraphes1": ["ما الفترة الأقل شيوعًا (تكرارًا) لدرجات التلاميذ؟"],
+                "paragraphes2": ["–"],
+                "paragraphes3": [" "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["100"],
+                    "show": ["100"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["95"],
+                    "show": ["95"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد التلاميذ الذين خاضوا اختبار مادة اللغة العربية؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلميذًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["255"],
+                    "show": ["255"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "popuptext": [""],
+        "qtitle": "المدرج التكراري التالي يُوَضِّح عدد ساعات المذاكرة لمجموعة من التلاميذ، تأمَّل التمثيل البياني ثم أجب:",
+        "img": "../images/09_03_03.png",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد التلاميذ الذين ذاكروا من 6 إلى 7 ساعات؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلميذ."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": ["ما عدد التلاميذ الذين ذاكروا 4 ساعات فأكثر؟"],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلاميذ."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": ["ما عدد التلاميذ الذين تُمَثِّلهم البيانات؟"],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلميذًا"],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["11"],
+                    "show": ["11"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes": [
+                  "ما عدد التلاميذ الذين ذاكروا من 2 إلى 3 ساعات؟"
+                ],
+                "paragraphes1": [""],
+                "paragraphes2": ["تلميذ"],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["صفر", "0"],
+                    "show": ["صفر"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

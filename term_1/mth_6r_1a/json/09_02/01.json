@@ -1,0 +1,153 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "اختر الإجابة الصحيحة",
+                "popuptext": [],
+                "qtitle": "",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "حدِّد أيًّا من هذه الخصائص مشتركة بين كل مخططات التمثيل بالنقاط.",
+                        "correctAnswer": [
+                            1,
+                            4,
+                            6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img": "",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose": " يجب أن يكون لمخططات التمثيل بالنقاط عناوين.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "يجب أن تتضمَّن مخططات التمثيل بالنقاط 20 معلومة بالضبط.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "يمكن رؤية كل معلومة في مخطط التمثيل بالنقاط، وتُمثَّل كل معلومة بنقطة.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "يجب أن تبدأ خطوط الأعداد في مخططات التمثيل بالنقاط بالرقم صفر.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "يجب أن تُوضَع الوحدات المُسْتَخْدَمة في قياس البيانات على خطوط الأعداد في المخططات.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 7,
+                                "toChoose": " يمكنك تحديد عدد الملاحظات في مخطط التمثيل بالنقاط عن طريق إيجاد مجموع القيم العددية التي تُمَثِّلها كل نقطة.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 8,
+                                "toChoose": "يجب تحديد الأعداد التي لها نقاط بيانات على خط الأعداد فقط.",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "popup": "",
+                        "paragraph": "حدِّد الخصائص المشتركة بين كل المدرجات التكرارية.",
+                        "correctAnswer": [
+                            1,
+                            3,
+                            4,
+                            6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img": "",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose": "يجب أن يكون للمدرجات التكرارية عنوان، ويجب تسمية كل محور .",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "تعرض المدرجات التكرارية نقاط البيانات الفردية.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "تعرض المدرجات التكرارية البيانات مُجَمَّعة في فترات.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "يجب أن تتلامس الأعمدة في المدرج التكراري.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": " ليس من الضروري أن تكون الفترات في المدرج التكراري بنفس القيمة.",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "يجب ألا تحتوي الفترات في المدرج التكراري على فجوات أو تداخلات بين القيم.",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

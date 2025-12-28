@@ -1,0 +1,178 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-4",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أجب عما يلي",
+        "popuptext": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "يقوم المُعلم بعمل حقائب لنشاط الرسم باستخدام 48 قلم تلوين، و32 ورقة رسم، بشرط أن تحتوي الحقائب على العدد نفسه من أقلام التلوين وورق الرسم.",
+                  "ما أكبر عدد ممكن من الحقائب يمكن أن يكونها المُعلم؟"
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["16"],
+                    "show": ["16"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": ["أكبر عدد ممكن من الحقائب ="],
+                "paragraphes3": ["حقيبة."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "تستخدم ياسمين 36 شطيرة، و48 قطعة كيك لعمل سِلال لأفراد العائلة للتنزه، بشرط أن تحتوي كل سلة على العدد نفسه من الشطائر وقطع الكيك.",
+                  "ما أكبر عدد ممكن من السِّلال يمكن أن تكونها ياسمين؟"
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": ["أكبر عدد من السلال = "],
+                "paragraphes3": ["سلة."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "تقوم المدرسة بتوزيع هدايا للتلاميذ المتفوقين باستخدام 72 قلمًا، و84 كراسة، وتريد توزيعها في شنط هدايا، بشرط أن تحتوي كل شنطة على العدد نفسه من الأقلام والكراسات.",
+                  "ما أكبر عدد ممكن من شنط الهدايا يمكن أن تكونها المدرسة؟"
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": ["أكبر عدد ممكن من شنط الهدايا ="],
+                "paragraphes3": ["شنطة."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]
