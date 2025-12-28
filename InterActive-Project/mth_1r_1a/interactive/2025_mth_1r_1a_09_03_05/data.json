@@ -1,0 +1,631 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "numberOfquestion": 6,
+    "id": "mth_1r_1a_09_03_04",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "BloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "input",
+    "startTime": "",
+    "endTime": "",
+    "hint": true,
+    "questionAudio": true,
+    "questionAudioRoundTwo": true,
+    "upper": false,
+    "isEng": false,
+    "informationLO": ".أوجد ناتج ما يلي",
+    "items": [
+      {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "typeQ": 1,
+        "imgSrc": "./assets/Asset9.png",
+        "imgSize": "30vh",
+        "rowDirection": true,
+        "rowPadDown": 6,
+        "sepOp": "+",
+        "mR1": "5",
+        "arrow2Src": "./assets/arrow.png",
+        "arrow": "./assets/arrow.png",
+
+        "mR2": "5",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": " 7 " }
+          ],
+          "r2RowOne": [
+            { "val": "1" },
+            { "val": " -" },
+            { "val": "Q", "idx": 0 },
+            { "val": " -" },
+
+            { "val": "Q", "idx": 1, "arrow": true },
+            { "val": " = " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["5"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "1" },
+            { "val": "-" },
+            { "val": "2" },
+            { "val": "-" },
+            { "val": "2" },
+            { "val": "-" },
+            { "val": "7" }
+          ],
+          "r2RowOne": [
+            { "val": "1" },
+            { "val": "-" },
+            { "val": "2" },
+            { "val": "-" },
+            { "val": "5", "arrow": true },
+            { "val": " = " }
+          ],
+          "r3RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": "=" },
+            { "val": "Q", "idx": 1 },
+            { "val": "-" },
+            { "val": "Q", "idx": 2, "arrow": true },
+            { "val": " =  " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["1"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["3"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "typeQ": 1,
+        "imgSrc": "./assets/Asset9.png",
+        "imgSize": "30vh",
+        "rowDirection": true,
+        "rowPadDown": 6,
+        "sepOp": "+",
+        "mR1": "5",
+        "arrow2Src": "./assets/arrow.png",
+        "arrow": "./assets/arrow.png",
+
+        "mR2": "5",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "4" },
+            { "val": " - " },
+            { "val": " 10 " }
+          ],
+          "r2RowOne": [
+            { "val": "1" },
+            { "val": " -" },
+            { "val": "Q", "idx": 0 },
+            { "val": " -" },
+
+            { "val": "Q", "idx": 1, "arrow": true },
+            { "val": " = " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["6"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "4" },
+            { "val": " - " },
+            { "val": " 10 " }
+          ],
+          "r2RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "6", "arrow": true },
+            { "val": " = " }
+          ],
+          "r3RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": "=" },
+            { "val": "Q", "idx": 1 },
+            { "val": "-" },
+            { "val": "Q", "idx": 2, "arrow": true },
+            { "val": " =  " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["3"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["1"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["4"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "typeQ": 1,
+        "imgSrc": "./assets/Asset9.png",
+        "imgSize": "30vh",
+        "rowDirection": true,
+        "rowPadDown": 6,
+        "sepOp": "+",
+        "mR1": "5",
+        "arrow2Src": "./assets/arrow.png",
+        "arrow": "./assets/arrow.png",
+
+        "mR2": "5",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "3" },
+            { "val": " - " },
+            { "val": "4" },
+            { "val": " - " },
+            { "val": " 14 " }
+          ],
+          "r2RowOne": [
+            { "val": "1" },
+            { "val": " -" },
+            { "val": "Q", "idx": 0 },
+            { "val": " -" },
+
+            { "val": "Q", "idx": 1, "arrow": true },
+            { "val": " = " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["3"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "3" },
+            { "val": " - " },
+            { "val": "4" },
+            { "val": " - " },
+            { "val": " 14 " }
+          ],
+          "r2RowOne": [
+            { "val": "1" },
+            { "val": " - " },
+            { "val": "3" },
+            { "val": " - " },
+            { "val": "10", "arrow": true },
+            { "val": " = " }
+          ],
+          "r3RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": "=" },
+            { "val": "Q", "idx": 1 },
+            { "val": "-" },
+            { "val": "Q", "idx": 2, "arrow": true },
+            { "val": " =  " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["6"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["1"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["7"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "typeQ": 1,
+        "imgSrc": "./assets/Asset9.png",
+        "imgSize": "30vh",
+        "rowDirection": true,
+        "rowPadDown": 6,
+        "sepOp": "+",
+        "mR1": "5",
+        "arrow2Src": "./assets/arrow.png",
+        "arrow": "./assets/arrow.png",
+
+        "mR2": "5",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": " 8 " }
+          ],
+          "r2RowOne": [
+            { "val": "2" },
+            { "val": " -" },
+            { "val": "Q", "idx": 0 },
+            { "val": " -" },
+
+            { "val": "Q", "idx": 1, "arrow": true },
+            { "val": " = " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["6"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": " 8 " }
+          ],
+          "r2RowOne": [
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "6", "arrow": true },
+            { "val": " = " }
+          ],
+          "r3RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": "=" },
+            { "val": "Q", "idx": 1 },
+            { "val": "-" },
+            { "val": "Q", "idx": 2, "arrow": true },
+            { "val": " =  " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["4"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "typeQ": 1,
+        "imgSrc": "./assets/Asset9.png",
+        "imgSize": "30vh",
+        "rowDirection": true,
+        "rowPadDown": 6,
+        "sepOp": "+",
+        "mR1": "5",
+        "arrow2Src": "./assets/arrow.png",
+        "arrow": "./assets/arrow.png",
+
+        "mR2": "5",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "6" },
+            { "val": " - " },
+            { "val": "3" },
+            { "val": " - " },
+            { "val": "5" },
+            { "val": " - " },
+            { "val": " 15 " }
+          ],
+          "r2RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": " -" },
+
+            { "val": "3" },
+            { "val": " -" },
+            { "val": "Q", "idx": 1, "arrow": true },
+            { "val": " = " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["6"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "6" },
+            { "val": " - " },
+            { "val": "3" },
+            { "val": " - " },
+            { "val": "5" },
+            { "val": " - " },
+            { "val": " 15 " }
+          ],
+          "r2RowOne": [
+            { "val": "6" },
+            { "val": " - " },
+            { "val": "3" },
+            { "val": " - " },
+            { "val": "10", "arrow": true },
+            { "val": " = " }
+          ],
+          "r3RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": "=" },
+            { "val": "Q", "idx": 1 },
+            { "val": "-" },
+            { "val": "Q", "idx": 2, "arrow": true },
+            { "val": " =  " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["1"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["6"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["7"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "typeQ": 1,
+        "imgSrc": "./assets/Asset9.png",
+        "imgSize": "30vh",
+        "rowDirection": true,
+        "rowPadDown": 6,
+        "sepOp": "+",
+        "mR1": "5",
+        "arrow2Src": "./assets/arrow.png",
+        "arrow": "./assets/arrow.png",
+
+        "mR2": "5",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "5" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "9" },
+            { "val": " - " },
+            { "val": " 19 " }
+          ],
+          "r2RowOne": [
+            { "val": "5" },
+            { "val": " -" },
+            { "val": "Q", "idx": 0 },
+            { "val": " -" },
+
+            { "val": "Q", "idx": 1, "arrow": true },
+            { "val": " = " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["2"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "r1RowOne": [
+            { "val": "5" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "9" },
+            { "val": " - " },
+            { "val": " 19 " }
+          ],
+          "r2RowOne": [
+            { "val": "5" },
+            { "val": " - " },
+            { "val": "2" },
+            { "val": " - " },
+            { "val": "10", "arrow": true },
+            { "val": " = " }
+          ],
+          "r3RowOne": [
+            { "val": "Q", "idx": 0 },
+            { "val": "=" },
+            { "val": "Q", "idx": 1 },
+            { "val": "-" },
+            { "val": "Q", "idx": 2, "arrow": true },
+            { "val": " =  " }
+          ],
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["3"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["5"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["8"]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

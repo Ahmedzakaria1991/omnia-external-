@@ -1,0 +1,126 @@
+.digital-screen .penguin .border .question {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.handEng {
+  left: -10vw;
+  top: 1vw;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.digital-screen .penguin .border .question p {
+  font-size: 5vh;
+}
+
+body .main .zoki .popup-content p {
+  color: white !important;
+  font-size: 7vh;
+}
+
+.q-headline {
+  text-align: center;
+}
+
+.mini-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1vh; */
+}
+
+.row .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* row-gap: 1vh; */
+}
+
+.row .col .col-inp {
+  position: relative;
+}
+
+.row .col .arrow {
+  position: absolute;
+  width: 10vh;
+  top: -80%;
+  right: 22%;
+  /* transform: translateX(-50%); */
+}
+
+.row .pr {
+  right: -100%;
+}
+
+.image img {
+  width: 80vh;
+}
+
+.row1 {
+  margin-bottom: 5vh !important;
+  margin-top: 3vh;
+  /* gap: 2vh; */
+  gap: 1.8vh;
+  margin-right: -3vh !important;
+}
+.roww1 {
+  margin-right: -3vh !important;
+}
+
+.row-2 {
+  margin-right: -9vh !important;
+  gap: 1.8vh;
+}
+.row-3 {
+  margin-right: 12.5vh !important;
+}
+.row2 {
+  gap: 0vh;
+}
+
+.digital-screen .penguin .border .question input {
+  font-size: 5vh !important;
+}
+
+.rowDir {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row-2 .col {
+  /* width: 5vh !important; */
+}
+
+.row .col .arrow-2 {
+  right: 35% !important;
+  top: -110%;
+}
+
+.row .arrow-3 {
+  width: 10vh !important;
+  top: -84% !important;
+  right: 20% !important;
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Penguin</title>
+    <script src="../../../lib-native/penguin/assets/js/lottie-min.js"></script>
+    <script src="../../../lib-native/penguin/assets/js/vue.js"></script>
+    <link
+      rel="stylesheet"
+      href="../../../lib-native/penguin/assets/style/font.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../lib-native/penguin/assets/style/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../lib-native/penguin/penguin-tworound-inputs/style/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../lib-native/penguin/assets/style/images.css"
+    />
+    <link rel="stylesheet" href="style/lo-style.css" />
+    <link
+      rel="icon"
+      href="../../../lib-native/penguin/assets/images/penguin/favicon.ico"
+      type="image/x-icon"
+    />
+    <script src="../../../js/submit_sender.js"></script>
+  </head>
+
+  <body>
+    <div class="Logo"></div>
+    <div id="penguin" data-urlpage="data" grade="1">
+      <div class="loader" v-show="!isSuccess || !isLoading"></div>
+      <div class="isSuccess" v-show=" isSuccess && isLoading">
+        <div class="main" v-show="!startLo">
+          <div>
+            <div class="startButton" @click="start()"></div>
+          </div>
+        </div>
+        <div class="digital-screen" v-show="startLo">
+          <div
+            class="information"
+            @click="showInformation()"
+            :class="{'none' : !infotmationClick}"
+          ></div>
+          <div
+            class="overlay"
+            id="overlay"
+            :class="{'opened' : this.popupOpened}"
+          ></div>
+          <div
+            class="popup"
+            id="popup"
+            v-show="this.popupOpened"
+            :class="{'opened' : this.popupOpened}"
+          >
+            <div class="popup-content">
+              <span class="close" @click="closePopup()"></span>
+              <p class="text title">{{this.informationLO}}</p>
+            </div>
+          </div>
+          <div
+            class="music"
+            @click="muteMusic()"
+            :class="{'play' : music ,'mute' : !music}"
+          ></div>
+          <div class="penguin" v-show="questionStart" @click="setclick()">
+            <div class="border">
+              <div class="button check btn-check" @click="checkInputALL();">
+                <div
+                  class="help help-check"
+                  v-if="this.checkHand && this.counter == 0"
+                ></div>
+              </div>
+              <div class="button answer btn-answer" @click="showAnswer()">
+                <div
+                  class="help help-check"
+                  v-if="this.answerHand && this.counter == 0"
+                ></div>
+              </div>
+              <template v-for="(item,index) in this.posts">
+                <template v-for="(item,index) in item.items">
+                  <div
+                    class="question center disPointer editFont"
+                    :class="{'active': item.active, 'ltr': upper || (!upper && isEng) }"
+                  >
+                    <!-- Start Lo -->
+
+                    <!-- For First Type -->
+                    <template v-if="item.typeQ == 1">
+                      <div class="roundOne" :class="{'activeRound': !roundTwo}">
+                        <div class="round" :class="{'roundNone': roundTwo}">
+                          <!-- <p class="q-headline">{{item.q1Title}}</p> -->
+
+                          <div
+                            class="mini-con"
+                            :class="{rowDir : item.rowDirection ? true : false}"
+                          >
+                            <!-- <div class="image">
+                              <img :src="item.imgSrc" :style="{width: item.imgSize}" alt="">
+                            </div> -->
+
+                            <div
+                              class="con"
+                              style="display: flex; flex-direction: column"
+                            >
+                              <div
+                                :style="{marginBottom : `${item.rowPadDown}vh !important` }"
+                                class="row row1"
+                              >
+                                <div
+                                  class="col"
+                                  v-for="it in item.roundOne.r1RowOne"
+                                >
+                                  <p v-if="it.val !== 'Q'" v-html="it.val"></p>
+
+                                  <template v-if="it.val === 'Q'">
+                                    <template
+                                      v-for="(input, i) in item.roundOne.inputs[it.idx].numOfInput"
+                                    >
+                                      <input
+                                        type="text"
+                                        class="input emptyInput"
+                                        :index="it.idx"
+                                        :indexInput="i"
+                                        @change="changeValue();"
+                                        @click="clickInput()"
+                                        @keyup="maxLength($event,i)"
+                                      />
+                                      <p
+                                        v-if="i < item.roundOne.inputs[it.idx].numOfInput - 1"
+                                      >
+                                        {{item.sepOp}}
+                                      </p>
+                                    </template>
+                                  </template>
+                                </div>
+                              </div>
+
+                              <div
+                                class="row roww1"
+                                :style="{marginRight : item.mR1 ? `${item.mR1}vh` : '0vh'}"
+                              >
+                                <div
+                                  class="col"
+                                  v-for="it in item.roundOne.r2RowOne"
+                                >
+                                  <p
+                                    v-if="it.val !== 'Q'"
+                                    v-html="it.val"
+                                    style="margin-right: 0.5vh"
+                                  ></p>
+
+                                  <template v-if="it.val === 'Q'">
+                                    <template
+                                      v-for="(input, i) in item.roundOne.inputs[it.idx].numOfInput"
+                                    >
+                                      <div class="col-inp">
+                                        <input
+                                          type="text"
+                                          class="input emptyInput"
+                                          :index="it.idx"
+                                          :indexInput="i"
+                                          @change="changeValue();"
+                                          @click="clickInput()"
+                                          @keyup="maxLength($event,i)"
+                                        />
+                                      </div>
+                                      <img
+                                        v-if="it.arrow"
+                                        src="./assets/arrow-down-3101.png"
+                                        alt=""
+                                        class="arrow"
+                                      />
+                                      <p
+                                        v-if="i < item.roundOne.inputs[it.idx].numOfInput - 1"
+                                      >
+                                        {{item.sepOp}}
+                                      </p>
+                                    </template>
+                                  </template>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="roundTwo" :class="{'activeRound': roundTwo}">
+                        <div class="round" :class="{'roundNone': !roundTwo}">
+                          <!-- <p class="q-headline">{{item.q1Title}}</p> -->
+
+                          <div
+                            class="mini-con"
+                            :class="{rowDir : item.rowDirection ? true : false}"
+                          >
+                            <!-- <div class="image">
+                              <img :src="item.imgSrc" :style="{width: item.imgSize}" alt="">
+                            </div> -->
+
+                            <div
+                              class="con"
+                              style="display: flex; flex-direction: column"
+                            >
+                              <div
+                                :style="{marginBottom : `${item.rowPadDown}vh !important`}"
+                                class="row row1"
+                              >
+                                <div
+                                  class="col"
+                                  v-for="it in item.roundTwo.r1RowOne"
+                                >
+                                  <p v-if="it.val !== 'Q'" v-html="it.val"></p>
+
+                                  <template v-if="it.val === 'Q'">
+                                    <template
+                                      v-for="(input, i) in item.roundTwo.inputs[it.idx].numOfInput"
+                                    >
+                                      <input
+                                        type="text"
+                                        class="input emptyInput"
+                                        :index="it.idx"
+                                        :indexInput="i"
+                                        @change="changeValue();"
+                                        @click="clickInput()"
+                                        @keyup="maxLength($event,i)"
+                                      />
+                                      <p
+                                        v-if="i < item.roundTwo.inputs[it.idx].numOfInput - 1"
+                                      >
+                                        {{item.sepOp}}
+                                      </p>
+                                    </template>
+                                  </template>
+                                </div>
+                              </div>
+
+                              <div
+                                class="row row-2"
+                                :style="{marginRight : item.mR2 ? `${item.mR2}vh` : '0vh', marginBottom : `${item.rowPadDown}vh !important`}"
+                              >
+                                <div
+                                  class="col"
+                                  v-for="it in item.roundTwo.r2RowOne"
+                                >
+                                  <div class="col-inp pr" v-if="it.val !== 'Q'">
+                                    <p
+                                      v-if="it.val !== 'Q'"
+                                      v-html="it.val"
+                                    ></p>
+                                    <img
+                                      v-if="it.arrow"
+                                      :src="item.arrow2Src"
+                                      alt=""
+                                      class="arrow arrow-2"
+                                    />
+                                  </div>
+
+                                  <template v-if="it.val === 'Q'">
+                                    <template
+                                      v-for="(input, i) in item.roundTwo.inputs[it.idx].numOfInput"
+                                    >
+                                      <div class="col-inp">
+                                        <input
+                                          type="text"
+                                          class="input emptyInput"
+                                          :index="it.idx"
+                                          :indexInput="i"
+                                          @change="changeValue();"
+                                          @click="clickInput()"
+                                          @keyup="maxLength($event,i)"
+                                        />
+                                      </div>
+                                      <!-- <img v-if="it.arrow" :src="item.arrow" alt="" class="arrow" /> -->
+                                      <p
+                                        v-if="i < item.roundTwo.inputs[it.idx].numOfInput - 1"
+                                      >
+                                        {{item.sepOp}}
+                                      </p>
+                                    </template>
+                                  </template>
+                                </div>
+                              </div>
+
+                              <div
+                                class="row row-3"
+                                :style="{marginRight : item.mR2 ? `${item.mR2}vh` : '0vh'}"
+                              >
+                                <div
+                                  class="col"
+                                  v-for="it in item.roundTwo.r3RowOne"
+                                >
+                                  <div class="col-inp" v-if="it.val !== 'Q'">
+                                    <p
+                                      v-if="it.val !== 'Q'"
+                                      v-html="it.val"
+                                    ></p>
+                                    <img
+                                      v-if="it.arrow"
+                                      :src="item.arrow2Src"
+                                      alt=""
+                                      class="arrow arrow-2"
+                                    />
+                                  </div>
+
+                                  <template v-if="it.val === 'Q'">
+                                    <template
+                                      v-for="(input, i) in item.roundTwo.inputs[it.idx].numOfInput"
+                                    >
+                                      <div class="col-inp">
+                                        <input
+                                          type="text"
+                                          class="input emptyInput"
+                                          :index="it.idx"
+                                          :indexInput="i"
+                                          @change="changeValue();"
+                                          @click="clickInput()"
+                                          @keyup="maxLength($event,i)"
+                                        />
+                                      </div>
+                                      <img
+                                        v-if="it.arrow"
+                                        :src="item.arrow"
+                                        alt=""
+                                        class="arrow arrow-3"
+                                      />
+                                      <p
+                                        v-if="i < item.roundTwo.inputs[it.idx].numOfInput - 1"
+                                      >
+                                        {{item.sepOp}}
+                                      </p>
+                                    </template>
+                                  </template>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </template>
+
+                    <!-- End Lo -->
+                  </div>
+                </template>
+              </template>
+            </div>
+            <div class="penguinCharacter">
+              <div id="penguinCharacter"></div>
+            </div>
+          </div>
+        </div>
+        <div v-show="feedBackShow">
+          <div class="nextContent">
+            <div class="character" v-show="counter >= this.loQuestion">
+              <div class="progress" :class="{'stars': !this.upper}">
+                <div :class="{'eng':isEng}">
+                  <div id="progressbar" v-show="this.upper"></div>
+                </div>
+                <div :class="{'eng':!isEng}">
+                  <div id="stars" v-show="!this.upper"></div>
+                </div>
+              </div>
+
+              <div class="border">
+                <div class="type" v-if="this.upper">{{Estimation}}</div>
+                <div
+                  class="penguin feedbackfalse"
+                  v-if=" 51 >= this.finalProgress"
+                ></div>
+                <div
+                  class="penguin feedbacktrue"
+                  v-if="this.finalProgress > 51"
+                ></div>
+              </div>
+              <div class="buttons">
+                <button class="reload" @click="reload()"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../../js/finalProgress.js"></script>
+    <script src="../../../js/inputTwoRound.js"></script>
+    <script src="../../../js/choose.js"></script>
+    <script src="../../../lib-native/penguin/penguin-tworound-inputs/js/main.js"></script>
+    <script src="../../../lib-native/penguin/assets/js/animation.js"></script>
+  </body>
+</html>
