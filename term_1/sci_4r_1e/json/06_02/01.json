@@ -108,12 +108,12 @@
             "answers": [
               {
                 "url": ["choose-r", "true1", "true2"],
-                "answerSelect": false,
+                "answerSelect": true,
                 "cheched": false
               },
               {
                 "url": ["choose-l", "false1", "false2"],
-                "answerSelect": true,
+                "answerSelect": false,
                 "cheched": false
               }
             ]
