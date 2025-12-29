@@ -7,16 +7,16 @@
     <title>buzz</title>
     <link
       rel="stylesheet"
-      href="../../../lib-native/buzzTime/style/style.css"
+      href="../../../lib-native/buzzTime_primary/style/style.css"
     />
     <link
       rel="icon"
-      href="../../../lib-native/buzzTime/images/favicon.ico"
+      href="../../../lib-native/buzzTime_primary/images/favicon.ico"
       type="image/x-icon"
     />
 
-    <script src="../../../lib-native/buzzTime/js/vue.js"></script>
-    <script src="../../../lib-native/buzzTime/js/lottie-min.js"></script>
+    <script src="../../../lib-native/buzzTime_primary/js/vue.js"></script>
+    <script src="../../../lib-native/buzzTime_primary/js/lottie-min.js"></script>
     <script src="../../../js/submit_sender.js"></script>
   </head>
   <style>
@@ -74,13 +74,12 @@
             :class="langClass"
             @click="showHintScreen = true"
           ></button>
-          <button
-            class="hint-btn"
-            :class="[langClass, { disabled: !allowHint }]"
-            :disabled="!allowHint"
-            @click="openHint"
-          ></button>
-
+        <button
+  class="hint-btn"
+  :class="[langClass, { disabled: !allowHint }]"
+  :disabled="!allowHint"
+  @click="openHint"
+></button>
           <div id="introStage">
             <button class="next" @click="goToNext"></button>
             <button
@@ -263,84 +262,21 @@
 
           <div class="feedback-screen" v-show="showResultScreen">
             <div class="feedback-content">
-              <div id="feedbackAnimationsContainer">
-                <div
-                  id="boy"
-                  v-show="selectedAvatar == 'boy'"
-                  :class="{ 'winnerr': studentScore > computerScore , 'loserr': computerScore >  studentScore , 'equal': computerScore ==  studentScore}"
-                ></div>
-                <div
-                  id="girl"
-                  v-show="selectedAvatar == 'girl'"
-                  :class="{ 'winnerr': studentScore > computerScore , 'loserr': computerScore >  studentScore , 'equal': computerScore ==  studentScore}"
-                ></div>
-                <div
-                  id="computerBoy1"
-                  v-show="activeComputerCharFlag == 'showBoyCharVs1'"
-                  :class="{ 'winnerr': computerScore > studentScore , 'loserr': studentScore >  computerScore , 'equal': computerScore ==  studentScore}"
-                ></div>
-                <div
-                  id="computerBoy2"
-                  v-show="activeComputerCharFlag == 'showBoyCharVs2'"
-                  :class="{ 'winnerr': computerScore > studentScore , 'loserr': studentScore >  computerScore , 'equal': computerScore ==  studentScore}"
-                ></div>
-                <div
-                  id="computerGirl"
-                  v-show="activeComputerCharFlag == 'showGirlCharVs'"
-                  :class="{ 'winnerr': computerScore > studentScore , 'loserr': studentScore >  computerScore , 'equal': computerScore ==  studentScore}"
-                ></div>
-              </div>
-
-              <div class="feedback-card loser" v-if="!isEqual">
-                <div class="loser-overlay"></div>
-                <span class="score-display">
-                  {{ Math.round((studentScore < computerScore ? studentScore :
-                  computerScore) * 100 / 6) }} / 100
-                </span>
+              <div class="character">
+                <div id="boy" v-show="selectedAvatar == 'boy'"></div>
+                <div id="girl" v-show="selectedAvatar == 'girl'"></div>
               </div>
 
               <div class="feedback-card winner" v-if="!isEqual">
                 <div id="festival"></div>
 
-                <span class="score-display">
-                  {{ Math.round((studentScore > computerScore ? studentScore :
-                  computerScore) * 100 / 6) }} / 100
-                </span>
-                <button class="restart-button" @click="resetGame"></button>
-              </div>
+<div class="feedback-display" v-if="feedbackMessage">
+  <img :src="feedbackImage" class="feedback-progress" />
+<div class="feedback-message" v-if="feedbackMessage">
+  {{ feedbackMessage }}
+</div></div>
 
-              <div v-if="isEqual" class="equal-style">
-                <div class="img"></div>
-                <span
-                  class="score-display"
-                  style="
-                    position: absolute;
-                    left: 59%;
-                    top: 67%;
-                    font-size: 3vw;
-                    font-family: 'Lexend';
-                    font-weight: bold;
-                  "
-                >
-                  {{ Math.round( (studentScore === computerScore ? studentScore
-                  : Math.max(studentScore, computerScore) ) * 100 / 6 ) }} / 100
-                </span>
                 <button class="restart-button" @click="resetGame"></button>
-
-                <span
-                  class="score-display"
-                  style="
-                    position: absolute;
-                    left: 23%;
-                    top: 67%;
-                    font-size: 3vw;
-                    font-family: 'Lexend';
-                    font-weight: bold;
-                  "
-                >
-                  {{ Math.round( (studentScore === computerScore ? studentScore
-                  : Math.max(studentScore, computerScore) ) * 100 / 6 ) }} / 100
-                </span>
               </div>
             </div>
           </div>
@@ -380,7 +316,7 @@
       </div>
     </div>
     <script
-      src="../../../lib-native/buzzTime/js/main.js"
+      src="../../../lib-native/buzzTime_primary/js/main.js"
       type="module"
     ></script>
   </body>
