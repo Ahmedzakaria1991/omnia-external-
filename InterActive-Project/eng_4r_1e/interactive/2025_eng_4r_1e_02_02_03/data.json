@@ -1,0 +1,196 @@
+{
+  "counterCorrect": 0,
+  "LOcorrectcounter": 0,
+  "loTargets": null,
+  "SubType": "Input",
+  "subjectId": "",
+  "conceptId": "",
+  "unitId": "",
+  "lessonId": "",
+  "title": "",
+  "keywords": "",
+  "learningObjectives": "",
+  "bloomLevels": [],
+  "type": "",
+  "loDegree": null,
+  "UserDegree": 0,
+  "startTime": "",
+  "endTime": "",
+  "numberOfquestion": 6,
+  "items": [],
+  "hints": {
+    "en": [
+      "Complete the sentences with the correct form of the word(s) in brackets."
+    ],
+    "ar": ["أكمل الجمل بالشكل الصحيح للكلمة (الكلمات) الموجودة بين الأقواس."]
+  },
+  "keyboard": {
+    "alphabetic": [
+      { "id": "q", "type": "letter" },
+      { "id": "w", "type": "letter" },
+      { "id": "e", "type": "letter" },
+      { "id": "r", "type": "letter" },
+      { "id": "t", "type": "letter" },
+      { "id": "y", "type": "letter" },
+      { "id": "u", "type": "letter" },
+      { "id": "i", "type": "letter" },
+      { "id": "o", "type": "letter" },
+      { "id": "p", "type": "letter" },
+
+      { "id": "a", "type": "letter" },
+      { "id": "s", "type": "letter" },
+      { "id": "d", "type": "letter" },
+      { "id": "f", "type": "letter" },
+      { "id": "g", "type": "letter" },
+      { "id": "h", "type": "letter" },
+      { "id": "j", "type": "letter" },
+      { "id": "k", "type": "letter" },
+      { "id": "l", "type": "letter" },
+
+      { "id": "z", "type": "letter" },
+      { "id": "x", "type": "letter" },
+      { "id": "c", "type": "letter" },
+      { "id": "v", "type": "letter" },
+      { "id": "b", "type": "letter" },
+      { "id": "n", "type": "letter" },
+      { "id": "m", "type": "letter" },
+
+      { "id": "backspace", "type": "special" },
+      { "id": "?/,", "type": "special" },
+      { "id": "space", "type": "special" },
+      { "id": "enter", "type": "special" },
+      { "id": "shift", "type": "special" }
+    ],
+    "numeric": [
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "-", "type": "symbol" },
+      { "id": ":", "type": "symbol" },
+      { "id": ";", "type": "symbol" },
+      { "id": "'", "type": "symbol" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+      { "id": "", "type": "dimmed" },
+
+      { "id": "", "type": "dimmed" },
+      { "id": "!", "type": "symbol" },
+      { "id": "?", "type": "symbol" },
+      { "id": ",", "type": "symbol" },
+      { "id": ".", "type": "symbol" },
+      { "id": "_", "type": "symbol" },
+      { "id": "", "type": "dimmed" },
+
+      { "id": "backspace", "type": "special" },
+      { "id": "shift", "type": "special" },
+      { "id": "space", "type": "special" },
+      { "id": "abc", "type": "special" },
+      { "id": "enter", "type": "special" }
+    ]
+  },
+  "questions": [
+    {
+      "numberOfTrial": 0,
+      "questionType": "text",
+      "answersType": "text",
+      "startTime": "",
+      "endTime": "",
+      "BloomLevel": 3,
+      "id": 101,
+      "text": "Do you … [needs] any help?",
+      "answer": "need "
+    },
+    {
+      "numberOfTrial": 0,
+      "questionType": "text",
+      "answersType": "text",
+      "startTime": "",
+      "endTime": "",
+      "BloomLevel": 3,
+      "id": 102,
+      "text": "They don't … [comes] late.",
+      "answer": "come "
+    },
+    {
+      "numberOfTrial": 0,
+      "questionType": "text",
+      "answersType": "text",
+      "startTime": "",
+      "endTime": "",
+      "BloomLevel": 3,
+      "id": 103,
+      "text": "[Do] … Aya play basketball? - No, she doesn't.",
+      "answer": "Does "
+    },
+    {
+      "numberOfTrial": 0,
+      "questionType": "text",
+      "answersType": "text",
+      "startTime": "",
+      "endTime": "",
+      "BloomLevel": 3,
+      "id": 104,
+      "text": "He … (don't) live in Alexandria.",
+      "answer": "doesn’t"
+    },
+    {
+      "numberOfTrial": 0,
+      "questionType": "text",
+      "answersType": "text",
+      "startTime": "",
+      "endTime": "",
+      "BloomLevel": 3,
+      "id": 105,
+      "text": "Does Amira … (visits) her grandparents every week?",
+
+      "answer": "visit"
+    },
+    {
+      "numberOfTrial": 0,
+      "questionType": "text",
+      "answersType": "text",
+      "startTime": "",
+      "endTime": "",
+      "BloomLevel": 3,
+      "id": 106,
+      "text": "The ducks don't … (eating) bread.",
+      "answer": "eat "
+    },
+
+    {
+      "id": 1,
+      "state": 2,
+      "answered": false,
+      "winner": null
+    },
+    {
+      "id": 2,
+      "state": 1,
+      "answered": true,
+      "playerBuzz": "left",
+      "winner": "correct"
+    },
+    {
+      "id": 3,
+      "state": 1,
+      "answered": true,
+      "winner": "incorrect"
+    },
+    {
+      "id": 4,
+      "state": 1,
+      "answered": false,
+      "winner": null
+    }
+  ]
+}
