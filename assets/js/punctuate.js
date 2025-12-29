@@ -273,6 +273,7 @@ new Vue({
       const numberOfAnswersKeys = Object.keys(quiz).filter((key) =>
         key.startsWith("answers")
       ).length;
+
       if (quiz.type == 1) {
         quiz.show = !quiz.show;
         if (answer.answerSelect) {
@@ -293,9 +294,13 @@ new Vue({
         if (answer.answerSelect) {
           quiz["chooseUrl" + answer.number] = answer.url[0];
           quiz["result" + answer.number] = !quiz["result" + answer.number];
-          let value = 1 / numberOfAnswersKeys;
-          // value = parseFloat(value.toFixed(1));
-          this.posts[0].counterCorrect += value;
+
+          const trueitemcount = Object.keys(quiz).filter(
+            (key) => key.startsWith("result") && quiz[key] === true
+          );
+          if (trueitemcount.length == numberOfAnswersKeys) {
+            this.posts[0].counterCorrect += 1;
+          }
           this.sound_true();
         } else {
           quiz["chooseUrl" + answer.number] = answer.url[0];
@@ -320,9 +325,6 @@ new Vue({
       this.posts[0].counterCorrect == this.posts[0].quizChooses.length
         ? this.finshed()
         : this.posts[0].finshedChoose;
-
-        console.log( this.posts[0].counterCorrect)
-         console.log( this.posts[0].quizChooses.length)
     },
     shuffle: function () {
       let numbers = [...this.posts[0].quizChooses];
