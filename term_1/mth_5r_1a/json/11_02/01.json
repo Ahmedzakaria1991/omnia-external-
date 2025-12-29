@@ -1,0 +1,178 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الإجابة الصحيحة",
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اطرح العدد 1.3 من العدد 6.42، ثم اضرب الناتج في 3 فيكون التعبير العددي هو ........",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "3 × (1.3 - 6.42)",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "3 × 1.3 - 6.42",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "1.3 - 6.42 × 3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "6.42 + 3 × 1.3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "الخطوة الأولى في إيجاد قيمة التعبير العددي: 9 ÷ 7.2 - 4.8 + 2.5 × 4.8 هي .......",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الجمع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "القسمة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الطرح",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الضرب",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "colortitle": true,
+            "paragraph": "أيٌّ من التعبيرات العددية التالية مطابق للمسألة التالية؟<br><span style='color: black;font-weight:400;'> ( اضرب 3.7 في 10، ثم اجمع 11.30، و اقسم الناتج علي 0.1)</span>",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "0.1 + (11.30 ÷ 10 × 3.7)",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "0.1 ÷ (11.30 + 10 × 3.7)",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "(0.1 ÷ 11.30) + 10 × 3.7",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "(11.30 + 10 × 3.7) ÷ 0.1",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "popup": "",
+            "paragraph": "عند جمع العدد 3.1 مع ناتج ضرب العدد 2 في 4.62، فإن التعبير العددي هو ..........  ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "2 × (3.1 + 4.62)",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "2 × 3.1 + 4.62",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "3.1 + 4.62 × 2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "4.62 + 2 × 3.1",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

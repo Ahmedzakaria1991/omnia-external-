@@ -1,0 +1,318 @@
+[
+  {
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "17",
+        "paragraphOne": "12.9",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "> ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "≤",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "أي الأعداد العشرية التالية هو الأكبر؟",
+        "paragraphOne": "",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "8.05",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "8.5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "5.8",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "5.08",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "up": "",
+        "down": "",
+        "fraction": false,
+        "paragraph": "0.35",
+        "paragraph1": "",
+        "paragraphOne": "0.350",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "≠",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "الرقم الذي يوضع مكان المربع لتكون جملة المقارنة صحيحة: 13.",
+        "paragraphOne": "34 > 348.389 هو .........",
+        "break": true,
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "6",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "9",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "8",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "2.267",
+        "paragraphOne": "2.67",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "غير ذلك",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "up": "4",
+        "down": "1,000",
+        "fraction": true,
+        "paragraph": "",
+        "paragraph1": "",
+        "paragraphOne": "0.004",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "غير ذلك",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "5 أجزاء من عشرة",
+        "paragraphOne": "0.47",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "غير ذلك",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "34.5 < ...........",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "34.50",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "34.9",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "34.42",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "33.75",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

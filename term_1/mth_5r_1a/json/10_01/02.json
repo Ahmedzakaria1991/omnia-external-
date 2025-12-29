@@ -1,0 +1,237 @@
+[
+  {
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "........... = 10 ÷ 33.32",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "3.332",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "333.2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.344",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "3,332",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "............ = 100 ÷ 344",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "4.34",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "3.44",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.344",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "3,440",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "up": "",
+        "down": "",
+        "fraction": false,
+        "paragraph": "73.5 جم = ....... كجم.",
+        "paragraph1": "",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "0.0735",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.735",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "7,350",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "73,500",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": ".......... = 100 ÷ 14.75",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "1,475",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "147.5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.1475",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "1.475",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "10 ÷ 5.34",
+        "paragraphOne": "0.1 × 5.34",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "غير ذلك",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "3.5 = .......... ÷ 3,500",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "100",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "1,000",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "10",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "0.001",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

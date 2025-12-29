@@ -1,0 +1,842 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "popup": "",
+    "popuptext": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أقرأ ، ثم أجب",
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "اشترت نرمين 25 مترًا من القماش ، واشترت نور 14 مترًا من نفس نوع القماش ،   فإذا كان سعر المتر الواحد من القماش 12 جنيهًا، فما إجمالي المبلغ الذي دفعته  نرمين ونور؟"
+                ],
+                "paragraphes2": [
+                  "إجمالي عدد أمتار القماش التي اشترتها نرمين ونور ="
+                ],
+                "paragraphes3": ["مترًا."],
+                "paragraphes4": ["إجمالي المبلغ الذي دفعته نرمين ونور = "],
+                "paragraphes5": ["جنيهًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["39"],
+                    "show": ["39"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["468"],
+                    "show": ["468"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "كيس من الفاكهة يحتوي على 946 جرامًا من التفاح، و 1,200 جرام من الموز،  فما كتلة 19 كيسًا يحمل نفس الكتلة؟"
+                ],
+                "paragraphes2": ["إجمالي كتلة الكيس الواحد ="],
+                "paragraphes3": ["جرامًا."],
+                "paragraphes4": ["كتلة 19 كيسًا = "],
+                "paragraphes5": ["جرامًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,146", "2146"],
+                    "show": ["2,146"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["40,774", "40774"],
+                    "show": ["40,774"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "تمتلك منى مطعمًا في مدينة القصير. باعت منى في شهر فبراير 402 قطعة كباب، وفي مارس باعت 753 قطعة. تحتوي كل قطعة كباب على 83 جرامًا من اللحم. كم جرامًا من اللحم استخدمته منى في فبراير ومارس؟"
+                ],
+                "paragraphes2": ["إجمالي ما باعته منى في شهري فبراير ومارس ="],
+                "paragraphes3": ["قطعة."],
+                "paragraphes4": [
+                  "عدد جرامات اللحم التي استخدمتها منى في فبراير ومارس ="
+                ],
+                "paragraphes5": ["جرامًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,155", "1155"],
+                    "show": ["1,155"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["95,865", "95865"],
+                    "show": ["95,865"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "تحتاج علا إلى 345 جرامًا من الدقيق، و 125 جرامًا من الزبد، و 114 جرامًا من السكر لعمل كعكة واحدة. ما إجمالي عدد الجرامات اللازمة لعمل 25 كعكة من نفس النوع؟"
+                ],
+                "paragraphes2": [
+                  "إجمالي عدد الجرامات التي تحتاجها عـلا لعمل الكعكة الواحدة ="
+                ],
+                "paragraphes3": ["جرامًا."],
+                "paragraphes4": [
+                  "إجمالي عدد الجرامات التي ستحتاجها عـلا لعمل 25 كعكة ="
+                ],
+                "paragraphes5": ["جرام."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["584"],
+                    "show": ["584"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["14,600", "14600"],
+                    "show": ["14,600"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+
+          {
+            "id": 4,
+            "type": 2,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes1": [
+                  " يبيع صاحب محل ملابس القميص بثمن 175 جنيهًا والبنطلون بثمن 260 جنيهًا. اشترى أحمد وأصدقاؤه 13 قميصًا و14 بنطلونًا."
+                ],
+                "paragraphes2": [
+                  "إجمالي ما دفعه أحمد وأصدقاؤه ثمنًا للقمصان ="
+                ],
+                "paragraphes3": ["جنيهًا."],
+                "paragraphes4": [
+                  "إجمالي ما دفعه أحمد وأصدقاؤه ثمنًا للبناطيل ="
+                ],
+                "paragraphes5": ["جنيهًا."],
+                "paragraphes6": [
+                  "إجمالي ما دفعه أحمد وأصدقاؤه ثمنًا لهذه الملابس ="
+                ],
+                "paragraphes7": ["جنيهًا."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,275", "2275"],
+                    "show": ["2,275"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3,640", "3640"],
+                    "show": ["3,640"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["5,915", "5915"],
+                    "show": ["5,915"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "6",
+            "contents": [
+              {
+                "paragraphes1": [
+                  " اشترت سعاد 8 كجم من الأرز، و 12 كجم من السكر. فإذا كان سعر الكيلوجرام من السكر أو الأرز 14 جنيهًا، فاحسب إجمالي ما دفعته سعاد."
+                ],
+                "paragraphes2": ["عدد كيلوجرامات الأرز والسكر معًا ="],
+                "paragraphes3": ["كجم."],
+                "paragraphes4": [" إجمالي ما دفعته سعاد ="],
+                "paragraphes5": ["جنيهًا."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["280"],
+                    "show": ["280"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "7",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "اشترى باسم 17 كيسًا من الحلوى في أحد الأيام و35 كيسًا من الحلوى في يوم آخر،  لتوزيعها في حفلة عيد ميلاده، فإذا كان كل كيس من الحلوى به 120 قطعة حلوى، فاحسب العدد الكلي لقِطَع الحلوى التي اشتراها باسم."
+                ],
+                "paragraphes2": ["عدد أكياس الحلوى ="],
+                "paragraphes3": ["كيسًا."],
+                "paragraphes4": [
+                  " العدد الكلي لقطع الحلوى التي اشتراها باسم ="
+                ],
+                "paragraphes5": ["قطعة حلوى."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["52"],
+                    "show": ["52"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6,240", "6240"],
+                    "show": ["6,240"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "8",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "لدى أحمد 780 جنيهًا ، ذهب إلى المكتبة لشراء مجموعة من الكتب فاشترى 18 كتابًا ،  وإذا كان ثمن الكتاب الواحد 35 جنيهًا ، فما المبلغ المُتَبَقِّي مع أحمد؟"
+                ],
+                "paragraphes2": ["ثمن 18 كتابًا ="],
+                "paragraphes3": ["جنيهًا."],
+                "paragraphes4": [" المبلغ المُتَبَقِّي مع أحمد ="],
+                "paragraphes5": ["جنيهًا."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["630"],
+                    "show": ["630"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["150"],
+                    "show": ["150"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "9",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "يتوافد السيَّاح على مصر ، فإذا بلغ عدد الرحلات إلى مصر في فصل الشتاء 90 رحلة ، وفي فصل الصيف 112 رحلة ، وكل رحلة بها 98 سائحًا ،  فاحسب العدد الكلي للسيَّاح خلال فصْلَي الصيف والشتاء."
+                ],
+                "paragraphes2": ["عدد الرحلات خلال فصْلَي الصيف والشتاء ="],
+                "paragraphes3": ["رحلة."],
+                "paragraphes4": [
+                  " العدد الكلي للسيَّاح خلال فصْلَي الصيف والشتاء ="
+                ],
+                "paragraphes5": ["سائحًا."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["202"],
+                    "show": ["202"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["19,796", "19796"],
+                    "show": ["19,796"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "10",
+            "contents": [
+              {
+                "paragraphes1": [
+                  " يحتاج وائل إلى 170 جرامًا من كل من الفستق وعين الجمل والبندق لتحضير وصفة البقلاوة. يحتاج وائل إلى ضرب مُكَوِّنات الوصفة في 18 ليُحَضِّر ما يكفي من البقلاوة لعملاء المطعم. ما عدد الجرامات التي سيحتاج إليها وائل من المكسرات؟"
+                ],
+                "paragraphes2": [" ما يحتاجه وائل لتحضير الوصفة الواحدة ="],
+                "paragraphes3": ["جرامات ."],
+                "paragraphes4": [
+                  " عدد الجرامات التي سيحتاجها وائل لتحضير ما يكفي من البقلاوة لعملاء المطعم ="
+                ],
+                "paragraphes5": ["جرامًا."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["510"],
+                    "show": ["510"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9,180", "9180"],
+                    "show": ["9,180"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "11",
+            "contents": [
+              {
+                "paragraphes1": [
+                  " تحتاج منى 140 جرامًا من بذور السمسم لتحضير 120 الملليلتر من الطحينة  تُحَضِّر منى هذه الوصفة 20 مرة كل أسبوع. كم جرامًا من بذور السمسم تستخدمه منى كل أسبـوع؟ وكـم لترَا مـن الطحينة تُحَضِّره منى فـي 36 أسبوعًـا؟  حوِّل الكمية من الملليلتر إلى لترًا."
+                ],
+                "paragraphes2": [
+                  " عدد الجرامات التي تستخدمها من بذور السمسم كل أسبوع ="
+                ],
+                "paragraphes3": ["جرام."],
+                "paragraphes4": [
+                  " عدد اللترات  من الطحينة التي تُحَضِّرها منى في 36 أسبوعًا = "
+                ],
+                "paragraphes5": ["لتر."],
+                "paragraphes6": [""],
+                "paragraphes7": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,800", "2800"],
+                    "show": ["2,800"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["86.4"],
+                    "show": ["86.4"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": " ",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

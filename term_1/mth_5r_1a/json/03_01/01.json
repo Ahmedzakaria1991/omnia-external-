@@ -1,0 +1,221 @@
+[
+  {
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": [
+          "كان أدهم يقارن بين ارتفاعات الكثبان الرملية في الجزء",
+          " الشمالي من شبه جزيرة سيناء بالمتر . كتب هذه المعادلة:",
+          "  x =  27 –   18 .ما الذي يُمثِّله الحرف x ؟ "
+        ],
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " ارتفاع واحد من الكثبان في سيناء",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "مجموع ارتفاع الكثيبين في سيناء ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "الفرق بين أطول وأقصر كثيب رملي ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "  المسافة بين أطول وأقصر كثيب رملي",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "popup": "",
+        "paragraph": [
+          "كتب إيهاب هذه المعادلة:",
+          " x ",
+          "= 38.3 + 42.7  ",
+          "،إذا كان كل عدد من هذه",
+          " الأعداد يُمثِّل ارتفاع واحد  من الكثبان، فما الذي يُمثِّله الحرف x ؟"
+        ],
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 3,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " فرق الارتفاع بين الكثيبين ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": " مجموع ارتفاع الكثيبين ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "ارتفاع الكثيب الأطول ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "المسافة بين الكثيبين ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "popup": "",
+        "paragraph": [
+          "أرادت بسمة أن تكتب معادلة بمتغير لتمثيل ( 12.5 زائد عدد يساوي 15 ).",
+          "   أي معادلة مما يلي ستكون صحيحة؟"
+        ],
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "12.5 + 15 = x",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "12.5 + x = 15",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "15 + x = 12.5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "15 – x = 12.5",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": [
+          " إذا كان طول خليج السويس 275 كيلومترًا، وطول خليج العقبة 180 كيلومترًا.",
+          "  كتبت مريم معادلتين للمقارنة بين طولي الخليجين كالتالي:",
+          " 275 = 180 + x  و  x = 275 – 180 ",
+          "  ما الذي يُمثِّله الحرف x في هاتين المعادلتين؟"
+        ],
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "طول الخليج الواحد بالكيلومترات ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "الفرق بالكيلومترات بين الطولين ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "عرض شبه جزيرة سيناء",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " المسافة بالكيلومترات بين الخليجين ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "popup": "",
+        "paragraph": [
+          "",
+          "  إذا كان طول خليج السويس 275 كيلومترًا ، وطول خليج العقبة 180 كيلومترًا. كتبت مريم معادلتين للمقارنة بين طولَي الخليجين كالتالي:",
+          " 275 = 180 + x  و  x = 275 – 180 إذا قامت مريم بحل المعادلتين بشكل صحيح ،",
+          " فما الإجابة الصحيحة؟ (اختر الإجابتين الصحيحتين)"
+        ],
+        "correctAnswer": [1, 3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 2,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " في المعادلتين ستكون قيمة  x  هي نفسها",
+            "rtl": true,
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "الإجابة عن 180 – 275 ستكون 85 كم",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "الفرق بين الطولين سيكون 95 كم",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "  المسافة بالكيلومترات بين الخليجين ستكون 95 كم",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

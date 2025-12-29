@@ -1,0 +1,461 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الإجابة الصحيحة",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  أيٌّ مما يلي يُمثِّل تعبيرًا رياضيًّا؟  ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " 2.7 – 12.4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 3.2 + 8.5  =  f ",
+                "right": false,
+                "checked": false,
+                "ltr": true
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  10.32 = 3.2 + 7.12",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " k + 3.5 = 7.7",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "إذا كان:  <span class='ltr'> 14.05  +  t  = 21</span> ، فإن t = .........",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "35",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 6.59 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "35.05",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " 6.95",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "المُتغيِّر في المعادلة: <span class='ltr'> 6 × b  = 12</span> هو .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "6",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " b",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "12",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "70",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  الجملة الرياضية: <span class='ltr'>  2.07 +   m = 57.5 </span> تُمثِّل ......",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " معادلة ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "متباينة ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " تعبيرًا رياضيًّا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "غير ذلك",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " إذا كان: 4.02 = 1.93 + z ، فإن قيمة z = ....... ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "5.95 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "3.91 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "2.09 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "6.13 ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "قيمة المُتغيِّر x في المعادلة: <span class='ltr'>  5 –  3.2= x</span> هي ........",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "   1.8 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "  8.7  ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " 8.2 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "5 ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " إذا كان: <span class='ltr'> 55.89 – y = 47.9</span> ، فإن y = ............",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " 51.1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 7.99",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " 55.47",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " 55.47",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "الجملة الرياضية: <span class='ltr'> 3 +  x</span> تُسَمَّى .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " معادلة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "  تعبيرًا رياضيًّا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " قيمة مكانية ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "غير ذلك",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "قيمة المُتغيِّر x في المعادلة: 10.2 = 0.2 + x هي ......",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "20",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " 3 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "10",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "المُتغيِّر في المعادلة: 8 = 2.4 + n هو ..... ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "2.4 ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 5.6",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  8",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "n",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "قيمة المُتغيِّر b في المعادلة: 3.65 = 5.64 – b هي ......",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "1.99",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " 9.09",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " 9.29",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "2.01",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  العملية المُستخدَمة لإيجاد قيمة a في المعادلة: 24.312 = 12.34 + a هي .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الجمع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " الطرح",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " الضرب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "القسمة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

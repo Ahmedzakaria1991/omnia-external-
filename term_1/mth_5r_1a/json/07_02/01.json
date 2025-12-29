@@ -1,0 +1,632 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمل",
+        "qtitle": " أوجد خارج القسمة باستخدام نموذج مساحة المستطيل:",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["= 25 ÷ 2,375"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["95"],
+                    "show": ["95"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["= 15 ÷ 6,180"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["412"],
+                    "show": ["412"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes1": ["= 14 ÷ 8,205 "],
+                "paragraphes2": ["والباقي"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["586"],
+                    "show": ["586"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اقرأ ثم أجب",
+        "table": false,
+        "items": [
+          {
+            "id": 2,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes2": [
+                  "مدرسة بها 429 تلميذًا يُرَادُ توزيعهم على 13 فصلًا بالتساوي. فما عدد التلاميذ بكل فصل؟ (استخدم نموذج مساحة المستطيل)."
+                ],
+                "paragraphes3": ["عدد التلاميذ بكل فصل ="],
+                "paragraphes1": ["تلميذًا."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["33"],
+                    "show": ["33"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes2": [
+                  "مدرسة بها 1,550 تلميذًا ، وُزِّعَ على كل فصل 50 تلميذًا. احسب عدد فصول المدرسة. "
+                ],
+                "paragraphes3": [" عدد فصول المدرسة = "],
+                "paragraphes1": ["فصلًا."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["31"],
+                    "show": ["31"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "qtitle": "",
+        "table": true,
+        "items": [
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "row1": [1, 10, 50],
+                "row2": [43, "43 −", "0"],
+                "row3": ["473", "430 −", "43"],
+                "row4": ["2,623", "2,150 −", "473"],
+                "num": "63",
+                "numwidth": 3,
+                "paragraph": [" خارج القسمة في النموذج المقابل هو"],
+                "paragraph1": "",
+                "paragraph2": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["61"],
+                    "show": ["61"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["7"],
+                    "show": ["7"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "contents": [
+              {
+                "row1": [1, 8, 30],
+                "row2": [25, "25 −", "0"],
+                "row3": ["225", "200 −", "25"],
+                "row4": ["975", "750 −", "225"],
+                "num": "25",
+                "numwidth": 3,
+                "paragraph": [
+                  "عند قسمة: 25 ÷ 975 كما بنموذج مساحة المستطيل المقابل،",
+                  "فإن ناتج القسمة ="
+                ],
+                "paragraph1": "",
+                "paragraph2": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["39"],
+                    "show": ["39"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "qtitle": "",
+        "table": true,
+        "items": [
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "row1": [5, "b", 200],
+                "row2": ["70", "70 −", "43"],
+                "row3": ["350", "280 −", "70"],
+                "row4": ["3,150", "2,800 −", "a"],
+                "num": "14",
+                "numwidth": 3,
+                "paragraph": [],
+                "paragraph1": "= b",
+                "paragraph2": "",
+                "paragraphes3": "= a",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["350"],
+                    "show": ["350"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "row1": [1, "10", 80],
+                "row2": ["51", "51 −", "00"],
+                "row3": ["561", "b −", "51"],
+                "row4": ["a", "4,080 −", "561"],
+                "num": "51",
+                "numwidth": 3,
+                "paragraph": [],
+                "paragraph1": "= b",
+                "paragraph2": "",
+                "paragraphes3": "= a",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["510"],
+                    "show": ["510"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4,641", "4641"],
+                    "show": ["4,641"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "row1": [6, "10", "a"],
+                "row2": ["100", "90 −", "10"],
+                "row3": ["b", "150 −", "100"],
+                "row4": ["3,250", "3,000 −", "250"],
+                "num": "15",
+                "numwidth": 3,
+                "paragraph": [],
+                "paragraph1": "= b",
+                "paragraph2": "",
+                "paragraphes3": "= a",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["250"],
+                    "show": ["250"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["200"],
+                    "show": ["200"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "row1": ["b", "10", "100"],
+                "row2": ["212", "186 −", "26"],
+                "row3": ["522", "310 −", "212"],
+                "row4": ["3,622", "a −", "522"],
+                "num": "31",
+                "numwidth": 3,
+                "paragraph": [],
+                "paragraph1": "= b",
+                "paragraph2": "",
+                "paragraphes3": "= a",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3,100", "3100"],
+                    "show": ["3,100"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]

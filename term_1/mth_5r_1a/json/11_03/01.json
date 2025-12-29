@@ -1,0 +1,193 @@
+[{
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "parag":"لاحِظ كل مجموعة من الأعداد، وحدِّد ما إذا كانت تُمثِّل نمطًا أم لا:",
+
+    "quizChooses": [{
+            "id": 1,
+            "paragraph": "..... ، 19 ، 15 ، 7 ، 2",
+            "correctAnswer": [
+                2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        },
+        {
+            "id": 2,
+            "paragraph": "..... ، 80 ، 40 ، 20 ، 10 ، 5",
+            "correctAnswer": [
+                1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        },
+        {
+            "id": 3,
+            "paragraph": "..... ، 7.5 ، 6 ، 4.5 ، 3 ، 1.5",
+            "correctAnswer": [
+                1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        },
+        {
+            "id": 4,
+            "paragraph": "..... ، 54 ، 18 ، 9 ، 3 ، 1",
+            "correctAnswer": [
+                2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        },
+        {
+            "id": 5,
+            "paragraph": "..... ، 20 ، 16 ، 12 ، 8 ، 4",
+            "correctAnswer": [
+                1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        },
+        {
+            "id": 6,
+            "paragraph": "..... ، 5 ، 7 ، 1 ، 6 ، 3 ، 5",
+            "correctAnswer": [
+                2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        },
+        {
+            "id": 7,
+            "paragraph": "..... ، 37 ، 49 ، 61 ، 73 ، 85",
+            "correctAnswer": [
+                1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "نعم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"لا",
+                    "right": false,
+                    "checked": false
+                }   
+               
+            ]
+        }
+       
+      
+       
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

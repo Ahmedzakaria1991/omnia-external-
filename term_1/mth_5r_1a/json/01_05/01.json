@@ -1,0 +1,475 @@
+ 
+[
+    {
+        "nameId": "choose-slide",
+        "title": "اختر الاجابة الصحيحة",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-5",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "اختر الإجابة الصحيحة",
+                "popuptext": [
+                   
+                ],
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " القيمة المكانية للرقم 5 في العدد 7.235 هي .....",
+                        "correctAnswer": [2],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "آحاد",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "جزء من ألف",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": " جزء من عشرة",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": " جزء من مائة",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " 0.7 تكافئ .....",
+                        "correctAnswer": [4],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "70",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 7 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "0.07",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": " 0.700",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }  ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "القيمة التي تساوي العدد 30.2 هي .....",
+                        "correctAnswer": [1],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": " 0.20 + 30 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "  0.2 + 3 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": " 2 + 30",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "30 عشرات ، وجزآن من عشرة. ",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " أيُّ الأعداد العشرية التالية هو الأكبر؟",
+                        "correctAnswer": [2],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "20.21 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "  20.9 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "20.010",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": " 20.10",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "عند ضرب العدد 458.36 في 10 . أيُّ التعبيرات التالية صحيح؟ ",
+                        "correctAnswer": [3],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "قيمة الرقم 3 تزيد من 3 إلى 30 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " قيمة الرقم 5 تقل من 50 إلى 5  ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": " قيمة الرقم 6 تزيد من 0.06 إلى 0.6 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "  قيمة الرقم 8 تزيد من 8 إلى 800 ",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "تقريب العدد 18.58 لأقرب عدد صحيح هو ......",
+                        "correctAnswer": [4],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "59",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "18",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "18.6 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "19",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      } 
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "  أيٌّ من الأعداد التالية تكون فيه قيمة الرقم 3 تساوي 0.03 ؟  ",
+                        "correctAnswer": [3],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": " 0.153",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 0.315 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "  0.531 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "3.015",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " الكسر العشري الذي يكافئ ",
+                        "qfraction":true,
+                        "up": "230",
+                        "down": " 1,000",
+                        "paragraph1": " هو .......",
+                        "correctAnswer": [4],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "2.3",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "0.32 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "2.03",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "0.23",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }  
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " ........ = 0.008 + 0.07 + 20 ",
+                        "correctAnswer": [3],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "  20.78",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "20.708",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "  20.078 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "20.780 ",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "  15.43 ..... 15.8  ",
+                        "correctAnswer": [2],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": ">",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "<",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "  = ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": " ≥",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "العدد ...... يمكن تقريبه لأقرب جزء من ألف ليكون 8.742  ",
+                        "correctAnswer": [2],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": "8.7452 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": "8.7421 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "  8.741 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": " 8.7429 ",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                      ,
+                      {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " الصيغة الممتدة للعدد 9.013 هي ..... ",
+                        "correctAnswer": [1],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 3,
+                        "answers": [
+                          {
+                            "numAnswer": 1,
+                            "toChoose": " 0.003 + 0.01 + 9",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 2,
+                            "toChoose": " 0.03 + 0.1 + 9 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 3,
+                            "toChoose": "  0.003 + 0.01 + 0.9 ",
+                            "right": false,
+                            "checked": false
+                          },
+                          {
+                            "numAnswer": 4,
+                            "toChoose": "0.13 + 9",
+                            "right": false,
+                            "checked": false
+                          } 
+                        ]
+                      }
+                       
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            } 
+        ]
+    }
+]

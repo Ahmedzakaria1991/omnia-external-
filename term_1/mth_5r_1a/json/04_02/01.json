@@ -1,0 +1,126 @@
+[
+    {
+        "nameId": "choose",
+        "title": "اختَرِ الإجابةَ الصحيحةَ ",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-5",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "حدِّد الأعداد الثلاثة التي ليست مضاعفات مشتركة للعددين 5 و7:",
+                "correctAnswer": [
+                    1,
+                    4,
+                    5
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "14",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "35",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "70",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "21",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 5,
+                        "toChoose": "55",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 6,
+                        "toChoose": "105",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": " حدِّد الأعداد الثلاثة التي يكون العددان 24 و32 مضاعفين مشتركين لها: ",
+                "correctAnswer": [
+                    1,
+                    2,
+                    6
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "2",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "4",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "7",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 5,
+                        "toChoose": "6",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 6,
+                        "toChoose": "8",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+        ],
+        "popuptext": "",
+        "pop": ""
+    }
+]

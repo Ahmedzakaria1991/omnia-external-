@@ -1,0 +1,120 @@
+[
+  {
+    "nameId": "DragAndDropRearrange",
+
+    "title": "رتب حسب المطلوب ",
+    "subject": "math-5",
+    "colorTemplate": "#FF9FB7",
+    "counterFinished": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "dragCounter": 0,
+    "droggableBox": [
+      {
+        "para": " ترتيبًا تنازليًّا:",
+        "items": [
+      
+          {
+            "idNum": [2],
+            "wrod": ["2.892"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "wrod": [],
+            "firstwrod": ["2.351"]
+          },
+          {
+            "idNum": [3],
+            "wrod": ["3.034"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [4],
+            "wrod": ["3.041"],
+            "firstwrod": [""]
+          },
+
+          {
+            "idNum": [5],
+            "wrod": ["3.401"],
+            "firstwrod": [""]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [5]
+          },
+          {
+            "idNum": [4]
+          },
+          {
+            "idNum": [3]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [1]
+          }
+        ]
+      },
+      {
+        "para": " ترتيبًا تصاعديًّا:",
+        "items": [
+          {
+            "idNum": [2],
+            "wrod": ["82.005"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "wrod": [],
+            "firstwrod": ["82.239"]
+          },
+
+          {
+            "idNum": [3],
+            "wrod": ["28.392"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [5],
+            "wrod": ["8.027"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [4],
+            "wrod": ["28.239"],
+            "firstwrod": [""]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [5]
+          },
+          {
+            "idNum": [4]
+          },
+          {
+            "idNum": [3]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [1]
+          }
+        ]
+      }
+    ]
+  }
+]

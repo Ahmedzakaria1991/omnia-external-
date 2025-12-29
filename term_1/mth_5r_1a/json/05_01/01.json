@@ -1,0 +1,1609 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمل ما يلي",
+        "qtitle": "أكمل باستخدام نموذج مساحة المستطيل:",
+        "tableOne": true,
+        "tableTwo": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": [2, 20],
+                "row2": [20, 200, 10],
+                "row3": [6, 60, 3],
+                "paragraph1": "22 × 13 = (10 × 20) + (10 ×",
+                "paragraph2": " ) + (",
+                "paragraph3": " × 20 ) + ( 3 ×",
+                "paragraph4": ") =",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": ["000"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["286"],
+                    "show": ["286"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": [8, 50],
+                "row2": [320, "2,000", 40],
+                "row3": [16, 100, 2],
+                "paragraph1": "58 × 42 = (40 ×",
+                "paragraph2": " ) + ( 40 × 8 ) + (",
+                "paragraph3": "× 50) + ( 2 × ",
+                "paragraph4": ") =",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["50"],
+                    "show": ["50"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,436", "2436"],
+                    "show": ["2,436"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": [7, 70],
+                "row2": [210, "2,100", 30],
+                "row3": [49, 490, 7],
+                "paragraph1": "77 × 37 = (",
+                "paragraph2": "× 70 ) + ( 30 × ",
+                "paragraph3": ") + ( 7 ×",
+                "paragraph4": ") + ( 7 × ",
+                "paragraph5": ") =",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["30"],
+                    "show": ["30"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["7"],
+                    "show": ["7"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["70"],
+                    "show": ["70"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["7"],
+                    "show": ["7"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,849", "2849"],
+                    "show": ["2,849"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": [3, 60],
+                "row2": [60, "1,200", 20],
+                "row3": [27, 540, 9],
+                "paragraph1": "63 × 29 = (",
+                "paragraph2": "× 60 ) + ( 20 × ",
+                "paragraph3": ") + ( 9 ×",
+                "paragraph4": ") + ( 9 ×",
+                "paragraph5": ") =",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["60"],
+                    "show": ["60"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,827", "1827"],
+                    "show": ["1,827"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": [2, 80],
+                "row2": [120, "4,800", 60],
+                "row3": [8, 320, 4],
+                "paragraph1": "82 × 64 = (",
+                "paragraph2": "× 60 ) + ( 80 × ",
+                "paragraph3": ") + ( 2 ×",
+                "paragraph4": ") + ( 2 ×",
+                "paragraph5": ") =",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["80"],
+                    "show": ["80"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["60"],
+                    "show": ["60"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["5,248", "5248"],
+                    "show": ["5,248"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "qtitle": " أكمل نموذج مساحة المستطيل وأوجد الناتج ",
+        "tableTwo": true,
+        "tableOne": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": ["", "8"],
+                "row2": ["", "1,600", ""],
+                "row3": ["72", "", "9"],
+                "paragraph1": ["= (8 × 9) + (40 × 9) + (8 × 40) + (40 × 40) "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,352", "2352"],
+                    "show": ["2,352"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["320"],
+                    "show": ["320"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["360"],
+                    "show": ["360"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["40"],
+                    "show": ["40"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["40"],
+                    "show": ["40"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": ["3", ""],
+                "row2": ["60", "", ""],
+                "row3": ["", "360", "4"],
+                "paragraph1": ["= (3 × 4) + (90 × 4) + (3 × 20) + (90 × 20)"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2,232", "2232"],
+                    "show": ["2,235"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,800", "1800"],
+                    "show": ["1,800"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["90"],
+                    "show": ["90"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "qtitle": "أكمل نموذج مساحة المستطيل وأوجد الناتج:  ",
+        "tableTwo": true,
+        "tableOne": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": ["3", "40", "40"],
+                "row2": ["", "", "10"],
+                "row3": ["", "", "4"],
+                "paragraph3": [
+                  " = (4 × 3) + (10 × 3) + (4 × 40) + (4 × 40) + (10 × 40) + (10 × 40)"
+                ],
+                "paragraph2": "فيما يلي ثلاث طرق لإيجاد ناتج ضرب: 14 × 83 ، اكتب إجابتها في نموذج مساحة المستطيل وأوجد الناتج: ",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,162", "1162"],
+                    "show": ["1,162"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["30"],
+                    "show": ["30"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["400"],
+                    "show": ["400"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["160"],
+                    "show": ["160"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["40"],
+                    "show": ["40"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["400"],
+                    "show": ["400"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["160"],
+                    "show": ["160"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": ["3", "80", ""],
+                "row2": ["", "", "7"],
+                "row3": ["", "", "7"],
+                "paragraph1": [" = (7 × 3) + (7 × 3) + (7 × 80) + (7 × 80)"],
+                "paragraph2": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,162", "1162"],
+                    "show": ["1,162"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["21"],
+                    "show": ["21"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["560"],
+                    "show": ["560"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["21"],
+                    "show": ["21"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["560"],
+                    "show": ["560"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": true,
+            "contents": [
+              {
+                "row1": ["3", "80", ""],
+                "row2": ["", "", "10"],
+                "row3": ["", "", "4"],
+                "paragraph1": [" = (4 × 3) + (10 × 3) + (4 × 80) + (10 × 80)"],
+                "paragraph2": "",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,162", "1162"],
+                    "show": ["1,162"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["30"],
+                    "show": ["30"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["800"],
+                    "show": ["800"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["320"],
+                    "show": ["320"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "tableOne": false,
+        "tableTwo": false,
+        "arraw": false,
+        "title": "أجب عما يلي",
+        "parag": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes": "",
+                "paragraphes1": [
+                  " يمتلك عُمَر شركة سياحة لنقل الزوَّار عبر جبال الصحراء الشرقية. لدى عُمَر 12 أتوبيسًا ، يمكن لكل أتوبيس أن يحمل 25 راكبًا. ",
+                  "كم راكبًا يمكن لعُمَر نقله كل يوم إذا كان كل أتوبيس كامل العدد؟"
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["300"],
+                    "show": ["300"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "paragraphes2": [
+                  "عدد الرُّكَّاب الذين يمكن لعُمَر نقلهم إذا  كان كل أتوبيس كامل العدد ="
+                ],
+                "paragraphes3": ["راكب."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "   قرأت دعاء 32 قصة ، كل قصة تتكون من 18 صفحة. ما عدد الصفحات التي قرأتها دعاء؟"
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["576 "],
+                    "show": ["576 "]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "paragraphes2": ["عدد الصفحات التي قرأتها دعاء ="],
+                "paragraphes3": ["صفحة."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  يمشي عَلِيٌّ في اليوم مسافة 6 كيلومترات ، فإذا مشى لمدة 187 يومًا في السنة ، فكم كيلومترًا مشاها؟"
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,122", "1122"],
+                    "show": ["1,122"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "paragraphes2": ["عدد الكيلومترات التي مشاها في 187 يومًا ="],
+                "paragraphes3": ["كيلومترًا."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes1": [
+                  " يقود عَلِيٌّ سيارته لمسافة 60 كيلومترًا كل يوم. كم كيلومترًا سيقود سيارته في 187 يومًّا؟ "
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["11,220", "11220"],
+                    "show": ["11,220"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "paragraphes2": [
+                  "عدد الكيلومترات التي سيقود فيها سيارته خلال 187 يومًا ="
+                ],
+                "paragraphes3": ["كيلومترًا."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes1": [
+                  " يدَّخر هيثم 25 جنيه يوميًّا ، إذا استمر في ذلك لمدة 45 يومًا ، فاحسب ما ادَّخره هيثم خلال هذه الفترة."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,125", "1125"],
+                    "show": ["1,125"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  }
+                ],
+                "paragraphes2": ["ما ادخره هيثم="],
+                "paragraphes3": ["جنيهًا."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]

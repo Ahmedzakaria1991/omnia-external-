@@ -1,0 +1,566 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "inputSlide": [
+      {
+        "active": true,
+        "qtitle": "اكتب كلًّا من الكسر العشري والكسر الاعتيادي الذي يُعَبِّر عن الجزء المُظَلَّل في كلٍّ مما يلي:",
+        "quran": [],
+        "paragraph2": [],
+        "title": "أكمل",
+        "left": false,
+        "image": true,
+        "index": true,
+        "questionType": 1,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+
+            "index": "أ",
+            "img": "../images/p11/01.png",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "parag":"=",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.037"],
+                    "show": ["0.037"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["37"],
+                    "show": ["37"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,000", "1000"],
+                    "show": ["1,000"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+
+            "index": "ب",
+            "img": "../images/p11/02.png",
+            "contents": [
+              {
+                "parag":"=",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.223"],
+                    "show": ["0.223"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["223"],
+                    "show": ["223"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,000", "1000"],
+                    "show": ["1,000"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+
+            "index": "ج",
+            "img": "../images/p11/03.png",
+            "contents": [
+              {
+                "parag":"=",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.765"],
+                    "show": ["0.765"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["765"],
+                    "show": ["765"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,000", "1000"],
+                    "show": ["1,000"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "qtitle": "لاحظ النماذج التالية واكتب الكسر العشري، ثم أكمل:",
+        "quran": [],
+        "paragraph2": [],
+        "title": "أكمل",
+        "left": false,
+        "image": true,
+        "index": true,
+        "questionType": 2,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "img": "../images/p11/04.png",
+            "contents": [
+              {
+                "paragraphes1": ["الكسر العشري:"],
+                "paragraphes2": ["="],
+                "paragraphes3": ["أجزاء من مائة "],
+                "paragraphes4": ["و"],
+                "paragraphes5": ["أجزاء من ألف. "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.053"],
+                    "show": ["0.053"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["5"],
+                    "show": ["5"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "ب",
+            "img": "../images/p11/05.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["الكسر العشري:"],
+                "paragraphes2": ["="],
+                "paragraphes3": ["أجزاء من عشرة"],
+                "paragraphes4": ["و"],
+                "paragraphes5": ["أجزاء من مائة"],
+                "paragraphes6": ["و"],
+                "paragraphes7": ["أجزاء من ألف."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.198"],
+                    "show": ["0.198"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9"],
+                    "show": ["9"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+          ,
+          {
+            "id": 3,
+            "type": 2,
+            "index": "ج",
+            "img": "../images/p11/06.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["الكسر العشري:"],
+                "paragraphes2": ["="],
+                "paragraphes3": ["أجزاء من عشرة"],
+                "paragraphes4": ["و"],
+                "paragraphes5": ["أجزاء من مائة"],
+                "paragraphes6": ["و"],
+                "paragraphes7": ["أجزاء من ألف."],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.674"],
+                    "show": ["0.674"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["7"],
+                    "show": ["7"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]

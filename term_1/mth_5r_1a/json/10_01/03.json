@@ -1,0 +1,89 @@
+[{
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "quizChooses": [{
+            "id": 1,
+            "paragraph": "يجب أن تصل درجات الحرارة إلى 1,100 درجة مئوية على الأقل حتى يتم نفخ الزجاج أو حتى يصبح الطين الفخار صلبًا. يغلي الماء عندما يصل إلى جزء من عشرة من تلك الدرجة. حدِّد الخيار الأقرب لدرجة غليان الماء. ",
+            "correctAnswer": [
+                2,3
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "10 × 1,100",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " 10 ÷ 1,100",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "0.1 × 1,100",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "0.1 ÷ 1,100",
+                    "right": false,
+                    "checked": false
+                }
+               
+            ]
+        },
+        {
+            "id": 1,
+            "paragraph": "يصنع نور مشروبًا جديدًا لبيعه في محل العصير الخاص به. يتكوَّن هذا المشروب من عصير المانجو مع عصير البرتقال وعصير الجوافة. اقرأ الوصفة لمساعدته في تحديد الإناء الذي يجب أن يستخدمه لخلط المشروب الجديد. وضِّح اختيارك باستخدام عمليتَي الضرب والقسمة (الوصفة هي: 2,250 ملل من عصير المانجو، 0.95 لتر من عصير البرتقال، 650 ملل من عصير الجوافة). حدِّد الإناء المناسب الذي يجب أن يستخدمه نور.",
+            "correctAnswer": [
+                2,3
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "3 لترات",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " 4 لترات",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "5 لترات",
+                    "right": false,
+                    "checked": false
+                }
+           
+               
+            ]
+        }
+       
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

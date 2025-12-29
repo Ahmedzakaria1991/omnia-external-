@@ -1,0 +1,1214 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أجب عما يلي",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": 1,
+            "contents": [
+              {
+                "paragraphes1": ["  أول 5 مضاعفات للعدد 6"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 5,
+                    "comma": "،",
+                    "valid": ["0", "6", "12", "18", "24"],
+                    "show": ["0", "6", "12", "18", "24"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "index": 2,
+            "contents": [
+              {
+                "paragraphes1": ["أول 4 مضاعفات للعدد 9"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 4,
+                    "comma": "،",
+                    "valid": ["0", "9", "18", "27"],
+                    "show": ["0", "9", "18", "27"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "index": 3,
+            "contents": [
+              {
+                "paragraphes1": ["المضاعفات المشتركة بخلاف الصفر للعددين 2، 8 معًا الأقل من 24"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "،",
+                    "valid": ["8" , "16"],
+                    "show": ["8" , "16"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "index": 4,
+            "contents": [
+              {
+                "paragraphes1": ["المضاعفات المشتركة بخلاف الصفر للعددين 4، 6 معًا الأقل من 40 "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 3,
+                    "comma": "،",
+                    "valid": ["12" , "24"  ,"36"],
+                    "show": ["12" , "24"  ,"36"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+          ,
+          {
+            "id": 2,
+            "type": 1,
+            "index": 5,
+            "contents": [
+              {
+                "paragraphes1": ["المضاعفات المشتركة للعددين 4، 5 معًا والمحصورة بين 15، 65"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 3,
+                    "comma": "،",
+                    "valid": ["20" , "40"  ,"60"],
+                    "show": ["20" , "40"  ,"60"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+          ,
+          {
+            "id": 2,
+            "type": 1,
+            "index": 6,
+            "contents": [
+              {
+                "paragraphes1": ["المضاعفات المشتركة بخلاف الصفر للأعداد 2، 3، 5 معًا الأقل من 100 "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 3,
+                    "comma": "،",
+                    "valid": ["30" , "60"  ,"90"],
+                    "show": ["30" , "60"  ,"90"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أجب عما يلي",
+        "qtitle": "أوجد المضاعف المشترك الأصغر (م.م.أ) لكل عددين مما يلي:",
+        "items": [
+          {
+            "id": 5,
+            "type": 1,
+            "index": 1,
+            "contents": [
+              {
+                "paragraphes1": ["6 ، 9"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 1,
+            "index": "أ",
+            "contents": [
+              {
+                "paragraphes1": ["مضاعفات العدد 6: "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 4,
+                    "comma": "،",
+                    "valid": ["0", "6", "12", "18"],
+                    "show": ["0", "6", "12", "18"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": 1,
+            "index": "ب",
+            "contents": [
+              {
+                "paragraphes1": ["مضاعفات العدد 9: "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 4,
+                    "comma": "،",
+                    "valid": ["0", "9", "18", "27"],
+                    "show": ["0", "9", "18", "27"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": 1,
+            "index": "جـ",
+            "contents": [
+              {
+                "paragraphes1": ["(م.م.أ):"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["18"],
+                    "show": ["18"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "type": 1,
+            "index": 2,
+            "contents": [
+              {
+                "paragraphes1": ["5 ، 10"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "type": 1,
+            "index": "أ",
+            "contents": [
+              {
+                "paragraphes1": ["مضاعفات العدد 10: "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 3,
+                    "comma": "،",
+                    "valid": ["0", "10", "20"],
+                    "show": ["0", "10", "20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "type": 1,
+            "index": "ب",
+            "contents": [
+              {
+                "paragraphes1": ["مضاعفات العدد 5: "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 4,
+                    "comma": "،",
+                    "valid": ["0", "5", "10", "15"],
+                    "show": ["0", "5", "10", "15"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": 1,
+            "index": "جـ",
+            "contents": [
+              {
+                "paragraphes1": ["(م.م.أ):"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["10"],
+                    "show": ["10"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أجب عما يلي",
+        "qtitle": "أوجد المضاعف المشترك الأصغر (م.م.أ) لكل زوج أعداد من الأعداد التالية:",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": 1,
+            "contents": [
+              {
+                "paragraphes1": ["4 ، 3"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "index": 2,
+            "contents": [
+              {
+                "paragraphes1": ["5 ، 2"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["10"],
+                    "show": ["10"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "index": 3,
+            "contents": [
+              {
+                "paragraphes1": ["7 ، 11"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["77"],
+                    "show": ["77"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 1,
+            "index": 4,
+            "contents": [
+              {
+                "paragraphes1": ["6 ، 4"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["12"],
+                    "show": ["12"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 1,
+            "index": 5,
+            "contents": [
+              {
+                "paragraphes1": ["3 ، 9"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9"],
+                    "show": ["9"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 1,
+            "index": 6,
+            "contents": [
+              {
+                "paragraphes1": ["9 ، 5 "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["45"],
+                    "show": ["45"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "أكمل ما يلي",
+        "qtitle": "اكتب الأعداد التالية باستخدام جدول القيمة المكانية",
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": true,
+            "table": true,
+            "contents": [
+              {
+                "paragraph": "يشتري عادل أطباقًا من البيض وزجاجات من العصير من السوبر ماركت لتحضير وجبة الإفطار لأصدقائه. يحتوي كل طبق على 12 بيضة. أكمل الجدول التالي لعادل: ",
+                "paragraph1": "عدد الأطباق",
+                "numbers": ["1", "2", "3", " 4", "5", "6"],
+                "paragraph2": "عدد البيض",
+                "paragraph3": "12",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["24"],
+                    "show": ["24"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["36"],
+                    "show": ["36"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["48"],
+                    "show": ["48"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["60"],
+                    "show": ["60"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["72"],
+                    "show": ["72"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": false,
+            "table": true,
+            "contents": [
+              {
+                "paragraph": " يُباع العصير في عبوات، وتحتوي كل عبوة على 9 زجاجات. أكمل الجدول التالي لعادل:",
+                "paragraph1": "عدد زجاجات العصير",
+                "numbers": ["1", "2", "3", "4", "5", "6"],
+                "paragraph2": "عدد العبوات ",
+                "paragraph3": "9",
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["18"],
+                    "show": ["18"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["27"],
+                    "show": ["27"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["36"],
+                    "show": ["36"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["45"],
+                    "show": ["45"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["54"],
+                    "show": ["54"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": false,
+            "table": false,
+            "contents": [
+              {
+                "paragraph": "إذا اشترى عادل ما يكفي 36 شخصًا من البيض والعصير، فما عدد أطباق البيض وعبوات العصير التي سيحتاج إلى شرائها ليحصل كل ضيف على بيضة واحدة وزجاجة عصير واحدة؟",
+                "paragraphes1": ["يجب أن يشتري عادل"],
+                "paragraphes2": ["أطباق بيض."],
+                "paragraphes3": ["و"],
+                "paragraphes4": ["عبوات عصير."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اقرأ ثم أجب",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  ترص ضحى وشقيقها الصغير ألواح قضبان لعبة القطار. يبلغ طول كل لوح 12 سنتيمترًا."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "index": "أ",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  ما طول أول 5 ألواح مثبتة من نهاية كل منها؟  "
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["60"],
+                    "show": ["60"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": ["سم."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "index": "ب",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  ما عدد الألواح التي ستحتاجها ضحى وشقيقها لتكوين المسافة نفسها إذا كان طول كل لوح 4 سنتيمترات؟ "
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["15"],
+                    "show": ["15"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": ["لوحًا."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]

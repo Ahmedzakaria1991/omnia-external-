@@ -1,0 +1,271 @@
+[
+  {
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "........... = 0.01 × 49",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "4.9",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.49",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "4,900",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "490",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "............ = 100 × 0.375",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "0.375",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.0375",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "3.75",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "37.5",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "up": "1",
+        "down": "10",
+        "fraction": true,
+        "paragraph": " ....... =",
+        "paragraph1": "× 76.5",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "765",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "7.65",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.765",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "76.05",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "كم مرة يجب ضرب رقم 10 في نفسه ليساوي 1,000 ؟",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "مرة واحدة",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "مرتان",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "3 مرات",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "4 مرات",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "0.1 × 8.1 ...... 10 × 8.1",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "<",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "=",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "≤",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "0.071 = .......... × 71",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "1",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "0.1",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "0.01",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "0.001",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "أي التعبيرات العددية التالية تساوي 50,000؟",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "10 × 5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "100 × 5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "1,000 × 5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "10,000 × 5",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

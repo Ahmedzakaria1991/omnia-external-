@@ -1,0 +1,477 @@
+[
+  {
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "popup": "",
+        "paragraph": "من مضاعفات العدد 4 هو .......",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "24",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "25",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "27",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "41",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "popup": "",
+        "paragraph": "جميع الأعداد التالية أولية، ما عدا .........",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "5",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": " 7",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " 9 ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "popup": "",
+        "paragraph": "العدد الذي عوامله الأولية 2، 5، 7 هو .......",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "14",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "35",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "70",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "10",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "أيُّ عددين مما يلي يكون العامل المشترك الأكبر لهما هو 6 ؟ ",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "  2 ، 3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "24 ، 6",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "6 ، 8",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "2 ، 5",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "في المعادلة: 7 × 2 × 2 = n قيمة n تساوي .........",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "14",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "28",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "32",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "40",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "(م.م.أ)، للعددين 2، 3 هو .........",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "10",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "6",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "إذا كان: 7.4 = 3.2 + y ، فإن: قيمة المتغير y تُعبِّر عن .....",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "مجموع العددين",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "الفرق بين العددين",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "نصف العددين",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "ضعف العددين",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "العوامل الأولية للعدد 28 هي .......",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "  2 ، 3 ، 3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "2 ، 14",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 2 ، 2 ، 7",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " 4 ، 7",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "عددان مجموعهما 2.8 فإذا كان العدد الأول 1.7 ، فإن المعادلة التي تُعبِّر عن هذا الموقف  هي .........",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " 𝑥 +  1.7 = 2.8  ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "1.7  + 2.8 = 𝑥  ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 𝑥  –  2.8 =  1.7",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " 1.7  ×   2.8 = 𝑥  ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": " العامل المشترك لكل الأعداد .....  أصغر عدد أولي.",
+        "correctAnswer": [2],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " < ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": ">",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " =",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " ≤ ",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": " العدد الأولي له ....... فقط.",
+        "correctAnswer": [1],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": " عاملان",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "عامل واحد",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "  ثلاثة عوامل",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": " أربعة عوامل",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "المتغير في المعادلة: 5.5 = 3.2 + 𝑥 هو .........",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "  5.5 ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "3.2",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": " 2.3",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "𝑥",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "popup": "",
+        "paragraph": "العدد 56 من مضاعفات العدد  ........",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "  5 ",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "6",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "8",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "9",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ],
+    "popuptext": "",
+    "pop": ""
+  }
+]

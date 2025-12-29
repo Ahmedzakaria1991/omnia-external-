@@ -1,0 +1,192 @@
+[{
+    "nameId": "choose",
+    "title": "اختر الإجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-5",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "quizChooses": [{
+            "id": 1,
+            "paragraph": "يتدرب عُمَرُ كل 12 يومًا ، بينما تتدرب رَنَا كل 8 أيام . كلا الصديقين يتدربان معًا اليوم.  كم يومًا سيمضي حتى يتدربا معًا مرة أخرى؟ هل يجب عليك إيجاد العامل المشترك الأكبر (ع.م.أ) أم المضاعف المشترك الأصغر(م.م.أ)؟",
+            "correctAnswer": [
+                4
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "(ع.م.أ)، 4 أيام  ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "(م.م.أ)، 4  أيام ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "(ع.م.أ)، 24 يومًا ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"(م.م.أ)، 24 يومًا ",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "paragraph":"لدى بسمة 28 زهرة من الزهور الحمراء و 14 زهرة من الزهور الصفراء ، تريد تنسيقها عن طريق توزيعها على صفوف متساوية بحيث يحتوي كل صف على نفس العدد من الزهور الحمراء والزهور الصفراء. ما أقصى عدد ممكن من الصفوف التي ستُكَوِّنُهَا؟ هل يجب عليك إيجاد العامل المشترك الأكبر (ع.م.أ)  أم المضاعف المشترك الأصغر (م.م.أ)؟",
+            "correctAnswer": [
+                1
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "(ع.م.أ)، 14 صفًا ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "(م.م.أ)، 14 صفًا",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"(ع.م.أ)، 28 صفًا",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "(م.م.أ)، 28 صفًا",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "paragraph":"تعطي منة صديقاتها أقلام رصاص ومَمَاحي. يبيع المتجر أقلام الرصاص في علبة تحتوي  على 8 أقلام ، والمماحي في علبة تحتوي على 10 مَمَاحٍ. إذا أرادت منة نفس العدد من كلٍّ من  الأقلام والمماحي ، فما الحد الأدنى لعدد الأقلام الرصاص التي ستضطر إلى شرائها ؟ هل يجب عليك  إيجاد العامل المشترك الأكبر (ع.م.أ) أم المضاعف المشترك الأصغر (م.م.أ)؟",
+            "correctAnswer": [ 2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "(ع.م.أ)، 40 قلمًا ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "(م.م.أ)، 40 قلمًا ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "(ع.م.أ)، 80 قلمًا",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "(م.م.أ)، 80 قلمًا ",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "paragraph":"يقطع عمرو 3 دقائق أثناء المشي لعمل دورة واحدة حول الملعب ، بينما تقطع سارة 5 دقائق لعمل نفس الدورة. إذا بدأ كل منهما بالمشي الآن واستمرَّا بنفس المعدل ، فبعد كم دقيقة يلتقيان مرة أخرى؟ هل يجب عليك إيجاد العامل المشترك الأكبر (ع.م.أ) أم المضاعف المشترك الأصغر (م.م.أ)؟",
+            "correctAnswer": [
+                2
+            ],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "(ع.م.أ)، 15 دقيقة ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " (م.م.أ)، 15 دقيقة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":" (ع.م.أ)، 8 دقائق ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "(م.م.أ)، 8 دقائق ",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "paragraph":"يُحضِّر نور حقائب تحتوي على وجبات خفيفة لرحلة قادمة. لديه 6 ثمرات من البرتقال و 12قطعة فاكهة مجففة. يريد نور توزيع الوجبات الخفيفة في الحقائب بالتساوي دون أن يتبقى أي طعام. ما أكبر عدد من الحقائب التي تحتوي على وجبات خفيفة يستطيع نور تحضيرها؟ هل يجب عليك  إيجاد العامل المشترك الأكبر (ع.م.أ) أم المضاعف المشترك الأصغر (م.م.أ)؟",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [{
+                    "numAnswer": 1,
+                    "toChoose": "(ع.م.أ)، 6 حقائب ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "(م.م.أ)، 6 حقائب",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": " (ع.م.أ)، 12 حقيبة ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "(م.م.أ)، 12 حقيبة",
+                    "right": false,
+                    "checked": false
+                }
+            ]
+        }
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

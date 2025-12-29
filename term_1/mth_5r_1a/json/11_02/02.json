@@ -1,0 +1,278 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أقرأ، ثم أجب",
+        "image": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  إذا كان ثمن علبة اللبن 15 جنيهًا، وثمن علبة العصير 7.5 جنيه، وثمن علبة الزبادي 4.75 جنيه، فما ثمن شراء 4 علب لبن و3 علب عصير و5 علب زبادي؟ "
+                ],
+                "paragraphes2": [
+                  " ثمن شراء 4 علب لبن و3 علب عصير و5 علب زبادي ="
+                ],
+                "paragraphes3": ["جنيه."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["106.25"],
+                    "show": ["106.25"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  " ذهبت سمر مع ثلاث من زميلاتها إلى مدينة الألعاب، فإذا دفعت كلٌّ منهن 77 جنيهًا ثمن تذكرة الدخول، و 25.5 جنيـه ثمن علبة حلوى، و 5 جنيهات ثمـن زجاجة ماء، فما المبـلغ الكليُّ الذي دفعته سمر وزميلاتها؟ "
+                ],
+                "paragraphes2": [" المبـلغ الكليُّ الذي دفعته سمر وزميلاتها ="],
+                "paragraphes3": ["جنيه."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["322.5"],
+                    "show": ["322.5"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  لدى مريم كتاب، قرأت منه في 5 أيام متتالية بمعدل 6 صفحات كل يوم، وفي اليومين التاليين كل يوم 3 صفحات، وبقيت 5 صفحات من الكتاب. ما عدد صفحات الكتاب؟ "
+                ],
+                "paragraphes2": [" عدد صفحات الكتاب="],
+                "paragraphes3": ["صفحة."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["41"],
+                    "show": ["41"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  يدخر كامل النقود لشراء سيارة. لديه حاليًّا 1,000 جنيه، وقد بدأ العمل في وظيفتين ، وبدأ يدخر من الوظيفة الأولى 50 جنيهًا في الأسبوع، ويدخر من الوظيفة الثانية 30 جنيهًا في الأسبوع، فإذا ادخر هذه النقود من الوظيفتين لمدة 4 أسابيع ليضيفها إلى مدخراته، فكم ادخر كامل بنهاية الأسابيع الأربعة؟"
+                ],
+                "paragraphes2": [
+                  " مقدار ما ادخره كامل بنهاية الأسابيع الأربعة = "
+                ],
+                "paragraphes3": ["جنيه."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1,320", "1320"],
+                    "show": ["1,320"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "  يرفع منير الأثقال للتدريب من أجل مسابقة قادمة. يقوم بتركيب 4 أوزان في القضيب، اثنين من الأوزان الكبيرة ، واثنين من الأوزان الصغيرة. تبلغ كتلة كل وزن كبير 33.75 كيلوجرام، وتزيد على كل وزن من الوزنين الصغيرين بمقدار 17.5 كيلوجرام. تبلغ كتلة الأوزان الأربعة 100 كجم. ما كتلة كل وزن من الوزنين الصغيرين؟"
+                ],
+                "paragraphes2": [" كتلة كل وزن من الوزنين الصغيرين =  "],
+                "paragraphes3": ["كيلوجرام."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["16.25"],
+                    "show": ["16.25"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "تملأ هدى زهريات متطابقة بالماء لتنسيق الزهور في محل الزهور، تبدأ بمقدار 15.75 لتر وتسكب كمية متساوية في 16 زهرية. بعد انتهاء هذا العمل، لا يزال لدى هدى 3.75 لتر من الماء. ما كمية الماء في كل زهرية؟ (يجب أن تكون الإجابة باللتر). "
+                ],
+                "paragraphes2": [" كمية الماء في كل زهرية =  "],
+                "paragraphes3": ["لتر."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["0.75"],
+                    "show": ["0.75"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]
