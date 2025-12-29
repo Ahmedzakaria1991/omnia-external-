@@ -1,0 +1,63 @@
+[
+  {
+    "nameId": "",
+    "title": "Answer the following",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " Panther chameleon can hunt and avoid becoming prey at the same time. Mention the reason.",
+            "popup": [
+              "Due to its ability to move each eye independently of the other, it searches for insects with one eye to capture them and monitors predators with the other eye."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "The Fennec fox lives in the hot desert, while the Arctic fox lives in the cold desert. Which one has long ears? And why?",
+            "popup": [
+              "The Fennec fox is the one that has long ears; they help in heat dissipation and cooling its body."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "How does the acacia tree defend itself if an animal tries to eat its leaves? ",
+            "popup": [
+              "It secretes a toxin that makes the taste of the leaves unpleasant."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Environmental pollution resulting from human activities not only harms plants and animals but also affects humans. Mention an example of this.",
+            "popup": ["The difficulty in obtaining clean water."]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens If a white bull shark has a black belly and a white back?",
+            "popup": [
+              "He would lose the advantage of camouflage during hunting with the counter shading."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

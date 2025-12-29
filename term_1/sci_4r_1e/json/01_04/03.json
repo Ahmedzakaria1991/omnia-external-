@@ -1,0 +1,278 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "qtitle": "Look at the image, then complete",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "imageName1": "../images/01_04/1.jpg",
+        "imageName2": "",
+        "up1": "",
+        "up2": "",
+        "img": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["Name the organ indicated by the arrow:"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["gills"],
+                    "show": ["gills"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": ["."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["The type of adaptation:"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["structural adaptation"],
+                    "show": ["structural adaptation"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": ["."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["The water coming out of it is filled with "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["carbon dioxide "],
+                    "show": ["carbon dioxide "]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "paragraphes2": [" gas."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "4",
+            "paragraph": "what is its function?",
+            "popup": ["gills extract dissolved oxygen from the water."],
+            "isActive": false
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "qtitle": "Look at the activities, then complete",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "imageName1": "../images/01_04/2.jpg",
+        "imageName2": "../images/01_04/3.jpg",
+        "up1": "( A )",
+        "up2": "( B )",
+        "img": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["Activity"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["B"],
+                    "show": ["B"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [
+                  "The ecosystem returns to its original state."
+                ],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["Activity"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["A"],
+                    "show": ["A"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [
+                  "May lead to the disappearance of native ",
+                  "animal species."
+                ],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

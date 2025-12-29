@@ -1,0 +1,53 @@
+[
+  {
+    "nameId": "",
+    "title": " Determine the type of forces",
+    "subject": "science-4 eng",
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "droggableBox": [
+      {
+        "number": 1,
+        "text1": ["Slama tried to open the door but it didn't open."],
+        "wrod": "Balanced",
+        "type": 1
+      },
+      {
+        "number": 2,
+        "text1": ["Pulling the garden cart to start moving."],
+        "wrod": "Unbalanced",
+        "type": 2
+      },
+      {
+        "number": 2,
+        "text1": ["Stopping a moving cart by applying the brakes."],
+        "wrod": "Unbalanced",
+        "type": 2
+      },
+      {
+        "number": 1,
+        "text1": ["Pushing a wall without it moving."],
+        "wrod": "Balanced",
+        "type": 1
+      }
+    ],
+    "unrealData": [
+      {
+        "wrod": "Balanced",
+        "type": 100
+      },
+      {
+        "wrod": "Unbalanced",
+        "type": 200
+      }
+    ]
+  }
+]

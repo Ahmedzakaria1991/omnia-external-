@@ -1,0 +1,52 @@
+[
+  {
+    "nameId": "",
+    "title": "Match",
+    "subject": "science-4 eng",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "qtitle": "Match the information with the organ that receives it",
+    "cointDrag": [
+      {
+        "point": 1,
+        "textRight": "Light coming from an open window",
+        "textleft": "eyes",
+        "result": false
+      },
+      {
+        "point": 2,
+        "textRight": "The good odor of flowers",
+        "textleft": "nose",
+        "result": false
+      },
+
+      {
+        "point": 4,
+        "textRight": " Heat coming from a hot stove",
+        "textleft": "skin",
+        "result": false
+      },
+      {
+        "point": 5,
+        "textRight": "the taste of sour limon",
+        "textleft": "tongue",
+        "result": false
+      },
+      {
+        "point": 3,
+        "textRight": " loud noise coming from the sound of car speakers",
+        "textleft": "ears",
+        "result": false
+      }
+    ]
+  }
+]

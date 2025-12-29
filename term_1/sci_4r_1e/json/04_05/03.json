@@ -1,0 +1,46 @@
+[
+  {
+    "nameId": "",
+    "title": "Match",
+    "subject": "science-4 eng",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "cointDrag": [
+      {
+        "point": 1,
+        "textRight": "Several forces act on an object and change its direction of motion",
+        "textleft": "Unbalanced forces",
+        "result": false
+      },
+      {
+        "point": 2,
+        "textRight": "Tug-of-war game",
+        "textleft": "A pull force",
+        "result": false
+      },
+
+      {
+        "point": 3,
+        "textRight": "Pressing on an electric key",
+        "textleft": "A push force",
+        "result": false
+      },
+      {
+        "point": 4,
+        "textRight": "Several forces act on an object and it to moves at a constant speed",
+        "textleft": "Balanced force",
+        "result": false
+      }
+    ]
+  }
+]

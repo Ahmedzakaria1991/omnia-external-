@@ -1,0 +1,61 @@
+[
+  {
+    "nameId": "",
+    "title": "Answer the following",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Compare communication in ants with communication in humpback whales.",
+            "popup": [
+              "Ants communicate through scents, while humpback whales communicate through singing."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Bats do not have strong eyesight like owls, yet they can hunt their prey at night. Mention the reason.",
+            "popup": [
+              "Due to their exceptional hearing, bats can locate their prey using echolocation."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "The owl's bowl-shaped head, who does it help hear what it cannot see? ",
+            "popup": ["effectively directing far sounds towards its ears."]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens if the components of the nervous system do not integrate and function individually?",
+            "popup": [
+              " the person cannot take the appropriate response at the right time."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens if the Egyptian jerboa has a long response time",
+            "popup": [" Unable to survive and will be at risk of extinction."]
+          }
+        ]
+      }
+    ]
+  }
+]

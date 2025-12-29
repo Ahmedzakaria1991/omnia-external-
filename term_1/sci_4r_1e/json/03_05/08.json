@@ -1,0 +1,103 @@
+[
+  {
+    "nameId": "",
+    "title": " Answer the following",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Mention one example of:",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "A source of light.",
+            "popup": ["Fire"]
+          },
+          {
+            "id": 1,
+            "paragraph": "A body that reflects incident light but is not considered a light source.",
+            "popup": ["The Moon"]
+          },
+          {
+            "id": 1,
+            "paragraph": "An animal whose eyes shine in the dark.",
+            "popup": ["The fishing cat"]
+          },
+          {
+            "id": 1,
+            "paragraph": "A method of communication commonly used between humans and animals.",
+            "popup": ["Light"]
+          },
+          {
+            "id": 1,
+            "paragraph": "A material that reflects light well .",
+            "popup": ["Mirrors"]
+          },
+          {
+            "id": 1,
+            "paragraph": "A material that allows light to pass through it.",
+            "popup": ["Water "]
+          },
+          {
+            "id": 1,
+            "paragraph": "One of the simple optical codes that humans use for communication.",
+            "popup": ["Traffic light"]
+          }
+        ]
+      },
+      {
+        "title": " Answer the following",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "What is the importance of the mirror-like membrane in the back of the eyes of some nocturnal animals?",
+            "popup": [
+              "It acts like a mirror, reflecting light as soon as it enters the eye. This helps gather a large amount of light, providing them with precise night vision."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Rami found a silver tea tray in his grandmother's house, but he noticed that it had a lot of scratches. Can Rami see his face clearly when looking at it? What is the reason for that?",
+            "popup": [
+              "No; because the light rays will be scattered in different directions from each part of the scratches."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Your friend wanted to prevent light from entering his room. Give an example of a material he can use to block light from entering the window.",
+            "popup": ["An opaque material, such as curtains."]
+          },
+          {
+            "id": 1,
+            "paragraph": "Writing is considered a code. Mention the reason.",
+            "popup": [
+              "Because the arrangement of letters carries meaning and information."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "What would happen if light did not have the property of reflection?",
+            "popup": ["We would not be able to see objects around us."]
+          }
+        ]
+      }
+    ]
+  }
+]

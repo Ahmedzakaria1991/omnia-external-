@@ -1,0 +1,57 @@
+[
+  {
+    "nameId": "",
+    "title": "Answer the following",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "When pushing a ball on the ground, it moves a distance and then stops. Mention the reason.",
+            "popup": ["Because of friction force"]
+          },
+          {
+            "id": 1,
+            "paragraph": "What is the relationship between the mass of the truck and the distance it travels when subjected to a force",
+            "popup": [
+              "The greater the mass of the truck, the less the distance it travels when a constant force is applied."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "When you sit on a chair without movement, what is the name of the force that pulls you downward? ",
+            "popup": ["Gravity force"]
+          },
+          {
+            "id": 1,
+            "paragraph": "Mention an example of a push force and a pull force.",
+            "popup": ["Push: Kicking a ball", "Pull: opening the desk drawers"]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens when a force is applied to a an object at rest?",
+            "popup": ["It moves in the direction of force."]
+          }
+        ]
+      }
+    ]
+  }
+]

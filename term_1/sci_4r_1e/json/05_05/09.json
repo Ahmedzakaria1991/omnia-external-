@@ -1,0 +1,81 @@
+[
+  {
+    "nameId": "",
+    "title": "Complete the following",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Complete the following",
+        "isActive": true,
+        "qtitle": [
+          "Look at the image then answer",
+          "The corresponding image illustrates the height of the apple above the ground:"
+        ],
+        "img": "../images/05_05/1.png",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Which apple has more potential energy?",
+            "popup": ["Apple (<span class=eng>1</span>)"]
+          },
+          {
+            "id": 1,
+            "paragraph": "What is the type of the potential energy shown in the image?",
+            "popup": ["Gravitaional potential energy"]
+          }
+        ]
+      },
+      {
+        "title": "Answer the following",
+        "isActive": false,
+        "qtitle": "",
+        "img": "",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "When switching on a handheld flashlight powered by batteries, it emits light. mention the reason.",
+            "popup": [
+              "Because the chemical energy stored in the batteries transforms into electrical energy, which, in turn, converts to light energy."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "What are the factors that potential energy depend on?",
+            "popup": ["Mass/ the hieght of the object from the ground"]
+          },
+          {
+            "id": 1,
+            "paragraph": "Mention two types of energy possessed by a car moving on one of the overpasses.",
+            "popup": ["Potential energy - kinetic energy"]
+          },
+          {
+            "id": 1,
+            "paragraph": "Mention one example of a device or tool that converts potential energy into kinetic energy.",
+            "popup": ["Car toy with spring"]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens to the energy during the fall of the ball towards the Earth?",
+            "popup": ["Potential energy is converted into kinetic energy"]
+          }
+        ]
+      }
+    ]
+  }
+]

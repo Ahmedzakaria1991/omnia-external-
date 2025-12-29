@@ -1,0 +1,44 @@
+[
+  {
+    "nameId": "",
+    "title": "What happens?",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "What happens when?",
+        "isActive": true,
+        "qtitle": "",
+        "img": "",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "A bike collide with a billboard.",
+            "popup": [
+              "Energy is transferred from the bike to the billboard, causing the billboard to vibrate and produce sound as a result of the collision."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "increasing the speed of a car relative to its kinetic energy ",
+            "popup": ["leads to an increase in its kinetic energy."]
+          }
+        ]
+      }
+    ]
+  }
+]

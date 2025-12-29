@@ -1,0 +1,210 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "science-4 eng",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [{
+            "active": true,
+            "title": " Choose (✓) or (✗)",
+            "popuptext": [""],
+
+            "audio_in_page": "",
+            "quizChooses": [{
+                    "id": 1,
+                    "paragraph": "Hard climate conditions is one of the reasons for the adaptation of living organisms.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "paragraph": "Camouflage helps predatory animals in capturing their prey.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "paragraph": "Penguins have a thick layer of fat that protects them from predation.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+                ,
+                {
+                    "id": 1,
+                    "paragraph": "Dense fur is a form of adaptation for animals living in cold areas.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+                ,
+                {
+                    "id": 1,
+                    "paragraph": "Human beings can stand with barefeet on snow for a long period.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+                ,
+                {
+                    "id": 1,
+                    "paragraph": "Penguins can walk on ice for long distances without their feet getting hurt.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ] 
+        } 
+    ]
+}]

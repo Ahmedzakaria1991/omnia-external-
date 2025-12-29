@@ -1,0 +1,61 @@
+[
+  {
+    "nameId": "",
+    "title": "Answer the following",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "qtitle": "",
+        "img": "",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "It is always recommended to wear a seatbelt. Mention the reason",
+            "popup": [
+              "Because it protects the body from being propelled forward in the event of a collision."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "What are the factors that determine the speed of a moving object?",
+            "popup": ["Speed - time"]
+          },
+          {
+            "id": 1,
+            "paragraph": "How to calculate the speed of a moving object?",
+            "popup": ["Divide the distance bt time."]
+          },
+          {
+            "id": 1,
+            "paragraph": "State an example of safety equipment in cars that protects us during collisions .",
+            "popup": ["Seatbelt (or airbags)."]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens when the mass of the car that collides with a wall increases?",
+            "popup": [
+              "The greater the mass of the car, the more damage resulting from a collision."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
