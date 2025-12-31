@@ -16,6 +16,10 @@
       body .general .head .title {
         width: 60vw;
       }
+      body .general#input-slide .container .content {
+        padding-top: 2vw;
+        width: 92%;
+      }
     </style>
   </head>
 
@@ -181,6 +185,13 @@
                       >
                         {{parag}}
                       </p>
+
+                      <p
+                        class="paragraphe"
+                        v-for="(parag , index) in content.paragraphes3"
+                      >
+                        {{parag}}
+                      </p>
                       <div
                         class="inputs"
                         :class="{'done' : item.answerUser[0].done}"
@@ -212,12 +223,6 @@
                         </div>
                       </div>
 
-                      <p
-                        class="paragraphe"
-                        v-for="(parag , index) in content.paragraphes3"
-                      >
-                        {{parag}}
-                      </p>
                       <div
                         class="inputs"
                         :class="{'done' : item.answerUser[1].done}"

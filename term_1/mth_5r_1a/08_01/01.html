@@ -48,9 +48,42 @@
         margin-bottom: 1vw;
         border-bottom: 0.2vw solid;
         width: 14vw;
-        margin-right: 8vw;
+        margin-right: 7.7vw;
       }
-
+      .border11 {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        border-bottom: 0.2vw solid;
+        width: 14vw;
+        margin-right: 8.1vw;
+      }
+      .border111 {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        border-bottom: 0.2vw solid;
+        width: 14vw;
+        margin-right: 8.1vw;
+      }
+      body .general#input-left-images .container .inputs input.show,
+      body .general#inputValidation .container .inputs input.show,
+      body .general#inputwithimgs .container .inputs input.show,
+      body .general#input-slide .container .inputs input.show {
+        letter-spacing: 1.5vh !important;
+        padding-left: 1.6vh;
+      }
+      body .general#input-left-images .container .inputs input.wrong,
+      body .general#inputValidation .container .inputs input.wrong,
+      body .general#inputwithimgs .container .inputs input.wrong,
+      body .general#input-slide .container .inputs input.wrong {
+        letter-spacing: 1.5vh !important;
+      }
+      body .general#input-left-images .container .inputs input.right,
+      body .general#inputValidation .container .inputs input.right,
+      body .general#inputwithimgs .container .inputs input.right,
+      body .general#input-slide .container .inputs input.right {
+        letter-spacing: 2vh !important;
+        padding-left: 3vh;
+      }
       .border2 {
         margin-right: 3vw;
         width: 6vw;
@@ -68,7 +101,7 @@
       }
 
       .m6r {
-        margin-right: 8vw !important;
+        margin-right: 9vw !important;
       }
 
       .m2r {
@@ -262,6 +295,7 @@
                       >{{(item.index)}}</span
                     >
                     <div
+                      style="margin-right: 11vh"
                       class="inputs"
                       :class="{'done' : item.answerUser[0].done}"
                       v-if="content.inputtype2[0].numperofinput !== 0"
@@ -292,7 +326,13 @@
                       </div>
                     </div>
                     <div class="break"></div>
-                    <div class="border"></div>
+                    <div
+                      class="border"
+                      v-if="item.id != 2 && item.id != 3"
+                    ></div>
+                    <div class="border11" v-if="item.id == 2"></div>
+                    <div class="border111" v-if="item.id == 3"></div>
+
                     <div class="break"></div>
                     <p
                       class="paragraphe m13r"

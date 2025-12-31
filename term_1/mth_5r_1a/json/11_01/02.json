@@ -20,7 +20,7 @@
         "numberOfquestion": null,
         "inputSlide": [
             {
-                "active": false,
+                "active": true,
                 "title": "أوجد ناتج كلٍّ مما يلي",
                 "qtitle": " استخدِم ترتيب العمليات لإيجاد قيمة كلٍّ من التعبيرات العددية التالية: ",
                 "image": false,
@@ -521,7 +521,7 @@
                 ]
             },
             {
-                "active": true,
+                "active": false,
                 "title": "أوجد ناتج كلٍّ مما يلي",
                 "qtitle": " استخدِم ترتيب العمليات لإيجاد قيمة كلٍّ من التعبيرات العددية التالية:  ",
                 "image": false,
@@ -892,7 +892,7 @@
                                         "numperofinput": 1,
                                         "comma": "",
                                         "valid": [
-                                            "13,968"
+                                            "13,968" ,"13968 "
                                         ],
                                         "show": [
                                             "13,968"

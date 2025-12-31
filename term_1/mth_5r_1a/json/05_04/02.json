@@ -17,7 +17,6 @@
     "loTargets": null,
     "numberOfquestion": null,
     "inputSlide": [
-      
       {
         "active": true,
         "tableOne": false,
@@ -60,10 +59,8 @@
                     "show": ["6"]
                   }
                 ],
-                "paragraphes2": [
-                  " في 9 أيام نُجري عملية"
-                ],
-                "paragraphes3": [""]
+                "paragraphes2": [" "],
+                "paragraphes22": ["في 9 أيام نُجري عملية"]
               }
             ],
             "answerUser": [
@@ -80,15 +77,15 @@
                 "done": false
               }
             ]
-          } ,
+          },
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-                "paragraphes": "" ,
+                "paragraphes": "",
                 "paragraphes1": [
-                    "باستخدام نموذج مساحة المستطيل، أوجد حاصل ضرب ما يلي:"
+                  "باستخدام نموذج مساحة المستطيل، أوجد حاصل ضرب ما يلي:"
                 ],
                 "inputtype": [
                   {
@@ -104,21 +101,19 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["1,215" , "1215"],
+                    "valid": ["1,215", "1215"],
                     "show": ["1,215"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["31,152" ,"31152"],
+                    "valid": ["31,152", "31152"],
                     "show": ["31,152"]
                   }
                 ],
-                "paragraphes2": [
-                  " 27 × 45 ="
-                ],
-                "paragraphes3": ["88 × 354 = "]
+                "paragraphes2": ["= 27 × 45 "],
+                "paragraphes3": [" = 88 × 354  "]
               }
             ],
             "answerUser": [
@@ -135,15 +130,14 @@
                 "done": false
               }
             ]
-          } ,
+          },
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-           
                 "paragraphes1": [
-                    "تستخدم منى 1,133 جرامًا من السكر يوميًّا. كم جرامًا تستخدمه في 30 يومًا؟" 
+                  "تستخدم منى 1,133 جرامًا من السكر يوميًّا. كم جرامًا تستخدمه في 30 يومًا؟"
                 ],
                 "inputtype": [
                   {
@@ -159,22 +153,23 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["33,990" , "33990"],
+                    "valid": ["33,990", "33990"],
                     "show": ["33,990"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 0,
                     "comma": "",
-                    "valid": ["" ],
+                    "valid": [""],
                     "show": [""]
                   }
                 ],
-                "paragraphes": ["جرامًا"] ,
-                "paragraphes2": [
-                    "عدد جرامات السكر التي تستخدمها منى في 30 يومًا ="
-                ],
-                "paragraphes3": [""]
+                "paragraphes": ["جرامًا"],
+                "paragraphes2": [],
+                "paragraphes3": [""],
+                "paragraphes22": [
+                  "عدد جرامات السكر التي تستخدمها منى في 30 يومًا ="
+                ]
               }
             ],
             "answerUser": [
@@ -197,9 +192,9 @@
             "type": 2,
             "contents": [
               {
-                "paragraphes": "" ,
+                "paragraphes": "",
                 "paragraphes1": [
-                   "أوجد حاصل ضرب ما يلي باستخدام الإستراتيجية التي تُفَضِّلها:"
+                  "أوجد حاصل ضرب ما يلي باستخدام الإستراتيجية التي تُفَضِّلها:"
                 ],
                 "inputtype": [
                   {
@@ -215,21 +210,19 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["29,408" , "29408"],
+                    "valid": ["29,408", "29408"],
                     "show": ["29,408"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["18,276" ,"18276"],
+                    "valid": ["18,276", "18276"],
                     "show": ["18,276"]
                   }
                 ],
-                "paragraphes2": [
-                  "  32 × 919 ="
-                ],
-                "paragraphes3": ["  12 × 1,523  = "]
+                "paragraphes2": [" = 32 × 919 "],
+                "paragraphes3": ["=  12 × 1,523   "]
               }
             ],
             "answerUser": [
@@ -252,9 +245,8 @@
             "type": 2,
             "contents": [
               {
-           
                 "paragraphes1": [
-                   " إذا كان ثمن صندوق فاكهة 345 جنيهًا، فما ثمن 25 صندوقًا من نفس النوع؟"
+                  " إذا كان ثمن صندوق فاكهة 345 جنيهًا، فما ثمن 25 صندوقًا من نفس النوع؟"
                 ],
                 "inputtype": [
                   {
@@ -270,22 +262,21 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["8,625" , "8625"],
+                    "valid": ["8,625", "8625"],
                     "show": ["8,625"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 0,
                     "comma": "",
-                    "valid": ["" ],
+                    "valid": [""],
                     "show": [""]
                   }
                 ],
-                "paragraphes": ["جنيهًا"] ,
-                "paragraphes2": [
-                    " ثمن 25 صندوقًا من نفس النوع =  "
-                ],
-                "paragraphes3": [""]
+                "paragraphes": ["جنيهًا"],
+                "paragraphes2": ["  "],
+                "paragraphes3": [""],
+                "paragraphes22": [" ثمن 25 صندوقًا من نفس النوع =  "]
               }
             ],
             "answerUser": [
@@ -421,17 +412,18 @@
             "index": true,
             "contents": [
               {
-               
-                "paragraphes1": ["مسألة الضرب التي لها التعبير العددي: (3 × 80) + (70 × 80) هي"],
+                "paragraphes1": [
+                  "مسألة الضرب التي لها التعبير العددي: (3 × 80) + (70 × 80) هي"
+                ],
                 "paragraphes2": [""],
-           
+
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 2,
                     "comma": "×",
-                    "valid": ["73","80"],
-                    "show": ["73","80"]
+                    "valid": ["73", "80"],
+                    "show": ["73", "80"]
                   }
                 ],
                 "inputtype2": [
@@ -460,10 +452,9 @@
             "index": true,
             "contents": [
               {
-               
                 "paragraphes1": ["(30 × 40) + ("],
                 "paragraphes2": ["× 40) + (30 × 5) + (3 × 5) = 33 × 45"],
-           
+
                 "inputtype": [
                   {
                     "length": 0,
@@ -558,7 +549,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["176,325" , "176325"],
+                    "valid": ["176,325", "176325"],
                     "show": ["176,325"]
                   }
                 ],
@@ -582,19 +573,22 @@
                 "done": false
               }
             ]
-          } ,
+          },
           {
             "id": 2,
             "type": 1,
             "contents": [
               {
-                "paragraphes1": ["اشترى تاجر 350 كرتونة، كلُّ كرتونة بها 22 عبوة،  " ," فإن عدد العبوات التي اشتراها التاجر ="],
+                "paragraphes1": [
+                  "اشترى تاجر 350 كرتونة، كلُّ كرتونة بها 22 عبوة،  ",
+                  " فإن عدد العبوات التي اشتراها التاجر ="
+                ],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["7,700" , "7700"],
+                    "valid": ["7,700", "7700"],
                     "show": ["7,700"]
                   }
                 ],
@@ -618,8 +612,7 @@
                 "done": false
               }
             ]
-          } 
-          ,
+          },
           {
             "id": 2,
             "type": 1,
@@ -655,8 +648,7 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 2,
             "type": 1,
@@ -668,7 +660,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["12,614" , "12614"],
+                    "valid": ["12,614", "12614"],
                     "show": ["12,614"]
                   }
                 ],
@@ -692,8 +684,7 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 2,
             "type": 1,
@@ -705,7 +696,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["314,552" , "314552"],
+                    "valid": ["314,552", "314552"],
                     "show": ["314,552"]
                   }
                 ],
@@ -729,8 +720,7 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 2,
             "type": 1,
@@ -742,7 +732,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["27,126" , "27126"],
+                    "valid": ["27,126", "27126"],
                     "show": ["27,126"]
                   }
                 ],
@@ -766,8 +756,7 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 2,
             "type": 1,
@@ -779,7 +768,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["297,721" , "297721"],
+                    "valid": ["297,721", "297721"],
                     "show": ["297,721"]
                   }
                 ],
@@ -819,14 +808,17 @@
         "active": false,
         "title": "أكمل",
         "arraw": false,
-        "questionNumber":2,
+        "questionNumber": 2,
         "items": [
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-                "paragraphes":["تحتاج ياسمين 150 جرامًا من الدقيق و 100 جرام من السكر و 65 جرامًا من الفانيليا لعمل طبق كعك. ما عدد الجرامات من هذه المُكَوِّنات التي ستحتاجها ياسمين لعمل 14 طبقًا من الكعك؟" ,"إجمالي عدد الجرامات التي تحتاجها لعمل طبق كعك = "],
+                "paragraphes": [
+                  "تحتاج ياسمين 150 جرامًا من الدقيق و 100 جرام من السكر و 65 جرامًا من الفانيليا لعمل طبق كعك. ما عدد الجرامات من هذه المُكَوِّنات التي ستحتاجها ياسمين لعمل 14 طبقًا من الكعك؟",
+                  "إجمالي عدد الجرامات التي تحتاجها لعمل طبق كعك = "
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -848,7 +840,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["4,410" ,"4410"],
+                    "valid": ["4,410", "4410"],
                     "show": ["4,410"]
                   },
                   {
@@ -881,11 +873,13 @@
                   }
                 ],
                 "paragraphes1": ["جرامًا"],
-                "paragraphes2": ["عدد الجرامات التي ستحتاجها ياسمين لعمل 14 طبقًا من الكعك ="],
-                "paragraphes3": ["جرامات" ],
-                "paragraphes4": [ ],
-                "paragraphes5": [ ],
-                "paragraphes6": [ ]
+                "paragraphes2": [
+                  "عدد الجرامات التي ستحتاجها ياسمين لعمل 14 طبقًا من الكعك ="
+                ],
+                "paragraphes3": ["جرامات"],
+                "paragraphes4": [],
+                "paragraphes5": [],
+                "paragraphes6": []
               }
             ],
             "answerUser": [
@@ -926,14 +920,16 @@
                 "done": false
               }
             ]
-          } 
-          ,
+          },
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-                "paragraphes":["تقطع شاحنة لتوصيل البضائع 1,278 كيلومترًا في اليوم الواحد. ما المسافة التي تقطعها الشاحنة في 38 يومًا؟" ,"المسافة التي تقطعها الشاحنة في 38 يومًا = "],
+                "paragraphes": [
+                  "تقطع شاحنة لتوصيل البضائع 1,278 كيلومترًا في اليوم الواحد. ما المسافة التي تقطعها الشاحنة في 38 يومًا؟",
+                  "المسافة التي تقطعها الشاحنة في 38 يومًا = "
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -948,7 +944,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["48,564","48564"],
+                    "valid": ["48,564", "48564"],
                     "show": ["48,564"]
                   },
                   {
@@ -989,10 +985,10 @@
                 ],
                 "paragraphes1": ["كيلومترًا"],
                 "paragraphes2": [""],
-                "paragraphes3": ["" ],
-                "paragraphes4": [ ],
-                "paragraphes5": [ ],
-                "paragraphes6": [ ]
+                "paragraphes3": [""],
+                "paragraphes4": [],
+                "paragraphes5": [],
+                "paragraphes6": []
               }
             ],
             "answerUser": [
@@ -1033,7 +1029,7 @@
                 "done": false
               }
             ]
-          } 
+          }
         ],
         "popupQuestion": [
           {
@@ -1044,7 +1040,7 @@
             "isActive": null
           }
         ]
-      } 
+      }
     ],
     "popup": false,
     "popuptext": ""

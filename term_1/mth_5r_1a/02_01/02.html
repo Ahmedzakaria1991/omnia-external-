@@ -77,6 +77,30 @@
         width: 2vw !important;
         text-align: center;
       }
+      body .general#input-left-images .container .inputs input,
+      body .general#inputValidation .container .inputs input,
+      body .general#inputwithimgs .container .inputs input,
+      body .general#input-slide .container .inputs input {
+      }
+      body .general#input-left-images .container .inputs input.show,
+      body .general#inputValidation .container .inputs input.show,
+      body .general#inputwithimgs .container .inputs input.show,
+      body .general#input-slide .container .inputs input.show {
+        letter-spacing: 1.7vh;
+      }
+      body .general#input-left-images .container .inputs input.right,
+      body .general#inputValidation .container .inputs input.right,
+      body .general#inputwithimgs .container .inputs input.right,
+      body .general#input-slide .container .inputs input.right {
+        letter-spacing: 1.7vh;
+      }
+      body .general#input-left-images .container .inputs input.show,
+      body .general#inputValidation .container .inputs input.show,
+      body .general#inputwithimgs .container .inputs input.show,
+      body .general#input-slide .container .inputs input.show {
+        letter-spacing: 1.9vh;
+        padding-left: 1.9vh;
+      }
 
       @media (orientation: landscape) {
         body .fraction .w4length,
@@ -84,6 +108,13 @@
         body .fraction .w6length {
           width: 14vw !important;
         }
+      }
+      .sign {
+        border: #cdcfe8 solid;
+        border-radius: 50%;
+        color: #7578a8;
+        background-color: #cdcfe8;
+        font-weight: 900;
       }
     </style>
   </head>
@@ -532,17 +563,19 @@
                                 class="check-input"
                                 :class="{'show' : item.answerUser[2].help}"
                               >
-                                <input
-                                  @focus="inputfocus"
-                                  :disabled="item.answerUser[2].help"
-                                  @blur="handleBlur(item, content)"
-                                  data-content="3"
-                                  @keyup="onKey(item, content)"
-                                  :maxlength="content.inputtype2[2].length"
-                                  :class="{'right' : item.answerUser[2].correct, 'show' : item.answerUser[2].help,
-                                            ['w' + content.inputtype2[2].length+ 'length'] : content.inputtype2[2].length != 0}"
-                                  v-model="item.answerUser[2].answer[0]"
-                                />
+                                <p>{{content.paragraph9}}</p>
+
+                                <!-- <input
+                                    @focus="inputfocus"
+                                    :disabled="item.answerUser[2].help"
+                                    @blur="handleBlur(item, content)"
+                                    data-content="3"
+                                    @keyup="onKey(item, content)"
+                                    :maxlength="content.inputtype2[2].length"
+                                    :class="{'right' : item.answerUser[2].correct, 'show' : item.answerUser[2].help,
+                                              ['w' + content.inputtype2[2].length+ 'length'] : content.inputtype2[2].length != 0}"
+                                    v-model="item.answerUser[2].answer[0]"
+                                  /> -->
                               </div>
                               <div
                                 class="answer"
@@ -808,8 +841,20 @@
                         </div>
                         <div
                           class="cell"
+                          style="position: relative"
                           :class="{'blocked': content.inputtype2[10].numperofinput==0}"
                         >
+                          <p
+                            class="sign"
+                            style="
+                              padding: 1vh 2vh 1vh 2vh;
+                              position: absolute;
+                              top: -5vh;
+                              left: 0vh;
+                            "
+                          >
+                            {{ content.sign }}
+                          </p>
                           <div
                             class="inputs"
                             :class="{'done' : item.answerUser[10].done}"

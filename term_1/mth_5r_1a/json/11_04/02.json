@@ -253,18 +253,15 @@
             ]
           },
 
-         
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-                "paragraphes1": [
-              " قيمة التعبير العددي:  (0.34 + 0.01 × 36) ÷ 14.14 "
-                ],
-                "paragraphes2": ["="],
-                "paragraphes3": "",
-                "paragraphes4": ["   "],
+                "paragraphes1": ["  "],
+                "paragraphes2": [""],
+                "paragraphes3": "=",
+                "paragraphes4": [" (0.34 + 0.01 × 36) ÷ 14.14"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -338,9 +335,7 @@
             "type": 2,
             "contents": [
               {
-                "paragraphes1": [
-                   
-                ],
+                "paragraphes1": [],
                 "paragraphes2": [""],
                 "paragraphes3": "",
                 "paragraphes4": ["= 4.2 – 10 × 0.6 + 5.2 "],
@@ -417,9 +412,7 @@
             "type": 2,
             "contents": [
               {
-                "paragraphes1": [
-                 
-                ],
+                "paragraphes1": [],
                 "paragraphes2": [""],
                 "paragraphes3": "",
                 "paragraphes4": [" =  7 ÷ 10 × (7.6 – 7.2 + 5.3)   "],
@@ -497,7 +490,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                 "  العدد التالي في النمط:  ... ، 20 ، 15 ، 10 ، 5 هو"
+                  "  العدد التالي في النمط:  ... ، 20 ، 15 ، 10 ، 5 هو"
                 ],
                 "paragraphes2": [""],
                 "paragraphes3": "",
@@ -569,16 +562,13 @@
                 "done": false
               }
             ]
-          }
-          ,
+          },
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-                "paragraphes1": [
-                ""
-                ],
+                "paragraphes1": [""],
                 "paragraphes2": [""],
                 "paragraphes3": "",
                 "paragraphes4": [" = 3 ÷ (5 + 4) × 9 "],
@@ -649,20 +639,17 @@
                 "done": false
               }
             ]
-          }
-           
-          ,
+          },
+
           {
             "id": 1,
             "type": 2,
             "contents": [
               {
-                "paragraphes1": [
-                ""
-                ],
-                "paragraphes2": [" ناتج:  0.1 + 3.12 – 47.18 + 2.5 × 30  = "],
-                "paragraphes3": "",
-                "paragraphes4": [" "],
+                "paragraphes1": [""],
+                "paragraphes2": [" "],
+                "paragraphes3": "=",
+                "paragraphes4": ["  0.1 + 3.12 – 47.18 + 2.5 × 30  "],
                 "inputtype": [
                   {
                     "length": 0,
@@ -741,7 +728,7 @@
             "isActive": null
           }
         ]
-      } 
+      }
     ],
     "popup": false,
     "popuptext": ""

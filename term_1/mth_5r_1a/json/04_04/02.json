@@ -102,7 +102,7 @@
             "type": 1,
             "contents": [
               {
-                "paragraphes3": ["العدد 12 مضاعف مشترك للعددين: 3 ،"],
+                "paragraphes3": ["العدد 12 مضاعف مشترك اصغر للعددين: 3 ،"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -138,9 +138,7 @@
             "type": 1,
             "contents": [
               {
-                "paragraphes3": [
-                  " العدد الأولي المحصور بين العددين: 9،12 هو"
-                ],
+                "paragraphes3": [" العدد الأولي المحصور بين العددين: 9،12 هو"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -606,7 +604,8 @@
         "active": false,
         "arraw": false,
         "title": "أجب عما يلي",
-        "parag": "",
+        "parag": "أوجد ((ع.م.أ) و (م.م.أ)  للعددين 15، 45 مُستخدِمًا تحليل العدد إلى عوامله الأولية.",
+
         "items": [
           {
             "id": 1,
@@ -614,9 +613,7 @@
             "contents": [
               {
                 "paragraphes": "",
-                "paragraphes1": [
-                  "أوجد ((ع.م.أ) و (م.م.أ)  للعددين 15، 45 مُستخدِمًا تحليل العدد إلى عوامله الأولية."
-                ],
+                "paragraphes1": [""],
                 "parag": [" (ع.م.أ) للعددين:"],
                 "inputtype": [
                   {
@@ -637,13 +634,65 @@
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["45"],
                     "show": ["45"]
                   }
                 ],
-                "paragraphes2": ["(م.م.أ) للعددين:"],
+                "paragraphes2": [""],
+                "paragraphes3": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "contents": [
+              {
+                "paragraphes": "",
+                "paragraphes1": [""],
+                "parag": ["(م.م.أ) للعددين:"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["45"],
+                    "show": ["45"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
                 "paragraphes3": [""]
               }
             ],

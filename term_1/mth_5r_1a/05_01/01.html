@@ -178,8 +178,8 @@
                                     <div class="table">
                                         <div class="row">
 
-                                            <p style=" width: 37%;" class="center">{{content.row1[0]}}</p>
-                                            <p style=" width: 37%;" class="center">{{content.row1[1]}}</p>
+                                            <p style=" width: 33%;" class="center">{{content.row1[0]}}</p>
+                                            <p style=" width: 33%;" class="center">{{content.row1[1]}}</p>
 
                                         </div>
 
@@ -284,7 +284,10 @@
                                                     :class="{'disabled' : item.answerUser[3].help}"></div>
                                             </div>
                                         </div>
-                                        <p>{{content.paragraph5}}</p>
+                                        <p >{{content.paragraph5}}</p>
+
+                                        <p style="margin-left: 19.5vh;">{{content.paragraph6}}</p>
+
                                         <div class="inputs" :class="{'done' : item.answerUser[4].done}"
                                             v-if="content.inputtype2[4].numperofinput !== 0">
                                             <div class="in">
@@ -300,7 +303,6 @@
                                                     :class="{'disabled' : item.answerUser[4].help}"></div>
                                             </div>
                                         </div>
-                                        <p>{{content.paragraph6}}</p>
                                     </div>
                                 </div>
 
@@ -309,8 +311,6 @@
                                     <span class="icon-index" v-if="item.index">{{i+1}}</span>
                                     <div class='question' :class="{'m5v': !item.index}">
                                         <p>{{content.paragraph2}}</p>
-                                        <p v-for="p in content.paragraph3">{{p}}</p>
-                                        <div class="break"></div>
                                         <div class="inputs" :class="{'done' : item.answerUser[0].done}"
                                             v-if="content.inputtype2[0].numperofinput!=0">
                                             <div class="in">
@@ -329,13 +329,15 @@
                                         </div>
 
                                         <p v-for="p in content.paragraph1">{{p}}</p>
+                                                                                <p v-for="p in content.paragraph3">{{p}}</p>
+
                                     </div>
 
                                     <div class="table">
                                         <div class="row">
-                                            <p style=" width: 37%;" class="center" v-if="content.row1[0] != ''">
+                                            <p style=" width: 33%;" class="center" v-if="content.row1[0] != ''">
                                                 {{content.row1[0]}}</p>
-                                            <p style=" width: 37%;" class="center" v-if="content.row1[1] != ''">
+                                            <p style=" width: 33%;" class="center" v-if="content.row1[1] != ''">
                                                 {{content.row1[1]}}</p>
 
                                             <div class="inputs" :class="{'done' : item.answerUser[7].done}"
@@ -371,7 +373,7 @@
                                                         :class="{'disabled' : item.answerUser[8].help}"></div>
                                                 </div>
                                             </div>
-                                            <p style=" width: 37%;" class="center" v-if="content.row1[1] != ''">
+                                            <p style=" width: 33%;" class="center" v-if="content.row1[1] != ''">
                                                 {{content.row1[2]}}</p>
                                         </div>
 
