@@ -1,0 +1,188 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title":"Choose the correct answer ",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": ["Which of the following questions could be answered using the histogram?"],
+                        "correctAnswer": [
+                            1,2,3,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"../images/21.jpg",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"What is the most common interval for the numbers of songs?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "How many students are represented in the data?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"How many students had 180 songs or more on their music devices?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "How many students had exactly 120 songs on their music devices?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "What was the greatest number of songs a student had?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "How many students had from 90 to 179 songs?",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": ["Which of the following questions can be answered using the following dot plot?"],
+                        "correctAnswer": [
+                            1,2,4,5
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"../images/22.jpg",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"What is the median number of siblings?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "How many students have 3 siblings?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "What is the most common range of siblings?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "How many students have between 2 and 4 siblings?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "How many students were asked about the number of siblings?",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": ["Which of the following questions can be answered using the following box plot?"],
+                        "correctAnswer": [
+                            3,6
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"../images/23.jpg",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"What is the most common range of ages?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "How many individuals are represented by the data?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "What is the median age?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "How many individuals are exactly 18 years old?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 5,
+                                "toChoose": "How many individuals are between 19 and 24 years old?",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 6,
+                                "toChoose": "What is the minimum age?",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,501 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-4 eng",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+           
+            {
+                "active": true,
+                "title": "Complete the following ",
+                "popuptext": [""],
+                "qtitle":"From the box plot below:",
+                "img":"../images/24.png",
+                "arrow":true,
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                    "Median"
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "75"
+                                        ],
+                                        "show": [
+                                            "75"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                   "Minimum value "
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "25"
+                                        ],
+                                        "show": [
+                                            "25"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                "Q3 "
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "95"
+                                        ],
+                                        "show": [
+                                            "95"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title": "Complete the following ",
+                "popuptext": [""],
+                "qtitle":"",
+                "img":"",
+                "arrow":false,
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                    "Types of statistical data: numerical data, and"
+                                ],
+                                "paragraphes2": [
+                                    "data."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "categorical"
+                                        ],
+                                        "show": [
+                                            "categorical"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                   ""
+                                ],
+                                "paragraphes2": [
+                                    "is the difference between the greatest value and smallest value in a set of values. "
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "Range"
+                                        ],
+                                        "show": [
+                                            "Range"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                   " The median of the data set: 5, 3, 7, 2, 9 is "
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "5"
+                                        ],
+                                        "show": [
+                                            "5"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "4",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                ],
+                                "paragraphes1": [
+                                    "The favorite hobby is a "
+                                ],
+                                "paragraphes2": [
+                                    "data, while the ","number of working hours is"
+                                ],
+                                "paragraphes3": [
+                                    "data."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "categorical"
+                                        ],
+                                        "show": [
+                                           "categorical"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "numerical"
+                                        ],
+                                        "show": [
+                                           "numerical"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

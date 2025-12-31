@@ -1,0 +1,63 @@
+[
+    {
+        "nameId": "",
+        "title": "Complete the following ",
+        "subject": "math-4 eng",
+        "finshedDrag": false,
+        "colorTemplate": "#5a7cec",
+        "dragCounter": 0,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "qtitle":"Assuming you collected data on the statistical question (How many books did the students in the class read during the summer vacation?). Choose the most suitable type of graph to best represent the answer to each question.",
+        "droggableBox": [
+            {
+                "number": [
+                    1
+                ],
+                "text1": [
+                  "How many students read exactly 6 books during the summer ","vacation?"
+                ],
+                "text2": [
+                ],
+                "wrod":"Dot plot",
+                "type": 1,
+                "counter": 0
+            },
+            {
+                "number": [
+                    2
+                ],
+                "text1": [
+                    "What is the most common range of books read? "
+                ],
+                "text2": [
+                ],
+                "wrod": "Histogram",
+                "type": 1,
+                "counter": 0
+            },
+            {
+                "number": [
+                    3
+                ],
+                "text1": [
+               "What is the median number of books read? "
+                ],
+                "text2": [
+                ],
+                "wrod": "Box plot",
+                "type": 1,
+                "counter": 0
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,357 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-4 eng",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+            {
+                "active": true,
+                "title": "Complete the following",
+                "popuptext": [""],
+                "qtitle":"Identify the independent and dependent variables in each of the following:",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"../images/02/01.png",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "Independent variable : "
+                                ],
+                                "paragraphes2": [
+                                    "dependent variable :"
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "Number of Meals"
+                                        ],
+                                        "show": [
+                                           "Number of Meals"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "Earnings"
+                                        ],
+                                        "show": [
+                                            "Earnings"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"../images/02/02.png",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "Independent variable : "
+                                ],
+                                "paragraphes2": [
+                                    "dependent variable :"
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                          "Mass of Flour"
+                                        ],
+                                        "show": [
+                                          "Mass of Flour"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "Number of loaves"
+                                        ],
+                                        "show": [
+                                           "Number of loaves"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"../images/02/03.png",
+                        "imgg2":true,
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "Independent variable : "
+                                ],
+                                "paragraphes2": [
+                                    "dependent variable :"
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "Age"
+                                        ],
+                                        "show": [
+                                           "Age"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "Height"
+                                        ],
+                                        "show": [
+                                            "Height"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "4",
+                        "questionnumber":1,
+                        "img":"../images/02/04.png",
+                        "imgg2":true,
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "Independent variable : "
+                                ],
+                                "paragraphes2": [
+                                    "dependent variable :"
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "Number of clothes"
+                                        ],
+                                        "show": [
+                                           "Number of clothes"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "Price"
+                                        ],
+                                        "show": [
+                                            "Price"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

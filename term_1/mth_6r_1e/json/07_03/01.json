@@ -1,0 +1,501 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title":"Choose the correct answer",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "Y ≥ 8 represents.......",
+                        "correctAnswer": [
+                          2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":" Equation",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "  Inequality",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "Algebraic expression",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "Algebraic term",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " The solution to the equation 8n = 32 is ......",
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"30",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "24",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "10",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "4 ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "Which of the following is a solution of the inequality x < -1?",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"-1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "-2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "2",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The value of x in the equation x ÷3 = 9 is  .......",
+                        "correctAnswer": [
+                        3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":" 12",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "27",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "6",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"If x - 2 = 3, then 2x = .........",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"10 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "6 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "2 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": " 5",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The number ... is a solution to the inequality x ≤ -3.",
+                        "correctAnswer": [
+                          1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"– 7",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "  3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "5",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "0",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "Which of the following equations represents the balanced scale?",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"../images/07_01_23.png",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"3x = 6",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "x + 3 = 5",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "x + 3 = 6",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "3x = 5",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "If 5y = 65, what is the value of y?",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"12",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "13",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "11",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "10",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "Which of the following belongs to the solution set of the inequality: b < 3 in the set of integers?",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"30",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": " – 9",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "2.3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "8.5",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "If the minimum amount of water a traveler should carry is 30 liters, which of the following quantities of water could a traveler carry?",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"25 liters",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose":"33 liters",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"15 liters",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"20 liters",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The price of a book should not exceed 30 pounds. Which of the following inequalities represents the price of the book?",
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"x ≥ 30",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "𝑥 < 30",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "x > 30",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": " x ≤ 30",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "Which of the following equations has a solution of 3?",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"4x = 12",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "x + 7 = 11",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "2x = 10",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "x + 6 = 10",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                  
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

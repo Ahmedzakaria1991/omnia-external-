@@ -1,0 +1,328 @@
+[{
+    "nameId": "choose-slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [
+        ""
+    ],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+        "active": true,
+        "title": "Choose the correct answer",
+        "popuptext": [
+
+        ],
+        "qtitle": "",
+        "quizChooses": [
+
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": ["The mathematical expression X + 12 represents is ........"],
+                "correctAnswer": [
+                   3
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 3,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": " An equation",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "An inequality",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "  An algebraic expression",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "A numeric expression",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": 1,
+                "popup": "",
+                "paragraph": [" The coefficient of X in the algebraic expression 3X + 5 is: ......"],
+                "correctAnswer": [
+                    1
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": " 3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "5",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": " 3X",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "X",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": 1,
+                "popup": "",
+                "paragraph": ["If the base is 4 and the exponent is 5, then the exponential form is  ....."],
+                "correctAnswer": [
+                    4
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": "4<sup>4</sup>",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "5<sup>4</sup>",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "5<sup>5</sup>",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "4<sup>5</sup>",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": [" The exponential form of  6<sup>4</sup> is equavlent to ....."],
+                "correctAnswer": [
+                    4
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": "6+6-6",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "6x4",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "6+4",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "6x6x6x6",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }, {
+                "id": 1,
+                "popup": "",
+                "paragraph": ["The number of terms in the algebraic expression 5n + 3 + 20 is .......... terms."],
+                "correctAnswer": [
+                    1
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": "3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "5",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "2",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "1",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+
+
+
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": ["The first operation to be performed in the expression [(7 - 5) + 1] ÷ 3 is: ......"],
+                "correctAnswer": [
+                    4
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": "Multiplication",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "Division",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "Addition",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "Subtraction",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": ["3<sup>2</sup>+3<sup>2</sup>+3<sup>2</sup> =  ........."],
+                "correctAnswer": [
+                    1
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": "3<sup>3</sup>",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "3<sup>6</sup>",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "3<sup>9</sup>",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "2<sup>6</sup>",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": [" The algebraic expression that represents 12 increased by 3 times a number d is: ........."],
+                "correctAnswer": [
+                    2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [{
+                        "numAnswer": 1,
+                        "toChoose": "12d+3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "3d+12",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "3-12d",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "12-3d",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+        ],
+        "popupQuestion": [{
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+        }]
+    }]
+}]

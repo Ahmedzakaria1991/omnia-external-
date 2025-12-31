@@ -1,0 +1,556 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "qtitle": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["Types of statistical data are  "],
+                "paragraphes2": ["data "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and ",
+                    "valid": ["numerical ", "categorical"],
+                    "show": ["numerical ", "categorical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "data is written in the form of numbers while "
+                ],
+                "paragraphes3": ["data is written in the form of words."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["numerical"],
+                    "show": ["numerical"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["categorical"],
+                    "show": ["categorical"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["The number of children is "],
+                "paragraphes2": ["data, while ", " &nbsp nationality is"],
+                "paragraphes3": ["data."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["numerical"],
+                    "show": ["numerical"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["categorical"],
+                    "show": ["categorical"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "(What is your family's favorite fruit? ) Is classified as a"
+                ],
+                "paragraphes2": ["questions."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["statistical"],
+                    "show": ["statistical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following ",
+        "popuptext": [""],
+        "qtitle": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["Classify the data into"],
+                "paragraphes2": ["data."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and",
+                    "valid": ["numerical", "categorical"],
+                    "show": ["numerical", "categorical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "A question that result many possible and Different answers is",
+                  " called an "
+                ],
+                "paragraphes2": ["question."],
+                "paragraphes3": [],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["statistical"],
+                    "show": ["statistical"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "3",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "question is a question that has an exact answer."
+                ],
+                "paragraphes3": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Non-statistical"],
+                    "show": ["Non-statistical"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["Blood type is a type of"],
+                "paragraphes2": ["statistical data."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["categorical"],
+                    "show": ["categorical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "5",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["The Address is "],
+                "paragraphes2": ["data."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["categorical"],
+                    "show": ["categorical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "6",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["(How old are you?) is a "],
+                "paragraphes2": ["question."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["non-statistical"],
+                    "show": ["non-statistical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "7",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["The number of siblings is"],
+                "paragraphes2": ["statistical data."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["numerical"],
+                    "show": ["numerical"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,273 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "Choose the correct answer",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"The dependent variable in the equation n = 3m is .................",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"n",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "2m",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "m",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "3",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "popup": "",
+                        "paragraph":"If X and Y are two variables, and X is an independent variable, then the equation that expresses the rule \"multiply by 3 then add 4\" is .................",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"y = -3 + 4x",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "x = 3y + 4",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "y = 3x + 4",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "x = y + 3x",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"If the perimeter of a square is P and the length of its side is s, then the dependent variable is .................",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"Nothing of the above",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "P",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "s",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "P + s",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"The variable that represents the output in the equation: y=4x is .................",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"y",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "𝑥 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "4y",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "4𝑥",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"Which of the following rules represents the equation: y = 3x + 7?",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"Multiply by 3, then add 7",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "Multiply by 7, then add 3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "Multiply by 5 and add 4.1 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "Multiply by 4 and add 3 ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":" A toy store sells each toy for 50 EGP. The equation that represents the relationship between the number of toys (n) and the total cost (r) is ...........",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"r = 50n",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "n = 50r",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "n = 5r",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "r = 5n ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                  
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

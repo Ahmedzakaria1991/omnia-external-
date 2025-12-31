@@ -1,0 +1,65 @@
+[{
+  "nameId": "",
+  "title": "Classify the following questions",
+  "subject": "math-4 eng",
+  "colorTemplate": "#5a7cec",
+  "dragCounter": 0,
+  "counterCorrect": 0,
+  "LODegree": null,
+  "UserDegree": null,
+  "type": "",
+  "BloomTargets": [
+    ""
+  ],
+  "randomNumber": null,
+  "loTargets": null,
+  "numberOfquestion": null,
+  "qtitle":"",
+  "droggableBox": [{
+      "number": 1,
+      "text1": ["How many letters are there in the first name of each student in your class?"],
+      "wrod": "Numerical data",
+      "type": 1
+    },
+    {
+      "number": 2,
+      "text1": ["What is the eye color of the students in your class? "],
+      "wrod": "Categorical Data",
+      "type": 2
+    },
+    {
+      "number": 2,
+      "text1": ["What types of movies do the students in your class prefer?"],
+      "wrod": "Categorical Data",
+      "type": 2
+    },
+    {
+      "number": 2,
+      "text1": ["What are the favorite colors of the students in your class?"],
+      "wrod": "Categorical Data",
+      "type": 2
+    },
+    {
+      "number": 1,
+      "text1": ["How many family members do the students in your class have?"],
+      "wrod": "Numerical data",
+      "type": 1
+    },
+    {
+      "number": 2,
+      "text1": ["What TV shows do the students in your class prefer?"],
+      "wrod": "Categorical Data",
+      "type": 2
+    }
+
+  ],
+  "unrealData": [{
+    "wrod": "Numerical data",
+    "type": 100
+    },
+    {
+      "wrod": "Categorical Data",
+      "type": 200
+    }
+  ]
+}]

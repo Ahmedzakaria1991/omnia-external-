@@ -1,0 +1,80 @@
+[
+  {
+    "nameId": "",
+    "title": "Complete",
+    "subject": "math-4 eng",
+    "finshedDrag": false,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "texts": [
+          {
+            "text": ["What you order at a food stand depends on "]
+          }
+        ],
+        "drag": [
+          {
+            "word": "what is on the menu",
+            "number": 1
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "text": [""]
+          },
+          {
+            "text": ["depends on "]
+          }
+        ],
+        "drag": [
+          {
+            "word": "How hard you laugh                ",
+            "number": 2
+          },
+          {
+            "word": "how funny a joke is                ",
+            "number": 3
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "text": [""]
+          },
+          {
+            "text": ["depends on the kinds", "  of rides you like."]
+          }
+        ],
+        "drag": [
+          {
+            "word": "What you spend your tickets on  ",
+            "number": 4
+          }
+        ]
+      }
+    ],
+    "increasedDragOption": false,
+    "increasedDrag": [
+      {
+        "word": "hi",
+        "number": 100
+      },
+      {
+        "word": "hello",
+        "number": 101
+      }
+    ]
+  }
+]

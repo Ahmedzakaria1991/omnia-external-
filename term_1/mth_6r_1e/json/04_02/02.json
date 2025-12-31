@@ -1,0 +1,468 @@
+[
+  {
+    "nameId": "choose–slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer ",
+        "image": false,
+        "popuptext": [],
+        "img": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": ["The absolute value of -7 is: ........"],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "14",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "49",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "-  7 ",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "7",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": ["-12 ............ |-12| "],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": ">",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "<",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "=",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": " otherwise",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": ["The additive inverse of |- "],
+            "paragraph": [" | is ………."],
+            "up": "1",
+            "down": "2",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "1",
+                    "down": "2"
+                  }
+                ],
+                "paragraph": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "1",
+                    "down": "2"
+                  }
+                ],
+                "paragraph": "-",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "2",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "2",
+                    "down": "3"
+                  }
+                ],
+                "paragraph": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": ["|-3| .......  -2 "],
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": ">",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "<",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "=",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "otherwise",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": ["The additive inverse of |4| ........ |-4|."],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": ">",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "<",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "=",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "otherwise",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": [
+             "The ........... symbol in the expression |10|, signifies the distance from 0 to 10."
+            ],
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "negative",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "positive",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "absolute value",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "equal",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph1": [
+              "The integer which comes just before - 3 is  …………"
+            ],
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "-4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "-2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "-1",
+                "h11v": false,
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "paragraph": "0",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

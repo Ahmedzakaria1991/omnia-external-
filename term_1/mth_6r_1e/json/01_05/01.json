@@ -1,0 +1,819 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "Choose the correct answer",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "Choose the correct answer",
+                "image": false,
+                "popuptext": [],
+                "img": "",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph1": [
+                            " The greatest common factor of the numbers 55 and 22 is ..... ."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [
+                            " "
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "11",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "110",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "popup": "",
+                        "paragraph1": [
+                            " The ……… numbers are numbers whose only common factor is 1"
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "odd",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "even",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "Relatively prime",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "otherwise",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "popup": "",
+                        "paragraph1": [
+                            "Bassem has 48 drawing pencils and 60 paint tubes. He wants to distribute them into cups. Each cup must have the same number of pencils and paint tubes. Which of the following numerical expressions represents the total number of pencils and paint tubes that Bassem put in each cup?"
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "12 (3 + 5)",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "12 +(4 × 5)",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "12 + 4 + 5",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "12 (4 + 5)",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "popup": "",
+                        "paragraph1": [
+                            "The least common multiple of 10 and 8 is ..... ."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [
+                            ""
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "20",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "30",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "40",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "popup": "",
+                        "paragraph1": [
+                            "The relatively prime numbers are numbers whose only common factor is ..... ."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [
+                            ""
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "0",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "1",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "2",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "3",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "popup": "",
+                        "paragraph": [
+                            ""
+                        ],
+                        "up": "6",
+                        "down": "8",
+                        "paragraph2": [
+                            "-"
+                        ],
+                        "up1": "1",
+                        "down1": "2",
+                        "paragraph3": ["=  ..... "],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "8"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "5",
+                                        "down": "8"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "4"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "5",
+                                        "down": "6"
+                                    }
+                                ],
+                                "paragraph": "",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "popup": "",
+                        "paragraph1": [
+                            "The G.C.F of 15 and 30 is .........."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [
+                            ""
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "15",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "30",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "3",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "popup": "",
+                        "paragraph": [
+                            "3"
+                        ],
+                        "up": "1",
+                        "down": "2",
+                        "paragraph2": [
+                            "+ 4"
+                        ],
+                        "up1": "3",
+                        "down1": "4",
+                        "paragraph3": ["=  ..... "],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "2"
+                                    }
+                                ],
+                                "paragraph": "8",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "4",
+                                        "down": "7"
+                                    }
+                                ],
+                                "paragraph": "7",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "4",
+                                        "down": "6"
+                                    }
+                                ],
+                                "paragraph": "7",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "1",
+                                        "down": "4"
+                                    }
+                                ],
+                                "paragraph": "8",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "popup": "",
+                        "paragraph1": [
+                            "30 + 50 =  .........."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [
+                            ""
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "10 [3 + 5]",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "5 [6 + 5]",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "10 [30 + 50]",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "2 [15 + 5]",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "popup": "",
+                        "paragraph1": [
+                            "7 [2 + 1] =  .........."
+                        ],
+                        "up": "",
+                        "down": "",
+                        "paragraph2": [
+                            ""
+                        ],
+                        "up1": "",
+                        "down1": "",
+                        "paragraph3": [],
+                        "up2": "",
+                        "down2": "",
+                        "paragraph4": [
+                            ""
+                        ],
+                        "sym": "",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "14 + 7",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "14 + 1 ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "14 + 71",
+                                "h11v": false,
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "fractions": [
+                                    {
+                                        "up": "",
+                                        "down": ""
+                                    }
+                                ],
+                                "paragraph": "72 + 71",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

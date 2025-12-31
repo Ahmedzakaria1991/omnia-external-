@@ -1,0 +1,186 @@
+[
+    {
+        "nameId": "DragAndDropRearrange",
+        "title": "Rearrange ",
+        "subject": "math-4 eng",
+        "colorTemplate": "#FF9FB7",
+        "counterFinished": 0,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "dragCounter": 0,
+        "droggableBox": [
+            {
+                "title": "ascending order:",
+                "items": [
+                    {
+                        "idNum": [
+                            1
+                        ],
+                        "wrod": [
+                            "4.6"
+                        ],
+                        "up": "",
+                        "down": ""
+                    },
+                    {
+                        "idNum": [
+                            3
+                        ],
+                        "wrod": [
+                            "1.05"
+                        ],
+                        "up": "",
+                        "down": ""
+                    },
+                    {
+                        "idNum": [
+                            4
+                        ],
+                        "wrod": [
+                            "–"
+                        ],
+                        "up": "3",
+                        "down": "4"
+                    },
+                    {
+                        "idNum": [
+                            5
+                        ],
+                        "wrod": [
+                            "– 2.9 "
+                        ],
+                        "up": "",
+                        "down": ""
+                    },
+                    {
+                        "idNum": [
+                            2
+                        ],
+                        "wrod": [
+                            "2"
+                        ],
+                        "up": "6",
+                        "down": "10"
+                    }
+                ],
+                "dropNumbers": [
+                    {
+                        "idNum": [
+                            5
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            4
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            3
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            2
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            1
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "descending order:",
+                "items": [
+                    {
+                        "idNum": [
+                            14
+                        ],
+                        "wrod": [
+                            "2.08"
+                        ],
+                        "up": "",
+                        "down": ""
+                    },
+                    {
+                        "idNum": [
+                            12
+                        ],
+                        "wrod": [
+                            "– 4.2"
+                        ],
+                        "up": "",
+                        "down": ""
+                    },
+                    {
+                        "idNum": [
+                            11
+                        ],
+                        "wrod": [
+                            "– 9 "
+                        ],
+                        "up": "6",
+                        "down": "8"
+                    },
+                    {
+                        "idNum": [
+                            15
+                        ],
+                        "wrod": [
+                            "5.7"
+                        ],
+                        "up": "",
+                        "down": ""
+                    },
+                    {
+                        "idNum": [
+                            13
+                        ],
+                        "wrod": [
+                            "–"
+                        ],
+                        "up": "1",
+                        "down": "4"
+                    }
+                ],
+                "dropNumbers": [
+                    {
+                        "idNum": [
+                            15
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            14
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            13
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            12
+                        ]
+                    },
+                    {
+                        "idNum": [
+                            11
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

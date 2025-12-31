@@ -1,0 +1,465 @@
+[
+    {
+        "nameId": "choose-slide",
+        "title": "",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "chooseSlide": [
+            {
+                "active": true,
+                "title": "Choose the correct answer",
+                "popuptext": [
+                   
+                ],
+                "qtitle":"",
+                "quizChooses": [
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"How many family members do you have? is a ....... question.",
+                        "correctAnswer": [
+                          4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"Quantitative",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "Qualitative",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "statistical",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "non-statistical",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": " ......... is a categorical data.",
+                        "correctAnswer": [
+                           4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":" Age",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "  Weight",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "Number of children",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "Blood type",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The lower quartile of the data set 30, 50, 70, 90, 10, 40, 20 is ..........",
+                        "correctAnswer": [
+                           3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":" 50",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose":" 35",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":" 20",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":" 10",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"How many students have between 20 and 30 songs on their devices? The best graphical representation for this question is......",
+
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"Dot plot",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose":"Box plot",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"Histogram",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose": "Bar chart",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The median of the data set 9, 7, 3, 2, 4 is ......",
+                        "correctAnswer": [
+                           1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"4",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose":"3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"7",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"2",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "........ is numerical data.",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"  Hobby",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "  Weight",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"Birthplace",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"Color",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":" All the following intervals are equal except for the interval .....",
+                        "correctAnswer": [
+                            2
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"17-20",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": " 10-14",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "5-8",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"20-23",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"The minimum value of the data set 8, 3, 3, 5, 11, 5, 4, 7 is ....",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"3",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "4",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": " 2",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"11",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "The question \"What is your name?\" is a ...... question",
+                        "correctAnswer": [
+                            3
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":" Otherwise",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose":"Quantitative",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose":"Non-statistical",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"Statistical",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph": "To represent a data set in intervals, we use ............",
+                        "correctAnswer": [
+                            1
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 2,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"Histogram",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "Box plot",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": "Dot plot",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"Pie chart",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "popup": "",
+                        "paragraph":"The value that divides a set of data into two equal parts when arranged in order is called .......",
+                        "correctAnswer": [
+                            4
+                        ],
+                        "answerSelect": false,
+                        "counter": 0,
+                        "type": 1,
+                        "img":"",
+                        "answers": [
+                            {
+                                "numAnswer": 1,
+                                "toChoose":"  Range",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 2,
+                                "toChoose": "  Mode ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 3,
+                                "toChoose": " Mean  ",
+                                "right": false,
+                                "checked": false
+                            },
+                            {
+                                "numAnswer": 4,
+                                "toChoose":"  Median ",
+                                "right": false,
+                                "checked": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 0,
+                        "index": "4",
+                        "paragraph": "",
+                        "popup": [],
+                        "isActive": null
+                    }
+                ]
+            }
+        ]
+    }
+]

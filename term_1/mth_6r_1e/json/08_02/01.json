@@ -1,0 +1,271 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "The variable representing the input value in the equation ","y = 10 x  is  ..........."
+            ],
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "10",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "𝑦",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "𝑥",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "10𝑥",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "If the input value in the equation y= 3x-3 is 4, then the ",
+              "output value is ......."
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "10",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "9",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+             "If x is the independent variable and y is the dependent variable, then  the equation that represents \"multiply by 3 and then add 1\" is  ......"
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "x = 3y + 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "y = 3x + 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "x = 3y - 1",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "y = x + 3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["If x = 28 and y = "],
+            "up": "1",
+            "down": "4",
+            "paragraph2": ["x, then y = ............"],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "8",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "28",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "112",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "7",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+             "If x and y are variables, and x is the independent variable, then the equation representing the rule \"multiply by 6\" is .............."
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "x = y + 6",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "y = 6x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "y = 6 + x",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "x = 6y",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["If the input value in the equation y ="],
+            "up": "1",
+            "down": "2",
+            "paragraph2": ["x + 12 is 8, then the output value is  ......"],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "8",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "16",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "28",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

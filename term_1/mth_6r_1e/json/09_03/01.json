@@ -1,0 +1,800 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-4 eng",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+            {
+                "active": true,
+                "title": "Complete the following ",
+                "popuptext": [""],
+                "qtitle":"The following histogram shows the ages of people in a shopping mall. Analyze the graph and answer the following questions:",
+                "img":"../images/11.jpg",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                 "How many people are there in the age interval 10-19 ?"
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "people."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "6"
+                                        ],
+                                        "show": [
+                                            "6"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "How many people are there whose ages are 30 or more? "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "people."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "12"
+                                        ],
+                                        "show": [
+                                            "12"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                   "How many people are there survived "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "-",
+                                        "valid": [
+                                            "29","20"
+                                        ],
+                                        "show": [
+                                            "29","20"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                 "What is the total number of people represented in the data?"
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "people."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "30"
+                                        ],
+                                        "show": [
+                                            "30"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title": "Complete the following ",
+                "popuptext": [""],
+                "qtitle":"The following histogram shows Students' Arabic language test marks. Analyze the graph and answer the following questions:",
+                "img":"../images/12.jpg",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                  "How many students got a grade in the interval [89 - 94]? "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "45"
+                                        ],
+                                        "show": [
+                                            "45"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "How many students got a grade of 82 or less?"
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "120"
+                                        ],
+                                        "show": [
+                                            "120"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Which marks interval has minimum number of students ? "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "-",
+                                        "valid": [
+                                            "100","95"
+                                        ],
+                                        "show": [
+                                            "100","95"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                               "How many students took the Arabic language test in total? "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "255"
+                                        ],
+                                        "show": [
+                                            "255"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title": "Complete the following ",
+                "popuptext": [""],
+                "qtitle":"The following histogram shows The number of study hours for a group of students. Analyze the graph and answer the following questions:",
+                "img":"../images/13.jpg",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                   "How many students studied for 6 to 7 hours?"
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "2"
+                                        ],
+                                        "show": [
+                                            "2"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "How many students studied for 4 hours or more? "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students."
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "6"
+                                        ],
+                                        "show": [
+                                            "6"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                  "How many students does the data represent? "
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students"
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "11"
+                                        ],
+                                        "show": [
+                                           "11"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "questionnumber":1,
+                        "img":"",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                "How many students studied for 2 to 3 hours?"
+                                ],
+                                "paragraphes1": [
+                                    ""
+                                ],
+                                "paragraphes2": [
+                                    "students"
+                                ],
+                               
+                                
+                                
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "zero","0"
+                                        ],
+                                        "show": [
+                                            "zero"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

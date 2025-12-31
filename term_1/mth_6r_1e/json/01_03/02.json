@@ -1,0 +1,785 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-5 eng",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+            {
+                "active": true,
+                "title":"Complete the following",
+                "popuptext": [
+                    ""
+                ],
+                "paragraph1": [
+                    "Complete the following using the distributive property of multiplication:"
+                ],
+                "quran": [],
+                "paragraph2": [],
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "3(2 + 7) = 6 + "
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "21"
+                                        ],
+                                        "show": [
+                                            "21"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "5(2 + 3) = "
+                                ],
+                                "paragraphes2": [
+                                   ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "25"
+                                        ],
+                                        "show": [
+                                            "25"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "3 + 12 = 3( "
+                                ],
+                                "paragraphes2": [
+                                   ") "
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "4","1"
+                                        ],
+                                        "show": [
+                                            "4","1"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "15 +"
+                                ],
+                                "paragraphes2": [
+                                   "= 5(3 + 4)"
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                            "20"
+                                        ],
+                                        "show": [
+                                            "20"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "5",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "10(1 + 2) = 2(5 + "
+                                ],
+                                "paragraphes2": [
+                                   ")"
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput":1,
+                                        "comma": "",
+                                        "valid": [
+                                           "10"
+                                        ],
+                                        "show": [
+                                           "10"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                 
+              
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 2,
+                        "type": 3,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title":"Complete the following",
+                "popuptext": [
+                    ""
+                ],
+                "paragraph1": [
+                    "Express the sum of each pair of numbers using the distributive property of multiplication and the greatest common factor (G.C.F):"
+                ],
+                "quran": [],
+                "paragraph2": [],
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "1",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "16 + 28 = "
+                                ],
+                                "paragraphes2": [
+                                   "("
+                                ],
+                                "paragraphes3": [
+                                    "+ 7)"
+                                 ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "4"
+                                        ],
+                                        "show": [
+                                           "4"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "4"
+                                        ],
+                                        "show": [
+                                           "4"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "2",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "18 + 48 = "
+                                ],
+                                "paragraphes2": [
+                                   "("
+                                ],
+                                "paragraphes3": [
+                                    "+ 8)"
+                                 ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "6"
+                                        ],
+                                        "show": [
+                                           "6"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "3"
+                                        ],
+                                        "show": [
+                                           "3"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "3",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "24 + 60 = "
+                                ],
+                                "paragraphes2": [
+                                   "(2 + "
+                                ],
+                                "paragraphes3": [
+                                    ")"
+                                 ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "12"
+                                        ],
+                                        "show": [
+                                           "12"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "5"
+                                        ],
+                                        "show": [
+                                           "5"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "4",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "56 + 7 = "
+                                ],
+                                "paragraphes2": [
+                                   "( 8 +"
+                                ],
+                                "paragraphes3": [
+                                    ")"
+                                 ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "7"
+                                        ],
+                                        "show": [
+                                           "7"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                           "1"
+                                        ],
+                                        "show": [
+                                           "1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "5",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "25 + 50 = 25 ("
+                                ],
+                                "paragraphes2": [
+                                   ") "
+                                ],
+                              
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "2","1"
+                                        ],
+                                        "show": [
+                                             "2","1"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "6",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "18 + 22 = 2 ( "
+                                ],
+                                "paragraphes2": [
+                                   ")"
+                                ],
+                              
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "11","9"
+                                        ],
+                                        "show": [
+                                            "11","9"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "7",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    "35 + 42 = 7 ( "
+                                ],
+                                "paragraphes2": [
+                                   ")"
+                                ],
+                              
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "5","6"
+                                        ],
+                                        "show": [
+                                           "5","6"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                           ""
+                                        ],
+                                        "show": [
+                                           ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                 
+              
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 2,
+                        "type": 3,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

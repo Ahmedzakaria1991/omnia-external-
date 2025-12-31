@@ -1,0 +1,355 @@
+[
+    {
+        "nameId": "trueFalse",
+        "title": "Put (√) or (X)",
+        "finshedChoose": false,
+        "help": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#FCC6B0",
+        "hand": true,
+        "popuptext": "",
+        "pop": "",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "paragraph": " All rational numbers are also integers. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paragraph": "All rational numbers are also natural numbers and counting numbers. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paragraph": "The numbers 1, -6, 3 represent natural numbers.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "paragraph": " All integers are also rational numbers. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "paragraph": "The numbers 3, 8.1, 7 represent rational numbers.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "paragraph": "All rational numbers are also integers and natural numbers.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "paragraph": "The set of integers is a subset of rational numbers.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "paragraph": "All integers are also natural numbers. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "paragraph": " 24 belongs to the set of counting numbers.  ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "paragraph": " All counting numbers are also natural numbers, integers, and rational numbers. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "paragraph": "The set of natural numbers is a subset of the set of counting numbers.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [
+                    {
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            }
+        ]
+    }
+]

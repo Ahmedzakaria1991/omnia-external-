@@ -1,0 +1,397 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "The mathematical expression: x + 2y is .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "numerical expression",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "algebraic expression",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "inequality",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "equation",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "The coefficient of x in the algebraic expression: 9x + 2 is  .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "2",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "9",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "𝑥",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "5",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "The number 14 in the algebraic expression: 14a + 55 + 4 represents a .....",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "coefficient",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "constant",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "variable",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "not of those",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "The like terms in the algebraic expression: r + 3 + m + 7 are  ..............",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "7, 3",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "r, 3",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "m, 3",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "m, r",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "Seven times a number m increased by 9 is  ......",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "7m",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "7m + 9",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "7m - 9",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "9m + 7",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "The coefficient of the algebraic term:  ",
+            "paragraph1": "is .....",
+            "up": "n",
+            "down": "2 ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "paragraph": "2",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "paragraph": "4",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "paragraph": "",
+                "fractions": [
+                  {
+                    "up": "1",
+                    "down": "2"
+                  }
+                ],
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "paragraph": "2 + n",
+                "fractions": [
+                  {
+                    "up": "",
+                    "down": ""
+                  }
+                ],
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

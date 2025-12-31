@@ -1,0 +1,1256 @@
+[
+    {
+        "nameId": "",
+        "title": "",
+        "subject": "math-4 eng",
+        "colorTemplate": "#8388C6",
+        "counterFinished": 0,
+        "inputCounter": 0,
+        "hand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popuptext": "",
+        "popup": "",
+        "passageHand": true,
+        "inputSlide": [
+            {
+                "active": true,
+                "title": "Complete the following",
+                "popuptext": [
+                    ""
+                ],
+                "qtitle": "",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "The dependent variable in the equation y = x + 9 is "
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "y"
+                                        ],
+                                        "show": [
+                                            "y"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                   "The variable representing the input value in the equation y=3x is "
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "x"
+                                        ],
+                                        "show": [
+                                            "x"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes1": [
+                                    " If x and y are variables, and x is the independent variable, then  ",
+                                    "the equation representing the rule \"multiply by 6, then add 2\" is ",
+                                     "y = "
+                                ],
+                                "paragraphes2": [
+                                   
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "2",
+                                            "6x"
+                                        ],
+                                        "show": [
+                                            "2",
+                                            "6x"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title": "Complete the following",
+                "popuptext": [
+                    ""
+                ],
+                "qtitle": "Using the variables x and y, where y is the dependent variable, write an equation for each of the following rules:",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                   "Multiply by 0.5"
+                                ],
+                                "paragraphes1": [
+                                    "y ="
+                                ],
+                                "paragraphes2": [
+                                    " "
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "0.5x",
+                                            "0.5 x"
+                                        ],
+                                        "show": [
+                                            "0.5x"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Add 8"
+                                ],
+                                "paragraphes1": [
+                                  "y = "
+                                ],
+                                "paragraphes2": [
+                                   
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "x",
+                                            "8"
+                                        ],
+                                        "show": [
+                                            "x",
+                                            "8"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Add 0.75"
+                                ],
+                                "paragraphes1": [
+                                  "y = "
+                                ],
+                                "paragraphes2": [
+                                    
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "0.75",
+                                            "x"
+                                        ],
+                                        "show": [
+                                            "0.75"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Multiply by 8, then add 9"
+                                ],
+                                "paragraphes1": [
+                                    "y  ="
+                                ],
+                                "paragraphes2": [
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "8x",
+                                            "9"
+                                        ],
+                                        "show": [
+                                            "8x",
+                                            "9"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "5",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                   "Multiply by 3, then add 2"
+                                ],
+                                "paragraphes1": [
+                                    " y  ="
+                                ],
+                                "paragraphes2": [
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "3x",
+                                            "2"
+                                        ],
+                                        "show": [
+                                            "3x",
+                                            "2"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "6",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Multiply by 0.1, then add 7"
+                                ],
+                                "paragraphes1": [
+                                    "y ="
+                                ],
+                                "paragraphes2": [
+                                   
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "0.1x",
+                                            "7"
+                                        ],
+                                        "show": [
+                                            "0.1x",
+                                            "7"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "7",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Multiply by 4, then add 5"
+                                ],
+                                "paragraphes1": [
+                                    "y ="
+                                ],
+                                "paragraphes2": [
+                                   
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "4x",
+                                            "5"
+                                        ],
+                                        "show": [
+                                            "4x",
+                                            "5"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "8",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "Multiply by 2, then add 10"
+                                ],
+                                "paragraphes1": [
+                                    "y ="
+                                ],
+                                "paragraphes2": [
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "2x",
+                                            "10"
+                                        ],
+                                        "show": [
+                                            "2x",
+                                            "10"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title": "Complete the following",
+                "popuptext": [
+                    ""
+                ],
+                "qtitle": "Complete the following using the variables x and y, where x is an independent variable:",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                   "If the rule is \"multiply by 3\", the equation is written as y = 3x. If x = 6, then y ="
+                                ],
+                                "paragraphes1": [
+                                   
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "18"
+                                        ],
+                                        "show": [
+                                            "18"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "2",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "If the rule is \"add 1\", the equation is written as y = x + 1. If x = 5, then y ="
+                                ],
+                                "paragraphes1": [
+                                    
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "6"
+                                        ],
+                                        "show": [
+                                            "6"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                   "If the rule is \"multiply by 2\", the equation is written as y = 2x. If x = 2.3, then y ="
+                            
+                                ],
+                                "paragraphes1": [
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "4.6"
+                                        ],
+                                        "show": [
+                                            "4.6"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "4",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "If the rule is \"add 0.9\", the equation is written as y = x + 0.9. If x = 1.1, ","then y ="
+                                ],
+                                "paragraphes1": [
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "2"
+                                        ],
+                                        "show": [
+                                            "2"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "5",
+                        "questionnumber": 1,
+                        "img": "",
+                        "contents": [
+                            {
+                                "paragraphes": [
+                                    "If the rule is \"multiply by 10, then add 5\", the equation is written as y = 10x + 5. If x = 3, ","then y ="
+                                ],
+                                "paragraphes1": [
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "35"
+                                        ],
+                                        "show": [
+                                            "35"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            },
+            {
+                "active": false,
+                "title": "Complete the following",
+                "popuptext": [
+                    ""
+                ],
+                "qtitle": "The following tables show the relationship between the variables x and y. Write an equation to express this relationship in each of the following:",
+                "items": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "1",
+                        "questionnumber": 1,
+                        "img": "../images/08_02_01.png",
+                        "contents": [
+                            {
+                                "paragraphes": [],
+                                "paragraphes1": [
+                                    "Equation: y = "
+                                ],
+                                "paragraphes2": [
+                                    ""
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 2,
+                                        "comma": "+",
+                                        "valid": [
+                                            "x",
+                                            "4"
+                                        ],
+                                        "show": [
+                                            "4",
+                                            "x"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 2,
+                        "index": "2",
+                        "questionnumber": 1,
+                        "img": "../images/08_02_02.png",
+                        "contents": [
+                            {
+                                "paragraphes": [],
+                                "paragraphes1": [
+                                    "Equation: y = "
+                                ],
+                                "paragraphes2": [
+                                    "–"
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [],
+                                        "show": []
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "x"
+                                        ],
+                                        "show": [
+                                            "x"
+                                        ]
+                                    },
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "3"
+                                        ],
+                                        "show": [
+                                            "3"
+                                        ]
+                                    }
+                                   
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            },
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "3",
+                        "questionnumber": 1,
+                        "img": "../images/08_02_03.png",
+                        "contents": [
+                            {
+                                "paragraphes": [],
+                                "paragraphes1": [
+                                    "Equation: y = "
+                                ],
+                                "paragraphes2": [
+                                    " "
+                                ],
+                                "paragraphes3": [
+                                    ""
+                                ],
+                                "inputtype": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 1,
+                                        "comma": "",
+                                        "valid": [
+                                            "5x",
+                                            "5 x"
+                                        ],
+                                        "show": [
+                                            "5x"
+                                        ]
+                                    }
+                                ],
+                                "inputtype2": [
+                                    {
+                                        "length": 0,
+                                        "numperofinput": 0,
+                                        "comma": "",
+                                        "valid": [
+                                            ""
+                                        ],
+                                        "show": [
+                                            ""
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "answerUser": [
+                            {
+                                "answer": [
+                                    ""
+                                ],
+                                "correct": false,
+                                "help": false,
+                                "done": false
+                            }
+                        ]
+                    }
+                ],
+                "popupQuestion": [
+                    {
+                        "id": 1,
+                        "type": 1,
+                        "index": "",
+                        "paragraph": "",
+                        "popup": [
+                            ""
+                        ],
+                        "isActive": null
+                    }
+                ],
+                "pop": ""
+            }
+        ]
+    }
+]

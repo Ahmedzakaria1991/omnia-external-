@@ -1,0 +1,988 @@
+[{
+    "nameId": "",
+    "title": "",
+    "subject": "math-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [
+        ""
+    ],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [{
+            "active": true,
+            "title": "Complete the following",
+            "popuptext": [],
+
+            "ltr": true,
+            "items": [{
+                    "id": 1,
+                    "type": 2,
+                    "questionnumber": 3,
+                    "index": "1",
+                    "contents": [{
+                        "paragraphes1": [
+                            "3",
+                            "times a number increased by ",
+                            "2 : "
+                        ],
+
+                        "paragraphes2": ["x +  "],
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [""],
+                            "show": [""]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                             "valid": ["3"],
+                                "show": ["3"]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["2"],
+                                "show": ["2"]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "questionnumber": 3,
+                    "index": "2",
+                    "contents": [{
+                        "paragraphes1": [
+                            "3 times a number decreased by 5 :"
+                        ],
+
+                        "paragraphes2": ["y -  "],
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [""],
+                            "show": [""]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["3"],
+                                "show": ["3"]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["5"],
+                                "show": ["5"]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "questionnumber": 3,
+                    "index": "3",
+                    "contents": [{
+                        "paragraphes1": [
+                            "Twice a number increased by 7: "
+                        ],
+
+                        "paragraphes2": ["a + "],
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [""],
+                            "show": [""]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["2"],
+                                "show": ["2"]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["7"],
+                                "show": ["7"]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "questionnumber": 3,
+                    "index": "4",
+                    "contents": [{
+                        "paragraphes1": [
+                            "The product of 3 and c, subtracted from 7 :"
+                        ],
+
+                        "paragraphes2": ["-"],
+                        "paragraphes3": ["c"],
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [""],
+                            "show": [""]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["7"],
+                                "show": ["7"]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": ["3"],
+                                "show": ["3"]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [""],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                }
+            ],
+            "popupQuestion": [{
+                "id": 0,
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }],
+            "pop": ""
+        },
+        {
+            "active": false,
+            "title": "Complete the following",
+            "popuptext": [""],
+            "qtitle": "Write the algebraic expression that represents each of the following verbal expressions:",
+            "items": [{
+                    "id": 1,
+                    "type": 1,
+                    "index": "1",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "The sum x and 4 "
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 2,
+                            "comma": "+",
+                            "valid": [
+                                "x", "4"
+                            ],
+                            "show": [
+                                "x", "4"
+                            ]
+                        }],
+                        "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }]
+                    }],
+                    "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "index": "2",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "V decreased by 5 "
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            "–"
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "v"
+                                ],
+                                "show": [
+                                    "v"
+                                ]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "5"
+                                ],
+                                "show": [
+                                    "5"
+                                ]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "index": "3",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "X divided by 6"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            "÷"
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }],
+                        "inputtype2": [
+
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "x"
+                                ],
+                                "show": [
+                                    "x"
+                                ]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "6"
+                                ],
+                                "show": [
+                                    "6"
+                                ]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "index": "4",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "The product of 15 and t "
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 2,
+                            "comma": "×",
+                            "valid": [
+                                "t", "15"
+                            ],
+                            "show": [
+                                "t", "15"
+                            ]
+                        }],
+                        "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }]
+                    }],
+                    "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }]
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "index": "5",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "h is increased by 12"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 2,
+                            "comma": "+",
+                            "valid": [
+                                "h", "12"
+                            ],
+                            "show": [
+                                "h", "12"
+                            ]
+                        }],
+                        "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }]
+                    }],
+                    "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }]
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "index": "6",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "2 times f"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 1,
+                            "comma": "",
+                            "valid": [
+                                "2f"
+                            ],
+                            "show": [
+                                "2f"
+                            ]
+                        }],
+                        "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }]
+                    }],
+                    "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }]
+                },
+
+                {
+                    "id": 1,
+                    "type": 2,
+                    "index": "7",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "7 subtracted from k"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            "–"
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "k"
+                                ],
+                                "show": [
+                                    "k"
+                                ]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "7"
+                                ],
+                                "show": [
+                                    "7"
+                                ]
+                            }
+
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "index": "8",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "3 added to z "
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 2,
+                            "comma": "+",
+                            "valid": [
+                                "3", "z"
+                            ],
+                            "show": [
+                                "3", "z"
+                            ]
+                        }],
+                        "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }]
+                    }],
+                    "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "index": "9",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "15 divided by u"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            "÷"
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "15"
+                                ],
+                                "show": [
+                                    "15"
+                                ]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "u"
+                                ],
+                                "show": [
+                                    "u"
+                                ]
+                            }
+
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": 1,
+                    "index": "10",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "The product of 27 and n"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 2,
+                            "comma": "×",
+                            "valid": [
+                                "27", "n"
+                            ],
+                            "show": [
+                                "27", "n"
+                            ]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 0,
+                                "comma": "",
+                                "valid": [
+                                    ""
+                                ],
+                                "show": [
+                                    ""
+                                ]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 0,
+                                "comma": "",
+                                "valid": [
+                                    ""
+                                ],
+                                "show": [
+                                    ""
+                                ]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                }
+            ],
+            "popupQuestion": [{
+                "id": 1,
+                "type": 1,
+                "index": "",
+                "paragraph": "",
+                "popup": [
+                    ""
+                ],
+                "isActive": null
+            }],
+            "pop": ""
+        },
+        {
+            "active": false,
+            "title": "Complete the following",
+            "popuptext": [""],
+            "qtitle": "",
+            "items": [{
+                    "id": 1,
+                    "type": 1,
+                    "index": "1",
+                    "questionnumber": 1,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "Two students wrote algebraic expressions for this real-life situation: \"Mohammed bought 4 boxes containing c cookies to celebrate his birthday at school.\" Ali wrote an algebraic expression to describe the total number of cookies: c + c + c + c. Kamal believes there is another mathematical expression that can also be used. What mathematical expression could Kamal have in mind, and why are both correct?"
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 1,
+                            "comma": "",
+                            "valid": [
+                                "4c", "4 c"
+                            ],
+                            "show": [
+                                "4c"
+                            ]
+                        }],
+                        "inputtype2": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+                                ""
+                            ],
+                            "show": [
+                                ""
+                            ]
+                        }]
+                    }],
+                    "answerUser": [{
+                        "answer": [
+                            ""
+                        ],
+                        "correct": false,
+                        "help": false,
+                        "done": false
+                    }]
+                },
+                {
+                    "id": 1,
+                    "type": 2,
+                    "index": "2",
+                    "questionnumber": 2,
+                    "img": "",
+                    "contents": [{
+                        "paragraphes": [
+                            "Write an algebraic expression to calculate the amount of gasoline Faris needs to buy for a round trip to his grandmother's house. His car travels 15 kilometers per liter of gasoline. Use the variable d to represent the distance in kilometers to his grandmother's house."
+                        ],
+                        "paragraphes1": [
+                            ""
+                        ],
+                        "paragraphes2": [
+                            ""
+                        ],
+
+                        "inputtype": [{
+                            "length": 0,
+                            "numperofinput": 0,
+                            "comma": "",
+                            "valid": [
+
+                            ],
+                            "show": [
+
+                            ]
+                        }],
+                        "inputtype2": [{
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "2d"
+                                ],
+                                "show": [
+                                    "2d"
+                                ]
+                            },
+                            {
+                                "length": 0,
+                                "numperofinput": 1,
+                                "comma": "",
+                                "valid": [
+                                    "15"
+                                ],
+                                "show": [
+                                    "15"
+                                ]
+                            }
+                        ]
+                    }],
+                    "answerUser": [{
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        },
+                        {
+                            "answer": [
+                                ""
+                            ],
+                            "correct": false,
+                            "help": false,
+                            "done": false
+                        }
+                    ]
+                }
+            ],
+            "popupQuestion": [{
+                "id": 1,
+                "type": 1,
+                "index": "",
+                "paragraph": "",
+                "popup": [
+                    ""
+                ],
+                "isActive": null
+            }],
+            "pop": ""
+        }
+    ]
+}]
