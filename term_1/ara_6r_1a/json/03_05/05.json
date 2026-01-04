@@ -1,0 +1,106 @@
+[
+  {
+    "nameId": "",
+    "title": "حدِّدْ نوعَ النصِّ فيما يَلِي  ",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "arabic-6",
+    "colorTemplate": "#79D2E4",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "qtitle": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["«تعمَلُ السياراتُ الحديثةُ بمُحرِّكاتٍ تحوِّلُ الوَقودَ إلى طاقةٍ حركِيَّةٍ، وتتكوَّنُ من أنظمةٍ مُترابِطةٍ، وتتطوَّرُ باستمرارٍ»."],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["نص معلوماتي"],
+                "show": ["نص معلوماتي"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["hello"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+"«كتابي السِّحريُّ ينقُلُني إلى عالَمِ القِصَص كلَّمــا قرأتُــه، فتظهَــرُ الشخصياتُ أمامـــي وتدعوني للمُشارَكةِ في مُغامراتِها المُشوِّقة».  "            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["نص خيالي"],
+                "show": ["نص خيالي"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["blaaa"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

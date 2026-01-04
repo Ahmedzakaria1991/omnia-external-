@@ -1,0 +1,215 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "questionTitle":"اختَرْ نَوعَ الخبرِ الواردِ بكُلِّ جملةٍ:",
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "القِطارُ تَحَرَّكَ.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَبرٌ جُملةٌ اسْميَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خَبرٌ جُملةٌ فِعليةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبَرٌ شِبْهُ جُملةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "الاسْتراحَةُ بينَ الشَّوْطَيْنِ.",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَبرٌ جُملةٌ اسْميَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خَبرٌ جُملةٌ فِعليةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبَرٌ شِبْهُ جُملةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "الوَقْتُ هو حَياتُنَا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَبرٌ  جُملةٌ اسْميَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خَبرٌ  جُملةٌ فِعليةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبَرٌ  شِبْهُ جُملةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "الخَيْرُ  طَرائِقُه كَثيرةٌ.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَبرٌ  جُملةٌ اسْميَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خَبرٌ  جُملةٌ فِعليةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبَرٌ  شِبْهُ جُملةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 5,
+                "popup": "",
+                "paragraph": "الأَمانةُ من الأَخْلاقِ الحَمِيدةِ.",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَبرٌ  جُملةٌ اسْميَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خَبرٌ  جُملةٌ فِعليةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبَرٌ  شِبْهُ جُملةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 6,
+                "popup": "",
+                "paragraph": "السَّخاءُ يَسْتُرُ  العُيوبَ.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَبرٌ  جُملةٌ اسْميَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خَبرٌ  جُملةٌ فِعليةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبَرٌ  شِبْهُ جُملةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

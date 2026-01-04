@@ -1,0 +1,442 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "indexShow": false,
+            "paragraph": "اختَرِ الجُمل التي تشتَمِلُ على اسمٍ يُعرَبُ إعرابَ الأسماءِ الخمسةِ:",
+            "correctAnswer": [1, 2, 4, 6],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "نجَحَ أخُو صديقِي في الامتِحانِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "هل غسَلْتَ فاكَ اليومَ؟",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "جاء أخي من السفَرِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "هل سلَّمْتَ على حمِيكَ؟ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "ذي القِصَّةُ ممتعةٌ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "قدِّرْ  أباكَ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "indexShow": true,
+
+            "paragraph": "رحَّب محمودٌ بـ...........",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "حموه",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "حماه",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "حميه",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "صَديقُك ................... صوتٍ جميلٍ. ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "indexShow": true,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ذو",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ذا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ذي",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": "نظِّف .............. بالفُرشاةِ والمعجونِ.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "indexShow": true,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "فوك",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "فاك",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "فيك",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "هذا الكتابُ ................. عُنوانٍ واضِحٍ. ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "indexShow": true,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ذو",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ذا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ذي",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "...............  أختي فَنَّانٌ مشهورٌ. ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "indexShow": true,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "حما",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "حمو",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "حمي",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "qtitle": "اختَرِ السببَ الذي لم يجعَلِ الكَلِماتِ المُلوَّنةَ من الأسماءِ الخمسةِ:",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " <span>ذوو</span> العِلمِ مُكرَمون.",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "indexShow": true,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مضافةٌ لياءِ المتكلِّمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بها حرفُ الميمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ليسَتْ مضافةً.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جمعٌ وليسَتْ مفردًا.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " فازَ  <span>أخي</span> بالمُسابَقةِ.",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "indexShow": true,
+
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مضافةٌ لياءِ المتكلِّمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بها حرفُ الميمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ليسَتْ مضافةً.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جمعٌ وليسَتْ مفردًا.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": " رسَمْتُ <span>فَمَ</span> القطَّةِ.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "indexShow": true,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مضافةٌ لياءِ المتكلِّمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بها حرفُ الميمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ليسَتْ مضافةً.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جمعٌ وليسَتْ مفردًا.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "popup": "",
+            "paragraph": "<span>الحمُ</span> هو  والدُ الزوجِ أو الزوجةِ.",
+            "correctAnswer": [3],
+            "indexShow": true,
+
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مضافةٌ لياءِ المتكلِّمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بها حرفُ الميمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ليسَتْ مضافةً.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جمعٌ وليسَتْ مفردًا.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

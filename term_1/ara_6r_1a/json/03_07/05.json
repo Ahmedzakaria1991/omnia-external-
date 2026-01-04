@@ -1,0 +1,1238 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "الأُمَّةُ العربيَّةُ أُمَّةٌ عرِيقةٌ أقامَتْ حضارةً عظيمةً تَعْيَا الأُمَمُ أنْ تُقِيمَ مِثْلَها، فهي حضارةٌ ذاتُ طابعٍ مُميَّزٍ في عُمرانِها؛ للعَرَبِ إنجازاتٌ يصعُبُ حُسبانُها في مُختلِفِ العُلُومِ والفُنُونِ، وقد انتفَعَ الناسُ بهذه الإنجازاتِ في شتَّى أقطارِ الدُّنْيا. وإذا كانَتِ الحَضاراتُ مَقِيسةً بالأخلاقِ ونَفْعِ الإنسانِ فإنَّ أهمَّ ما يُميِّزُ الحَضارةَ العربيةَ اتِّصافُها بالأخلاقِ؛ فقد حافَظَ العَرَبُ في أثناءِ فُتُوحِهم على الإنسانِ والحيوانِ والنباتِ وحتى الجَماد، فيا أبناءَ العَرَبِ كُونوا أصحابَ هِمَّةٍ عاليةٍ تلِيقُ بأمجادِ أُمَّتِكم."
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادِفُ (حُسبانها): ......",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "إضافَتُها ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "عَدُّها",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "حِسابها",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الثانية والثالثة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُضادُّ (تَعْيا): ......... ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعرِف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تقدِر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " تقدِّم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " تسعَى",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "جَمْعُ (أُمَّة): ............. ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أئمَّة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أُمَّهات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أُمَم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " إِماء",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "جِذْرُ (أَقْطار ): ....... ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "طرق ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "رقط",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "قطر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " قرأ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "هِمَــمُ الرِّجَالِ مَقِيسَةٌ بِزَمَانِهَا  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; وَسَعَادَةُ الْأَوْطَانِ فِــي عُمْرَانِهَـا",
+          "وَأَسَاسُ عُمْرَانِ الْبِلَادِ تَعَـاوُنٌ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  مُتَوَاصِلُ الْأَسْبَابِ مِنْ سُكَّانِهَا ",
+          "وَتَعَاوُنُ الْأَقْوَامِ لَيْسَ بِحَاصِـلٍ  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; إِلَّا بِنَشْرِ الْعِلْمِ فِــي أَوْطَانِهَــا"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " يرَى الشاعِرُ أنَّ نعيمَ البلادِ يكمُنُ في .....................",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "عُمرانِها ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "موارِدها",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مَوقِعها",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "اتِّصالاتِها",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " في الأبياتِ السابقةِ، أساسُ العُمرانِ .................",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الزِّراعةُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الصِّناعةُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " المالُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " التعاوُنُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " في قولِ الشاعرِ: «وَسَعَادَةُ الْأَوْطَانِ فِي عُمْرَانِهَا» ....................... ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تعبيرٌ حقيقيٌّ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تعبيرٌ مجازيٌّ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "وَالْعُرْبُ أَكْبـــَرُ أُمَّةٍ مَشْهُـــورَةٍ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; بِفُتُوحِهَــا وَعُلُومِهَـــا وَبَيَانِهَـــا",
+          "كَــمْ قَدْ أَقَامَتْ لِلْعُلُومِ مَدَارِسًا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; يَعْيَا ذَوُو الْإِحْصَـاءِ عَنْ حُسْبَانِهَا",
+          "وَبَنَـــتْ بِأَقْطَارِ الْبِــــلَادِ مَصَانِعًا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; تَتَحَيَّرُ الْأَفْكَارُ فِـــي بُنْيَانِهَــا"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُرادِفُ (تتحيَّر ):  ..........",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تندهِش ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تتردَّد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تتساءَل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الأولى والثانية",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُضادُّ (يَعْيا):  ............",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "يُعالِج",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "يُشفَى",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " يصِحُّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " يقدِر",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُفرَدُ (أَقْطار ):   ................ ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "قِطار",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "قُطْر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "قاطِرةٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "قَطْرة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "هُنَــا فِــي مِصْــرَ عُمْــرَانٌ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;كَشَمْسٍ نُورُهَــا سَطَعَـــــا",
+          "فَأَجْــدَادِي هُنَـــــا زَرَعُــــوا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; وَشَــادُوا الْمَجْـــدَ مُرْتَفِعَــا",
+          "وَنَحْــــنُ بِدَوْرِنَـــا نَسْعَـــى &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; وَلَسْنَــــا نَعْـــرِفُ الْجَزَعَــــا",
+          "وَلَــــنْ تَـعْيَــــــا إِرَادَتُـنَــــــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;إِذَا مَـــا غَــيْرُنَــــــــا خَضَـعَــا"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادِفُ (تَعْيا): ..................",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تتحوَّل ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تعجِز",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تتردَّد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تختَفِي",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "جِذْرُ (مُرتِفعا): ...................",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "فرع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "رفف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " رفع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " فرر",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  جَمْعُ (المَجْد): .............",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الأَماجِد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الأَمْجاد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الجوامِد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "المُجِدُّون",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "حَيُّــوا الشَّبَـــابَ وَعَزْمَهُـمْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;عُمْرَانُهُـمْ فِــــي كُـــــلِّ وادْ",
+          "وَهُــمُ السَّبِيــــلُ لِنَهْضَــةٍ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;تَسْــرِي بِأَقْطَــــارِ الْبِـــــــلَادْ",
+          "عَـرَقُ الشَّبَــابِ بِسَعْيِهِـــمْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;هُـوَ خَيْـرُ أَنْـوَاعِ الْمِـــدَادْ",
+          "سـَـيُسَــطِّرُونَ بِــــهِ الْعُــــــلَا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;وَيُضَاعِفُونَ بِـــهِ الْحَصَــادْ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادِفُ (أَقْطار): ..................",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أخلاق ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ميادين",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "صِنَاعات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أسالِيب",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُضادُّ (عُمْرانهم): ...................",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ضَعْفهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تأخُّرهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " خَرابهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " فُتُورهم",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  جَمْعُ (وادٍ): .............",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أدْويةٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أودِيةٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "وُديانٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الثانية والثالثة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "أَرْضُ الْعُرُوبَـــــــةِ مَوْطِـــــنٌ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لِحَضَــــــارَةٍ لَا تُنْكَـــــــــــــــرُ",
+          "كَمْ عَالِــمٍ كَالنَّجْــمِ فِـي&nbsp;&nbsp;&nbsp;&nbsp;جَـــــــوْفِ الظَّــــــــلَامِ مُنَوَّرُ",
+          "يَعْيَا ذَوُو الْإِحْصَاءِ عَـــنْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;حُسْبَانِ مَا قَـدْ سَطَّـــــرُوا",
+          "نَشَـرُوا الْمَعَارِفَ فِـي الدُّنَـــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بِــــهِمُ الْعُـــــرُوبَـةُ تَفْـــــخَرُ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " وصَفَ الشاعرُ أرضَ العُروبةِ بأنَّها مَوْطِنُ ....................",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الرِّسالاتِ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الثَّروةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الحَضارةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الفَصاحةِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " نشَرَ عُلماءُ العَرَبِ المَعارِفَ في ..........",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مُدُنِهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بُلدانِهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " أَقْطارِهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الدُّنْيا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " «كَمْ عَالِمٍ كَالنَّجْمِ». في العِبارةِ ........................",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ترادفٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تضادٌّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تشبيهٌ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "أَرْضُ الْعُرُوبَـــــــةِ مَوْطِـــــنٌ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;لِحَضَــــــارَةٍ لَا تُنْكَـــــــــــــــرُ",
+          "كَمْ عَالِــمٍ كَالنَّجْــمِ فِـي&nbsp;&nbsp;&nbsp;&nbsp;جَـــــــوْفِ الظَّــــــــلَامِ مُنَوَّرُ",
+          "يَعْيَا ذَوُو الْإِحْصَاءِ عَـــنْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;حُسْبَانِ مَا قَـدْ سَطَّـــــرُوا",
+          "نَشَـرُوا الْمَعَارِفَ فِـي الدُّنَـــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بِــــهِمُ الْعُـــــرُوبَـةُ تَفْـــــخَرُ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " وصَفَ الشاعرُ أرضَ العُروبةِ بأنَّها مَوْطِنُ ....................",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الرِّسالاتِ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الثَّروةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الحَضارةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الفَصاحةِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " نشَرَ عُلماءُ العَرَبِ المَعارِفَ في ..........",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مُدُنِهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بُلدانِهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " أَقْطارِهم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الدُّنْيا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " «كَمْ عَالِمٍ كَالنَّجْمِ». في العِبارةِ ........................",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ترادفٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تضادٌّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تشبيهٌ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "لَنَــــا مَـــــاضٍ يُشَرِّفُنَــــــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;مِــــنَ الْآثَـــارِ وَالْعُمْــــرَانْ",
+          "وَأُمَّتُنَـــــــــــــا تُنَادِينَـــــــــــا&nbsp;&nbsp;&nbsp;&nbsp;يَظَـلُّ الْمَجْـــدُ بِالْإِمْكَــــانْ",
+          "فَفِيـكَ الْخَيْـرُ يَـا وَطَنِـي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;يَفِيــضُ بِنَهْـــرِكَ الرَّيَّــــانْ",
+          "وَفِيــــكَ شَبَابُنَـــــا كَنْــــــزٌ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;يَفُـــوقُ الــــدُّرَّ وَالْمَرْجَـــانْ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " يفخَرُ الشاعرُ في البيتِ الأوَّلِ بـ .....................",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الماضِي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "القُوَّة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "العُمران",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الأولى والثالثة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  «وَأُمَّتُنَا تُنَادِينَا» تعبيرٌ  .........................  ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "حقيقيٌّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مجازيٌّ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "لَنَــــا مَـــــاضٍ يُشَرِّفُنَــــــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;مِــــنَ الْآثَـــارِ وَالْعُمْــــرَانْ",
+          "وَأُمَّتُنَـــــــــــــا تُنَادِينَـــــــــــا&nbsp;&nbsp;&nbsp;&nbsp;يَظَـلُّ الْمَجْـــدُ بِالْإِمْكَــــانْ",
+          "فَفِيـكَ الْخَيْـرُ يَـا وَطَنِـي&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;يَفِيــضُ بِنَهْـــرِكَ الرَّيَّــــانْ",
+          "وَفِيــــكَ شَبَابُنَـــــا كَنْــــــزٌ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;يَفُـــوقُ الــــدُّرَّ وَالْمَرْجَـــانْ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " يفخَرُ الشاعرُ في البيتِ الأوَّلِ بـ .....................",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الماضِي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "القُوَّة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "العُمران",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الأولى والثالثة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  «وَأُمَّتُنَا تُنَادِينَا» تعبيرٌ  .........................  ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "حقيقيٌّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مجازيٌّ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "هِمَمُ الشَّبَابِ مَقِيسَةٌ بِنَضَالِ&nbsp;&nbsp;&nbsp;&nbsp;وَالصِّدْقِ فِي الْأَفْعَالِ وَالْأَقْوَالِ",
+          "وَأُمَّتُنَـــــــــــــا تُنَادِينَـــــــــــا&nbsp;&nbsp;&nbsp;&nbsp;يَظَـلُّ الْمَجْـــدُ بِالْإِمْكَــــانْ",
+          "وَالسَّعْيِ فِي نَيْلِ الشَّرِيفِ الْغَالِي&nbsp;&nbsp;&nbsp;&nbsp;وَالصَّبْرِ فِي بَأْسٍ عَلَى الْأَهْوَالِ",
+          "يَحْيَا الشَّبَابُ وَلَيْسَ يُعْيِي عَزْمَهُمْ&nbsp;&nbsp;&nbsp;&nbsp;عَقَبَاتُ دَهْــرٍ أَوْ لِقَاءُ مُحَـــــالِ",
+          "وَلَــــهُـــمْ بِأَقْطَــــــارِ الْبِــــــلَادِ إِرَادَةٌ&nbsp;&nbsp;&nbsp;&nbsp;كَـالصُّـلْبِ كَـانَتْ مَضْـرِبَ الْأَمْثَـالِ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مَعْنَى (مَقِيسة): تَمَّ ......",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "رَفْعُها ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تَقويتُها",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "دَفْعُها",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "قِياسُها",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُضادُّ (مُحال): .............",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "جَدِيد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مُمْكِن",
+                "right": false,
+                "checked": false
+              }, {
+                "numAnswer": 3,
+                "toChoose": "مُخْتلِف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جَيِّد",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُفرَدُ (هِمَم): .................",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+               {
+                "numAnswer": 1,
+                "toChoose": "مُهِمَّة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "هِمَّة",
+                "right": false,
+                "checked": false
+              }, {
+                "numAnswer": 3,
+                "toChoose": "هَامّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "هَمّ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " جذْرُ (عَقَبات): ................",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+                {
+                "numAnswer": 1,
+                "toChoose": "عقب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بقع",
+                "right": false,
+                "checked": false
+              }, {
+                "numAnswer": 3,
+                "toChoose": "عقق",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "قبع",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

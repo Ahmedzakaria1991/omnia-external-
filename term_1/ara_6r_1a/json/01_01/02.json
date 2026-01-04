@@ -1,0 +1,228 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرِ النَّصائحِ التي تُساعِدُ على تَحقِيقِ الأَهْداف",
+            "correctAnswer": [1, 2, 4, 5, 6],
+            "answerSelect": false,
+            "counter": 0,
+            "hideParagraph": true,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الاجْتِهادُ والسَّعْيُ المُستمِرُّ لتَحقِيقِ النَّجاحِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " اسْتِغلالُ وتَنظِيمُ الوَقتِ بالشَّكلِ الأَمثلِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "العَملُ بِدُونِ خُطَّةٍ يُساعِدُ على إنْجازِ المَهامِّ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "التَّفكيرُ دائمًا بطَريقةٍ إِيجابيَّةٍ لِتَصِلَ إلى هَدفِكِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "الإصْرارُ والاسْتِفادةُ من التَّجاربِ السَّابقةِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "تقبُّلُ نَصائحِ الأَشخاصِ الأَكثرِ خِبرةً.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "audio_in_page": "../audio/02.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "وُلِدَ (غانم المفتاح) في .........",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مِصْرَ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الكُويْتِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "قَطَرَ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "السُّعُودِيَّةِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "مِن الرِّياضاتِ التي مارَسَها (غانم المفتاح) ............",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "كُرةُ القَدمِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الجَرْيُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الرِّمايةُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الغَوْصُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "audio_in_page": "../audio/01.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "طَريقُ النَّجاح ............",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+              "hideParagraph": true
+,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مَجهولٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "صَعْبٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مُستحيلٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "سَهْلٌ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

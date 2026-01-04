@@ -1,0 +1,379 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اخترِ الإجابةَ الصحيحةَ ",
+            "popuptext": [
+                "بدَأَ يوسُفُ العملَ على مشروعٍ مدرسيٍّ كبيرٍ؛ كان يُخصِّصُ وقتًا كُلَّ يومٍ لإنجازِ جُزءٍ من المشروعِ؛ فقد كان يعرِفُ أن التشتُّتَ والتأجيلَ من لُصوصِ الوقتِ، وأنه ينبَغِي أن يُوزِّعَ مهامَّه وأن يُنظِّمَ يومَه بشكلٍ جيِّدٍ؛ ليتمكَّنَ من التسليمِ في الموعِدِ المُحدَّدِ؛ حتى لا تتراكَمَ عليه المهامُّ أو تُضافَ إلى مهامِّه مهامُّ أُخرَى، وعندما أنْهَى المشروعَ ذهَبَ إلى المدرسةِ، وقدَّمَ المشروعَ لمُعلِّمِه سريعًا، وهو يشعُرُ بالفخرِ؛ لأنه أنجَزَه في الوقتِ المُحدَّدِ. "
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "مُرادِفُ (تُضاف): ..........",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "تكْبُر",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "تُزاد",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "تنتَشِر",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "تُعَد",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "مُضادُّ (التأْجِيل): ........... ",
+                    "correctAnswer": [3],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "التَّفْصيل",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "التَّقْريب",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "التَّعْجيل",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "التَّعْطيل",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "مُفرَدُ (أولوِيَّات): .........",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "وِلَاية",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "أولوِيَّة",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "أَوْلَى",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "لِواء",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "popup": "",
+                    "paragraph": "جِـــذْرُ  (إنْجـــاز): ..............",
+                    "correctAnswer": [1],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "نجز",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "جزز",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "جرز",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "أجز",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ ",
+            "popuptext": [
+                "دَعُونِـي أُفَسِّرْ  لَكُـم: فِي كُـلِّ يَـوْمٍ لَدَيْـكَ 86,400 (سِتَّةٌ وَثَمَانُـونَ أَلْفًا وَأَرْبَعُمِائَـةِ) ثَانِيَـةٍ تُضَافُ إِلَى (حِسَابِ وَقْتِكَ)، وَعَلَيْكَ إِنْفَاقُهَا بِحِكْمَةٍ، مَا لَا تَسْتَخْدِمُهُ مِنْهَا يَخْتَفِي إِلَى الْأَبَدِ، وَلَا يُمْكِنُ اسْتِرْجَاعُهُ، الْفَارِقُ هُـوَ أَنَّ الْمَـالَ يُمْكِنُ أَنْ يعُودَ، أَمَّا الوَقْـتُ فَلَا يَعُـودُ، وَقَدِيمًا قَالُوا: «الْوَقْـتُ مِنْ ذَهَـب، إِنْ لَمْ تُدْرِكْهُ ذَهَب».",
+                "نَحْنُ جَمِيعًا نَعِيشُ فِي سِبَاقٍ مَعَ الزَّمَنِ، والْأَذْكِيَاءُ فَقَطْ هُمُ الَّذِينَ يَفُوزُونَ فِيهِ.كَيْفَ يَكُونُ ذَلِكَ؟ عَنْ طَرِيقِ تَخْطِيطِ يَوْمِهِمْ، كَمَا لَوْ كَانُوا يُدِيرُونَ كَنْزًا لَا يُقَدَّرُ  بِثَمَنٍ."
+            ],
+            "quizChooses": [
+
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "مُرادِفُ(أُفسِّر ): ..........",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "أكتُب",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "أُوضِّح",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "أُشِير",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "أُعْلِن",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": " مُضادُّ (إِنْفَاقها): ........",
+                    "correctAnswer": [3],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "سَحْبها",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "إِضَاعتها",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "ادِّخارها",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "نَقْلها",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ ",
+            "popuptext": [
+                "وَعَلَيْنَا أَيْضًا أَنْ نُوَاجِهَ لِصَّ الْوَقْتِ وَأَخْطَرَ  أَعْدَائِهِ وَهُوَ التَّأْجِيلُ وَالتَّشَتُّتُ؛ التَّأْجِيلُ يَجْعَلُنَا نُؤَخِّرُ الْعَمَلَ حَتَّى يَضِيعَ الْوَقْتُ، وَالْمَثَلُ الْعَرَبِيُّ يَقُولُ: «لَا تُؤَجِّلْ عَمَلَ الْيَوْمِ إِلَى الْغَدِ»، وَالتَّشَتُّتُ يَجْعَلُنَا نَفْقِدُ التَّرْكِيزَ وَالْإِنْجَازَ.إِنَّ كُلَّ ثَانِيَةٍ هِيَ فُرْصَةٌ: فُرْصَةٌ لِتَتَعَلَّمَ، لِتَبْتَسِمَ، لِتَقْتَرِبَ مِنْ أَحْلَامِكَ، لَا تَتْرُكْهَا تَضِيعُ فِي أُمُورٍ لَا تُفِيدُ، احْرِصْ عَلَى أَنْ تَتَحَدَّى نَفْسَكَ؛ لِتَجْعَلَ مِنْ كُلِّ يَوْمٍ إِنْجَازًا جَدِيدًا."
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": " لِصُّ الوقتِ وأخطرُ  أعدائه .......................",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "العمَلُ والتشتُّتُ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "التأجيلُ والتشتُّتُ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "التأجيلُ والإنجازُ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "التأجيلُ والتعلُّم",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "الوقتُ بالنسبةِ للناجحِينَ فُرصةٌ لـ .....................",
+                    "correctAnswer": [4],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "التعلُّمِ",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "السعادةِ",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "تحقيقِ الأحلامِ",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": " جميع ما سبَق",
+                        "audio": "../../../assets/audio/celebration.mp3",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+            "active": true,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+                "الوقْتُ أغلى ما يملِكُه الإنسانُ؛ لأنه الشيءُ الوحيدُ الذي لا يُمكِنُ تعويضُه؛ فهو ليس كالأثاثِ الذي نُجدِّدُه بين حين وآخَرَ، وليس كالمالِ الذي يُمكِنُ إنفاقُه وإيداعُه متى نشاءُ، ولكِنَّه معدودٌ علينا بالثواني والدقائقِ، وكما يُقال: «من أهمَلَ وقتَهُ أهمَلَ حياتَهُ». فكُلُّ ثانيةٍ تمُرُّ علينا تحمِلُ معها فُرصةً جديدةً للنجاحِ؛ ولذلك فإدراكُ قيمةِ الوقتِ خُطوةٌ مُهمَّةٌ نحو النجاحِ والتميُّزِ، كما أنَّ التَّوازُنَ بينَ الدِّراسةِ والعملِ ومُمارسةِ الهواياتِ المُحبَّبةِ يجعَلُ الإنسانَ نشيطًا وسعيدًا."
+            ],
+            "poem" : false,
+            
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": " الوقتُ الذي يَضِيعُ يُمكِنُ أن نُعوِّضَه. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": " التوازنُ بين الدراسةِ ومُمارسةِ الهواياتِ يجعَلُ الإنسانَ سعيدًا. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        }
+    ]
+}]

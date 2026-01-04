@@ -1,0 +1,195 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+                "active": true,
+                "title": "ضَعْ عَلامَةَ (✔) أو عَلامَةَ (✘)",
+                "popuptext": [
+                ],
+
+                "audio_in_page": "../audio/03.mp3",
+                "quizChooses": [
+                    {
+                            "id": 1,
+                            "paragraph": "كانَ هَدفُ مَازِن أن يُصبِحَ رسَّامًا مَشهُورًا.",
+                            "show": false,
+                            "chooseUrl": "",
+                            "result": false,
+                            "close": false,
+                            "type": 1,
+                            "text": false,
+                            "answers": [{
+                                    "url": [
+                                        "choose-r",
+                                        "true1",
+                                        "true2"
+                                    ],
+                                    "answerSelect": false,
+                                    "cheched": false
+                                },
+                                {
+                                    "url": [
+                                        "choose-l",
+                                        "false1",
+                                        "false2"
+                                    ],
+                                    "answerSelect": true,
+                                    "cheched": false
+                                }
+                            ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "كانَ مازنٌ يهتَمُّ بجَودةِ القِصَصِ التي يَكتُبُها.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+
+                "popupQuestion": []
+        },
+        {
+                "active": false,
+                "title": "ضَعْ عَلامَةَ (✔) أو وَعَلامَةَ (✘)",
+                "popuptext": [
+                ],
+
+                "audio_in_page": "../audio/04.mp3",
+                "quizChooses": [
+                    {
+                            "id": 1,
+                            "paragraph": "يُساعِدُ التَّقيِيمُ الذَّاتِيُّ على عِلاجِ الأَخطاءِ وتَصْحِيحِها.",
+                            "show": false,
+                            "chooseUrl": "",
+                            "result": false,
+                            "close": false,
+                            "type": 1,
+                            "text": false,
+                            "answers": [{
+                                    "url": [
+                                        "choose-r",
+                                        "true1",
+                                        "true2"
+                                    ],
+                                    "answerSelect": true,
+                                    "cheched": false
+                                },
+                                {
+                                    "url": [
+                                        "choose-l",
+                                        "false1",
+                                        "false2"
+                                    ],
+                                    "answerSelect": false,
+                                    "cheched": false
+                                }
+                            ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "التَّقْيِيمُ الذَّاتِيُّ يُساعِدُ الإنسانَ على مَعرِفةِ نِقاطِ ضَعفِ الآخَرِين.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph": "التَّقْيِيمُ الذَّاتِيُّ يجعلُ الإنسانَ على مَعرِفةٍ بإمكاناتِه وقُدراتِه.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+
+                "popupQuestion": []
+        }
+    ]
+}]

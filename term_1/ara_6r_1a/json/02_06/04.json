@@ -1,0 +1,511 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            "لا تدَعِ العقباتِ تمنَعُك من تحقيقِ غاياتِك؛ فالحياةُ مليئةٌ بالتحدِّياتِ التي تحتاجُ إلى صبْرٍ وعزيمةٍ. اجتهِدْ في عملِك ولا تُؤجِّلْه؛ حتى لا تتراكمَ عليك المهامُّ بشكْلٍ يُعطِّلُ مسيرتَك؛ فالعملُ الجادُّ والإصرارُ  على النجاحِ هو ما يمنَحُ الإنسانَ قُوَّةً للاستمرارِ."
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادِفُ (غَايَاتك): ..............",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خُطواتك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "اتِّجاهاتك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أهْدَافك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "مُحاوَلاتك",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (تُؤجِّله): ..................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "تنتَظِره",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تُؤخِّره",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "تُعجِّله",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تُهمِله",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "مُفرَدُ (المَهامّ):  ....................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "المَهمُوم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "المُهمَّة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الهامَّة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الاهْتِمام",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            "<span class='green'>هل أنتَ قادِرٌ على تحقيقِ النجاحِ؟</span> لا تُفكِّرْ كثيرًا، كُلُّ إنسانٍ لديه مُقوِّماتُ النجاحِ، ولكِنَّ القليلَ منَّا يراها ويُحسِنُ استخدامَها، انظُرْ جيِّدًا في داخلِك، و ستُبصِرُ  مُقوِّماتِ النجاحِ،  <span class='red'> وستتأَكَّدُ أنك قادِرٌ على تحقيقِ النجاحِ</span>."
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": " العبارةُ المُلوَّنةُ بالأخضر مهَّدَ بها الكاتِبُ للموضوعِ؛ لذا   فهي ......",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُقدِّمةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خاتِمةٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": " العبارةُ المُلوَّنَةُ بالاحمر ختَمَ بها الكاتِبُ الفِقْرةَ؛ لذا فهي...... ",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُقدِّمةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خاتِمةٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                    "• افْعَلْ مَا تَقُولُ، إِذَا وَعَدْتَ بِشَيْءٍ فَالْتَزِمْ بِهِ؛ فَاحْتِرَامُ وُعُودِكَ يَجْعَلُكَ شَخْصًا مَوْثُوقًا بِهِ، فَابْذُلْ أَقْصَى جُهْدِكَ لِتَنْفِيذِ وَعْدِكَ، وَلَا تَعِدْ إِلَّا بِمَا تَقْدِرُ عَلَيْهِ.",
+                    "•  لَا تَنْتَظِرِ التَّذْكِيرَ، قُمْ بِوَاجِبَاتِكَ بِنَفْسِكَ، سَوَاءٌ فِي الْمَدْرَسَةِ أَمْ فِي الْمَنْزِلِ أَمْ فِي النَّادِي، اهْتِمَامُكَ بِوَاجِبَاتِكَ يَجْعَلُ عَقْلَكَ يَقُومُ بِدَوْرِ الْمُنَبِّهِ، فَيُذَكِّرُكَ بِمَهَامِّكَ وَوَاجِبَاتِكَ، فَإِذَا خِفْتَ مِنَ النِّسْيَانِ فَدَوِّنْ وَاجِبَاتِكَ فِي جَدْوَلِ أَعْمَالِكَ الْيَوْمِيَّةِ؛ فَاعْتِمَادُكَ عَلَى نَفْسِكَ فِي تَذَكُّرِ الْوَاجِبَاتِ يَعْكِسُ شَخْصِيَّتَكَ الْقَوِيَّةَ."    
+                        ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": " عدَمُ الوفاءِ بالوعْدِ يُؤدِّي إلى .............. الثِّقةِ بين الناسِ.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "زيادةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "فِقْدانِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "تقويةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "دعْمِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "الاهتِمامُ بالواجباتِ يجعَلُ العقلَ يقومُ بدَوْرِ .................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الحاسبةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "المُنبِّهِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الساعةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "المُعلِّمِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "تدوينُ المهامِّ  في جدولٍ يُساعِدُ على .................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "نِسيانِها",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تذكُّرِها",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "تأخيرِها",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "إلغائِها",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "«هَلْ عَلِمْتَ الْآنَ لِمَاذَا الْمَسْئُولِيَّةُ مُهِمَّةٌ؟",
+                "لِأَنَّ الْمَسْئُولِيَّةَ تَجْعَلُ مِنْكَ شَخْصًا يُعْتَمَدُ عَلَيْهِ، وَتَمْنَحُكَ احْتِرَامَ الْآخَرِينَ، وَتَبُثُّ الثِّقَةَ بِكَ فِي نُفُوسِ مَنْ تَتَعَامَلُ مَعَهُمْ، وَتُسَاعِدُكَ عَلَى تَحْقِيقِ غَايَاتِكَ، وَحِينَ تَكُونُ مَسْئُولًا، فَإِنَّكَ تُصْبِحُ قَائِدًا لِحَيَاتِكَ، وَتُصْبِحُ أَكْثَرَ قُدْرَةً عَلَى مُوَاجَهَةِ التَّحِدِّيَاتِ وَتَحْقِيقِ النَّجَاحِ. فَكُنْ مَسْئُولًا تَكُنْ نَاجِحًا»."
+                ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادفُ (غَايَاتك): .................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "عُيُوبك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أخْطَائك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أهْدَافك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "صِفَاتك",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (قُدرة): .............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَوْف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "عَجْز",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "جُبْن",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "كَسَل",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "أخطَأ خالدٌ في الإجابةِ عن سؤالِ المُعلِّمِ، فبدَأَ بعضُ التلاميذِ يضحَكُونَ. كاد أميرٌ  يضحَكُ معهم، لكِنَّه توقَّفَ للحظةٍ، وتذكَّر أنه يجِبُ أن يختارَ  كلماتِه وأفعالَه بعنايةٍ حتى لا يُؤذِيَ أحدًا. ثُمَّ توجَّهَ إلى خالِدٍ قائلًا: «لا داعِيَ للقَلقِ يا صَدِيقي؛ فكُلُّنا نُخطِئُ ونتعَلَّمُ». عندها توقَّفَ الجميعُ عن الضَّحِكِ، وابتسَمَ خالدٌ وهو يشعُرُ بالرَّاحةِ بعد أن كان يشعُرُ بالإحراجِ والخجلِ. شكَرَ  خالدٌ أميرًا على حُسنِ تصرُّفِه، بينما شعَرَ أميرٌ  بالسَّعادةِ؛ لأنه اتخَذَ القرارَ الصحيحَ. لقد أدرَكَ أن الكلِمةَ الطيِّبةَ يُمكِنُ أن تبُثَّ الثِّقةَ في قُلوبِ الآخَرينَ، وبها نبْنِي جُسورًا من الاحترامِ والتفاهُمِ بين الجميعِ."
+                ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": " مُرادِفُ (تَبُث): ......",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "تخْدِم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تبْدَأ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "ترْفَع",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تنْشُر",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": " مُضادُّ (عناية): .........",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "خَوْف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "إِهْمال",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "شِدَّة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "قَلَق",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

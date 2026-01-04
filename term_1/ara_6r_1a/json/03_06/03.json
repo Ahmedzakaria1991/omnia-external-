@@ -1,0 +1,46 @@
+[{
+    "nameId": "",
+     "subject": "arabic-6",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+    "title":"صِلِ العِباراتِ بالإِعْرابِ الصَّحيحِ للضَّمِيرِ العَائِدِ   ", 
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "first":"أ",
+    "second":"ب",
+
+    "matches": [
+        {
+            "point": 1,
+            "textRight": " إنَّ مِصرَ خيراتُها كثيرةٌ.   ",
+            "textLeft": "مُضافٌ إليه",
+            "answer": false
+        },
+        {
+            "point": 2,
+            "textRight": " ليتَ أيَّامَ الطُّفولةِ تعُودُ.",
+            "textLeft": "ضميرٌ مُستتِرٌ فاعلٌ ",
+            "answer": false
+        },
+        {
+            "point":3,
+            "textRight": "لعلَّ الفتاتينِ هما الفائزتانِ.",
+            "textLeft": "مُبتدَأٌ ثانٍ",
+            "answer": false
+        },
+        {
+            "point":4,
+            "textRight": " أدرَكْتُ أنَّ ذا العِلمِ يُحِبُّه الناسُ.",
+            "textLeft":"مفعولٌ به",
+            "answer": false
+        }
+
+    ]
+}]

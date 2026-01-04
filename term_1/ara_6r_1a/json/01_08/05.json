@@ -1,0 +1,251 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+            "active": true,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+            ],
+            "poem" : true,
+            "title_p1":"",
+            "right_p1": [
+            "وَلِي وَطَــنٌ مـِدَادُ النُّورِ  مِــنْهُ ",
+            "يَضُــمُّ قُلُوبَنَا كَـالْأُمِّ ضَـــمًّـــا",
+            "وَلَا يَخْشَى مِنَ الأَعْـــدَاءِ يَوْمًا ",
+            "لَـــهُ أَرْضٌ سَنَرْعَاهَـــا بِعَـــزْمٍ"
+            ],
+            "left_p1": [
+            "أَضَــــاءَ بِنُورِهِ قَــلْبَ الشَّـــبَابِ",
+            "يُعِيدُ الرُّوحَ مِنْ بَعْــــدِ الْغِـيَابِ",
+            "وَإِنْ كَـــانَ الْأَعَادِي كَـــالــذِّئَابِ",
+            "وَنُعْلِي مَــجْدَهُ فَـوْقَ السَّحَابِ"
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": " الوَطَنُ يَمْلأُ قَلْبَ الشبابِ بالنورِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": " الشاعرُ يفتخِرُ بوَطَنِه الذي لا يخافُ الأعداءَ مَهْمَا بلَغَ مَكْرُهم.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "paragraph": "«ونُعْلِي مَجْدَه فَوْقَ السَّحَابِ» تعبيرٌ  يُوحِي بالضعفِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+            ],
+            "poem" : true,
+            "title_p1":"",
+            "right_p1": [
+            "يَا مِصْرُ شَبَـــابُــكِ فِــي عَـــيْنِي ",
+            "يَبْغُــونَ الْخَــــــيْرَ لَنَـــا سُبُـــلًا ",
+            "بِتَآلُفِهِــمْ صَــنَــعُــــوا مَجْــــدًا ",
+            "يَــا مِصْـــرُ شَبَابُـــكِ مُجْــــتَهِدٌ "
+            ],
+            "left_p1": [
+            "كَأُسُودٍ يَحْمُــــونَ الْـــوَادِي",
+            "لِيَكُونُــــــــوا خَيْـــرَ الْأَوْلَادِ",
+            "كَيْ تَبْــقَى مِصْـرُ الْأَمْجَـــادِ",
+            "اخْتَارَوا الْمَجْـــــدَ كأَجْدَادِي"
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": " يصِفُ الشاعرُ شبابَ مِصْرَ بالقُوَّةِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": " الشَّبابُ مَشغُولٌ عن حِمايَةِ وَطَنِه.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "paragraph": " الاجتهادُ من أسبابِ تحقيقِ المَجْدِ للوَطَنِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        }
+        
+    ]
+}]

@@ -1,0 +1,604 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "كان للعلماءِ العرَبِ دورٌ  جليلٌ في تطوُّرِ العُلومِ؛ فقد ازدَهَرت الاكتشافاتُ بفَضلِ تجارِبِهِم وأبحاثِهم، مثلُ: دراسةِ خصائصِ الضَّوءِ، وتأسيسِ عِلمِ الجَبرِ، واكتشافِ الدَّورةِ الدَّمويَّةِ الصُّغرى، واستمرَّتْ هذه الإنجازاتُ لعِدَّةِ قُرونٍ، تعلَّمَتْ منها الأُمَمُ الأُخرَى؛ حيث افتتَحَ العُلماءُ العرَبُ مسارَ  التقدُّمِ العِلميِّ بفَضلِ حُبِّ الاستطلاعِ والعَمَلِ الجادِّ المُستمِرِّ. "
+        ],
+        "qtitle": "اقْرَأ الفِقرةَ التاليَةَ، ثُمَّ أجِبْ",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُرادِفُ (ازدَهَرَت): .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " استمَرَّت",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تطوَّرت",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "اكتَمَلَتْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "بدَأَتْ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "جمعُ (مَسار): .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " مَسِيرات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مَسارَات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مَسَرَّات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أَسْوار",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُفرَدُ (خَصائِص):  .....",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " مُختَصّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "خاصِيَّة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "خَصيصَة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "خاصّ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "جِذْرُ (استِطْلَاع): .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " طوع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "طلع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "سطع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "سلع",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " الاختراعاتِ التي نشأَتْ عن اختراعِ العدَساتِ وفِكرةِ ابنِ الهَيثَم:",
+            "correctAnswer": [2, 4, 5, 6, 7],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "images": true,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " استمَرَّت",
+                "image": "../images/01.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تطوَّرت",
+                "image": "../images/02.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "اكتَمَلَتْ",
+                "image": "../images/03.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "بدَأَتْ",
+                "image": "../images/04.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "بدَأَتْ",
+                "image": "../images/05.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "بدَأَتْ",
+                "image": "../images/06.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 7,
+                "toChoose": "بدَأَتْ",
+                "image": "../images/07.png",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 8,
+                "toChoose": "بدَأَتْ",
+                "image": "../images/08.png",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "وُلِد الحسَنُ بنُ الهيثَمِ في البَصرةِ، وانتقَلَ إلى القاهرةِ في عصرٍ  ازدهرَتْ فيهِ العُلومُ والاكتشافاتُ، وكان من أكثَرِ العُلماءِ اهتمامًا بدراسةِ خصائصِ الضَّوءِ، وفي أثناءِ إحدى تجارِبِهِ لاحَظَ شيئًا مُذهِلًا، وهو أنَّ الضَّوْءَ الذي يدخُلُ من فتحةٍ صغيرةٍ في غُرفةٍ مُظلِمةٍ يُمكِنُهُ أنْ يعرِضَ صُورةً مَقلوبةً لِمَا يوجَدُ خارجَ الغُرفةِ، وكان اكتشافُ طريقةِ عمَلِ الضَّوءِ في الغرفةِ المُظلِمةِ هو الأساسَ الذي انطَلَقَتْ منه فِكرةُ صناعةِ العدَساتِ التي نستخدِمُها في الكاميراتِ الحديثةِ والنَّظَّاراتِ اليَومَ."
+        ],
+        "qtitle": "اقْرَأ الفِقرةَ التاليَةَ، ثُمَّ أجِبْ",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " وُلِد ابنُ الهيثَمِ في .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " القاهِرةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "البَصرةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "بغدادَ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "القُدسِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اكتشافُ ابنِ الهيثمِ يتعلَّقُ بدراسةِ .....",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الضَّوءِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الأبنِيَةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الأجسامِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " الثانية والثالثة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "ابنُ الهَيثَمِ صاحبُ الفَضلِ في صناعةِ .....",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الحديدِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الشَّمعِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "العدساتِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "المِصباحِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          " ألَّف الحسَنُ بنُ الهيثَمِ كتابَهُ الشهيرَ كتابَ (المَناظِرِ ) الذي تناوَلَ فيه كيفيَّةَ رؤيةِ الأشياءِ، وقد ظلَّ هذا الكتابُ يُدرَّسُ في أوربا لعِدَّةِ قُرونٍ. لقد ترَكَ الحسَنُ بنُ الهَيثَمِ بَصمةً عظيمةً في تاريخِ العُلومِ، وفتَحَ البابَ أمامَ تطوُّرِ  العديدِ مِن التِّقنياتِ البَصرِيَّةِ، وتطوُّرِ علمِ البَصَرِيَّاتِ بشكلٍ عامٍّ. ومِن حقِّنا اليومَ أن نفتخِرَ  بأنَّ اختراعَ الكاميرا بدَأَ من فِكرةِ عالمٍ عربيٍّ عظيمٍ، لكِنَّ الفَخرَ وحدَهُ لا يكْفِي؛ فعلينا أن نَقتدِيَ به في حُبِّ الاستطلاعِ العِلميِّ الذي غيَّرَ مَسارَ العِلمِ والتاريخِ."
+        ],
+        "qtitle": "اقْرَأ الفِقرةَ التاليَةَ، ثُمَّ أجِبْ",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُرادِفُ (مسار): .....",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " شكْل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "طَريق",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "قِيمة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جَمال",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُضادُّ (تطوُّر):  .....",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " اخْتلِاف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "إهْدار",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "إفْساد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تأخُّر",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُفرَدُ (المَناظِرِ):  .....",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " المَنظَر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "النَّظَر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الناظِر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "المَنظُور",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "يُعدُّ العالِمُ الشهيرُ  ابنُ سينا أحَدَ أهَمِّ الأطِبَّاءِ في التاريخِ، ويُعتَبَرُ أشهَرُ أعمالِه كتابَ (القانون في الطِّبِّ) الذي ترَكَ بصمةً واضِحةً في المُمارساتِ الطِّبِّيَّةِ، وظلَّ لأكثَرَ مِن خمسةِ قُرونٍ مُتوالِيَةٍ المَرجِعَ الأساسيَّ في عِلمِ الطِّبِّ في أوربا؛ حيث كان يُدرَّس في جامعاتِ أوربا، ولم تقتَصِرْ مَجهوداتُ ابنِ سِينا على التأليفِ فقَطْ، بل كان يُعالِجُ المَرضَى في مستشفياتٍ كَبيرةٍ دونَ مُقابِلٍ، واكتشَفَ مِن خِلالِ عَمَلِهِ طُرُقًا جَديدةً للعِلاجِ، فاستحَقَّ أن يُسمِّيَهُ الغربِيُّونَ بأميرِ الأطِبَّاءِ. "
+        ],
+        "qtitle": "اقْرَأ الفِقرةَ التاليَةَ، ثُمَّ أجِبْ",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُضادُّ (الشَّهيرِ): ......",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " المَغرُورُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "المَجهولُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الصَّغيرُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الكَسولُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+              "paragraph": " المُرادُ بـ (قُرون): .....",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مِئات   السنِين",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مِئات الأعوامِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مِئات الشُّهورِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "مِئات الأسابيعِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          } 
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-6",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "استمِعْ، ثُمَّ أجِبْ",
+        "isActive": true,
+        "audio_in_page": "../audio/unit3/01.mp3",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " كيف استطاعَ العُلماءُ تحويلَ أفكارِهم إلى اختراعاتٍ؟",
+            "popup": [
+              "من خلال الإيمان بها وعدم السخرية منها، ثم العمل الجاد والتجريب العلمي من أجل تحقيقها."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "استمِعْ، ثُمَّ أجِبْ",
+        "isActive": false,
+        "audio_in_page": "../audio/unit3/02.mp3",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " ما الدَّورُ الذي قامَ به العُلماءُ بعد أن نجَحَ اختراعُ الأخَويْنِ رايت؟",
+            "popup": [
+              "واصل العلماء بعد ذلك العمل على تطوير الطائرات، حتى أصبحت وسيلة رئيسة للسفر والتواصل بين شعوب العالم."
+            ]
+          }
+        ]
+      },
+     
+      {
+        "title": "استمِعْ، ثُمَّ أجِبْ",
+        "isActive": false,
+        "audio_in_page": "../audio/unit3/03.mp3",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما أهميةُ تَجرِبةِ عبَّاسِ بنِ فِرْناس في تاريخِ الطيَرانِ؟",
+            "popup": ["اعتُبرت بداية لفكرة الطيران عند الإنسان."]
+          }
+        ]
+      },
+     
+      {
+        "title": "استمِعْ، ثُمَّ أجِبْ",
+        "isActive": false,
+        "audio_in_page": "../audio/unit3/04.mp3",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph":"بِمَ حلَمَ العالِمُ جراهام بيل؟ وكيف استطاعَ تنفيذَ حُلمِه؟",
+            "popup": ["حلم بأن يتمكن الناس من التحدث مع بعضهم وهم في أماكن بعيدة، واستطاع تنفيذ حلمه من خلال العمل والتجربة حتى اخترع الهاتف."]
+          }
+        ]
+      }
+    ]
+  }
+]

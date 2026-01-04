@@ -1,0 +1,99 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+"كلُّ اختراعٍ جديدٍ كان حُلمًا في البدايةِ، ثم صار حقيقةً بالعِلمِ والعمَلِ، وكأنَّ الأحلام طريقٌ للتَّقدُّم، فإنَّ الطائرةَ حلمٌ قديمٌ راوَدَ العُلماءَ حتَّى تحقَّقَ في العصرِ الحديثِ، ولعَلَّ التاريخَ يذكُرُ لنا مُحاولةَ العالِمِ العرَبِيِّ (عبَّاسِ بنِ فِرناسٍ) الذي حاوَلَ الطيَران بأجنحةٍ تُشبِهُ أجنحةَ الطُّيورِ، ولكنَّ مُحاولتَهُ باءتْ بالفشَلِ؛ لتترُكَ لمَن بعدَهُ من العلماءِ فُرصةً للتفكيرِ من جَديدٍ."        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " «ولعلَّ التاريخَ يذكُر لنا». خبر (لعلَّ):.........",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "جملةٌ اسميَّةٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "جملةٌ فعليةٌ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "شبهُ جُملةٍ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " «ثمَّ صارَ حقيقةً». اسمُ صارَ:........ ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "اسمٌ ظاهرٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ضميرٌ مُتَّصِل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " ضميرٌ مُستَتِر",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

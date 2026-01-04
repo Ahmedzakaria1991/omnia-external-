@@ -1,0 +1,335 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+            "active": true,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+            ],
+
+            "audio_in_page": "../audio/05.mp3",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "شارَكَت سَلْمَى في المُسابَقةِ رَغْمَ خَوْفِها من الفَشَلِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "paragraph": "قرَّرَتْ سَلْمَى ألَّا تَدَعَ الخَوْفَ يمنَعُها من خَوْضِ تجارِبَ جديدةٍ في المُستقبَلِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+            ],
+
+            "audio_in_page": "../audio/06.mp3",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "الناجِحونَ يتعلَّمونَ من كلِّ تجربةٍ مَهْمَا كانَتْ نتيجتُها.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "الجُرْأةُ في اتِّخاذِ القرارِ  تُؤدِّي إلى الفَشَلِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+            ],
+
+            "audio_in_page": "../audio/07.mp3",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "الجُرْأةُ تعنِي غِيابَ الخَوْفِ تمامًا.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "الاستِسلامُ للخَوْفِ يمنَعُ الإنسانَ من التقدُّمِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "paragraph": "الناجِحونَ ينتظِرونَ زَوالَ الخَوْفِ قبلَ اتِّخاذِ القَرارِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+            ],
+
+            "audio_in_page": "../audio/08.mp3",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "تأجيلُ القَراراتِ يُؤدِّي دائمًا إلى نتائجَ أفضَلَ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "الشخصيَّةُ الناجِحةُ لا تتَّخِذُ القراراتِ الخطَأ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        }
+    ]
+}]

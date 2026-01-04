@@ -1,0 +1,197 @@
+<html lang="ar">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        @media (orientation: landscape) {
+            body .general#DragAndDroptable .container #card-dragg {
+                min-height: 5vw !important;
+                margin-bottom: 3vw !important;
+            }
+            body .general#DragAndDroptable #card-dropp .items-droparea .title-d{
+            left: 3.2vw!important
+        }
+        }
+        body .general#DragAndDroptable #card-dropp .items-droparea .title-d{
+            left:1vw
+        }
+
+        body .general#DragAndDrop .container #card-dragg,
+        body .general#DragAndDroptable .container #card-dragg,
+        body .general#DragAndDropimage .container #card-dragg,
+        body .general#DragAndDropMostala7 .container #card-dragg,
+        body .general#DragAndDropRearrange .container #card-dragg,
+        body .general#DragDropSlide .container #card-dragg {
+            width: 95vw;
+
+        }
+
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-r,
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-l {
+
+            width: 80%;
+            height: 50%;
+            margin: unset;
+
+        }
+
+        body .general#DragAndDroptable #card-dropp .items-droparea .title-d {
+            width: 30vw;
+            height: 8vw;
+         
+
+        }
+
+        @media (orientation: landscape) {
+
+            body .general#DragAndDroptable .container #card-dropp .items-droparea .droparea-r,
+            body .general#DragAndDroptable .container #card-dropp .items-droparea .droparea-l {
+
+                width: 90%;
+                height: 45%;
+            }
+        }
+
+        @media (orientation: landscape) {
+            body .general#DragAndDroptable .container #card-dropp .items-droparea .title-d {
+                width: 25vw;
+
+            }
+
+            body .general#DragAndDroptable .container #card-dropp .items-droparea .title-d {
+
+                font-size: 2.5vw;
+
+            }
+        }
+
+        .draggable {
+            font-size: 2.2vw;
+            text-align: center;
+        }
+
+        .droppable {
+            color: #39b54a;
+        }
+
+        .true {
+            background-color: #39b54a !important;
+        }
+
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-r .ui-droppable-disabled,
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-l .ui-droppable-disabled {
+            pointer-events: none;
+        }
+
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-r,
+        body .general#DragAndDroptable #card-dropp .items-droparea .droparea-l {
+            width: 90%;
+            height: 50%;
+            margin: unset;
+        }
+
+        @media (orientation: landscape) {
+            .draggable {
+                font-size: 2.2vw;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+
+    <div id="DragAndDroptable" data-urlpage="03_02/01" class="DragAndDrop general" :class="this.posts[0].subject">
+
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-if=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+            <div class="container" :class="{'finshed' : this.finshedChoose }">
+                <p class="qtitle">{{this.posts[0].qtitle}}</p>
+                <div id="card-dragg">
+                    <div class="draggable" v-for="(question,index) in shuffledDrag" :id="index" :index="question.number"
+                        draggable="true" @dragstart="dragstart($event)" @drag="drag($event)" @dragend="dragend($event)"
+                        @touchstart="touchStart($event)" @touchmove="touchMove($event)" @touchend="touchEnd($event)"
+                        :style="{ position: 'relative', left: question.left + 'px', top: question.top + 'px' }">
+                        {{question.word}}
+                    </div>
+                </div>
+                <div id="card-dropp">
+                    <div class="items-droparea margin5t">
+                        <div class="right">
+                            <div class="title-d"> {{this.posts[0].items[0].title1}}
+                            </div>
+                            <div class="droparea-r">
+                                <div v-for="( drag, index) in this.posts[0].items[0].drag" :id="drag.number"
+                                    :index="drag.number" class="droppable" @drop="drop($event)"
+                                    @dragover="dragover($event)" @touchstart.prevent @touchmove.prevent
+                                    v-if="drag.number == 1"></div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title-d"> {{this.posts[0].items[0].title2}}
+                            </div>
+                            <div class="droparea-l">
+                                <div v-for="( drag, index) in this.posts[0].items[0].drag" :id="drag.number"
+                                    :index="drag.number" class="droppable" @drop="drop($event)"
+                                    @dragover="dragover($event)" @touchstart.prevent @touchmove.prevent
+                                    v-if="drag.number == 2"></div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title-d"> {{this.posts[0].items[0].title3}}
+                            </div>
+                            <div class="droparea-l">
+                                <div v-for="( drag, index) in this.posts[0].items[0].drag" :id="drag.number"
+                                    :index="drag.number" class="droppable" @drop="drop($event)"
+                                    @dragover="dragover($event)" @touchstart.prevent @touchmove.prevent
+                                    v-if="drag.number == 3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="finished hide">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <div class="image">
+                <img :src="logo()" :alt="this.posts[0].subject">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/dragdrop-vue.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

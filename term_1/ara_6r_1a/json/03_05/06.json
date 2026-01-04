@@ -1,0 +1,93 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [{
+            "active": true,
+            "title": " ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": ["في المُستقبَلِ يُمكِنُ للإنسانِ إذا أصابَهُ مرَضٌ فجأةً أن يضَعَ يدَهُ على شاشةٍ طبِّيَّةٍ صغيرةٍ في غُرفتِه، ويقومُ الذكاءُ الاصطناعيُّ بتحليلِ حالتِهِ الصِّحَّيةِ فَورًا، وخلالَ لحَظاتٍ يُوصِي له بالعلاجِ المُناسِبِ. لن يُشكِّلَ المرَضُ عائقًا كما كان في الماضي، فبفَضلِ الوسائلِ الطبيةِ المُتقدِّمةِ قد يُصبِحُ التشخيصُ أمرًا يسيرًا، والعلاجُ مُتاحًا في أيِّ وَقْتٍ. هَذِه يا أصْدِقائي ليْسَتْ سِوَى لَمحةٍ ممَّا قد يكونُ عليه الطِّبُّ في المُستقبَلِ، وهو ما نأمُلُ أن يُصبِحَ واقِعًا في السنواتِ القادمةِ."],
+
+            "audio_in_page": "",
+            "quizChooses": [{
+                    "id": 1,
+                    "paragraph": " في المُستقبَلِ تحليلُ الحالةِ الصحيَّةِ يتطلَّبُ زيارةَ الطبيبَ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "paragraph": " يُمكِنُ للذكاءِ الاصطناعيِّ مُستقبلًا أن يصِفَ العلاجَ المُناسِبَ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        }
+    ]
+}]

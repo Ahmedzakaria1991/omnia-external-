@@ -1,0 +1,281 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "التفَّ التلاميذُ حَولَ المُعلِّمِ وهو يُشجِّعُهم بكلماتٍ مُؤثِّرة قبلَ امتحانِ آخِرِ العَامِ، فَقدْ رَغِبَ في أنْ يَشْعُرَ تلاميذُه بالحَماسِ والطُّمأْنِينةِ قبلَ دُخُولِ الاخْتِبارِ.  كانَ المُعلِّمُ واعيًا إلى أنَّ بِضْعَ كَلِماتٍ طيِّبةٍ قد تُغيِّرُ النُّفوسَ، كما أنَّ الكَلِماتِ الجَارِحةَ قد تَترُكُ أثرًا يَصْعُبُ مَحْوُه؛ فَالكَلِماتُ قُوَّةٌ لا يُستهانُ بها، وعلَيْنا أن نُبادِرَ  بقَوْلِ الكَلِماتِ الطَّيِّبةِ. "
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادِفُ (مَحْوه):  ............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "إِزالَته",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "نَشْره",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"تحَمُّله",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تَوْزيعه",
+                    "right": false,
+                    "checked": false
+                }
+                
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (الْتفَّ): ............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "انْسَحَبَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تَفرَّق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"ابْتعَدَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "اخْتفَى",
+                    "right": false,
+                    "checked": false
+                }
+                
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "مُفرَدُ (كَلِمات): .............",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُتكلِّم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "كَلِيم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"كَلِمَة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "مُكالَمة",
+                    "right": false,
+                    "checked": false
+                }
+                
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "جِذْرُ  (النُّفُوس): ............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "نفس",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "نسف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"سفن",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "أسف",
+                    "right": false,
+                    "checked": false
+                }
+                
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "بَادَرَ كُلُّ تِلْمِيذٍ بِرَفْعِ يَدِهِ؛ لِيَقُومَ بِالتَّجْرِبَةِ، وَقَعَ الِاخْتِيَارُ عَلَى فَرِيدَةَ، فَاخْتَارَتْ وَرَقَةً وَجَدَتْ فِيهَا كَلِمَةَ (خَيْر )، فَأَغْمَضَتْ عَيْنَيْهَا وَقَالَتْ: «أَشْعُرُ كَأَنَّنِي بَيْنَ الْحُقُولِ الْخَضْرَاءِ، وَالثِّمَارُ عَلَى الْأَشْجَارِ حَوْلي فِي كُلِّ مَكَانٍ، وَأَشْعُرُ أَنَّنِي أَرْجُو الْخَيْرَ لِلْجَمِيعِ، وَلَدَيَّ دَافِعٌ قَوِيٌّ لِنَشْرِ الْخَيْرِ بَيْنَ النَّاسِ».",
+                "الِاخْتِيَارُ الثَّانِي وَقَعَ عَلَى سَمِيرٍ الَّذِي اخْتَارَ  وَرَقَةً أُخْرَى وَوَجَدَ فِيهَا كَلِمَةَ (أَمَل)، فَأَغْمَضَ عَيْنَيْهِ، ثُمَّ قَالَ: «أَشْعُرُ كَأَنَّ الشَّمْسَ تُشْرِقُ بِأَشِعَّتِهَا الذَّهَبِيَّةِ، وَأَشْعُرُ بِالتَّفَاؤُلِ يَمْلَأُ نَفْسِي»."
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": " مُرادِفُ (بادَرَ ): ...........",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "تحرَّك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أسْرَع",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"أراد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تمنَّى",
+                    "right": false,
+                    "checked": false
+                }
+                
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (دَافِع): ............",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "سَبَب",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "ظَنّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"احْتِمال",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "مَانِع",
+                    "right": false,
+                    "checked": false
+                }
+                
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

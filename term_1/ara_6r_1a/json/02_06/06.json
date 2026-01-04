@@ -1,0 +1,193 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+            "active": true,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+                "«هَلْ عَلِمْتَ الْآنَ لِمَاذَا الْمَسْئُولِيَّةُ مُهِمَّةٌ؟",
+                "لِأَنَّ الْمَسْئُولِيَّةَ تَجْعَلُ مِنْكَ شَخْصًا يُعْتَمَدُ عَلَيْهِ، وَتَمْنَحُكَ احْتِرَامَ الْآخَرِينَ، وَتَبُثُّ الثِّقَةَ بِكَ فِي نُفُوسِ مَنْ تَتَعَامَلُ مَعَهُمْ، وَتُسَاعِدُكَ عَلَى تَحْقِيقِ غَايَاتِكَ، وَحِينَ تَكُونُ مَسْئُولًا، فَإِنَّكَ تُصْبِحُ قَائِدًا لِحَيَاتِكَ، وَتُصْبِحُ أَكْثَرَ قُدْرَةً عَلَى مُوَاجَهَةِ التَّحِدِّيَاتِ وَتَحْقِيقِ النَّجَاحِ. فَكُنْ مَسْئُولًا تَكُنْ نَاجِحًا»."            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "المسئوليةُ تجعَلُ الشخصَ يعتمِدُ على الآخَرينَ في اتِّخاذِ قراراتِه.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "عندما يكونُ الشخصُ مسئولًا ينالُ ثقةَ واحترامَ الآخَرينَ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+                "أخطَأ خالدٌ في الإجابةِ عن سؤالِ المُعلِّمِ، فبدَأَ بعضُ التلاميذِ يضحَكُونَ. كاد أميرٌ  يضحَكُ معهم، لكِنَّه توقَّفَ للحظةٍ، وتذكَّر أنه يجِبُ أن يختارَ  كلماتِه وأفعالَه بعنايةٍ حتى لا يُؤذِيَ أحدًا. ثُمَّ توجَّهَ إلى خالِدٍ قائلًا: «لا داعِيَ للقَلقِ يا صَدِيقي؛ فكُلُّنا نُخطِئُ ونتعَلَّمُ». عندها توقَّفَ الجميعُ عن الضَّحِكِ، وابتسَمَ خالدٌ وهو يشعُرُ بالرَّاحةِ بعد أن كان يشعُرُ بالإحراجِ والخجلِ. شكَرَ  خالدٌ أميرًا على حُسنِ تصرُّفِه، بينما شعَرَ أميرٌ  بالسَّعادةِ؛ لأنه اتخَذَ القرارَ الصحيحَ. لقد أدرَكَ أن الكلِمةَ الطيِّبةَ يُمكِنُ أن تبُثَّ الثِّقةَ في قُلوبِ الآخَرينَ، وبها نبْنِي جُسورًا من الاحترامِ والتفاهُمِ بين الجميعِ."
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "أجابَ خالدٌ بشكْلٍ صحيحٍ على سُؤالِ المُعلِّمِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "ضحِكَ أميرٌ  مع الطُّلابِ الذين سَخِروا من زَميلِهم.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "paragraph": "شعَرَ أميرٌ  بالسَّعادةِ؛ لأنه اختارَ  القرارَ  الصَّحيحَ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        }
+    ]
+}]

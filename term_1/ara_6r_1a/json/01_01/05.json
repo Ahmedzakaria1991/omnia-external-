@@ -1,0 +1,81 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+        {
+            "title": "اسْتَمِعْ، ثمَّ أجِبْ",
+            "isActive": true,
+            "audio_in_page": "../audio/03.mp3",
+            "popuptext": [""],
+              "hideParagraph": true
+,
+            "questions": [
+            {
+                "id": 1,
+                "paragraph": "ما الَّذي تُمَثِّلُه مُسابَقةُ المَدرسةِ بالنِّسبةِ لمَازِن؟",
+                "popup": ["تمثِّل الخطوة الأولى في طريقه ليصبح كاتبًا مشهورًا."]
+            }
+            ]
+        },
+        {
+            "title": "اسْتَمِعْ، ثمَّ أجِبْ",
+            "isActive": false,
+            "audio_in_page": "../audio/02.mp3",
+            "popuptext": [""],
+            "questions": [
+            {
+                "id": 1,
+                "paragraph": " لماذا ألَّف (غانم المفتاح) العَديدَ من الكُتُبِ؟",
+                "popup": ["لتحفيز ذوي الهمم."]
+            }
+            ]
+        },
+        {
+            "title": "اسْتَمِعْ، ثمَّ أجِبْ",
+            "isActive": false,
+            "audio_in_page": "../audio/04.mp3",
+            "popuptext": [""],
+            "questions": [
+            {
+                "id": 1,
+                "paragraph":" لماذا يُقيِّمُ الإِنسانُ أداءَه الشَّخصِيَّ؟",
+                "popup": [
+                    "ليتعلم من تجاربه السابقة، ويصبح أكثر معرفة بقدراته وأكثر استعدادًا لتحقيق أهدافه."
+                ]
+            }
+            ]
+        },
+        {
+            "title": "اسْتَمِعْ، ثمَّ أجِبْ",
+            "isActive": false,
+            "audio_in_page": "../audio/01.mp3",
+            "popuptext": [""],
+            "questions": [
+            {
+                "id": 1,
+                "paragraph":" كيفَ يَتصرَّفُ الناجِحُ حين تُواجِهُه العَقَباتُ؟",
+                "popup": [
+                    "لا يتوقف عند العقبات، ولكن يبحث عن الحلول ويواصل سعيه نحو هدفه بثقة وإصرار."
+                ]
+            }
+            ]
+        }
+    ]
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+        "popuptext": [""],
+        "qtitle": "استمِعْ، ثُمَّ أجِبْ:",
+        "audio_in_page": "../audio/unit3/01.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " بدَأَت الاختراعاتُ الكُبرَى بأفكارٍ  تبدو مُستحيلةً وتطوَّرتْ حتَّى صارَتْ حقيقةً.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " تستطيعُ الأفكارُ الصغيرةُ أن تُغيِّرَ  العالَمَ كُلَّهُ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+        "popuptext": [""],
+        "qtitle": "استمِعْ، ثُمَّ أجِبْ:",
+        "audio_in_page": "../audio/unit3/02.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " استخدَمَ الأخوانِ رايت أساليبَ عِلميةً بسيطةً في صُنعِ نموذجٍ قابِلٍ للطيَرانِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "تُعتبَرُ أوَّلُ رحلةٍ جوِّيَّةٍ للأخوان رايت خُطوةً تاريخِيَّةً في مجالِ النقلِ الجوِّيِّ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+        "popuptext": [""],
+        "qtitle": "استمِعْ، ثُمَّ أجِبْ:",
+        "audio_in_page": "../audio/unit3/03.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "  كان عبَّاسُ بنُ فِرْناس مُحِبًّا للعِلمِ والتجربةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " يُعتبَرُ عبَّاسُ بنُ فِرْناس أوَّلَ مَن حاولَ الطيَرانَ في التاريخِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+        "popuptext": [""],
+        "qtitle": "استمِعْ، ثُمَّ أجِبْ:",
+        "audio_in_page": "../audio/unit3/04.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " بدأ اختراعُ الهاتفِ بنَقلِ الصَّوْتِ عبرَ  الهواءِ بدونِ الحاجةِ إلى الأسلاكِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " تطوَّرَ  الهاتفُ ليُصبِحَ جزءًا أساسيًّا في حياتِنا اليومِيَّةِ بفَضلِ العلمِ والإصرارِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

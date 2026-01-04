@@ -1,0 +1,432 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+            "active": true,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+
+            ],
+            "questionTitle":"اقرَأ الجُمَلَ الآتيةَ، ثم ضَعْ علامةَ (✓) أمامَ التصرُّفِ الذي يُميِّزُ الأشخاصَ الناجحين",
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "أخطَأْتُ في حَقِّ صدِيقي، فتجاهَلْتُ الأمرَ ولم أعتذِرْ. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "كانَ عندِي وَقْتُ فراغٍ، فاستَغْلَلْتُه في تنميةِ مَوْهبتِي.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "paragraph":"نسِيتُ أنْ أكتُبَ الواجِبَ؛ فاعتَذَرْتُ لمُعلِّمتي، وطلَبْتُ فُرْصةً لإنجازِه.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "paragraph":"تَركْتُ واجِباتِي؛ لأُشاهِدَ بعضَ مَقاطعِ الفيديو على هاتفِي. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "paragraph":"أنهَيْتُ واجباتِي، ثم ساعَدْتُ أمِّي في أَعْمالِ المَنْزِلِ التي أُتْقِنُها. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "paragraph": "أبتَعِدُ عن مُواجَهةِ المُشكِلاتِ، وأترُكُ الآخَرينَ يتَّخِذونَ القَرارَ لي. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": [
+
+            ]
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+                "هَلْ تَسَاءَلْتَ يَوْمًا كَيْفَ يَتَّخِذُ الْأَشْخَاصُ النَّاجِحُونَ قَرَارَاتِهِمْ؟ هَلْ ترِيدُ أَنْ تَكُونَ قَادِرًا عَلَى اتِّخاذِ قَرَارَاتٍ صَحِيحَةً تُؤَثِّرُ إِيجَابِيًّا عَلَى حَيَاتِكَ؟ فِي هَذَا الدَّرْسِ، سَنَتَعَلَّمُ الْخُطُواتِ الَّتِي يَجِبُ أَنْ نَقُومَ بِهَا؛ لِنَتَّخِذَ قَرَارَاتٍ صَحِيحَةً مَدْرُوسَةً وَفَعَّالَةً.",
+                "فِي الْبِدَايَةِ دَعُونِي أَسْأَلْكُمْ: هَلِ اتَّخَذْتُمْ قَرَارَاتٍ مِنْ قَبْلُ؟ أَرْجُوكُمْ يا أَصْدِقَائِي، لَا تَتَسَرَّعُوا وَتَقُولُوا نَحْنُ لَا نَزَالُ فِي الصَّفِّ السَّادِسِ، فكِّرُوا فِي أَشْيَاءَ بَسِيطَةٍ، فَكِّرُوا فِي قَرَارَاتٍ تَتَّخِذُونَهَا بِشَكْلٍ يَوْمِيٍّ."
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": " القراراتُ التي يتَّخِذُها الإنسانُ لا تُؤثِّرُ في حَياتِه ومُستقبَلِه.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": "تلاميذُ الصفِّ السادسِ ليسُوا قادِرِينَ على اتِّخاذِ القراراتِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": [
+
+            ]
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+                "وَالْآنَ هَيَّا بِنَا نَنْظُرْ إِلَى سُلَّمِ اتِّخَاذِ الْقَرَارِ، هَلْ لَاحَظْتُمْ أَنَّ كُلَّ خُطْوَةٍ نَأْخُذُهَا سَيَكُونُ لَهَا تَأْثِيرٌ وَاضِحٌ فِي الْخُطْوَةِ الَّتِي تَلِيهَا؟ وَأَنَّ أَيَّ قَرَارٍ سَنَتَّخِذُهُ سَيَتَرَتَّبُ عَلَيْهِ نَتَائِجُ تُؤَثِّرُ فِي حَيَاتِنَا عَلَى الْمَدَى الْقَرِيبِ وَالْبَعِيدِ؟ وَالْآنَ جَاءَ دَوْرُكُمْ لِتُقَرِّرُوا قَرَارًا مُرْتَبِطًا بِحَيَاتِكُمُ الْيَوْمِيَّةِ، وَلَا تَنْسَوُا الْقَاعِدَةَ الذَّهَبِيَّةَ قَبْلَ اتِّخَاذِ أَيِّ قَرَارٍ: «هَلْ هَذَا الْقَرَارُ سَيُفِيدُنِي دَائِمًا، أَمْ سَيُعْطِينِي رَاحَةً مُؤَقَّتَةً وَأَخْسَرُ بَعْدَهَا؟»."
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "نفهَمُ من الفِقْرةِ أنَّ اتِّخاذَ القرارِ يتكوَّنُ من خُطْوةٍ واحدةٍ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph":" القاعدةُ الذهبيَّةُ قبلَ اتِّخاذِ أيِّ قرارٍ هي البَحْثُ عن الفائِدةِ الدائِمةِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": [
+
+            ]
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+            "popuptext": [
+                "اتِّخاذُ القَراراتِ الصَّائبةِ هُو مِفتاحُ النَّجاحِ والتَّقدُّمِ في الحَياةِ؛ لأنَّ كُلَّ قَرارٍ نَتَّخِذُه يُؤثِّر في حَياتِنا على المَدى القَريبِ والبَعيدِ. القَراراتُ اليَومِيَّةُ مهما كانت بسِيطةً تُشكِّلُ نَمطَ حَياتِنا وتُحَدِّدُ مستقبلَنا؛ لذلك يجِبُ علينا أن نُفكِّرَ جيدًا في الخِياراتِ المُتاحةِ أمامَنا، وأن نُقيِّمَها بناءً على الفائدةِ الدَّائمةِ لا الراحةِ المُؤقَّتةِ لنا.  أحيانًا  نَبنِي قَراراتِنا عَلى البَحثِ عن أعْذارٍ  بدَلًا  من البحثِ عن الحُلولِ، لكنَّ هذا الهُروبَ لَا يزالُ يُؤدِّي إلى عَواقِبَ سَيِّئةٍ  يندَمُ عليها الإنْسانُ بعدَ ذلك."
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": " القَراراتُ التي يتَّخذُها الإنسانُ تُؤثِّرُ في حياتِه ومُستقبَلِه. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph":"يجِبُ أن نبحثَ عن الرَّاحةِ المُؤقَّتةِ دائمًا في أيِّ قرارٍ  نَتَّخِذُه. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": [
+
+            ]
+        }
+    ]
+}]

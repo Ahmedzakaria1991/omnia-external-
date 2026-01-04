@@ -1,0 +1,150 @@
+[
+  {
+    "nameId": "",
+    "title": "أكمل ما يَلِي  ",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "arabic-6",
+    "colorTemplate": "#79D2E4",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "qtitle": "اكتُبِ الوَسِيلةَ المُستَقْبلِيَّةَ المَسْئُولةَ عن كُلِّ وظِيفةٍ كما تَخيَّلَها كَاتِبُ النَّصِّ: ",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["تعرِضُ صُوَرًا تناسِبُ الحالةَ النفسِيَّةَ.  "],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["الجدران الذكية"],
+                "show": ["الجدران الذكية"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["blaaa"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "تتغيَّر ألوانُها حسَبَ الرغبةِ وتُصلِحُ نفسَها.  "
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["الملابس الذكية"],
+                "show": ["الملابس الذكية"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["bla"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "يُغيِّرُ تصميماتِه شهريًّا حتى لا يشعُرَ صاحبُه بالمَلَلِ. "
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["المنزل الذكي"],
+                "show": ["المنزل الذكي"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": ["bla"],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

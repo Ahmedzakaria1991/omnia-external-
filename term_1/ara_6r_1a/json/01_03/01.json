@@ -1,0 +1,206 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "اختَرِ الجُمَلَ التي تشتملُ على اسمٍ مَعرفةٍ:",
+                    "correctAnswer": [1,4,6,8],
+                    "answerSelect": false,
+                    "counter": 0,
+                      "hideParagraph": true
+,
+                    "type": 2,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": " الأمينُ محْبُوبٌ.",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "لا أمينَ كاذبٌ.",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "جرَى ولدانِ بسُرْعةٍ.",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "الولَدُ فائزٌ  في المُسابَقةِ.",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 5,
+                        "toChoose": "سأقضِي شهرًا في قريةٍ سياحِيَّةٍ.",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 6,
+                        "toChoose": "سأقضِي الإجازةَ في الغردقةِ.",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 7,
+                        "toChoose": " لن يخسَرَ  فريقٌ مُتعاوِنٌ. ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 8,
+                        "toChoose": "الفريقُ المُتعاوِنُ ربِحَ الجائزةَ.",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        } ,
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "تخَيَّلْ أنك استيقَظْتَ صباحًا ووجَدْتَ رسالةً على هاتفِكَ ورَدَ فيهَا: «تمَّ إيداعُ ٨٦,٤٠٠ (ستَّةٍ وثمانِينَ ألفًا وأربعِمِائةِ) جنَيْهٍ في حسابِكَ المَصرِفيِّ، لكن بشرْطٍ: عليك إنفاقُها كُلُّها قبل نهايةِ اليَوم، أيُّ مَبلغٍ لا تستخدِمُه سيختَفِي إلى الأبدِ». ماذا ستفعَلُ؟ بالتأكيدِ ستبدَأُ بالتَّخطيطِ لإنفاقِ المَبلغِ سريعًا؛ لتستَفيدَ من كُلِّ جُنيْهٍ."
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "«يُخطِّطُ <span>النَّاجِح</span> لاستغلالِ وَقْتِه»: (الناجِح) تُعرَبُ ",
+                    "correctAnswer": [1],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "فاعِلًا",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "خَبرًا",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "مفعولًا به",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "«الأذكياءُ يُرتِّبونَ <span>الأولويَّات</span>»:  (الأوْلوِيَّات) مَفعولٌ به مَنصُوبٌ بـ........",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "الضَّمةِ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "الكَسرةِ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "الفَتحةِ",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "popup": "",
+                    "paragraph": "سأدَّخِرُ ............... من مَصْرُوفِي.",
+                    "correctAnswer": [3],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "جزئًا",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "جزءً",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "جزءًا",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

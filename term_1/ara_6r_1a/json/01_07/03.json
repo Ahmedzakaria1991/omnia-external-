@@ -1,0 +1,467 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "وَهُنَاكَ قَرَارَاتٌ نَتَّخِذُهَا بِشَكْلٍ يَوْمِيٍّ تُحَدِّدُ كَيْفَ سَيَسِيرُ يَوْمُنَا، بَلْ وَمُسْتَقْبَلُنَا أَيْضًا، مِثْلَ: أَنْ تَكُونُوا شُجعانًا وَتَقُولُوا الصِّدْق، هَذَا قَرَارٌ. وَأَنْ تُذَاكِرُوا دُرُوسَكُمْ وَتَجْتَهِدُوا، هَذَا قَرَارٌ. وَأَنْ تُوَاجِهُوا مُشْكِلَاتِكُمْ وَتَبْحَثُوا عَنْ حُلُول، هَذَا أَيْضًا قَرَارٌ. كُلُّ هَذِهِ قَرَارَاتٌ يُمْكِنُهَا أَنْ تَجْعَلَنَا أَشْخَاصًا نَاجِحِينَ وَمُفِيدِينَ لأنْفُسِنَا وَلِغَيْرِنَا إِذَا كَانَتْ قَرَارَاتٍ صَائِبَةً. "
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "<span>القرَارات</span> تُحدِّدُ مُستقبَلَنا. إعرابُها: .............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُبتدأٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خبرٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "فاعلٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "القرارتُ <span>الصائبةُ</span> تجعَلُنا أكثرَ ثقةً. إعرابُهُا: ..................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مفعولٌ به",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "نعتٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خبرٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "ذهَبْتُ مُبكِّرًا؛ لـ .................. عن صديقِي المريضِ.",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أسائَلَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أسئَلَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أسأَلَ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "هلْ تَسَاءَلْتَ يَوْمًا كَيْفَ يَتَّخِذُ الْأَشْخَاص النَّاجِحُونَ قَرَارَاتِهِمْ؟ هَلْ تُرِيدُ أَنْ تَكُونَ قَادِرًا عَلَى اتِّخاذ قَرَارَاتٍ صَحِيحَةً تُؤثِّرُ إِيجَابِيًّا في حَيَاتِكَ؟ ",
+                "فِي هَذَا الدَّرْسِ، سَنَتَعَلَّمُ الْخُطُوات الَّتِي يَجِبُ أَنْ نَقُومَ بِهَا؛ ِلنَتَّخِذَ قَرَارَاتٍ صَحِيحَةً مَدْرُوسَةً وفَعَّالَةً."
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "............  الموظَّفُ عن الاجتماعِ.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "تَئَخَّر",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تَأَخَّر",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "لا مكانَ لـ ................. في حياتِنا. ",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "اليَأْسِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "اليَئْسِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "questionTitle" :"اخترِ الكلمةَ المُعرَّفةَ بالإضافةِ في الجُملِ الآتيةِ:" ,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": " قرارُ  أميرةَ أعجبَ والدَيْها. ",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أميرةَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "والدَيْها",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "قرارُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "أعجبَ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": " فهِمتُ من شَرحِ هذا المُعلِّم.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "فهِمتُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"شَرحِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "هذا",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "المُعلِّم",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "طلَبُ العِلمِ فَريضةٌ.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "طلَبُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "العِلمِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "فَريضةٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "لا يُضيعُ اللَّهُ أجرَ العامِلِين.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "اللَّهُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أجرَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "العامِلِين",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "يُضيعُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 5,
+                "popup": "",
+                "paragraph": "مَوهِبةُ هذه البِنتِ كَبيرةٌ. ",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "هذه",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مَوهِبةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"البِنتِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "كَبيرةٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 6,
+                "popup": "",
+                "paragraph": " نُؤدِّي واجبَنا بإتقانٍ.",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "نُؤدِّي",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "بإتقانٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "واجبَنا",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 7,
+                "popup": "",
+                "paragraph": " بيتي جديدٌ وواسِعٌ. ",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "وواسِعٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "جديدٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "بيتي",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 8,
+                "popup": "",
+                "paragraph": "حديقةُ الحيوانِ في الجِيزةِ. ",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "حديقةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الحيوانِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الجِيزةِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

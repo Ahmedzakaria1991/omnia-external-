@@ -1,0 +1,300 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اخترِ الإجابةَ الصحيحةَ",
+            "popuptext": [],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": " اختَرِ ما يُساعِدُكَ على تحقيقِ النجاح",
+                "correctAnswer": [1,3,4,5],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الناجحونَ يتجنَّبونَ القراراتِ المُعقَّدةَ خَوْفًا من الفَشَلِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "كُلُّ ما يُواجِهُه الإنسانُ في حياتِه يتطلَّبُ اتِّخاذَ القرارِ .",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الأخطاءُ قد تكونُ فُرصةً لتحقيقِ النجاحِ.",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [],
+            "audio_in_page" :"../audio/06.mp3",
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "يتحقَّقُ النجاحُ نتيجةَ قراراتٍ  ..............",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُتسرِّعةٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "عشوائيةٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "مُتكرِّرةٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"شُجاعةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "ما يُميِّزُ الناجِحينَ أنَّهم لا ..........",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 3,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "يُخطِئون مُطلَقًا",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "يَثِقُونَ بأنفُسِهم ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "يشعُرونَ بالخوفِ ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"يتعلَّمُونَ من أخطائِهم",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "audio_in_page" :"../audio/08.mp3",
+            "popuptext": [],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "التردُّدُ المُبالَغُ فيه يُؤدِّي إلى ................",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "سُرْعةِ النجاحِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "اغتِنامِ الفُرَصِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الاستِفادةِ من التجاربِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"ضَياعِ الفُرَصِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "يصِفُ النصُّ الشخصَ الذي يختارُ  المُواجَهةَ بأنَّه ................",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "واثِقٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مُتهوِّرٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "شجاعٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"الأولى والثالثة",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ السُّلُوكيَّاتِ التي تُساعِدُ على النجاحِ",
+                "correctAnswer": [1,2,5],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "شخصٌ يعتبِرُ  الفَشَلَ فُرْصةً للتعلُّمِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "شخصٌ يسأَلُ نفسَه: «ماذا لو نجَحْتُ؟» قبلَ اتِّخاذِ القَرارِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "شخصٌ يتوقَّفُ عن المُحاوَلةِ بعدَ أوَّلِ فَشَلٍ.  ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose":"شخصٌ يرفُضُ أيَّ فِكْرةٍ جديدةٍ؛ لأنَّها مُختلِفةٌ. ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose":"شخصٌ يتَّخِذُ قرارَهُ بشَجاعةٍ رَغْمَ خَوْفِه من الخطأ.",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

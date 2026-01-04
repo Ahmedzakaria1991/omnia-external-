@@ -1,0 +1,269 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "لا نزالُ نحتاجُ إلى أنْ نتعلَّمَ كيفَ نتِّخِذُ قراراتٍ صائبةً ونستفِيدُ من الفُرَصِ المُتاحةِ، فدائمًا تكُونُ أمامَنا عِدَّةُ خِياراتٍ؛ لذا يجِبُ أنْ نختارَ الأفضلَ ونبتعِدَ عن الأعذارِ، فكلُّ قرارٍ نتَّخِذُه له عواقبُ مُحتمَلةٌ، قد تكُونُ نافِعةً أو ضارَّةً؛ لذلك لا بدَّ من تنفيذِ طريقةٍ فعَّالةٍ تُساعِدُنا على النجاحِ؛ وذلك باختيارِ  المُواجَهةِ وبَذْلِ المجهودِ والبَحْثِ عن حُلُولٍ والسَّعْيِ نحوَ فائدةٍ دائِمةٍ."
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "مُرادِفُ (عَواقِب): ..........",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "أَسْباب",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "نَتائِج",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "حُلُول",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "أَفْعال",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": " (لا نزال) فعل يدُلُّ على: .........",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "الماضِي",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "الاستِمرارِ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "المُستقبَلِ",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "جميع ما سبق",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "popup": "",
+                    "paragraph": " مُضادُّ (صائِبة): ............",
+                    "correctAnswer": [4],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "ضَعِيفة",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "مُتسرِّعة",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "ضارَّة",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "خَطَأ",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "popup": "",
+                    "paragraph": " جِذْر (طَرِيقة): .............",
+                    "correctAnswer": [3],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "رقي",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "روق",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "طرق",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "طوق",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "وَالْآنَ هَيَّا بِنَا نَنْظُرْ إِلَى سُلَّمِ اتِّخَاذِ الْقَرَارِ، هَلْ لَاحَظْتُمْ أَنَّ كُلَّ خُطْوَةٍ نَأْخُذُهَا سَيَكُونُ لَهَا تَأْثِيرٌ وَاضِحٌ فِي الْخُطْوَةِ الَّتِي تَلِيهَا؟ وَأَنَّ أَيَّ قَرَارٍ سَنَتَّخِذُهُ سَيَتَرَتَّبُ عَلَيْهِ نَتَائِجُ تُؤَثِّرُ فِي حَيَاتِنَا عَلَى الْمَدَى الْقَرِيبِ وَالْبَعِيدِ؟ وَالْآنَ جَاءَ دَوْرُكُمْ لِتُقَرِّرُوا قَرَارًا مُرْتَبِطًا بِحَيَاتِكُمُ الْيَوْمِيَّةِ، وَلَا تَنْسَوُا الْقَاعِدَةَ الذَّهَبِيَّةَ قَبْلَ اتِّخَاذِ أَيِّ قَرَارٍ: «هَلْ هَذَا الْقَرَارُ سَيُفِيدُنِي دَائِمًا، أَمْ سَيُعْطِينِي رَاحَةً مُؤَقَّتَةً وَأَخْسَرُ بَعْدَهَا؟»."
+            ],
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": " المُرادُ بكلمةِ (المَدَى) : ............",
+                    "correctAnswer": [2],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "الوَقْت",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "المُستقبَل",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "الحاضِر",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "الماضِي",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "مُضادُّ (أخسَر ): ...........",
+                    "correctAnswer": [4],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "أنجَح",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "أستفِيد",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "أهتَم",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 4,
+                        "toChoose": "أفُوز",
+                        "right": false,
+                        "checked": false
+                    }
+                    ]
+                }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

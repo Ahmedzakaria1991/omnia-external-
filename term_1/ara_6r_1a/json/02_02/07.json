@@ -1,0 +1,322 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+            "active": true,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+                "شَاعَ جَوٌّ مِنَ الهُدوءِ والسَّكِينةِ فِي الفصلِ بَعْدَ سَماعِ مَشاعِرِ مَرْيَمَ، قَطعَ هَذا الْهُدوءَ صَوْتُ المُعَلِّمةِ وهِيَ تَقولُ: «بِالتَّأْكِيدِ اكتَشَفْتُمُ الآنَ أَنَّ الكلِماتِ لَيْستْ مُجرَّدَ أصْواتٍ تُقالُ، بَلْ هِي قُوَّةٌ قادِرةٌ عَلى تَغْيِيرِ العالَمِ، وَهِي مِثْلُ البُذُورِ التي نَزْرَعُها في الْقُلوبِ؛ فالْكلِمةُ الطَّيِّبةُ تَنْمُو وتُزْهِرُ ، بَيْنما الْكَلِماتُ الجارِحةُ تترُكُ آثارًا يَصْعُبُ مَحْوُها»."
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "الكَلِماتُ قُوةٌ قادرةٌ على تَغْيِيرِ  العالَمِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "paragraph": "شَبَّهتِ المُعلِّمةُ الكَلِماتِ الإِيجابيةَ بالأَصْواتِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+                "الكلمةُ مسئوليةٌ كبيرةٌ، قد تُخرِجُ إلى العالَم مهندسًا عظيمًا أو طبيبًا نابغًا أو مُعلِّمًا عظيمًا، حين يسمَعُ أحدُهم في صِغَرِه كلماتٍ طيِّبةً تدعَمُه وتدفَعُه للثقةِ بقُدراتِه، بينما يمكِنُ للكلِمةِ السلبيةِ الجارحةِ أن تجعَلَنا نخسَرُ مثلَ هذه الطُّموحاتِ، ونحرِمُهم من مستقبلٍ عظيمٍ؛ ولهذا فالكلِمةُ تبني وتهدِمُ، قد تكونُ مصدرَ سعادةٍ وإلهامٍ للناس، وقد تكونُ سببًا أيضًا في إحباطِهم ومَحوِ الأملِ مِن قُلوبِهِم؛ فعلَينا أن نتذَكَّرَ ونحن نتحدَّثُ أو حين نُعبِّرُ  عن آرائنا أن نختارَ كلماتِنا بعنايةٍ، وأن نستخدِمَها للدعمِ والتشجيعِ ونشرِ الخيرِ والمَحبَّةِ، وأن نصمُتَ عن كلِّ كلمةٍ جارحةٍ. "
+            ],
+
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": " الكلمةُ الإيجابيَّةُ قد تساعِدُ في بِناءِ الإنسانِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": " التزامُ الصَّمتِ أفضلُ مِن نُطقِ الكلِماتِ الجارحةِ.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        },
+        {
+            "active": false,
+            "title": "ضَعْ علامةَ  (✓) أو (✗)",
+            "popuptext": [
+            ],
+            "questionTitle":"ضَعْ علامةَ (✓) أمامَ العباراتِ المُحفِّزةِ، وعلامةَ (✗) أمامَ العباراتِ الجارِحةِ:",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "paragraph": "لقد ازدادَ وزنُكَ مُؤخَّرًا.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "paragraph": " أثِقُ تمامًا بقُدراتِك. ",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "paragraph": "اصبِرْ؛ فالأشياءُ الرائعةُ تستغْرِقُ وقتًا.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "paragraph": " كنتُ أتوقَّعُ منك أفضلَ من ذلك.",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "paragraph": "هذا جيِّدٌ نظرًا لقُدراتِك!",
+                    "show": false,
+                    "chooseUrl": "",
+                    "result": false,
+                    "close": false,
+                    "type": 1,
+                    "text": false,
+                    "answers": [{
+                            "url": [
+                                "choose-r",
+                                "true1",
+                                "true2"
+                            ],
+                            "answerSelect": false,
+                            "cheched": false
+                        },
+                        {
+                            "url": [
+                                "choose-l",
+                                "false1",
+                                "false2"
+                            ],
+                            "answerSelect": true,
+                            "cheched": false
+                        }
+                    ]
+                }
+            ],
+
+            "popupQuestion": []
+        }
+    ]
+}]
