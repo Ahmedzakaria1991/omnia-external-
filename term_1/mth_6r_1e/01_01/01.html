@@ -63,6 +63,11 @@
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes1">
                                             {{parag}}&nbsp;
                                         </p>
+                                          <p class="paragraphe" style="margin-left: 2.6vw;" v-if="item.index == 7" v-for="(parag , index) in content.paragraphes2">{{parag}}
+                                        </p>
+                                           <p class="paragraphe" v-if="item.index != 7" v-for="(parag , index) in content.paragraphes2">{{parag}}
+                                        </p>
+                                        <br>
                                         <div class="inputs" :class="{'done' : item.answerUser[0].done}">
 
                                             <div class="in">
@@ -119,8 +124,7 @@
                                                 :class="{'disabled' : item.answerUser[0].help}"></div>
                                         </div>
 
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes2">{{parag}}
-                                        </p>
+                                      
                                     </div>
                                 </div>
                                 <div class="textinput" v-if="item.type === 2">

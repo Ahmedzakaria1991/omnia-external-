@@ -1,314 +1,297 @@
 [
-    {
-        "nameId": "choose-slide",
-        "title": "",
-        "finshedChoose": false,
-        "hand": true,
-        "subject": "math-4 eng",
-        "colorTemplate": "#AAD1EA",
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
-        ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popuptext": "",
-        "popup": "",
-        "passageHand": true,
-        "chooseSlide": [
-            {
-                "active": true,
-                "title": "Choose the correct answer ",
-                "popuptext": [
-                   
-                ],
-                "qtitle":"",
-                "quizChooses": [
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["The mode of the data set 7, 3, 5, 3, 3 is ......"],
-                        "correctAnswer": [
-                           3
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"9",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "7",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "5",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["........... = Largest value - Smallest value "],
-                        "correctAnswer": [
-                           4
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"The mean",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "The mode",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose":"The median",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "The range",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": [" From the dot plot, the Balance point is: ......."],
-                        "correctAnswer": [
-                            1
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"../images/q33.png",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"4",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "5",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose":"14",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["The mean of the values 4, 9, 7, 8, , 12 is ........"],
-                        "correctAnswer": [
-                            4
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"2",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "3",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "4",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "8",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": [".... = " ],
-                        "up":"Sum of values",
-                        "down":"𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑡ℎ𝑒𝑠𝑒 𝑣𝑎𝑙𝑢𝑒𝑠",
-                        "correctAnswer": [
-                           1
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"The mean",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "The mode",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "The median",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "The data set",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
+  {
+    "nameId": "choose-slide",
+    "title": "",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer ",
+        "popuptext": [],
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["The mode of the data set 7, 3, 5, 3, 3 is ......"],
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "9",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "7",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["........... = Largest value - Smallest value "],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "The mean",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "The mode",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "The median",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "The range",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [" From the dot plot, the Balance point is: ......."],
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "../images/q33.png",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "14",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ["The mean of the values 4, 9, 7, 8, 12 is ........"],
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "8",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [".... = "],
+            "up": "Sum of values",
+            "down": "𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑡ℎ𝑒𝑠𝑒 𝑣𝑎𝑙𝑢𝑒𝑠",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "The mean",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "The mode",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "The median",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "The data set",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
 
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["The range of a data set with a maximum value of 48 and a minimum value of 32 is ............"],
-                        "correctAnswer": [
-                            2
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"20",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "16",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "80",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "15",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "popup": "",
-                        "paragraph": ["The outlier on the number line is ......."],
-                        "correctAnswer": [
-                            2
-                        ],
-                        "answerSelect": false,
-                        "counter": 0,
-                        "type": 1,
-                        "img":"../images/q44.png",
-                        "answers": [
-                            {
-                                "numAnswer": 1,
-                                "toChoose":"190",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 2,
-                                "toChoose": "310",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 3,
-                                "toChoose": "230",
-                                "right": false,
-                                "checked": false
-                            },
-                            {
-                                "numAnswer": 4,
-                                "toChoose": "200",
-                                "right": false,
-                                "checked": false
-                            }
-                        ]
-                    }
-              
-                ],
-                "popupQuestion": [
-                    {
-                        "id": 0,
-                        "index": "4",
-                        "paragraph": "",
-                        "popup": [],
-                        "isActive": null
-                    }
-                ]
-            }
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": [
+              "The range of a data set with a maximum value of 48 and a minimum value of 32 is ............"
+            ],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "20",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "16",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "80",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "15",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "popup": "",
+            "paragraph": ["The outlier on the number line is ......."],
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "img": "../images/q44.png",
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "190",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "310",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "230",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "200",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

@@ -24,7 +24,8 @@
         "title": "Complete the following",
         "popuptext": [""],
         "qtitle": " ",
-        "items": [{
+        "items": [
+            {
                 "id": 1,
                 "type": 2,
                 "index": "1",
@@ -105,7 +106,7 @@
                 "img": "",
                 "contents": [{
                     "paragraphes1": [
-                        "The greatest negative integer that satisfies the inequality x  >  -3  ", "is"
+                        "The greatest negative integer that satisfies the inequality x  >  -3  is"
                     ],
                     "paragraphes2": [
                         ""
@@ -178,7 +179,7 @@
                     "paragraphes1": [
                         "An "
                     ],
-                    "paragraphes2": ["is a mathematicalsentencethat contains > , <, ≥ or ≤"],
+                    "paragraphes2": ["is a mathematical sentence that contains > , <, ≥ or ≤"],
                     "paragraphes3": [
                         ""
                     ],
@@ -271,10 +272,10 @@
                             "numperofinput": 1,
                             "comma": "",
                             "valid": [
-                                "2x>3","2x >3","2x > 3"
+                                "2x>6","2x >6","2x > 6"
                             ],
                             "show": [
-                                "2x>3"
+                                "2x>6"
                             ]
                         },
                         {

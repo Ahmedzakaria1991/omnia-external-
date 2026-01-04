@@ -119,6 +119,8 @@
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes1"
                                             v-html="parag">
                                         </p>
+                                                                                <div class="break"></div>
+
                                         <div class="inputs" :class="{'done' : item.answerUser[0].done}">
 
                                             <div class="in">
@@ -187,7 +189,7 @@
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes1"
                                             v-html="parag">
                                         </p>
-                                    
+                                    <div class="break"></div>
                                         <div class="inputs" :class="{'done' : item.answerUser[0].done}"
                                             v-if="content.inputtype2[0].numperofinput !== 0">
                                             <div class="in">

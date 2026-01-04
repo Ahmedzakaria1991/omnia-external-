@@ -672,7 +672,8 @@
               {
                 "paragraphes1": ["The smallest positive integer is "],
                 "paragraphes2": [""],
-                "paragraphes3": [". While the greatest negative integer is"],
+                "paragraphes3": [". While the greatest negative integer "],
+                "paragraphes4": [" is"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -873,7 +874,7 @@
             "diraction": true,
             "contents": [
               {
-                "paragraphes1": ["The integer which comes just before - 5 is …………"],
+                "paragraphes1": ["The integer which comes just before - 5 is"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -959,7 +960,7 @@
       {
         "active": false,
         "title": "Complete the following",
-        "qtitle": "Write the integer that immediately precedes each of the following numbers: ",
+        "qtitle": "Write the integer that comes just before each of the following numbers: ",
         "popuptext": [],
         "arrow": true,
         "items": [
@@ -1130,7 +1131,7 @@
       {
         "active": false,
         "title": "Complete the following",
-        "qtitle": " Write the integer that immediately follows each of the following numbers:",
+        "qtitle": " Write the integer that comes just after  each of the following numbers:",
         "popuptext": [],
         "arrow": true,
         "items": [

@@ -21,7 +21,7 @@
     "inputSlide": [
       {
         "active": true,
-        "title":"Find the value of each",
+        "title": "Find the value of each",
         "popuptext": [],
         "ltr": true,
         "items": [
@@ -30,7 +30,9 @@
             "type": 1,
             "contents": [
               {
-                "paragraph": ["The algebraic expression 3m + 9 + 5k consists of "],
+                "paragraph": [
+                  "The algebraic expression 3m + 9 + 5k consists of "
+                ],
                 "paragraphes2": [" terms."],
                 "inputtype": [
                   {
@@ -66,7 +68,9 @@
             "type": 1,
             "contents": [
               {
-                "paragraph": ["The number of terms in the algebraic expression f + e is"],
+                "paragraph": [
+                  "The number of terms in the algebraic expression f + e is"
+                ],
                 "paragraphes2": ["."],
                 "inputtype": [
                   {
@@ -102,7 +106,9 @@
             "type": 1,
             "contents": [
               {
-                "paragraphes1": ["The terms of the algebraic expression 2m + 5 are"],
+                "paragraphes1": [
+                  "The terms of the algebraic expression 2m + 5 are"
+                ],
                 "paragraphes2": [""],
                 "paragraphes4": ["  "],
                 "inputtype": [
@@ -110,8 +116,8 @@
                     "length": 0,
                     "numperofinput": 2,
                     "comma": ",",
-                    "valid": ["2m","5"],
-                    "show": ["2m","5"]
+                    "valid": ["2m", "5"],
+                    "show": ["2m", "5"]
                   }
                 ],
                 "inputtype2": [
@@ -196,7 +202,7 @@
                   {
                     "length": 0,
                     "numperofinput": 2,
-                    "comma": " ، ",
+                    "comma": " , ",
                     "valid": ["5m", "7m"],
                     "show": ["5m", "7m"]
                   }
@@ -226,7 +232,9 @@
             "type": 1,
             "contents": [
               {
-                "paragraph": ["The coefficient in the algebraic expression n + 3 is "],
+                "paragraph": [
+                  "The coefficient in the algebraic expression n + 3 is "
+                ],
                 "paragraphes2": [""],
                 "inputtype": [
                   {
@@ -262,13 +270,15 @@
             "type": 1,
             "contents": [
               {
-                "paragraph": ["The constants in the algebraic expression 5a + 1 + 8a + 7 are "],
+                "paragraph": [
+                  "The constants in the algebraic expression 5a + 1 + 8a + 7 are "
+                ],
                 "paragraphes2": [""],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 2,
-                    "comma": "،",
+                    "comma": ",",
                     "valid": ["1", "7"],
                     "show": ["1", "7"]
                   }
@@ -300,7 +310,9 @@
             "contents": [
               {
                 "paragraphes1": ["The expression 3 + 4 is classified as"],
-                "paragraphes2": [", while the expression m + 3 is classified as"],
+                "paragraphes2": [
+                  ", while the expression m + 3 is classified as"
+                ],
                 "paragraphes4": ["."],
                 "inputtype": [
                   {
@@ -316,8 +328,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["Numeric expressions"],
-                    "show": ["Numeric expressions"]
+                    "valid": ["Numeric Expression", "numeric expression"],
+                    "show": ["Numeric Expression"]
                   },
                   {
                     "length": 0,
@@ -368,9 +380,8 @@
               {
                 "paragraph": [
                   "The number of terms in the algebraic expression 6x + 3n + 1",
-                 
+
                   "&nbsp; &nbsp;is"
-                 
                 ],
                 "paragraphes2": [" terms."],
                 "inputtype": [
@@ -409,7 +420,6 @@
               {
                 "paragraph": [
                   "The constant term in the algebraic expression 2m + 4 is"
-                
                 ],
                 "paragraphes2": [""],
                 "inputtype": [
@@ -448,7 +458,6 @@
               {
                 "paragraph": [
                   "The coefficients in the algebraic expression m + 42 + 3n - 8 are "
-                 
                 ],
                 "paragraphes2": [""],
                 "inputtype": [
@@ -487,7 +496,6 @@
               {
                 "paragraph": [
                   "The like terms in the algebraic expression m + 3 + x + 7 are"
-                
                 ],
                 "paragraphes2": [""],
                 "inputtype": [
@@ -526,14 +534,13 @@
               {
                 "paragraph": [
                   "The constant term in the algebraic expression 2x + 4y + 3 is "
-                  
                 ],
                 "paragraphes2": [""],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 1,
-                    "comma": "،",
+                    "comma": ",",
                     "valid": ["3"],
                     "show": ["3"]
                   }
@@ -564,9 +571,9 @@
             "contents": [
               {
                 "paragraph": [
-                  "The like terms in the algebraic expression 3x + 5x + 4x + 2 are "
-                 
+                  "The like terms in the algebraic expression 3x + 5x + 4x + 2 "
                 ],
+                "paragraph11": ["are"],
 
                 "paragraphes2": [""],
                 "inputtype": [
@@ -574,14 +581,15 @@
                     "length": 0,
                     "numperofinput": 3,
                     "comma": ",  ",
-                    "valid": ["3𝑥", "5𝑥","4𝑥"],
-                    "show": ["3𝑥", "5𝑥","4𝑥"]
+                    "valid": ["3𝑥", "5𝑥", "4𝑥" ,"4x " ,"5x" , "3x"],
+                    "show": ["3𝑥", "5𝑥", "4𝑥"]
                   }
+                  
                 ],
                 "inputtype2": [
                   {
                     "length": 0,
-                    "numperofinput": 0,
+                    "numperofinput": 3,
                     "comma": "",
                     "valid": [],
                     "show": []
@@ -597,8 +605,7 @@
                 "done": false
               }
             ]
-          } 
-          ,
+          },
           {
             "id": 1,
             "type": 1,
@@ -606,7 +613,6 @@
               {
                 "paragraph": [
                   "The coefficient in the algebraic expression W + 0.3 is "
-           
                 ],
 
                 "paragraphes2": [""],
@@ -638,8 +644,7 @@
                 "done": false
               }
             ]
-          } 
-          ,
+          },
           {
             "id": 1,
             "type": 1,
@@ -647,7 +652,6 @@
               {
                 "paragraph": [
                   "The like terms in the algebraic expression n + 4 + h + 7 are "
-               
                 ],
 
                 "paragraphes2": [""],
@@ -656,8 +660,8 @@
                     "length": 0,
                     "numperofinput": 2,
                     "comma": ",",
-                    "valid": ["7","4"],
-                    "show": ["7","4"]
+                    "valid": ["7", "4"],
+                    "show": ["7", "4"]
                   }
                 ],
                 "inputtype2": [
@@ -679,7 +683,7 @@
                 "done": false
               }
             ]
-          } 
+          }
         ],
         "popupQuestion": [
           {
@@ -1151,7 +1155,7 @@
                 "paragraph": " A video game arcade uses both tickets and paper bills of different denominations. Suppose you have an equal number of two types of bills, 10-dollar bills, and 20-dollar bills. Then, you got 250 more tickets, each worth 1 dollar. This situation can be represented algebraically by the expression 20x + 10x + 250, where x represents the number of paper bills.",
                 "paragraph1": "Algebraic Expression ",
                 "numbers": ["Like Terms", " Constants", "Coefficients"],
-                "paragraph2": ["250 , 20𝑥 , 10𝑥"],
+                "paragraph2": ["20𝑥 + 10𝑥 + 250"],
                 "paragraphright1": "  10𝑥,",
                 "paragraphcenter1": "",
                 "paragraphleft1": "20 ,",

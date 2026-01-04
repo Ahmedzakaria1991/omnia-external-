@@ -39,15 +39,16 @@
                                     "Situation: 4 movie tickets cost 10 pounds."
                                 ],
                                 "paragraphes1": [
-                                    "The price of one ticket (in pounds): 10 ÷ 4 = 2.5"
+                                    "The price of one ticket (in pounds): "
                                 ],
                                 "paragraphes2": [
-                                    "The equation: y = 2.5x"
+                                    "The equation: y = "
                                 ],
                                 "paragraphes3": [
+                                    ""
                                 ],
-                                "equal":[""],
-                                "div":[""],
+                                  "equal":["="],
+                                "div":["÷"],
                                 
                                 "inputtype": [
                                     {
@@ -65,46 +66,46 @@
                                 "inputtype2": [
                                     {
                                         "length": 0,
-                                        "numperofinput": 0,
+                                        "numperofinput": 1,
                                         "comma": "",
                                         "valid": [
-                                           ""
+                                           "10"
                                         ],
                                         "show": [
-                                           ""
+                                           "10"
                                         ]
                                     },
                                     {
                                         "length": 0,
-                                        "numperofinput": 0,
+                                        "numperofinput": 1,
                                         "comma": "",
                                         "valid": [
-                                           ""
+                                           "4"
                                         ],
                                         "show": [
-                                           ""
+                                           "4"
                                         ]
                                     },
                                     {
                                         "length": 0,
-                                        "numperofinput": 0,
+                                        "numperofinput": 1,
                                         "comma": "",
                                         "valid": [
-                                           ""
+                                           " 2.5"
                                         ],
                                         "show": [
-                                           ""
+                                           " 2.5"
                                         ]
                                     },
                                     {
                                         "length": 0,
-                                        "numperofinput": 0,
+                                        "numperofinput": 1,
                                         "comma": "",
                                         "valid": [
-                                           ""
+                                           "2.5x" , "2.5 x"
                                         ],
                                         "show": [
-                                           ""
+                                           "2.5x"
                                         ]
                                     }
                                 ]
@@ -145,6 +146,7 @@
                             }
                         ]
                     },
+                  
                     {
                         "id": 1,
                         "type": 2,

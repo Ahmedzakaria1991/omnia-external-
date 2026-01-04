@@ -145,12 +145,17 @@
 
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes1"
                                             v-html="parag">
+                                        
                                         </p>
+                                       
                                         <div class="arrow" v-if="slide.arrow">
                                             <img src="../../../assets/images/arrow.png" alt="">
                                         </div>
+                                        
                                         <div class="inputs" :class="{'done' : item.answerUser[0].done}">
-
+ <p class="paragraphe" v-for="(parag , index) in content.paragraphes11"
+                                            v-html="parag">
+                                        </p>
                                             <div class="in">
                                                 <div class="check-input" :class="{'show' : item.answerUser[0].help}">
                                                     <input @focus="inputfocus" :disabled="item.answerUser[0].help"

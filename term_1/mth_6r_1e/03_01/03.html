@@ -17,6 +17,11 @@
             display: flex;
             justify-content: center;
         }
+  @media (orientation: landscape) {
+    body .general .fraction, body .general .dividing {
+        width: 9vw !important;
+    }
+}
 
         .image-container .image {
             width: 35vw;
@@ -85,8 +90,9 @@
 
 
                                 <div class="textinput" v-if="item.type === 1">
-                                    <span class="icon-index">{{i+1}}</span>
                                     <div class='question'>
+                                                                            <span class="icon-index">{{i+1}}</span>
+
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes1">
                                             {{parag}}
                                         </p>
@@ -169,8 +175,8 @@
                                     </div>
                                 </div>
                                 <div class="textinput" v-if="item.type === 2 && !item.fractionq">
-                                    <span class="icon-index">{{i+1}}</span>
                                     <div class='question'>
+                                    <span class="icon-index">{{i+1}}</span>
 
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes1">
                                             {{parag}}
@@ -248,8 +254,8 @@
                                 </div>
 
                                 <div class="textinput" v-if="item.type === 2 && item.fractionq && item.id == 1">
-                                    <span class="icon-index">{{i+1}}</span>
                                     <div class='question'>
+                                    <span class="icon-index">{{i+1}}</span>
 
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes">
                                             {{parag}}
@@ -314,8 +320,8 @@
                                     </div>
                                 </div>
                                 <div class="textinput" v-if="item.type === 2 && item.fractionq && item.id == 3">
-                                    <span class="icon-index">{{i+1}}</span>
                                     <div class='question'>
+                                    <span class="icon-index">{{i+1}}</span>
 
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes">
                                             {{parag}}
@@ -381,8 +387,8 @@
                                     </div>
                                 </div>
                                 <div class="textinput" v-if="item.type === 2 && item.fractionq && item.id != 1 && item.id != 3">
-                                    <span class="icon-index">{{i+1}}</span>
                                     <div class='question'>
+                                    <span class="icon-index">{{i+1}}</span>
 
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes">
                                             {{parag}}

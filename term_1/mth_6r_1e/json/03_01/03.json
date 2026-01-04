@@ -103,7 +103,9 @@
             "type": 1,
             "contents": [
               {
-                "paragraphes1": ["The number -28 does not belong to the set of "],
+                "paragraphes1": [
+                  "The number -28 does not belong to the set of "
+                ],
                 "paragraphes2": ["numbers."],
                 "inputtype": [
                   {
@@ -140,7 +142,10 @@
             "contents": [
               {
                 "paragraphes1": ["The set of "],
-                "paragraphes2": ["numbers is a subset ","of the set of integers"],
+                "paragraphes2": [
+                  "numbers is a subset ",
+                  "of the set of integers"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -176,7 +181,10 @@
             "contents": [
               {
                 "paragraphes1": ["The set of "],
-                "paragraphes2": [" numbers is not a subset ","of the set of integers."],
+                "paragraphes2": [
+                  " numbers is not a subset ",
+                  "of the set of integers."
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -225,19 +233,18 @@
                   }
                 ],
                 "inputtype2": [
-                  
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["rational"],
+                    "valid": ["rational", "integers"],
                     "show": ["rational"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["integers"],
+                    "valid": ["integers", "rational"],
                     "show": ["integers"]
                   }
                 ]
@@ -317,9 +324,7 @@
             "contents": [
               {
                 "paragraphes1": ["  8.2 "],
-                "paragraphes2": [
-                  " the set of integers."
-                ],
+                "paragraphes2": [" the set of integers."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -391,7 +396,7 @@
             "contents": [
               {
                 "paragraphes1": ["The set of natural numbers "],
-                "paragraphes2": [" the  "," set of integers."],
+                "paragraphes2": [" the  ", " set of integers."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -427,7 +432,7 @@
             "contents": [
               {
                 "paragraphes1": [" The set of integers  "],
-                "paragraphes2": [" the set of ","rational numbers."],
+                "paragraphes2": [" the set of ", "rational numbers."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -463,7 +468,7 @@
             "contents": [
               {
                 "paragraphes1": ["The set of counting numbers  "],
-                "paragraphes2": [" the set ","of natural numbers."],
+                "paragraphes2": [" the set ", "of natural numbers."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -544,7 +549,7 @@
       {
         "active": false,
         "title": "Complete the following",
-        "qtitle": " ",
+        "qtitle": "",
 
         "popuptext": [],
         "items": [
@@ -614,7 +619,9 @@
                 "paragraphes1": [""],
                 "up1": "19",
                 "down1": "b",
-                "paragraphes2": ["is a rational number, if the ","value of b is not equal to"],
+                "paragraphes2": [
+                  "is a rational number, if the value of b is not equal to"
+                ],
                 "paragraphes3": [""],
                 "up2": "",
                 "down2": "",
@@ -721,10 +728,10 @@
             "contents": [
               {
                 "paragraphes": [" 0.75 in the form  "],
-                "paragraphes1": [""],
+                "paragraphes1": ["is"],
                 "up1": "a",
                 "down1": "b",
-                "paragraphes2": ["is"],
+                "paragraphes2": [""],
                 "paragraphes3": [""],
 
                 "inputtype": [
@@ -741,15 +748,15 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["75"],
-                    "show": ["75"]
+                    "valid": ["3"],
+                    "show": ["3"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["100"],
-                    "show": ["100"]
+                    "valid": ["4"],
+                    "show": ["4"]
                   }
                 ]
               }
@@ -775,7 +782,7 @@
             "fractionq": true,
             "contents": [
               {
-                "paragraphes": ["The number 1"],
+                "paragraphes": ["The number   1"],
                 "paragraphes1": [""],
                 "up1": "2",
                 "down1": "5",

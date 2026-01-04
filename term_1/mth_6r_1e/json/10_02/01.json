@@ -19,7 +19,8 @@
     "popuptext": "",
     "popup": "",
     "passageHand": true,
-    "inputSlide": [{
+    "inputSlide": [
+        {
             "active": true,
             "title": "Find the mode ",
             "popuptext": [""],
@@ -35,7 +36,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "16 ، 11 ، 10 ، 10 ، 8"
+                            "16 , 11 , 10 , 10 , 8"
                         ],
                         "paragraphes2": [
                             ""
@@ -84,7 +85,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "18 ، 15 ، 12 ، 12 ، 8"
+                            "18 , 15 , 12 , 12 , 8"
                         ],
                         "paragraphes2": [
                             ""
@@ -133,7 +134,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "14 ، 14 ، 14 ، 11 ، 11 ، 7 ، 6"
+                            "14 , 14 , 14 , 11 , 11 , 7 , 6"
                         ],
                         "paragraphes2": [
                             ""
@@ -182,7 +183,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "14 ، 13 ، 12 ، 12 ، 9"
+                            "14 , 13 , 12 , 12 , 9"
                         ],
                         "paragraphes2": [
                             ""
@@ -231,7 +232,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "  16 ، 11 ، 10 ، 9 ، 9"
+                            "  16 , 11 , 10 , 9 , 9"
                         ],
                         "paragraphes2": [
                             ""
@@ -280,7 +281,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            " 15 ، 14 ، 14 ، 14 ، 12 ، 8 ، 7"
+                            " 15 , 14 , 14 , 14 , 12 , 8 , 7"
                         ],
                         "paragraphes2": [
                             ""
@@ -330,7 +331,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "15 ، 18 ، 15 ، 12 ، 15 ، 17 ، 14 ، 15 ، 15"
+                            "15 , 18 , 15 , 12 , 15 , 17 , 14 , 15 , 15"
                         ],
                         "paragraphes2": [
                             ""
@@ -379,7 +380,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            " 14 ، 10 ، 10 ، 6 ، 14 ، 5 ، 2 ، 0 ، 1"
+                            " 14 , 10 , 10 , 6 , 14 , 5 , 2 , 0 , 1"
                         ],
                         "paragraphes2": [
                             ""
@@ -428,7 +429,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            " 99 ، 78 ، 54 ، 49 ، 79 ، 88 ، 78 ، 69 ، 76"
+                            " 99 , 78 , 54 , 49 , 79 , 88 , 78 , 69 , 76"
                         ],
                         "paragraphes2": [
                             ""
@@ -477,7 +478,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "5 ، 34 ، 32 ، 34 ، 25 ، 34 ، 12"
+                            "5 , 34 , 32 , 34 , 25 , 34 , 12"
                         ],
                         "paragraphes2": [
                             ""
@@ -526,7 +527,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "19 ، 25 ، 21 ، 19 ، 19 ، 17 ، 14 ، 19 ، 13 ، 12"
+                            "19 , 25 , 21 , 19 , 19 , 17 , 14 , 19 , 13 , 12"
                         ],
                         "paragraphes2": [
                             ""
@@ -575,7 +576,7 @@
                     "contents": [{
                         "paragraphes": [],
                         "paragraphes1r": [
-                            "14 ، 17 ، 19 ، 21 ، 22 ، 27 ، 29 ، 31"
+                            "14 , 17 , 19 , 21 , 22 , 27 , 29 , 31"
                         ],
                         "paragraphes2": [
                             ""
@@ -588,10 +589,10 @@
                             "numperofinput": 1,
                             "comma": "",
                             "valid": [
-                                "لا يوجد"
+                                "Does not exist"
                             ],
                             "show": [
-                                "لا يوجد"
+                                "Does not exist"
                             ]
                         }],
                         "inputtype2": [{
@@ -1315,7 +1316,7 @@
                     "img": "",
                     "contents": [{
                         "paragraphes": [
-                            " 67 ، 55 ، 70 ، 6 ، 70 ، 58 ، 81 ، 80 ، 63 ، 77 ، 66"
+                            " 67 , 55 , 70 , 6 , 70 , 58 , 81 , 80 , 63 , 77 , 66"
                         ],
                         "paragraphes1": [
                             "The outlier:"
@@ -1441,7 +1442,7 @@
         },
         {
             "active": false,
-            "title": "أكمل مايلي",
+            "title": "Complete The Following",
             "popuptext": [""],
             "qtitle": "Identify the outlier from the following data, and find the mean with and without the outlier. Then describe how this value affects the mean using: (increases - decreases - stays the same)",
             "img": "",
@@ -1909,7 +1910,8 @@
                 "isActive": null
             }],
             "pop": ""
-        }, {
+        }, 
+        {
             "active": false,
             "title": "Complete the following ",
             "popuptext": [""],
@@ -2147,10 +2149,10 @@
                             "numperofinput": 1,
                             "comma": "",
                             "valid": [
-                                "يقلل"
+                                "Decreases"
                             ],
                             "show": [
-                                "يقلل"
+                                "Decreases"
                             ]
                         }],
                         "inputtype2": [{

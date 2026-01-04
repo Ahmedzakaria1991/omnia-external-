@@ -1,400 +1,312 @@
 [
-    {
-        "nameId": "",
-        "title": "",
-        "subject": "math-4 eng",
-        "colorTemplate": "#8388C6",
-        "counterFinished": 0,
-        "inputCounter": 0,
-        "hand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "qtitle": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["An"],
+                "paragraphes2": [
+                  "variable is a variable whose value is not determined by any ",
+                  "other variable."
+                ],
+                "paragraphes3": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["independent"],
+                    "show": ["independent"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "If x and y are variables, and x is an independent variable, ",
+                  "then the equation ",
+                  "that represents the rule \"multiply by 6, ",
+                  "then add 3\" is: y ="
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "+",
+                    "valid": ["6x", "3"],
+                    "show": ["6x", "3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": ["The"],
+                "paragraphes2": [
+                  "variable is the variable that changes according to the value",
+                  " of the independent variable."
+                ],
+                "paragraphes3": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["dependent"],
+                    "show": ["dependent"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "If x and y are variables, and x is an independent variable, ",
+                  "then the equation that  ",
+                  "represents the rule \"Add 3\" is: y = "
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "+",
+                    "valid": ["3", "x"],
+                    "show": ["3", "x"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "5",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "If t = 4r, where t is the total number of tickets, and r is the number of rides, ",
+                  "then the number of tickets needed for 5 rides is ="
+                ],
+                "paragraphes2": ["tickets."],
+                "paragraphes3": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "6",
+            "questionnumber": 1,
+            "img": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Mohamed bought 6 balls for 30 Egyptian pounds. If x  ",
+                  " &nbsp represents the number of balls,  and ",
+                  " y represents the total cost, ",
+                  "then the equation that represents this situation is y = "
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [""],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["5x"],
+                    "show": ["5x"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popuptext": "",
-        "popup": "",
-        "passageHand": true,
-        "inputSlide": [
-            {
-                "active": true,
-                "title": "Complete the following",
-                "popuptext": [""],
-                "qtitle":"",
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "1",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "An"
-                                ],
-                                "paragraphes2": [
-                                    "variable is a variable whose value is not ","determined by any ","other variable."
-                                ],
-                                "paragraphes3": [
-                                    ""
-                                ],
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "independent"
-                                        ],
-                                        "show": [
-                                            "independent"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "2",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                  "If x and y are variables, and x is an independent variable, ",
-                                  "then the equation ","that represents the rule \"multiply by 6, ","then add 3\" is: y ="
-                                ],
-                                "paragraphes2": [
-                                    
-                                ],
-                                "paragraphes3": [
-                                    ""
-                                ],
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 2,
-                                        "comma": "+",
-                                        "valid": [
-                                        ],
-                                        "show": [
-                                            "6x", "3"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "3",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                   "The"
-                                ],
-                                "paragraphes2": [
-                                    "variable is the variable that changes  ","according to the value"," of the independent variable."
-                                ],
-                                "paragraphes3": [
-                                    ""
-                                ],
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "dependent"
-                                        ],
-                                        "show": [
-                                            "dependent"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "4",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                  "If x and y are variables, and x is an independent variable, ",
-                                  "then the equation that  ","represents the rule \"Add 3\" is: y = "
-                                 
-                                ],
-                                "paragraphes2": [
-                            
-                                ],
-                                "paragraphes3": [
-                                    ""
-                                ],
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 2,
-                                        "comma": "+",
-                                        "valid": [
-                                            "3","x"
-                                        ],
-                                        "show": [
-                                            "3","x"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "5",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                  "If t = 4r, where t is the total number of tickets, and r is the ",
-                                  "number of rides, ","then the number of tickets needed ",
-                                  "for 5 rides is ="
-                                ],
-                                "paragraphes2": [
-                                    "tickets."
-                                ],
-                                "paragraphes3": [
-                                    ""
-                                ],
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "20"
-                                        ],
-                                        "show": [
-                                            "20"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "6",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                 "Mohamed bought 6 balls for 30 Egyptian pounds. If x  "
-                                 ," &nbsp represents the number of balls,  and "," y represents the total cost, ",    "then the equation that represents "," this situation is y = "
-                                ],
-                                "paragraphes2": [
-                                   
-                                ],
-                                "paragraphes3": [
-                                    ""
-                                ],
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "5x"
-                                        ],
-                                        "show": [
-                                            "5x"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-                ],
-                "popupQuestion": [
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "",
-                        "paragraph": "",
-                        "popup": [
-                            ""
-                        ],
-                        "isActive": null
-                    }
-                ],
-                "pop": ""
-            }
-        ]
-    }
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
 ]

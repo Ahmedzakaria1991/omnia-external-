@@ -181,14 +181,23 @@
                                                         :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help, 'resize': content.resizeInput,
                                     ['w' + content.inputtype2[0].length+ 'length'] : content.inputtype2[0].length != 0}" v-model="item.answerUser[0].answer[0]">
                                                 </div>
-                                                <div class="answer" data-content="1" @click="showAnswer(item)"
+                                                  <p class="paragraphe" style="margin: 0 0vh 6vh 1vh;" v-for="(parag , index) in content.paragraphes22"
+                                            v-html="parag">
+                                          
+                                        </p>
+                                                        <div class="answer" data-content="1" @click="showAnswer(item)"
                                                     :class="{'disabled' : item.answerUser[0].help}"></div>
+  
+
+                                          
                                             </div>
                                         </div>
-
-                                        <p class="paragraphe" v-for="(parag , index) in content.paragraphes2"
+                                        <p class="paragraphe"  v-for="(parag , index) in content.paragraphes2"
                                             v-html="parag">
+                                          
                                         </p>
+
+                                      
                                         <div class="break"></div>
                                         <p class="paragraphe" v-for="(parag , index) in content.paragraphes3"
                                             v-html="parag">

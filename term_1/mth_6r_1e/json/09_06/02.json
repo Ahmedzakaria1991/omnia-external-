@@ -285,68 +285,11 @@
                             }
                         ]
                     },
+            
                     {
                         "id": 1,
                         "type": 1,
                         "index": "2",
-                        "questionnumber":1,
-                        "img":"",
-                        "contents": [
-                            {
-                                "paragraphes": [
-                                ],
-                                "paragraphes1": [
-                                   ""
-                                ],
-                                "paragraphes2": [
-                                    "is the difference between the greatest value and smallest value in a set of values. "
-                                ],
-                               
-                                
-                                
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "Range"
-                                        ],
-                                        "show": [
-                                            "Range"
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                           ""
-                                        ],
-                                        "show": [
-                                           ""
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "type": 1,
-                        "index": "3",
                         "questionnumber":1,
                         "img":"",
                         "contents": [
@@ -404,7 +347,7 @@
                     {
                         "id": 1,
                         "type": 2,
-                        "index": "4",
+                        "index": "3",
                         "questionnumber":1,
                         "img":"",
                         "contents": [
@@ -415,7 +358,7 @@
                                     "The favorite hobby is a "
                                 ],
                                 "paragraphes2": [
-                                    "data, while the ","number of working hours is"
+                                    "data, while The number of working hours is"
                                 ],
                                 "paragraphes3": [
                                     "data."
