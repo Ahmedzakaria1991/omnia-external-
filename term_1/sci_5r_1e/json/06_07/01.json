@@ -41,8 +41,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["thermal energy"],
-                    "show": ["thermal energy"]
+                    "valid": ["thermal energy" , "heat energy "],
+                    "show": ["thermal energy","heat energy"]
                   }
                 ],
                 "inputtype2": [
@@ -74,7 +74,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "The foul odor of meat when it spoils is evidence of a "
+                  "The bad odor of meat when it spoils is evidence of a "
                 ],
                 "paragraphes2": [" change."],
                 "inputtype": [
@@ -153,15 +153,15 @@
             "break": false,
             "contents": [
               {
-                "paragraphes1": ["When a substance absorbs light energy or ,"],
+                "paragraphes1": ["When a substance absorbs light energy or "],
                 "paragraphes2": ["energy, its particles move faster."],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["thermal"],
-                    "show": ["thermal"]
+                    "valid": ["thermal","heat"],
+                    "show": ["thermal","heat"]
                   }
                 ],
                 "inputtype2": [
@@ -234,7 +234,7 @@
             "contents": [
               {
                 "paragraphes1": ["Freezing orange juice is considered a"],
-                "paragraphes2": [". "],
+                "paragraphes2": ["change. "],
                 "inputtype": [
                   {
                     "length": 0,
@@ -291,8 +291,8 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "The water droplets that are formed on the cover",
-                  "of the pot",
+                  "The water droplets that are formed on the ",
+                  "pot lid",
                   "are a result of the process of "
                 ],
                 "paragraphes2": ["."],
@@ -334,7 +334,7 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "The change in shape that happened in the picture is  ",
+                  "The change that happened in the picture is  ",
                   "considered a "
                 ],
                 "paragraphes2": ["."],

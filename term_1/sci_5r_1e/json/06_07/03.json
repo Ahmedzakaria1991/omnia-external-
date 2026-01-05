@@ -246,7 +246,7 @@
           },
           {
             "id": 11,
-            "paragraph": "The process of filtration is used to separate different materials, based on the difference in the size of their particles.",
+            "paragraph": "The process of filtration is used to separate solid materials, that are not dissolved in a liquid.",
             "show": false,
             "chooseUrl": "",
             "result": false,
@@ -278,12 +278,12 @@
             "answers": [
               {
                 "url": ["choose-r", "true1", "true2"],
-                "answerSelect": false,
+                "answerSelect": true,
                 "cheched": false
               },
               {
                 "url": ["choose-l", "false1", "false2"],
-                "answerSelect": true,
+                "answerSelect": false,
                 "cheched": false
               }
             ]

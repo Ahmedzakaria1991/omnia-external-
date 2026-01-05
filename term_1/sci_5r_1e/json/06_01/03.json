@@ -25,7 +25,7 @@
         "quizChooses": [
           {
             "id": 1,
-            "paragraph": " When 5 kilograms of ice are frozen  its mass increases.",
+            "paragraph": " When 5 kilograms of ice cream freeze ,their mass increase.",
             "show": false,
             "chooseUrl": "",
             "result": false,
@@ -92,7 +92,7 @@
           },
           {
             "id": 4,
-            "paragraph": "The temperature of a substance decreases if the speed of its particles' motion decreases.",
+            "paragraph": "The temperature of a substance decreases if the speed of its particles decreases.",
             "show": false,
             "chooseUrl": "",
             "result": false,
@@ -108,29 +108,6 @@
               {
                 "url": ["choose-l", "false1", "false2"],
                 "answerSelect": false,
-                "cheched": false
-              }
-            ]
-          },
-
-          {
-            "id": 4,
-            "paragraph": "The temperature of a substance decreases if the speed of its particles' motion decreases.",
-            "show": false,
-            "chooseUrl": "",
-            "result": false,
-            "close": false,
-            "type": 1,
-            "text": false,
-            "answers": [
-              {
-                "url": ["choose-r", "true1", "true2"],
-                "answerSelect": false,
-                "cheched": false
-              },
-              {
-                "url": ["choose-l", "false1", "false2"],
-                "answerSelect": true,
                 "cheched": false
               }
             ]
