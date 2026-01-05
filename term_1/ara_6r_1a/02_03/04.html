@@ -132,7 +132,7 @@
                             :class="{'closed' : quiz.answerSelect }">
 
                             <div class="paragraph">
-                                <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                                <span class="icon-index">{{mySlides.questions.length >1 ?  index+1 : '&nbsp'}}</span>
                                 <p class="" v-html="quiz.paragraph" >{{quiz.paragraph}}</p>
                             </div>
                             <div class="mokaly-popup">

@@ -102,10 +102,12 @@
                     </div>
                   </div>
                 </div>
-        <!-- <div class="paragraph" v-if="!quiz.hideParagraph">
-    <span class="icon-index">{{ index + 1 + '&nbsp' }}</span>
+        <div class="paragraph" v-if="!quiz.hideParagraph">
+    <span class="icon-index">
+      {{ quiz.length > 1 ? index + 1 : '&nbsp' }}
+</span>
     <p>{{ quiz.paragraph }}</p>
-</div> -->
+</div>
 
                 <div class="mokaly-popup">
                   <div class="text-block" @click="popupOpen(quiz)">

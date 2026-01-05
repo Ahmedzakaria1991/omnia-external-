@@ -1,84 +1,78 @@
 [
-    {
-        "nameId": "",
-        "subject": "arabic-6",
-        "finshedDrag": false,
-        "colorTemplate": "#3BA5C5",
-        "dragCounter": 0,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
-        ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "title": "اسحبْ وصنِّفِ الكلماتِ وَفقَ جِذرِها اللُّغويِّ",
-        "items": [
-            {
-                "title1":"عقب",
-                "title2": "فعل",
-                "title3": "حمل",
+  {
+    "nameId": "",
+    "subject": "arabic-6",
+    "finshedDrag": false,
+    "colorTemplate": "#3BA5C5",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "title": "اسحبْ وصنِّفِ الكلماتِ وَفقَ جِذرِها اللُّغويِّ",
+    "items": [
+      {
+        "title1": "عقب",
+        "title2": "فعل",
+        "title3": "حمل",
 
-                "drag": [
-                    {
-                        "number": 1,
-                        "word": "عواقب"
-                    },
-                    {
-                        "number":1,
-                        "word":"عاقبة"
-                    },
-                    {
-                        "number": 1,
-                        "word": "عُقُوبة"
-                    },
-                    {
-                        "number":1,
-                        "word":"عِقاب"
-                    },
+        "drag": [
+          {
+            "number": 1,
+            "word": "عواقب"
+          },
+          {
+            "number": 1,
+            "word": "عاقبة"
+          },
+          {
+            "number": 1,
+            "word": "عُقُوبة"
+          },
+          {
+            "number": 1,
+            "word": "عِقاب"
+          },
 
+          {
+            "number": 2,
+            "word": "تفعيل"
+          },
+          {
+            "number": 2,
+            "word": "مَفْعُول"
+          },
+          {
+            "number": 2,
+            "word": "فعَّالة"
+          },
+          {
+            "number": 2,
+            "word": "فاعِل"
+          },
 
-                   
-                    {
-                        "number":2,
-                        "word":"تفعيل"
-                    },
-                    {
-                        "number":2,
-                        "word":"مَفْعُول"
-                    },
-                    {
-                        "number":2,
-                        "word":"فعَّالة"
-                    },
-                    {
-                        "number":2,
-                        "word":"فاعِل"
-                    },
-
-
-
-                    {
-                        "number":3,
-                        "word":"تحمُّل"
-                    },
-                    {
-                        "number":3,
-                        "word":"أَحْمال"
-                    },
-                    {
-                        "number":3,
-                        "word":"مَحْمُول"
-                    },
-                    {
-                        "number":3,
-                        "word":"مُحتمَلة"
-                    }
-                ]
-            }
+          {
+            "number": 3,
+            "word": "تحمُّل"
+          },
+          {
+            "number": 3,
+            "word": "أَحْمال"
+          },
+          {
+            "number": 3,
+            "word": "مَحْمُول"
+          },
+          {
+            "number": 3,
+            "word": "مُحتمَلة"
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

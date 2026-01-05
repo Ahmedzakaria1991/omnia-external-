@@ -70,9 +70,8 @@
                      <div class="paragraph">
     <span 
       class="icon-index" 
-      v-if="quiz.indexShow"
     >
-      {{ index + 1 }}&nbsp;
+      {{mySlides.questions.length >1 ?  index + 1 : "&nbsp;" }}
     </span>
 
     <p v-html="quiz.paragraph"></p>
