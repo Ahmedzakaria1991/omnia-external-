@@ -1,0 +1,63 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-5 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the questions",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "When primary producers die, food webs are disrupted. Mention the reason.",
+            "popup": [
+              "Because they are the only organisms capable of producing their own food, and storing the energy that other living organisms depend on."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "If an oil spill from a ship leads to the death of small fish, what impact does this have on marine birds?",
+            "popup": [
+              "It will either migrate or die as it won't find its food."
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "How do we protect marine organisms from overfishing?",
+            "popup": [
+              "By establishing protected marine environments, and working with fishermen to prevent overfishing."
+            ]
+          },
+          {
+            "id": 4,
+            "paragraph": "There are several human activities that lead to the destruction of habitats of living organisms. Mention one example.",
+            "popup": ["- Dumping waste into seas.", "- Overfishing."]
+          },
+          {
+            "id": 5,
+            "paragraph": "Climate change leads to the migration of small planktons that small fish feed on. What happens to these small fish?",
+            "popup": [
+              "It will either migrate or die as it won't find its food."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

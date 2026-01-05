@@ -1,0 +1,146 @@
+[
+  {
+    "nameId": "DragAndDropRearrange",
+
+    "title": "Arrange the following ",
+    "subject": "science-5 eng",
+    "colorTemplate": "#FF9FB7",
+    "counterFinished": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "dragCounter": 0,
+    "qtitle": "Arrange the following food chains",
+    "droggableBox": [
+      {
+        "items": [
+          {
+            "idNum": [2],
+            "wrod": ["Small fish"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [3],
+            "wrod": ["Sea birds"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [4],
+            "wrod": ["Bacteria"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "firstwrod": [""],
+            "wrod": ["Producer microorganisms"]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [1]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [3]
+          },
+          {
+            "idNum": [4]
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "idNum": [8],
+            "wrod": ["Hawk"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [7],
+            "wrod": ["Snake"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [5],
+            "wrod": ["Wheat plant"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [6],
+            "firstwrod": [""],
+            "wrod": ["Mouse"]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [5]
+          },
+          {
+            "idNum": [6]
+          },
+          {
+            "idNum": [7]
+          },
+          {
+            "idNum": [8]
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "idNum": [13],
+            "wrod": ["Shark"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [9],
+            "wrod": ["Algae"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [11],
+            "wrod": [" Coral reef"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [10],
+            "firstwrod": [""],
+            "wrod": ["Sea plankton"]
+          },
+          {
+            "idNum": [12],
+            "firstwrod": [""],
+            "wrod": [" Butterflyfish"]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [9]
+          },
+          {
+            "idNum": [10]
+          },
+          {
+            "idNum": [11]
+          },
+          {
+            "idNum": [12]
+          },
+          {
+            "idNum": [13]
+          }
+        ]
+      }
+    ]
+  }
+]

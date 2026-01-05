@@ -1,0 +1,608 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-5 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "pop": "",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "inputSlide": [
+      {
+        "active": true,
+        "title": " Complete the following",
+        "img": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Particles in a "
+                  
+                ],
+                "paragraphes2": ["are packed in a neat and ordered arrangement ","that helps the solid maintain its shape."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["solid"],
+                    "show": ["solid"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "You can measure the length of fabric using a"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["measuring tape"],
+                    "show": ["measuring tape"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["A"],
+                "paragraphes2": [
+                  " is considered a similar copy of the real ",
+                  "thing, illustrating its shape."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["model"],
+                    "show": ["model"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "when water is heated  the speed of its particles",
+                  "increases, and it turns into"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["water vapor"],
+                    "show": ["water vapor"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "5",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["Cooking oil is an example of"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["liquids"],
+                    "show": ["liquids"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "6",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["The thermometer is used in measuring the"],
+                "paragraphes2": ["of matter."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["temperature"],
+                    "show": ["temperature"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "7",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["The particles of "],
+                "paragraphes2": ["matter move randomly ", "in all directions."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["gaseous"],
+                    "show": ["gaseous"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 5,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " Complete the following",
+        "img": "../images/04_06/1.jpg",
+        "qtitle": [
+          "Look at the image,  then complete",
+          "The opposite image is a teapot filled with water on a flame:"
+        ],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["The liquid matter is the"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["water"],
+                    "show": ["water"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["The speed of particles of water vapor is"],
+                "paragraphes2": ["than particles of liquid water. "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["faster"],
+                    "show": ["faster"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "A glass pot has a definite shape and a fixed"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["volume"],
+                    "show": ["volume"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 5,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " Complete the following",
+        "img": "../images/04_06/1.png",
+        "qtitle": [
+          "The following images illustrate the distribution of particles in the three different states of matter:"
+        ],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": ["Matter number"],
+                "paragraphes2": ["can spread in space."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "When heating matter number (2), it turns to"
+                ],
+                "paragraphes2": [". "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "arrow": false,
+            "break": false,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "When cooling matter number (1), its particles move"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["slowly"],
+                    "show": ["slowly"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [],
+                    "show": []
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 5,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": ["", ""],
+            "isActive": null
+          }
+        ]
+      }
+    ],
+    "popup": false,
+    "popuptext": ""
+  }
+]

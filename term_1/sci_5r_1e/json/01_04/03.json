@@ -1,0 +1,213 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "science-5 eng",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "pop": "",
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [{
+        "active": true,
+        "title": "Choose (✓) or(✗)",
+        "quizChooses": [{
+                "id": 1,
+                "paragraph": " Flowers are one of the plant parts that do not have a function.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paragraph": "Seeds can grow into a new plant in suitable conditions.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paragraph": "Solar energy from the sun is converted into chemical energy within the plant during photosynthesis.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "paragraph": "Humans obtain energy by consuming and digesting food throughout the day.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "paragraph": "Blood vessels are divided into arteries, veins, and blood capillaries.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "paragraph": "The heart consists of two chambres.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            }
+        ],
+
+        "popupQuestion": [{
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "  ",
+            "quran": "",
+            "popup": [
+
+            ],
+            "isActive": null
+        }]
+    }]
+}]

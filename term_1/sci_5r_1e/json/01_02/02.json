@@ -1,0 +1,262 @@
+[{
+    "nameId": "choose-slide",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "science-5 eng",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "chooseSlide": [
+        {
+            "active": true,
+            "title":  "Choose the correct answer",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": " The growth rate of  seeds in a soil is ….. than their growth rate in a paper towel.",
+                     "correctAnswer": [
+                        1
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "faster",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "smaller",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose": "equals",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "Half",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "The length of the plant's stem increases more effectively when it is planted in .......... .",
+                     "correctAnswer": [
+                        2
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "paper towels",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "soil",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose": "plastic bags",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "closed cup",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "popup": "",
+                    "paragraph": "When planting a group of seeds in a soil and another group in a moist paper towel, we observe on the seventh day that the seeds ......",
+                    "correctAnswer": [
+                      4
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 2,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "didn't germinate in both the soil and the towel",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "germinated in the towel but didn't sprout in the soil",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose": "germinated in the soil but didn't sprout in the paper towel",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "germinated in both the soil and the towel",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                }
+           
+               
+            ],
+            "popupQuestion": [{
+                "id": 2,
+                "type": 3,
+                "index": "",
+                "paragraph": "  ",
+                "quran": "",
+                "popup": [
+                ],
+                "isActive": null
+            }]
+        },
+        {
+            "active": false,
+            "title": "Choose the correct answer",
+            "quizChooses": [
+                {
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "Water is transported from the roots to the upper parts of the plant through the ......",
+                    "correctAnswer": [
+                        1
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "stem",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "leaves",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": "A soil provides the plant with …... to grow and survive.",
+                    "correctAnswer": [
+                        1
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "nutrients",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "sunlight",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "popup": "",
+                    "paragraph": "A plant turns yellow in the ........... .",
+                    "correctAnswer": [
+                      2
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "light",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "dark",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "popup": "",
+                    "paragraph": " The ...... is a basic need of plants to make their food through photosynthesis process.",
+                    "correctAnswer": [
+                      1
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "sunlight",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "soil",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                }
+           
+               
+            ],
+            "popupQuestion": [{
+                "id": 2,
+                "type": 3,
+                "index": "",
+                "paragraph": "  ",
+                "quran": "",
+                "popup": [
+                ],
+                "isActive": null
+            }]
+        }
+      
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

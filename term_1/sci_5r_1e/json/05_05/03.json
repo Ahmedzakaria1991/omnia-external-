@@ -1,0 +1,505 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "science-5 eng",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "pop": "",
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [{
+        "active": true,
+        "title": "Chosse (✓) or (✗)",
+        "quizChooses": [
+            {
+                "id": 1,
+                "paragraph": " Physical properties can be observed using the senses. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paragraph": "The length of a box is measured in liters.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paragraph": "The mass of a metal paperclip is approximately one gram.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "paragraph": "The flammability of wood is one of its physical properties.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+
+            {
+                "id": 5,
+                "paragraph": "Rubber is used in making sports shoes due to its flexibility.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "paragraph": "Sloped surfaces are constructed to allow snow to slide off them in cold environments.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id":7,
+                "paragraph": "When a wire made of iron rusts, this is considered a chemical property.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "paragraph": "Fast-moving particles release more heat energy than slow-moving particles.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "paragraph": "The volume of one liter of water equals 1,000 cm<sup>3</sup>.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "paragraph": "The temperature of matter is not measurable.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "paragraph": " To determine the mass of an object, we use a measuring cup.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "paragraph": "Oranges can be distinguished from apples through color and shape.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "paragraph": "Helium is a non-toxic and non-flammable gas, which is why it is safe to use it for filling balloons. ",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "paragraph": " Chemical properties of a substance can not be seen when there is a big change in them.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "paragraph": "Steel is used in the manufacturing of hammers and screwdrivers, due to its flexibility.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "paragraph": "Copper's ability to be stretched into thin, flexible wires is considered a chemical property.",
+                "show": false,
+                "chooseUrl": "",
+                "result": false,
+                "close": false,
+                "type": 1,
+                "text": false,
+                "answers": [{
+                        "url": [
+                            "choose-r",
+                            "true1",
+                            "true2"
+                        ],
+                        "answerSelect": false,
+                        "cheched": false
+                    },
+                    {
+                        "url": [
+                            "choose-l",
+                            "false1",
+                            "false2"
+                        ],
+                        "answerSelect": true,
+                        "cheched": false
+                    }
+                ]
+            }
+        ],
+
+        "popupQuestion": [{
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "  ",
+            "quran": "",
+            "popup": [
+
+            ],
+            "isActive": null
+        }]
+    }]
+}]

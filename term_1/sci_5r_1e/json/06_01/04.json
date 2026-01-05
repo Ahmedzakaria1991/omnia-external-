@@ -1,0 +1,43 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-5 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Look at the figure, then answer",
+        "isActive": true,
+        "img": "../images/06_01/1.png",
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "What is the name of process (1) that ice goes through?",
+            "popup": ["Melting"]
+          },
+          {
+            "id": 2,
+            "paragraph": " How can you preserve ice in its solid state?",
+            "popup": [
+              "By storing it in the freezer to maintain its temperature."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

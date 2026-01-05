@@ -1,0 +1,229 @@
+[{
+    "nameId": "choose-slide",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "science-5 eng",
+    "colorTemplate": "#AAD1EA",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "chooseSlide": [{
+            "active": true,
+            "title": "Choose the correct answer",
+            "quizChooses": [{
+                    "id": 1,
+                    "popup": "",
+                    "paragraph": "Choose all the needs for a tree to grow.",
+                    "correctAnswer": [
+                        1,3,4,6
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 3,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "a place to grow",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "a sandwich",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose":"water",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "light",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 5,
+                            "toChoose": "eggs",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 6,
+                            "toChoose":  "air",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "popup": "",
+                    "paragraph": " Which of the following is a non-basic need of plants?",
+                    "correctAnswer": [
+                        4
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "water",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose":  "carbon dioxide",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose": "sunlight",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose":  "oxygen",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "popup": "",
+                    "paragraph": ".......... absorb nutrients from the soil into the plants.",
+                    "correctAnswer": [
+                      3
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "Stems",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "Leaves",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose": "Roots",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "Flowers",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "popup": "",
+                    "paragraph": "Plant leaves absorb …... gas from air to make their food.",
+                    "correctAnswer": [
+                        3
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose":  "oxygen",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose":"nitrogen",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose":"carbon dioxide",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "hydrogen",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "popup": "",
+                    "paragraph": "........... transport water from the roots to the upper parts of plants.",
+                    "correctAnswer": [
+                        2
+                    ],
+                    "answerSelect": false,
+                    "counter": 0,
+                    "type": 1,
+                    "answers": [{
+                            "numAnswer": 1,
+                            "toChoose": "Roots",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 2,
+                            "toChoose": "Stems",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 3,
+                            "toChoose": "Leaves",
+                            "right": false,
+                            "checked": false
+                        },
+                        {
+                            "numAnswer": 4,
+                            "toChoose": "Seeds",
+                            "right": false,
+                            "checked": false
+                        }
+                    ]
+                }
+               
+            ],
+            "popupQuestion": [{
+                "id": 2,
+                "type": 3,
+                "index": "",
+                "paragraph": "  ",
+                "quran": "",
+                "popup": [
+                ],
+                "isActive": null
+            }]
+        }
+      
+    ],
+    "popuptext": "",
+    "pop": ""
+}]

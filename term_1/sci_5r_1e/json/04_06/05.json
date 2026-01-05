@@ -1,0 +1,39 @@
+[
+  {
+    "nameId": "",
+    "title": "Match",
+    "subject": "science-5 eng",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "cointDrag": [
+      {
+        "point": 1,
+        "textRight": "The state of the matter in which the matter particles are slightly spaced, and it has a constant volume.",
+        "textleft": "Liquid state",
+        "result": false
+      },
+      {
+        "point": 2,
+        "textRight": "The state of the matter in which particles maintain their position while vibrating.",
+        "textleft": " Solid state ",
+        "result": false
+      },
+      {
+        "point": 3,
+        "textRight": "The state of the matter that cannot be seen but its effects can be observed.",
+        "textleft": "Gaseous state",
+        "result": false
+      }
+    ]
+  }
+]

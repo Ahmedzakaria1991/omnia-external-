@@ -1,0 +1,96 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-5 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "What are the main parts of the plant?",
+            "popup": ["The roots, stem, and leaves."]
+          },
+          {
+            "id": 2,
+            "paragraph": "A farmer found seeds that don't belong in his farm. What is the reason for that?",
+            "popup": [
+              "This is due to the dispersal of seeds by wind, living organisms, or water."
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "What happens to the leaves of a plant, if they are placed in a dark place for a long time?",
+            "popup": ["The leaves will turn yellow."]
+          },
+          {
+            "id": 4,
+            "paragraph": " If plants do not exist on the Earth, what will happen to living organisms?",
+            "popup": [
+              "The oxygen necessary for respiration, and glucose as an energy source will not be available, leading to the death of living organisms and the end of life on the Earth."
+            ]
+          },
+          {
+            "id": 5,
+            "paragraph": "Why do plants perform photosynthesis?",
+            "popup": ["To make their own food."]
+          },
+          {
+            "id": 6,
+            "paragraph": "Chlorophyll is very important to plants. Write the reason.",
+            "popup": ["It helps the plant absorb sunlight."]
+          },
+          {
+            "id": 7,
+            "paragraph": "What will happen if the plant couldn't obtain carbon dioxide from the air?",
+            "popup": ["It will not be able to make its own food."]
+          }
+        ]
+      },
+      {
+        "title": "Answer the following",
+        "qtitle": "Mention one function for each of the following",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Stomata",
+            "popup": [" They allow air to enter inside the plant."]
+          },
+          {
+            "id": 2,
+            "paragraph": "Root hairs",
+            "popup": [
+              "They increase the absorption of water and nutrients from the soil."
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "Arteries",
+            "popup": [
+              "Arteries carry blood that is rich with oxygen and glucose away from the heart to all body parts."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

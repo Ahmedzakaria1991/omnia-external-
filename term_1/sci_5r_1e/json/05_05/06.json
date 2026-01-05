@@ -1,0 +1,67 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-5 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Wood is not used in making electrical wires. Explain.",
+            "popup": [
+              "Because it is difficult to be shaped into wires, and it has poor electrical conductivity."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "(Jana) wanted to make a box for her tools to see them easily, so she used glass because it has a specific physical property. Identify the property.",
+            "popup": ["Transparency"]
+          },
+          {
+            "id": 3,
+            "paragraph": "How can you differentiate between two bottles, one of which contains water, and the other contains perfume?",
+            "popup": ["By the difference in their odor."]
+          },
+
+          {
+            "id": 5,
+            "paragraph": "What happens if copper was a bad conductor of electricity?",
+            "popup": [
+              "We would not be able to use it in making electrical wires."
+            ]
+          },
+          {
+            "id": 5,
+            "paragraph": "Helium is preferred for use in balloons over air due to its specific properties. List these properties.",
+            "popup": ["non-toxic - non-flammable - lighter than air"]
+          },
+          {
+            "id": 5,
+            "paragraph": "When placing a piece of wood and an iron nail in water, which of them will float and which of them will sink?",
+            "popup": [
+              "The piece of wood will float, while the iron nail will sink ."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

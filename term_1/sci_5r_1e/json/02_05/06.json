@@ -1,0 +1,75 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-5 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "What is the reason for humans' need to consume plants and animals?",
+            "popup": ["To obtain energy."]
+          },
+          {
+            "id": 2,
+            "paragraph": "Create three food chains from this group of organisms: (grass - mouse - snake - owl - rabbit - bird - grasshopper).",
+            "popup": [
+              "First food chain: grass - grasshopper - bird",
+              "Second food chain: grass - mouse - owl",
+              "Third food chain: grass - rabbit - snake"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "What happens if",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Decomposers disappear from the ecosystem?",
+            "popup": [
+              "The energy and nutrients won't be returned to the soil and the air, and the ecosystem will collapse."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "Sunlight doesn't reach Earth's surface?",
+            "popup": [
+              "The plants won't be able to produce their food, and all living organisms will eventually die."
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "The secondary consumers can't find the organisms they feed on?",
+            "popup": ["It would migrate or die."]
+          },
+          {
+            "id": 4,
+            "paragraph": " All plants disappear from earth?",
+            "popup": ["Life on Earth will be impossible."]
+          }
+        ]
+      }
+    ]
+  }
+]

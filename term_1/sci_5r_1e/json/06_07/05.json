@@ -1,0 +1,45 @@
+[
+  {
+    "nameId": "",
+    "title": "Match",
+    "subject": "science-5 eng",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "cointDrag": [
+      {
+        "point": 1,
+        "textRight": "Burning a piece of paper",
+        "textleft": "is an example of chemical changes",
+        "result": false
+      },
+      {
+        "point": 2,
+        "textRight": "Cutting a piece of paper",
+        "textleft": "is an example of physical changes ",
+        "result": false
+      },
+      {
+        "point": 3,
+        "textRight": " Salt water",
+        "textleft": "is a mixture of a solid and a liquid",
+        "result": false
+      },
+      {
+        "point": 4,
+        "textRight": "The atmosphere",
+        "textleft": "is a mixture of gases",
+        "result": false
+      }
+    ]
+  }
+]

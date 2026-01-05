@@ -1,0 +1,97 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-5 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Milk is considered a liquid matter. Explain.",
+            "popup": [
+              "Milk is considered a liquid because it has a constant volume, and takes the shape of its container."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "A book is considered a matter. Explain.",
+            "popup": ["Because a book has a mass and occupies a volume."]
+          },
+          {
+            "id": 3,
+            "paragraph": "What will happen to the state of water when it is heated for several minutes?",
+            "popup": [
+              "The speed of the particles increases as they move apart, and the water changes into water vapor."
+            ]
+          },
+          {
+            "id": 4,
+            "paragraph": "What happens to the speed of the particles of matter when its state changes from liquid to solid?",
+            "popup": [
+              "The speed of the particles decreases, and they move slowly."
+            ]
+          },
+          {
+            "id": 5,
+            "paragraph": " Why do we need an electron microscope to examine particles of different materials?",
+            "popup": [
+              "Because the particles of matter are extremely small and cannot be seen with the naked eye."
+            ]
+          },
+          {
+            "id": 5,
+            "paragraph": "Mona poured mango juice from the bottle into the glass. Will its volume change? Why?",
+            "popup": ["No, because the volume of liquid matter is fixed."]
+          },
+          {
+            "id": 5,
+            "paragraph": "Heba left a container of water in the sun for a while, and when she returned, she didn't find the water in the container. What is the reason for this?",
+            "popup": [
+              "As temperature rises, water changes into water vapor."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Answer the following",
+        "isActive": false,
+        "popuptext": [],
+        "img": "../images/04_06/1.png",
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Identify the state of matter in each picture, based on the way its particles are bonded.",
+            "popup": [
+              "Matter (1): Liquid",
+              "Matter (2): Solid",
+              "Matter (3): Gas"
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "Identify the tool that scientists use to see the particles of those materials.",
+            "popup": ["Electron microscope."]
+          }
+        ]
+      }
+    ]
+  }
+]
