@@ -1,0 +1,72 @@
+[
+    {
+        "nameId": "",
+        "title": "shgusugbu",
+        "hand": true,
+        "finshedChoose": false,
+        "colorTemplate": "#fc8b8999",
+        "subject": "rel-5",
+        "passageHand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popup": "",
+        "popuptext": "",
+        "quizChooses": [
+
+        {
+            "title":"أجِبْ عن الأسئلةِ الآتيةِ",
+            "isActive": true,
+            "popuptext": [
+                "يَا أَيُّهَا الْمُدَّثِّرُ (1) قُمْ فَأَنذِرْ (2) وَرَبَّكَ فَكَبِّرْ (3) وَثِيَابَكَ فَطَهِّرْ (4) وَالرُّجْزَ فَاهْجُرْ (5) وَلَا تَمْنُن تَسْتَكْثِرُ (6) وَلِرَبِّكَ فَاصْبِرْ (7)"
+            ],
+            "poem" : false,
+            "title_p1":"",
+
+            "center" : [],
+                "questions": [
+                    {
+                        "id": 1,
+                        "paragraph":"بِمَ أمرَ اللهُ (تَعالَى) نبيَّهُ ﷺ في الآياتِ السابقةِ؟",
+                        "popup": [
+                            "أمره بالدعوة  إلى الله تعالى ، وتحذير الناس من عذابه."
+                        ]
+                    }
+                ]
+        },
+        {
+            "title":"أجبْ عن السؤالينِ الآتيين",
+            "isActive": false,
+            "popuptext": [
+            ],
+            "poem" : false,
+            "title_p1":"",
+
+            "center" : [],
+                "questions": [
+                    {
+                        "id": 1,
+                        "paragraph":"بِمَ بدأتِ السُّورةُ الكَريمةُ؟",
+                        "popup": [
+                            "بدأت السورة بأمر الرسول بالدعوة إلى الله وتحذير الناس من عذابه."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph":"كيفَ تستعدُّ ليومِ القيامةِ؟",
+                        "popup": [
+                            "الإيمان بيوم القيامة والاستعداد له بالأعمال الصالحة والبعد عن المعاصي، وفعل الخيرات، وأداء الصلوات في أوقاتها، وإطعام المساكين."
+                        ]
+                    }
+                ]
+        }
+        ]
+    }
+]

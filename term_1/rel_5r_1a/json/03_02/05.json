@@ -1,0 +1,95 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "rel-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+                "active": true,
+                "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+                "popuptext": [
+                    "قالَ (تَعالَى): ﴿ذَرْنِي وَمَنْ خَلَقْتُ وَحِيدًا (11) وَجَعَلْتُ لَهُ مَالًا مَّمْدُودًا (12) وَبَنِينَ شُهُودًا (13) وَمَهَّدتُّ لَهُ تَمْهِيدًا (14) ثُمَّ يَطْمَعُ أَنْ أَزِيدَ (15) كَلَّا ۖ إِنَّهُ كَانَ لِآيَاتِنَا عَنِيدًا (16) سَأُرْهِقُهُ صَعُودًا (17) إِنَّهُ فَكَّرَ وَقَدَّرَ (18)﴾"
+                ],
+                "quizChooses": [
+                    {
+                            "id": 1,
+                            "paragraph": "الآياتُ السابقةُ تتحدَّثُ عمَّنْ جَحَدَ نِعْمَةَ اللَّهِ (تَعالَى) وأَشْركَ بِهِ.",
+                            "show": false,
+                            "chooseUrl": "",
+                            "result": false,
+                            "close": false,
+                            "type": 1,
+                            "text": false,
+                            "answers": [{
+                                    "url": [
+                                        "choose-r",
+                                        "true1",
+                                        "true2"
+                                    ],
+                                    "answerSelect": true,
+                                    "cheched": false
+                                },
+                                {
+                                    "url": [
+                                        "choose-l",
+                                        "false1",
+                                        "false2"
+                                    ],
+                                    "answerSelect": false,
+                                    "cheched": false
+                                }
+                            ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "حُكْمُ النُّونِ السَّاكِنةِ في ﴿أَنْ أَزِيدَ﴾ الإظهارُ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+
+                "popupQuestion": []
+        }
+    ]
+}]

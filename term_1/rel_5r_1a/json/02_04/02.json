@@ -1,0 +1,110 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجبْ عمَّا يلي",
+        "isActive": true,
+        "popuptext": [],
+        "poem": false,
+        "title_p1": "",
+        "quesionTitle": "الـصَّـوْمُ:",
+        "center": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "معناهُ",
+            "popup": ["الامتناع عن المفطرات، من طلوع الفجر  إلى غروب الشمس."]
+          },
+          {
+            "id": 2,
+            "paragraph": "حُكْمهُ",
+            "popup": ["فرض على كل مسلم."]
+          },
+          {
+            "id": 3,
+            "paragraph": "مِن فوائدِه",
+            "popup": ["يقوي الإرادة – يطهر القلب من آثار الذنوب – يعلم العطاء"]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "isActive": false,
+        "popText":"اقْرَأ الحديث",
+        "popuptext": [
+            "عَنْ أَبِي هُرَيْرَةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) أَنَّ النَّبِيَّ ﷺَ: «مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًاغفر له ما تقدم من ذنبه»."
+        ],
+        "poem": false,
+        "title_p1": "",
+        "center": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما المقصودُ بـ «احْتِسَابًا»؟",
+            "popup": ["طلبا للثواب من الله"]
+          },
+          {
+            "id": 2,
+            "paragraph": "ما ثوابُ الصائمِ كما نفهَمُ من الحديثِ الشريفِ؟",
+            "popup": ["يغفر الله ما تقدم من ذنبه."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "isActive": false,
+        "popText":"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
+        "popuptext": [
+            "قالَ (تَعالَى): ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ ﴾."
+        ],
+        "poem": false,
+        "title_p1": "",
+        "center": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما غايةُ الصِّيامِ كما نفهَمُ من الآيةِ الكريمةِ؟",
+            "popup": ["لنتعلم التقوى والخوف من الله (تعالى) فننفذ أوامره ونجتنب نواهيه."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "isActive": false,
+        "popText":"اقْرَأ  الحديث",
+        "popuptext": [
+            "قالَ رسولُ اللَّهِ ﷺ  : «للصَّائمِ فرحتانِ : فرحةٌ حينَ يفطرُ ، وفرحةٌ حينَ يَلقى ربَّهُ»."
+        ],
+        "poem": false,
+        "title_p1": "",
+        "center": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما الذي ينتظِرُ  الصائمَ في الآخرةِ؟ ",
+            "popup": [
+                "نعيم لايزول."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

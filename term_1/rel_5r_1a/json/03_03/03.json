@@ -1,0 +1,102 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اخترِ الأفعالَ التي يَنبغِي الحِرْصُ علَيْها في شَهْرِ  رمَضَانَ:",
+                "correctAnswer": [1,3,4,6,7,8],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الصَّلاةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الغِيبَةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "التصدُّقُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الرحمةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "مُشاهَدةُ المُسلسَلاتِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "إفطارُ صائمٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "تلاوةُ القرآنِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "صلاة التراويحِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+               
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+        
+    ]
+  }
+]

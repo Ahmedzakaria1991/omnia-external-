@@ -1,0 +1,212 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "rel-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+                "active": true,
+                "title": "ضعْ علامةَ (✓) أمامَ السلوكِ الصحيح",
+                "questionTitle" :"ضعْ علامةَ (✓) أَمَامَ وَظَائِفِ الرُّسُلِ:",
+                "popuptext": [
+                ],
+
+                "quizChooses": [
+                    {
+                            "id": 1,
+                            "paragraph": "احترامُ جَمِيعِ الكُتُبِ السماويةِ.",
+                            "show": false,
+                            "chooseUrl": "",
+                            "result": false,
+                            "close": false,
+                            "type": 1,
+                            "text": false,
+                            "answers": [{
+                                    "url": [
+                                        "choose-r",
+                                        "true1",
+                                        "true2"
+                                    ],
+                                    "answerSelect": true,
+                                    "cheched": false
+                                },
+                                {
+                                    "url": [
+                                        "choose-l",
+                                        "false1",
+                                        "false2"
+                                    ],
+                                    "answerSelect": false,
+                                    "cheched": false
+                                }
+                            ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "نشرُ معلوماتٍ غَيرِ صَحيحةٍ عن الكُتُبِ السماويةِ الأُخْرى.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph": "تنفيذُ أوامرِ  القرآنِ الكريمِ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "paragraph": "اجتنابُ نواهي القرآنِ الكريمِ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "paragraph": "الدعوةُ للخيرِ بناءً على تعاليمِ القرآنِ الكريمِ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "paragraph": "تركُ الاستماعِ لآياتِ القرآنِ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+
+                "popupQuestion": []
+        }
+    ]
+}]

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <link
+      rel="icon"
+      href="../../../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+  </head>
+  <style></style>
+  <body>
+    <div id="music">
+      <div class="music-player">
+        <audio
+          ref="audio"
+          :src="background_sound"
+          preload=""
+          id="audio"
+          loop="loop"
+        ></audio>
+        <div
+          @click="toggleSound()"
+          id="toggle-sound"
+          class="toggle-sound paused"
+        ></div>
+      </div>
+    </div>
+    <div
+      id="mokaly"
+      data-urlpage="02_01/02"
+      class="general"
+      :class="this.posts[0].subject"
+    >
+      <div class="loader" v-show="!isSuccess || !isLoading"></div>
+      <div class="isSuccess" v-show=" isSuccess && isLoading">
+        <div
+          :class="{'mokaly-modal-over' : popUpState }"
+          @click="popupClose()"
+        ></div>
+        <div :class="{'popup-article' : popUpState }">
+          <div class="mokaly-model-popup" :class="{'active' : popUpState }">
+            <div class="text">
+              <p v-for="text in popUpTextLoop" v-html="text"></p>
+            </div>
+            <div class="hide-div" @click="popupClose()">
+              <p class="hidden"></p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="container"
+          :class="{'finshed' : this.posts[0].finshedChoose }"
+        >
+          <div
+            class="mySlides fade"
+            v-for="( mySlides, index) in  shuffledQX"
+            :class="{'active' : mySlides.isActive}"
+          >
+            <div class="head">
+              <div class="title">
+                <div class="icon"></div>
+                {{mySlides.title}}
+              </div>
+            </div>
+            <div class="content">
+              <div
+                class="popup"
+                @click="passageOpen(mySlides)"
+                v-if="mySlides.popuptext !=''"
+              >
+                <div class="image">
+                  <img src="../../../assets/images/popups/pop_14.png" alt="" />
+                </div>
+                <div class="text-block">
+                  <p> <p>اقْرَأ الْآيَاتِ الْكَرِيمَةَ</p></p>
+                  <div v-if="posts[0].passageHand" class="help"></div>
+                </div>
+                <div class="pop_image"></div>
+              </div>
+              <div class="soundQ" v-if=" mySlides.audio_in_page">
+                <div class="sound-player">
+                  <div @click="toggleSound($event)" class="play_sound paused">
+                    <audio
+                      :src=" mySlides.audio_in_page"
+                      preload=""
+                      class="audio"
+                    ></audio>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="quizChoose"
+                v-for="(quiz, index) in mySlides.questions"
+                :class="{'closed' : quiz.answerSelect }"
+              >
+                <div class="paragraph">
+                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                  <p class="">{{quiz.paragraph}}</p>
+                </div>
+                <div class="mokaly-popup">
+                  <div class="text-block" @click="popupOpen(quiz)">
+                    <p>عرض الإجابة</p>
+                    <div v-if="index === 0 && posts[0].hand" class="help"></div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="prev"
+                @click="swiperPrev( mySlides, index)"
+                v-if="index != 0"
+              >
+              </a>
+              <a
+                class="next"
+                @click="swiperNext( mySlides, index)"
+                v-if="index != (shuffledQX.length-1) "
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div class="image">
+            <img :src="logo()" :alt="this.posts[0].subject" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../assets/js/mokaly.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+  </body>
+</html>

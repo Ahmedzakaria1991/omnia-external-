@@ -1,0 +1,115 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "يَا أَيُّهَا الْمُدَّثِّرُ (1) قُمْ فَأَنذِرْ (2) وَرَبَّكَ فَكَبِّرْ (3) وَثِيَابَكَ فَطَهِّرْ (4) وَالرُّجْزَ فَاهْجُرْ (5) وَلَا تَمْنُن تَسْتَكْثِرُ (6) وَلِرَبِّكَ فَاصْبِرْ (7)"
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "معنى ﴿الْمُدَّثِّرُ﴾:",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الجالسُ على أريكتِهِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "المسرعُ في مشيتِهِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "المتغطِّي بثيابِهِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+               
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        } ,
+        {
+            "active": false,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                " ذَرْنِي وَمَنْ خَلَقْتُ وَحِيدًا (11) وَجَعَلْتُ لَهُ مَالًا مَّمْدُودًا (12) وَبَنِينَ شُهُودًا (13) وَمَهَّدتُّ لَهُ تَمْهِيدًا (14) ثُمَّ يَطْمَعُ أَنْ أَزِيدَ (15) كَلَّا ۖ إِنَّهُ كَانَ لِآيَاتِنَا عَنِيدًا (16) سَأُرْهِقُهُ صَعُودًا (17)"
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "سُورةُ المُدَّثِّرِ  سُورةٌ .......",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مَكِّيَّةٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مدنيَّةٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+               
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+        
+    ]
+  }
+]
