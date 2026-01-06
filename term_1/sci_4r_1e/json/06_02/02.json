@@ -172,10 +172,8 @@
         "title": "Choose the correct answer",
         "popuptext": [],
         "img": "../images/06_02/1.jpg",
-        "qtitle": [
-          "Look at the image then choose",
-          "Observe the figure showing to the descent of a car from the top of the bridge, then choose the correct answer:"
-        ],
+        "qtitle": 
+          "Look at the image then choose. Observe the figure showing to the descent of a car from the top of the bridge, then choose the correct answer:",
         "quizChooses": [
           {
             "id": 1,
@@ -266,13 +264,13 @@
             "answers": [
               {
                 "numAnswer": 1,
-                "toChoose": "The speed",
+                "toChoose": "the speed",
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 2,
-                "toChoose": "The time",
+                "toChoose": "the time",
                 "right": false,
                 "checked": false
               }
