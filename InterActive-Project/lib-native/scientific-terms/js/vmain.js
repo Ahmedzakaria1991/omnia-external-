@@ -96,7 +96,6 @@ new Vue({
             this.data.learningObjectAsJson != "" &&
             this.data.learningObjectAsJson != null
           ) {
-        
             // let jsonData = JSON.parse(this.data.learningObjectAsJson);
             // this.Items[0].posts = jsonData.posts;
             // this.dataLoaded = true;
@@ -258,12 +257,7 @@ new Vue({
         ela.pointer = false;
       });
       if (correct) {
-        this.correct_calculation[this.dataNum - 1]
-          ? ""
-          : [
-              (this.correctLo += 1),
-              (this.correct_calculation[this.dataNum - 1] = true),
-            ];
+        this.correct_calculation[this.dataNum - 1] ? "" : [(this.correctLo += 1),(this.correct_calculation[this.dataNum - 1] = true)];
         this.Items[0].LOcorrectcounter = this.correctLo;
         this.openTheGate();
         this.rightAnswer.pause();
