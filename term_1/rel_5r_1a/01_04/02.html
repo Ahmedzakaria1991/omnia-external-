@@ -17,6 +17,10 @@
         width: 36vw;
       border-radius: 3vw;
       }
+      
+        .quran {
+            font-family: Othmani !important;
+        }
       @media (orientation: landscape) {
         .question-photo{
           width: 30vw;
@@ -62,7 +66,8 @@
         <div :class="{'popup-article' : popUpState }">
           <div class="mokaly-model-popup" :class="{'active' : popUpState }">
             <div class="text">
-              <p v-for="text in popUpTextLoop" v-html="text"></p>
+              <p  
+  v-for="text in popUpTextLoop" v-html="text"></p>
             </div>
             <div class="hide-div" @click="popupClose()">
               <p class="hidden"></p>
@@ -95,7 +100,7 @@
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p> <p>اقْرَأ  الحديث</p></p>
+                  <p> <p>اقْرَأ  الحديثَ الشَّريفَ</p></p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
@@ -118,7 +123,7 @@
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                  <span class="icon-index">{{ mySlides.questions.length >1 ? index+1 : '&nbsp'}}</span>
                   <p class="" v-if="quiz.paragraph" >{{quiz.paragraph}}</p>
                   <img src="" class="question-photo" v-if="quiz.imgSrc" :src="quiz.imgSrc" alt="">
                 </div>

@@ -81,7 +81,7 @@
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p> <p>اقْرَأ  الحديث</p></p>
+                  <p>اقْرَأ الحديثَ الشَّريفَ</p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
@@ -103,7 +103,9 @@
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                  <span class="icon-index"
+                    >{{mySlides.questions.length >1 ? index+1 : '&nbsp'}}</span
+                  >
                   <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div class="mokaly-popup">

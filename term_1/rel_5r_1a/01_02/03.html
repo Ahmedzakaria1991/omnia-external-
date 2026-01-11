@@ -23,6 +23,9 @@
           border-radius: 3vw;
       }
     }
+      .quran {
+            font-family: Othmani !important;
+        }
 
     </style>
 
@@ -62,7 +65,7 @@
         <div :class="{'popup-article' : popUpState }">
           <div class="mokaly-model-popup" :class="{'active' : popUpState }">
             <div class="text">
-              <p v-for="text in popUpTextLoop" v-html="text"></p>
+              <p class="" v-for="text in popUpTextLoop" v-html="text"></p>
             </div>
             <div class="hide-div" @click="popupClose()">
               <p class="hidden"></p>
@@ -87,9 +90,10 @@
             </div>
             <div class="content">
               <div
-                class="popup"
+                class="popup quran"
                 @click="passageOpen(mySlides)"
                 v-if="mySlides.popuptext !=''"
+                
               >
                 <div class="image">
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
@@ -118,8 +122,8 @@
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
-                  <p class="" v-if="quiz.paragraph" >{{quiz.paragraph}}</p>
+                  <span class="icon-index" >{{mySlides.questions.length >1 ? index+1 : '&nbsp'}}</span>
+                  <p class="" v-if="quiz.paragraph" v-html="quiz.paragraph"></p>
                   <img src="" class="question-photo" v-if="quiz.imgSrc" :src="quiz.imgSrc" alt="">
                 </div>
                 <div class="mokaly-popup">

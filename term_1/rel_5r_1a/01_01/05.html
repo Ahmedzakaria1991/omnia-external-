@@ -81,7 +81,6 @@ body .general#DragAndDropRearrange .head .title {
             <div class="container" style="overflow: auto;">
                 <div v-for="(question,index) in  shuffledQuestion">
                     <div class="items" v-show=" isSuccess && isLoading">
-                        <span class="icon-index">{{index+1}}</span>
                         <div class="card-dragg">
                             <div class="draggable" v-for="(item,index) in shuffleDrag(question.drag)" :id="item.number"
                                 :index="item.number" draggable="true" @dragstart="dragstart($event)"

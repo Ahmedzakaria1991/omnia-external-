@@ -1,1605 +1,1131 @@
 [
-    {
-        "nameId": "",
-        "title": "",
-        "subject": "rel-5",
-        "colorTemplate": "#8388C6",
-        "counterFinished": 0,
-        "inputCounter": 0,
-        "hand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "rel-5",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمِلْ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "استخْرجْ من كلِّ آيةٍ الحرفَ المطلوبَ مخرجُه بَيْنَ القوسَيْنِ: ",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "<span class='quran'>﴿وَكَلْبُهُم بَاسِطٌ ذِرَاعَيْهِ بِالْوَصِيدِ﴾.</span>"
+                ],
+                "paragraphesAfter1": ["(وسَطُ الحَلْقِ)"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["ع"],
+                    "show": ["ع"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "<span class='quran'>﴿وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا﴾.</span>"
+                ],
+                "paragraphesAfter1": ["(أقْصَى اللِّسانِ)"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["ق"],
+                    "show": ["ق"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "<span class='quran'>﴿وَإِذَا الْبِحَارُ فُجِّرَتْ ﴾.</span>"
+                ],
+                "paragraphesAfter1": ["(وسَطُ اللِّسانِ)"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["ج"],
+                    "show": ["ج"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "<span class='quran'>﴿وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ﴾.</span>"
+                ],
+                "paragraphesAfter1": ["(أدْنَى الحَلْقِ)"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["خ"],
+                    "show": ["خ"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popuptext": "",
-        "popup": "",
-        "passageHand": true,
-        "inputSlide": [
-            {
-                "active": true,
-                "title": "أَكْمِلِ",
-                "popuptext": [
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أَكْمِلِ",
+        "popuptext": [
+          "<span>قَالَ (تَعَالَى): <span class='quran'>﴿لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ (1) وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ (2) أَيَحْسَبُ الْإِنسَانُ أَلَّن نَّجْمَعَ عِظَامَهُ (3) بَلَىٰ قَادِرِينَ عَلَىٰ أَن نُّسَوِّيَ بَنَانَهُ (4) بَلْ يُرِيدُ الْإِنسَانُ لِيَفْجُرَ أَمَامَهُ (5) يَسْأَلُ أَيَّانَ يَوْمُ الْقِيَامَةِ (6)﴾</span> </span>"
+        ],
+        "paragraph1": [],
+        "questionTitle": "استخرِجْ من الآياتِ: ",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["إدْغامًا بغُنَّةٍ:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "paragraph1": [
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["أَلَّن نَّجۡمَعَ", "ألن نجمع"],
+                    "show": ["ألن نجمع"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"استخْرجْ من كلِّ آيةٍ الحرفَ المطلوبَ مخرجُه بَيْنَ القوسَيْنِ: ",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "﴿وَكَلْبُهُم بَاسِطٌ ذِرَاعَيْهِ بِالْوَصِيدِ﴾."
-                                ],
-                                "paragraphesAfter1" :[
-                                    "(وسَطُ الحَلْقِ)"
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "ع" 
-                                        ],
-                                        "show": [
-                                            "ع"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "type": 2,
-                        "index": "2",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "﴿وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا﴾."
-                                ],
-                                "paragraphesAfter1" :[
-                                    "(أقْصَى اللِّسانِ)"
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "ق" 
-                                        ],
-                                        "show": [
-                                            "ق"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "type": 2,
-                        "index": "3",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "﴿وَإِذَا الْبِحَارُ فُجِّرَتْ ﴾."
-                                ],
-                                "paragraphesAfter1" :[
-                                    "(وسَطُ اللِّسانِ)"
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "ج" 
-                                        ],
-                                        "show": [
-                                            "ج"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "type": 2,
-                        "index": "4",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "﴿وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ﴾."
-                                ],
-                                "paragraphesAfter1" :[
-                                    "(أدْنَى الحَلْقِ)"
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "خ"
-                                        ],
-                                        "show": [
-                                            "خ"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["إخفاءً:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["لۡإِنسَٰنُ", "الإنسن"],
+                    "show": ["الإنسن"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "pop": ""
-            },
-            {
-                "active": false,
-                "title": "أَكْمِلِ",
-                "popuptext": [
-                    "قَالَ (تَعَالَى):﴿لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ (1) وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ (2) أَيَحْسَبُ الْإِنسَانُ أَلَّن نَّجْمَعَ عِظَامَهُ (3) بَلَىٰ قَادِرِينَ عَلَىٰ أَن نُّسَوِّيَ بَنَانَهُ (4) بَلْ يُرِيدُ الْإِنسَانُ لِيَفْجُرَ أَمَامَهُ (5) يَسْأَلُ أَيَّانَ يَوْمُ الْقِيَامَةِ (6)﴾"
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["كلمةً بها حرفٌ مَخرجُه الحَلْقُ:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "paragraph1": [
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["أُقۡسِمُ", "أقسم"],
+                    "show": ["أقسم"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"استخرِجْ من الآياتِ: ",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "إدْغامًا بغُنَّةٍ:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "أَلَّن نَّجۡمَعَ" 
-                                            ,
-                                            "ألن نجمع"
-                                        ],
-                                        "show": [
-                                            "ألن نجمع"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "type": 2,
-                        "index": "2",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "إخفاءً:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "لۡإِنسَٰنُ",
-                                            "الإنسن" 
-                                        ],
-                                        "show": [
-                                            "الإنسن"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "type": 2,
-                        "index": "3",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "كلمةً بها حرفٌ مَخرجُه الحَلْقُ:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "أُقۡسِمُ",
-                                            "أقسم" 
-                                        ],
-                                        "show": [
-                                            "أقسم"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "type": 2,
-                        "index": "4",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "كلمةً بها حرفٌ مَخرجُه الجَوْفُ:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "ٱلۡقِيَٰمَةِ",
-                                            "القيمة"
-                                        ],
-                                        "show": [
-                                            "القيمة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": ["كلمةً بها حرفٌ مَخرجُه الجَوْفُ:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["ٱلۡقِيَٰمَةِ", "القيمة"],
+                    "show": ["القيمة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "pop": ""
-            },
-            {
-                "active": false,
-                "title": "أَكْمِلِ",
-                "popuptext": [
-                    "قَالَ (تَعَالَى):﴿فَإِذَا بَرِقَ الْبَصَرُ (7) وَخَسَفَ الْقَمَرُ (8) وَجُمِعَ الشَّمْسُ وَالْقَمَرُ (9) يَقُولُ الْإِنسَانُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ (10) كَلَّا لَا وَزَرَ (11) إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمُسْتَقَرُّ (12) يُنَبَّأُ الْإِنسَانُ يَوْمَئِذٍ بِمَا قَدَّمَ وَأَخَّرَ (13) بَلِ الْإِنسَانُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ (14) وَلَوْ أَلْقَىٰ مَعَاذِيرَهُ (15)﴾"
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أَكْمِلِ",
+        "popuptext": [
+          "<span>قَالَ (تَعَالَى):  <span class='quran'>﴿فَإِذَا بَرِقَ الْبَصَرُ (7) وَخَسَفَ الْقَمَرُ (8) وَجُمِعَ الشَّمْسُ وَالْقَمَرُ (9) يَقُولُ الْإِنسَانُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ (10) كَلَّا لَا وَزَرَ (11) إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمُسْتَقَرُّ (12) يُنَبَّأُ الْإِنسَانُ يَوْمَئِذٍ بِمَا قَدَّمَ وَأَخَّرَ (13) بَلِ الْإِنسَانُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ (14) وَلَوْ أَلْقَىٰ مَعَاذِيرَهُ (15)﴾ </span> </span>"
+        ],
+        "paragraph1": [],
+        "questionTitle": "استخرِجْ من الآياتِ: ",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["إظهارًا حَلْقِيًّا:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "paragraph1": [
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["يَوۡمَئِذٍ أَيۡنَ", "يومئذ أين"],
+                    "show": ["يومئذ أين"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"استخرِجْ من الآياتِ: ",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "إظهارًا حَلْقِيًّا:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "يَوۡمَئِذٍ أَيۡنَ" 
-                                            ,
-                                            "يومئذ أين"
-                                        ],
-                                        "show": [
-                                            "يومئذ أين"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "type": 2,
-                        "index": "2",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "إِقْلابًا:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "يَوۡمَئِذِۭ بِمَا",
-                                            "يومئذ بما" 
-                                        ],
-                                        "show": [
-                                            "يومئذ بما"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "type": 2,
-                        "index": "3",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "إخْفَاءً:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "ٱلۡإِنسَٰنُ",
-                                            "الإنسن" 
-                                        ],
-                                        "show": [
-                                            "الإنسن" 
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "type": 2,
-                        "index": "4",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "كلمةً بها حرفٌ مَخرجُه اللِّسانُ:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "بَرِقَ",
-                                            "برق"
-                                        ],
-                                        "show": [
-                                            "برق"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "type": 2,
-                        "index": "5",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "كلمةً بها حرفٌ مَخرجُه الشَّفتانِ:"
-                                ],
-                                "paragraphesAfter1" :[
-                                    ""
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "فَإِذَا",
-                                            "فإذا"
-                                        ],
-                                        "show": [
-                                            "فإذا"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["إِقْلابًا:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["يَوۡمَئِذِۭ بِمَا", "يومئذ بما"],
+                    "show": ["يومئذ بما"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "pop": ""
-            }
-            
-        ]
-    }
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["إخْفَاءً:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["ٱلۡإِنسَٰنُ", "الإنسن"],
+                    "show": ["الإنسن"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": ["كلمةً بها حرفٌ مَخرجُه اللِّسانُ:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["بَرِقَ", "برق"],
+                    "show": ["برق"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 2,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes1": ["كلمةً بها حرفٌ مَخرجُه الشَّفتانِ:"],
+                "paragraphesAfter1": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["فَإِذَا", "فإذا"],
+                    "show": ["فإذا"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      }
+    ]
+  }
 ]
