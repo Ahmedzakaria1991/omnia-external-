@@ -15,7 +15,11 @@
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
   </head>
-  <style></style>
+  <style>
+      .quran {
+        font-family: Othmani !important;
+      }
+      </style>
   <body>
     <div id="music">
       <div class="music-player">
@@ -103,7 +107,7 @@
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                  <span class="icon-index">{{mySlides.questions.length >1 ? index+1 : '&nbsp'}}</span>
                   <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div class="mokaly-popup">
