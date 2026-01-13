@@ -1,0 +1,183 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "rel-4",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+                "active": true,
+                "title": "ضَعْ عَلامَةَ (✔) أو عَلامَةَ (✘)",
+                "questionTitle" :"ضعْ علامةَ (✓) أسفلَ المشاهدِ التي بيَّنتها سورةُ التكوير ِ:",
+                "popuptext": [
+                ],
+
+                "quizChooses": [
+                    {
+                            "id": 1,
+                            "paragraph": "انشقاقُ البحرِ لنبيِّ اللهِ موسى(عَلَيْهِ السَّلَامُ).",
+                            "show": false,
+                            "chooseUrl": "",
+                            "result": false,
+                            "close": false,
+                            "type": 1,
+                            "text": false,
+                            "answers": [{
+                                    "url": [
+                                        "choose-r",
+                                        "true1",
+                                        "true2"
+                                    ],
+                                    "answerSelect": false,
+                                    "cheched": false
+                                },
+                                {
+                                    "url": [
+                                        "choose-l",
+                                        "false1",
+                                        "false2"
+                                    ],
+                                    "answerSelect": true,
+                                    "cheched": false
+                                }
+                            ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "تكويرُ الشمسِ",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph": "انكدارُ  النجُّومِ",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "paragraph": "الإسراءُ والمعراجُ",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "paragraph": "تسييرُ الجبالِ",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+
+                "popupQuestion": []
+        }
+    ]
+}]

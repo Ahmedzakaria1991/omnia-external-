@@ -1,0 +1,77 @@
+[
+    {
+        "nameId": "",
+        "title": "shgusugbu",
+        "hand": true,
+        "finshedChoose": false,
+        "colorTemplate": "#fc8b8999",
+        "subject": "rel-4",
+        "passageHand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popup": "",
+        "popuptext": "",
+        "quizChooses": [
+
+        {
+            "title":"أجِبْ عنِ الأسئلةِ الآتية",
+            "isActive": true,
+            "popuptext": [
+                
+            ],
+            "poem" : false,
+            "title_p1":"",
+            "right_p1": [
+            
+            ],
+            "left_p1": [
+            
+            ],
+            "title_p2": "قال إبراهيم ناجي",
+            "right_p2": [
+
+            ],
+            "left_p2": [
+            ],
+            "title_p3": "قال أحمد شوقي عن النيلِ",
+            "right_p3": [
+
+            ],
+            "left_p3": [
+            ],
+            "center" : [],
+                "questions": [
+                    {
+                        "id": 1,
+                        "paragraph":"مَن هُمُ الرسُلُ؟  ",
+                        "popup": [
+                            "الرسل هم مجموعة من أفضل البشر، أرسلهم الله تعالى لدعوة الناس إلى عبادة الله وحده."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "ما الرسالةُ التي جاءَ بها الرسُلُ كُلُّهُم؟",
+                        "popup": [
+                            "الرسالة التي جاء بها الرسل هي عبادة الله وحده لا شريك له."
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph": "ما واجبُنا نحوَ الرُّسُلِ؟",
+                        "popup": [
+                            "واجبنا نحو الرسل أن نؤمن بهم وبمعجزاتهم، وأن نقتدي بهم."
+                        ]
+                    }
+                ]
+        }
+        ]
+    }
+]

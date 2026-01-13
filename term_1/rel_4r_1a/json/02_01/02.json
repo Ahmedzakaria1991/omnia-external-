@@ -1,0 +1,115 @@
+[
+    {
+        "nameId": "",
+        "title": "shgusugbu",
+        "hand": true,
+        "finshedChoose": false,
+        "colorTemplate": "#fc8b8999",
+        "subject": "rel-4",
+        "passageHand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popup": "",
+        "popuptext": "",
+        "quizChooses": [
+
+        {
+            "title":"أجِبْ عن الأسئلةِ الآتيةِ ",
+            "isActive": true,
+            "popuptext": [
+            ],
+            "poem" : false,
+            "title_p1":"",
+            "right_p1": [
+            
+            ],
+            "left_p1": [
+            
+            ],
+            "title_p2": "قال إبراهيم ناجي",
+            "right_p2": [
+
+            ],
+            "left_p2": [
+            ],
+            "title_p3": "قال أحمد شوقي عن النيلِ",
+            "right_p3": [
+
+            ],
+            "left_p3": [
+            ],
+            "center" : [],
+                "questions": [
+                    {
+                        "id": 1,
+                        "paragraph":"ما وظيفةُ الرُّسلِ والأنبياءِ؟.",
+                        "popup": [
+                            " تبليغ رسالة الله إلى الناس، وتعليم الناس دينهم وكيف يعبدون الله تَعَالَى."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph":"ماذا نتعلَّمُ من قصصِ الأنبياءِ؟",
+                        "popup": [
+                            "حب الله تَعَالَى، والتضحية من أجل الدعوة في سبيله، وحب الخير وحب الناس، ومساعدة الآخرين، والقوة والثبات على الحق والصبر  في أوقات الشدائد والمحن."
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph":"ما الرُّكنُ الرَّابعُ من أركانِ الإيمانِ؟",
+                        "popup": [
+                            "الإيمان بالرسل."
+                        ]
+                    }
+                ]
+        },
+        {
+            "title":"أجِبْ  ",
+            "isActive": false,
+            "popuptext": [
+            ],
+            "poem" : false,
+            "title_p1":"",
+            "right_p1": [
+            
+            ],
+            "left_p1": [
+            
+            ],
+            "title_p2": "قال إبراهيم ناجي",
+            "right_p2": [
+
+            ],
+            "left_p2": [
+            ],
+            "title_p3": "قال أحمد شوقي عن النيلِ",
+            "right_p3": [
+
+            ],
+            "left_p3": [
+            ],
+            "center" : [],
+                "questions": [
+                    {
+                        "id": 1,
+                        "paragraph":"ماذا نتعلَّمُ من قصصِ الأنبياء؟",
+                        "popup": [
+                            "- حب الله تَعَالَى، والتضحية من أجل الدعوة في سبيله.",
+                            "-  حب الخير وحب الناس.",
+                            "- مساعدة الآخرين.",
+                            "- القوة الثبات على الحق والصبر في أوقات الشدائد والمحن."
+                        ]
+                    }
+                ]
+        }
+        ]
+    }
+]

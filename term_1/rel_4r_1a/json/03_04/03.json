@@ -1,0 +1,115 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ  الأموالِ التي تجِبُ فيها الزكاةُ:",
+                "correctAnswer": [1,2,3,4,7,9],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الأموالُ المُدَّخرةُ في البنكِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الشهاداتُ الماليةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "سبائكُ الذهَبِ والفِضَّةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "السِّلَعُ التي تُباعُ وتُشتَرَى",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "حُلِيُّ المرأةِ إن كان مُخصَّصًا للزينةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose":"المَلابسُ الشخصيةُ للإنسانِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 7,
+                    "toChoose":"الأنعامُ كالإبِلِ والبقَرِ والغنَمِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 8,
+                    "toChoose":"السيَّارةُ المُعدَّةُ للاستخدامِ الشخصِيِّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 9,
+                    "toChoose":"الثِّمارُ والزُّروعُ حينَ تُحصَد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 10,
+                    "toChoose":"البيتُ الَّذي نسكُنُ فيه",
+                    "right": false,
+                    "checked": false
+                }
+
+                ]
+               
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+        
+    ]
+  }
+]

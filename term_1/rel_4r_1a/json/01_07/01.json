@@ -1,0 +1,129 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "rel-4",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمِلْ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "اكتُبِ المحذوفَ مِنَ الحديثِ الشريفِ:",
+        "quran": [],
+        "paragraph2": [],
+        "cancelBreak": true,
+        "poem": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "عن أبي هُرَيرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ)&nbsp;",
+                  "أنَّهُ قالَ: قال&nbsp;",
+                  "رسولُ اللهﷺ&nbsp;",
+                  "«مَنْ كَانَ يُؤْمِنُ بِاللَّهِ&nbsp;",
+                  "وَالْيَوْمِ الْآخِر"
+                ],
+                "paragraphesAfter1": ["ضَيْفَهُ»."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["فليكرم"],
+                    "show": ["فليكرم"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["فُجِّرَتْ", "فجرت"],
+                    "show": ["فجرت"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["قَدَّمَتْ", "قدمت"],
+                    "show": ["قدمت"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["الْإِنسَانُ", "الإنسان"],
+                    "show": ["الإنسان"]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
+
+                "paragraphes4": [],
+                "paragraphesAfter4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      }
+    ]
+  }
+]

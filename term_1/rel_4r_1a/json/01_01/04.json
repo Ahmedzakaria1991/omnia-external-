@@ -1,0 +1,90 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": " اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ العِباراتِ التي تدلُّ على إيمانِكَ بالرُّسُل:",
+                "correctAnswer": [1,4,5],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أُصدِّقُ كلَّ ما جاءَ بهِ الأنبياءُ والرُّسل (عليهم السلام)",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أقبَلُ معجِزاتِهِمُ التي تتَّفِقُ معَ العقلِ والمَنطِقِ فقَطْ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أؤمِنُ بسيِّدِنا مُحمَّدٍ ﷺ فقَطْ،  ولا أؤمنُ ببقيَّةِ الرُّسُل(عليهم السلام)",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "أقتدِي بأفعالِ الرُّسُلِ وأخلاقِهِمْ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "أُحِبُّهم وأتأدَّبُ عندَ ذِكرِهِمْ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "لا أُحاوِلُ التشبُّهَ بهِمْ.",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+               
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+        
+    ]
+  }
+]
