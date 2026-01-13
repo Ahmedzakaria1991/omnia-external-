@@ -408,6 +408,7 @@
                             :class="{'show' : item.answerUser[1].help}"
                           >
                             <input
+                              :class="{'quran' : slide.slideTwo }"
                               @focus="inputfocus"
                               :disabled="item.answerUser[1].help"
                               @blur="handleBlur(item, content)"

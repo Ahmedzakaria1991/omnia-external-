@@ -411,7 +411,6 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-
                     "valid": ["فُجِّرَتْ", "فجرت"],
                     "show": ["فجرت"]
                   },
@@ -426,21 +425,20 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-
                     "valid": ["الْإِنسَانُ", "الإنسان"],
                     "show": ["الْإِنسَانُ"
                 ]
                   }
                 ],
                 "paragraphes2": [
-                  "  <span class='quran' >  (2) وَإِذَا الْبِحَارُ </span>"
+                  "<span class='quran' >(2) وَإِذَا الْبِحَارُ</span>"
                 ],
                 "paragraphes3": [
-                  "  <span class='quran' > (3) وَإِذَا الْقُبُورُ بُعْثِرَتْ (4) </span>",
-                  "    <span class='quran' > &nbsp; عَلِمَتْ نَفْسٌ مَّا &nbsp;</span>"
+                  "<span class='quran' >(3)وَإِذَا الْقُبُورُ بُعْثِرَتْ (4)</span>",
+                  "<span class='quran' >عَلِمَتْ نَفْسٌ مَّا </span>"
                 ],
                 "paragraphesAfter3": [
-                  "  <span class='quran' > وَأَخَّرَتْ (5) يَا يَٰٓأَيُّهَا</span>"
+                  "<span class='quran' > وَأَخَّرَتْ (5) يَا يَٰٓأَيُّهَا</span>"
                 ],
 
                 "paragraphes4": [],
@@ -448,7 +446,6 @@
                   "  <span class='quran' > مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ </span>",
                   "  <span class='quran' > &nbsp;(6) الَّذِي خَلَقَكَ &nbsp; </span>",
                   "  <span class='quran' >فَسَوَّاكَ فَعَدَلَكَ (7)  </span>",
-
                   "."
                 ]
               }
@@ -478,6 +475,7 @@
                 "help": false,
                 "done": false
               }
+              
             ]
           }
         ],
