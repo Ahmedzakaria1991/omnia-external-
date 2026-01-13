@@ -37,7 +37,8 @@
                 "paragraphes1": [""],
                 "paragraphes2": [
                   "cells has",
-                  "special organelles ","to carry out the process ",
+                  "special organelles ",
+                  "to carry out the process ",
                   "of photosynthesis."
                 ],
                 "inputtype": [
@@ -115,7 +116,7 @@
             "index": "3",
             "contents": [
               {
-                "paragraphes1": ["Sap vacuole is small in"],
+                "paragraphes1": ["The vacuole is small in"],
                 "paragraphes2": ["cells."],
                 "inputtype": [
                   {
@@ -199,8 +200,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["cell wall"],
-                    "show": ["cell wall"]
+                    "valid": ["cell membrane", "plasma membrane"],
+                    "show": ["cell membrane"]
                   }
                 ],
                 "inputtype2": [
@@ -229,17 +230,18 @@
             "index": "6",
             "contents": [
               {
-                "paragraphes1": ["The source of energy &nbsp;", "release in the living cell is"],
-                "paragraphes2": [
-                  "organelle."
+                "paragraphes1": [
+                  "The source of energy &nbsp;",
+                  "release in the living cell is the"
                 ],
+                "paragraphes2": ["organelle."],
                 "inputtype": [
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["The mitochondria"],
-                    "show": ["The mitochondria"]
+                    "valid": [" mitochondria"],
+                    "show": [" mitochondria"]
                   }
                 ],
                 "inputtype2": [
@@ -272,7 +274,7 @@
         "paragraph1": [""],
         "quran": [],
         "paragraph2": [],
-        "qtitle": "A cell from a Molokhia leaves and a cell from a mouse were taken to observe their components, and the results were as follows:",
+        "qtitle": "A cell from a Molokhia leaf and a cell from a mouse were taken to observe their components, and the results were as follows:",
         "imageName": "",
         "items": [
           {
@@ -473,8 +475,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["celulose"],
-                    "show": ["celulose"]
+                    "valid": ["cellulose"],
+                    "show": ["cellulose"]
                   }
                 ],
                 "inputtype2": [
@@ -519,7 +521,7 @@
         "paragraph1": [""],
         "quran": [],
         "paragraph2": [],
-        "qtitle": "Write the organelle number for each function",
+        "qtitle": "Write the organelle number responsible for each function",
         "imageName": "../images/01/06.png",
         "w95f": true,
         "items": [
@@ -530,7 +532,7 @@
             "arrow": true,
             "contents": [
               {
-                "paragraphes1": ["The process of storing energy"],
+                "paragraphes1": ["Carrying out the process of storing energy"],
                 "paragraphes2": [" "],
                 "inputtype": [
                   {
@@ -568,7 +570,9 @@
             "arrow": true,
             "contents": [
               {
-                "paragraphes1": [" The process of releasing energy"],
+                "paragraphes1": [
+                  " Carrying out the process of releasing energy"
+                ],
                 "paragraphes2": [" "],
                 "inputtype": [
                   {
@@ -708,7 +712,9 @@
             "arrow": false,
             "contents": [
               {
-                "paragraphes1": ["The volume of sap vacole inside it is"],
+                "paragraphes1": [
+                  "The volume of the vacole inside this cell is"
+                ],
                 "paragraphes2": [" "],
                 "inputtype": [
                   {
@@ -755,7 +761,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["cell membrane"],
+                    "valid": ["cell membrane", "plasma membrane"],
                     "show": ["cell membrane"]
                   }
                 ],
@@ -867,8 +873,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["The cytolplasm"],
-                    "show": ["The cytolplasm"]
+                    "valid": ["The cytoplasm"],
+                    "show": ["The cytoplasm"]
                   },
                   {
                     "length": 0,
@@ -881,7 +887,7 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["Cell membrane"],
+                    "valid": ["Cell membrane", "plasma membrane"],
                     "show": ["Cell membrane"]
                   }
                 ]
