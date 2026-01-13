@@ -1,0 +1,313 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "qtitle": ["Look at the figure then complete"],
+        "paragraph2": [],
+        "imageName": "../images/01/02.jpg",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["This figure is called"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The microscope"],
+                    "show": ["The microscope"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "We can see the sample and examine it through part number"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The sample to be examined is placed on part number"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "imageName": "../images/01/03.png",
+        "qtitle": [
+          "Look at the figure then complete",
+          "Complete the labels on the opposite diagram, and you can use the following terms: (cytoplasm - mitochondria - nucleus - cell membrane)."
+        ],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "A",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["nucleus"],
+                    "show": ["nucleus"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "B",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["mitochondria"],
+                    "show": ["mitochondria"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "C",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["cytoplasm"],
+                    "show": ["cytoplasm"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "D",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Cell membrane"],
+                    "show": ["Cell membrane"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

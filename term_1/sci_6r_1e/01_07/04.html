@@ -1,0 +1,77 @@
+﻿<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostala7</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+    <style>
+        body .general#Mostala7 .container .textinput .inputs {
+            width: 34%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="Mostala7" data-urlpage="01_07/04" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">{{this.posts[0].title}}</div>
+            </div>
+            <div class="container">
+                <div v-for="(item, i) in shuffledItems">
+                    <div v-for="(content , index) in item.contents">
+                        <div class="textinput" v-if="item.type === 1">
+                            <div class="text">
+                                <span class="icon-index">{{(i+1)}}</span>
+                                <div class='question'>
+                                    <p class="paragraphe" v-for="(parag , index) in content.paragraphes1">
+                                        {{parag}}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="inputs" :class="{'done' : item.answerUser[0].done}">
+                                <div class="in">
+                                    <div class="check-input" :class="{'show' : item.answerUser[0].help}">
+                                        <input @focus="inputfocus" @blur="handleBlur(item, content)"
+                                            @keyup="onKey(item, content)" :maxlength="content.inputtype[0].length"
+                                            :class="{'right' : item.answerUser[0].correct, 'show' : item.answerUser[0].help,
+                            ['w' + content.inputtype[0].length+ 'length'] : content.inputtype[0].length != 0}"
+                                            v-model="item.answerUser[0].answer[0]">
+                                    </div>
+                                    <div class="answer" @click="showAnswer(item, content)"
+                                        :class="{'disabled' : item.answerUser[0].help}"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="finished" v-if="this.posts[0].counterFinished == this.posts[0].inputCounter ">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/js/mostala7.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

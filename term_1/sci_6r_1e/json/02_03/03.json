@@ -1,0 +1,108 @@
+[
+  {
+    "nameId": "",
+    "title": "Write the scientific term",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "science-4 eng",
+    "colorTemplate": "#79D2E4",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "The process in which a muscle contracts and decreases in length."
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["The contraction"],
+                "show": ["The contraction"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "Automatic muscles that you can’t control."
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["Involuntary muscles"],
+                "show": ["Involuntary muscles"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

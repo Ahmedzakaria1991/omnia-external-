@@ -1,0 +1,384 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "science-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "../images/03_01/01.png",
+        "qtitle": "A bulb burned out in each of the two shapes. All the bulbs in shape (A) turned off, while the remaining bulbs in shape (B) remained on. Choose the correct answer to explain what happened.",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "Bulbs in figure (A) are connected in ........ .",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "one direction",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "many directions ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "Bulbs in figure (B) are connected in ........ .",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "one direction",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "many directions ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "Factors affecting gravity are ........ .",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "mass and volume",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " mass and distance",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "volume and shape",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "mass and shape",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " … fillings can be used to illustrate the magnetic field diagram.",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "Aluminium",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "Plastic",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "Copper",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "Iron",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " Magnet is made from ........ .",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "copper",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "aluminium",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "iron",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "glass",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "One of the materials that are attracted to the magnet is ................ .",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "wood",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "nickel",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "rubber",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "plastic",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "",
+        "qtitle": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "Electrical energy is transported to electric devices using .... .",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "air",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "wires",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "A system that allows the flow of electric current to power various devices is ........ .",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "electric bulb",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "electric circuit",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "….. is used to open and close the electric circuit.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "The battery",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "The switch",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "When a bulb connected with other bulbs in one direction burns out, the remaining bulbs ........ .",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "turn off",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "stay on",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "../images/03_01/02.jpg",
+        "qtitle": "",
+        "img2": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "When a magnet pulls some screws, this represents a(n) ........ force.",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "attrcation",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "repulsion",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " Iron used to make screws is considered a ...... material.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "non magnetic",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "magnetic",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

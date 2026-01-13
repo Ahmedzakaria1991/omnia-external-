@@ -1,0 +1,147 @@
+[
+  {
+    "nameId": "",
+    "title": "Write the scientific term",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "science-4 eng",
+    "colorTemplate": "#79D2E4",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["A closed path for the flow of electric current."],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["The electric circuit"],
+                "show": ["The electric circuit"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "The movement of electric charges  through a closed electric conductor."
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["The electric current"],
+                "show": ["The electric current"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": ["Materials that are not attracted to magnets."],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["Non-magnetic materials"],
+                "show": ["Non-magnetic materials"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

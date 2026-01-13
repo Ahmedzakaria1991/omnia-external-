@@ -1,0 +1,152 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "qtitle": [""],
+        "paragraph2": [],
+        "imageName": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["The first person to use the term “cell” was the scientist"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Robert Hooke"],
+                    "show": ["Robert Hooke"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The cell"
+                ],
+                "paragraphes2": ["was discovered by examining many plant &nbsp;","cells, using a microscope."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["wall"],
+                    "show": ["wall"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The sample to be examined is placed under the"
+                ],
+                "paragraphes2": ["Lens, in the microscope."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["objective"],
+                    "show": ["objective"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "imageName": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["Scientists who study cells are called "],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Cell biologists"],
+                    "show": ["Cell biologists"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The cell nucleus can be seen under the microscope",
+                  "when stained with"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Methylene blue"],
+                    "show": ["Methylene blue"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["Scientists need"],
+                "paragraphes2": [
+                  "to see cells",
+                  "and study them in three dimensions."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3D microscope"],
+                    "show": ["3D microscope"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

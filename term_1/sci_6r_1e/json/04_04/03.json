@@ -1,0 +1,106 @@
+[
+  {
+    "nameId": "",
+    "title": "Write the scientific term",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "science-4 eng",
+    "colorTemplate": "#79D2E4",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "An increase in the volume of a substance when its temperature rises."
+            ],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["Thermal expansion"],
+                "show": ["Thermal expansion"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [" A tool used to measure temperature."],
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["Thermometer"],
+                "show": ["Thermometer"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "nameId": "",
+    "title": "Correct the colored word",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "science-4 eng",
+    "colorTemplate": "#B2C78B",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "hand": true,
+    "popuptext": "",
+    "pop": "",
+    "counterFinished": 0,
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "The <span>nucleus</span>  contains chlorophyll and carries out photosynthesis."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["chloroplast"],
+                "show": ["chloroplast"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true,
+            "help": false,
+            "done": false
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "The function of the <span>nucleus</span> inside a cell is similar to that of the power stations in a city."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["mitochondria"],
+                "show": ["mitochondria"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "Chloroplasts are found only in  <span>animal</span> cells."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["plant"],
+                "show": ["plant"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "showAnswer": [
+          {
+            "answer": [""],
+            "correct": true
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "qtitle": "Look at the figure then complete",
+        "imageName": "../images/03_01/03.jpg",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "p": "Complete the labels:",
+            "contents": [
+              {
+                "paragraphes1": [],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["switch"],
+                    "show": ["switch"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "p": "",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["battery"],
+                    "show": ["battery"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "p": "Complete the following:",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "In an electric circuit, wires are covered with "
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["plastic"],
+                    "show": ["plastic"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

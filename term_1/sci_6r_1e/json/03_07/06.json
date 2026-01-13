@@ -1,0 +1,709 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "img": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The magnet is surrounded with a region called"
+                ],
+                "paragraphes2": [
+                  "which attracts",
+                  "magnetic materials",
+                  "around it."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The magnetic field"],
+                    "show": ["The magnetic field"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  " The electric circuit consists of wires, a lamp, a switch, ",
+                  "and a source of electricity called"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The battery"],
+                    "show": ["The battery"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "materials resist the flow of ",
+                  "electricity through it."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Electrically insulating"],
+                    "show": ["Electrically insulating"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "img": "../images/03_01/07.png",
+        "qtitle": "Look at the figure then answer",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["The source of electricity represents number"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["The component in Figure (1) is made of "],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["conducting", "copper"],
+                    "show": ["conducting"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "3",
+            "paragraph": "The function of component number  (4) is",
+            "popup": ["to control switching the circuit on and off."],
+            "isActive": false
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "img": "../images/03_01/08.png",
+        "qtitle": "Look at the figure then answer",
+        "h50v": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "When closing the switches (A, B, C), the bulbs number "
+                ],
+                "paragraphes2": ["will light up."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 3,
+                    "comma": "",
+                    "valid": ["1", "2", "3"],
+                    "show": ["1", "2", "3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "When switch (B) is opened, only the bulbs "
+                ],
+                "paragraphes2": ["will light up."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "",
+                    "valid": ["1", "3"],
+                    "show": ["1", "3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["To light bulb (3), switches (A) and "],
+                "paragraphes2": ["must be closed."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["C"],
+                    "show": ["C"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "4",
+            "paragraph": "When switch (A) is opened, all the lights in the electric circuit go out. Explain why.",
+            "popup": [
+              "Because it leads to the stopping of the electric current flow in all components of the circuit."
+            ],
+            "isActive": false
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "img": "../images/03_01/09.png",
+        "qtitle": "Look at the figure then answer",
+        "h50v": true,
+        "images3": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Your father wanted to repair an electric device at home, so which of the corresponding tools is suitable for handling electricity safely?"
+                ],
+                "paragraphes2": [],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": " Mention the reason for your choice.",
+            "popup": [
+              "Because the handle is covered with plastic, which is an insulating material that resists the flow of electric current to the body, no electric shock occurs."
+            ],
+            "isActive": false
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "img": "../images/03_01/10.png",
+        "qtitle": "Complete the figure then answer",
+        "h50v": false,
+        "images3": true,
+        "images4": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["The circuit is connected in"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["series"],
+                    "show": ["series"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["The part (2) referres to"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The switch"],
+                    "show": ["The switch"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The part through which electrons flow, similar to ",
+                  "the flow of water in pipes, is "
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "controls switching the circuit on and off."
+                ],
+                "paragraphes3": [
+                  
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The switch"],
+                    "show": ["The switch"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["The cell membrane"],
+                    "show": ["The cell membrane"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+
+          {
+            "id": 1,
+            "type": 2,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The source of energy in the electric circuit is"
+                ],
+                "paragraphes2": [
+                  " "
+                ],
+                "paragraphes3": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The battery"],
+                    "show": ["The battery"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["The mitochondria"],
+                    "show": ["The mitochondria"]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

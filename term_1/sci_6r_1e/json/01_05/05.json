@@ -1,0 +1,156 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following ",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "imageName": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The plant cell is distinguished from the animal cell by ",
+                  "the presence of"
+                ],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and",
+                    "valid": ["cell wall", "green plastids"],
+                    "show": ["cell wall", "green plastids"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  
+                  "controls which materials enter and leave the cell."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["the cell membrane"],
+                    "show": ["the cell membrane"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["The"],
+                "paragraphes2": [
+                  "helps in ",
+                  " collecting and transporting protiens."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["endolplasmic reticulum"],
+                    "show": ["endolplasmic reticulum"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

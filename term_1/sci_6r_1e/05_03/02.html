@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+    <style>
+        .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 40vw;
+        }
+
+        .img {
+            width: 30%;
+            height: 70%;
+        }
+
+        html .general .head .title,
+        body .general .head .title {
+            width: 55vw;
+        }
+
+        @media (orientation: landscape) {
+            .image {
+
+                height: 25vw;
+            }
+
+            .img {
+                width: 25%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+
+    <div id="choose-slide" data-urlpage="05_03/02" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+
+            <div class="container" :class="{'finshed' : this.posts[0].finshedChoose }">
+
+                <div v-for="(slide, i) in slideQ" :class="{'active' : slide.active}" class="mySlides">
+                    <div class="head">
+                        <div class="title">
+                            <div class="icon"></div>
+                            {{slide.title}}
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="qtitle">{{slide.qtitle}}</p>
+                        <div class="popup" @click="passageOpen(slide)" v-if="slide.popuptext !=''">
+                            <div class="image">
+                                <img src="../../../assets/images/popups/pop_8.png" alt="">
+                            </div>
+                            <div class="text-block">
+                                <p> اقْرَأ الفِقْرةَ</p>
+                                <div v-if="posts[0].passageHand" class="help"></div>
+
+                            </div>
+                            <div class="pop_image">
+
+                            </div>
+                        </div>
+                        <div class="image" v-if="slide.img != ''">
+                            <img class="img" :src="slide.img" alt="">
+                        </div>
+                        <div class="quizChoose" v-for="(quiz, index) in slide.quizChooses"
+                            :class="{'closed' : quiz.answerSelect }">
+                            <div class="paragraph">
+                                <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                                <p class="" v-html="quiz.paragraph"></p>
+                            </div>
+                            <div class="answers" :class="{'tybeTwo': quiz.type === 2, 'tybeThree': quiz.type === 3}">
+                                <div class="box" v-for=" answer in  quiz.answers"
+                                    :class="{'checked' : answer.checked, 'right' : answer.right}">
+                                    <p @click="chechedClicked(answer, quiz)">{{answer.toChoose}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="all" v-for="(popUpAll, i) in slide.popupQuestion" v-if="popUpAll.isActive != null">
+                            <div class="paragraph">
+                                <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>
+                                <p class="">{{popUpAll.paragraph}}</p>
+                            </div>
+
+                            <div class="input-popup">
+                                <div class="text-block" @click="popupOpen(popUpAll)">
+                                    <p> Display the answer
+                                    </p>
+                                    <div v-if="i === 0 && posts[0].hand" class="help"></div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <a class="prev" @click="swiperPrev( slide, i)" v-if="i != 0"> </a>
+                        <a class="next" @click="swiperNext( slide, i)" v-if="i != (slideQ.length-1) "></a>
+                    </div>
+                </div>
+            </div>
+            <div :class="{'input-modal-over' : popUpState}" @click="popupClose()">
+
+            </div>
+            <div :class="{'popup-article' : popUpState }">
+
+                <div class="input-model-popup" :class="{'active' : popUpState }">
+                    <div class="text">
+                        <p v-for="text in popUpTextLoop" v-html="text"></p>
+                    </div>
+                    <div class="hide-div" @click="popupClose()">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+    <script src="../../../assets/js/choose-slide.js"></script>
+</body>
+
+</html>

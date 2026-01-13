@@ -1,0 +1,101 @@
+﻿<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        body .general#DragAndDrop .head .title,
+        body .general#DragAndDroptable .head .title,
+        body .general#DragAndDropimage .head .title,
+        body .general#DragAndDropMostala7 .head .title,
+        body .general#DragAndDropRearrange .head .title,
+        body .general#DragDropSlide .head .title {
+            width: 56vw !important;
+        }
+
+        @media (orientation: landscape) {
+
+            body .general#DragAndDrop .head .title,
+            body .general#DragAndDroptable .head .title,
+            body .general#DragAndDropimage .head .title,
+            body .general#DragAndDropMostala7 .head .title,
+            body .general#DragAndDropRearrange .head .title,
+            body .general#DragDropSlide .head .title {
+                width: 43vw !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="DragAndDropMostala7" data-urlpage="04_05/03" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+
+            <div class="container" :class="{'finshed' : this.finshedChoose }">
+                <p>{{this.posts[0].qtitle}}</p>
+                <div id="card-dragg">
+                    <div v-for="( drag, index) in shuffledQX" :data-number="drag.number" class="draggable"
+                        v-if="drag.type == 1">
+                        <p> {{ drag.wrod}}</p>
+                    </div>
+
+                </div>
+
+                <div id="card-dropp">
+                    <div v-for="( drop, index) in  shuffledQuiz ">
+                        <div class="textindex">
+                            <span class="icon-index">{{index+1}}</span>
+                            <div class="question" v-if="drop.type == 1">
+
+                                <p class="paragraphe " v-html="drop.text1"></p>
+
+                                <div class="divOfDrop">
+                                    <div :data-number="drop.number" class="droppable">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="finished hide">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/dragdrop-mostala7.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+</body>
+
+</html>

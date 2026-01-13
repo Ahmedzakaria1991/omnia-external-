@@ -1,0 +1,110 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": " Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Heat does not travel between two objects equal in temperature. State why. ",
+            "popup": [" Because they're in thermal equilibrium."]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens if all materials become good conductors of heat? ",
+            "popup": [
+              " All materials allow heat to travel through them, and we'll be at risk when we hold things."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Why do you feel cold when touching the metal handle of the cold wooden door, while you don’t feel this cold when touching the door itself at the same time? ",
+            "popup": [
+              "Because metal is a good conductor, while wood is an insulator."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "When two different objects come into contact at different temperatures, when does the heat transfer between them stop? What is this situation called? ",
+            "popup": [
+              "The heat transfer between them stops at equal temperature. This is called: thermal equilibrium."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Mention three ways of heat transfer, then count some of their uses in our daily lives.",
+            "popup": [
+              "Convection, conduction, radiation - heat used in (heating, food cooking, water heating)."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "What happens if?",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Touching a hot cup of tea? ",
+            "popup": [" Heat goes from cup to hand and we feel hot."]
+          },
+          {
+            "id": 1,
+            "paragraph": "We make bridges without expansion joints?",
+            "popup": [
+              "They expand by heat and bend; causing the bridges to collapse."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Solid material gain thermal energy?",
+            "popup": [
+              "The molecules speed increases, and the distances between them increase. The attraction forces decrease and turn into a liquid state."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Answer the following",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "We feel the heat when carrying a metal pot with hot food. Explain the reason for this. ",
+            "popup": [
+              "Because the metals are good conductors of heat, heat goes from the pot to our hands."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Smart clothes have many advantages. Mention it.",
+            "popup": [
+              "Keep body temperature, light up in the dark, can stay clean."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

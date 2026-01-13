@@ -1,0 +1,39 @@
+[
+  {
+    "nameId": "",
+    "title": "Match",
+    "subject": "science-4 eng",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "cointDrag": [
+      {
+        "point": 1,
+        "textRight": "The transfer of the Sun’s heat energy to the Earth",
+        "textleft": " Thermal radiation",
+        "result": false
+      },
+      {
+        "point": 2,
+        "textRight": " Heating a liquid in a pot",
+        "textleft": " Thermal convection",
+        "result": false
+      },
+      {
+        "point": 3,
+        "textRight": "Heat transfer when touching a hot iron",
+        "textleft": "Thermal conduction",
+        "result": false
+      }
+    ]
+  }
+]

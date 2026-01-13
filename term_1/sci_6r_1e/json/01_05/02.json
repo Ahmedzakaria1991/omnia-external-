@@ -1,0 +1,222 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "science-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "The ........... helps collecting and transporting proteins inside the cell.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " cell vacuole",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "edoplasmic reticulum",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "mitochondria",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "cytoplasm",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "The ........ has the same function as the guards at the city gates.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "green plastids",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose":"cell membrane",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose":"cell vacuole",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "nucleus",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "In plant cells, ........ contains chlorophyll to make photosynthesis.",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "cell membrane",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "golgi apparatus",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "green palstids",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "mitochondria",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "All of the following is found in the animal cell <span>except</span> ....... .",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " plasma membrane",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose":"cytoplasm",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "cell wall",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "endoplasmic reticulum",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "Which of the following cell organelles converts sugar into energy in the cell?",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "",
+                "img": "../images/01/04.png",
+                "parag":"The mitochondria",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "",
+                "img": "../images/01/05.png",
+                "parag":"Green plastids",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

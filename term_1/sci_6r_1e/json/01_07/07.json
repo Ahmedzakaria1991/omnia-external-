@@ -1,0 +1,121 @@
+[
+  {
+    "nameId": "choose",
+    "title": " Pick the odd word out",
+    "finshedChoose": false,
+    "subject": "science-4 eng",
+    "colorTemplate": "#A0D9BE",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "paragraph": "",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "Mitochondria",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "Nucleus",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "Cytoplasm",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "Stomach",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "paragraph": "",
+        "correctAnswer": [3],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 1,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "Cactus",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "Mouse",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "Bacteria",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "Palm trees",
+            "right": false,
+            "checked": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "paragraph": "",
+        "correctAnswer": [4],
+        "answerSelect": false,
+        "counter": 0,
+        "type": 3,
+        "answers": [
+          {
+            "numAnswer": 1,
+            "toChoose": "Green plastids",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 2,
+            "toChoose": "Cell wall",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 3,
+            "toChoose": "Chlorophyll",
+            "right": false,
+            "checked": false
+          },
+          {
+            "numAnswer": 4,
+            "toChoose": "Small sap vacuole",
+            "right": false,
+            "checked": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "The cardiac muscle is an involuntary muscle. Mention the reason. ",
+            "popup": [
+              "Because it contracts automatically, and it cannot be consciously controlled."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Small intestine",
+            "popup": [
+              "Completing the digestion of food and initiating the absorption of nutrients."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "Stool is not consiered an excretory material.",
+            "popup": [
+              "As it is undigested food waste, it is not produced by the body's cells."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "Mention a function for each of the mentioned muscles: Heart muscle - Jaw muscles - Diaphragm muscle - Intestinal muscles ",
+            "popup": [
+              "1- Heart muscles: pumping blood to all body parts. ",
+              "2- Jaw muscles: help teeth chewing food.",
+              " 3- Diaphragm muscles: help in breathing process. ",
+              " 4- Intestinal muscles: help moving food."
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "What is the reason for the diversity in the shape and size of cells in living organisms? ",
+            "popup": [
+              "Because each cell has a specific function, its shape and size vary according to its function."
+            ]
+          },
+          {
+            "id": 4,
+            "paragraph": "Compare between the skin and the anus; in terms of the type of waste they expel of. ",
+            "popup": [
+              "Skin: It expels  soluble waste in the form of sweat.",
+              " Anus: It expels  undigested food waste (in the form of feces)."
+            ]
+          },
+          {
+            "id": 5,
+            "paragraph": "  What is the way that all muscles work?",
+            "popup": ["Muscles work as a result of contracting and relaxing. "]
+          },
+          {
+            "id": 6,
+            "paragraph": "  What is the difference between voluntary and involuntary muscles?",
+            "popup": [
+              " Voluntary muscles: their movement can be controlled.",
+              "Involuntary muscles: They move automatically, and their movement cannot be consciously controlled."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

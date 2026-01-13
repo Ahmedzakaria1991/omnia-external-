@@ -1,0 +1,794 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "imageName": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [" Muscles in the human body is divided into"],
+                "paragraphes2": [". "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and",
+                    "valid": ["voluntary", "involuntary"],
+                    "show": ["voluntary", "involuntary"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "system transports oxygen to the",
+                  "muscles and brain."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["circulatory"],
+                    "show": ["circulatory"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "system breaks down food so",
+                  "the body can benefit from it."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Digestive"],
+                    "show": ["Digestive"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [
+                  "transports from the kidneys to the bladder",
+                  "through a narrow tube."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Urine"],
+                    "show": ["Urine"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "pop": ""
+      },
+
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "qtitle": [
+          "Look at the figure then complete",
+          "The opposite figures represents systems in the human body:"
+        ],
+        "imageName": "../images/78/01.png",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "A",
+
+            "contents": [
+              {
+                "paragraphes1": [" Figure (1) represents"],
+                "paragraphes2": ["system."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid":["digestive"],
+                    "show": ["digestive"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "B",
+            "arrow": false,
+            "contents": [
+              {
+                "paragraphes1": ["Figure (2) represents  "],
+                "paragraphes2": ["system."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["urinary"],
+                    "show": ["urinary"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "C",
+            "arrow": false,
+            "contents": [
+              {
+                "paragraphes1": ["The system in figure number "],
+                "paragraphes2": ["responsible for digesting food."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "D",
+            "arrow": false,
+            "contents": [
+              {
+                "paragraphes1": ["The body gets rid of urine through number"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title":"Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "qtitle":[ "Look at the figure then complete","The opposite figure is of a system in the human body:"],
+        "imageName": "../images/78/02.png",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "A",
+
+            "contents": [
+              {
+                "paragraphes1": [" The figure represents "],
+                "paragraphes2":  ["system."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["respiratory"],
+                    "show": ["respiratory"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "B",
+            "arrow": false,
+            "contents": [
+              {
+                "paragraphes1": ["Functions of this system are "],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and",
+                    "valid": ["respiratory", "excretory"],
+                    "show": ["respiratory", "excretory"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "C",
+            "arrow": false,
+            "contents": [
+              {
+                "paragraphes1": ["The organ represented by part (A) is"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["lungs"],
+                    "show": ["lungs"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "D",
+            "arrow": false,
+            "contents": [
+              {
+                "paragraphes1": ["The name of the muscle that helps this system to function is"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["The diaphragm"],
+                    "show": ["The diaphragm"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "imageName": "",
+        "qtitle": [ "Write the number of each organ next to its function "],
+        "image1": "../images/78/03.png",
+        "image2": "../images/78/04.png",
+        "image3": "../images/78/05.png",
+        "t1": "(1)",
+        "t2": "(2)",
+        "t3": "(3)",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "index": "A",
+            "question": 2,
+            "contents": [
+              {
+                "paragraphes1": ["Organ where undigested food waste accumulates. "],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "B",
+            "question": 2,
+            "contents": [
+              {
+                "paragraphes1": ["Organ responsible for expelling gas waste.  "],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "C",
+            "question": 2,
+            "contents": [
+              {
+                "paragraphes1": ["An organ filters blood from urea.  "],
+                "paragraphes2": [""],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "imageName": "../images/03_01/11.png",
+        "qtitle": ["Look at the figure then answer"],
+        "h50v": false,
+        "images3": true,
+        "images4": true,
+        "items": [
+
+          {
+            "id": 1,
+            "type": 1,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": ["Part (B) refers to"],
+                "paragraphes2": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["small intestines", "the small intestines"],
+                    "show": ["the small intestine"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["Part (A) secretes "],
+                "paragraphes2": ["on the food to digest it."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and",
+                    "valid": ["acid", "enzymes"],
+                    "show": ["acid", "enzymes"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Part (c) in Figure (2) plays a significant role in both"
+                ],
+                "paragraphes2": ["processes."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 2,
+                    "comma": "and",
+                    "valid": ["respiration", "excretion"],
+                    "show": ["respiration", "excretion"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

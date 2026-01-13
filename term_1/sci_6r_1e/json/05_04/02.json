@@ -1,0 +1,87 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": " Answer the questions",
+        "popuptext": [""],
+        "paragraph1": [],
+        "quran": [],
+        "paragraph2": [],
+        "img": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "A student used 44 grams of juice to make ice cream by putting it in the freezer, how much mass of iced juice will the student get after freezing it?"
+                ],
+                "paragraphes2": ["amount of mass of iced juice  = "],
+                "paragraphes3": ["grams."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["44"],
+                    "show": ["44"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": " Your teacher holds a beaker of water with an ice cube, if the mass of the flask is measured with water and ice, do you think the total mass will change when the ice cube melts? Explain your answer.",
+            "popup": [
+              " No, because the mass of a substance does not change with its state."
+            ],
+            "isActive": false
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

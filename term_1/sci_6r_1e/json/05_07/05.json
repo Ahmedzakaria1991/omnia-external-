@@ -1,0 +1,765 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "science-4 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [],
+        "quran": [],
+        "paragraph2": [],
+        "img": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["Heat is a form of"],
+                "paragraphes2": [""],
+                "paragraphes3": [". "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["energy"],
+                    "show": ["energy"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "When stirring a hot cup of tea with an aluminum spoon, your",
+                  " hand feels heat as it is transfered by"
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": [". "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["thermal conduction", "conduction"],
+                    "show": ["thermal conduction"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["All metals are "],
+                "paragraphes2": [""],
+                "paragraphes3": [" conductors of heat."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["good"],
+                    "show": ["good"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "Petroleum undergoes several chemical changes to produce  "
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": [
+                  ", which is a solid, combustion-resistant material."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Plastic"],
+                    "show": ["Plastic"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [],
+        "quran": [],
+        "qtitle": [
+          "Look at the figure then answer",
+          " The figures forms explain some of the methods of heat transfer:"
+        ],
+        "paragraph2": [],
+        "img": "",
+        "img2": ["../images/05_07/03_01.png", "../images/05_07/03_02.png"],
+        "img_number": ["(1)", "(2)"],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["Figure number "],
+                "paragraphes2": [""],
+                "paragraphes3": [
+                  "is an example of heat transfer",
+                  "&nbsp;&nbsp;in metals. "
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [" Heat is transferred in figure number"],
+                "paragraphes2": [""],
+                "paragraphes3": ["by convection."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [" Heat is transferred in space by"],
+                "paragraphes2": [""],
+                "paragraphes3": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Thermal radiation", "radiation","Radiation"],
+                    "show": ["Thermal radiation"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [],
+        "quran": [],
+        "qtitle": ["Look at the figure then answer"],
+        "paragraph2": [],
+        "img": "",
+        "img2": ["../images/05_02/02.png", "../images/05_02/01.png"],
+        "img_number": ["material (1)", "material (2)"],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "The material with the highest temparature is number"
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": [" ."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "contents": [
+              {
+                "paragraphes1": ["Material particles number "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["move slower than material number"],
+                "paragraphes3": ["."],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "If (1) is a liquid substance and (2) is a gaseous substance,&nbsp;",
+                  " the method of heat transfer between them is"
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Convection"],
+                    "show": ["Convection"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [],
+        "quran": [],
+        "qtitle": [""],
+        "paragraph2": [],
+        "img": "",
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["Particles of"],
+                "paragraphes2": [""],
+                "paragraphes3": [
+                  "matter are close to each other &nbsp; ",
+                  "and vibrate in their place."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["solid"],
+                    "show": ["solid"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  "When the material gains heat, this  weakens the "
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": ["forces between particles."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["attraction"],
+                    "show": ["attraction"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "paragraphes3": [
+                  "don’t allow the transfer of heat",
+                  "&nbsp;&nbsp;through them like plastic."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Insulators"],
+                    "show": ["Insulators"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [""],
+                "paragraphes2": [""],
+                "paragraphes3": [
+                  "starts to convert from liquid to gas at",
+                  " at 357 ° C."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Mercury"],
+                    "show": ["Mercury"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Complete the following",
+        "popuptext": [""],
+        "paragraph1": [],
+        "quran": [],
+        "qtitle": [
+          "Look at the figures then answer",
+          "Look at the figures that represents the particles of a substance in different states, then answer:"
+        ],
+        "paragraph2": [],
+
+        "img3": [
+          "../images/05_07/01_01.png",
+          "../images/05_07/01_02.png",
+          "../images/05_07/01_03.png"
+        ],
+        "img_number": ["(1)", "(2)", "(3)"],
+        "items": [
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": [
+                  " Figure (1) represents particles of a substance in "
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": ["state."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["gaseous"],
+                    "show": ["gaseous"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 1,
+            "contents": [
+              {
+                "paragraphes1": ["Particles in figure Number"],
+                "paragraphes2": [""],
+                "paragraphes3": [
+                  "has the least amount &nbsp;",
+                  "of heat energy."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

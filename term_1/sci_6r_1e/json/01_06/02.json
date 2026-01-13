@@ -1,0 +1,187 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "science-4 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer",
+        "popuptext": [],
+        "img": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "Animal cells cannot make photosynthesis because they don’t have a ........... ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "chloroplasts",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "vacuole",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "cytoplasm",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "cell wall",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "The ....... is considered the main control center of the cell.",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "Nucleus",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose":"Chloroplasts",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose":"Mitochondria",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "Golgi apparatus",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "One of the organelles found in both plant and animal cells is the  ............",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "chloroplasts",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "cell membrane ",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "cell wall ",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "large vacuole",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "Cellular respiration occurs inside the  ....... .",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "nucleus",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose":"mitochondria",
+                "right": false,
+                "img": "",
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "Golgi apparatus ",
+                "img": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "endoplasmic reticulum",
+                "img": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

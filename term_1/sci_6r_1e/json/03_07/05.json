@@ -1,0 +1,123 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": " Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "Compare between: Conductive materials and insulating materials of electricity ",
+            "popup": [
+              "Conductive materials for electricity: Materials that allow the electric current to flow through them easily, such as iron.",
+              "Insulating materials for electricity: Materials that do not allow the electric current to flow through them easily, such as wood."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Magnetic materials and non-magnetic materials.",
+            "popup": [
+              "Magnetic materials: Materials that are attracted to magnets, such as nickel.",
+              "Non-magnetic materials: Materials that are not attracted to magnets, such as rubber."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Answer the following ",
+        "isActive": false,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "What happens when touching an uninsulated wire carrying an electric current?",
+            "popup": [
+              "The current flows through the body, causing an electric shock."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "A glass cup broke, and Mary suggested collecting its scattered remnants on the ground using a magnet. Do you agree with Mary's opinion? Please explain your reasoning.",
+            "popup": [
+              "No, because glass is a non-magnetic material that is not attracted to magnets."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "Electric wires are made of copper or aluminum. Explain the reason.",
+            "popup": [
+              "Because they are conductive materials that allow the electric current to flow through them."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "What happens if a wire carrying an electric current is wound around an iron nail?",
+            "popup": [
+              "The magnetic field produced by the electric current becomes stronger."
+            ]
+          }
+        ]
+      },
+      {
+        "title": " Answer the following",
+        "isActive": false,
+        "qtitle": "Write the function of each of the following",
+        "popuptext": [""],
+        "questions": [
+
+          
+
+          {
+            "id": 1,
+            "paragraph": "Insulating materials",
+            "popup": ["Covering electric wires and hands of electric tools."]
+          }
+          
+        ]
+      },
+      {
+        "title": " Answer the following",
+        "isActive": false,
+        "qtitle": " Give reason for each of the following",
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "The electric current flowing in the electric circuit increases after removing the electric resistance. ",
+            "popup": [
+              "Because electric resistor slows down the flow of electric current in the electric circuit."
+            ]
+          },
+          
+          
+          
+          {
+            "id": 4,
+            "paragraph": "The importance of earth's gravity.",
+            "popup": [
+              "The stability of objects and human on the Earth's surface."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

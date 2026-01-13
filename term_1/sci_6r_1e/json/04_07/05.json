@@ -1,0 +1,51 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "science-4 eng",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": " Answer the following",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph":[ "In hot water, ink particles spread faster than in cold water. Explain the reason for this."],
+            "popup": [
+              "Because the speed of hot water molecules is greater than that of cold water molecules, the ink spreads quickly."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": ["What happens when there are no gaps between railway bars?"],
+            "popup": [
+              "The railway bars expand when exposed to heat, causing bends that can lead to accidents."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": ["Identify which of the following two statements is more accurate with an explanation: ","1) The size of particles increases with heat.","2) The volume occupied by particles increases with heat."],
+            "popup": [
+              "The most accurate phrase is \"The volume occupied by particles increases with heat,\" because the size of the particles themselves does not change."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
