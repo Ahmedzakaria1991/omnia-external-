@@ -1,0 +1,212 @@
+[{
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "rel-6",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+
+    "trueSlide": [
+        {
+                "active": true,
+                "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+                "questionTitle" :"ضعْ  العلامةَ المناسبةَ للتصرفاتِ التاليةِ:",
+                "popuptext": [
+                ],
+
+                "quizChooses": [
+                    {
+                            "id": 1,
+                            "paragraph": "يرفعُ الحاجُّ صوتَهُ بالجدالِ معَ الآخَرِينَ إذا اختلَفَ معهُم.",
+                            "show": false,
+                            "chooseUrl": "",
+                            "result": false,
+                            "close": false,
+                            "type": 1,
+                            "text": false,
+                            "answers": [{
+                                    "url": [
+                                        "choose-r",
+                                        "true1",
+                                        "true2"
+                                    ],
+                                    "answerSelect": false,
+                                    "cheched": false
+                                },
+                                {
+                                    "url": [
+                                        "choose-l",
+                                        "false1",
+                                        "false2"
+                                    ],
+                                    "answerSelect": true,
+                                    "cheched": false
+                                }
+                            ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph": "يتفاخرُ الحاجُّ أمامَ الأصدقاءِ بأداءِ الحجِّ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph": "يلتزمُ الحاجُّ بالنظامِ، ويتعاملُ معَ الآخَرِينَ بأدبٍ واحترامٍ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "paragraph": "يشكُو الحاجُّ للناسِ من التعبِ والإرهاقِ عندَ أداءِ المناسكِ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "paragraph": "يساعدُ الحاجُّ الآخَرِينَ، ويتعاونُ معهم في أثناءِ أداءِ المناسكِ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "paragraph": "يحافظُ الحاجُّ على نظافةِ مكانِهِ في أثناءِ أداءِ مناسكِ الحجِّ.",
+                        "show": false,
+                        "chooseUrl": "",
+                        "result": false,
+                        "close": false,
+                        "type": 1,
+                        "text": false,
+                        "answers": [{
+                                "url": [
+                                    "choose-r",
+                                    "true1",
+                                    "true2"
+                                ],
+                                "answerSelect": true,
+                                "cheched": false
+                            },
+                            {
+                                "url": [
+                                    "choose-l",
+                                    "false1",
+                                    "false2"
+                                ],
+                                "answerSelect": false,
+                                "cheched": false
+                            }
+                        ]
+                    }
+                ],
+
+                "popupQuestion": []
+        }
+    ]
+}]

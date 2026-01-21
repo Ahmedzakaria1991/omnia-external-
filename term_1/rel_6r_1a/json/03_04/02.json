@@ -1,0 +1,89 @@
+[
+    {
+        "nameId": "",
+        "title": "shgusugbu",
+        "hand": true,
+        "finshedChoose": false,
+        "colorTemplate": "#fc8b8999",
+        "subject": "rel-6",
+        "passageHand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popup": "",
+        "popuptext": "",
+        "quizChooses": [
+
+        {
+            "title":"أجِبْ عن الأسئلةِ الآتيةِ",
+            "isActive": true,
+            "popuptext": [
+            ],
+            "popText":"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
+            "questionTitle":"اذكُرْ دَوْرَ  كلِّ صحابيٍّ في تجهيزِ  جيشِ العُسْرةِ:",
+            "poem" : false,
+            "center" : [],
+                "questions": [
+
+                    {
+                        "id": 1,
+                        "paragraph": "عثمانُ بنُ عفَّانَ (رَضِيَ ٱللَّٰهُ عَنْهُ)",
+                        "popup": [
+                            "أنفق أموالًا كثيرة."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph":"أبو بكرٍ الصديقُ (رَضِيَ ٱللَّٰهُ عَنْهُ)",
+                        "popup": [
+                            "قدَّم كل ماله."
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph":"عمرُ  بنُ الخَطَّابِ (رَضِيَ ٱللَّٰهُ عَنْهُ)",
+                        "popup": [
+                            "قدَّم نصف ماله."
+                        ]
+                    }
+                ]
+        },
+        {
+            "title":"أجِبْ عمَّا يَلِي",
+            "isActive": false,
+            "popuptext": [
+            ],
+            "popText":"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
+            "questionTitle":"اذكُرْ دَوْرَ  كلِّ صحابيٍّ في تجهيزِ  جيشِ العُسْرةِ:",
+            "poem" : false,
+            "center" : [],
+                "questions": [
+
+                    {
+                        "id": 1,
+                        "paragraph": "لماذا قرَّرَ  النبيُّ ﷺ الخروجَ إلى تبوكَ؟",
+                        "popup": [
+                            "عَلِم الرسول ﷺ أن الروم وحلفاءهم يُعِدون العدة لمهاجمة المسلمين؛ فأراد الخروج لهم قبل أن يهاجموا المدينة."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph":"ما أهمُّ الدروسِ التي نستفيدُها من غزوةِ تبوكَ؟",
+                        "popup": [
+                            "- أهمية الاستجابة لأوامر النبي ﷺ.",
+                            "- الإخلاص والتضحية في سبيل الله.",
+                            "- ضرورة الاستعداد الدائم للدفاع عن الإسلام."
+                        ]
+                    }
+                ]
+        }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "nameId": "",
+        "title": "shgusugbu",
+        "hand": true,
+        "finshedChoose": false,
+        "colorTemplate": "#fc8b8999",
+        "subject": "rel-6",
+        "passageHand": true,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "popup": "",
+        "popuptext": "",
+        "quizChooses": [
+
+        {
+            "title":"أجِبْ عن الأسئلةِ الآتيةِ",
+            "isActive": true,
+            "popuptext": [
+            ],
+            "popText":"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
+            "poem" : false,
+
+            "center" : [],
+                "questions": [
+                    {
+                        "id": 1,
+                        "paragraph":"ما المقصودُ بأركانِ الحجِّ؟ وما عددُها؟",
+                        "popup": [
+                            "هي الأعمال الأساسية التي لا يصح الحج بدونها، وهي أربعة أركان."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "paragraph":"ما هو الإحرامُ؟",
+                        "popup": [
+                            "الإحرام هو أن ينوي الحاج بقلبه الدخول في الحج، ويقرن ذلك بالتلبية."
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "paragraph":"لماذا يجبُ علينا تعلُّمُ أركانِ الحجِّ؟",
+                        "popup": [
+                            "حتى يؤدى الحج على الوجه الصحيح."
+                        ]
+                    }
+                ]
+        }
+        ]
+    }
+]
