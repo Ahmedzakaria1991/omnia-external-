@@ -449,6 +449,8 @@
       {
         "active": false,
         "title": "أكمِلْ",
+        "slideOne": true,
+
         "popuptext": [],
         "paragraph1": [],
         "questionTitle": "اكْتُبِ الْمَحْذُوفَ مِنَ الآيةِ الْكَرِيمَةِ:",
@@ -464,10 +466,12 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "قَالَ (تَعَالَى):   يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا",
+                  "قَالَ (تَعَالَى):  <span class ='quran'> ﴿يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا</span>",
                   "&nbsp "
                 ],
-                "paragraphesAfter1": [" إِلَيْكَ مِن رَّبِّكَ ۖ "],
+                "paragraphesAfter1": [
+                  "<span class ='quran'> إِلَيْكَ مِن رَّبِّكَ ۖ </span>"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -509,12 +513,18 @@
                     "show": ["الكافرين"]
                   }
                 ],
-                "paragraphes2": ["وَإِن لَّمْ تَفْعَلْ فَمَا"],
-                "paragraphes3": ["رِسَالَتَهُ ۚ وَاللَّهُ يَعْصِمُكَ مِنَ "],
+                "paragraphes2": [
+                  "<span class ='quran'>وَإِن لَّمْ تَفْعَلْ فَمَا</span>"
+                ],
+                "paragraphes3": [
+                  "<span class ='quran'>رِسَالَتَهُ ۚ وَاللَّهُ يَعْصِمُكَ مِنَ </span>"
+                ],
                 "paragraphesAfter3": [],
 
-                "paragraphes4": ["إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ"],
-                "paragraphesAfter4": ["."]
+                "paragraphes4": [
+                  "<span class ='quran'>إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ</span>"
+                ],
+                "paragraphesAfter4": ["<span class ='quran'>﴾.</span>"]
               }
             ],
             "answerUser": [
