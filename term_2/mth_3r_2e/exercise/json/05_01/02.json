@@ -1,0 +1,47 @@
+[
+  {
+    "nameId": "",
+    "title": "Match the equal results",
+    "subject": "math-3 eng",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "first": "A",
+    "second": "B",
+
+    "matches": [
+      {
+        "point": 1,
+        "textRight": "7 × 4",
+        "textLeft": "14 × 2",
+        "answer": false
+      },
+      {
+        "point": 2,
+        "textRight": "6 × 9",
+        "textLeft": "9 + 45",
+        "answer": false
+      },
+      {
+        "point": 3,
+        "textRight": "10 × 5",
+        "textLeft": "60  - 10",
+        "answer": false
+      },
+      {
+        "point": 4,
+        "textRight": "0 × 8",
+        "textLeft": "10 × 0",
+        "answer": false
+      }
+    ]
+  }
+]

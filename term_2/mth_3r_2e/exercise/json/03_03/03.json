@@ -1,0 +1,322 @@
+[
+  {
+    "nameId": "",
+    "title": "Compare using < or > or =",
+    "subject": "math-3 eng",
+    "finshedChoose": false,
+    "help": true,
+    "colorTemplate": "#F2A97E",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "quizChooses": [
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "5", "down": "5", "lastParag": "−" },
+          { "firstParag": "", "up": "2", "down": "5", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "2", "down": "5", "lastParag": "+" },
+          { "firstParag": "", "up": "2", "down": "5", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "5", "down": "8", "lastParag": "+" },
+          { "firstParag": "", "up": "1", "down": "8", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "6", "down": "8", "lastParag": "−" },
+          { "firstParag": "", "up": "3", "down": "8", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "3", "down": "4", "lastParag": "−" },
+          { "firstParag": "", "up": "2", "down": "4", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "4", "down": "4", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "6", "down": "11", "lastParag": "−" },
+          { "firstParag": "", "up": "3", "down": "11", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "7", "down": "11", "lastParag": "−" },
+          { "firstParag": "", "up": "4", "down": "11", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": true,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "1", "down": "3", "lastParag": "+" },
+          { "firstParag": "", "up": "1", "down": "3", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "1", "down": "2", "lastParag": "+" },
+          { "firstParag": "", "up": "1", "down": "2", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "2", "down": "10", "lastParag": "+" },
+          { "firstParag": "", "up": "3", "down": "10", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "6", "down": "8", "lastParag": "−" },
+          { "firstParag": "", "up": "1", "down": "8", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "1", "down": "7", "lastParag": "+" },
+          { "firstParag": "", "up": "1", "down": "7", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "", "up": "8", "down": "9", "lastParag": "−" },
+          { "firstParag": "", "up": "6", "down": "9", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "paragraphRight": "",
+        "paragraphLeft": "",
+
+        "fractionRight": [
+          { "firstParag": "", "up": "4", "down": "9", "lastParag": "+" },
+          { "firstParag": "", "up": "2", "down": "9", "lastParag": "" }
+        ],
+        "fractionLeft": [
+          { "firstParag": "1 −", "up": "5", "down": "9", "lastParag": "" }
+        ],
+
+        "show": false,
+        "chooseUrl": "",
+        "result": false,
+        "close": false,
+        "type": 3,
+        "text": true,
+        "answers": [
+          {
+            "url": [">"],
+            "answerSelect": true,
+            "cheched": false
+          },
+          {
+            "url": ["<"],
+            "answerSelect": false,
+            "cheched": false
+          },
+          {
+            "url": ["="],
+            "answerSelect": false,
+            "cheched": false
+          }
+        ]
+      }
+    ]
+  }
+]

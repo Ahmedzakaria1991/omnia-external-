@@ -1,0 +1,114 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        .draggable {
+            font-size: 2.2vw;
+            text-align: center;
+        }
+
+        .droppable {
+            color: #39b54a;
+        }
+        .image-arrow{
+            width: 9% !important;
+            margin: 0vw 2vw !important;
+        }
+        .image-arrow > img{
+            width: 100% !important;
+           
+        }
+
+       
+
+        @media (orientation: landscape) {
+            .draggable {
+                font-size: 2.2vw;
+                text-align: center;
+            }
+            .card-dropp{
+            justify-content: start !important;
+        }
+        .image-arrow{
+            margin: 0vw 6vw !important;
+        }
+        .add-margine{
+            margin-left: 12vw !important;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="music">
+        <div class="music-player">
+            <audio ref="audio" :src="background_sound" preload="" id="audio" loop="loop"></audio>
+            <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
+        </div>
+    </div>
+    <div id="DragAndDropRearrange" data-urlpage="06_03/03" class="DragAndDrop general"
+        :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+
+            <div class="container" style="overflow: auto;">
+                <div v-for="(question,index) in  shuffledQuestion">
+                    <div class="items" v-show=" isSuccess && isLoading">
+                        <span class="icon-index">{{index+1}}</span>
+                        <div class="card-dragg">
+                            <div class="draggable" v-for="(item,index) in shuffleDrag(question.drag)" :id="item.number"
+                                :index="item.number" draggable="true" @dragstart="dragstart($event)"
+                                @drag="drag($event)" @dragend="dragend($event)" @touchstart="touchStart($event)"
+                                @touchmove="touchMove($event)" @touchend="touchEnd($event)"
+                                :style="{ position: 'relative', left: item.left + 'px', top: item.top + 'px' }">
+                                <p :class="{'first-word':item.underLine}"> {{item.word}}</p>
+                            </div>
+                        </div>
+                        <div class="card-dropp">
+                            <div class="image image-arrow" :class="{'add-margine':question.drag.length === 4}">
+                                <img src="../../../assets/images/arrow02.png" alt="" class="imagestyle" />
+                              </div>
+                            <div v-for="(question,index) in  question.drag">
+                                <div :id="question.number" :index="question.number" class="droppable"
+                                    @drop="drop($event)" @dragover="dragover($event)" @touchstart.prevent
+                                    @touchmove.prevent></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="finished hide">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="image">
+                    <img :src="logo()" :alt="this.posts[0].subject">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../../assets/js/dragdrop-rearrange-vue.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+
+</body>
+
+</html>

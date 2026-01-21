@@ -1,0 +1,205 @@
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>comparison</title>
+    <link
+      rel="icon"
+      href="../../../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- <link rel="stylesheet" href="../../../assets/cssstyle.css"> -->
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <script src="../../../assets/lib/vue.js"></script>
+    <script src="../../../assets/lib/insert-activity.js"></script>
+  </head>
+  <style>
+    .fraction-container {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      align-items: center;
+      justify-content: center;
+      margin: 0vw 1vw;
+    }
+    .farction-line {
+      border: 0.1vw solid;
+      width: 3vw;
+    }
+    html .general .container p,
+    body .general .container p {
+      text-align: center;
+    }
+    body .general#gtorlt .container .quizChoose.type3 .paragraph {
+      align-items: center;
+    }
+    body .general#gtorlt .container .quizChoose .paragraph p {
+      width: auto;
+    }
+  </style>
+  <body>
+    <div id="music">
+      <div class="music-player">
+        <audio
+          ref="audio"
+          :src="background_sound"
+          preload=""
+          id="audio"
+          loop="loop"
+        ></audio>
+        <div
+          @click="toggleSound()"
+          id="toggle-sound"
+          class="toggle-sound paused"
+        ></div>
+      </div>
+    </div>
+    <div
+      id="gtorlt"
+      data-urlpage="02_03/02"
+      class="general"
+      :class="this.posts[0].subject"
+    >
+      <div class="loader" v-show="!isSuccess || !isLoading"></div>
+      <div class="isSuccess" v-show=" isSuccess && isLoading">
+        <div class="head">
+          <div class="title">{{this.posts[0].title}}</div>
+        </div>
+
+        <div
+          class="container"
+          :class="{'finshed' : this.posts[0].finshedChoose }"
+        >
+          <div
+            class="quizChoose"
+            v-for="(quiz, index) in  shuffledQuiz"
+            :class="{'right' : quiz.answerSelect, 'close' : quiz.close, 'type3' : quiz.type == 3, 'type4' : quiz.type == 4  }"
+          >
+            <div class="paragraph" v-if="quiz.type == 1 || quiz.type == 2">
+              <span class="icon-index">{{index+1}}</span>
+              <p class="">{{quiz.paragraph}}</p>
+            </div>
+            <div class="paragraph" v-if="quiz.type === 3  || quiz.type === 4">
+              <span class="icon-index">{{index+1}}</span>
+              <p class="rightp" v-if="quiz.paragraphRight">
+                {{quiz.paragraphRight}}
+              </p>
+              <div class="fraction-container" v-if="quiz.fractionOne">
+                <p class="up">{{quiz.up}}</p>
+                <div class="farction-line"></div>
+                <p class="down">{{quiz.down}}</p>
+              </div>
+            </div>
+
+            <div
+              class="choosequestion"
+              :class="{'show' : quiz.show }"
+              v-if="quiz.type != 4"
+            >
+              <div v-if="index === 0 && posts[0].help" class="help"></div>
+              <div class="top">
+                <div
+                  class="choose"
+                  v-for="answer in  quiz.answers"
+                  :style="[quiz.text ? {backgroundImage: 'none'} :{backgroundImage: `url(../../../assets/images/${answer.url[0]}.png)`} ]"
+                  @click="chooseAnswer(answer, quiz)"
+                >
+                  <p v-if="quiz.text">{{answer.url[0]}}</p>
+                </div>
+              </div>
+              <div
+                class="answer"
+                @click="chechedClicked(quiz)"
+                :style="[quiz.chooseUrl != '' && !quiz.text ? {backgroundImage: `url(../../../assets/images/${quiz.chooseUrl}.png)`} : {backgroundImage: 'none'}]"
+                :class="{'true' : quiz.chooseUrl != '' && quiz.result,
+                     'false' : quiz.chooseUrl != '' && !quiz.result}"
+              >
+                <p v-if="quiz.text">{{quiz.chooseUrl}}</p>
+              </div>
+            </div>
+
+            <div
+              class="choosequestion"
+              :class="{'show' : quiz.show1 ,'closed': quiz.result1}"
+              v-if="quiz.type === 4"
+            >
+              <div v-if="index === 0 && posts[0].help" class="help"></div>
+              <div class="top">
+                <div
+                  class="choose"
+                  v-for="answer in  quiz.answers1"
+                  :style="[quiz.text ? {backgroundImage: 'none'} :{backgroundImage: `url(../../../assets/images/${answer.url[0]}.png)`} ]"
+                  @click="chooseAnswer(answer, quiz)"
+                >
+                  <p v-if="quiz.text">{{answer.url[0]}}</p>
+                </div>
+              </div>
+              <div
+                class="answer"
+                data-number="1"
+                @click="chechedClicked(quiz)"
+                :style="[quiz.chooseUrl1 != '' && !quiz.text ? {backgroundImage: `url(../../../assets/images/${quiz.chooseUrl1}.png)`} : {backgroundImage: 'none'}]"
+                :class="{'true' : quiz.chooseUrl1 != '' && quiz.result1,
+                     'false' : quiz.chooseUrl1 != '' && !quiz.result1}"
+              >
+                <p v-if="quiz.text">{{quiz.chooseUrl1}}</p>
+              </div>
+            </div>
+
+            <div class="paragraph" v-if="quiz.type === 4">
+              <p class="centerp">{{quiz.paragraphCenter}}</p>
+            </div>
+            <div
+              class="choosequestion"
+              :class="{'show' : quiz.show2 ,'closed': quiz.result2}"
+              v-if="quiz.type === 4"
+            >
+              <div v-if="index === 0 && posts[0].help" class="help"></div>
+              <div class="top">
+                <div
+                  class="choose"
+                  v-for="answer in  quiz.answers2"
+                  :style="[quiz.text ? {backgroundImage: 'none'} :{backgroundImage: `url(../../../assets/images/${answer.url[0]}.png)`} ]"
+                  @click="chooseAnswer(answer, quiz)"
+                >
+                  <p v-if="quiz.text">{{answer.url[0]}}</p>
+                </div>
+              </div>
+
+              <div
+                class="answer"
+                data-number="2"
+                @click="chechedClicked(quiz)"
+                :style="[quiz.chooseUrl2 != '' && !quiz.text ? 
+                    {backgroundImage: `url(../../../assets/images/${quiz.chooseUrl2}.png)`} : {backgroundImage: 'none'}]"
+                :class="{'true' : quiz.chooseUrl2 != '' && quiz.result2,
+                     'false' : quiz.chooseUrl2 != '' && !quiz.result2}"
+              >
+                <p v-if="quiz.text">{{quiz.chooseUrl2}}</p>
+              </div>
+            </div>
+            <div class="paragraph" v-if="quiz.type === 3 || quiz.type === 4">
+              <p class="leftp" v-if="quiz.paragraphLeft">
+                {{quiz.paragraphLeft}}
+              </p>
+              <div class="fraction-container" v-if="quiz.fractionTwo">
+                <p class="up">{{quiz.up1}}</p>
+                <div class="farction-line"></div>
+                <p class="down">{{quiz.down1}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="image">
+            <img :src="logo()" :alt="this.posts[0].subject" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../assets/js/gtorlt.js"></script>
+    <script src="../../../assets/js/backgroundmusic.js"></script>
+  </body>
+</html>

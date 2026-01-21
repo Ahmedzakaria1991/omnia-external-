@@ -1,0 +1,1022 @@
+[{
+  "nameId": "",
+  "title": "",
+  "subject": "math-3 eng",
+  "colorTemplate": "#8388C6",
+  "counterFinished": 0,
+  "inputCounter": 0,
+  "hand": true,
+  "counterCorrect": 0,
+  "LODegree": null,
+  "UserDegree": null,
+  "type": "",
+  "BloomTargets": [""],
+  "randomNumber": null,
+  "loTargets": null,
+  "numberOfquestion": null,
+  "popuptext": "",
+  "popup": "",
+  "passageHand": true,
+  "inputSlide": [{
+    "active": true,
+
+    "title": "Read, then answer ",
+    "popuptext": [],
+    "paragraph1": [],
+    "quran": [],
+    "typeOfquestion": 1,
+    "styleWrap": false,
+    "paragraph2": [],
+    "items": [{
+        "id": 1,
+        "type": 2,
+        "index": "1",
+        "image": "../images/01_05/32/1.png",
+        "contents": [{
+          "paragraphes1": [
+            "Doaa placed 36 pieces of candy equally in 4 boxes, then added 5 more pieces to each box. What is the total number of candy pieces in each box?"
+          ],
+
+          "paragraphes1_3": ["The number of candy pieces in each box, the first time ="],
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["36"],
+              "show": ["36"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["4"],
+              "show": ["4"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["9"],
+              "show": ["9"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": [""],
+              "show": [""]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["5"],
+              "show": ["5"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["14"],
+              "show": ["14"]
+            }
+          ],
+          "paragraphes2": ["÷"],
+          "paragraphes3": ["="],
+          "paragraphes4": ["pieces."],
+          "paragraphes4_2": [
+            "The total number of candy pieces in each box "
+          ],
+          "paragraphes5": ["= 9 +"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["pieces of candy."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "2",
+        "image": "../images/01_05/32/2.png",
+        "contents": [{
+          "paragraphes1": [
+            "Hesham saved 20 pounds from his allowance each week. If he saved for 3 weeks, and in the fourth week he saved only 10 pounds, what is the total amount Hesham saved during the four weeks?"
+          ],
+
+          "paragraphes1_3": ["What Hesham saved in 3 weeks =  "],
+          "paragraphes1_31": ["3 × "],
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["20"],
+              "show": ["20"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["60"],
+              "show": ["60"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": [""],
+              "show": [""]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": [""],
+              "show": [""]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["10"],
+              "show": ["10"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["70"],
+              "show": ["70"]
+            }
+          ],
+          "paragraphes2": ["="],
+          "paragraphes3": ["pounds."],
+          "paragraphes4": [""],
+          "paragraphes4_2": [
+            "The total amount Hesham saved in the four weeks = "
+          ],
+          "paragraphes5": ["60 +"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["pounds."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "3",
+        "image": "../images/01_05/32/3.png",
+        "contents": [{
+          "paragraphes1": [
+            "Omar has 40 cinema tickets. He kept 10 tickets for himself, then distributed the rest equally among 5 of his friends. How many tickets did each friend get?"
+          ],
+
+          "paragraphes1_3": ["The remaining tickets = "],
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["40"],
+              "show": ["40"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["10"],
+              "show": ["10"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["30"],
+              "show": ["30"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["30"],
+              "show": ["30"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["5"],
+              "show": ["5"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["6"],
+              "show": ["6"]
+            }
+          ],
+          "paragraphes2": ["−"],
+          "paragraphes3": ["="],
+          "paragraphes4": ["tickets."],
+          "paragraphes4_2": ["The number of tickets each friend got = "],
+          "paragraphes5": ["÷"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["tickets."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "4",
+        "image": "../images/01_05/33/1.png",
+        "contents": [{
+          "paragraphes1": [
+            "A merchant has 10 kilograms of grapes and 8 kilograms of apples. If he wants to divide these fruits equally into 6 bags, what is the weight of each bag?"
+          ],
+
+          "paragraphes1_3": ["The weight of grapes and apples together = "],
+          "paragraphes1_31": ["10 +"],
+
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["8"],
+              "show": ["8"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["18"],
+              "show": ["18"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": ["11"],
+              "show": ["11"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["18"],
+              "show": ["18"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["6"],
+              "show": ["6"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["3"],
+              "show": ["3"]
+            }
+          ],
+          "paragraphes2": ["="],
+          "paragraphes3": [""],
+          "paragraphes4": ["", "kilograms. "],
+          "paragraphes4_2": ["The weight of each bag = "],
+          "paragraphes5": ["÷"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["  kilograms."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "5",
+        "image": "../images/01_05/33/2.png",
+        "contents": [{
+          "paragraphes1": [
+            "Nabil has 150 pounds. He bought a book for 75 pounds and a ball for 50 pounds. How much money does Nabil have left?"
+
+          ],
+
+          "paragraphes1_3": ["The price of the book and ball together =  "],
+          "paragraphes1_31": ["75 + "],
+
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["50"],
+              "show": ["50"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["125"],
+              "show": ["125"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": ["11"],
+              "show": ["11"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["150"],
+              "show": ["150"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["125"],
+              "show": ["125"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["25"],
+              "show": ["25"]
+            }
+          ],
+          "paragraphes2": ["="],
+          "paragraphes3": [""],
+          "paragraphes4": ["pounds."],
+          "paragraphes4_2": ["The remaining amount with Nabil ="],
+          "paragraphes5": ["−"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["pounds."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "6",
+        "image": "../images/01_05/33/3.png",
+        "contents": [{
+          "paragraphes1": [
+            "Last year, a family collected 95 seashells during their vacation. This year, the family spent 7 days at the vacation spot and collected 9 seashells each day. What is the difference between the number of seashells the family collected this year and last year?"
+          ],
+
+          "paragraphes1_3": ["What the family collected this year = "],
+          "paragraphes1_31": ["7 × "],
+
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["9"],
+              "show": ["9"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["63"],
+              "show": ["63"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": ["11"],
+              "show": ["11"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["95"],
+              "show": ["95"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["63"],
+              "show": ["63"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["32"],
+              "show": ["32"]
+            }
+          ],
+          "paragraphes2": ["="],
+          "paragraphes3": [""],
+          "paragraphes4": ["seashells."],
+          "paragraphes4_2": [
+            "The difference between the number of seashells collected this year and last year = "
+          ],
+          "paragraphes5": ["−"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["seashells."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "7",
+        "image": "../images/01_05/33/4.png",
+        "contents": [{
+          "paragraphes1": [
+            "Hossam bought 15 seeds and wants to distribute them equally among 7 clay pots, planting 4 seeds in each pot. How many additional seeds does Hossam need?"
+          ],
+
+          "paragraphes1_3": ["The number of seeds used =  "],
+          "paragraphes1_31": ["7 × "],
+
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["4"],
+              "show": ["4"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["28"],
+              "show": ["28"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": ["11"],
+              "show": ["11"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["28"],
+              "show": ["28"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["15"],
+              "show": ["15"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["13"],
+              "show": ["13"]
+            }
+          ],
+          "paragraphes2": ["="],
+          "paragraphes3": [""],
+          "paragraphes4": [" seeds."],
+          "paragraphes4_2": ["The number of additional seeds Hossam needs = "],
+          "paragraphes5": ["−"],
+          "paragraphes6": ["="],
+          "paragraphes7": [" seeds."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "8",
+        "image": "../images/01_05/33/5.png",
+        "contents": [{
+          "paragraphes1": [
+            "Farida bought 4 boxes of candy, each containing 10 pieces, and wants to distribute them equally among 8 of her friends. How many pieces does each friend get?"
+          ],
+
+          "paragraphes1_3": ["The total number of candy pieces in 4 boxes = "],
+          "paragraphes1_31": ["10 ×"],
+
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["4"],
+              "show": ["4"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["40"],
+              "show": ["40"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 0,
+              "comma": "",
+              "valid": ["11"],
+              "show": ["11"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["40"],
+              "show": ["40"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["8"],
+              "show": ["8"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["5"],
+              "show": ["5"]
+            }
+          ],
+          "paragraphes2": ["="],
+          "paragraphes3": [""],
+          "paragraphes4": [" pieces."],
+          "paragraphes4_2": ["The number of pieces each friend gets ="],
+          "paragraphes5": ["÷"],
+          "paragraphes6": ["="],
+          "paragraphes7": [" pieces of candy."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": 2,
+        "index": "9",
+        "image": "../images/01_05/33/6.png",
+        "contents": [{
+          "paragraphes1": [
+            "A box of chocolate contains 40 pieces. Bassem ate 5 pieces. He wants to distribute the rest equally among 5 of his friends. How many pieces does each friend get?"
+          ],
+
+          "paragraphes1_3": ["The number of remaining chocolate pieces ="],
+          "inputtype": [{
+            "length": 0,
+            "numperofinput": 0,
+            "comma": "",
+            "valid": [""],
+            "show": [""]
+          }],
+          "inputtype2": [{
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["40"],
+              "show": ["40"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["5"],
+              "show": ["5"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["35"],
+              "show": ["35"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["35"],
+              "show": ["35"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["5"],
+              "show": ["5"]
+            },
+            {
+              "length": 0,
+              "numperofinput": 1,
+              "comma": "",
+              "valid": ["7"],
+              "show": ["7"]
+            }
+          ],
+          "paragraphes2": ["-"],
+          "paragraphes3": ["="],
+          "paragraphes4": ["pieces."],
+          "paragraphes4_2": ["The number of chocolate pieces each friend gets = "],
+          "paragraphes5": ["÷"],
+          "paragraphes6": ["="],
+          "paragraphes7": ["pieces."]
+        }],
+        "answerUser": [{
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          },
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ],
+    "popupQuestion": [{
+      "id": 2,
+      "type": 3,
+      "index": "",
+      "paragraph": "",
+      "popup": [""],
+      "isActive": null
+    }],
+    "pop": ""
+  }]
+}]

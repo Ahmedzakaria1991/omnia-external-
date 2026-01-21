@@ -1,0 +1,1477 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-3 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Read, then answer",
+        "qtitle": "Find the unknown side length in the following rectangles:",
+        "popuptext": [],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "img": "../images/u5/7.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ب",
+            "img": "../images/u5/8.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9"],
+                    "show": ["9"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["25"],
+                    "show": ["25"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Read, then answer",
+        "qtitle": "Find the unknown side length:",
+        "popuptext": [],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "img": "../images/u5/9.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["7"],
+                    "show": ["7"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ب",
+            "img": "../images/u5/10.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["25"],
+                    "show": ["25"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ج",
+            "img": "../images/u5/11.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["7"],
+                    "show": ["7"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "د",
+            "img": "../images/u5/12.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ه",
+            "img": "../images/u5/13.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["54"],
+                    "show": ["54"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "و",
+            "img": "../images/u5/14.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width ="],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["2"],
+                    "show": ["2"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["36"],
+                    "show": ["36"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": [""],
+                "paragraphes4": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Read then answer ",
+        "qtitle": "",
+        "popuptext": [],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "text": "A rectangular board, with an area of 12 square meters and a width of 2 meters",
+            "img": "../images/u5/15.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length of the board = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["16"],
+                    "show": ["16"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the board = "],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ب",
+            "img": "../images/u5/16.png",
+            "text": "A room with a rectangular floor, an area of 21 square meters, and a length of 7 meters.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width of the room floor = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the room floor = "],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "",
+            "img": "../images/u5/17.png",
+            "text": "A rectangular field, with an area of 40 square meters and a width of 5 meters.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length of the field = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["26"],
+                    "show": ["26"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the field = "],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "د",
+            "img": "../images/u5/18.png",
+            "text": "A rectangular plot of land, with an area of 99 square meters and a length of 11 meters.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width of the land = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9"],
+                    "show": ["9"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["40"],
+                    "show": ["40"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the land = "],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Read, then answer ",
+        "qtitle": "",
+        "popuptext": [],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "text": "Soad has a rectangular card made of cardboard, with an area of 12 square centimeters and a width of 3 cm. Find the length and perimeter of the card.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length of the card = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["14"],
+                    "show": ["14"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the card ="],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ب",
+            "text": "Nagham designed a garden in the shape of a rectangle with an area of 18 square meters and a width of 2 meters. Find the length and perimeter of the garden.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Length of the garden = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["9"],
+                    "show": ["9"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["22"],
+                    "show": ["22"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the garden = "],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ج",
+            "text": "A rectangular plot of land has an area of 30 square meters and a length of 6 meters. Find the width and perimeter of the land.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Width of the land = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["5"],
+                    "show": ["5"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["22"],
+                    "show": ["22"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  }
+                ],
+                "paragraphes2": ["meters."],
+                "paragraphes3": ["Perimeter of the land = "],
+                "paragraphes4": ["meters."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "Read then answer",
+        "qtitle": "",
+        "popuptext": [],
+        "paragraph1": [""],
+        "quran": [],
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "أ",
+            "text": "Hani drew 4 identical squares, each with an area of 16 square centimeters and a side length of 4 cm. Find the perimeter and area of the large square.",
+
+            "img": "../images/u5/19.png",
+
+            "contents": [
+              {
+                "paragraphes1": ["Side length of the large square = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["32"],
+                    "show": ["32"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["64"],
+                    "show": ["64"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": ["Perimeter of the large square = "],
+                "paragraphes4": ["cm."],
+                "paragraphes5": ["Area of the large square = "],
+                "paragraphes6": ["cm². "]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "index": "ب",
+            "img": "../images/u5/20.png",
+            "text": "Younis drew 9 identical squares, each with an area of 4 square centimeters and a side length of 2 cm. Find the perimeter and area of the large square.",
+
+            "contents": [
+              {
+                "paragraphes1": ["Side length of the large square = "],
+
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["20"],
+                    "show": ["20"]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["24"],
+                    "show": ["24"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["36"],
+                    "show": ["36"]
+                  }
+                ],
+                "paragraphes2": ["cm."],
+                "paragraphes3": ["Perimeter of the large square = "],
+                "paragraphes4": ["cm."],
+                "paragraphes5": ["Area of the large square = "],
+                "paragraphes6": ["cm². "]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      }
+    ]
+  }
+]
