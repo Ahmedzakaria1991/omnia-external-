@@ -22,7 +22,7 @@
       {
         "active": true,
 
-        "title": "Read then answer",
+        "title": "Read, then answer",
         "popuptext": [],
         "paragraph1": [],
         "quran": [],
@@ -34,17 +34,16 @@
             "id": 1,
             "type": 2,
             "index": "أ",
-            "image": "../images/06_01/183/1.png",
-            "break3":true,
-            "break4":true,
+            "image": "",
             "contents": [
               {
                 "paragraphes1": [
-                  "Ahmed wanted to plant a garden with dimensions 10 meters by 6 meters, using two different types of flowers equally. What is the area required to plant each type of flower?"
+                  "Jamila loves arranging flowers. If she spent 25 minutes picking some flowers, 15 minutes cleaning them, and 10 minutes arranging each type into a bouquet:"
                 ],
 
-                "paragraphes1_3": ["Total area of the garden = "],
-                "paragraphes1_4": ["10 ×  "],
+                "paragraphes1_3": [
+                  "The total time Jamila spent arranging flowers ="
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -59,12 +58,12 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["6"],
-                    "show": ["6"]
+                    "valid": ["50"],
+                    "show": ["50"]
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["60"],
                     "show": ["60"]
@@ -78,35 +77,33 @@
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["60"],
                     "show": ["60"]
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["2"],
                     "show": ["2"]
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["30"],
                     "show": ["30"]
                   }
                 ],
-                "paragraphes2": ["="],
-                "paragraphes3": ["square meters."],
+                "paragraphes2": ["minutes."],
+                "paragraphes3": [""],
                 "paragraphes4": [""],
-                "paragraphes4_2": [
-                  "The area required to plant each type of flower = "
-                ],
-                "paragraphes5": ["÷"],
-                "paragraphes6": ["="],
-                "paragraphes7": ["square meters."]
+                "paragraphes4_2": [""],
+                "paragraphes5": [""],
+                "paragraphes6": [""],
+                "paragraphes7": [""]
               }
             ],
             "answerUser": [
@@ -152,15 +149,16 @@
             "id": 1,
             "type": 2,
             "index": "ب",
-            "image": "../images/06_01/183/2.png",
-            "break4":true,
+            "image": "",
             "contents": [
               {
                 "paragraphes1": [
-                  "Riham wants to paint one of the walls of her room with two different colors equally. If the length of the wall is 8 meters and the width is 2 meters, what is the area of each painted section?"
+                  " Huda loves helping her mother to bake cakes. If she spent 15 minutes mixing the dough, another 35 minutes letting it rise, and then baked it in the oven for 25 minutes until it was ready to eat:"
                 ],
 
-                "paragraphes1_3": ["Half of the length = "],
+                "paragraphes1_3": [
+                  "The total time Huda spent preparing the cake = "
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -175,8 +173,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["4"],
-                    "show": ["4"]
+                    "valid": ["75"],
+                    "show": ["75"]
                   },
                   {
                     "length": 0,
@@ -201,26 +199,26 @@
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["2"],
                     "show": ["2"]
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["8"],
                     "show": ["8"]
                   }
                 ],
-                "paragraphes2": [""],
+                "paragraphes2": ["minutes."],
                 "paragraphes3": [""],
-                "paragraphes4": [" meters ."],
-                "paragraphes4_2": ["The area of each painted section = "],
-                "paragraphes5": [" 4 ×"],
-                "paragraphes6": ["="],
-                "paragraphes7": ["square meters."]
+                "paragraphes4": [""],
+                "paragraphes4_2": [""],
+                "paragraphes5": [""],
+                "paragraphes6": [""],
+                "paragraphes7": [""]
               }
             ],
             "answerUser": [
@@ -265,17 +263,15 @@
           {
             "id": 1,
             "type": 2,
-            "index": "",
-            "image": "../images/06_01/183/3.png",
-            "break4":true,
-            "break3":true,
+            "index": "ج",
+            "image": "",
             "contents": [
               {
                 "paragraphes1": [
-                  "Norhan wants to cover half of the floor area of her room with a carpet. If the dimensions of the room floor are 6 meters by 4 meters, what is the area of the carpet?"
+                  "Mohammed left home at 5:00 PM to watch a movie starting at 6:00 PM. If it took him 20 minutes to reach the cinema, 10 minutes to stop and buy coffee, and 5 minutes waiting for his friend: Will there be enough time for Mohammed and his friend to have lunch (which takes 40 minutes) before the movie starts?"
                 ],
 
-                "paragraphes1_3": ["Half of the width = "],
+                "paragraphes1_3": ["Time available before the movie starts = "],
                 "inputtype": [
                   {
                     "length": 0,
@@ -290,12 +286,12 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["4"],
-                    "show": ["4"]
+                    "valid": ["60"],
+                    "show": ["60"]
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["2"],
                     "show": ["2"]
@@ -304,8 +300,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["2"],
-                    "show": ["2"]
+                    "valid": ["75"],
+                    "show": ["75"]
                   },
                   {
                     "length": 0,
@@ -318,27 +314,41 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["2"],
-                    "show": ["2"]
+                    "valid": ["75"],
+                    "show": ["75"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["12"],
-                    "show": ["12"]
+                    "valid": ["60"],
+                    "show": ["60"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["is not"],
+                    "show": ["is not"]
                   }
                 ],
-                "paragraphes2": ["÷"],
-                "paragraphes3": ["="],
-                "paragraphes4": ["meters."],
-                "paragraphes4_2": ["The area of the carpet = "],
-                "paragraphes5": ["6 × "],
-                "paragraphes6": ["="],
-                "paragraphes7": ["square meters."]
+                "paragraphes2": ["minutes."],
+                "paragraphes3": ["Time required for the activities ="],
+                "paragraphes4": ["minutes."],
+                "paragraphes4_2": [""],
+                "paragraphes5": [""],
+                "paragraphes6": [">"],
+                "paragraphes7": ["Therefore,"],
+                "paragraphes8": ["there is enough time to watch", "a TV show."]
               }
             ],
             "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
               {
                 "answer": [""],
                 "correct": false,
@@ -381,16 +391,16 @@
             "id": 1,
             "type": 2,
             "index": "د",
-            "image": "../images/06_01/183/4.png",
-            "break3":true,
-            "break4":true,
+            "image": "",
             "contents": [
               {
                 "paragraphes1": [
-                  "A rectangular garden with a length of 8 meters and a width of 6 meters. Doha wants to plant fruit in half of the garden. What is the area of half of the garden?"
+                  " Ziad woke up at 8:00 AM to catch a train at 9:30 AM. If he spent 15 minutes having breakfast, 10 minutes packing his bag, and 25 minutes to reach the train station  Will there be enough time for Ziad to watch a 30-minute TV show before leaving?"
                 ],
 
-                "paragraphes1_3": ["The area of the garden = "],
+                "paragraphes1_3": [
+                  "Time available before catching the train ="
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -403,35 +413,14 @@
                 "inputtype2": [
                   {
                     "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["90"],
+                    "show": ["90"]
+                  },
+                  {
+                    "length": 0,
                     "numperofinput": 0,
-                    "comma": "",
-                    "valid": [""],
-                    "show": [""]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
-                    "comma": "",
-                    "valid": ["6"],
-                    "show": ["6"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
-                    "comma": "",
-                    "valid": ["48"],
-                    "show": ["48"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
-                    "comma": "",
-                    "valid": ["48"],
-                    "show": ["48"]
-                  },
-                  {
-                    "length": 0,
-                    "numperofinput": 1,
                     "comma": "",
                     "valid": ["2"],
                     "show": ["2"]
@@ -440,20 +429,55 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["24"],
-                    "show": ["24"]
+                    "valid": ["80"],
+                    "show": ["80"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["6"],
+                    "show": ["6"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["80"],
+                    "show": ["80"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["90"],
+                    "show": ["90"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["is not"],
+                    "show": ["is not"]
                   }
                 ],
-                "paragraphes2": ["8 ×"],
-                "paragraphes3": ["="],
-                "paragraphes4": ["square meters."],
-                "paragraphes4_2": ["The area of half of the garden = "],
-                "paragraphes5": ["÷"],
-                "paragraphes6": ["="],
-                "paragraphes7": ["m."]
+                "paragraphes2": ["minutes."],
+                "paragraphes3": ["Time required for the activities = "],
+                "paragraphes4": ["minutes."],
+                "paragraphes4_2": [""],
+                "paragraphes5": [""],
+                "paragraphes6": ["<"],
+                "paragraphes7": ["Therefore، there"],
+                "paragraphes8": ["enough time to watch the ", "TV show."]
               }
             ],
             "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
               {
                 "answer": [""],
                 "correct": false,
@@ -491,21 +515,46 @@
                 "done": false
               }
             ]
-          },
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      },
+      {
+        "active": false,
+
+        "title": "Read, then answer",
+        "qtitle": "Who went to sleep first?",
+        "popuptext": [],
+        "paragraph1": [],
+        "quran": [],
+        "typeOfquestion": 1,
+        "styleWrap": false,
+        "paragraph2": [],
+        "items": [
           {
             "id": 1,
             "type": 2,
-            "index": "ھ",
-            "image": "../images/06_01/183/5.png",
-            "break3":true,
-            "break4":true,
+            "index": "",
+            "image": "",
             "contents": [
               {
                 "paragraphes1": [
-                  "Ibrahim wants to color half of the picture in blue. If the dimensions of the picture are 12 cm by 8 cm, what is the area Ibrahim will color?"
+                  "Essam and his friend Hesham started doing some activities at the same time. Essam studied mathematics for 25 minutes, had dinner for 20 minutes, and watched a 18 minute program before going to sleep. Meanwhile, his friend Hesham studied mathematics for 15 minutes, had dinner for 30 minutes, and watched a 10 minute program before going to sleep."
                 ],
 
-                "paragraphes1_3": ["Half of the width of the picture =  "],
+                "paragraphes1_3": [
+                  "The total time Essam spent on activities = "
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -520,12 +569,12 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["8"],
-                    "show": ["8"]
+                    "valid": ["63"],
+                    "show": ["63"]
                   },
                   {
                     "length": 0,
-                    "numperofinput": 1,
+                    "numperofinput": 0,
                     "comma": "",
                     "valid": ["2"],
                     "show": ["2"]
@@ -534,41 +583,57 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["4"],
-                    "show": ["4"]
+                    "valid": ["80"],
+                    "show": ["80"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 0,
                     "comma": "",
-                    "valid": ["8"],
-                    "show": ["8"]
+                    "valid": ["6"],
+                    "show": ["6"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["12"],
-                    "show": ["12"]
+                    "valid": ["80"],
+                    "show": ["80"]
                   },
                   {
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["48"],
-                    "show": ["48"]
+                    "valid": ["90"],
+                    "show": ["90"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["Hesham"],
+                    "show": ["Hesham"]
                   }
                 ],
-                "paragraphes2": ["÷"],
-                "paragraphes3": ["="],
-                "paragraphes4": ["cm ."],
-                "paragraphes4_2": ["The area Ibrahim will color ="],
-                "paragraphes5": [" 4 × "],
-                "paragraphes6": ["="],
-                "paragraphes7": ["square cm."]
+                "paragraphes2": ["minutes."],
+                "paragraphes3": [
+                  "The total time Hesham spent on activities = "
+                ],
+                "paragraphes4": ["minutes."],
+                "paragraphes4_2": [""],
+                "paragraphes5": [""],
+                "paragraphes6": ["<"],
+                "paragraphes7": ["Therefore,"],
+                "paragraphes8": ["is the one who went to sleep", "first."]
               }
             ],
             "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
               {
                 "answer": [""],
                 "correct": false,
