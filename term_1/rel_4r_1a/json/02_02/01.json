@@ -20,6 +20,7 @@
     "passageHand": true,
     "inputSlide": [
       {
+        "slideOne": true,
         "active": true,
         "title": "أكمِلْ",
         "popuptext": [],
@@ -33,15 +34,15 @@
           {
             "id": 1,
             "type": 2,
-            "index": "1",
+            "index": "",
             "contents": [
               {
                 "paragraphes1": [
-                  "قَالَ (تَعَالَى): ﴿إِنَّهُ لَقَوْلُ رَسُولٍ",
+                  "قَالَ (تَعَالَى): <span class ='quran'>﴿إِنَّهُ لَقَوْلُ رَسُولٍ</span>",
                   "&nbsp "
                 ],
                 "paragraphesAfter1": [
-                  "(19) ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ"
+                  "<span class ='quran'>(19) ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ</span>"
                 ],
                 "inputtype": [
                   {
@@ -100,30 +101,37 @@
                     "show": ["رب"]
                   }
                 ],
-                "paragraphes2": ["&nbsp ", "(20) مُّطَاعٍ ثَمَّ"],
-                "paragraphes3": ["(21) وَمَا صَاحِبُكُم "],
+                "paragraphes2": [
+                  "&nbsp ",
+                  "<span class ='quran'>(20) مُّطَاعٍ ثَمَّ</span>"
+                ],
+                "paragraphes3": [
+                  "<span class ='quran'>(21) وَمَا صَاحِبُكُم </span>"
+                ],
                 "paragraphesAfter3": [],
 
                 "paragraphes4": [
-                  "(22) وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ",
-                  "(23) وَمَا هُوَ عَلَى",
-                  "الْغَيْبِ بِضَنِينٍ",
+                  "<span class ='quran'>(22) وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ</span>",
+                  "<span class ='quran'>(23) وَمَا هُوَ عَلَى</span>",
+                  "<span class ='quran'>الْغَيْبِ بِضَنِينٍ</span>",
                   "&nbsp ",
-                  "(24) وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَّجِيمٍ",
+                  "<span class ='quran'>(24) وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَّجِيمٍ</span>",
                   "&nbsp ",
-                  "(25) فَأَيْنَ تَذْهَبُونَ",
+                  "<span class ='quran'>(25) فَأَيْنَ تَذْهَبُونَ</span>",
                   "&nbsp ",
-                  "(26) إِنْ هُوَ إِلَّا"
+                  "<span class ='quran'>(26) إِنْ هُوَ إِلَّا</span>"
                 ],
                 "paragraphesAfter4": [],
                 "paragraphes5": [
-                  "لِّلْعَالَمِينَ (27) لِمَن شَاءَ مِنكُمْ أَن"
+                  "<span class ='quran'>لِّلْعَالَمِينَ (27) لِمَن شَاءَ مِنكُمْ أَن</span>"
                 ],
                 "paragraphes6": [
-                  "(28) وَمَا تَشَاءُونَ",
-                  "إِلَّا أَن يَشَاءَ اللَّهُ"
+                  "<span class ='quran'>(28) وَمَا تَشَاءُونَ</span>",
+                  "<span class ='quran'>إِلَّا أَن يَشَاءَ اللَّهُ</span>"
                 ],
-                "paragraphesAfter6": ["الْعَالَمِينَ (29)."]
+                "paragraphesAfter6": [
+                  "<span class ='quran'>الْعَالَمِينَ (29)﴾.</span>"
+                ]
               }
             ],
             "answerUser": [

@@ -20,6 +20,7 @@
     "passageHand": true,
     "inputSlide": [
       {
+        "slideOne": true,
         "active": true,
         "title": "أكمِلْ",
         "popuptext": [],
@@ -36,9 +37,12 @@
             "index": "",
             "contents": [
               {
-                "paragraphes1": ["فَلَا أُقْسِمُ", "&nbsp "],
+                "paragraphes1": [
+                  "<span class ='quran'>فَلَا أُقْسِمُ</span>",
+                  "&nbsp "
+                ],
                 "paragraphesAfter1": [
-                  "(15) الْجَوَارِ الْكُنَّسِ (16) وَاللَّيْلِ إِذَا عَسْعَسَ"
+                  "(15) <span class ='quran'>الْجَوَارِ الْكُنَّسِ (16) وَاللَّيْلِ إِذَا عَسْعَسَ</span>"
                 ],
                 "inputtype": [
                   {
@@ -99,7 +103,7 @@
                 ],
                 "paragraphes2": [],
                 "paragraphesAfter2": [
-                  "إِذَا تَنَفَّسَ (18) إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ (19) ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ (20) مُّطَاعٍ ثَمَّ أَمِينٍ (21) وَمَا صَاحِبُكُم بِمَجْنُونٍ (22)."
+                  "<span class ='quran'>إِذَا تَنَفَّسَ (18) إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ (19) ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ (20) مُّطَاعٍ ثَمَّ أَمِينٍ (21) وَمَا صَاحِبُكُم بِمَجْنُونٍ (22)</span>."
                 ],
                 "paragraphes3": [],
                 "paragraphesAfter3": [],
@@ -155,6 +159,8 @@
         "pop": ""
       },
       {
+        "slideOne": true,
+
         "active": false,
         "title": "أكمِلْ",
         "popuptext": [],
@@ -171,7 +177,9 @@
             "index": "1",
             "contents": [
               {
-                "paragraphes1": ["﴿مِنْ ءَالِ فِرْعَونَ ﴾:"],
+                "paragraphes1": [
+                  "<span class ='quran'>﴿مِنْ ءَالِ فِرْعَونَ ﴾</span>:"
+                ],
                 "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
@@ -287,7 +295,7 @@
             "index": "2",
             "contents": [
               {
-                "paragraphes1": ["﴿مَنْ هَاجَرَ﴾:"],
+                "paragraphes1": ["<span class ='quran'>﴿مَنْ هَاجَرَ﴾</span>:"],
                 "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
@@ -403,7 +411,9 @@
             "index": "3",
             "contents": [
               {
-                "paragraphes1": ["﴿حَكِيمٌ عَلِيمٌ﴾:"],
+                "paragraphes1": [
+                  "<span class ='quran'>﴿حَكِيمٌ عَلِيمٌ﴾</span>:"
+                ],
                 "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
@@ -518,6 +528,8 @@
         "pop": ""
       },
       {
+        "slideOne": true,
+
         "active": false,
         "title": "أكمِلْ",
         "popuptext": [],
@@ -534,8 +546,13 @@
             "index": "",
             "contents": [
               {
-                "paragraphes1": ["إِذَا الشَّمْسُ", "&nbsp "],
-                "paragraphesAfter1": ["(1) وَإِذَا"],
+                "paragraphes1": [
+                  "<span class ='quran'>إِذَا الشَّمْسُ</span>",
+                  "&nbsp "
+                ],
+                "paragraphesAfter1": [
+                  "<span class ='quran'>(1) وَإِذَا</span>"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -595,30 +612,35 @@
                 ],
                 "paragraphes2": [],
                 "paragraphesAfter2": [
-                  "انكَدَرَتْ",
+                  "<span class ='quran'>انكَدَرَتْ</span>",
                   "&nbsp;",
-                  "  (2) وَإِذَا ",
+                  " <span class ='quran'> (2) وَإِذَا </span>",
                   "&nbsp;",
-                  " الْجِبَالُ سُيِّرَتْ (3) ",
+                  " <span class ='quran'>الْجِبَالُ سُيِّرَتْ (3) </span>",
                   "&nbsp;",
-                  "  وَإِذَا الْعِشَارُ  "
+                  " <span class ='quran'> وَإِذَا الْعِشَارُ </span> "
                 ],
                 "paragraphes3": [],
-                "paragraphesAfter3": ["(4) وَإِذَا الْوُحُوشُ"],
+                "paragraphesAfter3": [
+                  "<span class ='quran'>(4) وَإِذَا الْوُحُوشُ</span>"
+                ],
 
                 "paragraphes4": [],
                 "paragraphesAfter4": [
-                  "(5) وَإِذَا الْبِحَارُ ",
+                  "<span class ='quran'>(5) وَإِذَا الْبِحَارُ </span>",
                   "&nbsp;",
-                  "سُجِّرَتْ (6) وَإِذَا النُّفُوسُ",
+                  "<span class ='quran'>سُجِّرَتْ (6) وَإِذَا النُّفُوسُ</span>",
                   "&nbsp;",
-                  "زُوِّجَتْ",
-                  "(7) وَإِذَا",
+                  "<span class ='quran'>زُوِّجَتْ</span>",
+                  "<span class ='quran'>(7) وَإِذَا</span>",
                   "&nbsp;",
-                  "الْمَوْءُودَةُ سُئِلَتْ (8) بِأَيِّ"
+                  "<span class ='quran'>الْمَوْءُودَةُ سُئِلَتْ (8) بِأَيِّ</span>"
                 ],
                 "paragraphes5": [],
-                "paragraphes6": ["قُتِلَتْ (9)", "."],
+                "paragraphes6": [
+                  "<span class ='quran'>قُتِلَتْ (9)</span>",
+                  "."
+                ],
                 "paragraphesAfter6": []
               }
             ],

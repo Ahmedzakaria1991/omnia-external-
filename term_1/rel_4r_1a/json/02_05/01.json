@@ -365,6 +365,8 @@
         "pop": ""
       },
       {
+        "slideOne": true,
+
         "active": false,
         "title": "أَكْمِلِ",
         "popuptext": [],
@@ -382,14 +384,12 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "قالَ (تَعَالَى): ﴿",
-                  "&nbsp ",
-                  "وَالَّذِينَ تَبَوَّءُوا الدَّارَ "
+                  "قالَ (تَعَالَى):  <span class ='quran'>﴿وَالَّذِينَ تَبَوَّءُوا الدَّارَ </span>"
                 ],
                 "paragraphesAfter1": [
-                  "مِن قَبْلِهِمْ",
+                  " <span class ='quran'>مِن قَبْلِهِمْ</span>",
                   "&nbsp ",
-                  "حِبُّونَ مَنْ"
+                  " <span class ='quran'>يُحِبُّونَ مَنْ</span>"
                 ],
                 "inputtype": [
                   {
@@ -450,28 +450,15 @@
                 ],
                 "paragraphes2": [],
                 "paragraphesAfter2": [
-                  "إِلَيْهِمْ وَلَا يَجِدُونَ فِي",
-                  "&nbsp;"
+                  " <span class ='quran'>إِلَيْهِمْ وَلَا يَجِدُونَ فِي</span>"
                 ],
                 "paragraphes3": [],
                 "paragraphesAfter3": [
-                  "حَاجَةً مِّمَّا",
-                  "&nbsp;",
-                  "أُوتُوا وَيُؤْثِرُونَ",
-                  "&nbsp;",
-                  "عَلَىٰ أَنفُسِهِمْ ",
-                  "&nbsp;",
-                  "وَلَوْ كَانَ بِهِمْ",
-                  "&nbsp;",
-                  "خَصَاصَةٌ ۚ وَمَن",
-                  "&nbsp;",
-                  "يُوقَ شُحَّ نَفْسِهِ",
-                  "&nbsp;",
-                  "فَأُولَٰئِكَ هُمُ"
+                  " <span class ='quran'>حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَٰئِكَ هُمُ</span>"
                 ],
 
                 "paragraphes4": [],
-                "paragraphesAfter4": ["."],
+                "paragraphesAfter4": [" <span class ='quran'>﴾</span>."],
                 "paragraphes5": [],
                 "paragraphes6": ["."],
                 "paragraphesAfter6": []
@@ -537,8 +524,10 @@
             "index": "1",
             "contents": [
               {
-                "paragraphes1": ["قالَ (تَعَالَى): ﴿إِنَّمَا الْمُؤْمِنُونَ"],
-                "paragraphesAfter1": ["﴾."],
+                "paragraphes1": [
+                  "قالَ (تَعَالَى): <span class ='quran'>﴿إِنَّمَا الْمُؤْمِنُونَ</span>"
+                ],
+                "paragraphesAfter1": ["<span class ='quran'>﴾.</span>"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -653,14 +642,14 @@
             "index": "2",
             "contents": [
               {
-                "paragraphes1": ["قالَ (تَعَالَى): ﴿وَمَن يُوقَ"],
+                "paragraphes1": [
+                  "قالَ (تَعَالَى): <span class ='quran'>﴿وَمَن يُوقَ</span"
+                ],
                 "paragraphesAfter1": [
-                  "نَفْسِهِ فَأُولَٰئِكَ ",
-                  "&nbsp",
-                  "هُمُ",
+                  "<span class ='quran'>نَفْسِهِ فَأُولَٰئِكَ هُمُ</span>",
                   "&nbsp",
 
-                  "الْمُفْلِحُونَ﴾"
+                  "<span class ='quran'> الْمُفْلِحُونَ﴾.</span>"
                 ],
                 "inputtype": [
                   {

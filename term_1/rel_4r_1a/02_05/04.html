@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -134,7 +134,9 @@
                   <span class="icon-index"
                     >{{slide.quizChooses.length > 1 ? index+1 : '&nbsp'}}</span
                   >
-                  <p class="" v-if="quiz.paragraph">{{quiz.paragraph}}</p>
+                  <p class="" v-if="quiz.paragraph" v-html="quiz.paragraph">
+                    {{quiz.paragraph}}
+                  </p>
                   <img
                     class="image-question"
                     :src="quiz.imgSrc"
