@@ -1,0 +1,263 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [],
+
+        "audio_in_page": "../audio/03-01/1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " شجَّعَ المُدَرِّبُ اللاعِبَ على مُواصلةِ السِّباقِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "فازَ اللاعِبُ في نِهايةِ السِّباقِ بالمركزِ الأوَّلِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "1",
+            "qtitle": " أجِبْ: ",
+
+            "paragraph": " ما معنى الهزيمةِ الحقيقيةِ؟ ",
+            "quran": "",
+            "popup": ["عدم المحاولة من الأساس."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [""],
+        "audio_in_page": "../audio/03-01/3.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "كانَتْ سارةُ تخافُ من عرضِ لوحاتها  أمامَ الآخَرينَ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " فازَتْ سارةُ بالمركَزِ الأوَّلِ في المُسابَقةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "1",
+            "qtitle": " أجِبْ: ",
+
+            "paragraph": " شارَكَتْ سارةُ في المُسابَقةِ بعدَما قالَتْ لنَفْسِهَا: ....................... ",
+            "quran": "",
+            "popup": ["لماذا لا أحاول؟"],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": " صارَتْ سارةُ تُؤْمِنُ أنَّ .................. ",
+            "quran": "",
+            "popup": [" الشجاعة أول طريق النجاح."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "type": 3,
+            "index": "1",
+            "paragraph": "  لماذا كانَتْ مُشارَكةُ سارةَ في المُسابَقةِ مُهِمةً بالنِّسبةِ إليها؟ ",
+            "quran": "",
+            "popup": [
+              "لأنها تغلبت على خوفها، وحاولت بشجاعة، وهذا أهم من الجائزة بالنسبة لها."
+            ],
+            "isActive": false
+          }
+        ]
+      },
+
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [""],
+        "audio_in_page": "../../../assets/audio/finshed.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " شارَكَ عِمادٌ في التمثيلِ بإحدى المسرَحياتِ في الحفلِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " شكَرَ المُديرُ عمادًا أمامَ الجميعِ؛ تقديرًا لمجهودِهِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "1",
+            "qtitle": " أجِبْ: ",
+
+            "paragraph": "  كان عِمادٌ خائِفًا من ................... ",
+            "quran": "",
+            "popup": [" أن يظهر الحفل بصورة غير جيدة."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": "حتَّى تحظَى بتَقديرِ المُحيطينَ بك لا بُدَّ أنْ تعمَلَ بـــ  .............",
+            "quran": "",
+            "popup": ["إخلاص."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "type": 3,
+            "index": "1",
+            "paragraph": " كيفَ تغَلَّبَ عِمادٌ على خوفِهِ وقلَقِهِ؟",
+            "quran": "",
+            "popup": ["أخذ نفسًا عميقًا وبحث بهدوء عن الأوراق."],
+            "isActive": false
+          }
+        ]
+      }
+    ]
+  }
+]

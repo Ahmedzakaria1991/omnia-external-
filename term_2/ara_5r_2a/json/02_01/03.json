@@ -1,0 +1,325 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحة",
+            "qtitle":"اختَرِ الصِّفاتِ التي تُعبِّرُ عن كلِّ شخصيةٍ ممَّا يلي:",
+            "popuptext": [],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "شخصيةُ الأُختِ الكُبرَى:",
+                "correctAnswer": [1,2,4,5],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": " مُحِبَّةٌ لأخيها.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تُساعِدُ الآخَرينَ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "كَسولةٌ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تستَمِعُ بهُدوءٍ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "تمنَحُ الثِّقةَ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "تبتَعِدُ عن أهلِها.",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "شخصيةُ الأخِ:",
+                "correctAnswer": [1,2,3,5],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُمتَنٌّ لأُختِهِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مُخَطِّطٌ جيِّدٌ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "يُحِبُّ المُفاجآتِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "بخيلٌ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "يُعَبِّرُ عن تقديرِهِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": " يُهمِلُ واجباتِهِ.",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحة",
+            "qtitle": "",
+            "popuptext": [],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ السُّلوكِ الذي يُعبِّرُ عن الحُبِّ و الامتِنانِ للآخَرينَ:",
+                "correctAnswer": [1,3,4,6],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أعطى أحمد أخاهُ كأسَ الماءِ عِندَما كانَ مُتعَبًا.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "غضِبَ الولَدُ من صديقِهِ؛ لأنَّهُ لم يُعطِهِ ما يُريدُ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "كتَبتِ الطالِبةُ بِطاقةً صغيرةً لصديقَتِها تَقُولُ فيها: «أُحِبُّ طيبتَكِ معي».",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "صنَعَ طِفلٌ لوحَةً بسيطةً؛ ليُهديَها لأمِّهِ تقديرًا لجُهودِها.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "سخِرَ  الولَدُ من هديةِ صديقِهِ؛ لأنَّها بسيطةٌ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "قالتِ التِّلميذةُ لمُعَلِّمَتِها: «شُكرًا؛ لأنَّكِ تَشرَحينَ لي بهُدوءٍ».",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحة",
+            "qtitle": "",
+            "popuptext": [],
+            "audio_in_page":"./../audio/02_01/109/p2.mp3",
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "نسِيَ عُمَرُ كِتابَ .............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "العُلومِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الرِّياضِياتِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "اللُّغةِ الإنجليزيةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "اللُّغةِ العرَبيةِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "عِندَما علِمَ شادي بمُشكِلةِ عُمَرَ ............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "سخِرَ منه",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "شارَكَه الكتابَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "تَجاهَلَ الأمرَ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "عاتَبَهُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "كتَبَ عُمَرُ في البِطاقةِ كلِمةً تُعبِّرُ عنِ: .............",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الندَمِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الخجَلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الامتِنانِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الاعتِذارِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

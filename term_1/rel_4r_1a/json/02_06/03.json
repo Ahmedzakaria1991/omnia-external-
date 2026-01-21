@@ -1,10 +1,10 @@
-[{
+[
+  {
     "nameId": "",
-    "title": "صلْ",
+    "title": "صِلْ",
     "subject": "rel-4",
     "colorTemplate": "#007F80",
     "matchCounter": 0,
-
 
     "counterCorrect": 0,
     "LODegree": null,
@@ -14,27 +14,28 @@
     "randomNumber": null,
     "loTargets": null,
     "numberOfquestion": null,
-    "first":"أ",
-    "second":"ب",
+    "first": "أ",
+    "second": "ب",
 
-    "matches": [{
-            "point": 1,
-            "textRight": "كانَ عبدُ الرحمنِ بنُ عوف (رَضِيَ ٱللَّٰهُ عَنْهُ) يعملُ",
-            "textLeft": "تاجرًا",
-            "answer": false
-        },
-        {
-            "point": 2,
-            "textRight": "وُلِدَ عبدُ الرحمنِ بنُ عوف (رَضِيَ ٱللَّٰهُ عَنْهُ) في",
-            "textLeft": "مكَّةَ",
-            "answer": false
-        },
-        {
-            "point": 3,
-            "textRight": " تو فِّي عبدُ الرحمنِ بنُ عوف (رَضِيَ ٱللَّٰهُ عَنْهُ) عامَ",
-            "textLeft":"32 هـ",
-            "answer": false
-        }
-
+    "matches": [
+      {
+        "point": 1,
+        "textRight": "كانَ عبدُ الرحمنِ بنُ عوف (رَضِيَ ٱللَّٰهُ عَنْهُ) يعملُ",
+        "textLeft": "تاجرًا",
+        "answer": false
+      },
+      {
+        "point": 2,
+        "textRight": "وُلِدَ عبدُ الرحمنِ بنُ عوف (رَضِيَ ٱللَّٰهُ عَنْهُ) في",
+        "textLeft": "مكَّةَ",
+        "answer": false
+      },
+      {
+        "point": 3,
+        "textRight": " توفِّي عبدُ الرحمنِ بنُ عوف (رَضِيَ ٱللَّٰهُ عَنْهُ) عامَ",
+        "textLeft": "32 هـ",
+        "answer": false
+      }
     ]
-}]
+  }
+]

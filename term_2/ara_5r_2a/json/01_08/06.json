@@ -1,0 +1,88 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "title":"ضَعْ علامةَ (✔) أو علامةَ (✘)",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [
+                "بِالْعَزْمِ أُحَقِّقُ أَحْلَامِي            &nbsp;&nbsp;&nbsp;       كَي تَحْلُوَ دَوْمًا أَيَّامِي ",
+                "أَمْضِي مِقْدَامًا لَا أَخْشَى        &nbsp;&nbsp;&nbsp;          فَالْخَوْفُ عَدُوُّ الْإِقْدَامِ ",
+                "الْعِلْمُ هُوَ النُّورُ لقَلْبِي       &nbsp;&nbsp;&nbsp;         وَالْجَهْلُ شَدِيدُ الْإِظْلَامِ ",
+                "الْعِلْمُ يُعَظِّمُ صَاحِبَهُ      &nbsp;&nbsp;&nbsp;         يُــعْلِيــهِ فِــي كُــلِّ مَــقَــامِ"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "العِلْمُ يُنيرُ القُلوبَ، والجهلُ يُظلِمُها.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "العِلْمُ يجعَلُ صاحِبَهُ عظيمًا.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+          
+        ],
+
+        "popupQuestion": []
+      }
+      
+    ]
+  }
+]

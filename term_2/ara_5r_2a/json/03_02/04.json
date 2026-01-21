@@ -1,0 +1,64 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "answer",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "هاتِ عائلةَ كلِمةِ (مَحْفُورَة)",
+            "popup": [" حفر - حفَّار - حافر - حُفْرة."]
+          }
+        ]
+      },
+      {
+        "title": "أجب عن الأسئلة الآتية",
+        "qtitle": "        خريطةَ كلِمةِ (تَلَفَّظَ):",
+
+        "isActive": false,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "المُرادِفُ:",
+            "popup": ["نطق."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجذرُ:",
+            "popup": ["لفظ."]
+          },
+          {
+            "id": 1,
+            "paragraph": "المضادُّ:",
+            "popup": ["سكت."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجملة:",
+            "popup": ["تلفظ الطفل بكلماتٍ طيبة."]
+          }
+        ]
+      }
+    ]
+  }
+]

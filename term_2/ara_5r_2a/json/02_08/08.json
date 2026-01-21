@@ -1,0 +1,814 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "qtitle": "اختَرِ الإجابةَ الصحيحةَ ممَّا بينَ القَوسَينِ:",
+        "title": "اختر الاجابة الصحيحة",
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+
+        "popuptext": [
+          "بِلَادِي، سَأَسْعَى لِتَحْقِيقِ حُلْمِي          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       بِعِلْــــمٍ وَصَـــبْرٍ وَأَعْلَـــى الْهِمَـمْ  ",
+          "وَعِنْــدِيَ حُلْـــمٌ سَـأَسْـــعَى إليه        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَأَطْمَـــحُ لِلْمَجْـــدِ بَيْنَ الْقِمَـــم",
+          "أُزِيـلُ عَـنِ الـدَّرْبِ كُـلَّ الصِّعَـابِ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           وَأَصْــــبِرُ حَتَّــــى يَـــزُولَ الْأَلَـــمْ ",
+          "بِعَزْمِــي أَسِـــيرُ  إِلَــى كُــلِّ عِلْـمٍ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            وَأُعلِيـــكِ يَا مِصْـــرُ بَيْنَ الْأُمَــمْ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مرادفُ (أطمح): ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أعلو",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أتحمَّل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أتعلَّم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أترقَّب",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " مُضادُّ (الألم):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "العِلْم",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الرَّاحة",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الأَمْن",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الصَّعْب",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "جمعُ (حُلم):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "لمحات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أحلام",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مَحَال",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "حملات",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "مُفردُ (الأُمَم):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الأُم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الإمام",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الأُمة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الألم",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "qtitle": "أجِبْ:",
+            "index": "1",
+            "paragraph": "ما الصِّفاتُ التي يتَمَيَّزُ بها الشاعِرُ في سعيِهِ نحوَ المجْدِ؟",
+            "popup": ["العلم والصبر والهمة والطموح."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "qtitle": "",
+            "index": "2",
+            "paragraph": "علامَ تدُلُّ كلِمةُ (القِمَم) في الأبياتِ السابِقةِ؟",
+            "popup": ["تدل علي علو الهدف والغاية."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "qtitle": "اختَرِ الإجابةَ الصحيحةَ ممَّا بينَ القَوسَينِ:",
+        "title": "اختر الاجابة الصحيحة",
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+
+        "popuptext": [
+          " ابْتَعِــــــدْ عَـــــنْ كُـــــلِّ شَــــــرٍّ          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       وَانْـــــــــثُرِ الْـخَـــــــــيْرَ بِحُـــــــبّ  ",
+          "وَاجْـــــمَعِ الْأَحْــــــلَامَ وَاصْــــبِرْ        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             حـِـــــينَ تَلْقَــــــى أَيَّ صَعْــــــبِ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُرادِفُ (الأحلام): ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الأوهام",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الأمنِيات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "المعارف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الأفكار",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "  مُضادُّ (انثُر):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "اترُك",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "اجمَع",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "شارِك",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "اعرِف",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "جمعُ (صعب): ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أصابع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "صُعوبَات",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "صِعاب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أعصاب",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "qtitle": "أجِبْ:",
+            "index": "1",
+            "paragraph": " ما الفِكرةُ التي دعا إليها الشاعِرُ في البيتِ الأوَّلِ؟",
+            "popup": ["أن يبتعد الإنسان عن كل شر وأن ينشر الحب والخير."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "qtitle": "اختَرِ الإجابةَ الصحيحةَ ممَّا بينَ القَوسَينِ:",
+        "title": "اختر الاجابة الصحيحة",
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+
+        "popuptext": [
+          " أُزِيــلُ الصِّعَـــــابَ بِقَلْـــبٍ شُـــجَاعْ          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      وَعِلْـــــمٍ مُفِــــيدٍ، وَعَـــزْمِ الشَّــبَابْ  ",
+          "كِتَابِي سَيُشْرِقُ في النَّفْسِ نُورًا        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           وَخَـــيْرُ الصَّدَاقَـــاتِ دَوْمًـــا كِــتَابْ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُرادِفُ (أُزيلُ): ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أُبعِدُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أتجَنَّبُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أتحدَّى",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أهزِم",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " مُضادُّ (يُشرِق): ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "يضيع",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "يغرُب",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "يُسافر",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "يختفي",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "qtitle": "أجِبْ:",
+            "index": "1",
+            "paragraph": " ما الدورُ الذي يلعَبُهُ الكِتابُ في حياةِ الشاعِرِ كما تفْهَمُ منَ البيتَينِ؟ ",
+            "popup": [" ينير العقل ويزيل الجهل وهو خير صديق ورفيق."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "qtitle": "أجِبْ:",
+            "index": "2",
+            "paragraph": " منَ التعبيراتِ المجازِيةِ في البيتِ الثاني؟",
+            "popup": ["خير الصداقات دومًا كتاب."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "qtitle": "اختَرِ الإجابةَ الصحيحةَ ممَّا بينَ القَوسَينِ:",
+        "title": "اختر الاجابة الصحيحة",
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+
+        "popuptext": [
+          " عِـــــشْ بِــــلَا كَسَـــــلْ          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      جِـــــدَّ فِـــــي الْعَمَـــــلْ  ",
+          "وَامْـــــــضِ طَامِحًــــــا        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           وَانْشُــــــــرِ الْأَمَـــــــــــلْ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   (كسَل - جِد) بينَ الكلِمتَينِ: ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ترادُفٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تضادٌّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تماثُلٌ في النِّهاياتِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "(العمَل - الأمَل) بينَ الكلِمتَينِ: ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ترادُفٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تضادٌّ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " تماثُلٌ في النِّهايات",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "qtitle": "أجِبْ:",
+            "index": "1",
+            "paragraph": " إلامَ يدعو  الشاعِرُ في البيتَينِ؟ ",
+            "popup": [
+              "يدعو الشاعر إلى العيش بلا كسل وإلى الجد والاجتهاد في العمل وأن نحقق طموحاتنا وننشر الأمل بين الناس."
+            ],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+
+        "popuptext": [
+          " أُزَيِّــنُ بِالْحُـــبِّ وَجْــــهَ الْحَــــيَاةْ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            أُزِيــــلُ عَــنِ الْأُفْقِ حُزْنًا عَلَاهْ",
+          "وَأَزْرَعُ وُدًّا، وَأَسْقِـيــــــهِ حُـــبًّـــــا      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             فَكُــلٌّ يَعِيــشُ بِمَـا قَـدْ جَـنَاهْ"
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُرادِفُ (أُزِيل): ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أبحَث",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أتحَدَّث",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أُبعِد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أسأَل",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُضادُّ (ودًّا):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "شرًّا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "كراهيةً",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "يأسًا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جهلًا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "1",
+            "qtitle": "أجِبْ:",
+
+            "paragraph": "  «الإِنسانُ ينالُ نتيجةَ أفعالِهِ» أينَ تجِدُ هذا المعنى في البيتَينِ؟",
+            "popup": [
+              "وأزرع ودًّا وأسقيه حبًّا      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      فكل  يعيش بما قد جناه "
+            ],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "جِـــــــئْـنَــا مَـعَــكُـــــمْ نَـــــزْرَع وَرْدَةْ          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       نَــسْــــقِـــيـــهَــا حُــــــبــــًّا وَمَــــــوَدَّةْ ",
+          "نُــهْــــدِيــهَـــا لِلْــعَـــالَــــم أَجْـــمَـــع        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَنُـــغَـــنِّـــي وَالـــدُّنْــــيَـا تَـــسْــــمَـــعْ",
+          "أَطْــــفَــــــالٌ لِلْــعَــلْــــيَـــا تَطْـــمَـــحْ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           جَـــاءَتْ هَـــذَا الْــعَـــالَـــــم تَــفْـــرَحْ"
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُضادُّ (مودة):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "يأس",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ظُلم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "كراهِية",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "خوف",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادفُ (تطمَح):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تُغنِّي",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تأمُل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تلعَب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تمرَح",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " جمعُ (الدُّنيا):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الدنايا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الدُّنا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الأنداد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " جميعُ ما سبَقَ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "1",
+            "qtitle": "أجِبْ:",
+
+            "paragraph": " ما الذي يُهدِيهِ الأطفالُ لِلعَالَمِ؟",
+            "popup": ["أنهم المستقبل وبمحبتهم سيصبح المستقبل أجمل. "],
+            "isActive": false
+          }
+        ]
+      },
+
+      {
+        "active": false,
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          " كُـــنْ قَــــوِيًّا كَـــالْجِــــبَال       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            طَامِحًـــا نَحْــــــوَ الْمَعَـالِـــي",
+          "لَيْــــسَ يَلْقَاهَــا ضَـعِيــفٌ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             أَوْ كَسُــــــــولٌ لَا يُبـَالِـــــــي"
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " نصِلُ إلى (المعالي) بـ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الكسَلِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "المالِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "العمَلِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الملَلِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 1,
+            "index": "2",
+            "paragraph": " كلِمَتَينِ بينَهما تضادٌّ، وبيِّن أثرَه في المعنى",
+            "popup": ["(قوي – ضعيف) تضاد يوضح المعنى. "],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "index": "3",
+            "paragraph": "ما الصِّفاتُ التي تُبْعِدُ الإِنسانَ عنِ المعالي؟ ",
+            "popup": [" الكسل والضعف واللامبالاة. "],
+            "isActive": false
+          }
+        ]
+      }
+    ]
+  }
+]

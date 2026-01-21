@@ -1,0 +1,94 @@
+[
+  {
+    "nameId": "",
+    "title": "أجِبْ",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ",
+        "isActive": true,
+        "qtitle": "أعِدْ كتابةَ الجملةِ باستخدامِ (مُضافٍ إليه) يُوضِّحُ الكَلمةَ المُلوَّنةَ:",
+        "popuptext": [],
+        "poem": false,
+        "right_p1": [],
+        "left_p1": [],
+        "hideSpecific": true,
+
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "شاهَدْتُ الفيلَ في حديقةٍ.",
+            "popup": ["شاهدت الفيل في حديقة الحيوان."]
+          },
+          {
+            "id": 2,
+            "paragraph": "أدَّيْتُ صلاةً في المسجدِ.",
+            "popup": ["أديت صلاة العصر في المسجد."]
+          },
+          {
+            "id": 3,
+            "paragraph": "ذهَبْتُ إلى طبيبٍ لعلاجِ ضرسِي. ",
+            "popup": ["ذهبت إلى طبيب الأسنان لعلاج ضرسي. "]
+          },
+          {
+            "id": 4,
+            "paragraph": "وضَعْتُ المنديلَ في سلَّةٍ.",
+            "popup": [" وضعت المنديل في سلة المهملات."]
+          },
+          {
+            "id": 5,
+            "paragraph": "أعجبَتْنِي لُعبةٌ.",
+            "popup": ["أعجبتني لعبة الطفل."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "isActive": false,
+        "qtitle": " أجِبْ عن الأسئلةِ الآتيةِ مُستخدِمًا مُضافًا إليه:",
+        "popuptext": [],
+        "poem": false,
+        "right_p1": [],
+        "left_p1": [],
+        "hideSpecific": true,
+
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " متى تسقُطُ الأمطارُ؟",
+            "popup": [" تسقط الامطار في فصل الشتاء"]
+          },
+          {
+            "id": 2,
+            "paragraph": "مَا هِوايتُك المُفضَّلةُ؟",
+            "popup": [" هوايتي المفضلة قراءة القصصِ."]
+          },
+          {
+            "id": 3,
+            "paragraph": "  ما العصِيرُ الذي تُحِبُّه؟ ",
+            "popup": ["أحب عصيرَ التفاحِ."]
+          },
+          {
+            "id": 4,
+            "paragraph": " في أيِّ مُحافَظةٍ تسكُنُ؟",
+            "popup": ["  أسكن في محافظةِ القاهرةِ."]
+          }
+        ]
+      }
+    ]
+  }
+]

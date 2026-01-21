@@ -1,0 +1,76 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ",
+        "qtitle": "أعرِبِ الكلماتِ المُلوَّنةَ مُبيِّنًا السَّببَ:",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ارتفَعَت مكانةُ <span>المصريِّينَ</span> بين الأُممِ.",
+            "popup": ["مضاف إليه مجرور، وعلامة جره الياء؛ لأنه جمع مذكر سالم."]
+          },
+          {
+            "id": 2,
+            "paragraph": "استمَعْت إلى رأي <span>المُعلِّمِينَ</span>  في الاجتماعِ.",
+            "popup": ["مضاف إليه مجرور وعلامة جره الياء ؛ لأنه جمع مذكر سالم."]
+          },
+          {
+            "id": 3,
+            "paragraph": "ارتفَعَت مكانةُ <span>الطالبَينِ</span>.",
+            "popup": ["مضاف إليه مجرور وعلامة جره الياء ؛ لأنه مثنى."]
+          },
+          {
+            "id": 4,
+            "paragraph": "  مرَرْت بجانبِ <span>المسجدَينِ</span> الكبيرَينِ.",
+            "popup": ["مضاف إليه مجرور وعلامة جره الياء ؛ لأنه مثنى."]
+          },
+          {
+            "id": 5,
+            "paragraph": " شاهَدْت صورَ <span>اللاعبِينَ</span>  في المجلةِ.",
+            "popup": ["مضاف إليه مجرور وعلامة جره الياء ؛ لأنه جمع مذكر سالم."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "qtitle": " أعرِبْ ما تحتَه خطٌّ:",
+        "isActive": true,
+        "popuptext": [
+          "سَعِدَ طُلَّابُ المَدْرَسة بيومِ النشاطِ سعادةً كبيرةً؛ فقد شارَكوا في <span class='span'>أنْشطة</span> مُتَنوِّعةٍ أضْفَت على اليومِ روحًا جميلةً، وعادوا إلى بُيوتِهم يرْوُونَ لأهلِهم أحداثَ اليومِ <span class='span'>رواية</span> مُمْتِعةً."
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " أنْشطة:",
+            "popup": ["اسم مجرور، وعلامة جره الكسرة."]
+          },
+          {
+            "id": 2,
+            "paragraph": "رواية:",
+            "popup": ["مفعول مطلق منصوب، وعلامة نصبه الفتحة."]
+          }
+        ]
+      }
+    ]
+  }
+]

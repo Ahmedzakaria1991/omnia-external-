@@ -1,0 +1,340 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحة",
+        "popuptext": [
+          "يهتمُّ سالمٌ <span class='span'> اهتِمامًا</span> كبيرًا بزِراعةِ نباتِ النعناعِ في شُرفةِ منزلهِ؛ فكَّرَ  سالمٌ بإيجابيةٍ وقرَّرَ  إهداءَ كلِّ الجيرانِ مجموعاتٍ من نباتِ النعناعِ، قبِلَ جيرانُ سالمٍ الهَديَّةَ. وعندما علِمَ والدا سالمٍ بذلك قرَّرا إهداءَهُ كتابًا عن الزِّراعةِ، شكَر سالمٌ والديْهِ على <span class='span'>الهَديَّة</span>، فقال والدُه: «الأجملُ هو حِرصُكَ على مُساعَدةِ الآخَرِينَ»."
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "كلمةُ (الآخَرينَ): مُضافٌ إليه مجرورٌ، وعلامةُ جرِّه ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الكسرةُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الياءُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "1",
+            "qtitle": " أعرِبْ ما تحته خطٌّ في الفِقرةِ: ",
+            "paragraph": "اهتِمامًا: ",
+            "popup": ["مفعول مطلق منصوب، وعلامة نصبه الفتحة."],
+            "isActive": false
+          },
+          {
+            "id": 0,
+            "index": "2",
+            "paragraph": "الهدية:",
+            "popup": ["اسم مجرور، وعلامة جره الكسرة."],
+            "isActive": false
+          }
+        ]
+      },
+
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [
+          "إذا كُنتَ حسَنَ الخُلُقِ مع الأصدقاءِ؛ فسيَزْدادُ عددُ أصدقائِكَ المُخلِصينَ. تذكَّرْ أن الإيجابيةَ تبدَأُ من داخلِك؛ فهي مِثلُ النورِ، كلما زادَ في قلبِك أضاءَ طريقَك وطريقَ من حوْلَك"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " «السعادةُ الحقيقيَّةُ في القناعةِ والتسامُحِ». القَناعة: ........................ ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "اسمٌ مجرورٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " مُضافٌ إليه ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "  مفعولٌ به ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " كتَبَ عُمَرُ عُنْوانَ ........................ ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "المقالتانِ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "المقالتَيْنِ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": "  أعْطاني الطبيبُ ........................ آخرَ.",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "دواءًا",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "دواأً",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "دواءً",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "popup": "",
+            "paragraph": " ........................ الولدُ النافذةَ بالزُّهورِ.  ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ملَاء",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ملَأ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ملَآ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [
+          "    والآن، ما دوْرُنا تِجاهَ الآخَرِينَ؟ قد تقولُ: «أنا ما زلْتُ صغيرًا»، لكنَّ الحقيقةَ أنك قادِرٌ على صُنعِ الخيرِ في أيِّ عُمرٍ. • فيُمكِنُكم نشْرُ فِكْرةِ (التعلُّمِ بين الأصدقاءِ)؛ حيث يشرَحُ الطالِبُ لزميلِه أو يُساعِدُه أثناءَ الأنشطةِ الدِّراسيةِ - بعد إذنِ المُعلِّمِ - وهذا مُفيدٌ."
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " «أعجَبَتْنِي ألوانُ الفراشتَينِ». علامةُ إعرابِ  (الفراشتَينِ): ........................ ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الكسرةُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " الياءُ ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "  يجبُ علينا احترامُ ........................",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "المُعلِّمينَ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "المُعلِّمونَ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": "  الطعامُ ........................ بالمِلْحِ.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ملِئٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ملِيءٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ملِيئٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "popup": "",
+            "paragraph": " يجِبُ علينا  الاستِعدادُ و ........................ للحفلِ.   ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "التهيُّأ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التهيُّئ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التهيُّؤ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

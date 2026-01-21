@@ -1,266 +1,214 @@
 [
-    {
-        "nameId": "",
-        "title": "صَوِّبِ الخطأ في كلِّ عبارةٍ منَ العباراتِ الآتيةِ",
-        "playerName": "",
-        "dataContent": 0,
-        "subject": "rel-4",
-        "colorTemplate": "#B2C78B",
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "hand": true,
-        "popuptext": "ggggggggggggggggg",
-        "pop": "",
-        "counterFinished": 0,
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "صَوِّبِ الخطأ في كلِّ عبارةٍ منَ العباراتِ الآتيةِ",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "rel-4",
+    "colorTemplate": "#B2C78B",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "hand": true,
+    "popuptext": "ggggggggggggggggg",
+    "pop": "",
+    "counterFinished": 0,
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "أوحَى اللهُ تعالى إلى رُسُلٍ مِن الملائكةِ، وكلَّفَهُمْ بتبليغِ الوحيِ للناسِ."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["البشر"],
+                "show": ["البشر"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "items": [
-            {
-                "id": 1,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "أوحَى اللهُ تعالى إلى رُسُلٍ مِن الملائكةِ، وكلَّفَهُمْ بتبليغِ الوحيِ للناسِ."
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "البشر"
-                                ],
-                                "show": [
-                                    "البشر"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "رسالةُ سيِّدِنا مُحمَّدٍ ﷺ انتَهَتْ بعدَ وفاتِه. "
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "باقية"
-                                ],
-                                "show": [
-                                    "باقية"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "مَن أنكَرَ نبيًّا أو رسولًا فإنَّ إيمانَهُ صحيحٌ. "
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "غير صحيح"
-                                ],
-                                "show": [
-                                    "غير صحيح"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "مِن الرُّسلِ آدمُ وإدريسُ (عَلَيْهِ السَّلَامُ)."
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "الأنبياء"
-                                ],
-                                "show": [
-                                    "الأنبياء"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "يُمكِنُ أنْ ينالَ الإنسانُ النُّبوَّةَ والرسالةَ بالاجتهادِ."
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "لا يمكن"
-                                ],
-                                "show": [
-                                    "لا يمكن"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            }
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
         ]
-    }
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "رسالةُ سيِّدِنا مُحمَّدٍ ﷺ انتَهَتْ بعدَ وفاتِه. "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["باقية"],
+                "show": ["باقية"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "مَن أنكَرَ نبيًّا أو رسولًا فإنَّ إيمانَهُ صحيحٌ. "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["غير صحيح"],
+                "show": ["غير صحيح"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "مِن الرُّسلِ آدمُ وإدريسُ (علَيْهِما السَّلَامُ)."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["الأنبياء"],
+                "show": ["الأنبياء"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "يُمكِنُ أنْ ينالَ الإنسانُ النُّبوَّةَ والرسالةَ بالاجتهادِ."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["لا يمكن"],
+                "show": ["لا يمكن"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
 ]

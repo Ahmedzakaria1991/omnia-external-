@@ -1,0 +1,126 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "بدأتْ تُفَكِّرُ: «كيفَ أستَطيعُ أن أُعيدَ أوراقَ الشجرِ  زاهِيةً كما كانت؟»، وبعدَ قِراءةٍ وبحْثٍ، عَرَفَتِ الْعِلَاجَ الْمُنَاسِبَ، وَأَثْنَاءَ عَوْدَتِهَا اشْتَرَتِ الْمَادَّة الَّتِي تُعَالِجُ هَذِهِ الْمُشْكِلَةَ، وَوَضَعَتْ مِنْهَا عَلَى الشَّجَرِ بِحِرْصٍ. وَمَعَ مُرُورِ الْأَيَّامِ عَادَتْ أَوْرَاقُ الشَّجَرِ  زَاهِيَةً مِنْ جَدِيدٍ."
+            ],
+            "hideIndex" : true,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ (المُناسِبَ) نوعُها .........",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُفردٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "جمعُ مُذَكَّرٍ سالِمٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "جمعُ تكسيرٍ ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "أتصرَّفُ بإيجابيَّةٍ في المدرسةِ رغبةً في المُساعَدةِ فأُعامِلُ الجميع باحترامٍ وتعاونٍ. وأشاركُ مع الأصدقاءِ مُشارَكةً فعَّالةً في الأعمالِ النَّافعةِ بروحٍ طيِّبةٍ. كما تعلَّمتُ من المُعلِّمات أهَمِّيةَ نشرِ الخيرِ  والابتِسامةِ بينَ الطُّلَّابِ.  "
+            ],
+            "hideIndex" : true,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ (المُعلِّماتِ) علامةُ إعرابِها: ..................",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الكسرةُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الياءُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose":"الفتحةُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

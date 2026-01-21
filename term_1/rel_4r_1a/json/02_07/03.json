@@ -18,115 +18,110 @@
     "popup": "",
     "passageHand": true,
     "chooseSlide": [
-
-        {
-            "active": true,
-            "title": " اختَرِ الإجابةَ الصحيحةَ",
-            "popuptext": [
-                "قالَ رسولُ اللهِ ﷺ : «مَنْ تَكَفَّلَ لِي أن لا يَسْأَلَ النَّاسَ شَيْئًا، وَأَتَكَفَّلَ لَهُ بِالْجَنَّةِ؟» فقالَ ثوبانُ: أنا، فكانَ لا يسألُ أحدًا شيئًا."
-            ],
-            "quizChooses": [
-            {
-                "id": 1,
-                "popup": "",
-                "paragraph": "ما معنى «أَتَكَفَّلُ» ...........",
-                "correctAnswer": [1],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 1,
-                "answers": [
-                {
-                    "numAnswer": 1,
-                    "toChoose": "أضمنُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "أدعو",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose":"أسألُ",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            }
-            ],
-            "popupQuestion": [
-            {
-                "id": 0,
-                "index": "4",
-                "paragraph": "",
-                "popup": [],
-                "isActive": null
-            }
+      {
+        "active": true,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "قالَ رسولُ اللهِ ﷺ : «مَنْ تَكَفَّلَ لِي أن لا يَسْأَلَ النَّاسَ شَيْئًا، وَأَتَكَفَّلَ لَهُ بِالْجَنَّةِ؟» فقالَ ثوبانُ: أنا، فكانَ لا يسألُ أحدًا شيئًا."
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "ما معنى «أَتَكَفَّلُ» ...........",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أضمنُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أدعو",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أسألُ",
+                "right": false,
+                "checked": false
+              }
             ]
-        },
-        {
-            "active": false,
-            "title": " اختَرِ  النتيجةِ الصحيحةِ",
-            "popuptext": [
-            ],
-            "quizChooses": [
-            {
-                "id": 1,
-                "popup": "",
-                "paragraph": "نتيجةُ اعتمادي على نفسي:",
-                "correctAnswer": [1,5],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 2,
-                "answers": [
-                {
-                    "numAnswer": 1,
-                    "toChoose": "النجاحُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "الرسوبُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose":"التكاسلُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 4,
-                    "toChoose":"الفشلُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 5,
-                    "toChoose":"التفوُّقُ",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            }
-            ],
-            "popupQuestion": [
-            {
-                "id": 0,
-                "index": "4",
-                "paragraph": "",
-                "popup": [],
-                "isActive": null
-            }
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ النتيجةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "نتيجةُ اعتمادي على نفسي:",
+            "correctAnswer": [1, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "النجاحُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الرسوبُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التكاسلُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الفشلُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "التفوُّقُ",
+                "right": false,
+                "checked": false
+              }
             ]
-        }
-        
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
     ]
   }
 ]

@@ -1,0 +1,272 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "qtitle" :"اذكرْ نوعَ المفعولٌ المُطلَقٌ:",
+            "popuptext": [
+                "نظَرَ علِيٌّ إلى حديقةِ منزِلِهِ فوَجَدَ بعْضَ زُهورِها ذَابِلَةً، فقرَّرَ أنْ يهتَمَّ بحَدِيقَتِهِ، فقامَ بتنْظِيفِها وأحضَرَ بُذورًا جديدةً وقامَ بزِراعَتِها، وبذَلَ مجهودًا كبيرًا؛ لتَكونَ مُزهِرةً وجميلةً. كان يقومُ بـالمُلاحَظةِ اليوميَّةِ الدَّقيقَةِ لنموِّ النباتاتِ، وزيادةِ أوراقِها؛ ليكتشفَ الفَرقَ بنَفْسِه كلَّ يومٍ، وكان يتفقَّدُ التُّربةَ بين حينٍ وآخَرَ، ويتأكَّدُ من توفُّرِ الماءِ. وبفضلِ إيجابِيَّتِه واهتِمامِهِ، سُرعانَ ما نمَت الأوراقُ وعادتِ الزُّهورُ  زاهيةً كما كانتْ."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادِفُ (عادَت): ................",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "رجَعَت",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "كانَت",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "تلوَّنَت",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "اقتَرَبَت",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (المُلاحَظة): .............",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "النَّوْم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "العمَى",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الغفْلة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "النِّسيان",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "جمعُ (الفَرْق): .....................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الرِّفاق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الفِرَق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الفُروق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الفوارِق",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "جِذْرُ  (تأكَّد): ..............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أكد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "دكك",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "كدد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "كود",
+                    "right": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "كثيرٌ من الإنجازاتِ العظيمةِ بدَأَت بـالملاحظةِ البسيطةِ لشيءٍ غيرِ طبيعيٍّ؛ فالملاحَظةُ هي عمليَّةُ فحصٍ وتدقيقٍ، والشَّخصُ الذي يمتلِكُ هذه الصفةَ لا يكتَفِي بالشَّكوى من المواقفِ الصَّعبةِ، ولكنْ يبْدَأُ بالتَّساؤلِ: «كيف يُمكنُني أن أُعِيدَ الأمورَ  إلى طبيعتِها؟ كيف يمكنُني حلُّ المُشكِلةِ؟»، ومن هذا التَّساؤلِ يتمُّ البحثُ عن الحلِّ."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "معْنَى (أُعِيد): ......................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أُجدِّد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أُقيِّم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أُرجِع",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "أُحسِّن",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (الْمُلاحَظة):  .................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "التَّعب",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "النِّسيان",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الْغَفْلَة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الابْتِعاد",
+                    "right": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

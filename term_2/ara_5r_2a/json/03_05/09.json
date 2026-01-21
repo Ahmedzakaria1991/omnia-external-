@@ -1,0 +1,157 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [],
+
+        "audio_in_page": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "الأفعالُ الصالحةُ تُساعِدُ الإنسانَ على التقدُّمِ في حياتِهِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " أطفالُ المرحلةِ الابتدائيَّةِ لا يستطيعونَ التأثيرَ فيمن حولَهم؛ لأنَّهمْ صغارٌ .",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "ب",
+            "paragraph": " 1st ",
+            "quran": "",
+            "popup": [
+              "يواجه الإنسان فى مراحل حياته عقبات كثيرة ,واجبه نحو العقبات أن يواجهها ولا يستسلم لها ."
+            ],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [],
+
+        "audio_in_page": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "  نحصُلُ على أفضلِ النتائجِ عندَ التصرُّفِ دونَ تفكيرٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "الإيجابيةُ تظهَرُ في سُلوكِ الإنسانِ وأفعالِهِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "ب",
+            "paragraph": " 1st ",
+            "quran": "",
+            "popup": ["كن إيجابيًا."],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

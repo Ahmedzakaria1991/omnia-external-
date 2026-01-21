@@ -1,0 +1,62 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ عنِ الأسئلةِ الآتيةِ",
+        "qtitle": "اذكُرْ سبب كتابة الهَمْزةِ المُتطرِّفةٍ:",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " أعلَنَ الحَكمُ <span class ='span2'>بدْءَ</span> المُباراةِ.",
+            "popup": ["متطرفة وما قبلها حرف ساكن."]
+          },
+          {
+            "id": 2,
+            "paragraph": " أعلَنَ المسئولونَ خُطَّةَ تطويرِ <span class ='span2'>الشواطِئ</span>.",
+            "popup": ["متطرفة ما قبلها حرف مكسور."]
+          },
+          {
+            "id": 3,
+            "paragraph": " عليكَ أن تتجنَّبَ <span class ='span2'>التباطُؤ</span>  في أداءِ المهامِّ المطلوبةِ منكَ.",
+            "popup": ["متطرفة ما قبلها حرف مضموم."]
+          },
+          {
+            "id": 4,
+            "paragraph": "  القائدُ الناجحُ يتَّخذُ قراراتِه بشكلٍ <span class ='span2'>هادِئٍ</span>.",
+            "popup": ["متطرفة ما قبلها مكسور."]
+          },
+          {
+            "id": 5,
+            "paragraph": "  أقَمْنا <span class ='span2'>مَلجَأً</span>  للحيواناتِ من خلالِ جهودِ المُتطوِّعينَ.",
+            "popup": ["متطرفة ما قبلها حرف مفتوح."]
+          },
+          {
+            "id": 6,
+            "paragraph": " تجنَّبْ قول <span class ='span2'>السُّوءِ</span>.",
+            "popup": ["متطرفة ما قبلها حرف مد."]
+          }
+        ]
+      }
+    ]
+  }
+]

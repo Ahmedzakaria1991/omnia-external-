@@ -1,0 +1,127 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "هاتِ عائِلةَ الكلِمةِ (سعى):",
+            "popup": ["ساعي - السعي - أسعى - نسعى."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "qtitle": "هاتِ خريطةَ للكلِمةِ (تعمير):",
+        "isActive": false,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "المُرادِفُ:",
+            "popup": ["بناء."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجذرُ:",
+            "popup": ["عمر."]
+          },
+          {
+            "id": 1,
+            "paragraph": "المُضادُّ:",
+            "popup": ["هدم."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجُملةُ:",
+            "popup": ["تعمير الأرض مهمة الإنسان.."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "qtitle": "هاتِ خريطةَ للكلِمة (انكِسار):",
+        "isActive": false,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "المُرادِفُ:",
+            "popup": ["ضعف."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجذرُ:",
+            "popup": ["کسر."]
+          },
+          {
+            "id": 1,
+            "paragraph": "المُضادُّ:",
+            "popup": ["قوة."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجُملةُ:",
+            "popup": ["لا تستسلم للانكسار."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ",
+        "isActive": false,
+        "qtitle": "",
+        "popuptext": [],
+        "poem": true,
+        "right_p1": [
+          "قالَ مُحَمَّد إبراهيم البسيوني: ",
+          "فَخَيْرُ النَّاسِ أَنْفَعُهُمْ لِبَعْضٍ  ",
+          "    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; وَحُبُّ النَّاسِ فِي الدُّنْيَا شِعَارِي"
+        ],
+        "left_p1": [
+          " قالَ أبو العلاءِ المعَرِّيُ:",
+          "وَالنَّاسُ لِلنَّاسِ مِنْ بَدْوٍ وَحَاضِرَةٍ ",
+          "   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;بَعْضٌ لِبَعْضٍ وَإِنْ لَمْ يَشْعُرُوا خَدَمُ"
+        ],
+        "hideSpecific": false,
+
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "مَا الْفِكْرَةُ الْمُشْتَرَكَةُ بَيْنَ البيتَينِ؟",
+            "popup": ["حب الناس والحرص على نفعهم."]
+          },
+          {
+            "id": 1,
+            "paragraph": " استَخْرِجْ مِنَ البيتِ الْأَوَّلِ تَعْبِيرًا مَجَازِيًّا.",
+            "popup": ["حب الناس ... شعاري."]
+          },
+          {
+            "id": 1,
+            "paragraph": " استَخْرِجْ مِنَ البيتِ الثانِي تَعْبِيرًا حَقِيقِيًّا.",
+            "popup": ["والناس بالناس من حضر وبادية."]
+          }
+        ]
+      }
+    ]
+  }
+]

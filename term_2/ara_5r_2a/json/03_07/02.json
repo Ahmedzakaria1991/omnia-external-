@@ -1,0 +1,503 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "ارتَفَعَ صوتُ الحقِّ وانخَفَضَ صوتُ الباطِلِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " يُسانِدُكَ الصديقُ الوَفِيُّ في أحداثِ الحَياةِ. ",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " تحَوَّلَ البرْدُ القارِسُ إلى دِفْءٍ لطيفٍ مع شُروقِ الشمسِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " اجتَمَعَ الأطفالُ في الساحةِ يلعَبونَ بمَرَحٍ وسعادةٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " فرِحَ إديسون بِنجاحِ اختِراعِهِ بعدَ فشَلِ العَديدِ من التجارِبِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "ب",
+            "paragraph": " 1st ",
+            "quran": "",
+            "popup": [
+              "يواجه الإنسان فى مراحل حياته عقبات كثيرة ,واجبه نحو العقبات أن يواجهها ولا يستسلم لها ."
+            ],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "qtitle": "ضَعْ علامةَ (✔) أمامَ العِباراتِ التي تَدُلُّ على الإِحساسِ بالمسئولِيةِ: ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "طالِبٌ استَعارَ كِتابًا منَ المكتَبةِ، وأعادَ الكِتابَ في موعِدِ تسليمِهِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "  طالِبةٌ ترمي الأوراقَ في فِناءِ المدرَسةِ مُعتَمِدةً على تنظيفِ العامِلاتِ لِلفِناءِ. ",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "صديقٌ أخطَأَ في حقِّ صديقِهِ بِغَيرِ قصدٍ؛ فبادَرَ بالِاعتِذارِ له.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " تِلميذٌ تجاهَلَ حلَّ واجِباتِهِ، ثُمَّ قدَّمَ لِلمُعَلِّمِ أعذارًا غيرَ حقيقيةٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " رجُلٌ يجرَحُ زُملاءَهُ في العمَلِ بألفاظٍ قاسِيةٍ؛ ظنًّا منه أنَّه يُوَجِّهُهم يُرشِدُهُم.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " بِنتٌ زرَعَتْ وردةً في حديقةِ منزِلِها وترعاها وتسقيها باستِمْرارٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "ب",
+            "paragraph": " 1st ",
+            "quran": "",
+            "popup": [
+              "يواجه الإنسان فى مراحل حياته عقبات كثيرة ,واجبه نحو العقبات أن يواجهها ولا يستسلم لها ."
+            ],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "يَــــــا بِـــلَادِي أَنْـــتِ حُــبِّــي               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            إِنْ تُــنَــادِيــنِـــي أُلَــــبِّـــي",
+          " فِـيـكِ أَجْــنِـي الْـخَـيْــرَ دَوْمًـا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          وَالــرِّضَــا يَــغْــمُـرُ قَــلْـبِــي"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "الشاعِرُ يعيشُ في بلَدِهِ ساخِطًا غيرَ راضٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 3,
+            "index": "1",
+            "qtitle": "أجِبْ:  ",
+
+            "paragraph": " لماذا يُلَبِّي الشاعِرُ نداءَ وطَنِهِ دونَ ترَدُّدٍ أو كسَلٍ؟  ",
+            "quran": "",
+            "popup": [" لأنه يحبها، وفيها حصد الخير، وشعر بالرضا."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "سَأَسْعَـــى لِحُلْمِــي لِأُصْبِحَ يَوْمًــا                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         طَبِيبًــــــا يُدَاوِي جِرَاحَ الْبَشَـــــرْ",
+          "سَأَصْبِــرُ فِي طَلَـبِ الْعِلْــمِ دَوْمًــا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             سَيَجْنِـي حَصَـادَ الْـعُلَا مَـنْ صَـبَـرْ",
+          "وَلِـــي هِمَّةٌ فِي الحَيَــاةِ، وَقَلْبِـــي                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        شُــجَـاعٌ يُـــقَـــاوِمُ كَــــيْ يَـنْتَصِـرْ  ",
+          "وَأَزْرَعُ حُــبًّـــــا وَعِلْمًــــا وَصَبْـــرًا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       وَبِــشْـــرًا لِأَجْنِـــيَ أَحْـلَــى الثَّـمَـرْ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " يحلُمُ الشاعِرُ بِيَوْمٍ يُسَاعِدُ فيه الناسَ ويُخَفِّفُ آلامَهم.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "  الصبرُ أساسٌ لتحقيقِ أعلى الدرَجاتِ والمراتِبِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "  يعتَقِدُ الشاعِرُ أنَّ النجاحَ يُمْكِنُ أنْ يأتِيَ دونَ بذلِ جُهدٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "paragraph": "  الخوفُ يمنَعُ الشاعِرَ من مُواجَهةِ الصِّعابِ التي تُواجِهُه.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "paragraph": "  يعتَمِدُ الشاعِرُ  فقَطْ على أحلامِهِ دونَ عمَلٍ أو سعيٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "id": 1,
+            "type": 3,
+            "index": "1",
+            "qtitle": "استَخْرِجِ الأبياتَ المُعَبِّرةَ عنِ المعاني التالِيةِ:  ",
+
+            "paragraph": "  طلَبُ العِلْمِ شاقٌّ ويحتاجُ إلى الصبرِ في تحصيلِهِ. ",
+            "quran": "",
+            "popup": ["سأصبر في طلب العلم دومًا   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سيجني حصاد العلا من صبر "],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": " أزرَعُ أجمَلَ صِفاتي لأحصُدَ نتائِجَها الطيِّبةَ.",
+            "quran": "",
+            "popup": [
+              "وأزرع حُــبًّـــا وعلمًـــا وصبـــرًا   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  وبشرًا لأجنـــي أحلـــى الثمــــر"
+            ],
+            "isActive": false
+          }
+        ]
+      }
+    ]
+  }
+]

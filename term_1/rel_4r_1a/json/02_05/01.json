@@ -25,7 +25,7 @@
         "popuptext": [],
         "paragraph1": [],
         "questionTitle": "املأ الفراغاتِ في الجُملِ بما يناسِبُها من الكلماتِ الآتيةِ:",
-        "alters": "(  الإيثارِ ــ  عبدُ الرحمنِ بن عوفٍ ــ  سعدُ بن الربيعِ ــ الأنصارِ)",
+        "alters": "(الإيثارِ ــ  عبدُ الرحمنِ بن عوفٍ ــ  سعدُ بن الربيعِ ــ الأنصارِ)",
         "quran": [],
         "paragraph2": [],
         "poem": false,
@@ -199,10 +199,11 @@
             "index": "3",
             "contents": [
               {
-                "paragraphes1": [
-                  "رفضَ (رَضِيَ ٱللَّٰهُ عَنْهُ) بلُطفٍ عَرْضَ أخيهِ، وطلبَ أنْ يعرفَ طريقَ السوقِ."
+                "paragraphes1": ["رفضَ"],
+                "paragraphesAfter1": [
+                  "(رَضِيَ ٱللَّٰهُ عَنْهُ) بلُطفٍ عَرْضَ أخيهِ، وطلبَ أنْ يعرفَ ",
+                  " طريقَ السوقِ."
                 ],
-                "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -368,7 +369,7 @@
         "title": "أَكْمِلِ",
         "popuptext": [],
         "paragraph1": [],
-        "questionTitle": "اكْتُبِ الْمَحْذُوفَ مِنَ الْآيَاتِ الْكَرِيمَةِ:",
+        "questionTitle": "اكْتُبِ الْمَحْذُوفَ مِنَ الآيةِ الْكَرِيمَةِ:",
         "quran": [],
         "paragraph2": [],
         "cancelBreak": true,
@@ -377,7 +378,7 @@
           {
             "id": 1,
             "type": 2,
-            "index": "1",
+            "index": "",
             "contents": [
               {
                 "paragraphes1": [
@@ -470,10 +471,7 @@
                 ],
 
                 "paragraphes4": [],
-                "paragraphesAfter4": [
-                  "."
-                 
-                ],
+                "paragraphesAfter4": ["."],
                 "paragraphes5": [],
                 "paragraphes6": ["."],
                 "paragraphesAfter6": []
@@ -539,14 +537,8 @@
             "index": "1",
             "contents": [
               {
-                "paragraphes1": [
-                  "قالَ (تَعَالَى): ﴿",
-                  "&nbsp ",
-                  "إِنَّمَا الْمُؤْمِنُونَ"
-                ],
-                "paragraphesAfter1": [
-                  "﴾."
-                ],
+                "paragraphes1": ["قالَ (تَعَالَى): ﴿إِنَّمَا الْمُؤْمِنُونَ"],
+                "paragraphesAfter1": ["﴾."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -605,19 +597,12 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
-
-                ],
+                "paragraphesAfter2": [],
                 "paragraphes3": [],
-                "paragraphesAfter3": [
-
-                ],
+                "paragraphesAfter3": [],
 
                 "paragraphes4": [],
-                "paragraphesAfter4": [
-                  ""
-                 
-                ],
+                "paragraphesAfter4": [""],
                 "paragraphes5": [],
                 "paragraphes6": ["."],
                 "paragraphesAfter6": []
@@ -668,18 +653,14 @@
             "index": "2",
             "contents": [
               {
-                "paragraphes1": [
-                  "قالَ (تَعَالَى): ﴿",
-                  "&nbsp",
-                  "وَمَن يُوقَ"
-                ],
+                "paragraphes1": ["قالَ (تَعَالَى): ﴿وَمَن يُوقَ"],
                 "paragraphesAfter1": [
                   "نَفْسِهِ فَأُولَٰئِكَ ",
-                                    "&nbsp",
+                  "&nbsp",
                   "هُمُ",
-                                    "&nbsp",
+                  "&nbsp",
 
-                  "الْمُفْلِحُونَ ﴾"
+                  "الْمُفْلِحُونَ﴾"
                 ],
                 "inputtype": [
                   {
@@ -739,19 +720,12 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
-
-                ],
+                "paragraphesAfter2": [],
                 "paragraphes3": [],
-                "paragraphesAfter3": [
-
-                ],
+                "paragraphesAfter3": [],
 
                 "paragraphes4": [],
-                "paragraphesAfter4": [
-                  ""
-                 
-                ],
+                "paragraphesAfter4": [""],
                 "paragraphes5": [],
                 "paragraphes6": ["."],
                 "paragraphesAfter6": []
@@ -803,14 +777,9 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "قالَ رسولُ اللهِﷺ «",
-                  "&nbsp",
-                  "الْمُسلِمُ أَخُو",
-                  "الْمُسْلِمِ لَا"
+                  "قالَ رسولُ اللهِﷺ «الْمُسلِمُ أَخُو الْمُسْلِمِ لَا"
                 ],
-                "paragraphesAfter1": [
-                  "وَلَا"
-                ],
+                "paragraphesAfter1": ["وَلَا"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -825,8 +794,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["يظلمة"],
-                    "show": ["يظلمة"]
+                    "valid": ["يظلمه"],
+                    "show": ["يظلمه"]
                   },
                   {
                     "length": 0,
@@ -869,19 +838,12 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
-                  "»."
-                ],
+                "paragraphesAfter2": ["»."],
                 "paragraphes3": [],
-                "paragraphesAfter3": [
-
-                ],
+                "paragraphesAfter3": [],
 
                 "paragraphes4": [],
-                "paragraphesAfter4": [
-                  ""
-                 
-                ],
+                "paragraphesAfter4": [""],
                 "paragraphes5": [],
                 "paragraphes6": ["."],
                 "paragraphesAfter6": []

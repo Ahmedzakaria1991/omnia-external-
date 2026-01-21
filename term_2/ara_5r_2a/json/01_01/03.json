@@ -1,0 +1,363 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحة",
+        "popuptext": [],
+        "hideIndex": true,
+        "audio_in_page": "./../audio/01_01/نشاط 1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " تُشجِّعُنا الفِقرةُ على قِيمةِ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "النظافةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "النِّظامِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "المُبادَرةِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الحِفاظِ على البِيئةِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحة",
+        "popuptext": [],
+        "hideIndex": false,
+        "audio_in_page": "./../audio/01_01/نشاط 3.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "حوَّلَ خالِدٌ وأصدِقاؤُهُ السطحَ إلى",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مسرَحٍ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مكتَبةٍ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ملعَبٍ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "حديقةٍ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "نظَّمَ الأَهْلُ........... لزيادةِ المُتعةِ والفائِدةِ.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "رِحلاتٍ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أنشِطةً ومُسابَقاتٍ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مُبارَياتٍ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جميع ما سبَقَ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحة",
+        "popuptext": [],
+        "hideIndex": true,
+        "audio_in_page": "./../audio/01_01/نشاط 1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "ساعَدَتْ فِكْرةُ مازنٍ على نشرِ الوعيِ بأهمِّيةِ .....................",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "إِعادةِ التدويرِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "زِراعةِ الأسطُحِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تبادُلِ الألعابِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الصِّناعاتِ اليدَوِيةِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحة",
+        "popuptext": [],
+        "hideIndex": true,
+        "audio_in_page":"",
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرِ كلِّ تصرُّفٍ يصنَعُ فرقًا في حياتِكَ وحياةِ الآخَرينَ:",
+            "correctAnswer": [2, 3, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الاحتفاظُ بأفكارِي وكُتُبِي لنَفْسِي؛ حتَّى لا ينتفِعَ بها الآخَرونَ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " تخصيصُ وقتٍ لمُساعَدةِ زُمَلائِي في الواجِباتِ الصعْبةِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الدعوةُ والمُشارَكةُ لتنظيفِ شارِعِنا وزِراعةِ بعضِ الشُّجَيْراتِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " تمزيقُ جميعِ الكُتُبِ الدِّراسيةِ بعدَ انتِهاءِ العامِ الدِّراسيِّ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": " مُشارَكةُ أصدِقائِي الرَّأْيَ، وتشجيعُ الأفكارِ الإيجابيةِ بكلِماتٍ تحفيزيةٍ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "فكِّرْ واختَرِ الاحتِمالاتِ المُمكِنةَ",
+        "popuptext": [],
+        "hideIndex": false,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "ماذا لو لم يُنفِّذْ كريمٌ فِكْرتَه؟",
+            "correctAnswer": [1, 2, 4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الكتُبُ القديمةُ ستظَلُّ غيرَ مَقْروءةٍ ومُهمَلةٍ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "لن يستفِيدَ الأصدقاءُ من تبادُلِ الكُتُبِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " ستتحوَّلُ جميعُ الكُتُبِ إلى كُتُبٍ رَقْميَّةٍ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " ستضِيعُ فُرْصةٌ لتقويةِ العَلاقاتِ بينَ الجِيرانِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "الأنشطةُ المُمكِنةُ لتطويرِ مَكْتبةِ السَّطْحِ",
+            "correctAnswer": [1, 2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تنظيمُ جَلَساتِ قِراءةٍ جَماعيَّةٍ للأطفالِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " إجراءُ نَدَواتٍ أُسْبُوعيَّةٍ للتعريفِ بالكُتُبِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "استِردادُ كُلِّ شخصٍ لكُتُبِهِ بعدَ عِدةِ أسابيعَ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تقليلُ عَدَدِ الكُتُبِ دُونَ استِشارةِ المُشارِكِينَ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

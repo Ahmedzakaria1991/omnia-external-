@@ -21,11 +21,11 @@
     "inputSlide": [
       {
         "active": true,
-        "title": "أَكْمِلِ",
+        "title": "أكمِلْ",
         "popuptext": [],
         "paragraph1": [],
         "questionTitle": "املأ الفراغاتِ في الجُمَلِ الآتيةِ ممَّا بينَ القوسَينِ:",
-        "alters": "( السعادة ــ  أمناء ــ  الحِقدِ ــ الثَّباتَ ــ نورًا )",
+        "alters": "(السعادة ــ  أمناء ــ  الحِقدِ ــ الثَّباتَ ــ نورًا)",
         "quran": [],
         "paragraph2": [],
         "poem": false,
@@ -37,7 +37,9 @@
             "index": "1",
             "contents": [
               {
-                "paragraphes1": [" يُطلَقُ على الأنبياءِ والرُّسلِ(عليهم السلام) "],
+                "paragraphes1": [
+                  " يُطلَقُ على الأنبياءِ والرُّسلِ (عليهم السلام) "
+                ],
                 "paragraphesAfter1": ["الوحي."],
                 "inputtype": [
                   {
@@ -119,9 +121,7 @@
             "contents": [
               {
                 "paragraphes1": [" أرسلَ اللهُ الرُّسلَ ليكونوا. "],
-                "paragraphesAfter1": [
-                  "يهدي الناسَ."
-                ],
+                "paragraphesAfter1": ["يهدي الناسَ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -202,9 +202,7 @@
             "contents": [
               {
                 "paragraphes1": [" نتعلَّمُ من قصصِ الأنبياءِ القوَّةَ و"],
-                "paragraphesAfter1": [
-                  "على الحقِّ."
-                ],
+                "paragraphesAfter1": ["على الحقِّ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -284,10 +282,10 @@
             "index": "4",
             "contents": [
               {
-                "paragraphes1": ["الرُّسلُ يعلِّمونَنا كيفَ نَتطهَّرُ من الصفاتِ السيئةِ كـ"],
-                "paragraphesAfter1": [
-                  "والحسدِ."
+                "paragraphes1": [
+                  "الرُّسلُ يعلِّمونَنا كيفَ نَتطهَّرُ من الصفاتِ السيئةِ كـ"
                 ],
+                "paragraphesAfter1": ["والحسدِ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -367,10 +365,10 @@
             "index": "5",
             "contents": [
               {
-                "paragraphes1": ["الرُّسلُ يُبشِّرونَ مَنْ أطاعَ اللهَ (تَعَالَى) بـ."],
-                "paragraphesAfter1": [
-                  "في الدُّنيا والآخِرَةِ."
+                "paragraphes1": [
+                  "الرُّسلُ يُبشِّرونَ مَنْ أطاعَ اللهَ (تَعَالَى) بـ"
                 ],
+                "paragraphesAfter1": ["في الدُّنيا والآخِرَةِ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -449,154 +447,107 @@
         "pop": ""
       },
       {
-                "active": false,
-                "title": "أَكْمِلِ",
-                "popuptext": [
+        "active": false,
+        "title": "أكمِلْ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "اكْتُبِ الْمَحْذُوفَ مِنَ الآيةِ الْكَرِيمَةِ:",
+        "quran": [],
+        "paragraph2": [],
+        "cancelBreak": true,
+        "poem": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "قَالَ (تَعَالَى):   يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا",
+                  "&nbsp "
                 ],
-                "paragraph1": [
+                "paragraphesAfter1": [" إِلَيْكَ مِن رَّبِّكَ ۖ "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"اكْتُبِ الْمَحْذُوفَ مِنَ الْآيَاتِ الْكَرِيمَةِ:",
-                "quran": [],
-                "paragraph2": [],
-                "cancelBreak" : true,
-                "poem":false,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "قَالَ (تَعَالَى):   يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا",
-                                    "&nbsp "
-                                ],
-                                "paragraphesAfter1" :[
-                                    " إِلَيْكَ مِن رَّبِّكَ ۖ "
-                                    
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "أنزل" 
-                                        ],
-                                        "show": [
-                                            "أنزل"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "بلغت"
-                                        ],
-                                        "show": [
-                                            "بلغت"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "الناس"
-                                        ],
-                                        "show": [
-                                            "الناس"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "الكفرين"
-                                        ],
-                                        "show": [
-                                            "الكفرين"
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                    "وَإِن لَّمْ تَفْعَلْ فَمَا"
-                                ],
-                                "paragraphes3": [
-                                    "رِسَالَتَهُ ۚ وَاللَّهُ يَعْصِمُكَ",
-                                    "مِنَ "
-                                ],
-                                "paragraphesAfter3": [
-                                    
-                                ],
-                                
-                                "paragraphes4": [
-                                   "إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ"
-                                ],
-                                "paragraphesAfter4": [
-                                    "."
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["أنزل"],
+                    "show": ["أنزل"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+
+                    "valid": ["بلغت"],
+                    "show": ["بلغت"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["الناس"],
+                    "show": ["الناس"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+
+                    "valid": ["الكافرين"],
+                    "show": ["الكافرين"]
+                  }
                 ],
-                "popupQuestion": [
-                    
-                ],
-                "pop": ""
-            }
+                "paragraphes2": ["وَإِن لَّمْ تَفْعَلْ فَمَا"],
+                "paragraphes3": ["رِسَالَتَهُ ۚ وَاللَّهُ يَعْصِمُكَ مِنَ "],
+                "paragraphesAfter3": [],
+
+                "paragraphes4": ["إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ"],
+                "paragraphesAfter4": ["."]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      }
     ]
   }
 ]

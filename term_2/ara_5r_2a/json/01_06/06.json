@@ -1,0 +1,59 @@
+[{
+  "nameId": "",
+  "title":"ضَعْ أمام كلِّ مَوقفٍ النوعَ الذي يُناسِبُهُ",
+  "subject": "arabic-5",
+  "finshedDrag": false,
+  "colorTemplate": "#5a7cec",
+  "dragCounter": 0,
+  "counterCorrect": 0,
+  "LODegree": null,
+  "UserDegree": null,
+  "type": "",
+  "BloomTargets": [""],
+  "randomNumber": null,
+  "loTargets": null,
+  "numberOfquestion": null,
+  "items": [{
+      "texts": [
+        {
+          "text": ["يرى المُشكِلةَ، ويضَعُ كلَّ جُهدِه في الشكوى وإيجادِ الأعذارِ."]
+        
+        }
+      ],
+      "drag": [{
+          "word": "كثيرُ الشكوى",
+          "number": 1
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "text": ["يَبذُلُ كلَّ طاقتِهِ لإيجادِ حلٍّ والتغييرِ  إلى الأفضلِ."]
+        }
+      ],
+      "drag": [{
+          "word": "الإيجابيُّ",
+          "number": 2
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "text": ["يرى المُشكِلةَ، ولكنَّهُ لا يَفعَلُ شيئًا."]
+        }
+      ],
+      "drag": [
+        {
+          "word": "شديدُ التجاهُلِ",
+          "number": 3
+        }
+      ]
+    }
+  ],
+  "increasedDragOption":true,
+  "increasedDrag":[
+    
+  ]
+}]

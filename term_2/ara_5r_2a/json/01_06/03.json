@@ -1,0 +1,61 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "title":"ضَعْ علامةَ (✔) أو علامةَ (✘)",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [
+          "كثيرٌ من الإنجازاتِ العظيمةِ بدَأَت بـالملاحظةِ البسيطةِ لشيءٍ غيرِ طبيعيٍّ؛ فالملاحَظةُ هي عمليَّةُ فحصٍ وتدقيقٍ، والشَّخصُ الذي يمتلِكُ هذه الصفةَ لا يكتَفِي بالشَّكوى من المواقفِ الصَّعبةِ، ولكنْ يبْدَأُ بالتَّساؤلِ: «كيف يُمكنُني أن أُعِيدَ الأمورَ  إلى طبيعتِها؟ كيف يمكنُني حلُّ المُشكِلةِ؟»، ومن هذا التَّساؤلِ يتمُّ البحثُ عن الحلِّ."
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "الإنجازاتُ العظيمةُ تبدأُ في الغالبِ بالمُلاحَظةِ البسيطةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      }
+    ]
+  }
+]

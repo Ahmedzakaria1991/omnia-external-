@@ -1,0 +1,208 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+        {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [],
+        "qtitle": "ضَعْ علامةَ (✔ ) أمامَ التعبيراتِ التي تشتَمِلُ على تَرادُفٍ وعلامةَ (✘) أمامَ التعبيراتِ التي لا تشتَمِلُ على تَرادُفٍ:",
+
+        "audio_in_page": "",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " أُقَدِّرُ الْجِدَّ والاجتِهادَ في العمَلِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " ينالُ الْمُعَلِّمُ الِاحتِرامَ منَ الكبيرِ والصغيرِ. ",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "يتعامَلُ المِصرِيونَ فيما بينَهم بِالوُدِّ والمحَبةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popTitle": "اقْرَأ الأبياتِ التالِيةَ",
+        "qtitle": "ضَعْ علامةَ (✔) أمامَ العِبارةِ الصحيحةِ، وعلامةَ (✘) أمامَ العِبارةِ غيرِ الصحيحةِ:",
+        "popuptext": [
+          "بِلَادِي، سَأَسْعَى لِتَحْقِيقِ حُلْمِي          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       بِعِلْــــمٍ وَصَـــبْرٍ وَأَعْلَـــى الْهِمَـمْ  ",
+          "وَعِنْــدِيَ حُلْـــمٌ سَـأَسْـــعَى إليه        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَأَطْمَـــحُ لِلْمَجْـــدِ بَيْنَ الْقِمَـــم",
+          "أُزِيـلُ عَـنِ الـدَّرْبِ كُـلَّ الصِّعَـابِ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           وَأَصْــــبِرُ حَتَّــــى يَـــزُولَ الْأَلَـــمْ ",
+          "بِعَزْمِــي أَسِـــيرُ  إِلَــى كُــلِّ عِلْـمٍ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            وَأُعلِيـــكِ يَا مِصْـــرُ بَيْنَ الْأُمَــمْ"
+        ],
+        "audio_in_page": "../../../assets/audio/recycling.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " يسعى الشاعِرُ إلى بُلوغِ هدَفِهِ بالِاعتِمادِ على العِلْمِ وحدَهُ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": "يتطَلَّعُ الشاعِرُ إلى الوُصولِ لمكانةٍ عالِيةٍ رفيعةٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " يرتَفِعُ شأنُ الوطَنِ بعَزْمِ أبنائِهِ وجُهودِهِمْ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": [
+          {
+            "qtitle": "اكتُبِ البيتَ المُعَبِّرَ عن كُلِّ مَعْنًى ممَّا يلي:",
+            "id": 2,
+            "type": 3,
+            "index": "1",
+            "paragraph": "  نُواجِهُ الصِّعابَ بشجاعةٍ، ونَصبِرُ حتى نصِلَ إلى أهدافِنا. ",
+            "quran": "",
+            "popup": [
+              "أُزِيـلُ عَـنِ الـدَّرْبِ كُـلَّ الصِّعَـابِ       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         وَأَصْــــبِرُ حَتَّــــى يَـــزُولَ الْأَلَـــمْ "
+            ],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "type": 3,
+            "index": "2",
+            "paragraph": " تتَحَقَّقُ الأحلامُ بالعِلْمِ والصبْرِ والهِمةِ العالِيةِ.",
+            "quran": "",
+            "popup": [
+              "بِلَادِي، سَأَسْعَى لِتَحْقِيقِ حُلْمِي          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      بِعِلْــــمٍ وَصَـــبْرٍ وَأَعْلَـــى الْهِمَـمْ  "
+            ],
+            "isActive": false
+          }
+        ]
+         
+      }
+    ]
+  }
+]

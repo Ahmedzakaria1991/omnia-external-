@@ -1,0 +1,250 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "title":"ضَعْ علامةَ (✔) أو علامةَ (✘)",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+            "audio_in_page":"../audio/02-01/1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "شعَرَتْ سلمى بالامتِنانِ تِجاهَ مُعَلِّمتِها.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "ساعَدَتِ المُعَلِّمةُ سلمى في الِاستِعْدادِ للحفل.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+            "audio_in_page":"../audio/02-01/2.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "رفَضَ شادي مُساعَدةَ عُمَرَ؛ لأنَّه مشغولٌ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "القِصةُ تُبيِّنُ أنَّ المواقِفَ الطيِّبةَ تُقوِّي الصداقةَ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+            "audio_in_page":"../audio/02-01/3.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "عمِلَ يُوسُفُ وزُملاؤُه على إعدادِ لوحةٍ عن مُساعَدةِ الآخَرِينَ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": " قسَّمَ يُوسُفُ وزُملاؤُهُ المَهامَّ بينَهم لإنجازِ العمَلِ بسُرعةٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+            "audio_in_page":"../audio/02_01/110/p1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " كتَبَتْ ناديةُ تحتَ الصورةِ عِبارةَ: «لن أعودَ لرؤيَتِكِ مرةً أُخرَى».",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "قابَلَتْ ناديةُ صديقتَها خِلالَ الإِجازةِ الصيفيَّةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      }
+    ]
+  }
+]

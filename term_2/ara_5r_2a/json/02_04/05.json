@@ -1,0 +1,86 @@
+[
+  {
+    "nameId": "",
+    "title": " اختَرِ الكَلِمةَ الصَّحيحةَ إملائيًّا",
+    "finshedChoose": false,
+
+    "help": true,
+    "subject": "arabic-4",
+    "colorTemplate": "#E8C56B",
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "quizChooses": [
+      {
+        "id": 1,
+        "paragOne": "الإِهْمالُ يُسبِّبُ",
+        "paragThree": [
+          "الجيِّدُ يُحسِنُ اختيارَ الكُتُبِ المُفِيدةِ، ويتَّبِعُ"
+        ],
+        "paragFour":[
+          "التعلُّمِ الذاتيِّ."
+        ],
+
+        "paragFive": [
+
+          
+        ],
+        "paragSix": [
+
+          
+        ],
+        "show1": false,
+        "show2": false,
+        "show3": false,
+        "show4": false,
+        "chooseUrl1": "",
+        "chooseUrl2": "",
+        "chooseUrl3": "",
+        "chooseUrl4": "",
+        "result1": false,
+        "result2": false,
+        "result3": false,
+        "result4": false,
+        "close": false,
+        "type": 4,
+        "text": true,
+        "answers1": [
+          {
+            "url": ["القارِء"],
+            "answerSelect": false,
+            "cheched": false,
+            "number": 1
+          },
+          {
+            "url": ["القارئ"],
+            "answerSelect": true,
+            "cheched": false,
+            "number": 1
+          }
+        ],
+        "answers2": [
+          
+          {
+            "url": ["مبادئ"],
+            "answerSelect": true,
+            "cheched": false,
+            "number": 2
+          },
+          {
+            "url": ["مَبادِأ"],
+            "answerSelect": false,
+            "cheched": false,
+            "number": 2
+          }
+        ]
+      }
+    ]
+  }
+]

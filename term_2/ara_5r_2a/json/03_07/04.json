@@ -1,0 +1,851 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادِفُ (مُداواة):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مُعاوَنة ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مُعالَجة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "مُشارَكة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "محَبة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " جمعُ (عَهْد):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "معاهِدُ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "عُهَدٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " عُهودٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "مُعاهَدات",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": "مُفردُ (أَخْلَاق):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "خلقة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مخلوق",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "خُلُق",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أخلاقِية",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "popup": "",
+            "paragraph": "جذرُ (الِاجْتِهاد):",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "جهد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "هجد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "جدد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "هدد",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+
+        "popuptext": [
+          " وَلِـــي عَــــهْــدٌ يُــجَــدِّدُهُ نَـــهَـــارِي        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            بِــــأَنْ أَسْعَــى لِتَعْمِيــرِ الدِّيَــــارِ",
+          "وَأَزْرَعَ خَيْـــــرَ أَخْلَاقِـــــي بِيَوْمِــــــي       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             لِأَحْصُدَ مِنْــهُ أَطْيَــــابَ الثِّمَــــارِ",
+          " وَتَـــنْشُرُ كِلْمَتِــــي فَرَحًـــا وَبِــــشْرًا        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            يُــدَاوِي جُـــرْحَ حُـــزْنٍ وانْـــكِسَـارِ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " المقصودُ بـ«أَطْيَاب الثِّمَارِ»: ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "نتائِج جهدي ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "خَضْراواتي وفاكِهَتي",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "طعامِي الشهِيّ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "     سُلوكي وتصَرُّفي ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "هدَفُ الشاعِرِ منَ الأبياتِ: ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "نيلُ الشُّهرةِ",
+
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "نشرُ الخيرِ",
+
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " جمعُ المالِ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "     كُلُّ ما سبَق",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          "فَخَيْرُ الـنَّـاسِ أَنْفَعُهُــــمْ لِبَعْــــــضٍ        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَحُبُّ النَّاسِ فِي الدُّنْيَــا شِعَارِي",
+          " أَنَـــــا رَاعٍ وَمَسْــئُـــــولٌ بِـيَـــــــوْمٍ         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            سَــأَجْنِي فِيـــهِ عَــاقِبَةَ اخْتِيَارِي",
+          "أَنَــــا الْمَسْئُــولُ عَنْ قَوْلِــي وَفِعْلِـــي        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَمَسْئُـــولِيَّتِــي سِــــرُّ الْقَــــرَارِ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "المُرادُ بـ (عاقِبة):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أَسَاس",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "هدَف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "نَتِيجة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "    الأولى والثانِية",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "مُضادُّ (أنفَعُهم): ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أسوءُهُمْ ",
+
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أذلُّهُمْ",
+
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أضعَفُهُمْ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "  أضرُّهُمْ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "1",
+            "qtitle": "أجِبْ: ",
+
+            "paragraph": "خيرُ الناسِ في الدُّنيا هم",
+            "popup": [" أنفعهم للناس."],
+            "isActive": false
+          },
+          {
+            "id": 0,
+            "index": "2",
+            "paragraph": "(أَجْنِي فِيهِ عَاقِبَةَ اخْتِيَارِي): تعبيرٌ مجازِيٌّ؛ حيثُ",
+            "popup": ["صور الشاعر اختيارات الإنسان بزرع يُجنى."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          "ازْرَعُـــوا فِــي السِّــلْــم        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             تَحْصُدُوا السَّبْقَ افْتِخَارَا",
+          " وَاحْـفَظُـوا مِـصْـرَ لِتَبْقَى        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           لِلْــعُــلَا وَالـمْجــدِ دارَا"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادِفُ (تحصُدوا): ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تفوزوا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ترتَفِعوا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تجمَعوا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تصِلوا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "index": "1",
+            "qtitle": "أجِبْ: ",
+            "paragraph": "ما الجمالُ في قولِ الشاعِرِ (ازرَعوا في السِّلْمِ)؟",
+            "popup": ["تعبير مجازي صور التقدم بزرع يحصد."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "index": "2",
+            "paragraph": "ماذا طلَبَ الشاعِرُ من أبناءِ مِصرَ في البيتِ الثاني؟",
+            "popup": ["أن يحفظوا مصر لتبقى دارًا للمجد."],
+            "isActive": false
+          },
+          {
+            "id": 3,
+            "index": "3",
+            "paragraph": " كلِمَتَينِ بينَهما ترادُفٌ: ",
+            "popup": ["العلا – المجد."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          "بَــنَــيْــنَــــا مَــجْــــــدَنَا صَـــــــرْحَا         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             زَرَعْــنَــا أَرْضَــنَــا قَـــمْــحَــا",
+          " سَــنَنْشَـــــطُ كُـــــلُّنَــــا صُبْحَـــا         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           لِـــتَجْنِــــيَ مِـصْـــرُنَــا الْفَرَحَا"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُرادِفُ(تجْنِي): ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تَزْرَع ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تَفْرَح",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تَجْمَع",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تَعْلُو",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "index": "1",
+            "qtitle": "أجِبْ: ",
+
+            "paragraph": "ما واجِبُنا نحوَ وطَنِنا مِصرَ كما تفهَمُ منَ البيتِ الثاني؟",
+            "popup": ["نعمل بنشاط من أجل فرحة مصر."],
+            "isActive": false
+          },
+          {
+            "id": 2,
+            "index": "2",
+            "paragraph": " «بَنَيْنَا مَجْدَنَا صَرْحًا» تعبير ",
+            "popup": ["مجازي، يصور المجد بالبناء."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          "الْحُزْنُ أَمْرٌ لَازِمٌ مِثْلُ الْفَـرَحْ            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             مَنْ عَالَجَ الْأَمْرَيْنِ فِي الدُّنْيَا نَجَحْ",
+          " لَا تَحْسَبِ الْأَيَّامَ جُهْدًا دَائِمًا           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           فَالْحُزْنُ لَوْ يَأْتِيكَ يَغْلِبُهُ الْمَرَحْ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  «يَغْلِبُهُ المرَح»:  ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "  تعبيرٌ حقيقيٌّ  ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " تعبيرٌ مجازيٌّ ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " (الحُزن- الفرَح): بينَهما  ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "  ترادُفٌ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تضادٌّ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "   نِهايةٌ مُتماثِلةٌ  ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 1,
+            "index": "1",
+            "qtitle": "أجِبْ: ",
+
+            "paragraph": " إِلامَ يدعونا الشاعِرُ في البيتَينِ؟",
+            "popup": ["إلى المرح والتفاؤل."],
+            "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          "يَــــــــا بِـــــلَادِي أَنْــــتِ حُــبِّـــي               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            إِنْ تُـــنَـــادِيــــنِـــــي أُلَـــــبِّــــي",
+          " فِــيــكِ أَجْــنِــي الْــخَــيْــرَ دَوْمًــا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          وَالـــرِّضَــا يَـــغْــمُــرُ قَـــلْـــبِــي"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   مُرادِفَ (أجْنِي):  ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " أنشُرُ  ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أُوَزِّعُ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أقطِفُ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أرى ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          " عَــــمِّـــرُوا تِـــــلْـــكَ الــــدِّيَـــــارَا               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          عَـــاوِنُــــوا فِـــي الْـــخَــيْـــرِ جَـــــارَا",
+          "جَــــدِّدُوا الْـــــمَاضِـــــي بِــعَـــزْمٍ            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَانْــــفُــضُــــوا عَـــنْـــهُ الْـــغُبَـــارَا"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   يدعو الشاعِرُ  إلى:   ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " التعاوُنِ في الخيرِ  ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التعميرِ  والبناء ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " الإصلاحِ بينَ الناس ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الأولى والثانيةُ ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ ",
+        "qtitle": " اقْرَأ الأبياتَ ",
+        "popuptext": [
+          "سَأَسْعَــــى لِحُلْمِـــي لِأُصْبِحَ يَوْمًـــا                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         طَبِيبًـــــــا يُدَاوِي جِرَاحَ الْبَشَـــــــرْ",
+          "سَأَصْبِـــرُ فِي طَلَــبِ الْعِلْــمِ دَوْمًـــا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             سَيَجْنِــي حَصَــادَ الْــعُلَا مَـنْ صَـبَـرْ",
+          "وَلِــــي هِمَّةٌ فِي الحَيَـــاةِ، وَقَلْبِــــي                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        شُــجَــاعٌ يُـــقَــــاوِمُ كَـــــيْ يَـنْتَصِـرْ  ",
+          "وَأَزْرَعُ حُــبًّــــــا وَعِلْمًـــــا وَصَبْــــرًا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       وَبِــشْـــــرًا لِأَجْنِـــيَ أَحْـلَـــى الثَّـمَــرْ"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مَعْنى (يُداوِي):    ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " يُقلِّلُ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "يُزيلُ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " يعرِفُ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "يُعالِج ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُضادُّ (بِشْرًا) :  ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " كذِبًا ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "غِشًّا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " حُزنًا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "غضَبًا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   مُفردُ (جِراح):    ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مَجْرُوح ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "جُرْح",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " جِراحة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "جَرِيح",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "   جذرُ (ينتَصِر):    ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "صرر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "نصر",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "رصن",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "رصص ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "1",
+            "qtitle": "أجِبْ:",
+
+            "paragraph": "ما الرِّسالةُ التي يدعونا إليها الشاعِرُ  في الأبياتِ؟",
+            "popup": ["تحقيق الحلم يحتاج إلى عمل وصبر."],
+            "isActive": false
+          }
+        ]
+      }
+    ]
+  }
+]

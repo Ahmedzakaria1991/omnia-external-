@@ -1,0 +1,330 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "qtitle" :"",
+            "popuptext": [
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ التصرُّفِ الجيِّدِ:",
+                "correctAnswer": [1,2,4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "ساعدْتُ السَّائحَ الذي ضَلَّ الطَّريقَ، وأرشدْتُهُ إلى الفندقِ القريبِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "رحَّبْتُ بالضَّيفِ عندَ وصولِهِ بابتسامَةٍ ودعوْتُهُ للجلوسِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "ضحكْتُ من طريقةِ نُطقِ الضيفِ الأجنبيِّ للكلِماتِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": " قدَّمْتُ كوبَ ماءٍ للضيفِ المُتعَبِ بعدَ رحلةٍ طويلةٍ.",
+                    "right": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": " تركْتُ الضيفَ وحدَهُ في حُجْرةِ الاستقبالِ وقتًا طويلًا.",
+                    "right": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "qtitle" :"",
+            "popuptext": [
+                "انضمَّ إلى حيِّنا رَجُلٌ من بلدٍ عربيٍّ، لَقِيَه أبي يومًا فأخبرَهُ ذلك الرَّجلُ بمَدَى حُبِّهِ لمصرَ وأهلِها؛ لأنَّه شعَر فيها بالأمانِ والاستقرارِ، ووجَد من أهلِها الكرمَ والمحبَّةَ وحُسْنَ الضِّيافةِ، ووجدْتُهُ في حديثِهِ يصِفُ مصرَ بأنَّها الأختُ الكبرى التي تَمُدُّ يدَها بمُساعَدةِ الجميعِ، وفي نِهايةِ اللِّقاءِ سمِعْتُهُ يدعو اللهَ أن يُديمَ على مصرَ أمنَها وخيرَها، وأن تبقَى دائمًا وطنًا يحتضِن الجميعَ؛ فشعَرْتُ بالفخرِ لأنَّني مصريٌّ."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مرادفُ (الأمان): ..............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الرِّضا",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الاطمئنان",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الرَّاحة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": " الأولى والثَّالثة",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ(يُديم): .............",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "يُضعِف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "يُقلِّل",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "يَمنَع",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "يُذهِب",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "جمعُ (بلد): ......................",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "بلدان",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "بلدات",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "بلاد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الأولى والثَّالثة",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "جَذرُ (الاستقرار): .............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "قرر",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "رقق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "سرق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "سقر",
+                    "right": false
+                }
+                ]
+            }
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "qtitle" :"",
+            "popuptext": [
+                "قالَ لي أبي: إنَّ مصرَ منذُ القِدَمِ تستقبلُ الضُّيوفَ من كلِّ مكانٍ، وإِنَّها كانَتْ دائمًِا تمُدُّ يدَها للجميعِ بالعِلْمِ والمَحَبَّةِ؛ ولهذا يُحِبُّها الناسُ ويُسَمُّونها الأُختَ الكُبرَى وأُمَّ الدُّنيا؛ لأنَّها تحتَضِنُ الجميعَ وتُشعِرُهم كأنَّهُمْ في وطنِهِمْ. نحن نتمنَّى لصدِيقِنا الجديدِ أن يسعَدَ بإقامَتِهِ في مِصرَ ."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادِفَ (إقامَته): ....................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "رِحلته",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "استِقراره",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "معامَلته",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تَعَلُّمه",
+                    "right": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (المحبَّة): ..............",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "القَلَق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الخَوف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الكُره",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الغَدر",
+                    "right": false
+                }
+                ]
+            }
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

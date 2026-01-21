@@ -1,0 +1,316 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+        "audio_in_page": "../audio/01_01/نشاط 1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " نشَرَ الفريقُ القِصَصَ على مَوْقِعِه الخاصِّ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "كانَ لفِكْرةِ المقاطِعِ الصوتيةِ تأثيرٌ  إيجابيٌّ على المُستَمِعِينَ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "مُشارَكةُ القِصَصِ بطريقةٍ مُمتِعةٍ قدْ يُشجِّعُ الآخَرينَ على القِراءةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+        "audio_in_page": "../audio/01_01/نشاط 2.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "الهَدَفُ من فِكْرةِ المُعجَمِ الإلكترونيِّ مُشارَكةُ المَعْرِفةِ بطريقةٍ مُمتِعةٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": " يُساعِدُ المُعجَمُ في البَحْثِ عن معلوماتٍ عن المُؤلِّفِينَ وكُتُبِهم.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "كلُّ المَعْلُوماتِ كانَتْ شخصيَّةً ولا يُمكِنُ للآخَرينَ الاستِفادةُ منها.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+        "audio_in_page": "../audio/01_01/نشاط 3.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "شارَكَ الأصدِقاءُ في اختيارِ القِصَصِ وتجهيزِ الشخصِياتِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": " العمَلُ الجماعِيُّ أثَرُه ضعيفٌ، ويُكلِّفُ الكثيرَ من المالِ والجُهْدِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [],
+
+        "audio_in_page": "../audio/01_01/نشاط 1.mp3",
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "تهدُفُ الورشةُ إلى نشرِ رُوحِ الإِبداعِ والتعاوُنِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "شارَكَ الأهلُ في تقديمِ الإِرشاداتِ وتوفيرِ الأدواتِ اللازِمةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "paragraph": "اقتصَرَتِ الفِكْرةُ على إِصلاحِ الألعابِ القديمةِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "nameId": "DragAndDropRearrange",
+
+    "title": " ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+    "subject": "arabic-5",
+    "colorTemplate": "#FF9FB7",
+    "counterFinished": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+        "qtitle": "أعِدْ ترتيبَ الكَلماتِ بحيثُ تشتمِلُ على مُضافٍ إليه:",
+
+    "dragCounter": 0,
+    "droggableBox": [
+      {
+        "items": [
+          {
+            "idNum": [3],
+            "wrod": ["أمَلُ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "wrod": ["التلاميذُ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [2],
+            "wrod": ["هم"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [4],
+            "firstwrod": ["المُستقبَلِ"],
+            "wrod": [""]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [1]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [3]
+          },
+          {
+            "idNum": [4]
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "idNum": [3],
+            "wrod": ["الدنيا"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [2],
+            "wrod": ["أمُّ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "wrod": ["مِصرُ "],
+            "firstwrod": [""]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [1]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [3]
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "idNum": [4],
+            "wrod": ["الرسمِ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "wrod": ["يُجِيدُ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [3],
+            "wrod": ["فنَّ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [2],
+            "firstwrod": ["الطالِبُ"],
+            "wrod": [""]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [1]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [3]
+          },
+          {
+            "idNum": [4]
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "idNum": [2],
+            "wrod": ["الاختبارِ "],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [3],
+            "wrod": ["سهلةٌ"],
+            "firstwrod": [""]
+          },
+          {
+            "idNum": [1],
+            "wrod": ["أسئلةُ"],
+            "firstwrod": [""]
+          }
+        ],
+        "dropNumbers": [
+          {
+            "idNum": [1]
+          },
+          {
+            "idNum": [2]
+          },
+          {
+            "idNum": [3]
+          }
+        ]
+      }
+    ]
+  }
+]

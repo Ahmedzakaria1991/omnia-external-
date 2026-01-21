@@ -1,0 +1,410 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "في قريةٍ صغيرةٍ، كان يعيش شابٌّ يسعى دائمًا لمُساعَدةِ الآخَرِينَ، لم يكن هدفُه الشُّهرةَ، ولم يكنْ يَدُورُ  في ذِهْنِه أن يَحصُلَ على مُقابلٍ من الناسِ على أيِّ فعلٍ طيِّبٍ يَفعلُه؛ لأنَّه كان يُؤمِن أنَّ كلَّ دَورٍ إيجابيٍّ يَحصُدُ نتائجَ جميلةً في النِّهايةِ. ومع مُرورِ الوقتِ بدَأَ أهلُ القريةِ يَقتدونَ بتصرُّفاتِهِ الطيبةِ، ويَتسابقونَ في فعلِ الأعمال الصَّالِحَة؛ لأنَّه استَطَاعَ بمواقفِهِ أنْ يقودَ أهلَ القريةِ ويُصْبِحَ قُدوةً لهم؛ وأثبَت أنَّ الخيرَ مهما صغُر ، فإنَّه يَزرعُ المحَبةَ في القُلوبِ، ويَصنَعُ مُجتمَعًا أفضلَ."
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُرادِفُ (يقود): ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "يتحكَّم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "يُوجِّه",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "يُرشِد",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الثانيةُ والثالثةُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " مُضادُّ(الصالِحة):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "المريضة",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الفاسِدة",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "المُهمِلة",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الضعيفة",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " جمعُ (دور):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ديار",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أدوار",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أديرة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "مدارات",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "جذرُ (مُقابِل):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "لقب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "قبل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "بقل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "مقل",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرِ التصرفِ الإيجابيِّ:",
+            "correctAnswer": [1, 3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " شخصٌ يُخصِّصُ وقتًا يوميًّا لمُمارَسةِ الرِّياضةِ وقراءةِ الكُتُبِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "َرفُضُ مُساعَدةَ زملائِهِ الذين يَحتاجونَ دعمًا في درسٍ وهو يَفهمُه جيِّدًا.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "شخصٌ يعتَرِفُ بأخطائِه ويتعَلَّمُ منها؛ ليُصبِحَ أفضلَ في المُستقبَلِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": " يَتجاهلُ الآخَرِينَ؛ لأنَّه يرى نفْسَه لا يَحتاجُ إلى أحدٍ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " الفِكرةُ العامةُ للفِقرةِ أنَّ كلَّ إنسانٍ له",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "  شخصيةٌ مُختلِفةٌ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "مَوهبةٌ فريدةٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "دَورٌ  يُؤدِّيه",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "وطنٌ يَحمِيه",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "شبَّهتِ الفِقرةُ الأفعالَ بـ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الأدوارِ ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الخُطى",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "السلالمِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "النتائجِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "يُمكِنُكَ أن تَقرأَ قصَّةً مُمتِعَةً لتلاميذِ الصُّفوفِ الأصغرِ أثناءَ الفُسحةِ بعدَ إذنِ مُعلِّمِكَ. يُمكِنُكَ أن تُشجِّعَ زملاءَكَ على التعاوُنِ بدلًا منَ التنافُسِ السلبيِّ. كلُّ عملٍ طيبٍ تُضِيفُه اليومَ، سيَعودُ إليك غدًا بشكلٍ أجملَ؛ لأنَّ مَن يَزرعِ الخيرَ يَحصُدِ الخيرَ. فكِّرِ الآن: ما الشَّيءُ الجميلُ الذي ستُضِيفُه اليومَ لنفْسِكَ وللآخَرِينَ؟ "
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُرادِفُ (التنافُس):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "  التعاوُن ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التسابُق",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التشجيعِ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الترحيبِ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُفردُ (الصُّفوف):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الصيْف ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الصِّفة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الصَّفّ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الفصل",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

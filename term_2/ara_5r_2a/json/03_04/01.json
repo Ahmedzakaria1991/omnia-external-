@@ -1,0 +1,149 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ ",
+        "popuptext": [
+          "«إِذَا كُنَّا صَادِقِينَ فِي كَلَامِنَا، وَمُتَوَاضِعِينَ فِي تَعَامُلِنَا، وَنُسَاعِدُ الْمُحْتَاجَ؛ فَإِنَّ سِيرَتَنَا الطيِّبةَ سَتَنْتَشِرُ بِهُدُوءٍ مِثْلَ رَائِحَةِ الزهْرِ الْجَمِيلِ، وَسَيَتَحَدَّثُ الْجَمِيعُ عَنَّا بِكُلِّ خَيْرٍ حَتَّى لَوْ لَمْ نَكُنْ مَوْجُودِينَ. أَمَّا إِذَا أَسَأْنَا التَّعَامُلَ، وَتَلَفَّظْنَا بِكَلِمَاتٍ جَارِحَةٍ، وَلَمْ نُرَاعِ مَشَاعِرَ الْآخَرِينَ؛ فإنَّ ذلك سيُؤَثِّرُ سلْبًا على صورَتِنا»."
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "رسمْتُ ....................... زرقاءَ صافيةً.",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "سماأً",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "سماءً",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "سماءًا",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [
+          "تَذَكَّرْ دَائِمًا يَا صَدِيقِي: حَسِّنْ أَفْعَالَك تَتَحَسَّنْ سِيرَتُكَ، وَسِيرَتُكَ هِيَ صُورَتُكَ الَّتِي تَبْقَى مَحْفُورَةً فِي قُلُوبِ النَّاسِ حَتَّى بَعْدَ أَنْ تَغِيبَ. وَلَا تَنْسَ أَيْضًا أَنْ تَذْكُرَ الْآخَرِينَ بِالْخَيْرِ، وَأَلَّا تُسِيءَ لِأَحَدٍ، سَوَاءٌ فِي حُضُورِهِ أَوْ غِيَابِهِ، فَكَمَا تُحِبُّ أَنْ تَكُونَ سِيرَتُكَ طَيِّبَةً يُحِبُّ غَيْرُكَ ذَلِكَ أَيْضًا. وَهَكَذَا نَبْنِي مُجْتَمَعًا مليئًا بِالْمَحَبَّةِ وَالاحْتِرَامِ."
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " السَّهرُ  يُشكِّل ....................... على صحَّةِ الجسمِ.",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "عبؤًا",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " عبءًا ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": " عبئًا ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": " المُتحفُ المصريُّ الكبيرُ  ....................... مُبهرٌ.",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "بنائٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "بناؤٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "بناءٌ",
+                "audio": "../../../assets/audio/celebration.mp3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

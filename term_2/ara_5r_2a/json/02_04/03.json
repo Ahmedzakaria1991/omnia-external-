@@ -1,0 +1,676 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ المُربَّعَ الذي يحتوي على الكلمةِ التي بها همزةٌ مُتطرِّفةٌ على ياءٍ.",
+                "correctAnswer": [1,2,3,7],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "يُطفئُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "هادئٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "يختبئُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "المساءُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "مملوءٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "عِبْءٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 7,
+                    "toChoose": "دافئٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُمتلِئ:",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ ضمٍّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ كسرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "طارِئ:",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ ضمٍّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ كسرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "مَبادِئ:",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ ضمٍّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ كسرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "لُؤلُؤ:",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ ضمٍّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ كسرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 5,
+                "popup": "",
+                "paragraph": "تهيُّؤ:",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ ضمٍّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ كسرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 6,
+                "popup": "",
+                "paragraph": "يجرُؤ:",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ ضمٍّ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "همزةٌ مُتطرِّفةٌ بعدَ كسرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "نحن نتمنَّى لصديقِنا الجديدِ أن يسعَدَ بإقامتِه في مصرَ، وأن يُحقِّقَ أحلامَه وهو بيننا، ونُرحِّبُ بكلِّ مَن يأتي إلينا بمحَبةٍ وابتِسامةٍ. ونحمدُ اللَّهَ أنَّ مصرَنا الحبيبةَ بلدُ الأمنِ والاستقرارِ، ونسألُه أن يُديمَ عليها الخيرَ والسَّلامَ."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ (الخير) إعرابُها: ............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مفعولٌ به",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مفعولٌ مُطلَقٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "«مُديرُ المدرسةِ يُكرِّم المُتفوِّقينَ». ما تحته خطٌّ ..............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُضافٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مُضافٌ إليه",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "القاضي العادلُ .................... في قرارِه.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "جريءٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "جريأٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "جرئٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "نحن نُعلِّمُ صَدِيقَنا الجَدِيدَ الألعابَ المِصْريَّةَ التي نُحِبُّها ، وهو أيضًا يُعلِّمُنا ألعابَ بَلَدِه الجَمِيلةَ التي لم نكُنْ نعرِفُها من قَبْلُ. وتكونُ أوقاتُنا مُمتِعةً عندما نكتشفُ كلماتٍ متشابهةً بين لهجتَيْنا، ونَشعرُ بالدهشةِ عِندَما نَجدُ كلماتٍ لها معانٍ مختلفةٌ في الثقافتَينِ، وأحيانًا نَضحكُ كثيرًا بسببِ ذلك. قال لي أبي: «إنَّ مصرَ منذ القِدمِ تستقبلُ الضُّيوفَ من كلِّ مكانٍ، وإنَّها كانت دائمًا تَمُدُّ يدَها للجميعِ بالعِلمِ والمَحبَّة»؛ ولهذا يُحِبُّها الناسُ ويُسَمُّونَها الأُختَ الكُبرَى وأُمَّ الدُّنيا."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ (الدهشة) إعرابُها: ...........",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "اسمٌ مجرورٌ بحَرْفِ الجَرِّ ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مُضافٌ إليه",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "(مِصرُ بلدُ الحضاراتِ). ما تحتَه خطٌّ: ...............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُضافٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "مُضافٌ إليه",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "جلَسْنا على .............. البحرِ.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "شاطِؤ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "شاطِئ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "شاطِيء",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ الكلِمةِ التي كُتِبَتْ همزتُها بشكلٍ صحيحٍ:",
+                "correctAnswer": [1,2,6],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "شاطِئ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "تنبُّؤ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "مُنشِئ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "مَبادِأ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "قارِء",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "موانِئ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "بدَأَ بعضُنا ينظُرُ إلى بعضٍ، وقالَ مُعظمُنا بصوتٍ واحدٍ: «لا، لم نُفكِّرْ في ذلكَ من قَبْلُ». ضحِكَ الأستاذُ حسنٌ وقالَ: «حسنًا، هل لاحَظْتُم أنَّ هناك أشخاصًا نُحبُّ التَّحدُّثَ معهم؛ لأنَّهم يستَمِعونَ إلينا باهتِمامٍ، وهناك آخَرونَ نشعُرُ أنَّ الحديثَ معهم صعبٌ؛ لأنَّهم لا يستَمِعونَ جيِّدًا؟»، هزَزْنا رُءوسَنا مُوافِقينَ،  فقالَ الأستاذُ: «اليومَ سنَلْعَبُ لعُبةً اسمُها (الاختِبارُ الذاتيُّ للمُستَمِعِ الجيِّدِ)، كلُّ واحدٍ منكم سيَقرَأُ البِطاقاتِ التالِيةَ، ويضَعُ علامةَ✔  أو ✘»."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ (رُءوس) نوعُها ...............",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُفرَدٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "جمعُ مُذكَّرٍ سالمٌ ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "جمعُ تكسيرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "«وقَفَ الْمُعَلِّمُ يشرَحُ بِهُدوء». (هُدوء) اسمٌ مجرورٌ وعلامة جرِّه ............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الكسرةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الياءِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "المُتَّهَمُ ............. حتى تثبُتَ إِدانَتُه.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "بريءٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "برئٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "برأٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "قام كلٌّ منَّا بتقييمِ نفْسِه، لقدِ اكتَشَفْنا في أنفُسِنا مُميِّزاتٍ جميلةً، وأيضًا نِقاطًا يجبُ أن نُحسِّنَها، وعِندَما انتهيْنا، ابتسَم الأستاذُ حسن وقالَ في النِّهايةِ: «تَذكَّروا دائِمًا يا أحبَّائي، أنَّ الاستماعَ الجيِّدَ هو مفتاحُ الفهمِ والتفاهُمِ، ومَن يُحسِنِ الِاستِماعَ يُحسِنِ الكلامَ أيضًا»."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "«التقييمُ الذاتِيُّ يُعَرِّفُنا على المُمَيِّزات والعُيوب». (المميزات) اسمٌ مجرورٌ بـ :",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الكسرةِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الياءِ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "................. صوتُهُ جميلٌ.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "القارئُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "القارىءُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "القارؤُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+        
+    ]
+  }
+]

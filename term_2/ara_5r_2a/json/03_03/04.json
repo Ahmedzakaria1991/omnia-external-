@@ -1,0 +1,50 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+
+    "quizChooses": [
+      {
+        "qtitle": "أعرِبِ الكلماتِ المُلوَّنةَ في الجُمَلِ الآتيةِ، مُبيِّنًا السبب:",
+
+        "title": "أجِبْ",
+        "isActive": true,
+        "popuptext": [""],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " يُتابِعُ الأبُ آخِرَ <span class ='span'>الأخبار</span> .",
+            "popup": ["مضاف إليه مجرور وعلامة جره الكسرة؛ لانه جمع تكسير."]
+          },
+          {
+            "id": 1,
+            "paragraph": "وسائلُ <span class ='span'>المُواصَلات</span> مُرِيحةٌ.   ",
+            "popup": [
+              " مضاف إليه مجرور، وعلامة جره الكسرة؛ لأنه جمع مؤنث سالم."
+            ]
+          },
+          {
+            "id": 1,
+            "paragraph": " أُشارِكُ في مُسابَقةِ <span class ='span'>الرسم</span>.",
+            "popup": ["مضاف إليه مجرور، وعلامة جره الكسرة؛ لأنه مفرد."]
+          }
+        ]
+      }
+    ]
+  }
+]

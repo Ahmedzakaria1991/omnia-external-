@@ -1,0 +1,140 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "title":"ضَعْ علامةَ (✔) أو علامةَ (✘)",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [
+          " قالَ الأُستاذُ: «اليومَ سنَلْعَبُ لُعبةً اسمُها (الاختِبارُ الذاتيُّ للمُستَمِعِ الجيِّدِ)، كُلُّ واحِدٍ منكم سيَقْرَأُ البِطاقاتِ التالِيةَ، ويضَعُ علامةَ  ✔  أو  وفي النِّهايةِ ستَعْرِفُ إنْ كنتَ مُستَمعًا جيِّدًا، أم تحتاجُ إلى بعضِ التدريبِ». ثُمَّ أضَافَ بِابتِسامةٍ مُشَجِّعةٍ: «تذَكَّروا يا طلَّابيَ الأعِزَّاءَ، هذه ليسَتْ مُسابَقةً، نحن لا ينتَقِدُ بعضُنا بعضًا، بل نُقَيِّم أنفُسَنا بصِدقٍ؛ لأنَّ التقييمَ الحقيقيَّ يجعَلُنا أفضَلَ دائِمًا». "
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "يتحدَّثُ المُعلِّمُ في الفِقرةِ عن تعليماتِ التَّقْيِيمِ لمَهارةِ الاستماعِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "بعدَ أنْ ينتَهِيَ كُلُّ طالِبٍ  منَ التقييمِ عليه أنْ ينْتَقِدَ زُملاءَهُ .",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [
+          "حُسنُ الاستِماعِ ليسَ مُجرَّدَ  صَمتٍ  عن الكلامِ، بل هو تركيزٌ في كلامِ المُتحدِّثِ، فالكثيرونَ يظُنُّونَ أنَّهم يستمعونَ، لكنَّهم في الحقيقةِ ينتظرونَ دَورَهم في الحديثِ، فالمُستمِعُ الفَعَّالُ يُظهرُ اهتمامًا حقيقيًّا بالمُتحدِّثِ، فلا ينشغلُ بغيرِه ولا يُقاطعُه حتى يُتِمَّ  فكرتَه وأنْ يترُكَه يُتابِع حديثَهُ. هذا النَّوعُ من الإنصاتِ يجعلُ المُتحدِّثَ يَشعرُ بالتَّقديرِ ويُحسِنُ التواصُلَ. وعندما يرى المُتحدِّثُ أنَّك تُعطيه تركيزَك المُعتادَ، فإنَّه يُبادلُك الثِّقةَ والاهتِمامَ. "
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "المُستمِعُ الفَعَّالُ لا يُقاطِعُ المُتحدِّثَ حتى يُنْهِيَ فِكرتَه.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "إظهارُ الاهتمامِ للمُتحدِّثِ يجعلُه يشعُرُ بالإحباطِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      }
+    ]
+  }
+]

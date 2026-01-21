@@ -1,0 +1,358 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "qtitle" :"اذكرْ نوعَ المفعولٌ المُطلَقٌ:",
+            "popuptext": [
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "قاتَل الجندي قتالًا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": " تُكرِّم المديرة المتفوق تكريمًا مشرفًا.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": " يفعل الرجل الخير فعلًا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": " تناولتُ الطعام تناولًا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 5,
+                "popup": "",
+                "paragraph": " نما النبات نموًّا سريعًا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 6,
+                "popup": "",
+                "paragraph": " حمد المؤمن ربه حمدًا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 7,
+                "popup": "",
+                "paragraph": " يمشي الولد مشيًا سريعًا.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 8,
+                "popup": "",
+                "paragraph": " صعب الامتحان صعوبة شديدة.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُؤكِّدٌ للفِعلِ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": " مبين للنوع",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ ( المعلومات) نوعُها: ..............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُفردٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "جمعُ مُؤنَّثٍ سالِمٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "جمعُ تكسيرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "فِي الْحَقِيقَةِ كِلَا الرَّأْيَيْنِ صَحِيحٌ؛ لِأَنَّ شَبَكَةَ الْإِنْتَرْنِت هِيَ أَدَاةٌ تُنَفِّذُ مَا نَطْلُبُهُ مِنْهَا؛ لِذَلِكَ نَحْنُ مَنْ نُقَرِّرُ إِذَا كَانَتْ مُفِيدَةً أَمْ ضَارَّةً. وَالسِّرُّ فِي طَرِيقَةِ اسْتِخْدَامِهَا. إنَّ شَبَكَةَ الْإِنْتَرْنِت  كَأَيِّ وَسِيلَةٍ أُخْرَى، لَهَا أَخْلَاقِيَّاتٌ لَا بُدَّ أَنْ نَلْتَزِمَ بِهَا حَتَّى نَسْتَخْدِمَهَا اسْتِخْدَامًا آمِنًا."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كلمةُ ( مُفيدة) نوعُها  .................",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مُفردٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "جمعُ مذكَّرٍ سالمٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "جمعُ تكسيرٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "كلِمةُ ( نلتَزِم ) فِعلٌ: ..............",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "ماضٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose":"مُضارعٌ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أمرٌ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

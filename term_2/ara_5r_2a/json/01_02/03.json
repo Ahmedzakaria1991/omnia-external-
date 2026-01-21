@@ -1,0 +1,487 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-4",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "يُعَدُّ الإنتَرْنِت اليومَ وسيلةً مُهِمَّةً لِلتعَلُّمِ والتواصُلِ؛ فهو يربِطُنا عبرَ شبَكةٍ واسِعةٍ منَ المعلوماتِ والمعارِفِ، وعِندَ استِخدامِ أيِّ موقِعٍ إِلكتُرونيٍّ يجِبُ أن يلتَزِمَ المُستخدِمُ بِأَخلاقياتِ التعامُلِ الرقميِّ، مِثلَ احتِرامِ الآخَرينَ، وعدَمِ نشرِ معلوماتٍ غيرِ صحيحةٍ. ومنَ المُهِمِّ أن يتَّخِذَ المُستَخدِمُ قرارًا مسئُولًا قبلَ مُشارَكةِ أيِّ مُحتوًى؛ لأنَّ كُلَّ سُلوكٍ عبرَ الشبَكةِ قد يُعَرِّضُهُ إلى مُساءَلةٍ إذا خالَفَ القواعِدَ. إِنَّ وُضوحَ الهدَفِ من الاستِخدامِ يجعَلُ التعلُّمَ أكثَرَ فائِدةً، ويُسهِمُ في بِناءِ بيئةٍ رقمِيةٍ آمِنةٍ ومُثمِرةٍ لِلجميعِ."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادِفُ (أخلاقِيات): ..............",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "سُلُوكِيَّات",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "أدوار",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "أهداف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "أحلام",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "مُضادُّ (يلتَزِم): ....................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "يكرَه",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "يجهَل",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "يُخالِف",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "يتَأَخَّر ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": " مُفردُ (الآخَرينَ): ................",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "الأخير",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الأُخرَى",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الآخَر",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "المُتَأَخِّر",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "جذرُ  (المُستَخدِم): .................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "مسخ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "خدم",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "خمد",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "ختم",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "qtitle":"اختَرِ التصرُّفِ السليمِ في كُلِّ موقِفٍ منَ المواقِفِ الآتيةِ:",
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "كتَبَ زميلُكَ تعليقًا لم يُعجِبْكَ، فاختَرْتَ أن تتجاهَلَ الموقِفَ.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أفعَلُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "لا أفعَلُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "وجَدتَ منشورًا يحتوي على معلوماتٍ غيرِ  مُؤَكَّدةٍ، فنشَرتَهُ.",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أفعَلُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "لا أفعَلُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 3,
+                "popup": "",
+                "paragraph": "قبلَ نشْرِ صورةٍ جماعِيةٍ، سأَلتَ زُملاءَكَ إن كانوا يُوافِقونَ على نشْرِها.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أفعَلُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "لا أفعَلُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 4,
+                "popup": "",
+                "paragraph": "قبلَ أن أُشارِكَ مقطعَ فيديو، فكَّرتُ إن كانَ مُفيدًا وآمِنًا أم لا.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أفعَلُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "لا أفعَلُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 5,
+                "popup": "",
+                "paragraph": "كُنْتُ غاضِبًا من رِسالةٍ وصَلَتني، فرَدَدتُ عليها فورًا دونَ تفكيرٍ. ",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أفعَلُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "لا أفعَلُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 6,
+                "popup": "",
+                "paragraph": "أُفكِّرُ قبلَ أنْ أضغَطَ على أيِّ رابِطٍ.",
+                "correctAnswer": [1],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أفعَلُ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "لا أفعَلُ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "لا شكَّ أن شبكةَ الإِنْترنِت مُفيدةٌ جدًّا؛ فهي تُساعِدُنا على البحثِ عن المعلوماتِ، والتواصُلِ مع الأصدقاءِ، وتَعرُّفِ ثقافاتٍ مُختلِفةٍ، لكن هناك مَن يرَى أنَّ لها أخطارًا كثيرةً، وأنها ضارةٌ. فأيُّ الرأيْيَنِ صحيحٌ من وِجهةِ نظرِكُم؟"
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "انتَهَتِ الفِقرةُ بــ  ...........",
+                "correctAnswer": [3],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                {
+                    "numAnswer": 1,
+                    "toChoose": "حِكمةٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "اقتراحٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "سؤالٍ",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "نصيحةٍ",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        },
+        {
+            "active": false,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+                "في الحقيقةِ كِلا الرأيَيْنِ صحيحٌ؛ لأن شبكةَ الإِنْترنِت هي أداةٌ تُنفِّذُ ما نطْلُبُه منها؛ لذلك نحن مَن نُقرِّرُ إذا كانَت مُفيدةً أم ضارَّةً. والسِّرُّ  في طريقةِ استِخدامِها. إنَّ شبَكةَ الْإِنْتَرْنِت كأَيِّ وسيلةٍ أُخرَى، لها أخلاقِياتٌ لا بُدَّ أنْ نلتَزِمَ بها حتى نستَخدِمَها استِخدامًا آمِنًا."
+            ],
+            "hideIndex" : false,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "مُرادِفُ (وسيلة): ..............",
+                "correctAnswer": [4],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "أداة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "فُرصة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "طريقة",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الأولى والثالِثة",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "جمْعُ (الحقيقة): ...................",
+                "correctAnswer": [2],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": "التحقيقات",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "الحقائِق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "الحُقوق",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "الحِقاق",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

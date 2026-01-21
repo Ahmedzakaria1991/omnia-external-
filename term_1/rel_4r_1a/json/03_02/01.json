@@ -21,10 +21,11 @@
     "inputSlide": [
       {
         "active": true,
-        "title": "أَكْمِلِ",
+        "title": "أكمِلْ",
+        "slideOne": true,
         "popuptext": [],
         "paragraph1": [],
-        "questionTitle": "املَأِ الفراغاتِ بالكلماتِ المَحذوفةِ ممَّا تحفَظُ.",
+        "questionTitle": "امْلَأ الفراغاتِ بالكلماتِ المَحذوفةِ ممَّا تحفَظُ:",
         "quran": [],
         "paragraph2": [],
         "cancelBreak": true,
@@ -33,11 +34,16 @@
           {
             "id": 1,
             "type": 2,
-            "index": "1",
+            "index": "",
             "contents": [
               {
-                "paragraphes1": ["قال (تَعَالَى): ﴿ عَبَسَ وَ", "&nbsp "],
-                "paragraphesAfter1": ["(1) أَن جَاءَهُ"],
+                "paragraphes1": [
+                  "قال (تَعَالَى):<span class ='quran'> ﴿ عَبَسَ وَ </span>",
+                  "&nbsp "
+                ],
+                "paragraphesAfter1": [
+                  "<span class ='quran' >(1) أَن جَاءَهُ</span>"
+                ],
                 "inputtype": [
                   {
                     "length": 0,
@@ -97,26 +103,29 @@
                 ],
                 "paragraphes2": [],
                 "paragraphesAfter2": [
-                  "(2) وَمَا يُدْرِيكَ",
+                  "<span class ='quran' >(2) وَمَا يُدْرِيكَ</span>",
                   "&nbsp;",
-                  "لَعَلَّهُ يَزَّكَّىٰ (3)",
+                  "<span class ='quran' >لَعَلَّهُ يَزَّكَّىٰ (3)</span>",
                   "&nbsp;",
-                  "أَوْ يَذَّكَّرُ فَتَنفَعَهُ"
+                  "<span class ='quran' >أَوْ يَذَّكَّرُ فَتَنفَعَهُ</span>"
                 ],
                 "paragraphes3": [],
                 "paragraphesAfter3": [],
 
-                "paragraphes4": ["(4) أَمَّا مَنِ"],
+                "paragraphes4": [
+                  "<span class ='quran' >(4) أَمَّا مَنِ</span>"
+                ],
                 "paragraphesAfter4": [],
-                "paragraphes5": ["(5) فَأَنتَ لَهُ"],
+                "paragraphes5": [
+                  "<span class ='quran' >(5) فَأَنتَ لَهُ</span>"
+                ],
                 "paragraphes6": [],
                 "paragraphesAfter6": [
-                  "(6) وَمَا ",
+                  "<span class ='quran' >(6) وَمَا </span>",
                   "&nbsp;",
-                  "عَلَيْكَ أَلَّا",
+                  "<span class ='quran' >عَلَيْكَ أَلَّا</span>",
                   "&nbsp;",
-                  "يَزَّكَّىٰ (7)",
-                  "﴾."
+                  "<span class ='quran' >يَزَّكَّىٰ (7)﴾.</span>"
                 ]
               }
             ],
@@ -165,13 +174,13 @@
       },
       {
         "active": false,
-        "title": "أَكْمِلِ",
+        "title": "أكمِلْ",
         "popuptext": [],
         "paragraph1": [],
         "quran": [],
         "paragraph2": [],
         "cancelBreak": true,
-        "questionTitle": "املأ الفراغاتِ في الجُملِ بالكلماتِ الآتيةِ",
+        "questionTitle": "امْلَأ الفراغاتِ في الجُملِ بالكلماتِ الآتيةِ:",
         "alters": "(  مُستبشِرَةٌ ــ قُرَيشٍ  ــ أهلِهِ ــ  العِلْمَ ــ أهوالِ )",
         "poem": false,
         "items": [
@@ -183,9 +192,9 @@
               {
                 "paragraphes1": ["كانَ النبيُّ ﷺيدعُو كِبارَ  "],
                 "paragraphesAfter1": [
-                    "إلى الإسلامِ حينَ جاءَهُ",
-                    "&nbsp;",
-                    "ابنُ أُمِّ مَكتومٍ."
+                  "إلى الإسلامِ حينَ جاءَهُ",
+                  "&nbsp;",
+                  "ابنُ أُمِّ مَكتومٍ."
                 ],
                 "inputtype": [
                   {
@@ -245,31 +254,15 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
 
-                ],
-                "paragraphes3": [
-
-                ],
-                "paragraphesAfter3": [
-
-                ],
-
-                "paragraphes4": [
-                    
-                ],
-                "paragraphesAfter4": [
-
-                ],
-                "paragraphes5": [
-
-                ],
-                "paragraphes6": [
-
-                ],
-                "paragraphesAfter6": [
-                  
-                ]
+                "paragraphes4": [],
+                "paragraphesAfter4": [],
+                "paragraphes5": [],
+                "paragraphes6": [],
+                "paragraphesAfter6": []
               }
             ],
             "answerUser": [
@@ -318,9 +311,7 @@
             "contents": [
               {
                 "paragraphes1": ["يُحذِّرُنا اللهُ تعالى في سورةِ (عبَسَ) مِن"],
-                "paragraphesAfter1": [
-                    "يومِ القيامةِ."
-                ],
+                "paragraphesAfter1": ["يومِ القيامةِ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -379,31 +370,15 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
 
-                ],
-                "paragraphes3": [
-
-                ],
-                "paragraphesAfter3": [
-
-                ],
-
-                "paragraphes4": [
-                    
-                ],
-                "paragraphesAfter4": [
-
-                ],
-                "paragraphes5": [
-
-                ],
-                "paragraphes6": [
-
-                ],
-                "paragraphesAfter6": [
-                  
-                ]
+                "paragraphes4": [],
+                "paragraphesAfter4": [],
+                "paragraphes5": [],
+                "paragraphes6": [],
+                "paragraphesAfter6": []
               }
             ],
             "answerUser": [
@@ -452,11 +427,9 @@
             "contents": [
               {
                 "paragraphes1": [
-                    "يبعَثُ اللهُ تعالى المُؤمِنِينَ يومَ القيامةِ وُجوهُهمْ ضاحكةٌ"
+                  "يبعَثُ اللهُ تعالى المُؤمِنِينَ يومَ القيامةِ وُجوهُهمْ ضاحكةٌ"
                 ],
-                "paragraphesAfter1": [
-                    "."
-                ],
+                "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -515,31 +488,15 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
 
-                ],
-                "paragraphes3": [
-
-                ],
-                "paragraphesAfter3": [
-
-                ],
-
-                "paragraphes4": [
-                    
-                ],
-                "paragraphesAfter4": [
-
-                ],
-                "paragraphes5": [
-
-                ],
-                "paragraphes6": [
-
-                ],
-                "paragraphesAfter6": [
-                  
-                ]
+                "paragraphes4": [],
+                "paragraphesAfter4": [],
+                "paragraphes5": [],
+                "paragraphes6": [],
+                "paragraphesAfter6": []
               }
             ],
             "answerUser": [
@@ -587,13 +544,11 @@
             "index": "4",
             "contents": [
               {
-                "paragraphes1": [
-                    "في يومِ القيامةِ يهرُبُ الإنسانُ مِن"
-                ],
+                "paragraphes1": ["في يومِ القيامةِ يهرُبُ الإنسانُ مِن"],
                 "paragraphesAfter1": [
-                    "وأقاربِه، ولا يُفكِّرُ ",
-                    "&nbsp;",
-                    "إلَّا في نفسِه."
+                  "وأقاربِه، ولا يُفكِّرُ ",
+                  "&nbsp;",
+                  "إلَّا في نفسِه."
                 ],
                 "inputtype": [
                   {
@@ -653,31 +608,15 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
 
-                ],
-                "paragraphes3": [
-
-                ],
-                "paragraphesAfter3": [
-
-                ],
-
-                "paragraphes4": [
-                    
-                ],
-                "paragraphesAfter4": [
-
-                ],
-                "paragraphes5": [
-
-                ],
-                "paragraphes6": [
-
-                ],
-                "paragraphesAfter6": [
-                  
-                ]
+                "paragraphes4": [],
+                "paragraphesAfter4": [],
+                "paragraphes5": [],
+                "paragraphes6": [],
+                "paragraphesAfter6": []
               }
             ],
             "answerUser": [
@@ -725,12 +664,8 @@
             "index": "5",
             "contents": [
               {
-                "paragraphes1": [
-                    "يُحِبُّ اللهُ (تعالى) مَن يطلُبُ"
-                ],
-                "paragraphesAfter1": [
-                    "، وييسِّرُ له طريقَهُ."
-                ],
+                "paragraphes1": ["يُحِبُّ اللهُ (تعالى) مَن يطلُبُ"],
+                "paragraphesAfter1": ["، وييسِّرُ له طريقَهُ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -789,31 +724,15 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
 
-                ],
-                "paragraphes3": [
-
-                ],
-                "paragraphesAfter3": [
-
-                ],
-
-                "paragraphes4": [
-                    
-                ],
-                "paragraphesAfter4": [
-
-                ],
-                "paragraphes5": [
-
-                ],
-                "paragraphes6": [
-
-                ],
-                "paragraphesAfter6": [
-                  
-                ]
+                "paragraphes4": [],
+                "paragraphesAfter4": [],
+                "paragraphes5": [],
+                "paragraphes6": [],
+                "paragraphesAfter6": []
               }
             ],
             "answerUser": [

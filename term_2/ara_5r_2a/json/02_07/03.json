@@ -1,0 +1,92 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+
+        {
+            "active": true,
+            "title": "اختَرِ الإجابةَ الصحيحةَ",
+            "popuptext": [
+            ],
+            "hideIndex" : true,
+            "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "اختَرِ الجُمَلِ التي تحتوِي على مُضافٍ إليه:",
+                "correctAnswer": [2,3,6],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 2,
+                "answers": [
+
+                {
+                    "numAnswer": 1,
+                    "toChoose": " نجَحَ التلاميذُ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 2,
+                    "toChoose": "نجَحَ تلاميذُ المدرسةِ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 3,
+                    "toChoose": "كوبُ العصيرِ بارِدٌ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 4,
+                    "toChoose": "تُحارِبُ الدولُ التلوُّثَ.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 5,
+                    "toChoose": "قرَأَ أحمدُ كِتابًا.",
+                    "right": false,
+                    "checked": false
+                },
+                {
+                    "numAnswer": 6,
+                    "toChoose": "كتَبَ مُعلِّمُ الفصلِ التاريخَ.",
+                    "right": false,
+                    "checked": false
+                }
+                ]
+            }
+
+            
+            ],
+            "popupQuestion": [
+            {
+                "id": 0,
+                "index": "4",
+                "paragraph": "",
+                "popup": [],
+                "isActive": null
+            }
+            ]
+        }
+    ]
+  }
+]

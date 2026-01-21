@@ -104,7 +104,7 @@
                         <div class="quizChoose" v-for="(quiz, index) in slide.quizChooses"
                             :class="{'closed' : quiz.answerSelect }">
                             <div class="paragraph" style="display: flex;align-items: center;">
-                                <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                                <span class="icon-index">{{slide.quizChooses.length > 1?index+1 : '&nbsp'}}</span>
                                 <p class="" v-if="quiz.paragraph" >{{quiz.paragraph}}</p>
                                 <img class="image-question" :src="quiz.imgSrc" v-if="quiz.imgSrc" alt="">
                             </div>

@@ -1,0 +1,41 @@
+[
+  {
+    "nameId": "",
+    "title": "صِلْ",
+    "qtitle": "صِلْ كلَّ جُملةٍ بالمَعْنَى المُناسِبِ للكلِمةِ المُلوَّنةِ:",
+    "subject": "arabic-5",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "first": "أ",
+    "second": "ب",
+
+    "matches": [
+      {
+        "point": 1,
+        "textRight": "  يُوجَدُ فصلُنا في <span class = 'span'>الدَّورِ</span> الثاني من المَبنى.",
+        "textLeft": "الطَّابِق",
+        "answer": false
+      },
+      {
+        "point": 2,
+        "textRight": " ذكَر المُعلِّمُ أسماءَنا ب<span class = 'span'>الدَّور</span>  وهو يُسجِّل أسماءَ الغائبينَ.",
+        "textLeft": "الترْتِيب",
+        "answer": false
+      },
+      {
+        "point": 3,
+        "textRight": "  عرَف كلُّ تلميذ <span class = 'span'>الدَّورَ</span>  المطلوبَ منه في المشروعِ.",
+        "textLeft": "المُهمَّة",
+        "answer": false
+      }
+    ]
+  }
+]

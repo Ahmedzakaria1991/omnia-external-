@@ -18,197 +18,187 @@
     "popup": "",
     "passageHand": true,
     "chooseSlide": [
-
-        {
-            "active": true,
-            "title": " اختَرِ الإجابةَ الصحيحةَ",
-            "popuptext": [
-                "إِذَا الشَّمْسُ كُوِّرَتْ (1) وَإِذَا النُّجُومُ انكَدَرَتْ (2) وَإِذَا الْجِبَالُ سُيِّرَتْ (3) وَإِذَا الْعِشَارُ عُطِّلَتْ (4) وَإِذَا الْوُحُوشُ حُشِرَتْ (5) وَإِذَا الْبِحَارُ سُجِّرَتْ (6) وَإِذَا النُّفُوسُ زُوِّجَتْ (7) وَإِذَا الْمَوْءُودَةُ سُئِلَتْ (8) بِأَيِّ ذَنبٍ قُتِلَتْ (9)"
-            ],
-            "quizChooses": [
-            {
-                "id": 1,
-                "popup": "",
-                "paragraph": "معنى: ﴿انكَدَرَتْ﴾............",
-                "correctAnswer": [3],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 1,
-                "answers": [
-                {
-                    "numAnswer": 1,
-                    "toChoose": "ثبتتْ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "أضاءتْ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose": "تناثرتْ",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            },
-            {
-                "id": 2,
-                "popup": "",
-                "paragraph": "معنى :﴿سُجِّرَتْ﴾ ...............",
-                "correctAnswer": [1],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 1,
-                "answers": [
-
-                {
-                    "numAnswer": 1,
-                    "toChoose": "تفجَّرتْ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "لُفَّتْ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose": "أظلمتْ",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            },
-            {
-                "id": 3,
-                "popup": "",
-                "paragraph": "عددُ حروفِ الإظهارِ الحلقيِّ ............... حروفٍ.",
-                "correctAnswer": [3],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 1,
-                "answers": [
-
-                {
-                    "numAnswer": 1,
-                    "toChoose": "4",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "5",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose": "6",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            }
-            ],
-            "popupQuestion": [
-            {
-                "id": 0,
-                "index": "4",
-                "paragraph": "",
-                "popup": [],
-                "isActive": null
-            }
+      {
+        "active": true,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "إِذَا الشَّمْسُ كُوِّرَتْ (1) وَإِذَا النُّجُومُ انكَدَرَتْ (2) وَإِذَا الْجِبَالُ سُيِّرَتْ (3) وَإِذَا الْعِشَارُ عُطِّلَتْ (4) وَإِذَا الْوُحُوشُ حُشِرَتْ (5) وَإِذَا الْبِحَارُ سُجِّرَتْ (6) وَإِذَا النُّفُوسُ زُوِّجَتْ (7) وَإِذَا الْمَوْءُودَةُ سُئِلَتْ (8) بِأَيِّ ذَنبٍ قُتِلَتْ (9)"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "معنى: ﴿انكَدَرَتْ﴾............",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ثبتتْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أضاءتْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تناثرتْ",
+                "right": false,
+                "checked": false
+              }
             ]
-        },
-        {
-            "active": false,
-            "title": " اختَرِ الإجابةَ الصحيحةَ",
-            "popuptext": [
-                "قال (تَعَالَى): فَلَا أُقْسِمُ بِالْخُنَّسِ (15) الْجَوَارِ الْكُنَّسِ (16) وَاللَّيْلِ إِذَا عَسْعَسَ (17) وَالصُّبْحِ إِذَا تَنَفَّسَ (18) إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ (19) ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ (20) مُّطَاعٍ ثَمَّ أَمِينٍ (21) وَمَا صَاحِبُكُم بِمَجْنُونٍ (22)"
-            ],
-            "quizChooses": [
-            {
-                "id": 1,
-                "popup": "",
-                "paragraph": "معنى: ﴿تَنَفَّسَ﴾ ............",
-                "correctAnswer": [2],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 1,
-                "answers": [
-
-                {
-                    "numAnswer": 1,
-                    "toChoose": "أظلمَ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "أضاءَ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose": "تفجَّرَ ",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            },
-            {
-                "id": 2,
-                "popup": "",
-                "paragraph": "﴿رَسُولٍ كَرِيمٍ ﴾ هو..............(عَلَيْهِ السَّلَامُ)",
-                "correctAnswer": [1],
-                "answerSelect": false,
-                "counter": 0,
-                "type": 1,
-                "answers": [
-                {
-                    "numAnswer": 1,
-                    "toChoose": "جبريلُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 2,
-                    "toChoose": "ميكائيلُ",
-                    "right": false,
-                    "checked": false
-                },
-                {
-                    "numAnswer": 3,
-                    "toChoose": "إسرافيلُ",
-                    "right": false,
-                    "checked": false
-                }
-                ]
-               
-            }
-            ],
-            "popupQuestion": [
-            {
-                "id": 0,
-                "index": "4",
-                "paragraph": "",
-                "popup": [],
-                "isActive": null
-            }
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "معنى: ﴿سُجِّرَتْ﴾ ...............",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "تفجَّرتْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "لُفَّتْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "أظلمتْ",
+                "right": false,
+                "checked": false
+              }
             ]
-        }
-        
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": "عددُ حروفِ الإظهارِ الحلقيِّ ............... حروفٍ.",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "6",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": " اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "قال (تَعَالَى): فَلَا أُقْسِمُ بِالْخُنَّسِ (15) الْجَوَارِ الْكُنَّسِ (16) وَاللَّيْلِ إِذَا عَسْعَسَ (17) وَالصُّبْحِ إِذَا تَنَفَّسَ (18) إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ (19) ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ (20) مُّطَاعٍ ثَمَّ أَمِينٍ (21) وَمَا صَاحِبُكُم بِمَجْنُونٍ (22)"
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "معنى: ﴿تَنَفَّسَ﴾ ............",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "أظلمَ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "أضاءَ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تفجَّرَ ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "﴿رَسُولٍ كَرِيمٍ ﴾ هو ...... (عَليْهِ السَّلامُ).",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "جبريلُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "ميكائيلُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "إسرافيلُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
     ]
   }
 ]

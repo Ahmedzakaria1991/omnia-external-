@@ -1,0 +1,384 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "popTitle": "اقْرأ الفِقْرةَ الآتيةَ",
+
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "إنَّ المودةَ هي أساسُ بِناءِ عالَمٍ جديدٍ؛ عالَمٍ يزدَهِرُ بِالحُبِّ والسلامِ. إِنَّنا جميعًا نطمَحُ إلى غدٍ أفضَلَ، نُزِيلُ فيهِ كُلَّ أسبابِ الألمِ والمُعاناةِ من قُلوبِ البشَرِ، وننثُرُ فيهِ بُذورَ الأملِ والتعاوُنِ بينَ جميعِ الأُمَمِ. ونَنظُرُ بِأَعيُنٍ يملَؤُها التفاؤُلُ إلى المُستَقبَلِ مُدرِكينَ أنَّ المحَبةَ هي القُوةُ القادِرةُ على تحويلِ هذا العالَمِ إلى مكانٍ أجمَلَ."
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُرادِفُ (نطمَح):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "نعِيش",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "نأمُل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "نذهَب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "نرجِع",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُضادُّ (المَوَدَّة):",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الأنانِية",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الغُرور",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "الكراهِية",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الكسَل",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "مُفردُ (الأُمم):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الأُم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "الأُمة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "اليوم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الإِمام",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " جمعُ (الأُفق): ",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الأوقاف",
+                "right": false,
+                "checked": false
+              },
+
+              {
+                "numAnswer": 2,
+                "toChoose": "القوافي",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "المواقِف",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الآفاق",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "جذرُ كلِمةِ (المُستقبل):",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "ملل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "قبل",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "قلب",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "لقب",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          " إِنَّ الْمَوَدَّةَ رِزْقٌ فَاحْفَظِ الرِّزْقَا       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;             وَانْثُرْ بِكَفِّكَ رِفْقًا  تَحْصُدِ الرِّفْقَا",
+          "شَرُّ الْقُلُوبِ الَّتِي تَحْوِي كَرَاهِيَةً      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَخَيْرُ قَوْلِ الْفَتَى مَا قَالَهُ صِدْقَا"
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "  مُرادِفَ (انثُرْ):",
+            "correctAnswer": [4],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "احصُدْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "انشُرْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "فرِّقْ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "الثانية والثالثة",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " مُضاد (كَرَاهِيَة):",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مَوَدَّة",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "كَرَم",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "عَطاء",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "تسامُح",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "popTitle": "اقْرأ الأبياتَ الآتيةَ",
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          " جِــــــــئْـنَــا مَـعَــكُـــــمْ نَـــــزْرَع وَرْدَةْ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            نَــسْـــــقِـــيـــهَــا حُـــــــبــــًّا وَمَـــــوَدَّةْ",
+          "نُــهْــــدِيــهَــــا لِلْــعَـــالَــــم أَجْـــمَـــعْ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَنُـــغَـــنِّــــي وَالــدُّنْــــيَـا تَـــسْـــــمَـــعْ",
+          "أَطْــــفَـــــالٌ لِلْــعَــلْــــيَـــا تَطْـــمَــــحْ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             جَــــاءَتْ هَــــذَا الْــعَــــالَـــــم تَــفْــــرَحْ",
+          "بـسْــــــمَــتـــنَا سَـــــتُــزِيــلُ الْأَلَـــــمَ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَنُــوَحِّــــــــدُ بِــالْــحُـــــــبِّ الْأُمَـــــــمَ",
+          "يَــــا فَجْــــــــــرًا أَشْـــــــرِقْ بِالنُّــــــورِ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             انْـــــــثُرْ أَحْـــلَامِـــــــــــي وَزُهُـــــــورِي",
+          "يَــا عَـــالَـــم نَــحْـــنُ الْمُــسْـــتَـقْــبَــلْ      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             بِـمَــــحَــــــبَّــتِـنَا غَدُنَا أَجْــــــمَــــــلْ"
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": " نصِلُ إلى (المعالي) بـ",
+            "correctAnswer": [2, 4, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": " الأمانةُ خُلُقٌ كريمٌ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "نطمَحُ لأَعْلَى المراتِبِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "ِالعِلْمِ نغزو الفضاءَ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "أصواتُنا تُسْمِعُ الدُّنيا.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": " الفرحُ عُنوانُ الطُّفولةِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "الأُمُّ هي المدرَسةُ الأولى.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -21,11 +21,11 @@
     "inputSlide": [
       {
         "active": true,
-        "title": "أَكْمِلِ",
+        "title": "أكمِلْ",
         "popuptext": [],
         "paragraph1": [],
         "questionTitle": "املأ الفراغاتِ في الجُملِ بالكلماتِ الآتيةِ",
-        "alters": "(  يحتاجُ ــ المدينةَ  ــ الصحابةِ ــ  هدفِهِ ــ عزمٍ )",
+        "alters": "(يحتاجُ ــ المدينةَ  ــ الصحابةِ ــ  هدفِهِ ــ عزمٍ)",
         "quran": [],
         "paragraph2": [],
         "poem": false,
@@ -123,9 +123,7 @@
                 "paragraphes1": [
                   "سافرَ  سلمانُ الفارسيُّ (رَضِيَ ٱللَّٰهُ عَنْهُ) حتى وصلَ"
                 ],
-                "paragraphesAfter1": [
-                  "، وآمنَ برسالةِ النبيّ ﷺ."
-                ],
+                "paragraphesAfter1": ["، وآمنَ برسالةِ النبيّ ﷺ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -210,9 +208,7 @@
                   "&nbsp;",
                   "من أغنى"
                 ],
-                "paragraphesAfter1": [
-                  "."
-                ],
+                "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -295,9 +291,7 @@
                 "paragraphes1": [
                   "الحياةُ لا تمنحُ عطاياها إلَّا لِمَنْ يسعى إليها بقوَّةٍ و"
                 ],
-                "paragraphesAfter1": [
-                  "."
-                ],
+                "paragraphesAfter1": ["."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -377,12 +371,8 @@
             "index": "5",
             "contents": [
               {
-                "paragraphes1": [
-                  "المجتمعُ"
-                ],
-                "paragraphesAfter1": [
-                  "دائمًا إلى التكافلِ والتعاونِ."
-                ],
+                "paragraphes1": ["المجتمعُ"],
+                "paragraphesAfter1": ["دائمًا إلى التكافلِ والتعاونِ."],
                 "inputtype": [
                   {
                     "length": 0,
@@ -462,10 +452,10 @@
       },
       {
         "active": false,
-        "title": "أكملِ",
+        "title": "أكمِلْ",
         "popuptext": [],
         "paragraph1": [],
-        "questionTitle":"أكملِ المحذوفَ من الآياتِ:",
+        "questionTitle": "أكملِ المحذوفَ من الآياتِ:",
         "quran": [],
         "paragraph2": [],
         "poem": false,
@@ -474,15 +464,13 @@
           {
             "id": 1,
             "type": 2,
-            "index": "1",
+            "index": "",
             "contents": [
               {
                 "paragraphes1": [
                   "قالَ (تَعَالَى): ﴿وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا"
                 ],
-                "paragraphesAfter1": [
-                  "(39) وَأَنَّ سَعْيَهُ"
-                ],
+                "paragraphesAfter1": ["(39) وَأَنَّ سَعْيَهُ"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -526,7 +514,7 @@
                 ],
                 "paragraphes2": [],
                 "paragraphesAfter2": ["يُرَىٰ (40) ثُمَّ يُجْزَاهُ "],
-                
+
                 "paragraphes3": [""],
                 "paragraphes4": ["الْأَوْفَىٰ (41)"],
                 "paragraphesAfter4": [" ﴾ "]
@@ -565,10 +553,10 @@
       },
       {
         "active": false,
-        "title": "أكملِ",
+        "title": "أكمِلْ",
         "popuptext": [],
         "paragraph1": [],
-        "questionTitle":"اكتبِ المحذوفَ من الآياتِ الكريمةِ:",
+        "questionTitle": "اكتبِ المحذوفَ من الآياتِ الكريمةِ:",
         "quran": [],
         "paragraph2": [],
         "poem": false,
@@ -581,11 +569,10 @@
             "contents": [
               {
                 "paragraphes1": [
-                  "قالَ (تَعَالَى): ﴿ إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا "
+                  "قالَ (تَعَالَى): ﴿إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا "
                 ],
                 "paragraphesAfter1": [
-                  "إِنَّا لَا نُضِيعُ أَجْرَ ",
-                  "مَنْ أَحْسَنَ "
+                  "إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ "
                 ],
                 "inputtype": [
                   {
@@ -609,8 +596,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["عملا"],
-                    "show": ["عملا"]
+                    "valid": ["عملًا"],
+                    "show": ["عملًا"]
                   },
                   {
                     "length": 0,
@@ -629,15 +616,11 @@
                   }
                 ],
                 "paragraphes2": [],
-                "paragraphesAfter2": [
-                  
-                ],
-                
+                "paragraphesAfter2": [],
+
                 "paragraphes3": [""],
-                "paragraphes4": [
-                  
-                ],
-                "paragraphesAfter4": [" ﴾ "]
+                "paragraphes4": ["﴾"],
+                "paragraphesAfter4": [""]
               }
             ],
             "answerUser": [
@@ -673,12 +656,8 @@
             "index": "2",
             "contents": [
               {
-                "paragraphes1": [
-                  "قالَ (تَعَالَى): ﴿  وَأَن لَّيْسَ "
-                ],
-                "paragraphesAfter1": [
-                  " إِلَّا مَا سَعَىٰ (39) وَأَنَّ"
-                ],
+                "paragraphes1": ["قالَ (تَعَالَى): ﴿وَأَن لَّيْسَ "],
+                "paragraphesAfter1": [" إِلَّا مَا سَعَىٰ (39) وَأَنَّ"],
                 "inputtype": [
                   {
                     "length": 0,
@@ -694,8 +673,8 @@
                     "numperofinput": 1,
                     "comma": "",
 
-                    "valid": ["لِلْإِنسَانِ" , "للانسان"],
-                    "show": ["للانسان"]
+                    "valid": ["للإنسان", "للانسان"],
+                    "show": ["للإنسان"]
                   },
                   {
                     "length": 0,
@@ -708,8 +687,8 @@
                     "length": 0,
                     "numperofinput": 1,
                     "comma": "",
-                    "valid": ["الأوفي"],
-                    "show": ["الأوفي"]
+                    "valid": ["الأوفى"],
+                    "show": ["الأوفى"]
                   },
                   {
                     "length": 0,
@@ -722,15 +701,11 @@
                 ],
                 "paragraphes2": [],
                 "paragraphesAfter2": [
-                  "سَوْفَ يُرَىٰ (40)",
-                  "ثُمَّ يُجْزَاهُ  ",
-                  "الْجَزَاءَ"
+                  "سَوْفَ يُرَىٰ (40) ثُمَّ يُجْزَاهُ الْجَزَاءَ"
                 ],
-                
+
                 "paragraphes3": [""],
-                "paragraphes4": [
-                  
-                ],
+                "paragraphes4": [],
                 "paragraphesAfter4": ["(41) ﴾ "]
               }
             ],

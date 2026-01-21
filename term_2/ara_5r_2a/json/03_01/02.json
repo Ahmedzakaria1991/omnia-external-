@@ -1,0 +1,128 @@
+[
+  {
+    "nameId": "DragDropSlide",
+    "subject": "arabic-5",
+    "finshedDrag": false,
+    "lengtStart": 0,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "slides": [
+      {
+        "isActive": true,
+        "title": "أكمِلِ مُستَعينًا بالكلِماتِ الآتيةِ",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": [""]
+              },
+              {
+                "text": [
+                  "إِدراكُ أنَّ الخوفَ شُعورٌ طبيعيٌّ يُمكِنُ التعامُلُ معه."
+                ]
+              }
+            ],
+            "drag": [
+              {
+                "word": "تقبُّلُ مشاعِري",
+                "number": 1,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": []
+              },
+              {
+                "text": [
+                  "التنَفُّسُ بعُمقٍ وعَدَمُ التوَتُّرِ في المواقِفِ الصعبةِ."
+                ]
+              }
+            ],
+            "drag": [
+              {
+                "word": "التعامُلُ بهُدوءٍ ",
+                "number": 2,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": []
+              },
+              {
+                "text": ["الدُّخولُ في تجارِبَ جديدةٍ أُحِبُّ القيامَ بها."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "تحدِّي النفْسِ",
+                "number": 3,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": []
+              },
+              {
+                "text": [
+                  "مُلاحَظةُ كُلِّ تقدُّمٍ أحرزتُهُ وما يحتاجُ إلى تحسينٍ."
+                ]
+              }
+            ],
+            "drag": [
+              {
+                "word": "مُراجَعةُ الأداءِ ",
+                "number": 4,
+                "check": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "isActive": false,
+        "title": "slide 2",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": ["4 + 3 ="]
+              },
+              {
+                "text": ["، 8 + 8"]
+              }
+            ],
+            "drag": [
+              {
+                "word": "7",
+                "number": 11,
+                "check": false
+              },
+              {
+                "word": "16",
+                "number": 12,
+                "check": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

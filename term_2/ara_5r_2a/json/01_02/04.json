@@ -1,0 +1,140 @@
+[
+  {
+    "nameId": "trueSlide",
+    "finshedChoose": false,
+    "help": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#FCC6B0",
+    "hand": true,
+    "popuptext": "",
+    "popup": "",
+    "title":"ضَعْ علامةَ (✔) أو علامةَ (✘)",
+    "passageHand": true,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "trueSlide": [
+      {
+        "active": true,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [
+          "لا شكَّ أن شبكةَ الإِنْترنِت مُفيدةٌ جدًّا؛ فهي تُساعِدُنا على البحثِ عن المعلوماتِ، والتواصُلِ مع الأصدقاءِ، وتَعرُّفِ ثقافاتٍ مُختلِفةٍ، لكن هناك مَن يرَى أنَّ لها أخطارًا كثيرةً، وأنها ضارةٌ. فأيُّ الرأيْيَنِ صحيحٌ من وِجهةِ نظرِكُم؟"
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": " تُساعِدُنا شبكةُ الإِنْترنِت على البحثِ عنِ المعلوماتِ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "كُلُّ استِخداماتِ الإِنْترنِت مُفيدةٌ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      },
+      {
+        "active": false,
+        "title": "ضَعْ علامةَ (✔) أو علامةَ (✘)",
+
+        "popuptext": [
+          "عندما تَدخلُ إلى مِنصَّةٍ من مِنَصَّاتِ العالَمِ الرقميِّ، فأنت تترُكُ خلفَكَ ما يُعرَفُ بـ (البصمةِ الرقمِيةِ) التي تتكوَّنُ من جميعِ مُشاركاتِكَ وتعليقاتِكَ فهي سِجلٌّ دائِمٌ يصعُبُ محوُهُ؛  لذا فيَجِبُ عليك التفكيرُ العميقُ قبلَ النشرِ  أو الإرسالِ، إنَّ الالتِزامَ بـأَخلاقِياتِ النشرِ  يعني أن تُدرِكَ أنَّكَ مسئولٌ عن كُلِّ حرفٍ تكتُبُهُ، وأنَّ أيَّ إساءةٍ مُتَعمَّدةٍ للآخَرينَ، أو مُشارَكةِ معلوماتٍ مُضَلِّلةٍ قد تُعرِّضُكَ إلى مُساءَلةٍ قَانُونيَّةٍ أوِ اجْتِماعِيَّةٍ."
+        ],
+
+        "quizChooses": [
+          {
+            "id": 1,
+            "paragraph": "البصمةُ الرقمِيةُ سِجِلٌّ مُؤقَّتٌ يُمكِنُ محوُهُ بسُهولةٍ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": false,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": true,
+                "cheched": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "الالتِزامُ بأخلاقِياتِ النشرِ يعني أن تُدرِكَ مسئوليَّتَكَ عن كُلِّ حرفٍ تكتُبُهُ.",
+            "show": false,
+            "chooseUrl": "",
+            "result": false,
+            "close": false,
+            "type": 1,
+            "text": false,
+            "answers": [
+              {
+                "url": ["choose-r", "true1", "true2"],
+                "answerSelect": true,
+                "cheched": false
+              },
+              {
+                "url": ["choose-l", "false1", "false2"],
+                "answerSelect": false,
+                "cheched": false
+              }
+            ]
+          }
+        ],
+
+        "popupQuestion": []
+      }
+    ]
+  }
+]

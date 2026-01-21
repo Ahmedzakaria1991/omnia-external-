@@ -1,0 +1,80 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "arabic-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ عنِ الأسئلةِ الآتيةِ",
+        "qtitle": "هاتِ خريطةَ الكلِمةِ (يَقُودُ):",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "المُرادِفُ:",
+            "popup": ["يوجه ويرشد."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجَذرُ:",
+            "popup": ["قود."]
+          },
+          {
+            "id": 1,
+            "paragraph": "المُضادُّ:",
+            "popup": ["يتبع."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجُملةُ:",
+            "popup": ["يقود الحاكم أمته إلى الخير."]
+          }
+        ]
+      },
+      {
+        "title": "أجِبْ عنِ الأسئلةِ الآتيةِ",
+        "qtitle": "هاتِ خريطةَ الكلِمةِ (ينطبق على):",
+        "isActive": true,
+        "popuptext": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "المُرادِفُ:",
+            "popup": ["يتوافق مع."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجَذرُ:",
+            "popup": ["طبق."]
+          },
+          {
+            "id": 1,
+            "paragraph": "المُضادُّ:",
+            "popup": ["يختلف مع."]
+          },
+          {
+            "id": 1,
+            "paragraph": "الجُملةُ:",
+            "popup": ["شروط الوظيفة تنطبق على هذا الرجل."]
+          }
+        ]
+      }
+    ]
+  }
+]

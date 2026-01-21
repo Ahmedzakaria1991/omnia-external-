@@ -15,7 +15,11 @@
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
   </head>
-  <style></style>
+  <style>
+
+
+
+  </style>
   <body>
     <div id="music">
       <div class="music-player">
@@ -48,7 +52,7 @@
         <div :class="{'popup-article' : popUpState }">
           <div class="mokaly-model-popup" :class="{'active' : popUpState }">
             <div class="text">
-              <p v-for="text in popUpTextLoop" v-html="text" class="quran"></p>
+              <p v-for="text in popUpTextLoop" v-html="text" ></p>
             </div>
             <div class="hide-div" @click="popupClose()">
               <p class="hidden"></p>
@@ -81,7 +85,7 @@
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p> <p> اقرأ الآياتِ الكريمة </p></p>
+                  <p> <p> اقْرَأ الآيةَ الكريمةَ </p></p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
@@ -104,7 +108,7 @@
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                  <span class="icon-index">{{mySlides.questions.length >1 ? index+1 : '&nbsp'}}</span>
                   <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div class="mokaly-popup">

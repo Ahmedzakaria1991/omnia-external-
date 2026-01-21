@@ -1,0 +1,43 @@
+[
+  {
+    "nameId": "",
+    "title": "صل",
+    "qtitle": "صِلْ بحسبِ إعرابِ الكلمةِ المُلوَّنةِ:",
+
+    "subject": "arabic-5",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "first": "أ",
+    "second": "ب",
+
+    "matches": [
+      {
+        "point": 1,
+        "textRight": "تنتَقِلُ الفراشةُ بينَ <span class ='span'>الأزهار</span>.",
+        "textLeft": "مُضافٌ إليه مَجْرورٌ، وعلامةُ جَرِّه الكَسْرةُ.",
+        "answer": false
+      },
+      {
+        "point": 2,
+        "textRight": " يُحِبُّ القِطُّ <span calss = 'span'>اللَّبن</span>.",
+        "textLeft": "مفعولٌ به منصوبٌ، وعلامةُ نصْبِه الفتحةُ.",
+        "answer": false
+      },
+      {
+        "point": 3,
+        "textRight": "ارْتوَيْتُ ب<span class ='span' >كوبَيْن</span> من الماءِ.",
+        "textLeft": "اسمٌ مجرورٌ بالباءِ، وعلامةُ جرِّه الياءُ؛ لأنَّه مثنًّى.",
+        "answer": false
+      }
+    ]
+  }
+]
