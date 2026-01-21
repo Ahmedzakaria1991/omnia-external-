@@ -1,0 +1,687 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "Choose the correct answer",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "math-3 eng",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "Choose the correct answer",
+        "qtitle": "Choose the larger fraction:",
+        "styleWrap": true,
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "3",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "4",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "4",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "7",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "2",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "9",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "6",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "5",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "10",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "8",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Choose the correct answer",
+        "qtitle": "Choose the smaller fraction:",
+        "styleWrap": true,
+
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "5",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "8",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "4",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "6",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "9",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "3",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "11",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "7",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "",
+            "fraction": false,
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "12",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "10",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "Choose the correct answer",
+
+        "styleWrap": false,
+
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "> .......",
+            "fractionOne": true,
+            "fractionTwo": false,
+            "up": "1",
+            "down": "4",
+            "up1": "",
+            "down1": "",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "5",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "2",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "3",
+                "numAnswer": 3,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "< .......",
+            "fractionOne": true,
+            "fractionTwo": false,
+            "up": "1",
+            "down": "3",
+            "up1": "",
+            "down1": "",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "6",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "2",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "9",
+                "numAnswer": 3,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "....... <",
+            "fractionOne": false,
+            "fractionTwo": true,
+            "up": "",
+            "down": "",
+            "up1": "1",
+            "down1": "6",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "5",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "3",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "7",
+                "numAnswer": 3,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "one fifth  > .......",
+            "fractionOne": false,
+            "fractionTwo": false,
+            "up": "",
+            "down": "",
+            "up1": "",
+            "down1": "",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "3",
+                "numAnswer": 1,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "4",
+                "numAnswer": 2,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": true,
+                "up": "1",
+                "down": "8",
+                "numAnswer": 3,
+                "toChoose": "",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "<",
+            "fractionOne": true,
+            "fractionTwo": true,
+            "up": "1",
+            "down": "....",
+            "up1": "1",
+            "down1": "7",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 1,
+                "toChoose": "9",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 2,
+                "toChoose": "4",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 3,
+                "toChoose": "5",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": ">",
+            "fractionOne": true,
+            "fractionTwo": true,
+            "up": "1",
+            "down": "6",
+            "up1": "1",
+            "down1": "....",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 1,
+                "toChoose": "8",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 2,
+                "toChoose": "2",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 3,
+                "toChoose": "3",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "...... < one eighth  ",
+            "fractionOne": false,
+            "fractionTwo": false,
+            "up": "",
+            "down": "",
+            "up1": "",
+            "down1": "",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 1,
+                "toChoose": "one seventh",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 2,
+                "toChoose": "one sixth",
+                "right": false,
+                "checked": false
+              },
+              {
+                "fraction": false,
+                "up": "",
+                "down": "",
+                "numAnswer": 3,
+                "toChoose": "one ninth",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

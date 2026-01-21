@@ -1,0 +1,431 @@
+[
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "math-3 eng",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "Read, then answer",
+
+        "popuptext": [],
+        "paragraph1": [],
+        "quran": [],
+        "typeOfquestion": 1,
+        "styleWrap": false,
+        "paragraph2": [],
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "fractionInput": true,
+            "fractionOne": false,
+            "fractionTwo": false,
+            "break": false,
+            "up": "1",
+            "down": "3",
+            "up1": "",
+            "down1": "",
+            "index": "أ",
+            "image": "",
+            "centerImage": "../images/03_01/78/5.png",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "A piece of clay is 1 meter long, and it is divided into four equal parts among the children. What fraction represents the length of each part of the clay?"
+                ],
+                "paragraphes1_2": [""],
+                "paragraphes1_3": [""],
+                "paragraphes1_4": [],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["4"],
+                    "show": ["4"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": [""],
+                "paragraphes3_2": [""],
+                "paragraphes4_2": [
+                  "The fraction representing the length of each part of the clay is "
+                ],
+                "paragraphes4": [""],
+                "paragraphes5": [""],
+                "paragraphes6": [""],
+                "paragraphes7": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "fractionInput": true,
+            "fractionOne": true,
+            "fractionTwo": false,
+            "break": false,
+            "break5": true,
+            "break6": true,
+            "up": "1",
+            "down": "3",
+            "up1": "",
+            "down1": "",
+            "index": "ب",
+            "image": "",
+            "centerImage": "../images/03_01/78/6.png",
+            "contents": [
+              {
+                "paragraphes1": ["Hend runs 1 kilometer daily and rests every"],
+                "paragraphes1_2": [
+                  "kilometer. What&nbsp;&nbsp;",
+                  "fraction represents each&nbsp;",
+                  "distance?"
+                ],
+                "paragraphes1_3": [],
+                "paragraphes1_4": [],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["3"],
+                    "show": ["3"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": [""],
+                "paragraphes3_2": [""],
+                "paragraphes4_2": [
+                  "The fraction representing each distance is&nbsp;"
+                ],
+                "paragraphes4": [""],
+                "paragraphes5": [],
+                "paragraphes5_2": ["The number of times Hend rests is"],
+                "paragraphes6": ["times"],
+                "paragraphes7": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": 2,
+            "fractionInput": true,
+            "fractionOne": false,
+            "fractionTwo": false,
+            "break": false,
+            "up": "1",
+            "down": "3",
+            "up1": "",
+            "down1": "",
+            "index": "ج",
+            "image": "",
+            "centerImage": "../images/03_01/78/7.png",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "A piece of chocolate is divided equally among 8 friends. What fraction represents the part that each friend takes?"
+                ],
+                "paragraphes1_2": [""],
+                "paragraphes1_3": [""],
+                "paragraphes1_4": [],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["1"],
+                    "show": ["1"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["8"],
+                    "show": ["8"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [""],
+                "paragraphes3": [""],
+                "paragraphes3_2": [""],
+                "paragraphes4_2": [
+                  "The fraction representing the part each friend takes is"
+                ],
+                "paragraphes4": [""],
+                "paragraphes5": [""],
+                "paragraphes6": [""],
+                "paragraphes7": [""]
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 2,
+            "type": 3,
+            "index": "",
+            "paragraph": "",
+            "popup": [""],
+            "isActive": null
+          }
+        ],
+        "pop": ""
+      }
+    ]
+  }
+]

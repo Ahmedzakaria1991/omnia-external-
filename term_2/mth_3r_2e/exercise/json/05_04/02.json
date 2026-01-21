@@ -1,0 +1,214 @@
+[
+    {
+        "nameId": "choose",
+        "title": "Choose the correct answer",
+        "finshedChoose": false,
+        "hand": true,
+        "subject": "math-4 eng",
+        "colorTemplate": "#AAD1EA",
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "quizChooses": [
+            {
+                "id": 1,
+                "popup": "",
+                "paragraph": "If the length of a rectangle is 5 cm and its width is 1 cm, its area = .......... cm². ",
+                "correctAnswer": [
+                    1
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "5",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "6",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "12",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "If the length of a rectangle is 9 cm and its width is 7 cm, its perimeter = .......... cm. ",
+                "correctAnswer": [
+                  2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "16",
+                        "audio": "",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "32",
+                        "audio": "",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "63",
+                        "audio": "",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "If the area of a rectangle is 24 cm² and its length is 6 cm, its width = .......... cm.",
+                "correctAnswer": [
+                4
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "4",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "6",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "12",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "If the area of a rectangle is 30 m² and its width is 3 m, its length = .......... m. ",
+                "correctAnswer": [
+                1
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "10",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "12",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "27",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "If the area of a rectangle is 12 cm² and its length is 4 cm, its perimeter = .......... cm.",
+                "correctAnswer": [
+                 
+                    2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "3",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "14",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "16",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "popup": "",
+                "paragraph": "If the area of a rectangle is 20 m² and its width is 2 m, its perimeter = .......... m.",
+                "correctAnswer": [
+                  2
+                ],
+                "answerSelect": false,
+                "counter": 0,
+                "type": 1,
+                "answers": [
+                    {
+                        "numAnswer": 1,
+                        "toChoose": "10",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 2,
+                        "toChoose": "24",
+                        "right": false,
+                        "checked": false
+                    },
+                    {
+                        "numAnswer": 3,
+                        "toChoose": "28",
+                        "right": false,
+                        "checked": false
+                    }
+                ]
+            }
+        ],
+        "popuptext": "",
+        "pop": ""
+    }
+]
