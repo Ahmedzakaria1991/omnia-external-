@@ -1,1212 +1,838 @@
 [
-    {
-        "nameId": "",
-        "title": "",
-        "subject": "rel-6",
-        "colorTemplate": "#8388C6",
-        "counterFinished": 0,
-        "inputCounter": 0,
-        "hand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "rel-6",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمِلْ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "أكمِلِ الفراغاتِ بالكلمةِ المناسبةِ:",
+        "alters": "(عرفةَ - مزدلفةَ - التوكلِ - صعيدِ - سبعةُ)",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "cancelBreak": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "السعيُ بينَ الصَّفا والمروةِ يُذكِّرُ الحاجَّ بأهميةِ"
+                ],
+                "paragraphesAfter1": ["على", "&nbsp;", "اللَّهِ."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["التوكل"],
+                    "show": ["التوكل"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["المتحركة"],
+                    "show": ["المتحركة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["الغنة"],
+                    "show": ["الغنة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": ["أعظمُ أركانِ الحجِّ هو الوقوفُ بـ"],
+                "paragraphesAfter1": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["عرفة"],
+                    "show": ["عرفة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["المتحركة"],
+                    "show": ["المتحركة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["الغنة"],
+                    "show": ["الغنة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "يكونُ طوافُ الحاجِّ حولَ الكعبةِ بعدَ المبيتِ بـ"
+                ],
+                "paragraphesAfter1": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["مزدلفة"],
+                    "show": ["مزدلفة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["المتحركة"],
+                    "show": ["المتحركة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["الغنة"],
+                    "show": ["الغنة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": ["يجتمعُ الحجاجُ في"],
+                "paragraphesAfter1": [
+                  "عرفةَ في التاسعِ من",
+                  "&nbsp;",
+                  "ذي",
+                  "&nbsp;",
+                  "الحجةِ."
+                ],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["صعيد"],
+                    "show": ["صعيد"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["المتحركة"],
+                    "show": ["المتحركة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["الغنة"],
+                    "show": ["الغنة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": 2,
+            "index": "5",
+            "contents": [
+              {
+                "paragraphes1": ["عددُ أشواطِ السعيِ بينَ الصَّفا والمروةِ هو"],
+                "paragraphesAfter1": ["أشواطٍ."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["سبعة"],
+                    "show": ["سبعة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["المتحركة"],
+                    "show": ["المتحركة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["الغنة"],
+                    "show": ["الغنة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popuptext": "",
-        "popup": "",
-        "passageHand": true,
-        "inputSlide": [
-            {
-                "active": true,
-                "title": "أَكْمِلِ",
-                "popuptext": [
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أكمِلْ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "اكتُبِ المحذوفَ فِيمَا يَلِي:",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "cancelBreak": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "قالَ تعالى:  <span class='quran'>﴿إِنَّ الصَّفَا</span>"
                 ],
-                "paragraph1": [
+                "paragraphesAfter1": [" <span class='quran'>مِن</span>"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"أكمِلِ الفراغاتِ بالكلمةِ المناسبةِ:",
-                "alters":"( عرفةَ - مزدلفةَ - التوكلِ - صعيدِ - سبعةُ)",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "cancelBreak":true,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "السعيُ بينَ الصَّفا والمروةِ يُذكِّرُ الحاجَّ بأهميةِ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "على",
-                                    "&nbsp;",
-                                    "اللَّهِ."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "التوكل" 
-                                        ],
-                                        "show": [
-                                            "التوكل"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "المتحركة"
-                                        ],
-                                        "show": [
-                                            "المتحركة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "الغنة"
-                                        ],
-                                        "show": [
-                                            "الغنة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                    
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "type": 2,
-                        "index": "2",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "أعظمُ أركانِ الحجِّ هو الوقوفُ بـ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "عرفة" 
-                                        ],
-                                        "show": [
-                                            "عرفة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "المتحركة"
-                                        ],
-                                        "show": [
-                                            "المتحركة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "الغنة"
-                                        ],
-                                        "show": [
-                                            "الغنة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                    
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "type": 2,
-                        "index": "3",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "يكونُ طوافُ الحاجِّ حولَ الكعبةِ بعدَ المبيتِ بـ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "مزدلفة" 
-                                        ],
-                                        "show": [
-                                            "مزدلفة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "المتحركة"
-                                        ],
-                                        "show": [
-                                            "المتحركة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "الغنة"
-                                        ],
-                                        "show": [
-                                            "الغنة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                    
-                                ],
-                                "paragraphes4": [
-                                    
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "type": 2,
-                        "index": "4",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "يجتمعُ الحجاجُ في"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "عرفةَ في التاسعِ من",
-                                    "&nbsp;",
-                                    "ذي",
-                                    "&nbsp;",
-                                    "الحجةِ."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "صعيد" 
-                                        ],
-                                        "show": [
-                                            "صعيد"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "المتحركة"
-                                        ],
-                                        "show": [
-                                            "المتحركة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "الغنة"
-                                        ],
-                                        "show": [
-                                            "الغنة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["وَالْمَرْوَةَ", "والمروة"],
+                    "show": ["والمروة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
 
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "type": 2,
-                        "index": "5",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "عددُ أشواطِ السعيِ بينَ الصَّفا والمروةِ هو"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "أشواطٍ."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "سبعة" 
-                                        ],
-                                        "show": [
-                                            "سبعة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "المتحركة"
-                                        ],
-                                        "show": [
-                                            "المتحركة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "الغنة"
-                                        ],
-                                        "show": [
-                                            "الغنة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
+                    "valid": ["شَعَائِرِ", "شعائر"],
+                    "show": ["شعائر"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["بِالْقَارِعَةِ", "بالقارعة"],
+                    "show": ["بالقارعة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
 
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                    "valid": ["فَأُهْلِكُوا", "فأهلكو"],
+                    "show": ["فأهلكو"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["بِرِيحٍ", "بريح"],
+                    "show": ["بريح"]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "paragraphes2": [],
+                "paragraphesAfter2": [" <span class='quran'>اللَّهِ﴾.</span>"],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
+                "paragraphesAfter4": [],
+                "paragraphesAfter5": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "قالَ رسولُ اللَّهِ ﷺ : «إِنَّمَا الأَعْمَالُ "
                 ],
-                "pop": ""
-            },
-            {
-                "active": false,
-                "title": "أَكْمِلِ",
-                "popuptext": [
+                "paragraphesAfter1": ["»."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "paragraph1": [
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["بالنيات"],
+                    "show": ["بالنيات"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["شَعَائِرِ", "شعائر"],
+                    "show": ["شعائر"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["بِالْقَارِعَةِ", "بالقارعة"],
+                    "show": ["بالقارعة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["فَأُهْلِكُوا", "فأهلكو"],
+                    "show": ["فأهلكو"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["بِرِيحٍ", "بريح"],
+                    "show": ["بريح"]
+                  }
                 ],
-                "questionTitle" :"اكتُبِ المحذوفَ فِيمَا يَلِي:",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "cancelBreak" : true,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "قالَ تعالى: ﴿إِنَّ الصَّفَا"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "مِن"
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "وَالْمَرْوَةَ" ,
-                                            "والمروة"
-                                        ],
-                                        "show": [
-                                            "المروة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "شَعَائِرِ",
-                                            "شعائر"
-                                        ],
-                                        "show": [
-                                            "شعائر"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "بِالْقَارِعَةِ",
-                                            "بالقارعة"
-                                        ],
-                                        "show": [
-                                            "بالقارعة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "فَأُهْلِكُوا",
-                                            "فأهلكو"
-                                        ],
-                                        "show": [
-                                            "فأهلكو"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "بِرِيحٍ",
-                                            "بريح"
-                                        ],
-                                        "show": [
-                                            "بريح"
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphesAfter2": [
-                                    "اللَّهِ﴾ ."
-                                ],
-                                "paragraphes3": [
-                                    
-                                ],
-                                "paragraphesAfter3": [
-                                    
-                                ],
-                                "paragraphesAfter4": [
-
-                                ],
-                                "paragraphesAfter5": [
-
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "type": 2,
-                        "index": "2",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "قالَ رسولُ اللَّهِ ﷺ : «إِنَّمَا الأَعْمَالُ "
-                                ],
-                                "paragraphesAfter1" :[
-                                    "»."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "بالنيات" 
-                                        ],
-                                        "show": [
-                                            "بالنيات"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "شَعَائِرِ",
-                                            "شعائر"
-                                        ],
-                                        "show": [
-                                            "شعائر"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "بِالْقَارِعَةِ",
-                                            "بالقارعة"
-                                        ],
-                                        "show": [
-                                            "بالقارعة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "فَأُهْلِكُوا",
-                                            "فأهلكو"
-                                        ],
-                                        "show": [
-                                            "فأهلكو"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "بِرِيحٍ",
-                                            "بريح"
-                                        ],
-                                        "show": [
-                                            "بريح"
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphesAfter2": [
-                                ],
-                                "paragraphes3": [
-                                    
-                                ],
-                                "paragraphesAfter3": [
-                                    
-                                ],
-                                "paragraphesAfter4": [
-
-                                ],
-                                "paragraphesAfter5": [
-
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "type": 2,
-                        "index": "3",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "قالَ رسولُ اللَّهِ ﷺ : «الحَجُّ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "»."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "عرفة" 
-                                        ],
-                                        "show": [
-                                            "عرفة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "شَعَائِرِ",
-                                            "شعائر"
-                                        ],
-                                        "show": [
-                                            "شعائر"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            "بِالْقَارِعَةِ",
-                                            "بالقارعة"
-                                        ],
-                                        "show": [
-                                            "بالقارعة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "فَأُهْلِكُوا",
-                                            "فأهلكو"
-                                        ],
-                                        "show": [
-                                            "فأهلكو"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "بِرِيحٍ",
-                                            "بريح"
-                                        ],
-                                        "show": [
-                                            "بريح"
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphesAfter2": [
-                                ],
-                                "paragraphes3": [
-                                    
-                                ],
-                                "paragraphesAfter3": [
-                                    
-                                ],
-                                "paragraphesAfter4": [
-
-                                ],
-                                "paragraphesAfter5": [
-
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "paragraphes2": [],
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
+                "paragraphesAfter4": [],
+                "paragraphesAfter5": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["قالَ رسولُ اللَّهِ ﷺ : «الحَجُّ"],
+                "paragraphesAfter1": ["»."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["عرفة"],
+                    "show": ["عرفة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["شَعَائِرِ", "شعائر"],
+                    "show": ["شعائر"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": ["بِالْقَارِعَةِ", "بالقارعة"],
+                    "show": ["بالقارعة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["فَأُهْلِكُوا", "فأهلكو"],
+                    "show": ["فأهلكو"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": ["بِرِيحٍ", "بريح"],
+                    "show": ["بريح"]
+                  }
                 ],
-                "pop": ""
-            }
-            
-        ]
-    }
+                "paragraphes2": [],
+                "paragraphesAfter2": [],
+                "paragraphes3": [],
+                "paragraphesAfter3": [],
+                "paragraphesAfter4": [],
+                "paragraphesAfter5": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      }
+    ]
+  }
 ]

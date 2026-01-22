@@ -1,647 +1,464 @@
 [
-    {
-        "nameId": "",
-        "title": "",
-        "subject": "rel-6",
-        "colorTemplate": "#8388C6",
-        "counterFinished": 0,
-        "inputCounter": 0,
-        "hand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "",
+    "subject": "rel-6",
+    "colorTemplate": "#8388C6",
+    "counterFinished": 0,
+    "inputCounter": 0,
+    "hand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "inputSlide": [
+      {
+        "active": true,
+        "title": "أكمِلْ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "املأ الفراغاتِ:",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "وُلِدَ أبو هريرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) في قبيلةِ"
+                ],
+                "paragraphesAfter1": ["."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["دوس"],
+                    "show": ["دوس"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popuptext": "",
-        "popup": "",
-        "passageHand": true,
-        "inputSlide": [
-            {
-                "active": true,
-                "title": "أَكْمِلِ",
-                "popuptext": [
+        "popupQuestion": [],
+        "pop": ""
+      },
+      {
+        "active": false,
+        "title": "أَكْمِلِ",
+        "popuptext": [],
+        "paragraph1": [],
+        "questionTitle": "أكملِ الفراغَ في الجُملِ التاليةِ بكلمةٍ مناسبةٍ:",
+        "quran": [],
+        "paragraph2": [],
+        "poem": false,
+        "cancelBreak": true,
+        "items": [
+          {
+            "id": 1,
+            "type": 2,
+            "index": "1",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "أبو هريرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) هو عبدُ الرحمنِ بن"
                 ],
-                "paragraph1": [
+                "paragraphesAfter1": ["الدَّوسِي."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"املأ الفراغاتِ :",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "وُلِدَ أبو هريرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) في قبيلةِ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "دوس" 
-                                        ],
-                                        "show": [
-                                            "دوس"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["صخر"],
+                    "show": ["صخر"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": 2,
+            "index": "2",
+            "contents": [
+              {
+                "paragraphes1": [
+                  "أبو هريرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) هو أكثرُ الصحابةِ"
                 ],
-                "pop": ""
-            },
-            {
-                "active": false,
-                "title": "أَكْمِلِ",
-                "popuptext": [
+                "paragraphesAfter1": ["للحديثِ. "],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "paragraph1": [
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["رواية"],
+                    "show": ["رواية"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "questionTitle" :"أكملِ الفراغَ في الجُملِ التاليةِ بكلمةٍ مناسبةٍ:",
-                "quran": [],
-                "paragraph2": [],
-                "poem":false,
-                "cancelBreak" : true,
-                "items": [
-                    {
-                        "id": 1,
-                        "type": 2,
-                        "index": "1",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "أبو هريرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) هو عبدُ الرحمنِ بن"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "الدَّوسِي."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "صخر" 
-                                        ],
-                                        "show": [
-                                            "صخر"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "type": 2,
-                        "index": "2",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "أبو هريرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) هو أكثرُ الصحابةِ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "للحديثِ. "
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "رواية" 
-                                        ],
-                                        "show": [
-                                            "رواية"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "type": 2,
-                        "index": "3",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "أسلمَ أبو هريرةَ في السَّنةِ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "من الهجرةِ."
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "السابعة" 
-                                        ],
-                                        "show": [
-                                            "السابعة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "type": 2,
-                        "index": "4",
-                        "contents": [
-                            {
-                                "paragraphes1": [
-                                    "كانَ أبو هريرةَيحفظُ عن طريقِ"
-                                ],
-                                "paragraphesAfter1" :[
-                                    "و"
-                                ],
-                                "inputtype": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "و",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "inputtype2": [
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        "valid": [
-                                            "التكرار" 
-                                        ],
-                                        "show": [
-                                            "التكرار"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 1,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            "المذاكرة"
-                                        ],
-                                        "show": [
-                                            "المذاكرة"
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    },
-                                    {
-                                        "length": 0,
-                                        "numperofinput": 0,
-                                        "comma": "",
-                                        
-                                        "valid": [
-                                            ""
-                                        ],
-                                        "show": [
-                                            ""
-                                        ]
-                                    }
-                                ],
-                                "paragraphes2": [
-                                ],
-                                "paragraphes3": [
-                                    "مع الصحابةِ."
-                                ],
-                                "paragraphes4": [
-                                ]
-                            }
-                        ],
-                        "answerUser": [
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            },
-                            {
-                                "answer": [
-                                    ""
-                                ],
-                                "correct": false,
-                                "help": false,
-                                "done": false
-                            }
-                        ]
-                    }
-            
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": 2,
+            "index": "3",
+            "contents": [
+              {
+                "paragraphes1": ["أسلمَ أبو هريرةَ في السَّنةِ"],
+                "paragraphesAfter1": ["من الهجرةِ."],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "popupQuestion": [
-                    
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["السابعة"],
+                    "show": ["السابعة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
                 ],
-                "pop": ""
-            }
-            
-        ]
-    }
+                "paragraphes2": [],
+                "paragraphes3": [],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": 2,
+            "index": "4",
+            "contents": [
+              {
+                "paragraphes1": ["كانَ أبو هريرةَ يحفظُ عن طريقِ"],
+                "paragraphesAfter1": ["و"],
+                "inputtype": [
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "و",
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "inputtype2": [
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+                    "valid": ["التكرار"],
+                    "show": ["التكرار"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 1,
+                    "comma": "",
+
+                    "valid": ["المذاكرة"],
+                    "show": ["المذاكرة"]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+                    "valid": [""],
+                    "show": [""]
+                  },
+                  {
+                    "length": 0,
+                    "numperofinput": 0,
+                    "comma": "",
+
+                    "valid": [""],
+                    "show": [""]
+                  }
+                ],
+                "paragraphes2": [],
+                "paragraphes3": ["مع الصحابةِ."],
+                "paragraphes4": []
+              }
+            ],
+            "answerUser": [
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              },
+              {
+                "answer": [""],
+                "correct": false,
+                "help": false,
+                "done": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [],
+        "pop": ""
+      }
+    ]
+  }
 ]

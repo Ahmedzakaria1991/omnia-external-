@@ -1,51 +1,47 @@
 [
-    {
-        "nameId": "",
-        "title": "shgusugbu",
-        "hand": true,
-        "finshedChoose": false,
-        "colorTemplate": "#fc8b8999",
-        "subject": "rel-6",
-        "passageHand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
-        ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popup": "",
-        "popuptext": "",
-        "quizChooses": [
-
-        {
-            "title":"أجِبْ عن الأسئلةِ الآتيةِ",
-            "isActive": true,
-            "popuptext": [
-            ],
-            "poem" : false,
-            "popText" :"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
-            "center" : [],
-                "questions": [
-                    {
-                        "id": 1,
-                        "paragraph":"ما هي البسملةُ؟",
-                        "popup": [
-                            "هي اختصار لقولنا «بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ»."
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "paragraph": "ما حكمُ البسملةِ مع الاستعاذةِ في بدايةِ التلاوةِ من أولِ السورةِ؟ ",
-                        "popup": [
-                            "في حالة بدء التلاوة من أول السورة يجب أن تُقرأ البسملة بعد الاستعاذة."
-                        ]
-                    }
-                ]
-        }
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-6",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ عن الأسئلةِ الآتيةِ",
+        "isActive": true,
+        "popuptext": [],
+        "poem": false,
+        "popText": "اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
+        "center": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "مَا المقصودُ بـ«البسملةِ»؟",
+            "popup": [
+              "هي اختصار لقولنا «بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ»."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "ما حكمُ البسملةِ مع الاستعاذةِ في بدايةِ التلاوةِ من أولِ السورةِ؟ ",
+            "popup": [
+              "في حالة بدء التلاوة من أول السورة يجب أن تُقرأ البسملة بعد الاستعاذة."
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

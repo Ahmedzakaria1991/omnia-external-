@@ -1,49 +1,46 @@
 [
-    {
-        "nameId": "",
-        "title": "shgusugbu",
-        "hand": true,
-        "finshedChoose": false,
-        "colorTemplate": "#fc8b8999",
-        "subject": "rel-6",
-        "passageHand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-6",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ",
+        "isActive": true,
+        "popuptext": [
+          "<span class='quran'>﴿سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَانِيَةَ أَيَّامٍ حُسُومًا فَتَرَى الْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ (7) فَهَلْ تَرَىٰ لَهُم مِّن بَاقِيَةٍ (8)وَجَاءَ فِرْعَوْنُ وَمَن قَبْلَهُ وَالْمُؤْتَفِكَاتُ بِالْخَاطِئَةِ (9) فَعَصَوْا رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً (10)﴾</span>"
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popup": "",
-        "popuptext": "",
-        "quizChooses": [
+        "popText": "اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
+        "poem": false,
 
-        {
-            "title":"أجِبْ",
-            "isActive": true,
-            "popuptext": [
-                "﴿سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَانِيَةَ أَيَّامٍ حُسُومًا فَتَرَى الْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ (7) فَهَلْ تَرَىٰ لَهُم مِّن بَاقِيَةٍ (8)وَجَاءَ فِرْعَوْنُ وَمَن قَبْلَهُ وَالْمُؤْتَفِكَاتُ بِالْخَاطِئَةِ (9) فَعَصَوْا رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً (10)﴾"
-            ],
-            "popText":"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
-            "poem" : false,
-
-            "center" : [],
-                "questions": [
-                    {
-                        "id": 1,
-                        "paragraph":"اقْرَأ الآياتِ التاليةَ، واستخرِجْ منها الميمَ الساكنةَ مُوَضِّحًا حكمَها:",
-                        "popup": [
-                            "1- ﴿عَلَيۡهِمۡ سَبۡعَ﴾: إظهار شفوي",
-                            "2- ﴿كَأَنَّهُمۡ أَعۡجَازُ﴾: إظهار شفوي",
-                            "3- ﴿لَهُم مِّن﴾: إدغام شفوي",
-                            "4- ﴿رَبِّهِمۡ فَأَخَذَهُمۡ﴾: إظهار شفوي"
-                        ]
-                    }
-                ]
-        }
+        "center": [],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "استخرج من الآيات الميم الساكنة موضِّحًا حكمها:",
+            "popup": [
+              "1- <span class='quran'>﴿عَلَيۡهِمۡ سَبۡعَ﴾</span>: إظهار شفوي",
+              "2- <span class='quran'>﴿كَأَنَّهُمۡ أَعۡجَازُ﴾</span>: إظهار شفوي",
+              "3- <span class='quran'>﴿لَهُم مِّن﴾</span>: إدغام شفوي",
+              "4- <span class='quran'>﴿رَبِّهِمۡ فَأَخَذَهُمۡ﴾</span>: إظهار شفوي"
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

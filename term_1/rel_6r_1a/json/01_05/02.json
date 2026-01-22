@@ -1,51 +1,48 @@
 [
-    {
-        "nameId": "",
-        "title": "shgusugbu",
-        "hand": true,
-        "finshedChoose": false,
-        "colorTemplate": "#fc8b8999",
-        "subject": "rel-6",
-        "passageHand": true,
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-6",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "أجِبْ عنِ الأسئلةِ الآتيةِ",
+        "isActive": true,
+        "popuptext": [
+          "قالَ (تعالَى): ﴿ لَقَدْ نَصَرَكُمُ اللَّهُ فِي مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْئًا وَضَاقَتْ عَلَيْكُمُ الْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ (25)﴾."
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "popup": "",
-        "popuptext": "",
-        "quizChooses": [
-
-        {
-            "title":"أجِبْ عنِ الأسئلةِ الآتية",
-            "isActive": true,
-            "popuptext": [
-                "قالَ (تعالَى): ﴿ لَقَدْ نَصَرَكُمُ اللَّهُ فِي مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْئًا وَضَاقَتْ عَلَيْكُمُ الْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ (25)﴾."
-            ],
-            "popText" :"اقْرَأ الْآيَاتِ الْكَرِيمَةَ",
-            "poem" : false,
-                "questions": [
-                    {
-                        "id": 1,
-                        "paragraph":"ما سببُ نزولِ الآيةِ الكريمةِ السابقةِ؟",
-                        "popup": [
-                            "اغترار بعض المسلمين بكثرة عددهم، فكانت الآية درسًا لهم في أهمية التوكل على الله."
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "paragraph":"ما نتيجةُ الغزوةِ التي تحدَّثتْ عنها الآيةُ الكريمةُ؟",
-                        "popup": [
-                            "كانت غزوة حنين انتصارًا عسكريًّا ودعويًّا غنم المسلمون فيها أموالًا كثيرة."
-                        ]
-                    }
-                ]
-        }
+        "popText": "اقْرَأ الآيةَ الكريمةَ",
+        "poem": false,
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما سببُ نزولِ الآيةِ الكريمةِ السابقةِ؟",
+            "popup": [
+              "اغترار بعض المسلمين بكثرة عددهم، فكانت الآية درسًا لهم في أهمية التوكل على الله."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "ما نتيجةُ الغزوةِ التي تحدَّثتْ عنها الآيةُ الكريمةُ؟",
+            "popup": [
+              "كانت غزوة حنين انتصارًا عسكريًّا ودعويًّا غنم المسلمون فيها أموالًا كثيرة."
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 ]
