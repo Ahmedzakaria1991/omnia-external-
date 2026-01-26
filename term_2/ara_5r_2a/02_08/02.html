@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -30,6 +30,9 @@
     .poems .poem .text {
       display: flex;
       gap: 4vh;
+    }
+    .subtitle {
+      margin: 1vw;
     }
 
     .underline {
@@ -160,6 +163,13 @@
                     </p>
                   </div>
                 </div>
+              </div>
+              <div class="subtitle">
+                <p v-for="p in mySlides.subtitle_1">{{p}}</p>
+              </div>
+
+              <div class="subtitle">
+                <p v-for="p in mySlides.subtitle_2">{{p}}</p>
               </div>
 
               <div

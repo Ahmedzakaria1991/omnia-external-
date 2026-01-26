@@ -20,9 +20,14 @@
       .none {
         pointer-events: none;
       }
-  
+
       .span {
         color: red;
+      }
+      @media (orientation: landscape) {
+        body .general#Conect .container .icons-data {
+          margin-top: 1%;
+        }
       }
     </style>
   </head>
@@ -60,7 +65,9 @@
         </div>
 
         <div class="container">
-          <p class="qtitle">{{this.posts[0].qtitle}}</p>
+          <p class="qtitle" v-html="this.posts[0].qtitle">
+            {{this.posts[0].qtitle}}
+          </p>
           <div class="icons-data">
             <div class="right-icon">
               <div>

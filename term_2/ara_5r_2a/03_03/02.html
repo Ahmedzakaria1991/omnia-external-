@@ -18,7 +18,7 @@
       .span {
         color: red;
       }
-   
+
       .span2 {
         border-bottom: black solid 0.4vh;
       }
@@ -81,6 +81,7 @@
                 </div>
                 <div class="pop_image"></div>
               </div>
+               <p class="qtitle">{{slide.qtitle}}</p>
               <div
                 class="quizChoose"
                 v-for="(quiz, index) in slide.quizChooses"
@@ -110,9 +111,7 @@
                 v-for="(popUpAll, i) in slide.popupQuestion"
                 v-if="popUpAll.isActive != null"
               >
-                <p class="qtitle">
-                {{popUpAll.qtitle}}
-                </p>
+                <p class="qtitle">{{popUpAll.qtitle}}</p>
 
                 <div class="paragraph">
                   <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>

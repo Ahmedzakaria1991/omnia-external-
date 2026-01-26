@@ -22,6 +22,7 @@
         "active": true,
         "title": "اختَرِ الإجابةَ الصحيحةَ",
         "popuptext": [],
+        "hideIndex": true,
         "quizChooses": [
           {
             "id": 1,
@@ -78,6 +79,7 @@
       {
         "active": false,
         "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "hideIndex": true,
         "popuptext": [],
         "quizChooses": [
           {
@@ -134,7 +136,9 @@
       },
       {
         "active": false,
-        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "title": "أجِبْ",
+        "qtitle": "اسْتَمِعْ، اختَرِ الإجابةَ الصحيحةَ",
+
         "popuptext": [],
         "audio_in_page": "../audio/03-01/2.mp3",
         "quizChooses": [
@@ -212,7 +216,7 @@
         "popupQuestion": [
           {
             "id": 0,
-            "index": "1",
+            "index": "3",
             "qtitle": " أجِبْ:",
             "paragraph": "لماذا شارَكَ سليمٌ بإيجابيةٍ في الفصلِ؟",
             "popup": ["لأنَّهُ غير عاداته."],
@@ -220,14 +224,14 @@
           },
           {
             "id": 0,
-            "index": "2",
+            "index": "4",
             "paragraph": "تعلَّمَ سليمٌ أنَّ التنظيمَ",
             "popup": ["سر النجاح."],
             "isActive": false
           },
           {
             "id": 0,
-            "index": "3",
+            "index": "5",
             "paragraph": "ما الدرسُ المُستفادُ من تجرِبةِ سليمٍ؟",
             "popup": ["تنظيم الوقت والانتهاء من الواجبات أولًا بأول."],
             "isActive": false

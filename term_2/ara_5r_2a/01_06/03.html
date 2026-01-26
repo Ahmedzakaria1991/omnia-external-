@@ -57,8 +57,6 @@
             </div>
 
             <div class="content">
-              
-
               <div
                 class="popup"
                 @click="passageOpen(slide)"
@@ -84,14 +82,14 @@
                   </div>
                 </div>
               </div>
-              <p class="qtitle" v-if="slide.qtitle" >{{slide.qtitle}}</p>
+              <p class="qtitle" v-if="slide.qtitle">{{slide.qtitle}}</p>
               <div
                 class="quizChoose"
                 v-for="(quiz, index) in  slide.quizChooses"
                 :class="{'right' : quiz.answerSelect, 'close' : quiz.close, 'type3' : quiz.type == 3, 'type4' : quiz.type == 4  }"
               >
                 <div class="paragraph" v-if="quiz.type == 1 || quiz.type == 2">
-                  <span class="icon-index">{{index+1}}</span>
+                  <span class="icon-index"> </span>
                   <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div
