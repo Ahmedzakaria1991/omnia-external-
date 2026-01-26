@@ -1,0 +1,57 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "popuptext": [""],
+        "title": "أجِبْ",
+        "isActive": true,
+        "qtitle": "",
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما الدُّروسُ التي نتعلَّمُها من سيرةِ خالدِ بنِ الوليدِ (رَضِيَ ٱللَّٰهُ عَنْهُ)؟",
+            "popup": [
+              "نتعلم من سيرته الشجاعة، والإخلاص في العمل، والطاعة لله ورسوله، والثبات في المواقف الصعبة."
+            ]
+          }
+        ]
+      },
+      {
+        "popuptext": [""],
+        "title": "أجِبْ",
+        "isActive": false,
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": " كيفَ أسهَمَ خالدُ بنُ الوليدِ (رَضِيَ ٱللَّٰهُ عَنْهُ) في الفُتوحاتِ الإسلاميةِ؟",
+            "popup": [
+              "قاد جيوش المسلمين، وحقق انتصارات كبيرة وفتح الله على يديه بلادًا كثيرة."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "ماذا قالَ الرسولُ ﷺ عن الصحابيِّ خالدِ بنِ الوليدِ (رَضِيَ ٱللَّٰهُ عَنْهُ)؟ ",
+            "popup": [" قال ﷺ «نعم عبد الله خالد بن الوليد سيف من سيوف الله»."]
+          }
+        ]
+      }
+    ]
+  }
+]

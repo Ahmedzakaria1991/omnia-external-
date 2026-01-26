@@ -1,0 +1,73 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [
+          "<span class='quran'>﴿يَا أَيُّهَا الْمُزَّمِّلُ (1) قُمِ اللَّيْلَ إِلَّا قَلِيلًا (2) نِّصْفَهُ أَوِ انقُصْ مِنْهُ قَلِيلًا (3) أَوْ زِدْ عَلَيْهِ وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا (4) إِنَّا سَنُلْقِي عَلَيْكَ قَوْلًا ثَقِيلًا (5) إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطْئًا وَأَقْوَمُ قِيلًا (6) إِنَّ لَكَ فِي النَّهَارِ سَبْحًا طَوِيلًا (7) وَاذْكُرِ اسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا (8)﴾</span> "
+        ],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرْ: مَعنَى <span class='quran'>﴿الْمُزَّمِّلُ﴾</span>:",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "المُتعَبِّد لرَبِّه",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "المُتغَطِّي بثيابِه",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "المُتفَرِّغ لشُئونِه",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "qtitle": "أجِبْ",
+            "index": "1",
+            "paragraph": "بماذا أمَرَ اللَّهُ (عَزَّ وجَلَّ) نَبِيَّه ﷺ في الآياتِ السابِقةِ؟ ولماذا؟",
+            "popup": [
+              "أمره الله عَزَّ وجَلّ بأداء مجموعة من العبادات ؛ لأن فيه إعدادًا روحيًّا يعينه ﷺ على تحمل مصاعب الدعوة ومواجهة مشكلات الحياة."
+            ],
+            "isActive": false
+          }
+        ]
+      }
+    ]
+  }
+]

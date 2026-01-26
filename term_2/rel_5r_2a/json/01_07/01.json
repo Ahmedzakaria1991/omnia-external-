@@ -1,0 +1,111 @@
+[
+  {
+    "nameId": "DragDropSlide",
+    "subject": "rel-5",
+    "finshedDrag": false,
+    "lengtStart": 0,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "slides": [
+      {
+        "isActive": true,
+        "title": " ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": ["يجِبُ قَولُ (لا) لِمَا"]
+              },
+              {
+                "text": ["اللَّهُ (عَزَّ وجَلَّ) حتى لو فعَلَه الجميعُ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "حرَّمَه",
+                "number": 1,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["الدِّفاعُ عن "]
+              },
+              {
+                "text": ["من مظاهِرِ الشجاعةِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "الوطَنِ",
+                "number": 2,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["قَولُ الحَقِّ ولو كانَ"]
+              },
+              {
+                "text": ["سُلوكٌ للشخصِ الشجاعِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "مُرًّا",
+                "number": 3,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["الشجاعةُ تعنِي الثباتَ في قَولِ الحقِّ والجُرأةَ في"]
+              },
+              {
+                "text": [" الظُّلمِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "مُواجَهةِ",
+                "number": 4,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["الشجاعةُ من مكارِمِ الأخلاقِ وهي صفةٌ"]
+              },
+              {
+                "text": ["بين الجُبنِ والتهوُّرِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "حَمِيدةٌ",
+                "number": 5,
+                "check": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

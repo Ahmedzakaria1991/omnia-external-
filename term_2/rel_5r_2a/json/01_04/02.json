@@ -1,0 +1,70 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "popuptext": [""],
+        "title": "أجِبْ",
+        "isActive": true,
+        "qtitle": "",
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "ما أثَرُ الصَّومِ في سُلوكِ المُسلِمِ؟ ",
+            "popup": [
+              "يهذب من سلوك المسلم ويعلمه الصبر وقوة التحمل ومساعدة الفقراء والمحتاجين."
+            ]
+          },
+          {
+            "id": 2,
+            "paragraph": "اكتُبْ حديثًا شَرِيفًا يُوضِّحُ فَرْحةَ الصائمِ بصَوْمِه للَّهِ (تعالى).",
+            "popup": [
+              "قال ﷺ: «للصائم فرحتان: فرحة عند فطره، وفرحة عند لقاء ربه».  "
+            ]
+          }
+        ]
+      },
+      {
+        "popuptext": [
+          "عن أبي هُرَيرةَ (رَضِيَ ٱللَّٰهُ عَنْهُ) قالَ: قالَ النبي ﷺ: «مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا ........................................ »."
+        ],
+        "title": "أجِبْ",
+        "isActive": false,
+        "qtitle": "",
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "اكتُبِ المحذوفَ من الحديثِ الشريفِ.",
+            "popup": ["«غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ»."]
+          },
+          {
+            "id": 2,
+            "paragraph": "ما معنَى (احْتِسَابًا)؟",
+            "popup": ["طلبًا للأجر من الله وحده. "]
+          },
+          {
+            "id": 3,
+            "paragraph": "إلامَ يُرشِدُنا الحديثُ الشريفُ؟",
+            "popup": ["إلى الصوم والإيمان وطلب الأجر من الله عَزَّ وجَلّ."]
+          }
+        ]
+      }
+    ]
+  }
+]

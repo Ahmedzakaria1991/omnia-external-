@@ -1,0 +1,75 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "rel-5",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "popuptext": [""],
+        "title": "أجِبْ",
+        "isActive": true,
+        "qtitle": "من مظاهِرِ الشجاعةِ: ",
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "الصِّدقُ في .............",
+            "popup": ["القول والفعل."]
+          },
+          {
+            "id": 2,
+            "paragraph": " الدِّفاعُ عن ..........",
+            "popup": ["الضعفاء والمظلومين."]
+          },
+          {
+            "id": 3,
+            "paragraph": " التضحيةُ من أجلِ .............",
+            "popup": ["الآخرين أو من أجل القيم."]
+          },
+          {
+            "id": 4,
+            "paragraph": " الصبرُ على ...........",
+            "popup": ["الشدائد والمحن."]
+          },
+          {
+            "id": 5,
+            "paragraph": "  الاعترافُ .........",
+            "popup": ["بالخطأ وتحمل المسئولية."]
+          }
+        ]
+      },
+      {
+        "popuptext": [""],
+        "title": "أجِبْ",
+        "isActive": false,
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "أهميةُ الشجاعةِ؟",
+            "popup": [" هي التي تحقق العدالة وتدفع الظلم وتحمي الضعفاء."]
+          },
+          {
+            "id": 2,
+            "paragraph": "اكتُبْ حديثًا شريفًا يحُثُّ على الشجاعةِ. ",
+            "popup": [
+              "  حديث النبي ﷺ لأبي ذر( رَضِيَ ٱللَّٰهُ عَنْهُ) «قُلِ الْحَقَّ وَلَوْ كَانَ مُرًّا»."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

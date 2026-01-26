@@ -6,26 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drag And Drop</title>
     <link rel="stylesheet" href="../../../assets/css/style.css">
-    <link rel='icon' href='../../../assets/images/favicon.ico' type='image/x-icon'>
+    <link rel='icon' href='../../assets/images/favicon.ico' type='image/x-icon'>
 
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
-    <style>
-        .draggable {
-            font-size: 2.2vw;
-            text-align: center;
-        }
 
-        .droppable {
-            color: #39b54a;
-        }
-       
-       
-        @media (orientation: landscape) {
-            .draggable {
-                font-size: 2.2vw;
-                text-align: center;
-            }
+    <script src="../../../assets/lib/jquery.js"></script>
+    <style>
+        .icon-num {
+            width: 5vw;
+            height: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
@@ -37,65 +30,132 @@
             <div @click="toggleSound()" id="toggle-sound" class="toggle-sound paused"></div>
         </div>
     </div>
-    <div id="DragDropSlide" data-urlpage="dragdropslide-vue" class="DragDropSlide general"
-        :class="this.posts[0].subject" >
-        <div class="loader" v-show="!isSuccess || !isLoading"></div>
-        <div class="isSuccess" v-if=" isSuccess && isLoading" >
-            <div class="container" :class="{'finshed' : this.finshedChoose }" v-on="ShuffleDrag(numOfSlides)">
-                <div class="mySlides fade" v-for="(slide, index) in  this.posts[0].slides"
-                    :class="{'active' : slide.isActive}" v-if="slide.isActive">
-                    <div class="head" >
-                        <div class="title">
-                            <div class="icon"></div>
-                            {{slide.title}}
-                        </div>
-                    </div>
-                    <div id="card-dragg" >
-                        <div class="draggable" v-for="(question,index) in shuffledDrag[index]" :id="index"
-                            :index="question.number" draggable="true" @dragstart="dragstart($event)"
-                            @drag="drag($event)" @dragend="dragend($event)" @touchstart="touchStart($event)"
-                            @touchmove="touchMove($event)" @touchend="touchEnd($event,question)"
-                            :style="{ position: 'relative', left: question.left + 'px', top: question.top + 'px' }" v-if="!question.check">
-                            {{question.word}}
-                        </div>
-                    </div>
-                    <div id="card-dropp">
-                        <div v-for="(question,i) in slide.items">
-                            <div class="textindex">
-                                <span class="icon-index">{{i+1}}</span>
-                                <div class="question">
-                                    <div class="dragQ">
-                                        <template v-for="(text,index) in question.texts">
-                                            <p class="paragraphe" v-for="parag in text.text">{{parag}}</p>
-                                            <div v-if="index < question.drag.length" :id="question.drag[index].number"
-                                                :index="question.drag[index].number" class="droppable"
-                                                @drop="drop($event,question.drag[index])" @dragover="dragover($event)" @touchstart.prevent
-                                                @touchmove.prevent>
-                                                <p v-if="question.drag[index].check">{{question.drag[index].word}}</p>
-                                            </div>
-                                        </template>
-                                    </div>
 
-                                </div>
+    <div id="DragDropSlide" data-urlpage="dragdropslide_" class="general" :class="this.posts[0].subject">
+        <div class="loader" v-show="!isSuccess || !isLoading"></div>
+        <div class="isSuccess" v-show=" isSuccess && isLoading">
+            <div class="head">
+                <div class="title">
+                    <div class="icon"></div>
+                    {{this.posts[0].title}}
+                </div>
+            </div>
+
+            <div class="container">
+
+
+                <div class="mySlides fade" v-for="( mySlides, index) in  shuffledQX"
+                    :class="{'active' : mySlides.isActive}">
+                    <!-- <p> {{ shuffle.question}}</p> -->
+                    <!-- <p> {{mySlides.droggableBox[0].pagequestion[0].answer[0].number}}</p> -->
+                    <div id="card-dragg">
+                        <div v-for="(drag , index) in randomList(mySlides.droggableBox[0].pagequestion[0].answer)">
+                            <div :data-number="drag.number" class="draggable">
+                                <p> {{drag.wrod}}</p>
                             </div>
                         </div>
                     </div>
-                    <a class="prev" @click="swiperPrev(index)" v-if="index != 0"> </a>
-                    <a class="next" @click="swiperNext(index)" v-if="index != (numOfSlides-1) "></a>
+
+                    <div id="card-dropp">
+                        <!-- <div class="textindex" v-for="( drop, index) in  shuffledQX"> -->
+                        <div class="textindex">
+                            <div class="question">
+
+
+                                <div v-for="(drop , index) in mySlides.droggableBox[0].pagequestion">
+                                    <div v-if="drop.question[0].addQ[0].type == 1">
+                                        <div v-for="(drop , index) in drop.question">
+                                            <div v-for="(drop , index) in drop.addQ" style="display: flex;">
+                                                <span class="icon-index">{{index+1}}</span>
+                                                <p class="paragraphe" v-for="text in drop.text1">
+                                                    {{text}} &nbsp;
+                                                </p>
+                                                <div :data-number="drop.number" class="droppable">
+                                                </div>
+                                                <p class="paragraphe" v-for="text in drop.text2">
+                                                    &nbsp;{{text }} &nbsp;
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 
+                            <div style="display: flex; flex-wrap: wrap;" v-if="drop.answer[0].type == 2">
+                                <p class="paragraphe" v-for="text in drop.text1">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[0]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text2">
+                                    &nbsp;{{text }} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[1]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text3">
+                                    &nbsp;{{text }} &nbsp;
+                                </p>
+                            </div>
+
+
+                            <div style="display: flex;flex-wrap: wrap;" v-if="drop.answer[0].type == 3">
+                                <p class="paragraphe" v-for="text in drop.text1">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[0]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text2">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[1]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text3">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[2]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text4">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[3]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text5">
+                                    {{text}} &nbsp;
+                                </p>
+                                <div :data-number="drop.number[4]" class="droppable">
+                                </div>
+                                <p class="paragraphe" v-for="text in drop.text6">
+                                    {{text}} &nbsp;
+                                </p>
+                            </div> -->
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a class="prev" @click="swiperPrev( mySlides, index)" v-if="index != 0"> </a>
+                    <a class="next" @click="swiperNext( mySlides, index)" v-if="index != (shuffledQX.length-1) "></a>
                 </div>
+
                 <div class="finished hide">
                 </div>
+
+
             </div>
+
             <div class="bottom">
                 <div class="image">
                     <img :src="logo()" :alt="this.posts[0].subject">
                 </div>
             </div>
         </div>
+
     </div>
 
-
-    <script src="../../../assets/js/dragdropSlide-vue.js"></script>
+    <script src="../../../assets/lib/jquery-ui.js"></script>
+    <script src="../../../assets/lib/jq.ui.to.js"></script>
+    <script src="../../../assets/js/dragdropslide_.js"></script>
     <script src="../../../assets/js/backgroundmusic.js"></script>
 </body>
 

@@ -1,0 +1,47 @@
+[
+  {
+    "nameId": "",
+    "title": "صِلْ",
+    "subject": "rel-5",
+    "colorTemplate": "#007F80",
+    "matchCounter": 0,
+
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "first": "أ",
+    "second": "ب",
+
+    "matches": [
+      {
+        "point": 1,
+        "textRight": "<span class='quran'>﴿وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا﴾</span>",
+        "textLeft": "اقرَأ القُرآنَ قِراءةً مُتأنِّيةً مع تفكُّرٍ وتدبُّرٍ ",
+        "answer": false
+      },
+      {
+        "point": 2,
+        "textRight": "<span class='quran'>﴿قَوْلًا ثَقِيلًا﴾</span>",
+        "textLeft": "هو القُرآنُ الكَرِيمُ",
+        "answer": false
+      },
+      {
+        "point": 3,
+        "textRight": "<span class='quran'>﴿وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا﴾</span>",
+        "textLeft": " أي  تفرَّغْ لعبادتِه وطاعتِه تفرُّغًا تامًّا",
+        "answer": false
+      },
+      {
+        "point": 4,
+        "textRight": "<span class='quran'>﴿أَنكَالًا ﴾</span>",
+        "textLeft": " قُيُودًا ثقيلةً",
+        "answer": false
+      }
+    ]
+  }
+]

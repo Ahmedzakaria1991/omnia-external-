@@ -1,0 +1,83 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختر الاجابة الصحيحة",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرْ السُّلوكاتِ الصحيحةِ:",
+            "correctAnswer": [2, 1, 4, 5],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "الحِرصُ عَلى تِلاوةِ القُرآنِ الكَريمِ بِانتِظامٍ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تَدَبُّرُ مَعانِي القُرآنِ الكَريمِ وفَهمِهِ والعَملِ بِهِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "تَصْديقُ الخُرافاتِ التي لا دَليلَ عَليْها مَنَ القُرآنِ الكَريمِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "احتِرامُ الكُتُبِ السماوِيّةِ جَميعَها مَعَ الإيمانِ بَأَنَّ القُرآنَ هو الخَاتمُ لَها.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": " الابتعادُ عَنِ الأوْهَامِ وَكُلِّ ما يُخَالِفُ العَقيدةَ الصحيحةَ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "qtitle": "أجِبْ",
+            "index": "1",
+            "paragraph": "بماذا أمَرَ اللَّهُ (عَزَّ وجَلَّ) نَبِيَّه ﷺ في الآياتِ السابِقةِ؟ ولماذا؟",
+            "popup": [
+              "أمره الله عَزَّ وجَلّ بأداء مجموعة من العبادات ؛ لأن فيه إعدادًا روحيًّا يعينه ﷺ على تحمل مصاعب الدعوة ومواجهة مشكلات الحياة."
+            ],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

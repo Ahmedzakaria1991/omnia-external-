@@ -1,0 +1,274 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرْ الآيةِ التي بها حُكْمُ قلقلةٍ:",
+            "correctAnswer": [2, 3, 4, 5, 8, 9, 10],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'>﴿لِإِيلَافِ قُرَيْشٍ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "<span class='quran'>﴿أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'>﴿فَأَثَرْنَ بِهِ نَقْعًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "<span class='quran'>﴿فَادْخُلِي فِي عِبَادِي﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "<span class='quran'>﴿كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "<span class='quran'>﴿عَمَّ يَتَسَاءَلُونَ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 7,
+                "toChoose": "<span class='quran'>﴿أَلَمْ يَعْلَم بِأَنَّ اللَّهَ يَرَىٰ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 8,
+                "toChoose": "<span class='quran'>﴿ذَٰلِكَ الْيَوْمُ الْحَقُّ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 9,
+                "toChoose": "<span class='quran'>﴿إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 10,
+                "toChoose": "<span class='quran'>﴿إِرَمَ ذَاتِ الْعِمَادِ﴾</span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "qtitle": "أجِبْ",
+            "index": "1",
+            "paragraph": "بماذا أمَرَ اللَّهُ (عَزَّ وجَلَّ) نَبِيَّه ﷺ في الآياتِ السابِقةِ؟ ولماذا؟",
+            "popup": [
+              "أمره الله عَزَّ وجَلّ بأداء مجموعة من العبادات ؛ لأن فيه إعدادًا روحيًّا يعينه ﷺ على تحمل مصاعب الدعوة ومواجهة مشكلات الحياة."
+            ],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرْ الآيةِ التي بها القلقلةِ الكُبْرى:",
+            "correctAnswer": [2, 3, 5, 9, 10],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'>﴿لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "<span class='quran'>﴿ذَٰلِكَ الْيَوْمُ الْحَقُّ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'>﴿فَهُمْ فِي أَمْرٍ مَّرِيجٍ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "<span class='quran'>﴿أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "<span class='quran'>﴿تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "<span class='quran'>﴿وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 7,
+                "toChoose": "<span class='quran'>﴿وَخَلَقْنَاكُمْ أَزْوَاجًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 8,
+                "toChoose": "<span class='quran'>﴿فَوَسَطْنَ بِهِ جَمْعًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 9,
+                "toChoose": "<span class='quran'>﴿وَاللَّهُ مِن وَرَائِهِم مُّحِيطٌ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 10,
+                "toChoose": "<span class='quran'>﴿وَلَا جِدَالَ فِي الْحَجِّ﴾</span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرْ الآيةِ التي بها القلقلةِ الصُّغْرى:",
+            "correctAnswer": [1, 4, 6, 7, 8],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'>﴿لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "<span class='quran'>﴿ذَٰلِكَ الْيَوْمُ الْحَقُّ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'>﴿فَهُمْ فِي أَمْرٍ مَّرِيجٍ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "<span class='quran'>﴿أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "<span class='quran'>﴿تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "<span class='quran'>﴿وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 7,
+                "toChoose": "<span class='quran'>﴿وَخَلَقْنَاكُمْ أَزْوَاجًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 8,
+                "toChoose": "<span class='quran'>﴿فَوَسَطْنَ بِهِ جَمْعًا﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 9,
+                "toChoose": "<span class='quran'>﴿وَاللَّهُ مِن وَرَائِهِم مُّحِيطٌ﴾</span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 10,
+                "toChoose": "<span class='quran'>﴿وَلَا جِدَالَ فِي الْحَجِّ﴾</span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "qtitle": "أجِبْ",
+            "index": "1",
+            "paragraph": "بماذا أمَرَ اللَّهُ (عَزَّ وجَلَّ) نَبِيَّه ﷺ في الآياتِ السابِقةِ؟ ولماذا؟",
+            "popup": [
+              "أمره الله عَزَّ وجَلّ بأداء مجموعة من العبادات ؛ لأن فيه إعدادًا روحيًّا يعينه ﷺ على تحمل مصاعب الدعوة ومواجهة مشكلات الحياة."
+            ],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

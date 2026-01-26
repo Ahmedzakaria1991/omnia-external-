@@ -1,0 +1,111 @@
+[
+  {
+    "nameId": "DragDropSlide",
+    "subject": "rel-5",
+    "finshedDrag": false,
+    "lengtStart": 0,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "slides": [
+      {
+        "isActive": true,
+        "title": " ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": ["تناولَتْ سورةُ المُزَّمِّل جانِبًا من"]
+              },
+              {
+                "text": ["النبيِّ ﷺ في عبادتِه."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "حيَاةِ",
+                "number": 1,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["نزلَتْ سورةُ المُزَّمِّلِ في بِداية"]
+              },
+              {
+                "text": [" الإسلاميةِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "الدَّعوةِ",
+                "number": 2,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["ستَضْطرِبُ"]
+              },
+              {
+                "text": ["والجِبالُ يومَ القيامةِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "الأَرْضُ",
+                "number": 3,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["الترتيلُ هو"]
+              },
+              {
+                "text": [" القُرآنِ بتمهُّلٍ مع التدبُّرِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "تِلاوةُ",
+                "number": 4,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": [""]
+              },
+              {
+                "text": ["اللَّيلِ يجعَلُ القلبَ يخشَعُ للَّهِ (عَزَّ وجَلَّ)."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "قِيامُ",
+                "number": 5,
+                "check": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
