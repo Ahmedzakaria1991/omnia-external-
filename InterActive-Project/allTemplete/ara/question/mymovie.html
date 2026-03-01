@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Questions</title>
+  <script src="../../../lib-native/question/assets/js/lottie-min.js"></script>
+  <script src="../../../lib-native/question/assets/js/vue.js"></script>
+  <link rel="stylesheet" href="../../../lib-native/question/assets/style/font.css" />
+  <link rel="stylesheet" href="../../../lib-native/question/assets/style/style.css" />
+  <link rel="stylesheet" href="../../../lib-native/question/assets/style/slid-show.css" />
+  <link rel="stylesheet" href="../../../lib-native/question/assets/style/images.css" />
+  <link rel="stylesheet" href="style/lo-style.css" />
+  <script src="../../../js/submit_sender.js"></script>
+</head>
+
+<body>
+  <div class="main" id="Question" data-urlpage="data">
+    <div class="opactiy" v-if="feedback"></div>
+    <div class="safeArea" id="safeArea">
+      <div class="loader" v-show="!isSuccess || !isLoading"></div>
+      <div class="lo-container" v-show=" isSuccess && isLoading">
+        <div class="logo"></div>
+        <div class="content">
+          <div class="title">
+            <div class="sound" v-if="start"></div>
+            <p>{{titlePage}}</p>
+          </div>
+          <div class="border-content" id="border-content">
+            <template v-if="!start">
+              <div class="StartPage">
+                <div class="intractive">
+                  <p>نشاط تفاعلى</p>
+                </div>
+                <div class="home"></div>
+                <div class="start" @click="startLo()">
+                  <p>ابدأ</p>
+                </div>
+              </div>
+            </template>
+            <template v-if="start">
+              <template v-for="question in shuffledQuestions">
+                <template v-if="question.type == 'choose'">
+                  <div class="chooseQuestion" :class="{'active' : question.active}">
+                    <div class="question">
+                      <div class="sound" v-if="question.sound"></div>
+                      <p v-for="parag in question.question">{{parag}}</p>
+                    </div>
+                    <div class="chooses">
+                      <template v-for="choose in shuffleArray(question.answers)">
+                        <div class="choose" @click="selectChoose($event, choose)"
+                          :class="{'correct': choose.answer,'select': choose.select}">
+                          <p class="text parag" v-html="choose.choose"></p>
+                        </div>
+                      </template>
+
+                    </div>
+                    <!-- <div class="sumbit" @click="checkChoose()"></div> -->
+                  </div>
+                </template>
+                <template v-if="question.type == 'trueFalse'">
+                  <div class="chooseQuestion" :class="{'active' : question.active}">
+                    <div class="question" v-if="question.question">
+                      <div class="sound" v-if="question.sound"></div>
+                      <p v-for="parag in question.question">{{parag}}</p>
+                    </div>
+                    <div class="image" v-if="question.img">
+                      <img :src="question.img" alt="">
+                    </div>
+                    <div class="chooses">
+                      <template v-for="choose in question.answers">
+                        <div class="choose" @click="selectChoose($event, choose)"
+                          :class="{'correct': choose.answer,'select': choose.select}">
+                          <p class="text parag" v-html="choose.toChoose"></p>
+                        </div>
+                      </template>
+
+                    </div>
+                    <!-- <div class="sumbit" @click="checkChoose()"></div> -->
+                  </div>
+                </template>
+                <template v-if="question.type == 'dragDrop'">
+                  <div class="DragQuestion" :class="{ active: question.active }">
+                    <div class="question" v-if="question.question">
+                      <p v-for="parag in question.question">{{parag}}</p>
+                    </div>
+                    <div class="image" v-if="question.img">
+                      <img :src="question.img" alt="">
+                    </div>
+                    <!-- DRAGS -->
+                    <div class="drags-container">
+                      <div class="drag" :draggable="!isMobile" v-for="drag in question.drags" :key="drag.id"
+                        @dragstart="dragstart(drag)" :class="{ 'disabled': drag.placed }"
+                        @touchstart="touchStartDrag($event, drag)" @touchmove.prevent="touchMoveDrag"
+                        @touchend="touchEndDrag($event)">
+                        <p>{{ drag.text }}</p>
+                      </div>
+                    </div>
+                    <!-- DROPS -->
+                    <div class="drops-container">
+                      <div class="drop" v-for="(drop, index) in question.drags" :key="index" @dragover.prevent
+                        @drop="handleDrop(index)" :class="{
+    correct: dropResults[index] === true,
+    wrong: dropResults[index] === false
+  }">
+                        <div v-if="dropAnswers[index]" class="drag" @click="removeFromDrop(index)">
+                          <p>{{ dropAnswers[index].text }}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sumbit" @click="checkDragDrop()"></div>
+
+                  </div>
+                </template>
+                <template v-if="question.type == 'match'">
+                  <div class="matchQuestion" :class="{ active: question.active }">
+                    <div class="svg-dist">
+                    </div>
+                    <div class="columnRight">
+                      <div class="row-text" v-for="(drag, index) in shuffleArray(question.matchs)">
+                        <div class="text">
+                          <div class="pragraph">
+                            <p>{{drag.textRight}}</p>
+                          </div>
+                        </div>
+                        <div class="cointDrag" :data-number="drag.point">
+                          <div class="point drag" id="startTouchDiv" :data-index="index" :data-number="drag.point"
+                            @dragstart="dragStart($event)" draggable="true" @dragOver="dragOver($event)"
+                            @dragend="dragEnd($event,drag)" @dragover="dragOver($event)" :class="{'none' : drag.answer}"
+                            @touchstart="touchStart($event)" @touchmove="touchMove($event)"
+                            @touchend="touchEnd($event,drag)"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="columnLeft">
+                      <div class="row-text" v-for="(drag, index) in shuffleArray(question.matchs)">
+                        <div class="cointDrag" :data-number="drag.point">
+                          <div class="point drop flip" id="otherDiv" :data-index="index" :data-number="drag.point"
+                            @dragstart="dragStart($event)" draggable="true" @dragOver="dragOver($event)"
+                            @dragend="dragEnd($event,drag)" @dragover="dragOver($event)" :class="{'none' : drag.answer}"
+                            @touchstart="touchStart($event)" @touchmove="touchMove($event)"
+                            @touchend="touchEnd($event,drag)"></div>
+                        </div>
+                        <div class="pragraph" v-if="drag.textLeft">
+                          <p>{{drag.textLeft}}</p>
+                        </div>
+                        <div class="image" v-if="drag.imgLeft">
+                          <img :src="drag.imgLeft" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sumbit" @click="checkAnswers()"></div>
+                  </div>
+                </template>
+              </template>
+            </template>
+            <!-- <template v-if="activeNav == 'slideShow'">
+              <div class="slidShow">
+                <div class="paragraph-postion">
+                  <p>...</p>
+                </div>
+                <div class="image-postion">
+                  <img src=" " alt="" />
+                </div>
+                <div class="controls">
+                  <div class="icon prev" id="prevBtn"></div>
+                  <div class="icon" id="playPauseBtn"></div>
+                  <div class="icon next" id="nextBtn"></div>
+                </div>
+              </div>
+            </template> -->
+            <div class="feedBack" v-if="feedback">
+              <template v-if="correctAnswer">
+                <div class="feedBackTxt">
+                  <p>أَحْسَنْتَ</p>
+                  <p>إِجَابَةٌ صَحِيحَةٌ.</p>
+                </div>
+                <div class="feedBackImg">
+                  <div class="status happy"></div>
+                </div>
+
+              </template>
+              <template v-if="!correctAnswer">
+                <div class="feedBackTxt">
+                  <p>إجابتك غير صحيحة</p>
+                  <p v-if="numOfAttemp === 1 && numberOfAnswer > 2 ">حَاوِلْ مَرَّةً أُخْرَى.</p>
+                </div>
+                <div class="feedBackImg">
+                  <div class="status sad"></div>
+                </div>
+
+              </template>
+              <template v-if="!finishLO">
+                <div class="icon next" @click="nextQuestion()" v-if=" numOfAttemp === 2  || correctAnswer"></div>
+                <div class="icon reload" @click="reloadQuestion()"
+                  v-if="!correctAnswer  && numberOfAnswer > 2 && numOfAttemp === 1"></div>
+              </template>
+              <div class="icon home" @click="home()" v-if="finishLO"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../../lib-native/question/assets/js/choose.js"></script>
+  <script src="../../../lib-native/question/assets/js/main.js"></script>
+  <script src="../../../lib-native/question/assets/js/animation.js"></script>
+</body>
+
+</html>

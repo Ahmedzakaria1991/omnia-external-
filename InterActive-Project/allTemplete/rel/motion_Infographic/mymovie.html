@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Bitmovin Interactive Markers</title>
+  <script src="../../../lib-native/motion_Infographic/assets/script/vue.global.prod.js"></script>
+  <script src="../../../lib-native/motion_Infographic/assets/script/bitmovinplayer.js"></script>
+  <script src="../../../lib-native/motion_Infographic/assets/script/bitmovinplayer-ui.js"></script>
+  <script src="../../../lib-native/motion_Infographic/assets/js/lottie-min.js"></script>
+  <script src="../../../js/submit_sender.js"></script>
+  <link href="../../../lib-native/motion_Infographic/assets/script/bitmovinplayer-ui.css" rel="stylesheet" />
+  <link href="https://cdn.bitmovin.com/player/web/8/bitmovinplayer.css" rel="stylesheet" />
+  <link href="./style/lo-style/lo-style.css" rel="stylesheet" />
+  <style></style>
+</head>
+
+<body>
+  <div id="app" data-urlpage="data">
+    <div class="loader" v-show="!isSuccess || !isLoading"></div>
+    <div id="player" v-show=" isSuccess && isLoading"></div>
+    <div id="interaction" class="container">
+      <div class="isSuccess" id="loQuestions">
+        <div class="animation" id="transition"></div>
+        <div class="animation" id="Timer"></div>
+        <div class="border" id="border">
+          <template v-if="this.quizvideo && activeQuestion.quiz[quizCounter].type == 1 ">
+            <div class="title">
+              <p>{{activeQuestion.quiz[quizCounter].title}}</p>
+            </div>
+            <div class="questions" v-for="quiz in activeQuestion.quiz" :class="{'active': quiz.active}">
+
+              <div class="quiz">
+                <div class="question">
+                  <div class="sound" v-if="quiz.sound != ''" @click="playSound($event,quiz.sound)"></div>
+                  <p>{{quiz.question}}</p>
+                </div>
+                <div class="chooses">
+                  <div class="choose" :class="{[quiz.add_style]: quiz.selectedChooseIndex === i}"
+                    v-for="(choose,i) in quiz.chooses" @click="chooseQuestion(choose,$event,quiz,i)">
+                    <div class="sound" v-if="choose.sound != ''" @click="playSound($event,choose.sound)"></div>
+                    <p>{{choose.word}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+          <template v-if="this.quizvideo && activeQuestion.quiz[quizCounter].type == 4 ">
+            <div class="title">
+              <p>{{activeQuestion.quiz[quizCounter].title}}</p>
+            </div>
+            <div class="questions truefalseTemp" v-for="quiz in activeQuestion.quiz" :class="{'active': quiz.active}">
+              <div class="quiz">
+                <div class="question">
+                  <p>{{quiz.question}}</p>
+                </div>
+                <div class="chooses">
+                  <div class="choose" v-for="(choose,i) in quiz.chooses" @click="chooseQuestion(choose,$event,quiz,i)"
+                    :class="{'chooseX': choose.word == 'false'}">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+
+          <template v-if="this.quizvideo && activeQuestion.quiz[quizCounter].type == 2 ">
+            <div class="select questions" v-for="quiz in activeQuestion.quiz" :class="{'active': quiz.active}">
+              <div class="title">
+                <p>{{quiz.title}}</p>
+              </div>
+              <div class="quiz">
+                <div class="question">
+                  <templete v-if="!showSelected && !solvedQuestion">
+                    <p id="selectedtableText" ref="selectableText" @mouseup="SelectedText(quiz)"
+                      @selectstart="SelectedText($event)" @touchend="SelectedText($event)" v-html="quiz.sentence"></p>
+                  </templete>
+                  <templete v-if="showSelected && !solvedQuestion">
+                    <p ref="selectableText" v-html="quiz.correct"></p>
+                  </templete>
+                  <templete v-if="solvedQuestion">
+                    <p ref="selectableText" v-html="quiz.correct"></p>
+                  </templete>
+                </div>
+              </div>
+
+              <div class="questionSelect">
+                <div class="option-btn">
+                  <div class="btn-select CheckSelectDim" :class="{'active': selectionTextq != ''}"
+                    @click="CheckSelect(quiz)">
+                    <p>CheckSelectDim</p>
+                  </div>
+
+                  <div class="btn-select removeSelectDim" :class="{'active': selectionTextq != '' && removeSelectDone}"
+                    @click="removeSelect()">
+                    <p>removeSelectDim</p>
+                  </div>
+                  <!-- <div class="btn-select showSelect" v-show="showAnswerSelect" @click="showSelect()">
+                  <p>showSelect</p>
+                </div> -->
+                </div>
+              </div>
+            </div>
+          </template>
+
+          <template v-if="this.quizvideo && activeQuestion.quiz[quizCounter].type == 3">
+            <div id="drag-type" class="questions">
+              <div class="title">
+                <p>{{ activeQuestion.quiz[quizCounter].title }}</p>
+              </div>
+
+              <div class="container">
+                <div id="DragAndDrop">
+                  <div class="container" :class="{ reverseDirFlex: activeQuestion.quiz[quizCounter].type == 3 }">
+                    <div id="card-dragg">
+                      <div v-for="(question, index) in shuffledDrag" :key="index" :id="'drag-' + question.number"
+                        :index="question.number" class="draggable" draggable="true" @dragstart="dragstart($event)"
+                        @drag="drag($event)" @dragend="dragend($event)" @touchstart="touchStart($event)"
+                        @touchmove="touchMove($event)" @touchend="touchEnd($event)"
+                        :style="dragTransforms['drag-' + question.number] || { transform: 'translate(0px, 0px)' }">
+                        <p>{{ question.word }}</p>
+                      </div>
+                    </div>
+
+                    <div id="card-dropp">
+                      <div v-for="(question, qIndex) in shuffledQuestion" :key="qIndex">
+                        <div class="textindex">
+                          <div class="question">
+                            <div class="dragQ">
+                              <template v-for="(text, tIndex) in question.texts">
+                                <div class="card-draggk" :key="tIndex">
+                                  <img v-if="question.drag && question.drag[tIndex]" class="drag-image"
+                                    :src="question.drag[tIndex].imgSrc" alt="" />
+
+                                  <div v-if="question.drag && question.drag[tIndex]"
+                                    :id="'drop-' + question.drag[tIndex].number" :index="question.drag[tIndex].number"
+                                    class="droppable" @drop="drop($event)" @dragover="dragover($event)"
+                                    @touchstart.prevent @touchmove.prevent></div>
+
+                                  <p v-for="(parag, pIndex) in text.text" :key="pIndex" class="paragraphe">
+                                    {{ parag }}
+                                  </p>
+                                </div>
+                              </template>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="finished hide"></div>
+              </div>
+              <div class="check-answer-btn" v-if="showCheckButton">
+                <div @click="checkFinalAnswer" class="btn-check"></div>
+              </div>
+            </div>
+          </template>
+        </div>
+
+
+        <div class="feedback" :class="{'dimmedTrue': !expression}" v-if="this.quizvideo && feedback">
+          <div class="borderFeedBack" :class="{'dimmedTrue': !expression}">
+            <!-- <div class="answer">
+              <p :class="{'true': expression,'false': !expression}">{{expressText}}</p>
+            </div> -->
+            <div class="details">
+              <p v-for="parag in expressionParag">{{parag}}</p>
+            </div>
+            <div class="reload" @click="reload()"></div>
+            <div class="next" @click="next()" :class="{'dimmed': !expression}"></div>
+          </div>
+        </div>
+        <!-- <p style="font-size: 20px">❓ ماذا تريد أن تفعل؟</p>
+        <button @click="handleChoice('restart')">🔁 إعادة الفيديو</button>
+        <button @click="handleChoice('goto1')">⏩ الانتقال إلى 1:30</button>
+        <button @click="handleChoice('goto2')">⏩ الانتقال إلى 3:00</button>
+        <button @click="handleChoice('continue')">▶️ متابعة المشاهدة</button> -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="../../../lib-native/motion_Infographic/assets/js/script.js"></script>
+</body>
+
+</html>

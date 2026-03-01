@@ -1,5 +1,5 @@
 const { createApp } = Vue;
-import { loadTimerAnimation } from "./animation.js";
+import {LoadtransitionAnimation, loadTimerAnimation } from "./animation.js";
 let interactive = document.querySelector("#app");
 let pageUrl = interactive.getAttribute("data-urlpage");
 var idPage = interactive.getAttribute("id");
@@ -42,8 +42,9 @@ createApp({
     await this.getData();
 
     await this.Resize();
-    const Timer = loadTimerAnimation();
-    window.animations = { Timer };
+    // const Timer = loadTimerAnimation();
+    const transition_vid = LoadtransitionAnimation();
+    window.animations = { transition_vid,Timer };
     this.posts[0].questions.forEach((question) => {
       if (question.quiz && Array.isArray(question.quiz)) {
         question.quiz.forEach((quizItem) => {
@@ -376,11 +377,15 @@ createApp({
         const activeQuestionEl = document.getElementById("interaction");
         if (activeQuestionEl) {
           const quiz = vm.activeQuestion.quiz[vm.quizCounter];
-          this.addAnalogTimerToElement(activeQuestionEl, vm, quiz);
+          
+          setTimeout(() => this.addAnalogTimerToElement(activeQuestionEl, vm, quiz), 2000);
         } else {
           setTimeout(() => this.waitForActiveQuestion(vm), 100);
         }
       }
+      document.getElementById("transition").style.display = "flex";
+      animations.transition_vid.playSegments([0, 120], true)
+     
     },
     addAnalogTimerToElement(el, vm, quiz) {
       this.timeLeft = this.posts[0].timeLeft;

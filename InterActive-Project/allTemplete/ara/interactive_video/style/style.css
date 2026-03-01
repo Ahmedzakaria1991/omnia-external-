@@ -579,7 +579,10 @@ body .container #loQuestions .feedback .borderFeedBack .next.dimmed {
 body .container #loQuestions .feedback {
   z-index: 2;
 }
-
+#transition {
+  z-index: 99999999999999;
+}
+#transition,
 #Timer {
   display: none;
   width: 100%;

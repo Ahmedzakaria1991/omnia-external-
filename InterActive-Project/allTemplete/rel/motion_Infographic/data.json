@@ -1,0 +1,214 @@
+[{
+  "counterCorrect": 0,
+  "LOcorrectcounter": 0,
+  "BloomTargets": null,
+  "randomNumber": null,
+  "loTargets": null,
+  "numberOfquestion": 0,
+  "id": "ara_5r_2a_01_02_02",
+  "subjectId": "",
+  "conceptId": "",
+  "unitId": "",
+  "lessonId": "",
+  "keywords": "",
+  "learningObjectives": "",
+  "bloomLevels": [],
+  "type": "",
+  "loDegree": null,
+  "UserDegree": 0,
+  "startTime": "",
+  "endTime": "",
+  "SubType": "choose",
+  "timeLeft": 20,
+  "title": "الفعل المضارع المرفوع",
+  "markers": [{
+      "time": 44,
+      "title": "📍 الدقيقة 3:39"
+    },
+    {
+      "time": 75,
+      "title": "📍 الدقيقة 4:47"
+    },
+    {
+      "time": 100,
+      "title": "📍 الدقيقة 4:47"
+    }
+  ],
+
+  "popupTimes": [44, 75, 100],
+  "disabledPopups": [],
+
+  "Dash": "",
+  "Hsl": "",
+  "questions": [{
+      "id": 3,
+      "active": false,
+      "parag": "غَسْلُ الْوَجْهِ يَكُونُ مِنْ مَنْبَتِ الشَّعْرِ إِلَى الْفَمِ.",
+      "quiz": [
+        
+
+         {
+          "id": 1,
+          "type": 1,
+          "active": false,
+          "title": "اخْتَرِ الإِجَابَةَ الصَّحِيحَةَ",
+          "replayStart": 0,
+          "numberOfTrial": 0,
+          "questionlevel": "",
+          "questionType": "text",
+          "answersType": "text",
+          "startTime": "",
+          "endTime": "",
+          "BloomLevel": 3,
+          "numberOfquestion": 0,
+          "correctCounter": 0,
+          "question": "أَوَّلُ شَيْءٍ فِي الْوُضُوءِ .....",
+          "trueExpersion": [
+            "إِجَابَتُكُ صَحِيحَةٌ، النِّيَّةُ أَوَّلُ رُكْنٍ مِنْ أَرْكَانِ الْوُضُوءِ."
+          ],
+          "falseExpersion": [
+            "إِجَابَةٌ غَيْرُ مُوَفَّقَةٍ",
+            "شَاهِدْ جُزْءَ الشَّرْحِ مَرَّةً أُخْرَى ثُمَّ جَرِّبْ مِنْ جَدِيدٍ."
+          ],
+          "expressionTrue": "أحسَنت! الإجابةُ صحيحةٌ",
+          "correctAnswer": 2,
+          "typeQuestion": "choose",
+          "add_style": "",
+          "sound": "./audio/q/q1.mp3",
+          "chooses": [{
+              "number": 1,
+              "word": "مَسْحُ الرَّأْسِ",
+              "sound": "./audio/q/q1.mp3"
+            },
+            {
+              "number": 2,
+              "word": "النِّيَّةُ لِلْوُضُوءِ",
+              "sound": ""
+            },
+            {
+              "number": 3,
+              "word": "النِّيَّةُ لِلْوُضُوءِ",
+              "sound": ""
+            },
+            {
+              "number": 3,
+              "word": "النِّيَّةُ لِلْوُضُوءِ",
+              "sound": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "active": false,
+      "parag": "",
+      "quiz": [{
+        "id": 1,
+        "type": 3,
+        "title": "رَتِّبْ أَرْكَانَ الْوُضُوءِ الآتِيَةَ:",
+        "active": false,
+        "replayStart": 44,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "question": "الحرفُ الأخيرُ في الأفعالِ المُلوَّنةِ ...",
+        "trueExpersion": [
+          "إِجَابَتُكَ صَحِيحِةٌ؛ ",
+          "لِأَنَّ غَسْلَ الْوَجْهِ يَكُونُ مِنْ مَنْبَتِ الشَّعْرِ إِلَى أَسْفَلِ الذَّقَنِ."
+        ],
+        "falseExpersion": [
+          "إِجَابَةٌ غَيْرُ مُوَفَّقَةٍ",
+          "شَاهِدْ جُزْءَ الشَّرْحِ مَرَّةً أُخْرَى ثُمَّ جَرِّبْ مِنْ جَدِيدٍ."
+        ],
+
+        "expressionTrue": "أحسَنت!، إجابةٌ صحيحةٌ",
+        "correctAnswer": 2,
+        "typeQuestion": "drag",
+        "add_style": "",
+        "items": [{
+          "drag": [{
+              "number": 1,
+              "word": "1",
+              "imgSrc": "./images/222.png"
+            },
+            {
+              "number": 2,
+              "word": "2",
+              "imgSrc": "./images/33333.png"
+            },
+            {
+              "number": 3,
+              "word": "3",
+              "imgSrc": "./images/44444.png"
+            }
+          ],
+          "texts": [{
+              "number": 1,
+              "text": ["مَسْحُ الرَّأْسِ أَوْ بَعْضِهِ."]
+            },
+            {
+              "number": 2,
+              "text": ["غَسْلُ الرِّجْلَيْنِ إِلَى الْكَعْبَيْنِ."]
+            },
+            {
+              "number": 3,
+              "text": ["غَسْلُ الْيَدَيْنِ إِلَى الْمِرفَقَيْنِ."]
+            }
+          ]
+        }]
+      }]
+    },
+    {
+      "id": 2,
+      "active": false,
+      "parag": "",
+      "quiz": [
+{
+          "id": 1,
+          "type": 4,
+          "active": false,
+          "title": "صَوابٌ أَمْ خَطَأٌ",
+          "replayStart": 100,
+          "numberOfTrial": 0,
+          "questionlevel": "",
+          "questionType": "text",
+          "answersType": "text",
+          "startTime": "",
+          "endTime": "",
+          "BloomLevel": 3,
+          "numberOfquestion": 0,
+          "correctCounter": 0,
+          "question": "غَسْلُ الْوَجْهِ يَكُونُ مِنْ مَنْبَتِ الشَّعْرِ إِلَى الْفَمِ.",
+          "trueExpersion": [
+            "إِجَابَتُكُ صَحِيحَةٌ، النِّيَّةُ أَوَّلُ رُكْنٍ مِنْ أَرْكَانِ الْوُضُوءِ."
+          ],
+          "falseExpersion": [
+            "إِجَابَةٌ غَيْرُ مُوَفَّقَةٍ",
+            "شَاهِدْ جُزْءَ الشَّرْحِ مَرَّةً أُخْرَى ثُمَّ جَرِّبْ مِنْ جَدِيدٍ."
+          ],
+          "expressionTrue": "أحسَنت! الإجابةُ صحيحةٌ",
+          "correctAnswer": 2,
+          "typeQuestion": "choose",
+          "add_style": "",
+          "chooses": [{
+              "number": 1,
+              "word": "true"
+            },
+            {
+              "number": 2,
+              "word": "false"
+            }
+          ]
+        }
+       
+      ]
+    }
+  ]
+}]

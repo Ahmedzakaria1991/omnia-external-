@@ -13,7 +13,7 @@ export function loadTimerAnimation() {
   });
   return Timer;
 }
-export function loadtransitionnimation() {
+export function LoadtransitionAnimation() {
   const transition_vid = bodymovin.loadAnimation({
     container: document.getElementById("transition"),
     path: "../../../lib-native/interactive_video/assets/animations/ara/transition_vid.json",
