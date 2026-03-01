@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="../../../assets/css/style.css" />
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
-    <style>
-     
-    </style>
+    <style></style>
   </head>
 
   <body>
@@ -81,6 +79,7 @@
                   </div>
                 </div>
               </div>
+              <p v-if="slide.qtitle" class="qtitle">{{slide.qtitle}}</p>
               <div
                 class="quizChoose"
                 v-for="(quiz, index) in  slide.quizChooses"

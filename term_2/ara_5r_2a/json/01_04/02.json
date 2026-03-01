@@ -1,218 +1,285 @@
 [
-    {
-        "nameId": "",
-        "title":"صوِّبِ الخطأَ في رسمِ الهمزةِ",
-        "playerName": "",
-        "dataContent": 0,
-        "subject": "arabic-5",
-        "colorTemplate": "#B2C78B",
-        "counterCorrect": 0,
-        "LODegree": null,
-        "UserDegree": null,
-        "type": "",
-        "hand": true,
-        "popuptext": "ggggggggggggggggg",
-        "pop": "",
-        "counterFinished": 0,
-        "BloomTargets": [
-            ""
+  {
+    "nameId": "choose-slide",
+    "title": "اختَرِ الإجابةَ الصحيحةَ",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "arabic-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "اختَرِ  الكلِمةِ التي بها هَمْزةٌ مُتطرِّفةٌ على واوٍ.",
+            "correctAnswer": [2, 3, 6],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 3,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "مملوءٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "تنبُّؤٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "بؤبؤٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 4,
+                "toChoose": "نبأٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "سماءٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 6,
+                "toChoose": "تلكُّؤٌ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 7,
+                "toChoose": "وُضوءٌ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
         ],
-        "randomNumber": null,
-        "loTargets": null,
-        "numberOfquestion": null,
-        "items": [
-            {
-                "id": 1,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "<span>اللجُؤ</span> إلى الكذِبِ على الإنترنِت خطأٌ كبيرٌ."
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "اللجوء"
-                                ],
-                                "show": [
-                                    "اللجوء"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "تسعَى الإدارةُ لتحقيقِ مبدأ  <span>تكافُوءِ</span> الفُرَصِ."
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "تكافؤ"
-                                ],
-                                "show": [
-                                    "تكافؤ"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "<span>التبرُّءُ</span> من أداءِ واجِباتِكَ مرفوضٌ. "
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "التبرُّؤ"
-                                ],
-                                "show": [
-                                    "التبرُّؤ"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "type": 1,
-                "contents": [
-                    {
-                        "paragraphes1": [
-                            "علينا <span>التهيُّأ</span>  للشِّتاءِ بالملابِسِ الثقيلةِ. "
-                        ],
-                        "wrongWord": "",
-                        "inputtype": [
-                            {
-                                "length": 0,
-                                "numperofinput": 1,
-                                "comma": "",
-                                "valid": [
-                                    "التهيُّؤ"
-                                ],
-                                "show": [
-                                    "التهيُّؤ"
-                                ]
-                            }
-                        ],
-                        "inputtype2": [
-                            {
-                                "length": 0,
-                                "numperofinput": 0,
-                                "comma": "",
-                                "valid": [
-                                    ""
-                                ],
-                                "show": [
-                                    ""
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "answerUser": [
-                    {
-                        "answer": [
-                            ""
-                        ],
-                        "correct": false,
-                        "help": false,
-                        "done": false
-                    }
-                ]
-            }
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
         ]
-    }
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "لَقَدْ وَصَلَ عَدَدُ مُسْتَخْدِمِي شَبَكَةِ الْإِنْتَرْنِت فِي عَامِ 2025 إِلَى حَوَالَيْ 6 مِلْيَارَاتِ مُسْتَخْدِمٍ، أَيْ ثُلُثَيْ سُكَّانِ الْعَالَمِ تقريبًا. لا شَكَّ أَنَّ شَبَكَةَ الْإِنْتَرْنِت مُفِيدَةٌ جِدًّا؛ فَهِيَ تُسَاعِدُنَا عَلَى الْبَحْثِ عَنِ الْمَعْلُومَاتِ، وَالتَّواصُلِ مَعَ الْأَصْدِقَاءِ."
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "..............  في الفُرصِ يُحقِّقُ  مبدأَ العدالةِ. ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "التكافوءُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التكافأُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التكافؤُ ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "فِي الْحَقِيقَةِ كِلَا الرَّأْيَيْنِ صَحِيحٌ؛ لِأَنَّ شَبَكَةَ الْإِنْتَرْنِت هِيَ أَدَاةٌ تُنَفِّذُ مَا نَطْلُبُهُ مِنْهَا؛ لِذَلِكَ نَحْنُ مَنْ نُقَرِّرُ إِذَا كَانَتْ مُفِيدَةً أَمْ ضَارَّةً. وَالسِّرُّ فِي طَرِيقَةِ اسْتِخْدَامِهَا. إنَّ شَبَكَةَ الْإِنْتَرْنِت  كَأَيِّ وَسِيلَةٍ أُخْرَى، لَهَا أَخْلَاقِيَّاتٌ لَا بُدَّ أَنْ نَلْتَزِمَ بِهَا حَتَّى نَسْتَخْدِمَهَا اسْتِخْدَامًا آمِنًا."
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "..................  في اتِّباعِ إجْراءاتِ الأمانِ يضُرُّ بِك. ",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "التَّباطُؤُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التباطُوءُ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التباطُأُ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "بدأتْ تُفَكِّرُ: «كيفَ أستَطيعُ أن أُعيدَ أوراقَ الشجرِ  زاهِيةً كما كانت؟»، وبعدَ قِراءةٍ وبحْثٍ، عَرَفَتِ الْعِلَاجَ الْمُنَاسِبَ، وَأَثْنَاءَ عَوْدَتِهَا اشْتَرَتِ الْمَادَّة الَّتِي تُعَالِجُ هَذِهِ الْمُشْكِلَةَ، وَوَضَعَتْ مِنْهَا عَلَى الشَّجَرِ بِحِرْصٍ. وَمَعَ مُرُورِ الْأَيَّامِ عَادَتْ أَوْرَاقُ الشَّجَرِ  زَاهِيَةً مِنْ جَدِيدٍ."
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "التخطيطُ أمرٌ  مُهمٌّ قبلَ ................... للعملِ. ",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "التهيُّأ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التهيُّؤ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التهيُّئ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      },
+      {
+        "active": false,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [
+          "على الجانِبِ الآخَرِ هناكَ نوعٌ آخرُ يُلاحِظُ المُشكِلةَ، ولا يفعَلُ شيئًا غيرَ أنَّه يشكو وينتَقِدُ، وإن كانَ هو سبَبَ المُشكِلةِ يضَعُ كُلَّ مجهودِهِ في إيجادِ الأعذارِ لنَفْسِهِ. وهناكَ نوعٌ ثالِثٌ يرى المُشكِلةَ ويتَجاهَلُها تمامًا ولا يفعَلُ أيَّ شيءٍ. النوعُ الأوَّلُ هو النوعُ الإيجابِيُّ الذي يُساعِدُ نفْسَهُ والآخَرينَ. أما النوعُ الثاني، فلا يستَطِيعُ مُساعَدةَ نفْسِهِ ولا الآخَرينَ، وللأسَفِ في كثيرٍ منَ الأحيانِ يبتَعِدُ الآخَرونَ عن مُساعَدَتِهِ؛ لأنَّ أيَّ حلٍّ يُقَدَّمُ له يقولُ: هذا غيرُ مُناسِبٍ."
+        ],
+        "hideIndex": true,
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "القُدرةُ على ................... بالمُشكِلاتِ جُزءٌ منَ الحلِّ.  ",
+            "correctAnswer": [3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "التنبُّأ",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "التنبُّاء",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "التنبُّؤ",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
 ]

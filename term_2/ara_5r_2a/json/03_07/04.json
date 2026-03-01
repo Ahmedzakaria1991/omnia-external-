@@ -26,7 +26,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " مُرادِفُ (مُداواة):",
+            "paragraph": " مُرادِفُ (مُداواة): .....",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -61,7 +61,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": " جمعُ (عَهْد):",
+            "paragraph": " جمعُ (عَهْد): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -70,28 +70,28 @@
               {
                 "numAnswer": 1,
                 "toChoose": "معاهِدُ",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 2,
                 "toChoose": "عُهَدٌ",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 3,
                 "toChoose": " عُهودٌ",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 4,
                 "toChoose": "مُعاهَدات",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               }
@@ -100,7 +100,7 @@
           {
             "id": 3,
             "popup": "",
-            "paragraph": "مُفردُ (أَخْلَاق):",
+            "paragraph": "مُفردُ (أَخْلَاق): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -135,7 +135,7 @@
           {
             "id": 4,
             "popup": "",
-            "paragraph": "جذرُ (الِاجْتِهاد):",
+            "paragraph": "جذرُ (الِاجْتِهاد): .....",
             "correctAnswer": [1],
             "answerSelect": false,
             "counter": 0,
@@ -181,7 +181,7 @@
       {
         "active": false,
         "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "poptitle": " اقْرَأ الأبياتَ ",
 
         "popuptext": [
           " وَلِـــي عَــــهْــدٌ يُــجَــدِّدُهُ نَـــهَـــارِي        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            بِــــأَنْ أَسْعَــى لِتَعْمِيــرِ الدِّيَــــارِ",
@@ -192,7 +192,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " المقصودُ بـ«أَطْيَاب الثِّمَارِ»: ",
+            "paragraph": " المقصودُ بـ«أَطْيَاب الثِّمَارِ»:  .....",
             "correctAnswer": [1],
             "answerSelect": false,
             "counter": 0,
@@ -227,7 +227,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": "هدَفُ الشاعِرِ منَ الأبياتِ: ",
+            "paragraph": "هدَفُ الشاعِرِ منَ الأبياتِ: .....",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -237,7 +237,6 @@
                 "numAnswer": 1,
                 "toChoose": "نيلُ الشُّهرةِ",
 
-                "audio": "../../../assets/audio/celebration.mp3",
                 "right": false,
                 "checked": false
               },
@@ -245,21 +244,20 @@
                 "numAnswer": 2,
                 "toChoose": "نشرُ الخيرِ",
 
-                "audio": "../../../assets/audio/celebration.mp3",
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 3,
                 "toChoose": " جمعُ المالِ",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 4,
                 "toChoose": "     كُلُّ ما سبَق",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               }
@@ -278,8 +276,9 @@
       },
       {
         "active": false,
-        "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "title": "   أَجِبْ",
+        "poptitle": " اقْرَأ الأبياتَ ",
+        "qtitle": "اختَرِ الإجابةَ الصحيحةَ:",
         "popuptext": [
           "فَخَيْرُ الـنَّـاسِ أَنْفَعُهُــــمْ لِبَعْــــــضٍ        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَحُبُّ النَّاسِ فِي الدُّنْيَــا شِعَارِي",
           " أَنَـــــا رَاعٍ وَمَسْــئُـــــولٌ بِـيَـــــــوْمٍ         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            سَــأَجْنِي فِيـــهِ عَــاقِبَةَ اخْتِيَارِي",
@@ -289,7 +288,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "المُرادُ بـ (عاقِبة):",
+            "paragraph": "المُرادُ بـ (عاقِبة): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -324,7 +323,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": "مُضادُّ (أنفَعُهم): ",
+            "paragraph": "مُضادُّ (أنفَعُهم): .....",
             "correctAnswer": [4],
             "answerSelect": false,
             "counter": 0,
@@ -334,7 +333,6 @@
                 "numAnswer": 1,
                 "toChoose": "أسوءُهُمْ ",
 
-                "audio": "../../../assets/audio/celebration.mp3",
                 "right": false,
                 "checked": false
               },
@@ -342,21 +340,20 @@
                 "numAnswer": 2,
                 "toChoose": "أذلُّهُمْ",
 
-                "audio": "../../../assets/audio/celebration.mp3",
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 3,
                 "toChoose": "أضعَفُهُمْ",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 4,
                 "toChoose": "  أضرُّهُمْ",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               }
@@ -366,17 +363,17 @@
         "popupQuestion": [
           {
             "id": 0,
-            "index": "1",
+            "index": "3",
             "qtitle": "أجِبْ: ",
 
-            "paragraph": "خيرُ الناسِ في الدُّنيا هم",
+            "paragraph": "خيرُ الناسِ في الدُّنيا هم ......",
             "popup": [" أنفعهم للناس."],
             "isActive": false
           },
           {
             "id": 0,
-            "index": "2",
-            "paragraph": "(أَجْنِي فِيهِ عَاقِبَةَ اخْتِيَارِي): تعبيرٌ مجازِيٌّ؛ حيثُ",
+            "index": "4",
+            "paragraph": "(أَجْنِي فِيهِ عَاقِبَةَ اخْتِيَارِي): تعبيرٌ مجازِيٌّ؛ حيثُ ......",
             "popup": ["صور الشاعر اختيارات الإنسان بزرع يُجنى."],
             "isActive": false
           }
@@ -385,7 +382,7 @@
       {
         "active": false,
         "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "poptitle": " اقْرَأ الأبياتَ ",
         "popuptext": [
           "ازْرَعُـــوا فِــي السِّــلْــم        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             تَحْصُدُوا السَّبْقَ افْتِخَارَا",
           " وَاحْـفَظُـوا مِـصْـرَ لِتَبْقَى        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           لِلْــعُــلَا وَالـمْجــدِ دارَا"
@@ -394,7 +391,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " مُرادِفُ (تحصُدوا): ",
+            "paragraph": " مُرادِفُ (تحصُدوا): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -430,7 +427,7 @@
         "popupQuestion": [
           {
             "id": 1,
-            "index": "1",
+            "index": "2",
             "qtitle": "أجِبْ: ",
             "paragraph": "ما الجمالُ في قولِ الشاعِرِ (ازرَعوا في السِّلْمِ)؟",
             "popup": ["تعبير مجازي صور التقدم بزرع يحصد."],
@@ -438,15 +435,15 @@
           },
           {
             "id": 2,
-            "index": "2",
+            "index": "3",
             "paragraph": "ماذا طلَبَ الشاعِرُ من أبناءِ مِصرَ في البيتِ الثاني؟",
             "popup": ["أن يحفظوا مصر لتبقى دارًا للمجد."],
             "isActive": false
           },
           {
             "id": 3,
-            "index": "3",
-            "paragraph": " كلِمَتَينِ بينَهما ترادُفٌ: ",
+            "index": "4",
+            "paragraph": " كلِمَتَينِ بينَهما ترادُفٌ: .......",
             "popup": ["العلا – المجد."],
             "isActive": false
           }
@@ -454,8 +451,9 @@
       },
       {
         "active": false,
-        "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "title": "أَجِبْ",
+        "qtitle": " اختَرِ الإجابةَ الصحيحةَ: ",
+        "poptitle": " اقْرَأ الأبياتَ ",
         "popuptext": [
           "بَــنَــيْــنَــــا مَــجْــــــدَنَا صَـــــــرْحَا         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             زَرَعْــنَــا أَرْضَــنَــا قَـــمْــحَــا",
           " سَــنَنْشَـــــطُ كُـــــلُّنَــــا صُبْحَـــا         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           لِـــتَجْنِــــيَ مِـصْـــرُنَــا الْفَرَحَا"
@@ -464,7 +462,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " مُرادِفُ(تجْنِي): ",
+            "paragraph": " مُرادِفُ(تجْنِي): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -500,7 +498,7 @@
         "popupQuestion": [
           {
             "id": 1,
-            "index": "1",
+            "index": "2",
             "qtitle": "أجِبْ: ",
 
             "paragraph": "ما واجِبُنا نحوَ وطَنِنا مِصرَ كما تفهَمُ منَ البيتِ الثاني؟",
@@ -509,8 +507,8 @@
           },
           {
             "id": 2,
-            "index": "2",
-            "paragraph": " «بَنَيْنَا مَجْدَنَا صَرْحًا» تعبير ",
+            "index": "3",
+            "paragraph": " «بَنَيْنَا مَجْدَنَا صَرْحًا» تعبير  .......",
             "popup": ["مجازي، يصور المجد بالبناء."],
             "isActive": false
           }
@@ -519,7 +517,7 @@
       {
         "active": false,
         "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "poptitle": " اقْرَأ الأبياتَ ",
         "popuptext": [
           "الْحُزْنُ أَمْرٌ لَازِمٌ مِثْلُ الْفَـرَحْ            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             مَنْ عَالَجَ الْأَمْرَيْنِ فِي الدُّنْيَا نَجَحْ",
           " لَا تَحْسَبِ الْأَيَّامَ جُهْدًا دَائِمًا           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           فَالْحُزْنُ لَوْ يَأْتِيكَ يَغْلِبُهُ الْمَرَحْ"
@@ -528,7 +526,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "  «يَغْلِبُهُ المرَح»:  ",
+            "paragraph": "  «يَغْلِبُهُ المرَح»:  .....",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -551,7 +549,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " (الحُزن- الفرَح): بينَهما  ",
+            "paragraph": " (الحُزن- الفرَح): بينَهما ..... ",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -581,7 +579,7 @@
         "popupQuestion": [
           {
             "id": 1,
-            "index": "1",
+            "index": "3",
             "qtitle": "أجِبْ: ",
 
             "paragraph": " إِلامَ يدعونا الشاعِرُ في البيتَينِ؟",
@@ -593,7 +591,7 @@
       {
         "active": false,
         "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "poptitle": " اقْرَأ الأبياتَ ",
         "popuptext": [
           "يَــــــــا بِـــــلَادِي أَنْــــتِ حُــبِّـــي               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            إِنْ تُـــنَـــادِيــــنِـــــي أُلَـــــبِّــــي",
           " فِــيــكِ أَجْــنِــي الْــخَــيْــرَ دَوْمًــا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          وَالـــرِّضَــا يَـــغْــمُــرُ قَـــلْـــبِــي"
@@ -602,7 +600,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "   مُرادِفَ (أجْنِي):  ",
+            "paragraph": "   مُرادِفَ (أجْنِي):  .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -639,7 +637,7 @@
       {
         "active": false,
         "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "poptitle": " اقْرَأ الأبياتَ ",
         "popuptext": [
           " عَــــمِّـــرُوا تِـــــلْـــكَ الــــدِّيَـــــارَا               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          عَـــاوِنُــــوا فِـــي الْـــخَــيْـــرِ جَـــــارَا",
           "جَــــدِّدُوا الْـــــمَاضِـــــي بِــعَـــزْمٍ            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             وَانْــــفُــضُــــوا عَـــنْـــهُ الْـــغُبَـــارَا"
@@ -648,7 +646,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "   يدعو الشاعِرُ  إلى:   ",
+            "paragraph": "   يدعو الشاعِرُ  إلى:  ..... ",
             "correctAnswer": [4],
             "answerSelect": false,
             "counter": 0,
@@ -685,7 +683,7 @@
       {
         "active": false,
         "title": " اختَرِ الإجابةَ الصحيحةَ ",
-        "qtitle": " اقْرَأ الأبياتَ ",
+        "poptitle": " اقْرَأ الأبياتَ ",
         "popuptext": [
           "سَأَسْعَــــى لِحُلْمِـــي لِأُصْبِحَ يَوْمًـــا                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         طَبِيبًـــــــا يُدَاوِي جِرَاحَ الْبَشَـــــــرْ",
           "سَأَصْبِـــرُ فِي طَلَــبِ الْعِلْــمِ دَوْمًـــا             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             سَيَجْنِــي حَصَــادَ الْــعُلَا مَـنْ صَـبَـرْ",
@@ -696,7 +694,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "مَعْنى (يُداوِي):    ",
+            "paragraph": "مَعْنى (يُداوِي):    .....",
             "correctAnswer": [4],
             "answerSelect": false,
             "counter": 0,
@@ -731,7 +729,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "  مُضادُّ (بِشْرًا) :  ",
+            "paragraph": "  مُضادُّ (بِشْرًا) : ..... ",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -766,7 +764,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "   مُفردُ (جِراح):    ",
+            "paragraph": "   مُفردُ (جِراح):  .....  ",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -801,7 +799,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "   جذرُ (ينتَصِر):    ",
+            "paragraph": "   جذرُ (ينتَصِر):  .....  ",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -837,7 +835,7 @@
         "popupQuestion": [
           {
             "id": 0,
-            "index": "1",
+            "index": "5",
             "qtitle": "أجِبْ:",
 
             "paragraph": "ما الرِّسالةُ التي يدعونا إليها الشاعِرُ  في الأبياتِ؟",

@@ -28,7 +28,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "مُرادِفُ (يُحَدِّد): ",
+            "paragraph": "مُرادِفُ (يُحَدِّد): .....",
             "correctAnswer": [1],
             "answerSelect": false,
             "counter": 0,
@@ -63,7 +63,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": "مضادُّ (الهُدوء):",
+            "paragraph": "مضادُّ (الهُدوء): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -72,28 +72,28 @@
               {
                 "numAnswer": 1,
                 "toChoose": "الحَرَكة",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 2,
                 "toChoose": "السُّرْعة",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 3,
                 "toChoose": "الضَّوْضاء",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               },
               {
                 "numAnswer": 4,
                 "toChoose": "الغَضَب",
-                "audio": "../../../assets/audio/celebration.mp3",
+
                 "right": false,
                 "checked": false
               }
@@ -102,7 +102,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": "مفردُ (أنظار ): ",
+            "paragraph": "مفردُ (أنظار ): .....",
             "correctAnswer": [4],
             "answerSelect": false,
             "counter": 0,
@@ -137,7 +137,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": " جمعُ (الحَقِيقة): ",
+            "paragraph": " جمعُ (الحَقِيقة): ..... ",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -172,7 +172,7 @@
           {
             "id": 2,
             "popup": "",
-            "paragraph": "جذرُ  (نتعامَل): ",
+            "paragraph": "جذرُ  (نتعامَل): .....",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -218,8 +218,9 @@
 
       {
         "active": false,
-        "title": "اختر الاجابة الصحيحة",
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
         "popuptext": [],
+        "hideIndex": true,
         "quizChooses": [
           {
             "id": 1,
@@ -228,6 +229,7 @@
             "correctAnswer": [1, 3, 6],
             "answerSelect": false,
             "counter": 0,
+
             "type": 2,
             "answers": [
               {
@@ -281,7 +283,7 @@
       },
       {
         "active": false,
-        "title": "اختر الاجابة الصحيحة",
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
         "popuptext": [
           "سأُخبِرُكم اليومَ عن شيءٍ يخُصُّنا جميعًا، لكنَّنا لا نَراه، ولا نستطيعُ لَمْسَهُ أو التحكُّمَ فيه بسهولةٍ. إنَّه يتبَعُنا أينَما ذَهَبْنا، ومع أنَّه مِلكٌ لنا نحن، فإنَّ الآخَرِينَ هم مَن يتَحَدَّثون عنه.  هل عرَفْتُم ما هو؟  إنَّه سِيرتُنا بينَ الناسِ. لكن هل يعنِي هذا أنَّنا لا نستطيعُ التحكُّمَ في سِيرتِنا؟ في الحقيقةِ،  يُمكِنُنا التحكُّمُ بها تمامًا، ولكن بطريقةٍ غيرِ مباشرةٍ. نعم، فأفعالُنا وكلِماتُنا وتصرُّفاتُنا اليوميةُ هي التي ترسُمُ صُورتَنا في قلوبِ الناسِ وعقولِهم. "
         ],
@@ -289,7 +291,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " مُرادِفُ (يخصُّنا):",
+            "paragraph": " مُرادِفُ (يخصُّنا): .....",
             "correctAnswer": [3],
             "answerSelect": false,
             "counter": 0,
@@ -324,7 +326,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": " جمعُ (سيرتنا): ",
+            "paragraph": " جمعُ (سيرتنا): .....",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -367,9 +369,6 @@
           }
         ]
       }
-
-
-      
     ]
   }
 ]

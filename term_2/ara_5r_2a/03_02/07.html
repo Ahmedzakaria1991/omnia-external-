@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -20,8 +20,15 @@
       .none {
         pointer-events: none;
       }
- 
-   
+      html .general .container .qtitle,
+      body .general .container .qtitle {
+        padding: 0 !important;
+      }
+      @media (orientation: landscape) {
+        body .general#Conect .container .icons-data {
+          margin-top: 1%;
+        }
+      }
     </style>
   </head>
 

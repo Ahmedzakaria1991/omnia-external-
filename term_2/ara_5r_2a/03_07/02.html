@@ -86,7 +86,7 @@
                 :class="{'right' : quiz.answerSelect, 'close' : quiz.close, 'type3' : quiz.type == 3, 'type4' : quiz.type == 4  }"
               >
                 <div class="paragraph" v-if="quiz.type == 1 || quiz.type == 2">
-                  <span class="icon-index">{{slide.quizChooses.length >1?index+1:'&nbsp;'}}</span>
+                  <span class="icon-index">{{index+1}}</span>
                   <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div

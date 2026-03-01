@@ -67,18 +67,19 @@
                   <img src="../../../assets/images/popups/pop_8.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p>{{slide.qtitle}}</p>
+                  <p>{{slide.poptitle}}</p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
               </div>
+              <p class="qtitle">{{slide.qtitle}}</p>
               <div
                 class="quizChoose"
                 v-for="(quiz, index) in slide.quizChooses"
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{slide.quizChooses.length >1 ? index+1 : '&nbsp'}}</span>
+                  <span class="icon-index">{{ index+1}}</span>
                   <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div

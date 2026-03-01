@@ -1,42 +1,39 @@
-[{
-    "nameId": "",
-    "title": "صِلْ بحسبِ معْنَى الكلمةِ المُلوَّنةِ",
-    "subject": "arabic-5",
-    "colorTemplate": "#007F80",
-    "matchCounter": 0,
+[
+    {
+        "nameId": "",
+        "subject": "arabic-5",
+        "finshedDrag": false,
+        "colorTemplate": "#3BA5C5",
+        "dragCounter": 0,
+        "counterCorrect": 0,
+        "LODegree": null,
+        "UserDegree": null,
+        "type": "",
+        "BloomTargets": [
+            ""
+        ],
+        "randomNumber": null,
+        "loTargets": null,
+        "numberOfquestion": null,
+        "title": "صنِّفِ الفِكَرَ  الآتِيةَ",
+        "items": [
+            {
+                "title1": "الفكرةُ الرَّئيسةُ",
+                "title2": "الفِكَرُ الفرعيَّةُ",
 
+                "drag": [
+                    {
+                        "number": 1,
+                        "word": " تعزيزُ قِيمِ حُسنِ الضِّيافةِ والتعايُشِ بينَ الثقافاتِ."
+                    },
 
-    "counterCorrect": 0,
-    "LODegree": null,
-    "UserDegree": null,
-    "type": "",
-    "BloomTargets": [""],
-    "randomNumber": null,
-    "loTargets": null,
-    "numberOfquestion": null,
-    "first":"أ",
-    "second":"ب",
+                    {
+                        "number":2,
+                        "word":" تبادُلُ الألعابِ والثقافاتِ بينَ الطُّلَّابِ."
+                    }
 
-    "matches": [
-        {
-            "point": 1,
-            "textRight": "تَمُدُّ مصرُ  يدَها للجميعِ من أجلِ تحقيقِ الاستقرارِ.",
-            "textLeft": "مُساعَدةٌ للآخَرينَ",
-            "answer": false
-        },
-        {
-            "point": 2,
-            "textRight": "تُعرَفُ مصرُ  بأنَّها (الأختُ الكُبرى)",
-            "textLeft": "المكانةُ العظيمةُ لمِصرَ",
-            "answer": false
-        },
-        {
-            "point": 3,
-            "textRight": "تحتضنُ مصرُ جميعَ زوَّارها.",
-            "textLeft": "حُسنُ الضِّيافةِ",
-            "answer": false
-        }
-        
-
-    ]
-}]
+                ]
+            }
+        ]
+    }
+]
