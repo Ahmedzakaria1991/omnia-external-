@@ -1,0 +1,81 @@
+[
+  {
+    "nameId": "choose-slide",
+    "title": "اختر الاجابة الصحيحة",
+    "finshedChoose": false,
+    "hand": true,
+    "subject": "rel-5",
+    "colorTemplate": "#AAD1EA",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "popuptext": "",
+    "popup": "",
+    "passageHand": true,
+    "chooseSlide": [
+      {
+        "active": true,
+        "title": "اختَرِ الإجابةَ الصحيحةَ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "أى مما يلى يعد سلوكا يعبِّرُ عن الإخلاصِ:",
+            "correctAnswer": [2, 3],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 2,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "شخصٌ يتفاخَرُ بعبادتِه أمام الناسِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": "زميلٌ يدعُو اللَّهَ (عَزَّ وجَلَّ) بأن يرزُقَه الإخلاصَ في القَولِ والعمَلِ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "امرأةٌ تنوِي وجْهَ اللَّهِ (تعالَى) قبل الأعمالِ التي تقومُ بها.",
+                "right": false,
+                "checked": false
+              },
+
+              {
+                "numAnswer": 4,
+                "toChoose": "صديقٌ يغضَبُ إذا عمِلَ العملَ ولم يمدَحْه الناسُ.",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 5,
+                "toChoose": "زميلةٌ تتحدَّثُ عن صَدَقَتِها؛ لتشكُرَها زميلاتُها في المدرسةِ.",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "4",
+            "paragraph": "",
+            "popup": [],
+            "isActive": null
+          }
+        ]
+      }
+    ]
+  }
+]

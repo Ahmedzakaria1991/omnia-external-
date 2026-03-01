@@ -1,0 +1,111 @@
+[
+  {
+    "nameId": "DragDropSlide",
+    "subject": "rel-5",
+    "finshedDrag": false,
+    "lengtStart": 0,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "slides": [
+      {
+        "isActive": true,
+        "title": " ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": ["الإخلاصُ هو أن يقصِدَ المُسلِمُ بعملِه  "]
+              },
+              {
+                "text": [" ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": " وجْهَ اللَّهِ",
+                "number": 1,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["الرِّياءُ هو أن يعمَلَ الإنسانُ العمَلَ "]
+              },
+              {
+                "text": ["الناسُ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "ليمدَحَه",
+                "number": 2,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["الشركُ الأكبرُ يُخرِجُ الإنسانَ من "]
+              },
+              {
+                "text": [" ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "الإسلامِ",
+                "number": 3,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["يسعَى المُخلِصُ بعبادتِه إلى"]
+              },
+              {
+                "text": ["اللَّهِ (تعالَى)."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "رِضا",
+                "number": 4,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["المُخلِصُ يخشَى"]
+              },
+              {
+                "text": ["على عملِه دائمًا."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "الرِّياءَ",
+                "number": 5,
+                "check": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

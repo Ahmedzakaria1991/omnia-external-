@@ -1,7 +1,7 @@
 [
   {
     "nameId": "choose-slide",
-    "title": "اختر الاجابة الصحيحة",
+    "title": "أجِبْ",
     "finshedChoose": false,
     "hand": true,
     "subject": "rel-5",
@@ -20,7 +20,9 @@
     "chooseSlide": [
       {
         "active": true,
-        "title": "اختر الاجابة الصحيحة",
+        "qtitle": " اختر الاجابة الصحيحة:",
+
+        "title": " أجِبْ",
         "popuptext": [
           " <span class='quran'>﴿وَأَنَّا مِنَّا الصَّالِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَائِقَ قِدَدًا (11) وَأَنَّا ظَنَنَّا أَن لَّن نُّعْجِزَ اللَّهَ فِي الْأَرْضِ وَلَن نُّعْجِزَهُ هَرَبًا (12) وَأَنَّا لَمَّا سَمِعْنَا الْهُدَىٰ آمَنَّا بِهِ ۖ فَمَن يُؤْمِن بِرَبِّهِ فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا (13) وَأَنَّا مِنَّا الْمُسْلِمُونَ وَمِنَّا الْقَاسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُولَٰئِكَ تَحَرَّوْا رَشَدًا (14) وَأَمَّا الْقَاسِطُونَ فَكَانُوا لِجَهَنَّمَ حَطَبًا (15)﴾</span>"
         ],
@@ -28,7 +30,7 @@
           {
             "id": 1,
             "popup": "",
-            "paragraph": "﴿<span class='quran'>طَرَائِقَ قِدَدًا ﴾ تعنِي </span> ......................",
+            "paragraph": "       <span class='quran'> ﴿طَرَائِقَ قِدَدًا﴾ تعنِي </span> ......................",
             "correctAnswer": [2],
             "answerSelect": false,
             "counter": 0,
@@ -90,7 +92,7 @@
         "popupQuestion": [
           {
             "id": 0,
-            "index": "1",
+            "index": "3",
             "qtitle": "أجِبْ:",
 
             "paragraph": "  كيفَ تُبيِّنُ هذه الآياتُ عدْلَ اللَّهِ بين خلْقِه من الإنسِ والجنِّ؟",
@@ -98,6 +100,179 @@
               "تبين أن الله يجازي كل مخلوق بعمله دون تمييز، فمن أسلم نال الرشاد والجنة، ومن كفر استحق النار."
             ],
             "isActive": false
+          }
+        ]
+      },
+      {
+        "active": false,
+        "qtitle": "           اختر الكلمةَ التي بها  ميمٌ أو نونٌ مُشدَّدةٌ من الآياتِ الكريمةِ الآتيةِ:",
+
+        "title": " أجِبْ",
+        "popuptext": [],
+        "quizChooses": [
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "       <span class='quran'> ﴿إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ﴾  </span>",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'> ﴿إِنَّا  ﴾    </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " <span class='quran'> ﴿أَعْطَيْنَاكَ﴾  </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'> ﴿الْكَوْثَرَ﴾  </span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "popup": "",
+            "paragraph": "       <span class='quran'> ﴿عَنِ النَّبَإِ الْعَظِيمِ﴾  </span>",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'> ﴿عَنِ﴾    </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " <span class='quran'> ﴿ النَّبَإِ﴾  </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'>﴿ الْعَظِيمِ﴾   </span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "popup": "",
+            "paragraph": "       <span class='quran'> ﴿وَجَعَلْنَا النَّهَارَ مَعَاشًا﴾  </span>",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'> ﴿وَجَعَلْنَا﴾    </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " <span class='quran'> ﴿النَّهَارَ﴾  </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'>﴿مَعَاشًا﴾  </span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "       <span class='quran'> ﴿ ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ ﴾  </span>",
+            "correctAnswer": [1],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'> ﴿ ثُمَّ ﴾   </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " <span class='quran'> ﴿  كَلَّا ﴾  </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'> ﴿   سَوْفَ  ﴾ </span>",
+                "right": false,
+                "checked": false
+              }, {
+                "numAnswer": 4,
+                "toChoose": "<span class='quran'> ﴿  تَعْلَمُونَ ﴾ </span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+          ,
+          {
+            "id": 1,
+            "popup": "",
+            "paragraph": "       <span class='quran'> ﴿ وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ ﴾  </span>",
+            "correctAnswer": [2],
+            "answerSelect": false,
+            "counter": 0,
+            "type": 1,
+            "answers": [
+              {
+                "numAnswer": 1,
+                "toChoose": "<span class='quran'> ﴿ وَامْرَأَتُهُ  ﴾  </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 2,
+                "toChoose": " <span class='quran'> ﴿  حَمَّالَةَ  ﴾ </span>",
+                "right": false,
+                "checked": false
+              },
+              {
+                "numAnswer": 3,
+                "toChoose": "<span class='quran'> ﴿   الْحَطَبِ ﴾ </span>",
+                "right": false,
+                "checked": false
+              }
+            ]
+          }
+        ],
+        "popupQuestion": [
+          {
+            "id": 0,
+            "index": "3",
+            "qtitle": "أجِبْ:",
+
+            "paragraph": "  كيفَ تُبيِّنُ هذه الآياتُ عدْلَ اللَّهِ بين خلْقِه من الإنسِ والجنِّ؟",
+            "popup": [
+              "تبين أن الله يجازي كل مخلوق بعمله دون تمييز، فمن أسلم نال الرشاد والجنة، ومن كفر استحق النار."
+            ],
+            "isActive": null
           }
         ]
       }

@@ -1,0 +1,98 @@
+[
+  {
+    "nameId": "DragDropSlide",
+    "subject": "rel-5",
+    "finshedDrag": false,
+    "lengtStart": 0,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "slides": [
+      {
+        "isActive": true,
+        "title": " ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": [
+                  "الصحابيُّ عبدُ اللَّهِ بنُ مسعودٍ (رَضِيَ ٱللَّٰهُ عَنْهُ) من  "
+                ]
+              },
+              {
+                "text": [" إلى الإسلامِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "السابقينَ",
+                "number": 1,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["كانَ ابنُ مسعودٍ شُجاعًا لا "]
+              },
+              {
+                "text": ["أحدًا إلا اللَّهَ (عَزَّ وجَلَّ)."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "يخشَى",
+                "number": 2,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": [
+                  "عُرِفَ ابنُ مسعودٍ (رَضِيَ ٱللَّٰهُ عَنْهُ) بين الصحابةِ بحفْظِه و"
+                ]
+              },
+              {
+                "text": [" للقُرآنِ الكريمِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "تلِاوتِه",
+                "number": 3,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["هاجَرَ عبدُ اللَّهِ بنُ مسعودٍ (رَضِيَ ٱللَّٰهُ عَنْهُ) إلى"]
+              },
+              {
+                "text": ["ودُفِنَ بها."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "المدينةِ المُنوَّرةِ",
+                "number": 4,
+                "check": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

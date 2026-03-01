@@ -1,0 +1,138 @@
+[
+  {
+    "nameId": "",
+    "title": "صوب الخطأ",
+    "playerName": "",
+    "dataContent": 0,
+    "subject": "rel-5",
+    "colorTemplate": "#B2C78B",
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "hand": true,
+    "popuptext": "gggggggg",
+    "pop": "",
+    "counterFinished": 0,
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "items": [
+      {
+        "id": 1,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "انتقَلَ عبدُ اللهِ بنُ مسعودٍ (رَضِيَ ٱللَّٰهُ عَنْهُ) إلى جوارِ ربِّه عامَ  <span>33</span> هـ."
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["32"],
+                "show": ["32"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              "دُفِنَ عبدُ اللهِ بنُ مسعودٍ (رَضِيَ ٱللَّٰهُ عَنْهُ) <Span> في الطريقِ بين مكَّةَ والمدينةِ</span>. "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["في المدينةِ"],
+                "show": ["في المدينةِ"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "contents": [
+          {
+            "paragraphes1": [
+              " <Span> توقَّفَ</span> ابنُ مسعودٍ (رَضِيَ ٱللَّٰهُ عَنْهُ) عن تعليمِ الناسِ للقُرآنِ والحديثِ قبل وفاتِه بسنواتٍ.  "
+            ],
+            "wrongWord": "",
+            "inputtype": [
+              {
+                "length": 0,
+                "numperofinput": 1,
+                "comma": "",
+                "valid": ["لم يتوقف"],
+                "show": ["لم يتوقف"]
+              }
+            ],
+            "inputtype2": [
+              {
+                "length": 0,
+                "numperofinput": 0,
+                "comma": "",
+                "valid": [""],
+                "show": [""]
+              }
+            ]
+          }
+        ],
+        "answerUser": [
+          {
+            "answer": [""],
+            "correct": false,
+            "help": false,
+            "done": false
+          }
+        ]
+      }
+    ]
+  }
+]

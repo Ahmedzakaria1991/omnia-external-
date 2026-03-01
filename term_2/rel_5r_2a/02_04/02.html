@@ -36,7 +36,7 @@
 
     <div
       id="choose-slide"
-      data-urlpage="02_03/03"
+      data-urlpage="02_04/02"
       class="general"
       :class="this.posts[0].subject"
     >
@@ -67,20 +67,17 @@
                   <img src="../../../assets/images/popups/pop_8.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p>اقْرَأ الْآيَاتِ الْكَرِيمَةِ</p>
+                  <p>اقْرَأ الحدِيثَ الشَّريفَ</p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
               </div>
-               <p class="qtitle">
-                {{slide.qtitle}}
-              </p>
+              <p class="qtitle">{{slide.qtitle}}</p>
               <div
                 class="quizChoose"
                 v-for="(quiz, index) in slide.quizChooses"
                 :class="{'closed' : quiz.answerSelect }"
               >
-              
                 <div class="paragraph">
                   <span class="icon-index">{{index+1 + '&nbsp'}}</span>
                   <p class="" v-html="quiz.paragraph"></p>
@@ -94,8 +91,8 @@
                     v-for=" answer in  quiz.answers"
                     :class="{'checked' : answer.checked, 'right' : answer.right}"
                   >
-                    <p @click="chechedClicked(answer, quiz)" v-html="answer.toChoose">
-                      {{}}
+                    <p @click="chechedClicked(answer, quiz)">
+                      {{answer.toChoose}}
                     </p>
                   </div>
                 </div>
@@ -105,9 +102,7 @@
                 v-for="(popUpAll, i) in slide.popupQuestion"
                 v-if="popUpAll.isActive != null"
               >
-              <p class="qtitle">
-                {{popUpAll.qtitle}}
-              </p>
+                <p class="qtitle">{{popUpAll.qtitle}}</p>
                 <div class="paragraph">
                   <span class="icon-index">{{popUpAll.index + '&nbsp'}}</span>
                   <p class="">{{popUpAll.paragraph}}</p>

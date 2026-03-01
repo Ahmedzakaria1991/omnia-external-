@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -14,6 +14,18 @@
 
     <script src="../../../assets/lib/vue.js"></script>
     <script src="../../../assets/lib/insert-activity.js"></script>
+    <style>
+      .omnia {
+        resize: none;
+        width: 76%;
+        min-height: 15vw;
+        font-family: Arabicnum;
+        font-size: 2.5vw;
+        border: 0.3vw solid rgba(136, 136, 136, 0.78);
+        border-radius: 1vw;
+        padding: 1vw;
+      }
+    </style>
   </head>
 
   <body>
@@ -33,9 +45,10 @@
         ></div>
       </div>
     </div>
+
     <div
       id="mokaly"
-      data-urlpage="02_03/01"
+      data-urlpage="article2"
       class="general"
       :class="this.posts[0].subject"
     >
@@ -81,25 +94,38 @@
                   <img src="../../../assets/images/popups/pop_14.png" alt="" />
                 </div>
                 <div class="text-block">
-                  <p>اقْرَأ الْآيَاتِ الْكَرِيمَةِ</p>
+                  <p>Read the passage</p>
                   <div v-if="posts[0].passageHand" class="help"></div>
                 </div>
                 <div class="pop_image"></div>
               </div>
-              <p class="qtitle">{{mySlides.qtitle}}</p>
               <div
                 class="quizChoose"
                 v-for="(quiz, index) in mySlides.questions"
                 :class="{'closed' : quiz.answerSelect }"
               >
                 <div class="paragraph">
-                  <span class="icon-index">{{mySlides.questions.length >1 ? index+1 : '&nbsp'}}</span>
-                  <p class="" v-html="quiz.paragraph"></p>
+                  <span class="icon-index">{{index+1 + '&nbsp'}}</span>
+                  <p class="">{{quiz.paragraph}}</p>
                 </div>
                 <div class="mokaly-popup">
                   <div class="text-block" @click="popupOpen(quiz)">
                     <p>عرض الإجابة</p>
                     <div v-if="index === 0 && posts[0].hand" class="help"></div>
+                  </div>
+                  <div class="text_area">
+                    <div class="omnia">
+                      <textarea
+                        :id="'val_textarea_'+index"
+                        rows="4"
+                        cols="50"
+                        name="comment"
+                        form="usrform"
+                      ></textarea>
+                      <p class="omnia_answer" v-for="txt in quiz.popup">
+                        {{txt}}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -126,7 +152,7 @@
       </div>
     </div>
 
-    <script src="../../../assets/js/mokaly.js"></script>
+    <script src="../../../assets/js/mokaly2.js"></script>
     <script src="../../../assets/js/backgroundmusic.js"></script>
   </body>
 </html>

@@ -1,0 +1,94 @@
+[
+  {
+    "nameId": "DragDropSlide",
+    "subject": "rel-5",
+    "finshedDrag": false,
+    "lengtStart": 0,
+    "colorTemplate": "#5a7cec",
+    "dragCounter": 0,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+    "slides": [
+      {
+        "isActive": true,
+        "title": " ضَعْ مَكَانَ الفراغات الكَلِمَةَ الْمُنَاسِبَةَ",
+        "items": [
+          {
+            "texts": [
+              {
+                "text": [" كانَ قَومُ نُوحٍ (عَلَيْهِ السَّلَامُ) "]
+              },
+              {
+                "text": ["بثيابِهم؛ لئلا يرَوه."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "يستَغْشون",
+                "number": 1,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["يغُوثُ و  "]
+              },
+              {
+                "text": ["أسماءٌ لأصنامٍ عبدَها قَومُ نُوحٍ (عَلَيْهِ السَّلَامُ)."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "يعوقُ",
+                "number": 2,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["بُعِثَ نُوحٌ (عَلَيْهِ السَّلَامُ) إلى قومِه برسالةِ"]
+              },
+              {
+                "text": ["؛ لكي يُحذِّرَهم من عذابِ اللَّهِ."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "التوحيدِ",
+                "number": 3,
+                "check": false
+              }
+            ]
+          },
+          {
+            "texts": [
+              {
+                "text": ["زيَّنَ الشيطانُ لقومِ نوحٍ (عَلَيْهِ السَّلَامُ) عبادةَ"]
+              },
+              {
+                "text": ["  التي صنَعُوها بأيدِيهم."]
+              }
+            ],
+            "drag": [
+              {
+                "word": "التَّماثِيلِ",
+                "number": 4,
+                "check": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

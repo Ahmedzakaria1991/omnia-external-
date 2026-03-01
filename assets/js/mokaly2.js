@@ -181,7 +181,7 @@ new Vue({
     addTextarea: function () {
       var put_text = document.querySelector(".mokaly-popup");
       if (put_text) {
-        put_text.innerHTML += `<div class="text_area"><textarea :id="'val_textarea_'+index" rows="4" cols="50" name="comment" form="usrform" ></textarea></div>`;
+        // put_text.innerHTML += `<div class="text_area"><textarea :id="'val_textarea_'+index" rows="4" cols="50" name="comment" form="usrform" ></textarea></div>`;
 
         setTimeout(() => {
           this.posts[0].subject.includes("eng")
@@ -217,9 +217,12 @@ new Vue({
 
     popupOpen: function (quiz) {
       // console.log(event.target.parentNode.parentNode.querySelector('textarea').value);
-      event.target.parentNode.parentNode
-        .querySelector("textarea")
-        .setAttribute("disabled", true);
+      event.target.parentNode.parentNode.querySelector("omnia_answer");
+      console.log(
+        event.target.parentNode.parentNode.querySelector("textarea").value,
+      );
+      // .classList.add("karim");
+      // .setAttribute("disabled", true);
       event.target.parentNode.parentNode
         .querySelector("textarea")
         .setAttribute("placeholder", "");

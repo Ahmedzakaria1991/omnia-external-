@@ -1,0 +1,36 @@
+[
+  {
+    "nameId": "",
+    "title": "shgusugbu",
+    "hand": true,
+    "finshedChoose": false,
+    "colorTemplate": "#fc8b8999",
+    "subject": "math-4",
+    "passageHand": true,
+    "counterCorrect": 0,
+    "LODegree": null,
+    "UserDegree": null,
+    "type": "",
+    "BloomTargets": [""],
+    "randomNumber": null,
+    "loTargets": null,
+    "numberOfquestion": null,
+
+    "popup": "",
+    "popuptext": "",
+    "quizChooses": [
+      {
+        "title": "answer",
+        "isActive": true,
+        "popuptext": ["Read the passage"],
+        "questions": [
+          {
+            "id": 1,
+            "paragraph": "whats your name",
+            "popup": ["wessam"]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+body .main .zoki .screen-question .screen .question .content {
+  justify-content: flex-start;
+}
+body .main .zoki .popup-content p {
+  font-size: 6vh;
+  direction: rtl;
+}
+body .main .zoki .round {
+  flex-wrap: unset;
+  flex-direction: column;
+}
+
+.flexcenter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+.centerimages {
+  width: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerimages img {
+  width: 100%;
+}
+
+body .main .zoki .screen-question .screen .question .content {
+  align-content: unset;
+  flex-wrap: unset;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.m6t {
+  margin-top: 6vh;
+}
+.m2t {
+  margin-top: 2vh;
+}
+body .main .zoki input {
+  font-size: 6vh;
+}
