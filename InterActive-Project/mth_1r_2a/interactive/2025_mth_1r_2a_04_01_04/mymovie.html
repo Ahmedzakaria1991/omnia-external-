@@ -64,7 +64,7 @@
                 <template v-for="(posts, index) in this.posts">
                   <template v-for="(item, index) in posts.items">
                     <section
-                      class="container-space"
+                      class="container-space question"
                       :class="{'active': item.active}"
                     >
                       <div
@@ -127,7 +127,7 @@
                         </div>
 
                         <div
-                          class="question "
+                          class="question"
                           v-if="item.qType==2"
                           :class="{editFont:posts.updatefont}"
                         >
