@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="../../../lib-native/space/assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../lib-native/space/assets/style/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../lib-native/space/assets/style/font.css"
+    />
+    <link rel="stylesheet" href="./style/lo-style.css" />
+    <script src="../../../lib-native/space/assets/js/lottie-min.js"></script>
+    <script src="../../../lib-native/space/assets/js/vue.js"></script>
+    <script src="../../../js/submit_sender.js"></script>
+    <title>spaceTemplate</title>
+  </head>
+
+  <body>
+    <div class="main" id="spaceTemplate" data-urlpage="data">
+      <div class="loader" v-show="!isSuccess || !isLoading"></div>
+
+      <div class="isSuccess" v-show=" isSuccess && isLoading">
+        <div v-show="!startLo">
+          <div class="start-button" @click="start()"></div>
+        </div>
+        <div class="logo"></div>
+
+        <div class="transition">
+          <div id="transition"></div>
+        </div>
+        <div class="sectionSpace" v-show="startLo">
+          <div
+            class="music"
+            @click="muteMusic()"
+            :class="bgMusic ? 'play' : 'mute'"
+          ></div>
+          <template v-if="this.posts.length !=0 ">
+            <div
+              class="information"
+              @click="showInformation()"
+              :class="{'none' : !infotmationClick}"
+            ></div>
+            <div class="overlay" id="overlay"></div>
+            <div class="popup" id="popup">
+              <div class="popup-content">
+                <span class="close" @click="closePopup()"> </span>
+                <p v-for="p in this.posts[0].informationLO" v-html="p"></p>
+              </div>
+            </div>
+          </template>
+
+          <div class="screen-question">
+            <div class="screen">
+              <template v-if="this.posts.length!=0">
+                <template v-for="(posts, index) in this.posts">
+                  <template v-for="(item, index) in posts.items">
+                    <section
+                      class="container-space"
+                      :class="{'active': item.active}"
+                    >
+                      <div
+                        class="body_table main-table"
+                        :class="{'width-116 height-35': item.qType==1,'width-117 height-36': item.qType==2}"
+                      >
+                        <div class="check-button" @click="checkanswer()">
+                          <div
+                            class="check hand"
+                            v-if="posts.counter == 0"
+                          ></div>
+                        </div>
+                        <div
+                          class="display-answer-button"
+                          @click="showAnswer()"
+                        >
+                          <div
+                            class="display-answer hand"
+                            v-if="posts.counter == 0"
+                          ></div>
+                        </div>
+
+                        <div class="space_man"></div>
+                        <div
+                          class="question"
+                          v-if="item.qType==1"
+                          :class="{editFont:posts.updatefont}"
+                        >
+                          <div
+                            class="content"
+                            v-if="!feedback"
+                            :class="{'rtl': upper || (!upper && isEng) }"
+                          >
+                            <div class="flex">
+                              <p class="title">{{item.title}}</p>
+                              <template
+                                v-for="(input, i) in item.inputs[0].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput"
+                                  index="0"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  maxlength="1"
+                                  @keyup="maxLength($event,i)"
+                                />
+                              </template>
+                            </div>
+
+                            <div class="break"></div>
+                            <div
+                              class="question-image"
+                              v-if="item.questionImage"
+                            >
+                              <img :src="item.questionImage" />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="question "
+                          v-if="item.qType==2"
+                          :class="{editFont:posts.updatefont}"
+                        >
+                          <div
+                            class="content"
+                            v-if="!feedback"
+                            :class="{'rtl': upper || (!upper && isEng) }"
+                          >
+                            <div class="flex">
+                              <p class="title">{{item.title}}</p>
+                              <template
+                                v-for="(input, i) in item.inputs[0].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput"
+                                  index="0"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  maxlength="1"
+                                  @keyup="maxLength($event,i)"
+                                />
+                              </template>
+                            </div>
+
+                            <div class="break"></div>
+                            <div
+                              class="question2-image"
+                              v-if="item.questionImage"
+                            >
+                              <img :src="item.questionImage" />
+                            </div>
+                            <div class="break"></div>
+                            <div class="q2input">
+                              <template
+                                v-for="(input, i) in item.inputs[1].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput"
+                                  index="1"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  maxlength="1"
+                                  @keyup="maxLength($event,i)"
+                                />
+                              </template>
+                              <template
+                                v-for="(input, i) in item.inputs[2].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput"
+                                  index="2"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  maxlength="1"
+                                  @keyup="maxLength($event,i)"
+                                />
+                              </template>
+                            </div>
+
+                            <div class="break"></div>
+                            <div class="q2input2">
+                              <template
+                                v-for="(input, i) in item.inputs[3].numOfInput"
+                              >
+                                <input
+                                  type="text"
+                                  class="input emptyInput"
+                                  index="3"
+                                  :indexInput="i"
+                                  @change="changeValue();"
+                                  @click="clickInput()"
+                                  maxlength="1"
+                                  @keyup="maxLength($event,i)"
+                                />
+                              </template>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="body_table width-90 height-20 marin-3-t sub-table"
+                        v-if="item.qType==1"
+                      >
+                        <div
+                          class="question"
+                          :class="{editFont:posts.updatefont}"
+                        >
+                          <div class="content">
+                            <div class="index" style="color: black !important">
+                              <p style="color: black !important">1</p>
+                              <p style="color: black !important">2</p>
+                              <p style="color: black !important">3</p>
+                              <p style="color: black !important">4</p>
+                            </div>
+                            <div>
+                              <p>{{item.sup[0]}}</p>
+                              <div class="break"></div>
+                              <div class="flex">
+                                <p>{{item.sup[1]}}</p>
+                                <template
+                                  v-for="(input, i) in item.inputs[1].numOfInput"
+                                >
+                                  <input
+                                    type="text"
+                                    class="input emptyInput"
+                                    index="1"
+                                    :indexInput="i"
+                                    @change="changeValue();"
+                                    @click="clickInput()"
+                                    maxlength="1"
+                                    @keyup="maxLength($event,i)"
+                                  />
+                                  <p v-if="i == 0">{{item.sup[2]}}</p>
+                                </template>
+                              </div>
+                              <div class="break"></div>
+
+                              <div class="flex">
+                                <p>{{item.sup[3]}}</p>
+                                <template
+                                  v-for="(input, i) in item.inputs[2].numOfInput"
+                                >
+                                  <input
+                                    type="text"
+                                    class="input emptyInput"
+                                    index="2"
+                                    :indexInput="i"
+                                    @change="changeValue();"
+                                    @click="clickInput()"
+                                    maxlength="1"
+                                    @keyup="maxLength($event,i)"
+                                  />
+                                </template>
+                                <p>{{item.sup[4]}}</p>
+                                <template
+                                  v-for="(input, i) in item.inputs[3].numOfInput"
+                                >
+                                  <input
+                                    type="text"
+                                    class="input emptyInput"
+                                    index="3"
+                                    :indexInput="i"
+                                    @change="changeValue();"
+                                    @click="clickInput()"
+                                    maxlength="1"
+                                    @keyup="maxLength($event,i)"
+                                  />
+                                </template>
+                              </div>
+                              <div class="break"></div>
+
+                              <div class="flex">
+                                <template
+                                  v-for="(input, i) in item.inputs[4].numOfInput"
+                                >
+                                  <input
+                                    type="text"
+                                    class="input emptyInput"
+                                    index="4"
+                                    :indexInput="i"
+                                    @change="changeValue();"
+                                    @click="clickInput()"
+                                    maxlength="1"
+                                    @keyup="maxLength($event,i)"
+                                  />
+                                  <p v-if="i == 0">{{item.sup[2]}}</p>
+                                </template>
+
+                                <p>{{item.sup[5]}}</p>
+                                <template
+                                  v-for="(input, i) in item.inputs[5].numOfInput"
+                                >
+                                  <input
+                                    type="text"
+                                    class="input emptyInput"
+                                    index="5"
+                                    :indexInput="i"
+                                    @change="changeValue();"
+                                    @click="clickInput()"
+                                    maxlength="1"
+                                    @keyup="maxLength($event,i)"
+                                  />
+                                </template>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </template>
+                </template>
+              </template>
+            </div>
+          </div>
+
+          <div v-show="question">
+            <div class="nextContent">
+              <div
+                class="character"
+                :class=" this.finalProgress > 51? 'win' : 'lose'"
+                v-show="counter == loQuestions"
+              >
+                <div class="progress" v-show="counter === loQuestions">
+                  <div id="progressbar"></div>
+                  <div id="stars"></div>
+                  <div class="title" v-show="counter === loQuestions">
+                    <p class="grade">
+                      <span class="text">{{Estimation}}</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <button class="home" @click="home()"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../js/input_.js"></script>
+    <script src="../../../js/finalProgress.js"></script>
+    <script src="../../../lib-native/space/space-input/js/main_.js"></script>
+    <script src="../../../lib-native/space/assets/js/animation.js"></script>
+  </body>
+</html>
