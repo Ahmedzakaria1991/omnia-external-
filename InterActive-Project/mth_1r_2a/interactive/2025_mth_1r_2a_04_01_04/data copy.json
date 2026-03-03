@@ -1,0 +1,432 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "id": "mth_5r_2a_01_03_05",
+    "SubType": "Input",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "bloomLevels": [],
+    "type": "",
+    "counter": -1,
+    "loDegree": null,
+    "UserDegree": 0,
+    "startTime": "",
+    "endTime": "",
+    "numberOfquestion": 6,
+    "updatefont": true,
+    "hint": false,
+    "questionAudio": true,
+    "upper": false,
+    "isEng": false,
+    "arrayanswer": null,
+    "informationLO": [],
+    "items": [
+      {
+        "id": 1,
+        "qType": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [
+          "لا يمكننا طرح 5 من 1",
+          "نُقسِّم 11 إلى",
+          "و",
+          "نطرح",
+          "من 10 فيتبقى ",
+          "يُكوِّنان   "
+        ],
+        "questionImage": "./images/1.png",
+
+        "title": "11 - 5 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["10", "1"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["1", "5"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "qType": 1,
+
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [
+          "لا يمكننا طرح 8 من 6",
+          "نُقسِّم 16 إلى ",
+          "و",
+          "نطرح",
+          "من 10 فيتبقى ",
+          "يُكوِّنان   "
+        ],
+        "questionImage": "./images/2.png",
+
+        "title": "16 - 8 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["10", "6"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["2"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["2", "6"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "qType": 1,
+
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [
+          "لا يمكننا طرح 9 من 4",
+          "نُقسِّم 14 إلى",
+          "و",
+          "نطرح",
+          "من 10 فيتبقى ",
+          "يُكوِّنان   "
+        ],
+        "questionImage": "./images/3.png",
+
+        "title": "14 - 9 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["10", "4"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["1"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["1", "4"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [],
+        "questionImage": "./images/arrow.png",
+
+        "title": "11 - 3 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["10"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["1"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [],
+        "questionImage": "./images/arrow.png",
+
+        "title": "14 - 8 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["10"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["4"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["2"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [],
+        "questionImage": "./images/arrow.png",
+
+        "title": "16 - 7 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["10"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["3"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [],
+        "questionImage": "./images/arrow.png",
+
+        "title": "12 - 6 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["10"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["2"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["4"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [],
+        "questionImage": "./images/arrow.png",
+
+        "title": "11 - 4 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["10"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["1"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "sup": [],
+        "questionImage": "./images/arrow.png",
+
+        "title": "14 - 5 =",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["10"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["4"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          }
+        ]
+      }
+     
+    ]
+  }
+]

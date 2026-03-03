@@ -59,7 +59,7 @@ body
   .sub-table
   .question
   .content {
-  height: 85%;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   padding: 2vh 8vh 9vh 4vh;
@@ -103,7 +103,22 @@ body
   .content
   p {
   font-size: 4.5vh;
+  margin: 2vh 0vh 2vh 0vh;
 }
+body
+  .main
+  .sectionSpace
+  .screen-question
+  .screen
+  .container-space
+  .question
+  .content
+  .index
+  p {
+  font-size: 4.5vh;
+  margin: 4vh 0vh 5vh 2vh;
+}
+
 .question2-image {
   width: 48vh;
   top: 13vh;
@@ -121,9 +136,9 @@ body
 }
 
 .q2input {
-    top: -1vh;
-    position: relative;
-    left: 13vh;
+  top: -1vh;
+  position: relative;
+  left: 13vh;
 }
 
 .q2input2 {
