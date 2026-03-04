@@ -1,0 +1,305 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "id": "mth_5r_2a_01_03_05",
+    "SubType": "Input",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "bloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "startTime": "",
+    "endTime": "",
+    "numberOfquestion": 6,
+    "updatefont": true,
+    "hint": false,
+    "questionAudio": true,
+    "upper": false,
+    "isEng": false,
+    "arrayanswer": null,
+    "informationLO": [""],
+    "items": [
+      {
+        "id": 1,
+        "qType": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": [
+          "لدى هدى 11 قطعة حلوى، أعطت صديقتها 4 قطع منها.",
+          " كم قطعة حلوى تبقَّت مع هدى؟ "
+        ],
+        "parag": ["الجملة الرياضية:", "الإجابة: ", "قطع حلوى."],
+        "equal": ["="],
+        "minus": ["-"],
+        "questionImage": "./images/1.png",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["11"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["4"]
+          },
+
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "qType": 1,
+
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": [
+          "  يوجد ١٦ طائرًا على الشجرة، طار منها ٩ طيور. ",
+          " كم طائرًا على الشجرة الآن؟"
+        ],
+        "parag": ["الجملة الرياضية:", "الإجابة: ", "طيور."],
+        "equal": ["="],
+        "minus": ["-"],
+        "questionImage": "./images/2.png",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["16"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          },
+
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "qType": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": [
+          "  مع حازم ١٧ موزة، استخدم ٨ موزات منها لعمل عصير. ",
+          " كم موزة تَبقَّت مع حازم؟"
+        ],
+        "parag": ["الجملة الرياضية:", "الإجابة: ", "موزات."],
+        "equal": ["="],
+        "minus": ["-"],
+        "questionImage": "./images/3.png",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["17"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          },
+
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["9"]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": [
+          "  هناك ١٣ كلبًا و٦ قطط. أيهما أكثر عددًا،  ",
+          " وبكم يزيد عن الآخر؟"
+        ],
+        "parag": ["الجملة الرياضية:", "الإجابة: ", "تفاحات.", "الأكثر عددًا:"],
+        "equal": ["="],
+        "minus": ["-"],
+        "questionImage": "./images/4.png",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["الكلاب"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["13"]
+          },
+
+          {
+            "numOfInput": 1,
+            "valid": ["6"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "qType": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": [
+          " يوجد في الحديقة ١٥ ولدًا و٧ بنات.  ",
+          " أيهما أكثر عددًا، وما الفرق بين عدديهما؟"
+        ],
+        "parag": ["الجملة الرياضية:", "الإجابة: ", "ت", "الأكثر عددًا:"],
+        "equal": ["="],
+        "minus": ["-"],
+        "questionImage": "./images/5.png",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["الأولاد"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["15"]
+          },
+
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "qType": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "title": [
+          "  مع سارة ١٥ تفاحة، أعطت صديقتها ٧ تفاحات.  ",
+          " كم تفاحة تبقَّت مع سارة؟"
+        ],
+        "parag": ["الجملة الرياضية:", "الإجابة: ", "تفاحات."],
+        "equal": ["="],
+        "minus": ["-"],
+        "questionImage": "./images/6.png",
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["15"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["7"]
+          },
+
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["8"]
+          }
+        ]
+      }
+    ]
+  }
+]
