@@ -56,3 +56,13 @@ body .main .zoki input {
   width: 10vh !important;
   height: 7vh !important;
 }
+
+body .main .zoki .screen-question .screen .question .content2 {
+  width: 100%;
+  height: 85%;
+  display: inline-flex;
+  justify-content: center;
+
+  -ms-flex-line-pack: space-evenly;
+  align-content: space-evenly;
+}

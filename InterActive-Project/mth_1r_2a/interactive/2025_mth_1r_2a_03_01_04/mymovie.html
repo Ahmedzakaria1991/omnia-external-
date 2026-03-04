@@ -86,7 +86,8 @@
                   <div
                     class="content"
                     v-if="!feedback"
-                    :class="{'ltr': upper || (!upper && isEng) }"
+                    :class="{'ltr': upper || (!upper && isEng),
+    'content2': item.id == 5 || item.id == 6 }"
                   >
                     <div class="question-title">
                       <p class="text parag">{{item.title[0]}}</p>
@@ -110,8 +111,14 @@
                               maxlength="1"
                               @keyup="maxLength($event,i)"
                             />
+
+                            <p
+                              v-for="p in item.plus"
+                              v-if="i == 0"
+                              v-html="p"
+                            ></p>
                           </template>
-                          <p v-for="p in item.plus" v-html="p"></p>
+                          <p v-for="p in item.equal" v-html="p"></p>
 
                           <template
                             v-for="(input, i) in item.inputs[1].numOfInput"
@@ -127,8 +134,11 @@
                               @keyup="maxLength($event,i)"
                             />
                           </template>
-                          <p v-for="p in item.equal" v-html="p"></p>
+                        </div>
 
+                        <!-- <div class="break"></div> -->
+                        <div class="flex">
+                          <p class="text parag">{{item.parag[1]}}</p>
                           <template
                             v-for="(input, i) in item.inputs[2].numOfInput"
                           >
@@ -136,25 +146,6 @@
                               type="text"
                               class="input emptyInput"
                               index="2"
-                              :indexInput="i"
-                              @change="changeValue();"
-                              @click="clickInput()"
-                              maxlength="1"
-                              @keyup="maxLength($event,i)"
-                            />
-                          </template>
-                        </div>
-
-                        <!-- <div class="break"></div> -->
-                        <div class="flex">
-                          <p class="text parag">{{item.parag[1]}}</p>
-                          <template
-                            v-for="(input, i) in item.inputs[3].numOfInput"
-                          >
-                            <input
-                              type="text"
-                              class="input emptyInput"
-                              index="3"
                               :indexInput="i"
                               @change="changeValue();"
                               @click="clickInput()"
