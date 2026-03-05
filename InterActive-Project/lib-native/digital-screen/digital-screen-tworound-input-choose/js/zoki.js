@@ -506,6 +506,7 @@ new Vue({
         clearInterval(this.setInterval);
         zokicharecter.playSegments([0, 30], true);
         this.zokiBoring.pause();
+        this.zokiBoring.volume = 0
         this.bgAudio.pause();
       }
     },
@@ -798,7 +799,6 @@ new Vue({
 
     trueAnswerChoose() {
       this.result += 0.5;
-      this.UpdateStudentActivity();
       this.rightAnswer.play();
       zokicharecter.playSegments([65, 80], true);
       this.isAllQuestionsRight();

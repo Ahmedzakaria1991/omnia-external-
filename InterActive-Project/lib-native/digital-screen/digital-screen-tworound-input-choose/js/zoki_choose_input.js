@@ -542,6 +542,7 @@ new Vue({
         clearInterval(this.setInterval);
         zokicharecter.playSegments([0, 30], true);
         this.zokiBoring.pause();
+      this.zokiBoring.volume = 0
         this.bgAudio.pause();
       }
     },

@@ -555,6 +555,7 @@ new Vue({
       } else {
         this.feedback = this.question = true;
         this.bgAudio.pause();
+       this.zokiBoring.volume = 0
       }
     },
 

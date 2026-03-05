@@ -394,7 +394,7 @@ new Vue({
           this.showInformation();
         }, 500);
       } else {
-        console.log("addstyle");
+        // console.log("addstyle");
         document.querySelectorAll(".information").forEach((el) => {
           el.style.display = "none";
         });
@@ -542,6 +542,7 @@ new Vue({
       } else {
         this.feedback = this.question = true;
         this.bgAudio.pause();
+     this.zokiBoring.volume = 0
       }
     },
 
