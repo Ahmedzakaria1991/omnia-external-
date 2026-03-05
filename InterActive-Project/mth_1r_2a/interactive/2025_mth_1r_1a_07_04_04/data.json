@@ -1,0 +1,236 @@
+[
+  {
+    "id": "mth_4r_2a_08_01_04",
+    "SubType": "Input",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "BloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "startTime": "",
+    "endTime": "",
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "numberOfquestion": 3,
+    "hint": true,
+    "questionAudio": true,
+    "question_two_Audio": true,
+    "updatefont": true,
+    "upper": false,
+    "isEng": false,
+    "informationLO": ".اقرأْ، ثمَّ أجِبْ",
+    "items": [
+      {
+        "id": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "parag": "هناك ١٤ قطة، ثم جاءت ٤ قطط أخرى. ",
+        "parag1": "كم العدد الإجمالي للقطط الآن؟ ",
+        "img": "./images/q1.png",
+
+        "title": "4 &nbsp;+ 14 ",
+        "title2": ["الجملة الرياضية: 14 +", "الإجابة:", "قطة."],
+
+        "sign": ["", "=", "+"],
+        "images": "./images/v.png",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 2,
+              "valid": ["4", "4"],
+              "sharedValue": ""
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["8"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["4"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["18"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "parag": "صندوق به ١٣ زجاجة مياه، أضفنا إليها ٦ زجاجات أخرى. ",
+        "parag1": "ما إجمالي عدد الزجاجات في الصندوق؟",
+        "img": "./images/q2.png",
+
+        "title": "6 &nbsp; + 13 ",
+        "title2": ["الجملة الرياضية: ", "الإجابة:", "زجاجة مياه.", "+ 6"],
+
+        "sign": ["", "=", "+"],
+        "images": "./images/v.png",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 2,
+              "valid": ["3", "3"],
+              "sharedValue": ""
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["9"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["13"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "parag": "شجرة عليها ١٥ عصفورًا، انضم إليها ٤ عصافير. ",
+        "parag1": "ما إجمالي عدد العصافير على الشجرة؟",
+        "img": "./images/q3.png",
+
+        "title": "4 &nbsp + 15 ",
+        "title2": ["الجملة الرياضية: 15 +", "الإجابة:", "عصفورًا."],
+
+        "sign": ["", "=", "+"],
+        "images": "./images/v.png",
+        "roundOne": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 2,
+              "valid": ["5", "5"],
+              "sharedValue": ""
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["10"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["9"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            }
+          ]
+        },
+        "roundTwo": {
+          "numberInputs": 0,
+          "counterCorrectQuestion": 0,
+          "inputs": [
+            {
+              "numOfInput": 1,
+              "valid": ["4"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            },
+            {
+              "numOfInput": 1,
+              "valid": ["19"]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
