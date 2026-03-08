@@ -1,0 +1,193 @@
+.digital-screen .penguin .border .question {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.handEng {
+  left: -10vw;
+  top: 1vw;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+body .editFont input {
+  padding-top: 0vh;
+}
+.parag {
+  width: 13vh;
+}
+.digital-screen .popup .popup-content .title {
+  font-size: 5.5vh !important;
+}
+.digital-screen .penguin .border .question p {
+  font-size: 6vh;
+  /* width: 5vh;
+  height: 8vh; */
+  line-height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0vh; */
+  z-index: 9999;
+}
+
+@keyframes input {
+  from {
+    top: 1vw;
+    left: 3vw;
+  }
+  to {
+    top: 2vw;
+    left: 3vw;
+  }
+}
+.digital-screen .penguin .border .help-input::after {
+  width: 7vh;
+  height: 8vh;
+  left: 3vw;
+  top: 1vw;
+}
+.question-content {
+  position: relative;
+  margin-right: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.question-image {
+  width: 11vh;
+  height: 5vh;
+}
+
+.line3 {
+  width: 30vh;
+  height: 7vh;
+  display: flex;
+  position: absolute;
+  top: 19vh;
+  right: 4vh;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.question-image1 {
+  position: absolute;
+  top: 13.5vh;
+  right: 14vh;
+}
+.question-image1 img {
+  width: 10vh;
+  height: 5vh;
+}
+.question-image2 {
+  position: absolute;
+  top: 5vh;
+  right: 23.5vh;
+  z-index: 99;
+  pointer-events: none;
+}
+.question-image2 img {
+  width: 8vh;
+  height: 21vh;
+}
+/* .question-image3 {
+  position: absolute;
+
+  border: 0;
+  width: 11vh;
+  height: 9vh;
+  pointer-events: none;
+} */
+.question-image3 img {
+  width: 11vh;
+  height: 9vh;
+}
+.paragg3 {
+  margin-right: 2vh;
+  padding-left: 2vh;
+}
+
+.paragg2 {
+  margin-right: 2vh;
+}
+
+.digital-screen .penguin .border .question input {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  width: 11vh;
+  height: 9vh;
+  font-size: 6vh !important;
+}
+
+.line4 {
+  display: flex;
+  position: absolute;
+  top: 33vh;
+  right: 5vh;
+}
+.question-content2 {
+  /* width: 100%;
+  height: 3vh; */
+  display: contents;
+  align-items: center;
+  justify-content: center;
+}
+.content2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+.content2_2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 10vh;
+}
+.q2line2 {
+  display: block;
+}
+.parag2 {
+  font-size: 5vh !important;
+  flex-wrap: nowrap;
+}
+.inp {
+  z-index: 99999999;
+  background: transparent !important;
+  position: absolute;
+  top: 0vh !important;
+  right: 15vh !important;
+}
+.digital-screen .penguin .border .question input.wrong .inp {
+  background: transparent !important;
+}
+.digital-screen .penguin .border .question .inp input.displayinput {
+  background: transparent !important;
+}
+.input emptyInput inp false wrong {
+  background: transparent !important;
+}
+input.ab {
+  position: absolute;
+  right: 15.5vh;
+  bottom: -2vh;
+  z-index: 999 !important;
+
+  background-image: unset !important;
+}
+input.hidden {
+  color: transparent !important;
+  user-select: none;
+  pointer-events: none;
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "counterCorrect": 0,
+    "LOcorrectcounter": 0,
+    "loTargets": null,
+    "numberOfquestion": 6,
+    "id": "mth_4r_2a_05_01_03",
+    "subjectId": "",
+    "conceptId": "",
+    "unitId": "",
+    "lessonId": "",
+    "title": "",
+    "keywords": "",
+    "learningObjectives": "",
+    "BloomLevels": [],
+    "type": "",
+    "loDegree": null,
+    "UserDegree": 0,
+    "SubType": "input",
+    "startTime": "",
+    "endTime": "",
+    "updatefont": true,
+    "hint": true,
+    "questionAudio": true,
+    "upper": false,
+    "isEng": false,
+    "informationLO": ":أكمل لإيجاد الناتج",
+    "items": [
+      {
+        "id": 1,
+        "qType": 1,
+        "active": true,
+        "numberOfTrial": 0,
+        "questionlevel": "",
+        "questionType": "text",
+        "answersType": "text",
+        "startTime": "",
+        "endTime": "",
+        "BloomLevel": 3,
+        "numberOfquestion": 0,
+        "correctCounter": 0,
+        "numOfAttempts": 0,
+        "numberInputs": 0,
+        "counterCorrectQuestion": 0,
+        "questionImage1": "./images/1.png",
+        "questionImage2": "./images/3.png",
+        "questionImage3": "./images/4.png",
+
+        "title": ["25 ", "1"],
+        "symbols": ["-", "=", "+"],
+        "inputs": [
+          {
+            "numOfInput": 1,
+            "valid": ["24"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["20"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["4", "4"],
+            "sharedValue": ["", ""]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["5"]
+          },
+          {
+            "numOfInput": 2,
+            "valid": ["4", "20"]
+          },
+          {
+            "numOfInput": 1,
+            "valid": ["24"]
+          }
+        ]
+      }
+    ]
+  }
+]
